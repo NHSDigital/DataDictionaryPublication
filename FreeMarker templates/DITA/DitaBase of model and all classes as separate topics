@@ -1,0 +1,58 @@
+<#macro xmlHeader>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+</#macro><#macro topicHeader>
+<@xmlHeader />
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+</#macro><#macro ditabaseHeader>
+<@xmlHeader />
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+
+</#macro>
+<@ditabaseHeader />
+<dita>
+    <topic id="topic_${dataModel.id}">
+        <title>${dataModel.label}</title>
+        <prolog>
+            <author type="creator">${dataModel.author!"The author is not specified."}</author>
+        </prolog>
+        <body>
+            <p>${dataModel.description!"There is no description for this model"}</p>
+        </body>
+    </topic><#list dataModel.dataClasses as dataClass>
+    <topic id="topic_${dataClass.id}">
+        <title>${dataClass.label}</title>
+        <prolog>
+            <author type="creator">${dataModel.author!"The author is not specified."}</author>
+        </prolog>
+        <body>
+            <p>${dataClass.description!"
+                <ph outputclass='alert alert-danger'>There is no description for this class</ph>"}
+            </p><#list dataClass.childDataElements as dataElement><#if dataElement?is_first>
+            <simpletable outputclass="table table-striped">
+                <sthead outputclass="sthead thead-light">
+                    <stentry>Element Name</stentry>
+                    <stentry>Description</stentry>
+                    <stentry>Data type</stentry>
+                </sthead>
+            </#if>
+            <strow>
+                <stentry outputclass="element">
+                  ${dataElement.label}
+               </stentry>
+               <stentry>
+                  ${dataElement.description!"The description is missing"}     
+               </stentry>
+               <stentry>
+                  ${dataElement.dataType.label!"Missing datatype"} - ${dataElement.dataType.domainType!"??"}
+               </stentry>
+            </strow>
+            <#if dataElement?is_last>
+                 </simpletable>
+            </#if>
+         </#list>
+      </body>
+   </topic>
+</#list>
+</dita>

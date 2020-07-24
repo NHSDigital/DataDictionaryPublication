@@ -1,0 +1,566 @@
+
+graph G {
+        node [
+            shape = "record"
+        ]
+        edge [
+        ]
+        "cff44f8b-dba8-46d3-bb43-53fcf52951cc" [
+                label = "{dIDSPersonalAndDemographicsType|
+                + NHSNumberStatus : cV.GBEnNHS.CodedValueType1 [0..1
+]\l
+                + PersonBirthDate : sT.GBEnNHS.StringType1 [0..1
+]\l
+                + PersonGenderCode : cV.GBEnNHS.CodedValueType1 [0..1
+]\l
+                + EthnicCategory : cV.GBEnNHS.CodedValueType8 [0..1
+]\l
+                + NHSNumber : iI.GBEnNHS.IdentifierType5 [0..1
+]\l
+                + GPCodeRegistration : iI.GBEnNHS.IdentifierType4 [0..1
+]\l
+                + Address : aD.GBEnNHS.AddressType1 [0..1
+]\l
+                }"
+        ]
+
+        "a2d5d6ce-d0ec-48b6-b823-1c96b7c1dd19" [
+                label = "{tS|
+                + updateMode : csUpdateMode [0..1
+]\l
+                + value : ts [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                }"
+        ]
+
+        "bfdb4cf3-4f0c-4435-a7fc-dc545aede158" [
+                label = "{cD|
+                + group : group [0..*
+]\l
+                + codeSystemVersion : st [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + code : cs [0..1
+]\l
+                + codeSystemName : st [0..1
+]\l
+                + displayName : st [0..1
+]\l
+                + qualifier : cR [0..*
+]\l
+                + translation : cD [0..*
+]\l
+                + originalText : eD [0..1
+]\l
+                + codeSystem : uid [0..1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                }"
+        ]
+
+        "b133b87a-6e66-46e0-b2ee-2eb39a04524c" [
+                label = "{aNY|
+                + updateMode : csUpdateMode [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                }"
+        ]
+
+        "3774040a-2b00-43ae-aa05-b3e6bee2e720" [
+                label = "{cV.GBEnNHS.CodedValueType8|
+                + code : code [1
+]\l
+                }"
+        ]
+
+        "6a0fd3ed-8ef7-47cf-a92e-3152a73376ee" [
+                label = "{cR|
+                + inverted : bl [0..1
+]\l
+                + originalText : eD [0..1
+]\l
+                + value : cD [0..1
+]\l
+                + name : cV [0..1
+]\l
+                }"
+        ]
+
+        "086e539e-8a82-4384-96fc-8212a75bdada" [
+                label = "{thumbnail|
+                + reference : tEL [0..1
+]\l
+                + thumbnail : thumbnail [0
+]\l
+                }"
+        ]
+
+        "6f0ec180-1609-46df-b71c-e4a5c62ac10e" [
+                label = "{dIDSDIDSRecordType|
+                + Referrals : dIDSReferralsType [1
+]\l
+                + ImagingActivity : dIDSImagingActivityType [1..*
+]\l
+                + PersonalAndDemographics : dIDSPersonalAndDemographicsType [1
+]\l
+                }"
+        ]
+
+        "61567a79-ecf2-4704-9135-d0e7411c613e" [
+                label = "{uRL|
+                + updateMode : csUpdateMode [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + value : url [0..1
+]\l
+                }"
+        ]
+
+        "726b9d7d-fc98-4782-b29a-91de3aa119c2" [
+                label = "{dIDSImagingActivityType|
+                + DiagnosticTestDate : sT.GBEnNHS.StringType1 [1
+]\l
+                + ImagingCodeNICIP : cV.GBEnNHS.CodedValueType2 [0..1
+]\l
+                + ImagingCodeSNOMEDCT : cV.GBEnNHS.CodedValueType3 [0..1
+]\l
+                + ServiceReportIssueDate : sT.GBEnNHS.StringType1 [0..1
+]\l
+                + ImagingSiteCode : iI.GBEnNHS.IdentifierType4 [1
+]\l
+                + RadiologicalAccessionNumber : iI.GBEnNHS.IdentifierType6 [1
+]\l
+                }"
+        ]
+
+        "fa8a804e-4524-494b-9f87-80beb43d07ea" [
+                label = "{iI.GBEnNHS.IdentifierType4|
+                + extension : extension [1
+]\l
+                }"
+        ]
+
+        "c04a7a78-ee25-42be-ac6d-dbd9bb5ef750" [
+                label = "{aD.GBEnNHS.AddressType1|
+                + updateMode : csUpdateMode [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + postalCode : postalType [1
+]\l
+                }"
+        ]
+
+        "3e085fb1-ac2b-4e71-bc62-56d613f0f802" [
+                label = "{cV.GBEnNHS.CodedValueType2|
+                + code : code [1
+]\l
+                }"
+        ]
+
+        "229f226c-ee0a-45aa-ba61-a916937e35c2" [
+                label = "{iI.GBEnNHS.IdentifierType7|
+                + extension : extension [1
+]\l
+                }"
+        ]
+
+        "3d1c7c1f-0eea-4504-a3f2-6813fef631cc" [
+                label = "{iVXBTS|
+                + updateMode : csUpdateMode [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + value : ts [0..1
+]\l
+                + inclusive : bl [0..1
+]\l
+                }"
+        ]
+
+        "9e567f93-0075-4524-b9b3-3b46a28893ce" [
+                label = "{cV.GBEnNHS.CodedValueType1|
+                + code : cs [1
+]\l
+                }"
+        ]
+
+        "cf0f4a82-8e81-4bf7-a015-b487dd0f1c96" [
+                label = "{cV|
+                + code : cs [0..1
+]\l
+                + originalText : eD [0..1
+]\l
+                + codeSystemName : st [0..1
+]\l
+                + displayName : st [0..1
+]\l
+                + codeSystemVersion : st [0..1
+]\l
+                + translation : cD [0
+]\l
+                + codeSystem : uid [0..1
+]\l
+                }"
+        ]
+
+        "c4b6754a-040f-45e0-b39a-23bf2331608c" [
+                label = "{eD|
+                + integrityCheck : bin [0..1
+]\l
+                + integrityCheckAlgorithm : csIntegrityCheckAlgorithm [0..1
+]\l
+                + thumbnail : thumbnail [0..1
+]\l
+                + language : cs [0..1
+]\l
+                + reference : tEL [0..1
+]\l
+                + mediaType : cs [0..1
+]\l
+                + representation : csBinaryDataEncoding [0..1
+]\l
+                + compression : csCompressionAlgorithm [0..1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                }"
+        ]
+
+        "72d38972-356c-409b-90f6-87b37303087e" [
+                label = "{cE|
+                + codeSystemVersion : st [0..1
+]\l
+                + codeSystem : uid [0..1
+]\l
+                + translation : cD [0..*
+]\l
+                + qualifier : cR [0
+]\l
+                + code : cs [0..1
+]\l
+                + displayName : st [0..1
+]\l
+                + originalText : eD [0..1
+]\l
+                + codeSystemName : st [0..1
+]\l
+                }"
+        ]
+
+        "407de7d2-ef81-4b0a-b88e-9d76cfb2eb0a" [
+                label = "{tEL|
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + use : setCsTelecommunicationAddressUse [0..1
+]\l
+                + value : url [0..1
+]\l
+                + useablePeriod : iVLTS [0..*
+]\l
+                + id : iI [0..1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                }"
+        ]
+
+        "488e8efd-8f15-4c82-9a70-7a3e5c2689e7" [
+                label = "{bIN|
+                + updateMode : csUpdateMode [0..1
+]\l
+                + representation : csBinaryDataEncoding [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                }"
+        ]
+
+        "0cd63752-42a8-4ad0-8ff2-40b8055454d2" [
+                label = "{DIDS|
+                + DIDSRecord : dIDSDIDSRecordType [1..*
+]\l
+                }"
+        ]
+
+        "45bb5b47-e871-4731-8e6f-5314632d1fb3" [
+                label = "{iI|
+                + root : uid [0..1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + extension : st [0..1
+]\l
+                + displayable : bl [0..1
+]\l
+                + assigningAuthorityName : st [0..1
+]\l
+                }"
+        ]
+
+        "0a31c783-e3e6-4d11-bcb6-7d6391482bde" [
+                label = "{iI.GBEnNHS.IdentifierType5|
+                + extension : extension [1
+]\l
+                }"
+        ]
+
+        "57b221bc-1a49-485f-a4ca-e4d765aafd9c" [
+                label = "{pQR|
+                + value : real [0..1
+]\l
+                }"
+        ]
+
+        "28ff5da1-32b2-412e-a7f8-b03fae1897e4" [
+                label = "{iVLTS|
+                + high : iVXBTS [1
+]\l
+                + center : tS [1
+]\l
+                + width : pQ [1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                + low : iVXBTS [1
+]\l
+                + operator : csSetOperator [0..1
+]\l
+                + value : ts [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                }"
+        ]
+
+        "27f900c8-faf1-486c-b24e-bba2b80e43ed" [
+                label = "{group|
+                + qualifier : cR [1..*
+]\l
+                }"
+        ]
+
+        "203b3fe8-df33-435b-a59d-63d4996ee562" [
+                label = "{dIDSReferralsType|
+                + PatientSourceSetting : cV.GBEnNHS.CodedValueType1 [1
+]\l
+                + DiagnosticTestReqRecDate : sT.GBEnNHS.StringType1 [1
+]\l
+                + ReferringOrgCode : iI.GBEnNHS.IdentifierType4 [1
+]\l
+                + DiagnosticTestReqDate : sT.GBEnNHS.StringType1 [1
+]\l
+                + ReferrerCode : iI.GBEnNHS.IdentifierType7 [1
+]\l
+                }"
+        ]
+
+        "a47b0ded-562e-4990-a7e1-8dd6cad5c493" [
+                label = "{qTY|
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                }"
+        ]
+
+        "3b90b3fa-3de8-4d00-a383-21be12af67e3" [
+                label = "{pQ|
+                + value : real [0..1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                + unit : cs [0..1
+]\l
+                + translation : pQR [0..*
+]\l
+                }"
+        ]
+
+        "1db203a2-4215-4f3f-9340-72dac25171f9" [
+                label = "{sXCMTS|
+                + operator : csSetOperator [0..1
+]\l
+                + updateMode : csUpdateMode [0..1
+]\l
+                + value : ts [0..1
+]\l
+                + nullFlavor : csNullFlavor [0..1
+]\l
+                }"
+        ]
+
+        "b0bb9ec2-722e-47cd-920e-97603673186a" [
+                label = "{cV.GBEnNHS.CodedValueType3|
+                + code : code [1
+]\l
+                }"
+        ]
+
+        "bc96ce26-57e1-4cfa-9483-09cc5d56abe0" [
+                label = "{iI.GBEnNHS.IdentifierType6|
+                + extension : extension [1
+]\l
+                }"
+        ]
+
+        "cff44f8b-dba8-46d3-bb43-53fcf52951cc" -- "72d38972-356c-409b-90f6-87b37303087e" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "cff44f8b-dba8-46d3-bb43-53fcf52951cc" -- "c04a7a78-ee25-42be-ac6d-dbd9bb5ef750" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "cff44f8b-dba8-46d3-bb43-53fcf52951cc" -- "0a31c783-e3e6-4d11-bcb6-7d6391482bde" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "cff44f8b-dba8-46d3-bb43-53fcf52951cc" -- "3774040a-2b00-43ae-aa05-b3e6bee2e720" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "bfdb4cf3-4f0c-4435-a7fc-dc545aede158" -- "27f900c8-faf1-486c-b24e-bba2b80e43ed" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "6f0ec180-1609-46df-b71c-e4a5c62ac10e" -- "726b9d7d-fc98-4782-b29a-91de3aa119c2" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "6f0ec180-1609-46df-b71c-e4a5c62ac10e" -- "203b3fe8-df33-435b-a59d-63d4996ee562" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "6f0ec180-1609-46df-b71c-e4a5c62ac10e" -- "cff44f8b-dba8-46d3-bb43-53fcf52951cc" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "6f0ec180-1609-46df-b71c-e4a5c62ac10e" -- "9e567f93-0075-4524-b9b3-3b46a28893ce" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "726b9d7d-fc98-4782-b29a-91de3aa119c2" -- "3e085fb1-ac2b-4e71-bc62-56d613f0f802" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "726b9d7d-fc98-4782-b29a-91de3aa119c2" -- "b0bb9ec2-722e-47cd-920e-97603673186a" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "726b9d7d-fc98-4782-b29a-91de3aa119c2" -- "bc96ce26-57e1-4cfa-9483-09cc5d56abe0" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "c4b6754a-040f-45e0-b39a-23bf2331608c" -- "488e8efd-8f15-4c82-9a70-7a3e5c2689e7" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "407de7d2-ef81-4b0a-b88e-9d76cfb2eb0a" -- "61567a79-ecf2-4704-9135-d0e7411c613e" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "407de7d2-ef81-4b0a-b88e-9d76cfb2eb0a" -- "28ff5da1-32b2-412e-a7f8-b03fae1897e4" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "0cd63752-42a8-4ad0-8ff2-40b8055454d2" -- "6f0ec180-1609-46df-b71c-e4a5c62ac10e" [
+                arrowhead = "none"
+                headlabel = "1
+"
+                taillabel = "
+"
+        ]
+        "28ff5da1-32b2-412e-a7f8-b03fae1897e4" -- "3b90b3fa-3de8-4d00-a383-21be12af67e3" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "28ff5da1-32b2-412e-a7f8-b03fae1897e4" -- "1db203a2-4215-4f3f-9340-72dac25171f9" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "28ff5da1-32b2-412e-a7f8-b03fae1897e4" -- "3d1c7c1f-0eea-4504-a3f2-6813fef631cc" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "203b3fe8-df33-435b-a59d-63d4996ee562" -- "229f226c-ee0a-45aa-ba61-a916937e35c2" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+        "3b90b3fa-3de8-4d00-a383-21be12af67e3" -- "57b221bc-1a49-485f-a4ca-e4d765aafd9c" [
+                arrowhead = "none"
+                headlabel = "
+"
+                taillabel = "
+"
+        ]
+}

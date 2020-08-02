@@ -1,3 +1,174 @@
+<#function IsReserved key>
+<#-- Identify whether a key is a VB.net reserved word -->
+<#if key == "addhandler"><#assign Reserved = true>	
+<#elseif key == "addressof"><#assign Reserved = true>	
+<#elseif key == "alias"><#assign Reserved = true>	
+<#elseif key == "and"><#assign Reserved = true>	
+<#elseif key == "andalso"><#assign Reserved = true>	
+<#elseif key == "as"><#assign Reserved = true>	
+<#elseif key == "boolean"><#assign Reserved = true>	
+<#elseif key == "byref"><#assign Reserved = true>	
+<#elseif key == "byte"><#assign Reserved = true>	
+<#elseif key == "byval"><#assign Reserved = true>	
+<#elseif key == "call"><#assign Reserved = true>	
+<#elseif key == "case"><#assign Reserved = true>	
+<#elseif key == "catch"><#assign Reserved = true>	
+<#elseif key == "cbool"><#assign Reserved = true>	
+<#elseif key == "cbyte"><#assign Reserved = true>	
+<#elseif key == "cchar"><#assign Reserved = true>	
+<#elseif key == "cdate"><#assign Reserved = true>	
+<#elseif key == "cdbl"><#assign Reserved = true>	
+<#elseif key == "cdec"><#assign Reserved = true>	
+<#elseif key == "char"><#assign Reserved = true>	
+<#elseif key == "cint"><#assign Reserved = true>	
+<#elseif key == "class"><#assign Reserved = true>	
+<#elseif key == "class"><#assign Reserved = true>	
+<#elseif key == "clng"><#assign Reserved = true>	
+<#elseif key == "cobj"><#assign Reserved = true>	
+<#elseif key == "const"><#assign Reserved = true>	
+<#elseif key == "continue"><#assign Reserved = true>	
+<#elseif key == "csbyte"><#assign Reserved = true>	
+<#elseif key == "cshort"><#assign Reserved = true>	
+<#elseif key == "csng"><#assign Reserved = true>	
+<#elseif key == "cstr"><#assign Reserved = true>	
+<#elseif key == "ctype"><#assign Reserved = true>	
+<#elseif key == "cuint"><#assign Reserved = true>	
+<#elseif key == "culng"><#assign Reserved = true>	
+<#elseif key == "cushort"><#assign Reserved = true>	
+<#elseif key == "date"><#assign Reserved = true>	
+<#elseif key == "decimal"><#assign Reserved = true>	
+<#elseif key == "declare"><#assign Reserved = true>	
+<#elseif key == "default"><#assign Reserved = true>	
+<#elseif key == "delegate"><#assign Reserved = true>	
+<#elseif key == "dim"><#assign Reserved = true>	
+<#elseif key == "directcast"><#assign Reserved = true>	
+<#elseif key == "do"><#assign Reserved = true>	
+<#elseif key == "double"><#assign Reserved = true>	
+<#elseif key == "each"><#assign Reserved = true>	
+<#elseif key == "else"><#assign Reserved = true>	
+<#elseif key == "elseif"><#assign Reserved = true>	
+<#elseif key == "end"><#assign Reserved = true>	
+<#elseif key == "end"><#assign Reserved = true>	
+<#elseif key == "endif"><#assign Reserved = true>	
+<#elseif key == "enum"><#assign Reserved = true>	
+<#elseif key == "erase"><#assign Reserved = true>	
+<#elseif key == "error"><#assign Reserved = true>	
+<#elseif key == "event"><#assign Reserved = true>	
+<#elseif key == "exit"><#assign Reserved = true>	
+<#elseif key == "finally"><#assign Reserved = true>	
+<#elseif key == "for"><#assign Reserved = true>	
+<#elseif key == "friend"><#assign Reserved = true>	
+<#elseif key == "function"><#assign Reserved = true>	
+<#elseif key == "get"><#assign Reserved = true>	
+<#elseif key == "gettype"><#assign Reserved = true>	
+<#elseif key == "getxmlnamespace"><#assign Reserved = true>	
+<#elseif key == "global"><#assign Reserved = true>	
+<#elseif key == "gosub"><#assign Reserved = true>	
+<#elseif key == "goto"><#assign Reserved = true>	
+<#elseif key == "handles"><#assign Reserved = true>	
+<#elseif key == "if"><#assign Reserved = true>	
+<#elseif key == "implements"><#assign Reserved = true>	
+<#elseif key == "imports"><#assign Reserved = true>	
+<#elseif key == "in"><#assign Reserved = true>	
+<#elseif key == "inherits"><#assign Reserved = true>	
+<#elseif key == "integer"><#assign Reserved = true>	
+<#elseif key == "interface"><#assign Reserved = true>	
+<#elseif key == "is"><#assign Reserved = true>	
+<#elseif key == "isnot"><#assign Reserved = true>	
+<#elseif key == "let"><#assign Reserved = true>	
+<#elseif key == "lib"><#assign Reserved = true>	
+<#elseif key == "like"><#assign Reserved = true>	
+<#elseif key == "long"><#assign Reserved = true>	
+<#elseif key == "loop"><#assign Reserved = true>	
+<#elseif key == "me"><#assign Reserved = true>	
+<#elseif key == "mod"><#assign Reserved = true>	
+<#elseif key == "module"><#assign Reserved = true>	
+<#elseif key == "mustinherit"><#assign Reserved = true>	
+<#elseif key == "mustoverride"><#assign Reserved = true>	
+<#elseif key == "mybase"><#assign Reserved = true>	
+<#elseif key == "myclass"><#assign Reserved = true>	
+<#elseif key == "nameof"><#assign Reserved = true>	
+<#elseif key == "namespace"><#assign Reserved = true>	
+<#elseif key == "narrowing"><#assign Reserved = true>	
+<#elseif key == "new"><#assign Reserved = true>	
+<#elseif key == "next"><#assign Reserved = true>	
+<#elseif key == "not"><#assign Reserved = true>	
+<#elseif key == "nothing"><#assign Reserved = true>	
+<#elseif key == "notinheritable"><#assign Reserved = true>	
+<#elseif key == "notoverridable"><#assign Reserved = true>	
+<#elseif key == "object"><#assign Reserved = true>	
+<#elseif key == "of"><#assign Reserved = true>	
+<#elseif key == "on"><#assign Reserved = true>	
+<#elseif key == "operator"><#assign Reserved = true>	
+<#elseif key == "option"><#assign Reserved = true>	
+<#elseif key == "optional"><#assign Reserved = true>	
+<#elseif key == "or"><#assign Reserved = true>	
+<#elseif key == "orelse"><#assign Reserved = true>	
+<#elseif key == "overloads"><#assign Reserved = true>	
+<#elseif key == "overridable"><#assign Reserved = true>	
+<#elseif key == "overrides"><#assign Reserved = true>	
+<#elseif key == "paramarray"><#assign Reserved = true>	
+<#elseif key == "partial"><#assign Reserved = true>	
+<#elseif key == "private"><#assign Reserved = true>	
+<#elseif key == "property"><#assign Reserved = true>	
+<#elseif key == "protected"><#assign Reserved = true>	
+<#elseif key == "public"><#assign Reserved = true>	
+<#elseif key == "raiseevent"><#assign Reserved = true>	
+<#elseif key == "readonly"><#assign Reserved = true>	
+<#elseif key == "redim"><#assign Reserved = true>	
+<#elseif key == "rem"><#assign Reserved = true>	
+<#elseif key == "removehandler"><#assign Reserved = true>	
+<#elseif key == "resume"><#assign Reserved = true>	
+<#elseif key == "return"><#assign Reserved = true>	
+<#elseif key == "sbyte"><#assign Reserved = true>	
+<#elseif key == "select"><#assign Reserved = true>	
+<#elseif key == "set"><#assign Reserved = true>	
+<#elseif key == "shadows"><#assign Reserved = true>	
+<#elseif key == "shared"><#assign Reserved = true>	
+<#elseif key == "short"><#assign Reserved = true>	
+<#elseif key == "single"><#assign Reserved = true>	
+<#elseif key == "static"><#assign Reserved = true>	
+<#elseif key == "step"><#assign Reserved = true>	
+<#elseif key == "stop"><#assign Reserved = true>	
+<#elseif key == "string"><#assign Reserved = true>	
+<#elseif key == "structure"><#assign Reserved = true>	
+<#elseif key == "sub"><#assign Reserved = true>	
+<#elseif key == "synclock"><#assign Reserved = true>	
+<#elseif key == "then"><#assign Reserved = true>	
+<#elseif key == "throw"><#assign Reserved = true>	
+<#elseif key == "to"><#assign Reserved = true>	
+<#elseif key == "try"><#assign Reserved = true>	
+<#elseif key == "trycast"><#assign Reserved = true>	
+<#elseif key == "typeof"><#assign Reserved = true>	
+<#elseif key == "uinteger"><#assign Reserved = true>	
+<#elseif key == "ulong"><#assign Reserved = true>	
+<#elseif key == "ushort"><#assign Reserved = true>	
+<#elseif key == "using"><#assign Reserved = true>	
+<#elseif key == "variant"><#assign Reserved = true>	
+<#elseif key == "wend"><#assign Reserved = true>	
+<#elseif key == "when"><#assign Reserved = true>	
+<#elseif key == "while"><#assign Reserved = true>	
+<#elseif key == "widening"><#assign Reserved = true>	
+<#elseif key == "with"><#assign Reserved = true>	
+<#elseif key == "withevents"><#assign Reserved = true>	
+<#elseif key == "writeonly"><#assign Reserved = true>	
+<#elseif key == "xor"><#assign Reserved = true>	
+<#elseif key == "false"><#assign Reserved = true>	
+<#elseif key == "true"><#assign Reserved = true>	
+<#else><#assign Reserved=false>
+</#if>
+<#return Reserved>
+</#function>
+<#-- Wrap any VB.net reserved words in square brackets-->
+<#macro EscapedKey Key><#if IsReserved(Key)>[${Key}]<#else>${Key}</#if></#macro>
+<#macro EscapedWarning Key>
+<#if IsReserved(Key)>
+' ############## WARNING ##############
+' The model uses the Visual Basic keyword ${Key} - this has been escaped to [${Key}] - Consider refactoring
+' ############## WARNING ##############
+<#else>
+</#if>
+</#macro>
  ' Handle Mauro base types through an import alias
 Imports uuid = System.Guid
 Imports mandatoryString = System.String
@@ -16,20 +187,18 @@ namespace ${dataModel.label}
         ''' <summary>
         ''' ${dataClass.description!"##TODO Add description comment"}
         ''' </summary>
-        Public class ${dataClass.label} 
-        
-
+        Public class <@EscapedKey dataClass.label />
             <#list dataClass.childDataElements as dataElement>
                 ''' <summary>
                 ''' ${dataElement.description!"### TODO: Add a description"} 
                 ''' </summary>
                 ''' <returns>${dataElement.dataType.label!"Object"}</returns>
             <JsonPropertyName("${dataElement.label}")>
-            Public property ${dataElement.label} as ${dataElement.dataType.label!"Object"}      
-
+            Public property <@EscapedKey dataElement.label/> as ${dataElement.dataType.label!"Object"}      
+            <@EscapedWarning dataElement.label />
             <#if dataElement?is_last>
                  End Class
                  </#if>
          </#list>
-      </#list>
-end namespace
+    </#list>
+End Namespace

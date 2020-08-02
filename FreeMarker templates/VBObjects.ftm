@@ -1,0 +1,35 @@
+ ' Handle Mauro base types through an import alias
+Imports uuid = System.Guid
+Imports mandatoryString = System.String
+Imports multiplicity = System.Int32
+
+' JSON 
+Imports System.Text.Json
+Imports System.Text.Json.Serialization
+
+    ''' <summary>
+    ''' ${dataModel.description!"### TODO: Add description"}
+    ''' </summary>
+namespace ${dataModel.label}
+
+ <#list dataModel.dataClasses as dataClass>
+        ''' <summary>
+        ''' ${dataClass.description!"##TODO Add description comment"}
+        ''' </summary>
+        Public class ${dataClass.label} 
+        
+
+            <#list dataClass.childDataElements as dataElement>
+                ''' <summary>
+                ''' ${dataElement.description!"### TODO: Add a description"} 
+                ''' </summary>
+                ''' <returns>${dataElement.dataType.label!"Object"}</returns>
+            <JsonPropertyName("${dataElement.label}")>
+            Public property ${dataElement.label} as ${dataElement.dataType.label!"Object"}      
+
+            <#if dataElement?is_last>
+                 End Class
+                 </#if>
+         </#list>
+      </#list>
+end namespace

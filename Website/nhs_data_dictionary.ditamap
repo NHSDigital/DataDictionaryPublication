@@ -2,11 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>NHS Data Model and Dictionary</title>
-    <topicref href="about.dita">
-        <topicref href="whats_new.dita"/>
-        <topicref href="contact_us_and_faq_overview.dita"/>
-    </topicref>
-    <topicref href="contact_us_and_faq_overview.dita"/>
+    <mapref href="about.ditamap" toc="yes" />
     <mapref href="data_sets.ditamap" toc="yes"/>
     <mapref href="data_elements.ditamap" toc="yes"/>
     <mapref href="attributes.ditamap" toc="yes"/>
@@ -14,5 +10,5 @@
     <mapref href="nhs_business_definitions.ditamap" toc="yes"/>
     <mapref href="supporting_information.ditamap" toc="yes"/>
     <mapref href="all_items_index__a-z_.ditamap" toc="yes"/>
-    <topicref href="error.dita" toc="no"/>
+    <topicref href="error.dita" toc="no"/> -->
 </map>

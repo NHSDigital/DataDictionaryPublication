@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="class_overview">
+    <title>Classes</title>
+    <shortdesc>The part of the data model describing the aspects of the health and care business
+        with significant characteristics.</shortdesc>
+    <conbody>
+        <p>Within this publication, the names of Classes are styled like this: <ph
+                outputclass="class">ACTIVITY</ph>.</p>
+        <p>A Class is something that you want to describe; the attributes define the descriptive
+            characteristics of the class. </p>
+        <p>Classes within a data model may be refined into more specific classes.  For example, both
+                <ph outputclass="class">CLINICAL INVESTIGATION</ph> and <ph outputclass="class">CARE
+                CONTACT</ph> are types of a <ph outputclass="class">CARE ACTIVITY</ph>, which in
+            turn is a type of <ph outputclass="class">ACTIVITY</ph>.</p>
+        <p>Where there are no significant differences in the characteristics of a kind of Class, NHS
+            Business Definitions are used to relate a particular business context to a use of a
+            Class. For example, a <ph outputclass="businessDefinition">Laparoscopy</ph> is a type of
+                <ph outputclass="class">CLINICAL INVESTIGATION</ph>.</p>
+        
+    </conbody>
+</concept>

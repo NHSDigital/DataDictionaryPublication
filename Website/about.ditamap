@@ -2,15 +2,16 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>NHS Data Model and Dictionary</title>
-    <topicset id="allabout" href="about.dita" >
+    <topicref id="allabout" href="about/about.dita" collection-type="sequence">
         <topicref href="whats_new.dita"/>
-        <topicref href="contact_us_and_faq_overview.dita"/>
-        <topicref href="privacy.dita"/>
-        <topicref href="cookies.dita"/>
-        <topicref href="accessibility.dita"/>
-        <topicref href="terms_and_conditions.dita"/>
-        <topicref href="copyright.dita"/>
-        
-    </topicset>
+        <topicref href="about/publication.dita">
+            <topicref href="about/mauro.dita" />
+        </topicref>
+        <topicref href="notices/copyright.dita"/>
+        <topicref href="notices/privacy.dita"/>
+        <topicref href="notices/cookies.dita"/>
+        <topicref href="notices/accessibility.dita"/>
+        <topicref href="notices/terms_and_conditions.dita"/>
+    </topicref>
     <topicref href="error.dita" toc="no"/> 
 </map>

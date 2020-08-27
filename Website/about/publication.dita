@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="publication">
+    <title>How we publish the Data Model and Dictionary</title>
+    <body>
+        <p>The first editions of the NHS Data Model and then NHS Data Dictionary were published in
+            the 1980s as loose-leaf file.  Since then the platforms have changed and evolved, with
+            the last significant change in 2005, when the platform moved to the Togethersoft
+            Together UML editor running in Eclipse and the data model was generalised, building on
+            the work of the NHS Modernisation Agency Review of Waiting and Booking Information
+            (ROWBI).</p>
+        <p>Since then, the platform has been stable.  The UML models were refined and evolved.  We
+            are now in the first phase of a three phase uplift, eventually migrating the full
+            production onto <xref href="mauro.dita"/> (Mauro).  Phase one includes data migration
+            from the Together platform to <xref href="mauro.dita">Mauro</xref> and publishing a
+            web-accessible data model and dictionary designed to work with modern browsers and on
+            modern devices, whether wide screen desktop computers, smaller tablets or mobile
+            phones.</p>
+        <p>The models, including all the data sets, are translated into a vendor neutral XML
+            representation conforming to the OASIS open standard  - Darwin Information Typing
+            Architecture.  This allows publication of all, or any part, of the dictionary along with
+            other content (including this page).  Output formats available include e-books in epub
+            or mobi format, print documents in accessible PDF.</p>
+        <p>Phase two will see the Data Model and Dictionary Service move to maintain the data model
+            and dictionary using Mauro.  In parallel, NHS Digital is extending its use of Mauro to
+            understand other datasets it receives with the aim of developing a common map of its
+            data sets.  This extension includes data specifications for the delivery of care
+            including the UK core Health Level 7 (HL7) Fast Healthcare Interoperability (FHIR)
+            Resources.</p>
+        <p>During phase two, NHS Digital intends to make the full NHS Data Model available for
+            computer consumption with an Application Programming Interface and also make all of the
+            codes and descriptions used in the NHS Data Model and Dictionary available as FHIR
+            Resources through a FHIR terminology server.</p>
+        <p>The final phase is to start moving to a single logical model with data collected for
+            secondary uses, such as performance management, commissioning or research, demonstrating
+            their links to the data recorded in care records.  This phase will see the NHS Data
+            Model uplifted from Version 3, introduced in 2005, up to Version 4.  Underpinning the
+            Version 4 model will be the ISO concept model of the health and care business, ISO
+            13940:2015 - A system of Concepts to support the Continuity of Care.</p>
+    </body>
+</topic>

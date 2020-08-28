@@ -21,8 +21,8 @@
                 format="html" scope="external">Data Set Change Notices</xref>.</p>
         <p>The NHS Data Model and Dictionary Service thank the <xref
                 href="https://www.bdi.ox.ac.uk/" format="html" scope="external">Big Data Institute
-                Oxford University</xref> for their support providing tooling and expertise to
-            publish the NHS Data Model and Dictionary.</p>
+                Oxford University</xref> for their support providing the <xref href="mauro.dita"
+                /> tooling and expertise to publish the NHS Data Model and Dictionary.</p>
 
         <div outputclass="bg-light" id="model.notation">
             <p>The NHS Data Model and Dictionary is modelled using the following convention and
@@ -50,6 +50,8 @@
                     but provides additional context for the reader.</li>
                 <li><ph outputclass="xmlSchemaConstraint">XML Schema Constraints</ph> provide
                     details of restrictions on the data permitted in XML schema for data sets.</li>
+                <li><ph outputclass="retired">Retired items</ph> are not included in the current definitions but are
+                    listed in the <xref href="../all_items_index_overview.dita" />.</li>
             </ul>
         </div>
     </body>

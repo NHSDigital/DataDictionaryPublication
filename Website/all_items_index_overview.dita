@@ -5,24 +5,7 @@
     <shortdesc> Lists all the items in the dictionary in alphabetical order.</shortdesc>
   <body>
 <p>The "All Items Index" lists all the items in the NHS Data Model and Dictionary in alphabetical order.</p>
-<p>All items are coloured coded:</p>
-<ul>
-  <li>Classes are shown in <b><ph
-    outputclass="class">red</ph></b>
-      </li>
-  <li>Attributes are shown in <b><ph
-    outputclass="attribute">purple</ph></b>
-      </li>
-  <li>Data Elements are shown in <b><ph
-    outputclass="element">green</ph></b>
-      </li>
-  <li>Data Sets are shown in <b><ph
-    outputclass="dataSet">orange</ph></b>
-      </li>
-      <li>NHS Business Definitions are shown in <b><ph outputclass="businessDefinition"
-          >blue</ph></b></li>
-  <li>Supporting Information is shown in <ph outputclass="supportingInformation">blue</ph></li>
-    </ul>
-<p>There is an "arrow” on each page which takes you back to the top of the "All Items Index" page.</p>
+    <div conref="about/about.dita#about/model.notation"/>
+<p>There is an arrow on each page to take you to the top of the "All Items Index" page.</p>
 </body>
 </topic>

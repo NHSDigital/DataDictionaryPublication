@@ -5,11 +5,17 @@
     <body>
         <p outputclass="alert alert-danger">We can't seem to find the page you're looking for -
             error code 404</p>
-        <p>You can return to the homepage, use the menu above or try searching for the page you are
-            looking for.</p>
+        <p>You can :
+            <ul id="ul_fjc_v4c_vmb">
+                <li>Go to <xref href="about/about.dita"/>, </li>
+                <li>Use the menu above, or</li>
+                <li>Try searching for the page you are looking for</li>
+            </ul>
+        </p>
         <p>If you still can’t find the information you want, try our <xref
                 href="contact_us_and_faq_overview.dita"/> page.</p>
         <p
-            conref="contact_us_and_faq_overview.dita#contact_us_and_faq_overview_overview/email.address"/>
+            conref="contact_us_and_faq_overview.dita#contact_us_and_faq_overview_overview/email.address"
+        />
     </body>
 </topic>

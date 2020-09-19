@@ -39,12 +39,17 @@
                 <li><xref href="../attributes_overview.dita" outputclass="attribute"/> describe the
                     properties of <xref href="../classes_overview.dita" outputclass="class"/> and
                     provide common data definitions for classes. A class may in turn be a
-                    specialised form of another class (a subtype). Classes typically have
-                    relationships to other classes to describe how they collectively form a model. </li>
+                    specialised form of another class (a subtype). </li>
+                <li><xref href="../classes_overview.dita" outputclass="class"/> describe aspects of
+                    the health and care business with their significant characteristics through
+                    their <xref href="../attributes_overview.dita" outputclass="attribute"/> and
+                    their relationships to other <xref href="../classes_overview.dita"
+                        outputclass="class"/>.</li>
                 <li><xref href="../nhs_business_definitions_overview.dita"
                         outputclass="businessDefinition"/> describe specific applications of <xref
                         href="../classes_overview.dita" outputclass="class"/> within the context of
-                    the health and care system but don't introduce new attributes.</li>
+                    the health and care system but don't introduce new attributes or
+                    relationships.</li>
                 <li><xref href="../supporting_information_overview.dita"
                         outputclass="supportingInformation"/> is not a part of the NHS Data Model
                     but provides additional context for the reader.</li>

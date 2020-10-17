@@ -6,10 +6,120 @@
             <serialized version="22.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
+<<<<<<< Updated upstream
+=======
+                        <String>keys.context</String>
+                        <String>${pdu}/Website/nhs_data_dictionary.ditamap</String>
+                    </entry>
+                    <entry>
+>>>>>>> Stashed changes
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+<<<<<<< Updated upstream
+=======
+                                    <String>../DataDictionary/nhs_data_dictionary.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - Tiles</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../DataDictionary/nhs_data_dictionary_bookmap.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>nhs_data_dictionary_bookmap (PDF (CSS Formatter - HTML5))</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Website/about.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - Tiles</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Website/preface.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - Tiles</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Website/about/publication.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - Tiles</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+>>>>>>> Stashed changes
                                     <String>Website/nhs_data_dictionary%20-%20empty.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -170,10 +280,75 @@
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.sitemap.base.url</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>https://datadictionary.nhs.uk/</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.sitemap.change.frequency</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>daily</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String></String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String>always</String>
+                                                    <String>hourly</String>
+                                                    <String>daily</String>
+                                                    <String>weekly</String>
+                                                    <String>monthly</String>
+                                                    <String>yearly</String>
+                                                    <String>never</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                    <String></String>
+                                                    <String></String>
+                                                    <String></String>
+                                                    <String></String>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
                                     </list>
                                 </field>
                                 <field name="jvmArgs">
-                                    <String>-Xmx384m</String>
+                                    <String>-Xmx7G</String>
                                 </field>
                                 <field name="useCustomJavaHome">
                                     <Boolean>false</Boolean>

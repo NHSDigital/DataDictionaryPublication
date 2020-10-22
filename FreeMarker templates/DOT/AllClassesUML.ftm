@@ -8,7 +8,7 @@
         ]
 
 </#macro>
-<#macro drawRels class>
+<#macro drawChildren class>
     <#list class.childDataClasses as related>
         "${class.id}" -- "${related.id}" [
                 arrowhead = "none"
@@ -23,6 +23,13 @@
 <#if object.minMultiplicity == object.maxMultiplicity>${object.minMultiplicity}<#else>${object.minMultiplicity}..<#if object.maxMultiplicity==-1>*<#else>${object.maxMultiplicity!"?"}</#if></#if></#if>
 </#macro>
 
+<#macro relatedClasses dataClass>
+${dataClass.label} 
+<#list dataClass.childDataElements?filter(p -> p.dataType.domainType == "ReferenceType") as dataElement >
+       ${dataClass.label} ${dataElement.label}  ${dataElement.dataType.label} ${dataElement.dataType.referenceClass.label}
+</#list>
+</macro>
+
 graph G {
         node [
             shape = "record"
@@ -33,6 +40,6 @@ graph G {
 <@drawClass dataClass />        
 </#list>
 <#list dataModel.dataClasses as dataClass>
-<@drawRels dataClass />        
+<@drawChildren dataClass />        
 </#list>
 }

@@ -1,0 +1,21 @@
+<#ftl output_format="XML">
+<#-- Mauro Template -->
+<#-- Name:Model introduction DITA topic -->
+<#-- FilePrefix:Model_ -->
+<#-- FileSuffix:.dita -->
+<#-- Description:No description -->
+<#-- ActionType:actionSingleModel -->
+<#-- Mauro Template -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="uml-${dataModel.id}" audience="diagrams">
+    <title>${dataModel.label}</title>
+    <body>
+        
+    <p>
+${dataModel.description!""}
+    </p>
+    
+    </body>
+</topic>

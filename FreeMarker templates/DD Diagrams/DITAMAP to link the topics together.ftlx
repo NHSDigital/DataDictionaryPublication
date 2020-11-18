@@ -1,0 +1,24 @@
+<#ftl>
+<#-- Mauro Template -->
+<#-- Name:DITAMAP to link the topics together -->
+<#-- FilePrefix:Model_ -->
+<#-- FileSuffix:.ditamap -->
+<#-- Description:No description -->
+<#-- ActionType:actionSingleModel -->
+<#-- Mauro Template -->
+<#macro topicref dataClass >
+        <topicref href="ClassDiagram_${dataClass.dataModel.label?url_path('utf-8')}%20-%20${dataClass.label?url_path('utf-8')}.dita" navtitle="${dataClass.label}"/>
+    <#list dataClass.childDataClasses?sort_by("label") as class>
+    <@topicref class />
+    </#list>
+</#macro>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>${dataModel.label!"A model"}</title>
+    <topicref href="Model_${dataModel.label?url_path('utf-8')}.dita">
+    <#list dataModel.childDataClasses?sort_by("label") as class>
+    <@topicref class />
+    </#list>
+    </topicref>
+</map>

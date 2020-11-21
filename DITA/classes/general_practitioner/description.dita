@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_general_practitioner.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: GENERAL PRACTITIONER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A subtype of 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>.        </p>
+      <p>
+A health care practitioner qualified for General Practice, providing healthcare for a particular 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+      <p>
+Subtypes of 
+              <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ are:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="class" keyref="class_ophthalmic_medical_practitioner">OPHTHALMIC MEDICAL PRACTITIONER</xref>
+               <p>.</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ may be abbreviated to GP.        </p>
+      <p>
+For 
+              <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONERS</xref>
+ working in hospitals, the following codes should be used:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+if the 
+                                <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ is working as an assistant, use the code of the responsible 
+                                <xref outputclass="element"
+                        keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+if the 
+                                <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ is working as a 
+                                <xref outputclass="element"
+                        keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>, use the 
+                                <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>'s 
+                                <xref outputclass="attribute"
+                        keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>.                     </p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

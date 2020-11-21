@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='xml_schema_constraint_plics_acute_emergency_care_data_set_constraints.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>XML Schema Constraint: Plics Acute Emergency Care Data Set Constraints - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+Data Set constraints applied to the 
+              <xref outputclass="dataSet"
+               keyref="dataset_patient_level_information_costing_system_acute_data_set_-_emergency_care">Patient Level Information Costing System Acute Data Set - Emergency Care</xref>.        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="5">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Data Element</b>
+                  </entry>
+                  <entry>
+                     <b>Format/Length</b>
+                  </entry>
+                  <entry>
+                     <b>Range</b>
+                  </entry>
+                  <entry>
+                     <b>Pattern Match</b>
+                  </entry>
+                  <entry>
+                     <b>Reason / Comment</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element"
+                           keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+                  </entry>
+                  <entry>
+                     <p>an3</p>
+                  </entry>
+                  <entry>
+                     <p>None</p>
+                  </entry>
+                  <entry>
+                     <p>None</p>
+                  </entry>
+                  <entry>
+                     <p>
+an5 and an6 is not applicable for the 
+                        <xref outputclass="dataSet"
+                              keyref="dataset_patient_level_information_costing_system_acute_data_set_-_emergency_care">Patient Level Information Costing System Acute Data Set - Emergency Care</xref>.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element"
+                           keyref="element_organisation_identifier__code_of_submitting_organisation_">ORGANISATION IDENTIFIER (CODE OF SUBMITTING ORGANISATION)</xref>
+                  </entry>
+                  <entry>
+                     <p>min an3 max an5</p>
+                  </entry>
+                  <entry>
+                     <p>None</p>
+                  </entry>
+                  <entry>
+                     <p>None</p>
+                  </entry>
+                  <entry>
+                     <p>
+an6 is not applicable for the 
+                        <xref outputclass="dataSet"
+                              keyref="dataset_patient_level_information_costing_system_acute_data_set_-_emergency_care">Patient Level Information Costing System Acute Data Set - Emergency Care</xref>.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

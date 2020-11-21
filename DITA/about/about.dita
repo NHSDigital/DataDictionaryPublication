@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="about">
+    <title>About the NHS Data Model and Dictionary</title>
+    <shortdesc>The purpose of the NHS Data Model and Dicitonary and other complementary resources
+        and services.</shortdesc>
+    <body>
+        <p>The NHS Data Model and Dictionary gives a reference point for assured information
+            standards, to support health care activities in the NHS in England. The NHS Data Model
+            and Dictionary has been developed for everyone who is actively involved in the
+            collection of data and the management of information in the NHS.</p>
+        <p>The NHS Data Model and Dictionary Service provides the development, maintenance and
+            support of NHS Information Standards.</p>
+        <p>Published Information Standards can be found at: <xref
+                href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications"
+                format="html" scope="external">Published Information Standards
+            Documentation</xref>.</p>
+        <p>An archive of Data Set Change Notices (DSCNs) published prior to 2010 can be found at:
+                <xref
+                href="https://webarchive.nationalarchives.gov.uk/20150107144041/http://www.isb.nhs.uk/documents/dscn"
+                format="html" scope="external">Data Set Change Notices</xref>.</p>
+        <p>The NHS Data Model and Dictionary Service thank the <xref
+                href="https://www.bdi.ox.ac.uk/" format="html" scope="external">Big Data Institute
+                Oxford University</xref> for their support providing the <xref href="mauro.dita"
+                /> tooling and expertise to publish the NHS Data Model and Dictionary.</p>
+
+        <div outputclass="bg-light" id="model.notation">
+            <p>The NHS Data Model and Dictionary is modelled using the following convention and
+                naming:</p>
+            <ul id="ul_ocf_tdb_vmb">
+                <li><xref href="../data_sets_overview.dita" outputclass="dataSet"/> are built from a
+                    series of <xref href="../data_elements_overview.dita" outputclass="element"/>
+                    and, optionally, groups of data elements.</li>
+                <li><xref href="../data_elements_overview.dita" outputclass="element"/> are a
+                    specialised use of <xref href="../attributes_overview.dita"
+                        outputclass="attribute"/> for use within the context of the data set. For
+                    example they may introduce default codes applicable to a specific data element,
+                    perhaps to handle circumstances where data are not available.</li>
+                <li><xref href="../attributes_overview.dita" outputclass="attribute"/> describe the
+                    properties of <xref href="../classes_overview.dita" outputclass="class"/> and
+                    provide common data definitions for classes. A class may in turn be a
+                    specialised form of another class (a subtype). </li>
+                <li><xref href="../classes_overview.dita" outputclass="class"/> describe aspects of
+                    the health and care business with their significant characteristics through
+                    their <xref href="../attributes_overview.dita" outputclass="attribute"/> and
+                    their relationships to other <xref href="../classes_overview.dita"
+                        outputclass="class"/>.</li>
+                <li><xref href="../nhs_business_definitions_overview.dita"
+                        outputclass="businessDefinition"/> describe specific applications of <xref
+                        href="../classes_overview.dita" outputclass="class"/> within the context of
+                    the health and care system but don't introduce new attributes or
+                    relationships.</li>
+                <li><xref href="../supporting_information_overview.dita"
+                        outputclass="supportingInformation"/> is not a part of the NHS Data Model
+                    but provides additional context for the reader.</li>
+                <li><ph outputclass="xmlSchemaConstraint">XML Schema Constraints</ph> provide
+                    details of restrictions on the data permitted in XML schema for data sets.</li>
+                <li><ph outputclass="retired">Retired items</ph> are not included in the current definitions but are
+                    listed in the <xref href="../all_items_index_overview.dita" />.</li>
+            </ul>
+        </div>
+    </body>
+    <related-links>
+        <link href="mauro.dita"/>
+        <link href="publication.dita"/>
+    </related-links>
+</topic>

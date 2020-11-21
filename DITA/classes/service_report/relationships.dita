@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_service_report.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: SERVICE REPORT - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each SERVICE REPORT</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>may be requested by one or more </stentry>
+        <stentry>
+          <xref keyref='class_care_professional' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or may be requested by  one or more </stentry>
+        <stentry>
+          <xref keyref='class_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be issued by one or more </stentry>
+        <stentry>
+          <xref keyref='class_care_professional' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or may be issued by  one or more </stentry>
+        <stentry>
+          <xref keyref='class_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be copied to one or more </stentry>
+        <stentry>
+          <xref keyref='class_care_professional' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be copied to  one or more </stentry>
+        <stentry>
+          <xref keyref='class_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be related to one or more </stentry>
+        <stentry>
+          <xref keyref='class_planned_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be related to  one or more </stentry>
+        <stentry>
+          <xref keyref='class_service' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be referenced by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be a reference to one and only one </stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

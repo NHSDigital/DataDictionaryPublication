@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_patient.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: PATIENT - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is a 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>
+ with a specific disease or condition who receives treatment from a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ or any 
+              <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTH</xref>.        </p>
+      <p>
+It is an entry on the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ master index.        </p>
+      <p>
+This will be a 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>, which includes 
+              <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonates</xref>, who use a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ in order to receive clinical care/treatment or someone attending an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_day_care_facility">Day Care Facility</xref>, etc.        </p>
+      <p>
+It will also include people in the community receiving care under a specific 
+              <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENT</xref>
+ forming part of 'nursing care in the community'. This also includes 
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ on the 
+              <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ who are awaiting 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_elective_admission">Elective Admission</xref>.        </p>
+  </div>
+</body>
+</topic>

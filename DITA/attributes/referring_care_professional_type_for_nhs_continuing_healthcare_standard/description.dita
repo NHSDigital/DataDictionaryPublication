@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_referring_care_professional_type_for_nhs_continuing_healthcare_standard.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: REFERRING CARE PROFESSIONAL TYPE FOR NHS CONTINUING HEALTHCARE STANDARD - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The type of 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ who carried out the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_continuing_healthcare_checklist">NHS Continuing Healthcare Checklist</xref>
+ and referred the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ for an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>
+ assessment.        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_occupational_therapist">Occupational Therapist</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>02</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_physiotherapist">Physiotherapist</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>03</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>04</p>
+                  </entry>
+                  <entry>
+                     <p>
+District 
+                        <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>05</p>
+                  </entry>
+                  <entry>
+                     <p>
+Other 
+                        <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>06</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_social_care_worker">Social Care Worker</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>98</p>
+                  </entry>
+                  <entry>
+                     <p>
+Other 
+                        <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+  (not listed)                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

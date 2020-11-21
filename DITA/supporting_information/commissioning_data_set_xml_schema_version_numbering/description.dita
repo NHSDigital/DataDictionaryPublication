@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_xml_schema_version_numbering.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set XML Schema Version Numbering - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <b>The CDS XML Schema Version Number Format</b>
+The use of XML was mandated by the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>) programme as the standard to be used for messaging by government organisations and has accordingly been adopted by the NHS.        </p>
+      <p>
+Note:
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+ and the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
+ 
+            <b>have been archived</b>
+ and are available for reference only.        </p>
+      <p>The CDS XML Schema adopts version numbering techniques in line with published e-GOV best practice guidelines. All schema components are version numbered and date qualified; the following is an example of the adopted format:</p>
+      <p>
+         <b>CDS XML Message Root</b>
+Example: V6-0-2007-03-01 (Note that dash separators are used).
+[Schema Filename] + [Major Version Number] + [Minor Version Number] + [Version Date]        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+                        <b>VERSION NUMBER ELEMENT</b>
+                    </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>FORMAT</b>
+                    </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>EXAMPLE AND NOTES</b>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>XML Schema File Name</p>
+                  </entry>
+                  <entry>
+                     <p>
+As allocated by Information Standards Delivery, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_nhs_digital">NHS Digital</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>CDS-XML_Message_Root-</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Major Version Number  </p>
+                  </entry>
+                  <entry>
+                     <p>A maximum of 3 characters incremented numerically without leading zeros</p>
+                  </entry>
+                  <entry>
+                     <p>V6-</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Minor Version Number  </p>
+                  </entry>
+                  <entry>
+                     <p>A maximum of 3 characters incremented numerically without leading zeros</p>
+                  </entry>
+                  <entry>
+                     <p>0-</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Version Date</p>
+                  </entry>
+                  <entry>
+                     <p>ccyy-mm-dd</p>
+                  </entry>
+                  <entry>
+                     <p>2007-03-01</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>The Major Version Number:</b>
+This is incremented when fundamental change has taken place such as:        </p>
+      <ul>
+         <li>
+            <p>Major addition / deletion / change of XML Schema business functionality</p>
+         </li>
+         <li>
+            <p>Major change to the technical design of the schema</p>
+         </li>
+         <li>
+            <p>Re-alignment of the XML Schema Version Number after cumulative changes</p>
+         </li>
+      </ul>
+      <b>The Minor Version Number:</b>
+      <p>
+This is incremented for all XML Schema changes 
+            <b>
+            <i>not</i>
+         </b>
+ warranting a Major Version Number increment (as above).
+Examples are:        </p>
+      <ul>
+         <li>
+            <p>Minor changes to XML Schema business functionality</p>
+         </li>
+         <li>
+            <p>Minor changes to the XML Schema data structures that are not upwardly compatible*</p>
+         </li>
+         <li>
+            <p>Addition and/or deletion of data items that are not upwardly compatible*</p>
+         </li>
+         <li>
+            <p>Changes to data item facet definitions that are not upwardly compatible*</p>
+         </li>
+      </ul>
+      <b>The Version Date:</b>
+      <p>This may be adjusted as a defined reference point for a no risk XML Schema release to reflect minor changes and corrective releases.
+Examples are:</p>
+      <ul>
+         <li>
+            <p>Minor changes to the XML Schema data structures that are upwardly compatible* for instance the addition of an optional data item.</p>
+         </li>
+         <li>
+            <p>Changes to data item facet definitions that are upwardly compatible* for instance the addition (but not the deletion) of code values to a data item enumeration list.</p>
+         </li>
+         <li>
+            <p>Interim development versions, released for information only</p>
+         </li>
+      </ul>
+      <b>* Upwardly Compatible:</b>
+      <p>Minor changes and adjustments to the XML Schema which introduce little or no risk of increased data rejection are deemed upwardly compatible.
+For example, corrective adjustments, which align the XML Schema to the authorised NHS Data Standards as published in the NHS Data Model and Dictionary often fall within this category.</p>
+      <p>
+         <b>The XML Schema Date:</b>
+All XML Schema releases have a designated SchemaDate XML Attribute.        </p>
+      <p>
+         <b>XML Schema Version Control - The Schema Root:</b>
+The schema root is the single entry point to the XML Schema and XML Attributes for the following are validated:        </p>
+      <ul>
+         <li>
+            <p>SchemaVersion</p>
+         </li>
+         <li>
+            <p>SchemaDate</p>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

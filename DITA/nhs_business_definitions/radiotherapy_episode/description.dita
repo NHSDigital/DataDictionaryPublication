@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_radiotherapy_episode.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Radiotherapy Episode - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy_episode">Radiotherapy Episode</xref>
+ is an 
+              <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy_episode">Radiotherapy Episode</xref>
+ is a continuous period of care for 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy">Radiotherapy</xref>
+ including all preparation, planning and delivery of 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy">Radiotherapy</xref>.        </p>
+      <p>
+Treatment given concurrently or consecutively to multiple 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_anatomical_site">Anatomical Sites</xref>
+ associated with the same primary tumour will form part of the same 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy_episode">Radiotherapy Episode</xref>.        </p>
+      <p>
+If the treatment plan changes during treatment (e.g. because a new symptom arises which also requires 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy">Radiotherapy</xref>) then all of the treatment delivered concurrently or consecutively will form part of the same 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy_episode">Radiotherapy Episode</xref>.        </p>
+      <p>
+Treatment given to separate unrelated primary tumour sites will form separate 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy_episode">Radiotherapy Episodes</xref>.        </p>
+  </div>
+</body>
+</topic>

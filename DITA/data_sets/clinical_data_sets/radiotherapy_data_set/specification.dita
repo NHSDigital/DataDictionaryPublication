@@ -6,435 +6,393 @@
     <searchtitle>Data Set: Radiotherapy Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>RADIOTHERAPY ATTENDANCE</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>RADIOTHERAPY ATTENDANCE</b>
 
   <p>To carry the details of whether the Radiotherapy Attendance requires an Out-Patient Attendance record.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_out-patient_attendance_indicator__radiotherapy_data_set_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_out-patient_attendance_indicator__radiotherapy_data_set_">OUT-PATIENT ATTENDANCE INDICATOR (RADIOTHERAPY DATA SET)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>ATTENDANCE IDENTIFICATION</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>ATTENDANCE IDENTIFICATION</b>
 
   <p>To carry the details of the attendance identification, which may be used for Commissioning Data Set (CDS) linkage.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_attendance_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_attendance_identifier">ATTENDANCE IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_code__code_of_provider_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_appointment_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>RADIOTHERAPY EPISODE</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>RADIOTHERAPY EPISODE</b>
 
   <p>To carry the details of the Radiotherapy Episode.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_episode_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_episode_identifier">RADIOTHERAPY EPISODE IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_decision_to_treat_date__radiotherapy_treatment_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_decision_to_treat_date__radiotherapy_treatment_episode_">DECISION TO TREAT DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_earliest_clinically_appropriate_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_earliest_clinically_appropriate_date">EARLIEST CLINICALLY APPROPRIATE DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_priority' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_priority">RADIOTHERAPY PRIORITY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_treatment_start_date__radiotherapy_treatment_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_treatment_start_date__radiotherapy_treatment_episode_">TREATMENT START DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_diagnosis__icd_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_diagnosis__icd_">RADIOTHERAPY DIAGNOSIS (ICD)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_intent' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_intent">RADIOTHERAPY INTENT</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>RADIOTHERAPY PRESCRIPTION</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>RADIOTHERAPY PRESCRIPTION</b>
 
   <p>To carry the details of each Radiotherapy Prescription.Multiple occurrences of this group are required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_prescription_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_prescription_identifier">PRESCRIPTION IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_treatment_region' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_treatment_region">RADIOTHERAPY TREATMENT REGION</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_anatomical_treatment_site__opcs_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_radiotherapy_anatomical_treatment_site__opcs_">RADIOTHERAPY ANATOMICAL TREATMENT SITE (OPCS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_teletherapy_fields' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_number_of_teletherapy_fields">NUMBER OF TELETHERAPY FIELDS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_prescribed_dose' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_prescribed_dose">RADIOTHERAPY PRESCRIBED DOSE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_prescribed_fractions' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_prescribed_fractions">PRESCRIBED FRACTIONS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_actual_dose' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_actual_dose">RADIOTHERAPY ACTUAL DOSE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_actual_fractions' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_actual_fractions">ACTUAL FRACTIONS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_treatment_modality' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_treatment_modality">RADIOTHERAPY TREATMENT MODALITY</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>RADIOTHERAPY EXPOSURE</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>RADIOTHERAPY EXPOSURE</b>
 
   <p>To carry the details of each Radiotherapy Exposure delivered.Multiple occurrences of this group are required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_field_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_field_identifier">RADIOTHERAPY FIELD IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_machine_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_machine_identifier">MACHINE IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radioisotope' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radioisotope">RADIOISOTOPE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_beam_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_beam_type">RADIOTHERAPY BEAM TYPE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_beam_energy' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_beam_energy">RADIOTHERAPY BEAM ENERGY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_time_of_exposure' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_time_of_exposure">TIME OF EXPOSURE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

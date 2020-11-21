@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_business_rules.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set Business Rules - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+ have notation to identify the business and/or processing rules which apply to individual Data Elements.  This notation appears in the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+ column of the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+ details page.         </p>
+      <p>
+         <b>Population Validation</b>
+      </p>
+      <p>
+All Data Elements are subject to 
+            <b>length</b>
+ validation.  Some Data Elements are also subject to 
+            <b>format</b>
+ and 
+            <b>content</b>
+ validation against a list of permitted values defined in the NHS Data Model and Dictionary. The value lists are held on the Attribute which the Data Element is based on, plus default codes which are held on the Data Element itself.        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>RULE</b>
+                     <p> </p>
+                  </entry>
+                  <entry scope="col">
+                     <b>POPULATION VALIDATION</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>F</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>The format is validated, for example the format of a date must comply with the XML standard.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>V</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>The Data Element is validated against an explicit list of permitted values as defined in the NHS Data Model and Dictionary.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>Business Rules</p>
+      <p>Some Data Elements are subject to additional Business Rules as indicated below:</p>
+      <ul>
+         <li>
+            <div>
+               <b>Prefix H</b>
+               <p>
+= 
+                              <xref outputclass="supportingInformation"
+                        keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+ Business Rules.                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <b>Prefix I</b>
+               <p>= CDS-XML Schema anomalies and issues.</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <b>Prefix N</b>
+               <p>= NHS Data Standards and Policy Rules</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <b>Prefix S</b>
+               <p>
+= 
+                              <xref outputclass="supportingInformation"
+                        keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ Business Rules                    </p>
+            </div>
+         </li>
+      </ul>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>PREFIX</b>
+                     <p> </p>
+                  </entry>
+                  <entry scope="col">
+                     <b>BUSINESS RULES: H - Healthcare Resource Group Business Rules</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>H4</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+This Data Element is used by the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ to derive the 
+                        <b>
+                           <xref outputclass="supportingInformation"
+                                 keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+ 4.                        </b>
+ Failure to correctly populate this data element is likely to result in an incorrect 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>, usually associated with lower levels of healthcare resource. For further information, please refer to the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_nhs_digital">NHS Digital</xref>
+  website at: 
+                        <xref scope="external"
+                              format="html"
+                              href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance">Payment by Results Guidance</xref>.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>PREFIX</b>
+                     <p> </p>
+                  </entry>
+                  <entry scope="col">
+                     <b>BUSINESS RULES: I - CDS-XML Schema Anomalies and Issues</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>I1</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>This is a known schema anomaly and has been registered for future resolution.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>I2</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>See the specifications in the NHS Data Model and Dictionary for the specific format characteristics of this Data Element.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>I3</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+There is no national requirement to flow 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+ 4 (<xref outputclass="supportingInformation"
+                              keyref="supporting_definition_healthcare_resource_group">HRG</xref>
+ 4) through the Commissioning Data Sets, see 
+                        <xref scope="external"
+                              format="html"
+                              href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2008/172008.pdf">DSCN 17/2008</xref>.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>PREFIX</b>
+                     <p> </p>
+                  </entry>
+                  <entry scope="col">
+                     <b>BUSINESS RULES: N - NHS Data Standards and Policy Rules</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>N1</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+Psychiatric 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ only.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>N2</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+Not defined or approved by the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_data_coordination_board">Data Coordination Board</xref>
+  or its predecessors the  
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_standardisation_committee_for_care_information">Standardisation Committee for Care Information</xref>
+  and  
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_information_standards_board_for_health_and_social_care">Information Standards Board for Health and Social Care</xref>.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>N3</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>The definition and value list for this data is under review.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>N4</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Up to 20 codes per daily activity occurrence may be recorded.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>N5</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>This data should only flow in Commissioning Data Set version 6-1 for PATIENTS detained under the Mental Health Act prior to the Mental Health Act 2007 (Retired June 2015).</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>N6</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+This data should only flow in Commissioning Data Set version 6-2 for 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ detained under the Mental Health Act 2007.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>N7</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+From Commissioning Data Set version 6-0 onwards, the use of the 
+                        <xref outputclass="element"
+                              keyref="element_detained_and__or__long_term_psychiatric_census_date">DETAINED AND (OR) LONG TERM PSYCHIATRIC CENSUS DATE</xref>
+ in the location group is 
+                        <b>optional</b>
+ as it 
+                        <b>must</b>
+ be carried in the Episode Characteristics.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>PREFIX</b>
+                     <p> </p>
+                  </entry>
+                  <entry scope="col">
+                     <b>BUSINESS RULES: S - Secondary Uses Service</b>
+                     <b> Business Rules</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S1</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+This mandatory Commissioning Data Set date is used as the originating date to determine the mandatory 
+                        <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>S2 </p>
+                  </entry>
+                  <entry>
+                     <p>The Secondary Uses Service</p>
+                     <b>DOES NOT</b>
+                     <p>support the use of the CDS TEST INDICATOR. Therefore this Data Element must not be used (Retired June 2015).</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S3</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+See 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_security_issues_and_patient_confidentiality">Security Issues and Patient Confidentiality</xref>, for further information.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S4</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Used to ensure the correct sequencing of multiple and/or subsequent Commissioning Data Set submissions.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>S5</p>
+                  </entry>
+                  <entry>
+                     <p>These ORGANISATION CODES must be present and registered with the Secondary Uses Service. The Commissioning Data Set Schema does not validate the content value of this data</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S6</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+All 
+                        <xref outputclass="element" keyref="element_cds_report_period_start_date">CDS REPORT PERIOD START DATES</xref>
+ and 
+                        <xref outputclass="element" keyref="element_cds_report_period_end_date">CDS REPORT PERIOD END DATES</xref>
+ must be consistent in all Commissioning Data Set records contained in a BULK Interchange submission. The 
+                        <xref outputclass="element" keyref="element_cds_report_period_start_date">CDS REPORT PERIOD START DATE</xref>
+ must be on or before the 
+                        <xref outputclass="element" keyref="element_cds_report_period_end_date">CDS REPORT PERIOD END DATE</xref>. The 
+                        <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+ is a mandatory data element and must fall within the period defined. See the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S7</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+See the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S8</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+These Data Elements are required for correct processing by the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. If omitted, the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ will reject the Commissioning Data Set data.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S9</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+The 
+                        <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ is a mandatory data item when using the Net Change Protocol. When using the Bulk Update Protocol this data item is optional but it is strongly advised that where it can be correctly generated and maintained it should be used. See the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S10</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+For 
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2_type_170_-_admitted_patient_care_-_detained_and_or_long_term_psychiatric_census_cds">CDS V6-2 Type 170 - Admitted Patient Care - Detained and or Long Term Psychiatric Census Commissioning Data Set</xref>, the 
+                        <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+ contains the 
+                        <xref outputclass="element" keyref="element_cds_census_date">CDS CENSUS DATE</xref>
+ which is also the 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">null</xref>, the  
+                        <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+ must contain the Date of the Elective Admission List Census which is usually the end of the Period being reported:  
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2_type_030_-_elective_admission_list_-_end_of_period_census__standard__cds">CDS V6-2 Type 030 - Elective Admission List - End of Period Census (Standard) Commissioning Data Set</xref>
+   
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2_type_040_-_elective_admission_list_-_end_of_period_census__old__cds">CDS V6-2 Type 040 - Elective Admission List - End of Period Census (Old) Commissioning Data Set</xref>
+   
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2_type_050_-_elective_admission_list_-_end_of_period_census__new__cds">CDS V6-2 Type 050 - Elective Admission List - End of Period Census (New) Commissioning Data Set</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S12</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+These 
+                        <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+ Data Elements must use dates between 01/01/1880 and 31/12/2999 in order to pass validation                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S13</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+Data Elements reporting a date (which is not a 
+                        <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+ Data Element) must use dates between 01/01/1900 and 31/12/2999 in order to pass validation                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>S14</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>For Data Elements reporting a time, the hour portion must be between 00 and 23 inclusive in order to pass validation</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

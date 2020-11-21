@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_source_of_admission.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: SOURCE OF ADMISSION - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The source of admission to a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ or a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nursing_episode">Nursing Episode</xref>
+ when the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is in a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_site">Hospital Site</xref>
+ or a 
+              <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>.        </p>
+      <p>
+National Code 51 
+              <i>'NHS other hospital provider - 
+                  <xref outputclass="class" keyref="class_ward">WARD</xref>
+ for general 
+                  <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ or the younger physically disabled or A &amp; E department'</i>
+ should not be used if the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ arrives at an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ and is admitted to the same 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider">Hospital Provider</xref>.        </p>
+      <p>Notes:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+The following National Codes have been introduced for the 
+                                <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ 
+                                <b>only</b>
+ to add further granularity to National Code 39 
+                                <i>'Penal establishment,</i>
+                  <i>
+                     <xref outputclass="businessDefinition" keyref="business_definition_court">Court</xref>
+                  </i>
+                  <i>, or Police Station /</i>
+                  <i>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_police_custody_suite">Police Custody Suite</xref>
+                  </i>
+                  <i>'.</i>
+ However, National Code 39 is still valid for the 
+                                <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ where extra detail cannot be collected:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <p>
+40 
+                                            <i>'Penal establishment'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+41 
+                                            <i>'<xref outputclass="businessDefinition" keyref="business_definition_court">Court</xref>'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+42 
+                                            <i>'Police Station / 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_police_custody_suite">Police Custody Suite</xref>'</i>
+                     </p>
+                  </div>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <div>
+               <p>
+National Code 79 
+                                <i>'Babies born in or on the way to hospital'</i>
+ is 
+                                <b>not</b>
+ valid for the 
+                                <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>.                    </p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

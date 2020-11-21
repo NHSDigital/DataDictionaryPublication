@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_submission_protocol.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set Submission Protocol - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+ submitted by providers carry information to determine the update method to be used by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ in order to update the national database.        </p>
+      <p>
+These update rules are known as the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+ and the set of data controls used to indicate this are carried in the Commissioning Data Set Transaction Header Group which must be present and correct in every 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ submitted to the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
+      <p>Two Update Mechanisms are available:</p>
+      <ul>
+         <li>
+            <b>Net Change</b>
+            <p>
+- to support the management of an individual 
+                          <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ in the 
+                          <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database and enables Commissioning data to be inserted/ updated or deleted.
+                          <b>
+                  <i>CDS Senders are expected to use the Net Change Update Mechanism wherever possible.</i>
+               </b>
+            </p>
+         </li>
+         <li>
+            <b>Bulk Replacement</b>
+            <p>
+- to support the management of bulk commissioning data for an identified 
+                          <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
+ of data for a specified time period and for a specified 
+                          <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>.
+                          <b>
+                  <i>CDS Senders should only use the Bulk Replacement Update Mechanism in exceptional circumstances.</i>
+               </b>
+            </p>
+         </li>
+      </ul>
+      <p>
+         <b>Net Change:</b>
+Net Change processes are managed by specific data settings as defined in the 
+              <xref outputclass="dataSet"
+               keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+ option of the CDS Transaction Header Group. The 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ uses the following data to manage the database:        </p>
+      <ul>
+         <li>
+            <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_applicable_date">CDS APPLICABLE DATE</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
+         </li>
+      </ul>
+      <p>
+Each 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ must have a 
+              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ which must be uniquely maintained for the life of that Commissioning Data Set record. This is a particular consideration where mergers and/or healthcare systems are changed or upgraded, see 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_and_organisation_mergers">Commissioning Data Set Submission and Organisation Mergers</xref>. Any change to the 
+              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ during the "lifetime" of a Commissioning Data Set record will almost certainly result in a duplicate record being lodged in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database.        </p>
+      <p>
+A Commissioning Data Set record delete transaction must be sent to the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database when any previously sent Commissioning Data Set record requires deletion/removal, for example to reflect Commissioner changes etc.         </p>
+      <p>
+Where 
+              <xref outputclass="element" keyref="element_cds_update_type">CDS UPDATE TYPE</xref>
+ 1 is required (delete/cancellation), an empty XML element called 'Delete Transaction' can be used instead of submitting he original 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ record, after the 
+              <xref outputclass="dataSet"
+               keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - CDS Transaction Header Group - Net Change Protocol</xref>. See the CDS V6-2- XML Schema Release Notes which can be downloaded via the 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/xml_schema_trud_download.html"
+               scope="external"
+               format="html">XML_Schema_TRUD_Download</xref>
+ page.        </p>
+      <p>
+The 
+              <xref outputclass="element" keyref="element_cds_applicable_date">CDS APPLICABLE DATE</xref>
+ and 
+              <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
+ must be used to ensure that all Commissioning data is updated in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database in the correct chronological order.        </p>
+      <p>
+The 
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+         <b>must not change during the lifetime of the CDS data</b>.
+  This is particularly significant for multiple and/or merged 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>, and for those services who submit data on behalf of another 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>.        </p>
+      <p>
+         <b>Bulk Replacement</b>
+Bulk Replacement processes are managed by specific data settings as defined in the 
+              <xref outputclass="dataSet"
+               keyref="dataset_cds_v6-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+ option of the CDS Transaction Header Group. The 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ uses the following data to manage the database:        </p>
+      <ul>
+         <li>
+            <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_extract_date">CDS EXTRACT DATE</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_extract_time">CDS EXTRACT TIME</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_report_period_start_date">CDS REPORT PERIOD START DATE</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_report_period_end_date">CDS REPORT PERIOD END DATE</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+         </li>
+      </ul>
+      <p>
+Every 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ must be submitted using the correct 
+              <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="element" keyref="element_cds_report_period_start_date">CDS REPORT PERIOD START DATE</xref>
+ and the 
+              <xref outputclass="element" keyref="element_cds_report_period_end_date">CDS REPORT PERIOD END DATE</xref>, (i.e. the effective date period), must be valid and consistent, and reflect the dates relevant to the Commissioning data contained in the interchange.        </p>
+      <p>
+The 
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ must not change during the lifetime of the Commissioning Data Set record. This is particularly significant for multiple and/or merged 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>, and for those services who submit data on behalf of another 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+ must be identified in each Commissioning Data Set and must not be changed during the lifetime of the Commissioning Data Set record otherwise the data stored in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database may lose its integrity (e.g. duplicate Commissioning data may be stored).
+              <b>
+For this reason it is advised that the 
+                  <xref outputclass="element"
+                  keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+ should always be used to determine the 
+                  <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+ as detailed in the 
+                  <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>. Senders must also be aware that if the 
+                  <xref outputclass="element"
+                  keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+ is itself derived from the 
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s 
+                  <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
+ then great care must be taken to manage all elements of this relationship.            </b>
+         <b>
+If it is necessary to change any of this data during the lifetime of a Commissioning Data Set record, then the 
+                  <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ (<xref outputclass="supportingInformation"
+                  keyref="supporting_definition_secondary_uses_service">SUS</xref>) Service Desk should be contacted for advice. See the 
+                  <xref outputclass="businessDefinition"
+                  keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+                  <xref href="http://digital.nhs.uk/susguidance"
+                  scope="external"
+                  format="html">SUS Guidance</xref>.            </b>
+      </p>
+      <p>
+         <b>
+It is strongly advised that users of the Bulk Replacement Mechanism maintain a correctly generated 
+                  <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ within the Commissioning data. This will establish a migration path towards the use of the Net Change Mechanism and will also then minimise the risk of creating duplicate Commissioning Data Set data.            </b>
+      </p>
+      <p>
+         <b>Sub contracting</b>
+If a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ sub-contracts healthcare provision and its associated Commissioning Data Set submission to a second 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ (eg a different 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ or a Shared Services Organisation), arrangements to submit the Commissioning Data Set data must be made locally to ensure that only one 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ sends the Commissioning Data Set data to the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
+      <p>
+If the second 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ wishes to add other Commissioning data to the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database to that already submitted by the first 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>, both parties need to ensure that a different 
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ is used. Often this is done by changing the last 2 digits of the 5 digit code (the Site element of the 
+              <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>).        </p>
+      <p>
+         <b>Note:</b>
+ Data sent using the same 
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ by two different parties will most likely overwrite each other's data in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database. Further advice can be obtained from the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">SUS</xref>) Service Desk, see the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+              <xref href="http://digital.nhs.uk/susguidance"
+               scope="external"
+               format="html">SUS Guidance</xref>.        </p>
+      <p>
+Users should be aware of how the 15 character code of their 
+              <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
+ (also known as the EDI Address) is created. This may depend on how their XML interface solution has been set up. It may not be possible to rely on a change to the 
+              <xref outputclass="element"
+               keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ in order to change the 
+              <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
+ should this become necessary.        </p>
+  </div>
+</body>
+</topic>

@@ -6,1207 +6,1293 @@
     <searchtitle>Data Set: National Joint Registry Data Set - Shoulder - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>SHOULDER PRIMARY</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>SHOULDER PRIMARY</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Patient Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Patient Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_handedness_code__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_handedness_code__joint_replacement_">HANDEDNESS CODE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Shoulder Primary Procedure Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Shoulder Primary Procedure Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_anatomical_side__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_patient_diagnosis_indication__primary_shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_previous_surgery_type__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgical Approach</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_anatomical_side__national_joint_registry_">ANATOMICAL SIDE (NATIONAL JOINT REGISTRY)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_procedure_type__primary_shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_fixation_type__humerus_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_fixation_type__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_surgical_approach__primary_or_revision_shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_patient_specific_instruments_indicator__shoulder_or_knee_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_computer_guided_surgery_indicator__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_biological_glenoid_resurfacing_type__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Thromboprophylaxis</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_diagnosis_indication__primary_shoulder_replacement_">PATIENT DIAGNOSIS INDICATION (PRIMARY SHOULDER REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_chemical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_mechanical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_previous_surgery_type__shoulder_replacement_">PREVIOUS SURGERY TYPE (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Bone Graft Used</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgical Approach</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bone_graft_indicator__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_bone_graft_structure__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_indicator__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_structure__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Rotator Cuff</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_procedure_type__primary_shoulder_replacement_">PATIENT PROCEDURE TYPE (PRIMARY SHOULDER REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_rotator_cuff_condition__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_rotator_cuff_repaired_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_rotator_cuff_repair_type__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Soft Tissues</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element" keyref="element_fixation_type__humerus_">FIXATION TYPE (HUMERUS)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_long_head_biceps_present_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_long_head_biceps_tenotomy_performed_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_long_head_biceps_tenodesis_performed_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_muscle_transfer_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_other_soft_tissue_procedure_performed_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgeon Notes</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element" keyref="element_fixation_type__glenoid_">FIXATION TYPE (GLENOID)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_surgeon_notes' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Intraoperative Event</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_surgical_approach__primary_or_revision_shoulder_replacement_">SURGICAL APPROACH (PRIMARY OR REVISION SHOULDER REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_untoward_intraoperative_event_code__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Pre-Operative Oxford Scores</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_specific_instruments_indicator__shoulder_or_knee_replacement_">PATIENT SPECIFIC INSTRUMENTS INDICATOR (SHOULDER OR KNEE REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_assessment_tool_completion_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_oxford_shoulder_score__question_1_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_2_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_3_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_4_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_5_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_6_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_7_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_8_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_9_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_10_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_11_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_12_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Components</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_computer_guided_surgery_indicator__joint_replacement_">COMPUTER GUIDED SURGERY INDICATOR (JOINT REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_catalogue_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_biological_glenoid_resurfacing_type__shoulder_replacement_">BIOLOGICAL GLENOID RESURFACING TYPE (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Thromboprophylaxis</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_batch_or_lot_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_chemical_thromboprophylaxis_regime_type__joint_replacement_">CHEMICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_mechanical_thromboprophylaxis_regime_type__joint_replacement_">MECHANICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Bone Graft Used</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__humeral_">BONE GRAFT INDICATOR (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__humeral_">BONE GRAFT STRUCTURE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__humeral_">BONE GRAFT SOURCE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__glenoid_">BONE GRAFT INDICATOR (GLENOID)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__glenoid_">BONE GRAFT STRUCTURE (GLENOID)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__glenoid_">BONE GRAFT SOURCE (GLENOID)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Rotator Cuff</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_rotator_cuff_condition__shoulder_replacement_">ROTATOR CUFF CONDITION (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_rotator_cuff_repaired_indicator__shoulder_replacement_">ROTATOR CUFF REPAIRED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_rotator_cuff_repair_type__shoulder_replacement_">ROTATOR CUFF REPAIR TYPE (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Soft Tissues</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_long_head_biceps_present_indicator__shoulder_replacement_">LONG HEAD BICEPS PRESENT INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_long_head_biceps_tenotomy_performed_indicator__shoulder_replacement_">LONG HEAD BICEPS TENOTOMY PERFORMED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_long_head_biceps_tenodesis_performed_indicator__shoulder_replacement_">LONG HEAD BICEPS TENODESIS PERFORMED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_muscle_transfer_indicator__shoulder_replacement_">MUSCLE TRANSFER INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_other_soft_tissue_procedure_performed_indicator__shoulder_replacement_">OTHER SOFT TISSUE PROCEDURE PERFORMED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgeon Notes</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Intraoperative Event</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_untoward_intraoperative_event_code__shoulder_replacement_">UNTOWARD INTRAOPERATIVE EVENT CODE (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Pre-Operative Oxford Scores</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_assessment_tool_completion_date">ASSESSMENT TOOL COMPLETION DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_1_">OXFORD SHOULDER SCORE (QUESTION 1)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_2_">OXFORD SHOULDER SCORE (QUESTION 2)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_3_">OXFORD SHOULDER SCORE (QUESTION 3)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_4_">OXFORD SHOULDER SCORE (QUESTION 4)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_5_">OXFORD SHOULDER SCORE (QUESTION 5)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_6_">OXFORD SHOULDER SCORE (QUESTION 6)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_7_">OXFORD SHOULDER SCORE (QUESTION 7)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_8_">OXFORD SHOULDER SCORE (QUESTION 8)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_9_">OXFORD SHOULDER SCORE (QUESTION 9)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_10_">OXFORD SHOULDER SCORE (QUESTION 10)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_11_">OXFORD SHOULDER SCORE (QUESTION 11)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_12_">OXFORD SHOULDER SCORE (QUESTION 12)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Components</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_catalogue_number">IMPLANT CATALOGUE NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_batch_or_lot_number">IMPLANT BATCH OR LOT NUMBER</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>SHOULDER REVISION</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>SHOULDER REVISION</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Patient Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Patient Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_handedness_code__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_handedness_code__joint_replacement_">HANDEDNESS CODE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Shoulder Revision Procedure Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Shoulder Revision Procedure Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_revision_procedure_type__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_arthroplasty_revision_type__shoulder_and_elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_anatomical_side__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_joint_replacement_revision_reason_code__shoulder_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Primary Operation Details</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_revision_procedure_type__shoulder_replacement_">REVISION PROCEDURE TYPE (SHOULDER REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_date__primary_joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Components Removed</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_arthroplasty_revision_type__shoulder_and_elbow_replacement_">ARTHROPLASTY REVISION TYPE (SHOULDER AND ELBOW REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_component_removal_indicator__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_component_removal_indicator__humeral_articulating_bearing_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_component_removal_indicator__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_component_removal_indicator__glenoid_articulating_bearing_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_component_removal_indicator__other_shoulder_revision_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgical Approach</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_anatomical_side__national_joint_registry_">ANATOMICAL SIDE (NATIONAL JOINT REGISTRY)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_procedure_type__revision_shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_fixation_type__humerus_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_joint_replacement_revision_reason_code__shoulder_">JOINT REPLACEMENT REVISION REASON CODE (SHOULDER)</xref>
+  </p>
+</entry>
           </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_fixation_type__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_surgical_approach__primary_or_revision_shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_patient_specific_instruments_indicator__shoulder_or_knee_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_biological_glenoid_resurfacing_type__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Thromboprophylaxis</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Primary Operation Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_chemical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_mechanical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Bone Graft Used</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_procedure_date__primary_joint_replacement_">PROCEDURE DATE (PRIMARY JOINT REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bone_graft_indicator__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_bone_graft_structure__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_indicator__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_structure__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__glenoid_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Rotator Cuff</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Components Removed</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_rotator_cuff_condition__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_rotator_cuff_repaired_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_rotator_cuff_repair_type__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Soft Tissues</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__humeral_">COMPONENT REMOVAL INDICATOR (HUMERAL)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_long_head_biceps_present_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_long_head_biceps_tenotomy_performed_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_long_head_biceps_tenodesis_performed_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_muscle_transfer_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_other_soft_tissue_procedure_performed_indicator__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgeon Notes</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__humeral_articulating_bearing_">COMPONENT REMOVAL INDICATOR (HUMERAL ARTICULATING BEARING)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_surgeon_notes' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Intraoperative Event</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__glenoid_">COMPONENT REMOVAL INDICATOR (GLENOID)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_untoward_intraoperative_event_code__shoulder_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Pre-Operative Oxford Scores</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__glenoid_articulating_bearing_">COMPONENT REMOVAL INDICATOR (GLENOID ARTICULATING BEARING)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_assessment_tool_completion_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_oxford_shoulder_score__question_1_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__other_shoulder_revision_">COMPONENT REMOVAL INDICATOR (OTHER SHOULDER REVISION)</xref>
+  </p>
+</entry>
           </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_2_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_3_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_4_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_5_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_6_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_7_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_8_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_9_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_10_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_11_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_oxford_shoulder_score__question_12_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Components</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgical Approach</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_catalogue_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_procedure_type__revision_shoulder_replacement_">PATIENT PROCEDURE TYPE (REVISION SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_batch_or_lot_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fixation_type__humerus_">FIXATION TYPE (HUMERUS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fixation_type__glenoid_">FIXATION TYPE (GLENOID)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_surgical_approach__primary_or_revision_shoulder_replacement_">SURGICAL APPROACH (PRIMARY OR REVISION SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_specific_instruments_indicator__shoulder_or_knee_replacement_">PATIENT SPECIFIC INSTRUMENTS INDICATOR (SHOULDER OR KNEE REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_biological_glenoid_resurfacing_type__shoulder_replacement_">BIOLOGICAL GLENOID RESURFACING TYPE (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Thromboprophylaxis</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_chemical_thromboprophylaxis_regime_type__joint_replacement_">CHEMICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_mechanical_thromboprophylaxis_regime_type__joint_replacement_">MECHANICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Bone Graft Used</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__humeral_">BONE GRAFT INDICATOR (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__humeral_">BONE GRAFT STRUCTURE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__humeral_">BONE GRAFT SOURCE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__glenoid_">BONE GRAFT INDICATOR (GLENOID)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__glenoid_">BONE GRAFT STRUCTURE (GLENOID)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__glenoid_">BONE GRAFT SOURCE (GLENOID)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Rotator Cuff</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_rotator_cuff_condition__shoulder_replacement_">ROTATOR CUFF CONDITION (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_rotator_cuff_repaired_indicator__shoulder_replacement_">ROTATOR CUFF REPAIRED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_rotator_cuff_repair_type__shoulder_replacement_">ROTATOR CUFF REPAIR TYPE (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Soft Tissues</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_long_head_biceps_present_indicator__shoulder_replacement_">LONG HEAD BICEPS PRESENT INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_long_head_biceps_tenotomy_performed_indicator__shoulder_replacement_">LONG HEAD BICEPS TENOTOMY PERFORMED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_long_head_biceps_tenodesis_performed_indicator__shoulder_replacement_">LONG HEAD BICEPS TENODESIS PERFORMED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_muscle_transfer_indicator__shoulder_replacement_">MUSCLE TRANSFER INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_other_soft_tissue_procedure_performed_indicator__shoulder_replacement_">OTHER SOFT TISSUE PROCEDURE PERFORMED INDICATOR (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgeon Notes</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Intraoperative Event</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_untoward_intraoperative_event_code__shoulder_replacement_">UNTOWARD INTRAOPERATIVE EVENT CODE (SHOULDER REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Pre-Operative Oxford Scores</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_assessment_tool_completion_date">ASSESSMENT TOOL COMPLETION DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_1_">OXFORD SHOULDER SCORE (QUESTION 1)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_2_">OXFORD SHOULDER SCORE (QUESTION 2)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_3_">OXFORD SHOULDER SCORE (QUESTION 3)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_4_">OXFORD SHOULDER SCORE (QUESTION 4)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_5_">OXFORD SHOULDER SCORE (QUESTION 5)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_6_">OXFORD SHOULDER SCORE (QUESTION 6)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_7_">OXFORD SHOULDER SCORE (QUESTION 7)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_8_">OXFORD SHOULDER SCORE (QUESTION 8)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_9_">OXFORD SHOULDER SCORE (QUESTION 9)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_10_">OXFORD SHOULDER SCORE (QUESTION 10)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_11_">OXFORD SHOULDER SCORE (QUESTION 11)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_oxford_shoulder_score__question_12_">OXFORD SHOULDER SCORE (QUESTION 12)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Components</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_catalogue_number">IMPLANT CATALOGUE NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_batch_or_lot_number">IMPLANT BATCH OR LOT NUMBER</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

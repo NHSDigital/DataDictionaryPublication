@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_improving_access_to_psychological_therapies_activity_suspension_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: IMPROVING ACCESS TO PSYCHOLOGICAL THERAPIES ACTIVITY SUSPENSION IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_improving_access_to_psychological_therapies_activity_suspension_identifier">IMPROVING ACCESS TO PSYCHOLOGICAL THERAPIES ACTIVITY SUSPENSION IDENTIFIER</xref>
+ is the same as attribute 
+              <xref outputclass="attribute"
+               keyref="attribute_activity_suspension_identifier">ACTIVITY SUSPENSION IDENTIFIER</xref>
+ for the 
+              <xref outputclass="dataSet"
+               keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_improving_access_to_psychological_therapies_activity_suspension_identifier">IMPROVING ACCESS TO PSYCHOLOGICAL THERAPIES ACTIVITY SUSPENSION IDENTIFIER</xref>
+ is:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+used to uniquely identify the period of 
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ initiated 
+                                <xref outputclass="class" keyref="class_activity_suspension">ACTIVITY SUSPENSION</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>is locally generated and does not need to be sequential.</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+See the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+              <xref href="https://digital.nhs.uk/iapt" scope="external" format="html">Improving Access to Psychological Therapies Data Set</xref>
+ for details of how this identifier is generated.        </p>
+  </div>
+</body>
+</topic>

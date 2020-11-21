@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_pathology_investigation_type.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PATHOLOGY INVESTIGATION TYPE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>CY</p>
+</stentry>
+        <stentry>
+  <p>Cytology</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>BU</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  <p> NOS (Not otherwise specified)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>EX</p>
+</stentry>
+        <stentry>
+  <p>Excision</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>PE</p>
+</stentry>
+        <stentry>
+  <p>Partial Excision</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>RE</p>
+</stentry>
+        <stentry>
+  <p>Radical Excision</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>FE</p>
+</stentry>
+        <stentry>
+  <p>Further Excision</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CU</p>
+</stentry>
+        <stentry>
+  <p>Curettage</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>SB</p>
+</stentry>
+        <stentry>
+  <p>
+Shave 
+        <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>PB</p>
+</stentry>
+        <stentry>
+  <p>
+Punch 
+        <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>IB</p>
+</stentry>
+        <stentry>
+  <p>
+Incisional 
+        <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>99</p>
+</stentry>
+        <stentry>
+  <p>Uncertain/other</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>9</p>
+</stentry>
+        <stentry>
+  <p>Uncertain/other (Retired 1 January 2013)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

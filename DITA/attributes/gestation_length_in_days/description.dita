@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_gestation_length_in_days.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: GESTATION LENGTH IN DAYS - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The gestation length of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_fetus_episode">Fetus Episode</xref>
+ recorded as the total number of days.        </p>
+      <p>The calculation may be:</p>
+      <p>
+a.  calculated by ultrasound scan measurements according to the trimester of the scan
+    b.  estimated from the 
+                  <xref outputclass="element" keyref="element_last_menstrual_period_date">LAST MENSTRUAL PERIOD DATE</xref>
+c.  estimated by clinical assessment (in the absence of a. or b.)          </p>
+      <p>
+The number of completed whole weeks of gestation and the remaining number of days of an uncompleted whole week should be calculated from the 
+              <xref outputclass="attribute" keyref="attribute_gestation_length_in_days">GESTATION LENGTH IN DAYS</xref>
+ for input and reporting purposes. Where there is no uncompleted whole week, the number of additional days should be recorded as zero.        </p>
+      <p>For example:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+a 
+                                <xref outputclass="attribute" keyref="attribute_gestation_length_in_days">GESTATION LENGTH IN DAYS</xref>
+ of 84 is input and reported as 12 weeks 0 days gestation length,                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+a 
+                                <xref outputclass="attribute" keyref="attribute_gestation_length_in_days">GESTATION LENGTH IN DAYS</xref>
+ of 72 is input and reported as 10 weeks 2 days gestation length,                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+a 
+                                <xref outputclass="attribute" keyref="attribute_gestation_length_in_days">GESTATION LENGTH IN DAYS</xref>
+ of 284 is input and reported as 40 weeks 4 days gestation length.                    </p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

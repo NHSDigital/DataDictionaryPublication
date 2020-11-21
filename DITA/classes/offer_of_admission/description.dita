@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_offer_of_admission.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: OFFER OF ADMISSION - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+This records each 
+              <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+ made to a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ on the 
+              <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>.        </p>
+      <p>
+When the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ accepts an 
+              <xref outputclass="attribute" keyref="attribute_offered_for_admission_date">OFFERED FOR ADMISSION DATE</xref>, it is this offered date that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is expected to attend and be admitted.        </p>
+      <p>
+         <xref outputclass="attribute" keyref="attribute_admission_offer_outcome">ADMISSION OFFER OUTCOME</xref>
+ records whether or not the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was admitted and the circumstances that applied.        </p>
+  </div>
+</body>
+</topic>

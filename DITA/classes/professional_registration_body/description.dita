@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_professional_registration_body.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: PROFESSIONAL REGISTRATION BODY - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A subtype of 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="class" keyref="class_professional_registration_body">PROFESSIONAL REGISTRATION BODY</xref>
+ administers the registration of a 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>
+ who is a 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or other professional, to enable them to practice their profession. For example the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_general_medical_council">General Medical Council</xref>
+ is a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_regulatory_body">Regulatory Body</xref>
+ for 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+ and other doctors.        </p>
+      <p>
+In specific professions, an 
+              <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>
+ must have successfully completed a recognised or accredited training programme and applied to the relevant 
+              <xref outputclass="class" keyref="class_professional_registration_body">PROFESSIONAL REGISTRATION BODY</xref>
+ in order to be registered as able to practice. This registration is recorded by a 
+              <xref outputclass="class" keyref="class_professional_registration">PROFESSIONAL REGISTRATION</xref>
+ for each 
+              <xref outputclass="attribute"
+               keyref="attribute_professional_registration_type">PROFESSIONAL REGISTRATION TYPE</xref>
+ held by the 
+              <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="class" keyref="class_professional_registration">PROFESSIONAL REGISTRATION</xref>
+ has to be maintained on a regular basis in line with the requirements of the 
+              <xref outputclass="class" keyref="class_professional_registration_body">PROFESSIONAL REGISTRATION BODY</xref>.        </p>
+      <p>
+For certain 
+              <xref outputclass="class" keyref="class_position">POSITIONS</xref>
+ within an 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ it is mandatory for the 
+              <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>
+ to hold a 
+              <xref outputclass="class" keyref="class_professional_registration">PROFESSIONAL REGISTRATION</xref>
+ of a given 
+              <xref outputclass="attribute"
+               keyref="attribute_professional_registration_type">PROFESSIONAL REGISTRATION TYPE</xref>
+ or from a list of 
+              <xref outputclass="attribute"
+               keyref="attribute_professional_registration_type">PROFESSIONAL REGISTRATION TYPES</xref>
+ (as multiple 
+              <xref outputclass="attribute"
+               keyref="attribute_professional_registration_type">PROFESSIONAL REGISTRATION TYPES</xref>
+ may be acceptable for the 
+              <xref outputclass="class" keyref="class_position">POSITION</xref>).        </p>
+  </div>
+</body>
+</topic>

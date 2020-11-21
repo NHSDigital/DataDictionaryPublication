@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_estimated_glomerular_filtration_rate.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ESTIMATED GLOMERULAR FILTRATION RATE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_estimated_glomerular_filtration_rate">ESTIMATED GLOMERULAR FILTRATION RATE</xref>
+ is the result of the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+ to determine the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s Estimated Glomerular Filtration Rate (eGFR), a test that is used to assess how well the kidneys are working.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_estimated_glomerular_filtration_rate">ESTIMATED GLOMERULAR FILTRATION RATE</xref>
+ is a measurement of how many millilitres (ml) of waste fluid the kidneys can filter from the blood in a minute, where the 
+              <xref outputclass="attribute" keyref="attribute_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+ is 'Millilitres per Minute divided by 1.73 Square Metres (ml/min/1.73m2)'.        </p>
+      <p>
+For the 
+              <xref outputclass="dataSet"
+               keyref="dataset_cancer_outcomes_and_services_data_set_-_urological">Cancer Outcomes and Services Data Set - Urological</xref>: Urological, 
+              <xref outputclass="element"
+               keyref="element_estimated_glomerular_filtration_rate">ESTIMATED GLOMERULAR FILTRATION RATE</xref>
+ is collected once at 
+              <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>.        </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_unique_booking_reference_number__converted_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: UNIQUE BOOKING REFERENCE NUMBER (CONVERTED) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The unique booking reference number assigned by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_choose_and_book">Choose and Book</xref>
+ system when a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ accepts an 
+              <xref outputclass="attribute" keyref="attribute_appointment_date_offered">APPOINTMENT DATE OFFERED</xref>
+ of an 
+              <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
+ where the offer was made via the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_choose_and_book">Choose and Book</xref>
+ system.        </p>
+      <p>
+When a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ accepts an 
+              <xref outputclass="attribute" keyref="attribute_appointment_date_offered">APPOINTMENT DATE OFFERED</xref>, the unique booking reference number issued and used during the booking process is considered to be 'converted' i.e. an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ has been created and recorded; and the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been placed on an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_waiting_list">Out-Patient Waiting List</xref>
+ even if subsequently the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ does not attend or cancels the 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
+      <p>
+         <xref outputclass="attribute"
+               keyref="attribute_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
+ should only be recorded where the type of booking system is the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_choose_and_book">Choose and Book</xref>
+ system.        </p>
+  </div>
+</body>
+</topic>

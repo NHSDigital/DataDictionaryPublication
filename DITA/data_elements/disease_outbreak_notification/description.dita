@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_disease_outbreak_notification.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DISEASE OUTBREAK NOTIFICATION - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_disease_outbreak_notification">DISEASE OUTBREAK NOTIFICATION</xref>
+ is the same as attribute 
+              <xref outputclass="attribute"
+               keyref="attribute_person_observation_text_string">PERSON OBSERVATION TEXT STRING</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_disease_outbreak_notification">DISEASE OUTBREAK NOTIFICATION</xref>
+ is used in the 
+              <xref outputclass="dataSet"
+               keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
+ / 
+              <xref outputclass="dataSet"
+               keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>
+ to support collection of nationally-notifiable data relating to outbreaks of disease which are identified in 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_emergency_care_department">Emergency Care Departments</xref>. Where a 
+              <xref outputclass="element" keyref="element_snomed_ct_code">SNOMED CT CODE</xref>
+ is available, the 
+              <xref outputclass="element" keyref="element_disease_outbreak_notification">DISEASE OUTBREAK NOTIFICATION</xref>
+ field should contain this.  If a 
+              <xref outputclass="element" keyref="element_snomed_ct_code">SNOMED CT CODE</xref>
+ is NOT available, then it is permissible to submit free-text detail of the disease.        </p>
+      <xref outputclass="element" keyref="element_disease_outbreak_notification">DISEASE OUTBREAK NOTIFICATION</xref>
+      <p>
+is collected for a specified purpose at national level only and will not be available from the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ for use by unauthorised 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ or individuals.        </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_addressing_grid.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set Addressing Grid - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <b>
+This page has been updated in 
+                <xref href="https://www.datadictionary.nhs.uk/DDCNs/cr1645.pdf"
+                  scope="external"
+                  format="html">DDCN 1645 (Specialised Commissioning: Removal of Default Code YDD82)</xref>
+ to remove the National Commissioning Group, as NHS England became responsible for commissioning all specialised services in April 2013.
+The page will be updated as part of an Information Standard to reflect the current arrangements for the Commissioning Data Sets.            </b>
+      </p>
+      <p>
+The 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>
+ below illustrates which 
+            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODES</xref>
+ should be used to populate the 
+            <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+ and 
+            <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+ for each 
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>/ 
+            <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENT</xref>.  See the specific 
+            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ Data Elements for further information on their usage and 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>
+ etc.        </p>
+      <p>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ need to specify the 
+            <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ that have a right to the commissioning data set data as a 
+            <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+ or 
+            <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>. This is so that they can access the data once it has been stored in the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
+      <p>
+         <i>
+Please note that payment via the 
+                <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+ is not determined by the 
+                <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+ or 
+                <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>.            </i>
+      </p>
+      <p>
+         <b>Important Notes:</b>
+      </p>
+      <ul>
+         <li>
+            <p>
+The 
+                        <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+ must be allocated on the first creation and submission of a 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ for a 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ and 
+                        <b>
+must not change even if the 
+                            <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ or 
+                            <xref outputclass="element"
+                        keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+ of the 
+                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ changes during the lifetime of the Commissioning Data Set record                    </b>
+ otherwise duplicate Commissioning Data Set data may be lodged in the 
+                        <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database.
+    See the supporting information in 
+                        <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+ for a detailed explanation.
+                    </p>
+         </li>
+         <li>
+            <p>
+Note that if two recipients are identical for example, the 
+                        <xref outputclass="element"
+                     keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+ may be the same as the 
+                        <xref outputclass="element"
+                     keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>, only one entry for that 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ should be made for that recipient.
+                    </p>
+         </li>
+         <li>
+            <p>
+Specialised service 
+                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ commissioned by a regional Specialised Commissioning Group should include their 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ as a 
+                        <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>. 
+                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ commissioned by a shared service 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+  or other consortium of 
+                        <xref outputclass="businessDefinition"
+                     keyref="business_definition_primary_care_trust">Primary Care Trusts</xref>, should similarly include the 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ of the shared service or the lead 
+                        <xref outputclass="businessDefinition"
+                     keyref="business_definition_primary_care_trust">Primary Care Trust</xref>, if this does not already appear as a 
+                        <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+ or 
+                        <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>.                </p>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <p>
+               <b>
+                  <xref outputclass="supportingInformation"
+                        keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>
+ for users of Commissioning Data Set version 6-2 onwards                    </b>
+            </p>
+         </li>
+         <li>
+            <table outputclass="table table-striped table-bordered table-sm">
+               <tgroup cols="5">
+                  <colspec colname="col1" colwidth="1*"/>
+                  <colspec colname="col2" colwidth="1*"/>
+                  <colspec colname="col3" colwidth="1*"/>
+                  <colspec colname="col4" colwidth="1*"/>
+                  <colspec colname="col5" colwidth="1*"/>
+                  <tbody>
+                     <row>
+                        <entry morerows="1">
+                           <p>
+                              <b>
+                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>/ 
+                                  <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENT</xref>
+                              </b>
+                           </p>
+                        </entry>
+                        <entry namest="col2" nameend="col5">
+                           <p>
+                              <b>Data Elements in the Commissioning Data Sets Version 6-2 onwards</b>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+                              <b>
+                                 <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+                              </b>
+                              <b>M*</b>
+                           </p>
+                        </entry>
+                        <entry namest="col2" nameend="col3">
+                           <p>
+                              <b>
+                                 <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+                              </b>
+                              <b>O*</b>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+Private 
+                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <p>VPP00</p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__responsible_pct_">ORGANISATION CODE (RESPONSIBLE PCT)</xref>
+                           <p>
+ or 
+                            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  of the responsible 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="businessDefinition"
+                                 keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+                           <p>
+liable for NHS charges and not registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <p>VPP00</p>
+                        </entry>
+                        <entry>
+                           <p> </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="businessDefinition"
+                                 keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+                           <p>
+liable for NHS charges and registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <p>VPP00</p>
+                        </entry>
+                        <entry>
+                           <p>
+  
+                            <xref outputclass="element"
+                                    keyref="element_organisation_code__responsible_pct_">ORGANISATION CODE (RESPONSIBLE PCT)</xref>
+  or 
+                            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  of the responsible 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="businessDefinition"
+                                 keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+                           <p>
+exempt from charges, current permanent residence overseas and not registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <p>TDH00</p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+                        </entry>
+                        <entry>
+                           <p> </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="businessDefinition"
+                                 keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+                           <p>
+exempt from charges, current permanent overseas and registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <p>TDH00</p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__responsible_pct_">ORGANISATION CODE (RESPONSIBLE PCT)</xref>
+                           <p>
+ or 
+                            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  of the responsible 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="businessDefinition"
+                                 keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+                           <p>
+exempt from charges, current permanent residence is the UK and not registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+                        </entry>
+                        <entry>
+                           <p> </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="businessDefinition"
+                                 keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+                           <p>
+exempt from charges, current permanent residence is the UK and registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__responsible_pct_">ORGANISATION CODE (RESPONSIBLE PCT)</xref>
+                           <p>
+ or 
+                            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  of the responsible 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                           <p>
+registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ treated as a 
+                            <xref outputclass="supportingInformation"
+                                    keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__responsible_pct_">ORGANISATION CODE (RESPONSIBLE PCT)</xref>
+                           <p>
+ or 
+                            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  of the responsible 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                           <p>
+not registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ treated as a 
+                            <xref outputclass="supportingInformation"
+                                    keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+                        </entry>
+                        <entry>
+                           <p> </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+** 
+                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ registered with 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ with a Specialised Services and Other Commissioning Consortia Service Agreement                      </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__responsible_pct_">ORGANISATION CODE (RESPONSIBLE PCT)</xref>
+                           <p>
+ or 
+                            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  of the responsible 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                           </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+                           <p>
+of 
+                            <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+  to which costs of treatment accrue                      </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>
+** 
+                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ not registered with 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ with a Specialised Services and Other Commissioning Consortia Service Agreement                      </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+                           <p>
+of 
+                            <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+  to which costs of treatment accrue                      </p>
+                        </entry>
+                        <entry>
+                           <p> </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                           <p>
+registered with 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ with 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_primary_care_trust">Primary Care Trust</xref>
+                              <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENT</xref>
+  (excluding 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_overseas_visitor">Overseas Visitors</xref>)                      </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__responsible_pct_">ORGANISATION CODE (RESPONSIBLE PCT)</xref>
+                           <p>
+ or 
+                            <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  of the responsible 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                           </p>
+                        </entry>
+                        <entry morerows="1">
+                           <p> </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                           <p>
+not registered with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ but resident in an area covered by a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_primary_care_trust">Primary Care Trust</xref>
+ with a 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_primary_care_trust">Primary Care Trust</xref>
+                              <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENT</xref>
+  (excluding 
+                            <xref outputclass="businessDefinition"
+                                    keyref="business_definition_overseas_visitor">Overseas Visitors</xref>)                      </p>
+                        </entry>
+                        <entry>
+                           <xref outputclass="element"
+                                 keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                        </entry>
+                        <entry>
+                           <p> </p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <p>Notes:</p>
+            <p>Key to population codes:</p>
+            <p>
+* 
+                            <b>M -</b>
+ This Data Element is mandatory in the CDS-XML schema. Submissions will not flow if this Data Element is absent
+                            <b>O -</b>
+ This Data Element is optional.                  </p>
+            <p>
+** Specialised Services and Other Commissioning Consortia Service Agreements include 
+                            <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ that are commissioned by regional Specialised Commissioning Groups and local arrangements for commissioning 
+                            <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ through shared service 
+                            <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>.                  </p>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

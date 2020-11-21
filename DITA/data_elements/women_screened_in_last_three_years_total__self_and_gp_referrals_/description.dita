@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_women_screened_in_last_three_years_total__self_and_gp_referrals_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: WOMEN SCREENED IN LAST THREE YEARS TOTAL (SELF AND GP REFERRALS) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_women_screened_in_last_three_years_total__self_and_gp_referrals_">WOMEN SCREENED IN LAST THREE YEARS TOTAL (SELF AND GP REFERRALS)</xref>
+ is the total number of women with a:        </p>
+      <ul>
+         <li>
+            <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
+            <p>
+ for a 
+                          <xref outputclass="businessDefinition" keyref="business_definition_mammogram">Mammogram</xref>
+            </p>
+         </li>
+         <li>
+            <xref outputclass="attribute" keyref="attribute_screening_referral_source">SCREENING REFERRAL SOURCE</xref>
+            <p>
+ recorded as National Code '<i>Self-referral'</i>
+ or '<i>General Medical Practitioner'</i>
+            </p>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_screening_test_date">SCREENING TEST DATE</xref>
+            <p>
+ in 36 months up to the 
+                          <xref outputclass="attribute" keyref="attribute_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+                 </p>
+         </li>
+         <li>
+            <xref outputclass="attribute"
+                  keyref="attribute_breast_screening_mammography_outcome_code">BREAST SCREENING MAMMOGRAPHY OUTCOME CODE</xref>
+            <p>.</p>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

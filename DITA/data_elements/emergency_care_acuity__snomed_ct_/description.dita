@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_emergency_care_acuity__snomed_ct_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: EMERGENCY CARE ACUITY (SNOMED CT) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+ 
+              <xref outputclass="element"
+               keyref="element_emergency_care_acuity__snomed_ct_">EMERGENCY CARE ACUITY (SNOMED CT)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_clinical_terminology_code">CLINICAL TERMINOLOGY CODE</xref>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_emergency_care_acuity__snomed_ct_">EMERGENCY CARE ACUITY (SNOMED CT)</xref>
+ is the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+® concept ID which is used to indicate the acuity of the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s condition on the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_emergency_care_initial_assessment_date">Emergency Care Initial Assessment Date</xref>
+ and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_emergency_care_initial_assessment_time">Emergency Care Initial Assessment Time</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="element"
+               keyref="element_emergency_care_acuity__snomed_ct_">EMERGENCY CARE ACUITY (SNOMED CT)</xref>
+ may be determined by a formal triage process, or by the physical allocation of the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to a specific clinical area such as Resuscitation.        </p>
+      <p>
+         <xref outputclass="supportingInformation"
+               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
+ Metadata:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_snomed_ct_refset">Refset</xref>
+               <p>FSN: Emergency care acuity simple reference set (foundation metadata concept)</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_snomed_ct_refset">Refset</xref>
+               <p>Id: 999003061000000107</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+For further details relating to the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
+ Metadata, see the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_data_dictionary_for_care">Data Dictionary for Care</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_data_dictionary_for_care">DD4C</xref>) website at: 
+              <xref href="https://dd4c.digital.nhs.uk/dd4c/publishedmetadatas/intid/810"
+               scope="external"
+               format="html">Emergency care acuity</xref>.        </p>
+  </div>
+</body>
+</topic>

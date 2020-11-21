@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_long_head_biceps_present_indicator_for_shoulder_replacement.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: LONG HEAD BICEPS PRESENT INDICATOR FOR SHOULDER REPLACEMENT - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>
+  <p>
+Yes - the Long Head Biceps is present in a 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ during 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_shoulder_replacement_surgery">Primary Shoulder Replacement Surgery</xref>
+ or 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_revision_shoulder_replacement_surgery">Revision Shoulder Replacement Surgery</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>0</stentry>
+        <stentry>
+  <p>
+No - the Long Head Biceps is not present in a 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ during 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_shoulder_replacement_surgery">Primary Shoulder Replacement Surgery</xref>
+ or 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_revision_shoulder_replacement_surgery">Revision Shoulder Replacement Surgery</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_patient_location__nhs_continuing_healthcare_checklist_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PATIENT LOCATION (NHS CONTINUING HEALTHCARE CHECKLIST) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>Own home</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>
+Acute hospital 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <p>
+Non-acute hospital 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_hospice">Hospice</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>98</p>
+</stentry>
+        <stentry>
+  <p>Other (not listed)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

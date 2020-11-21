@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_person_gender_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: PERSON GENDER CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>The classification is phenotypical rather than genotypical, i.e. it does not provide codes for medical or scientific purposes.</p>
+      <p>Notes:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+National Code 
+                                <i>'Not Known'</i>
+ means that the sex of a 
+                                <xref outputclass="class" keyref="class_person">PERSON</xref>
+ has not been recorded                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+National Code '<i>Not Specified'</i>
+ means indeterminate, i.e. unable to be classified as either male or female.                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
+Note:
+  This was 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+ approved for use in NHS England.
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+ and the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
+ 
+              <b>have been archived</b>
+ and are available for reference only.        </p>
+      <p>
+         <b>
+            <xref outputclass="attribute" keyref="attribute_person_gender_code">PERSON GENDER CODE</xref>
+ will be replaced with 
+                  <xref outputclass="attribute" keyref="attribute_person_stated_gender_code">PERSON STATED GENDER CODE</xref>
+ or 
+                  <xref outputclass="attribute"
+                  keyref="attribute_person_phenotypic_sex_classification">PERSON PHENOTYPIC SEX CLASSIFICATION</xref>, which is the most recent approved national information standard to describe the required definition.            </b>
+      </p>
+  </div>
+</body>
+</topic>

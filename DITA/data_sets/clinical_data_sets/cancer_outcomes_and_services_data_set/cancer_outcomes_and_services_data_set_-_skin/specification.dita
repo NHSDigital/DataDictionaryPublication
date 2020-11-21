@@ -6,63 +6,49 @@
     <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Skin - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>TREATMENT - SURGERY: BASAL CELL CARCINOMAS (BCC), SQUAMOUS CELL CARCINOMA (SCC), MALIGNANT MELANOMA (MM) - SKIN</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>TREATMENT - SURGERY: BASAL CELL CARCINOMAS (BCC), SQUAMOUS CELL CARCINOMA (SCC), MALIGNANT MELANOMA (MM) - SKIN</b>
 
   <p>To carry surgery details for Basal Cell Carcinoma (BCC), Squamous Cell Carcinoma (SCC) and Malignant Melanoma (MM) for Skin cancer.One occurrence of this group is permitted per Core Treatment Surgery.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_operating_surgeon_type__cancer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_operating_surgeon_type__cancer_">CARE PROFESSIONAL OPERATING SURGEON TYPE (CANCER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_member_of_specialist_multidisciplinary_team_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_member_of_specialist_multidisciplinary_team_indicator">MEMBER OF SPECIALIST MULTIDISCIPLINARY TEAM INDICATOR</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_mental_health_act_legal_status_classification_assignment_period_end_reason.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION ASSIGNMENT PERIOD END REASON - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+  <p>
+Change in 
+        <xref outputclass="attribute"
+            keyref="attribute_mental_health_act_legal_status_classification_code">MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION CODE</xref>
+ (including to informal)    </p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>02</stentry>
+        <stentry>Unrestricted treatment order (Community Treatment Order) (Retired 01 January 2016)</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>03</stentry>
+        <stentry>Restricted treatment order (Conditional Discharge) (Retired 01 January 2016)</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+  <p>
+Transfer to other 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+  <p>
+Death of 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

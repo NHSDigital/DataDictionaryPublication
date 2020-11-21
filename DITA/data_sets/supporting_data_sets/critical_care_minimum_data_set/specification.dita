@@ -6,315 +6,305 @@
     <searchtitle>Data Set: Critical Care Minimum Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Data Set Data Elements</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>Data Set Data Elements</b>
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_patient_identifier">LOCAL PATIENT IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_local_identifier">CRITICAL CARE LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_site_code__of_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_general_medical_practice_code__patient_registration_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_activity_treatment_function_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_activity_treatment_function_code">ACTIVITY TREATMENT FUNCTION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_birth_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_postcode_of_usual_address' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_start_date">CRITICAL CARE START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_start_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_start_time">CRITICAL CARE START TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_unit_function' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_unit_bed_configuration' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_critical_care_unit_bed_configuration">CRITICAL CARE UNIT BED CONFIGURATION</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_admission_source' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_admission_source">CRITICAL CARE ADMISSION SOURCE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_source_location' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_source_location">CRITICAL CARE SOURCE LOCATION</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_admission_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_admission_type">CRITICAL CARE ADMISSION TYPE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_advanced_respiratory_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_advanced_respiratory_support_days">ADVANCED RESPIRATORY SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_basic_respiratory_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_basic_respiratory_support_days">BASIC RESPIRATORY SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_advanced_cardiovascular_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_advanced_cardiovascular_support_days">ADVANCED CARDIOVASCULAR SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_basic_cardiovascular_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_renal_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_renal_support_days">RENAL SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_neurological_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_neurological_support_days">NEUROLOGICAL SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_gastro-intestinal_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_gastro-intestinal_support_days">GASTRO-INTESTINAL SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_dermatological_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_dermatological_support_days">DERMATOLOGICAL SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_liver_support_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_liver_support_days">LIVER SUPPORT DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organ_support_maximum' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_organ_support_maximum">ORGAN SUPPORT MAXIMUM</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_level_2_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_level_2_days">CRITICAL CARE LEVEL 2 DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_level_3_days' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_level_3_days">CRITICAL CARE LEVEL 3 DAYS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_status' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_discharge_status">CRITICAL CARE DISCHARGE STATUS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_destination' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_critical_care_discharge_destination">CRITICAL CARE DISCHARGE DESTINATION</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_location' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_discharge_location">CRITICAL CARE DISCHARGE LOCATION</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_ready_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_critical_care_discharge_ready_date">CRITICAL CARE DISCHARGE READY DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_ready_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_critical_care_discharge_ready_time">CRITICAL CARE DISCHARGE READY TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_discharge_date">CRITICAL CARE DISCHARGE DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_discharge_time">CRITICAL CARE DISCHARGE TIME</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

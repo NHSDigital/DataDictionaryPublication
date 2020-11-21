@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cancer_or_symptomatic_breast_referral_patient_status.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CANCER OR SYMPTOMATIC BREAST REFERRAL PATIENT STATUS - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>14</p>
+</stentry>
+        <stentry>
+  <p>
+Suspected 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>09</p>
+</stentry>
+        <stentry>
+  <p>
+Under investigation following symptomatic referral, cancer not suspected (breast referrals only). This National Code should only be used when the 
+        <xref outputclass="attribute"
+            keyref="attribute_two_week_wait_cancer_or_symptomatic_breast_referral_type">TWO WEEK WAIT CANCER OR SYMPTOMATIC BREAST REFERRAL TYPE</xref>
+ is National Code '<i>Exhibited (non-cancer) breast symptoms - cancer not initially suspected.'</i>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>
+No new cancer diagnosis identified by the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+     </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>10</p>
+</stentry>
+        <stentry>
+  <p>Diagnosis of new cancer confirmed - NHS funded first treatment not yet planned</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>11</p>
+</stentry>
+        <stentry>
+  <p>Diagnosis of new cancer confirmed - NHS funded first treatment planned</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <p>Diagnosis of new cancer confirmed - no NHS funded treatment planned</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <p>First NHS funded treatment commenced</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>12</p>
+</stentry>
+        <stentry>
+  <p>Diagnosis of new cancer confirmed - subsequent NHS funded treatment not yet planned</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>13</p>
+</stentry>
+        <stentry>
+  <p>Diagnosis of new cancer confirmed - subsequent NHS funded treatment planned</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>21</p>
+</stentry>
+        <stentry>
+  <p>Subsequent NHS funded treatment commenced</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>15</p>
+</stentry>
+        <stentry>
+  <p>
+Suspected 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrent Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>16</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrent Cancer</xref>
+ confirmed - first NHS funded treatment not yet planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>17</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrent Cancer</xref>
+ confirmed - NHS funded first treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>18</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrent Cancer</xref>
+ confirmed - no NHS funded treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>19</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrent Cancer</xref>
+ confirmed - subsequent NHS funded treatment not yet planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>20</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrent Cancer</xref>
+ confirmed - subsequent NHS funded treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>22</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_cancer_recurrence">Recurrent Cancer</xref>
+  <p> NHS funded treatment commenced</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>23</p>
+</stentry>
+        <stentry>
+  <p>
+Suspected 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>24</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+ confirmed - NHS funded first treatment not yet planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>25</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+ confirmed - NHS funded first treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>26</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+ confirmed - no NHS funded treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>27</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+ confirmed - subsequent NHS funded treatment not yet planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>28</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+ confirmed - subsequent NHS funded treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>29</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+  <p> NHS funded treatment commenced</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>30</p>
+</stentry>
+        <stentry>
+  <p>
+Suspected 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>31</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ confirmed - NHS funded first treatment not yet planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>32</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ confirmed - NHS funded first treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>33</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ confirmed - no NHS funded treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>34</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ confirmed - subsequent NHS funded treatment not yet planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>35</p>
+</stentry>
+        <stentry>
+  <p>
+Diagnosis of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ confirmed - subsequent NHS funded treatment planned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>36</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_cancer_progression">Cancer Progression</xref>
+  <p> NHS funded treatment commenced</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,1017 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_notation.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set Notation - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+ is the basic structure used for the submission of commissioning data to the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ and is designed to be capable of individually conveying many different Commissioning Data Set structures, encompassing Accident and Emergency Attendances, Out-Patient Attendances, Admitted Patient Care and Elective Admission List.        </p>
+      <p>
+The 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+ have been defined in specific components known as a 
+            <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>.        </p>
+      <p>
+Specific notation is used to indicate the requirements of the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_xml_schema_design">Commissioning Data Set XML Schema Design</xref>
+ conditions for submission of data in the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>.        </p>
+      <p>The structure of the Commissioning Data Set XML Schema is shown by the use of Data Groups and Sub Groups within those Data Groups.  For each Data Group, Sub Group and individual Data Element, the allowed cardinality at each level is also shown in the "Status" and "Repeats" columns.</p>
+      <p>
+The 
+            <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ specifications must therefore be read in this hierarchy, using the Status and Repeat conditions within the Data Groups and Sub Groups, to determine the requirements for the individual Data Elements.        </p>
+      <p>
+         <b>Status Column Notation</b>
+      </p>
+      <p>
+The Notation used for the 
+            <b>"STATUS"</b>
+ column is as follows:        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>STATUS</b>
+                  </entry>
+                  <entry scope="col">
+                     <b>MEANING</b>
+                  </entry>
+                  <entry scope="col">
+                     <b>DESCRIPTION</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>MANDATORY</b>
+                  </entry>
+                  <entry>
+                     <p>
+This signifies that the collection and submission of this Commissioning Data Set data is deemed 
+                        <b>MANDATORY</b>
+ and its presence is necessary for the 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ to be correctly validated and accepted for processing by the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
+                     <p>
+If a data item is shown as 
+                        <b>MANDATORY</b>, this should also be regarded as 
+                        <b>REQUIRED</b>
+ by the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>.                  </p>
+                     <p>
+In most instances, data marked as 
+                        <b>MANDATORY</b>
+ in a Sub Group will result in its parent Data Group also being marked as mandatory, but this is not always the case.                  </p>
+                     <p>
+For instance, although the Consultant Episode - Clinical Diagnosis Group (ICD) is marked as 
+                        <b>R=REQUIRED</b>
+ (and therefore need not actually be populated), if it is used then both the 
+                        <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+ and the 
+                        <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+ are marked as 
+                        <b>M=MANDATORY</b>
+ and must both be present.                   </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>R</b>
+                  </entry>
+                  <entry>
+                     <b>REQUIRED</b>
+                  </entry>
+                  <entry>
+                     <p>
+This signifies that the collection and submission of this Commissioning Data Set data is deemed 
+                        <b>REQUIRED</b>
+ by the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+  to comply with authorised NHS Standards, Policies and Directives. Therefore whenever a Commissioning Data Set is collected and subsequently submitted to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>, this data must be supported and populated into the relevant data sets if the data is available.                  </p>
+                     <p>Note that "temporal" conditions may mean that there are instances where this directive cannot be fulfilled.</p>
+                     <p>
+For instance in a 
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>, ICD and OPCS data elements are marked as "Required" indicating that this data should be included.  However, if at the time of submission to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ this data remains incomplete (perhaps awaiting coding in the 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>), the remaining data in the CDS record should still be submitted. Once the 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+  has updated its systems with the data, the 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ relating to that 
+                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ should then be resubmitted to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                   </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>O</b>
+                  </entry>
+                  <entry>
+                     <b>OPTIONAL</b>
+                  </entry>
+                  <entry>
+                     <p>
+This signifies that the collection and submission of this Commissioning Data Set data is 
+                        <b>OPTIONAL</b>. Its inclusion in the Commissioning Data Set is therefore determined by "local agreement" between the 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ exchanging the data.                  </p>
+                     <p>
+Note that even if marked 
+                        <b>O=OPTIONAL</b>, any data included in a Commissioning Data Set submission to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ must comply with its specification published in the NHS Data Model and Dictionary otherwise the data may be deemed invalid and rejected.                   </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>X</b>
+                  </entry>
+                  <entry>
+                     <b>X</b>
+                  </entry>
+                  <entry>
+                     <p>This is used where the Data Element name has been included in the Commissioning Data Set design, usually for pilot use, but is not yet authorised for transmission by the wider NHS. The Data Element will be in italics and not linked to the Data Element where one exists.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>Repeats Column Notation</b>
+      </p>
+      <p>
+The Notation used for the 
+            <b>"REPEATS"</b>
+ column is as follows:        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry namest="col1" nameend="col2" scope="col">
+                     <b>REPEATS</b>
+                  </entry>
+                  <entry scope="col">
+                     <b>DESCRIPTION</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>0..1</b>
+                  </entry>
+                  <entry>
+                     <p>This signifies that the permitted occurrences of the Data Group, Sub Group or individual Data Element are from a minimum of 0 to a maximum of 1.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>0..9</b>
+                  </entry>
+                  <entry>
+                     <p>This signifies that the permitted occurrences of the Data Group, Sub Group or individual Data Element are from a minimum of 0 to a maximum of 9.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>0..*</b>
+                  </entry>
+                  <entry>
+                     <p>This signifies that the permitted occurrences of the Data Group, Sub Group or individual Data Element are from a minimum of 0 to an unlimited maximum.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <p>This signifies that the permitted occurrences of the Data Group, Sub Group or individual Data Element are from a minimum of 1 to a maximum of 1.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>1..97</b>
+                  </entry>
+                  <entry>
+                     <p>This signifies that the permitted occurrences of the Data Group, Sub Group or individual Data Element are from a minimum of 1 to a maximum of 97.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>1..*</b>
+                  </entry>
+                  <entry>
+                     <p>This signifies that the permitted occurrences of the Data Group, Sub Group or individual Data Element are from a minimum of 1 to an unlimited maximum.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>Rules Column Notation</b>
+      </p>
+      <p>
+An entry in the 
+            <b>"
+                <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>"            </b>
+ column shows that a specific Rule applies to submission of an individual Data Element.        </p>
+      <p>
+The meaning of these Rules can be found in 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_business_rules">Commissioning Data Set Business Rules</xref>.        </p>
+      <p>
+         <b>Notation Examples</b>
+      </p>
+      <p>The following are examples of some common scenarios.</p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>EXAMPLE 1: A MANDATORY Data Group with differing Sub-Groups and component data status conditions.</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+The following example shows a 
+                        <b>MANDATORY</b>
+ Data Group - therefore the Data Group must be present for the 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ to be validated and accepted for processing by the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
+                     <p>When a Data Group is used:</p>
+                     <ol>
+                        <li>
+                           <p>
+All 
+                                        <b>MANDATORY</b>
+ Sub Groups and/or Data Elements must be present                              </p>
+                        </li>
+                        <li>
+                           <p>
+Any 
+                                        <b>REQUIRED</b>
+ Sub Groups and/or Data Elements must be present if the data is available                              </p>
+                        </li>
+                        <li>
+                           <p>
+Any 
+                                        <b>OPTIONAL</b>
+ Sub Groups and/or Data Elements may be omitted                              </p>
+                        </li>
+                     </ol>
+                     <p>The following data structure is one of three options when completing the Patient Identity Data Group:</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="6">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>1..1</p>
+                  </entry>
+                  <entry namest="col2" nameend="col5">
+                     <b>DATA GROUP: VERIFIED IDENTITY STRUCTURE Must be used where the</b>
+                     <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+                     <b>National Code Value = 01 = Verified</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="2">
+                     <p>R</p>
+                  </entry>
+                  <entry morerows="2">
+                     <p>0..1</p>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>DATA GROUP: LOCAL IDENTIFIER STRUCTURE</b>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_local_patient_identifier">LOCAL PATIENT IDENTIFIER</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element"
+                           keyref="element_organisation_code__local_patient_identifier_">ORGANISATION CODE (LOCAL PATIENT IDENTIFIER)</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="5">
+                     <b>M</b>
+                  </entry>
+                  <entry morerows="5">
+                     <b>1..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>Data Element Components</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+                  </entry>
+                  <entry>
+                     <p>V</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
+                  </entry>
+                  <entry>
+                     <p>S3</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element"
+                           keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+                  </entry>
+                  <entry>
+                     <p>F S3 S12</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+                        <b>EXPLANATION:</b>
+                     </p>
+                     <p>
+The parent Data Group has a 
+                        <b>"Status"</b>
+ of 
+                        <b>M=MANDATORY</b>
+  which indicates that this Data Group must be present in the Commissioning Data Set to ensure correct validation and acceptance when submitted to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.  The parent Data Group 
+                        <b>"Repeats"</b>
+ = 1..1 indicates that only one occurrence of this Data Group must flow in this particular Commissioning Data Set record. The Sub Group of "Local Identifier Structure" is marked as 
+                        <b>R=REQUIRED</b>
+ and therefore must be populated if the data is available. The 
+                        <b>"Repeats"</b>
+ notation of 0..1 indicates that population of this Sub Group is not necessary to enable the Commissioning Data Set record to be sent to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. If it is sent, then only one occurrence of this Sub Group may flow in this particular Commissioning Data Set record. Both Data Elements in the Sub Group are marked 
+                        <b>M=MANDATORY</b>
+ and must both be correctly populated. The Sub Group of "Data Element Components" is a "generic" structure and is marked as 
+                        <b>M=MANDATORY</b>
+ and therefore must be populated. The "Repeats" notation of 1..1 indicates that only one occurrence of this Data Group may flow in this particular Commissioning Data Set record.  All the Data Elements marked with 
+                        <b>M=MANDATORY</b>
+ must be populated.   
+                        <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+  however is marked with 
+                        <b>R=REQUIRED</b>, so must also be completed if the data is available.                   </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>EXAMPLE 2: A REQUIRED Data Group with differing component data status conditions.</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+The following example shows a 
+                        <b>REQUIRED</b>
+ Data Group. This data must be present in the relevant Commissioning Data Set if available.  However, if submitted to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>, omission of this 
+                        <b>REQUIRED</b>
+ Data Group will not cause rejection.                  </p>
+                     <p>When the Data Group is used:</p>
+                     <ol>
+                        <li>
+                           <p>
+All 
+                                        <b>MANDATORY</b>
+ Sub Groups and/or Data Elements must be utilised                              </p>
+                        </li>
+                        <li>
+                           <p>
+Any 
+                                        <b>REQUIRED</b>
+ Sub Groups and/or Data Elements must be present if the data is available                              </p>
+                        </li>
+                        <li>
+                           <p>
+Any 
+                                        <b>OPTIONAL</b>
+ Sub Groups and/or Data Elements may be omitted                              </p>
+                        </li>
+                     </ol>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="6">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_notation">Notation</xref>
+                     </b>
+                  </entry>
+                  <entry namest="col3" nameend="col6" scope="col">
+                     <b>DATA GROUP: CONSULTANT EPISODE - CLINICAL DIAGNOSIS GROUP (ICD)</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry scope="col">
+                     <b>Group Status R</b>
+                  </entry>
+                  <entry scope="col">
+                     <b>Group Repeats 0..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col6" scope="col">
+                     <b>FUNCTION: To carry the details of the ICD coded Clinical Diagnoses.</b>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="6">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry morerows="1">
+                     <b>M</b>
+                  </entry>
+                  <entry morerows="1">
+                     <b>1..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>Data Element Components</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+                  </entry>
+                  <entry>
+                     <p>V</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="2">
+                     <b>M</b>
+                  </entry>
+                  <entry morerows="2">
+                     <b>1..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>DATA GROUP: PRIMARY DIAGNOSIS</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+                  </entry>
+                  <entry>
+                     <p>F H4</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>O</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_present_on_admission_indicator">PRESENT ON ADMISSION INDICATOR</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="2">
+                     <p>O</p>
+                  </entry>
+                  <entry morerows="2">
+                     <p>0..*</p>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>DATA GROUP: SECONDARY DIAGNOSIS</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_secondary_diagnosis__icd_">SECONDARY DIAGNOSIS (ICD)</xref>
+                  </entry>
+                  <entry>
+                     <p>F H4</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>O</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_present_on_admission_indicator">PRESENT ON ADMISSION INDICATOR</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+                        <b>EXPLANATION:</b>
+                     </p>
+                     <p>
+The Data Group 
+                        <b>"Status" </b>
+ of 
+                        <b>R=Required</b>
+ indicates that this Data Group must be populated in the relevant Commissioning Data Set if the data is available.  The Data Group 
+                        <b>"Repeats" = 0..1</b>
+ indicates that population of this Data Group is not necessary to enable the Commissioning Data Set to be sent to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. If it is sent, then only one occurrence of this Data Group may flow in this particular Commissioning Data Set record. If the Data Group is completed then the Data Element  
+                        <xref outputclass="element" keyref="element_procedure_scheme_in_use">PROCEDURE SCHEME IN USE</xref>, marked as 
+                        <b>M=MANDATORY</b>, must be populated. The 
+                        <b>"Repeats"</b>
+ notation of 1..1 indicates that only one occurrence of this Data Element is valid. If the Data Group is completed then the Data Element  
+                        <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>, marked as 
+                        <b>M=MANDATORY</b>, must be populated. The 
+                        <b>"Repeats"</b>
+ notation of 1..1 indicates that only one occurrence of this Data Element is valid. If the Data Group is completed then the Sub Group "Secondary Diagnoses", marked as 
+                        <b>O=OPTIONAL</b>, may be omitted, but if populated it must be in the correct format. The 
+                        <b>"Repeats"</b>
+ notation of 0..* indicates that unlimited occurrences of this Data Element are valid. Each occurrence must contain a valid 
+                        <xref outputclass="element" keyref="element_secondary_diagnosis__icd_">SECONDARY DIAGNOSIS (ICD)</xref>
+                        <b>.</b>
+                    </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <b>EXAMPLE 3: An OPTIONAL Data Group with differing component data status conditions.</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+The following example shows an 
+                        <b>OPTIONAL</b>
+  Data Group. Its inclusion in the Commissioning Data Sets is therefore determined by "local agreement" between 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+  exchanging the data.                  </p>
+                     <p>When the Data Group is used:</p>
+                     <ol>
+                        <li>
+                           <p>
+All 
+                                        <b>MANDATORY</b>
+ Sub Groups and/or Data Elements must be utilised                              </p>
+                        </li>
+                        <li>
+                           <p>
+Any 
+                                        <b>REQUIRED</b>
+ Sub Groups and/or Data Elements must be present if the data is available                              </p>
+                        </li>
+                        <li>
+                           <p>
+Any 
+                                        <b>OPTIONAL</b>
+ Sub Groups and/or Data Elements may be omitted                              </p>
+                        </li>
+                     </ol>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="6">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_notation">Notation</xref>
+                     </b>
+                  </entry>
+                  <entry namest="col3" nameend="col6" scope="col">
+                     <b>DATA GROUP: CONSULTANT EPISODE - CLINICAL DIAGNOSIS GROUP (ICD)</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry scope="col">
+                     <b>Group Status  O</b>
+                  </entry>
+                  <entry scope="col">
+                     <b>Group Repeats 0..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col6" scope="col">
+                     <b>FUNCTION: To carry the details of the ICD coded Clinical Diagnoses.</b>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="6">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry morerows="1">
+                     <b>M</b>
+                  </entry>
+                  <entry morerows="1">
+                     <b>1..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>Data Element Components</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+                  </entry>
+                  <entry>
+                     <p>V</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="2">
+                     <b>M</b>
+                  </entry>
+                  <entry morerows="2">
+                     <b>1..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>DATA GROUP: PRIMARY DIAGNOSIS</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+                  </entry>
+                  <entry>
+                     <p>F H4</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>O</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_present_on_admission_indicator">PRESENT ON ADMISSION INDICATOR</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="2">
+                     <p>O</p>
+                  </entry>
+                  <entry morerows="2">
+                     <p>0..*</p>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>DATA GROUP: SECONDARY DIAGNOSIS</b>
+                  </entry>
+                  <entry>
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_business_rules">Rules</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_secondary_diagnosis__icd_">SECONDARY DIAGNOSIS (ICD)</xref>
+                  </entry>
+                  <entry>
+                     <p>F H4</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>O</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="element" keyref="element_present_on_admission_indicator">PRESENT ON ADMISSION INDICATOR</xref>
+                  </entry>
+                  <entry>
+                     <p>F</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="1">
+            <colspec colname="col1" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+                        <b>EXPLANATION:</b>
+                     </p>
+                     <p>
+The Data Group 
+                        <b>"Status" </b>
+ of  
+                        <b>O=OPTIONAL</b>
+ indicates that this Data Group may be omitted at its inclusion in the Commissioning Data Set is determined by "local agreement" between the 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+  exchanging the data.                  </p>
+                     <p>
+Note that even if marked 
+                        <b>O=OPTIONAL</b>, any data included in a Commissioning Data Set submission to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ must comply with its specification published in the NHS Data Model and Dictionary otherwise the data may be deemed invalid and rejected.                  </p>
+                     <p>
+The Data Group 
+                        <b>"Repeats" = 0..1</b>
+ indicates that population of this Data Group is not necessary to enable the Commissioning Data Set to be sent to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. If it is sent, then only one occurrence of this Data Group may flow in this particular Commissioning Data Set record.                  </p>
+                     <p>
+If the Data Group is completed then the Data Element 
+                        <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>, marked as 
+                        <b>M=MANDATORY</b>, must be populated. The 
+                        <b>"Repeats"</b>
+ notation of 1..1 indicates that only one occurrence of this Data Element is valid.                  </p>
+                     <p>
+If the Data Group is completed then the Data Element 
+                        <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>, marked as 
+                        <b>M=MANDATORY</b>, must be populated. The 
+                        <b>"Repeats"</b>
+ notation of 1..1 indicates that only one occurrence of this Data Element is valid.                  </p>
+                     <p>
+If the Data Group is completed then the Sub Group "Secondary Diagnoses", marked as 
+                        <b>O=OPTIONAL</b>, may be omitted, but if populated it must be in the correct format. The 
+                        <b>"Repeats"</b>
+ notation of 0..* indicates that unlimited occurrences of this Data Element are valid. Each occurrence must contain a valid 
+                        <xref outputclass="element" keyref="element_secondary_diagnosis__icd_">SECONDARY DIAGNOSIS (ICD)</xref>.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

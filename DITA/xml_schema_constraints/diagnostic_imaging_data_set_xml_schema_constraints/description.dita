@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='xml_schema_constraint_diagnostic_imaging_data_set_xml_schema_constraints.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>XML Schema Constraint: Diagnostic Imaging Data Set XML Schema Constraints - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+XML Schema constraints applied to the 
+              <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>.        </p>
+      <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
+      <ul>
+         <li>
+            <div>
+               <p>None = The National Codes and Default Codes are included in the XML Schema</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
+            </div>
+         </li>
+      </ul>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="6">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>Data Element</b>
+                  </entry>
+                  <entry>
+                     <b>XML Schema Format/Length</b>
+                  </entry>
+                  <entry>
+                     <b>Allowed Values</b>
+                  </entry>
+                  <entry>
+                     <b>Range</b>
+                  </entry>
+                  <entry>
+                     <b>Pattern Match</b>
+                  </entry>
+                  <entry>
+                     <b>Reason / Comment / XML Choice</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+                  </entry>
+                  <entry>
+                     <p>max an2</p>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. XML Schema allows max an2</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element"
+                           keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+                  </entry>
+                  <entry>
+                     <p>min an3 max an12</p>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>Removed</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <p>
+Field size extended to future proof for 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+   
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  changes                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element" keyref="element_imaging_code__nicip_">IMAGING CODE (NICIP)</xref>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry morerows="1">
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry morerows="1">
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry morerows="1">
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry morerows="1">
+                     <p>
+XML choice required to allow recording of either or both of 
+                        <xref outputclass="element" keyref="element_imaging_code__nicip_">IMAGING CODE (NICIP)</xref>
+  / 
+                        <xref outputclass="element" keyref="element_imaging_code__snomed-ct_">IMAGING CODE (SNOMED-CT)</xref>
+                     </p>
+                     <p>
+XML choice 1: One of two data items 
+                        <xref outputclass="element" keyref="element_imaging_code__nicip_">IMAGING CODE (NICIP)</xref>
+  / 
+                        <xref outputclass="element" keyref="element_imaging_code__snomed-ct_">IMAGING CODE (SNOMED-CT)</xref>) must be present XML choice 2: 
+                        <xref outputclass="element" keyref="element_imaging_code__nicip_">IMAGING CODE (NICIP)</xref>
+  and  
+                        <xref outputclass="element" keyref="element_imaging_code__snomed-ct_">IMAGING CODE (SNOMED-CT)</xref>
+  must be present                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element" keyref="element_imaging_code__snomed-ct_">IMAGING CODE (SNOMED-CT)</xref>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element" keyref="element_radiological_accession_number">RADIOLOGICAL ACCESSION NUMBER</xref>
+                  </entry>
+                  <entry>
+                     <p>None</p>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <p>Spaces allowed in character set, to follow guidance on Digital Imaging and Communications in Medicine (DICOM) number format</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
+                  </entry>
+                  <entry>
+                     <p>min an3 max an12</p>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>Removed</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <p>
+Field size extended to future proof for 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+   
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  changes                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element" keyref="element_site_code__of_imaging_">SITE CODE (OF IMAGING)</xref>
+                  </entry>
+                  <entry>
+                     <p>min an3 max an12</p>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>Removed</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <div>
+                        <p>None</p>
+                     </div>
+                  </entry>
+                  <entry>
+                     <p>
+Field size extended to future proof for 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
+  changes                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

@@ -6,217 +6,183 @@
     <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Head and Neck - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>TREATMENT: SURGERY - HEAD AND NECK</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>TREATMENT: SURGERY - HEAD AND NECK</b>
 
   <p>To carry surgery details for Head and Neck cancer.One occurrence of this group is permitted per Core Treatment Surgery.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_surgical_access_type__head_and_neck_cancer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_surgical_access_type__head_and_neck_cancer_">SURGICAL ACCESS TYPE (HEAD AND NECK CANCER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_other_surgical_access_type__head_and_neck_cancer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_other_surgical_access_type__head_and_neck_cancer_">OTHER SURGICAL ACCESS TYPE (HEAD AND NECK CANCER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PRE TREATMENT ASSESSMENT - HEAD AND NECK</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PRE TREATMENT ASSESSMENT - HEAD AND NECK</b>
 
   <p>To carry pre treatment assessment details for Head and Neck cancer.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_dental_assessment_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_cancer_dental_assessment_date">CANCER DENTAL ASSESSMENT DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_date__dietitian_initial_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_contact_date__dietitian_initial_">CARE CONTACT DATE (DIETITIAN INITIAL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_date__speech_and_language_therapist_initial_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_contact_date__speech_and_language_therapist_initial_">CARE CONTACT DATE (SPEECH AND LANGUAGE THERAPIST INITIAL)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>POST TREATMENT ASSESSMENT - HEAD AND NECK</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>POST TREATMENT ASSESSMENT - HEAD AND NECK</b>
 
   <p>To carry post treatment assessment details for Head and Neck cancer.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_status_assessment_date__cancer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_status_assessment_date__cancer_">CLINICAL STATUS ASSESSMENT DATE (CANCER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_tumour_status' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_primary_tumour_status">PRIMARY TUMOUR STATUS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nodal_status' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nodal_status">NODAL STATUS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_metastatic_status' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_metastatic_status">METASTATIC STATUS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_speech_and_language_assessment_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_speech_and_language_assessment_date">SPEECH AND LANGUAGE ASSESSMENT DATE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

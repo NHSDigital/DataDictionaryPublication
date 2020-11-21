@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_activity.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: META ACTIVITY - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each META ACTIVITY</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>may be qualified by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_activity_qualifier' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be related to one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_person_property_qualifier' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be carried out at one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_activity_site' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be activity with one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_change_activity_state' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be comprise qualification of one or more </stentry>
+        <stentry>
+          <xref keyref='class_meta_direct_activity_qualifier' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be user of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_resource_usage' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be activity for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_role_in_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

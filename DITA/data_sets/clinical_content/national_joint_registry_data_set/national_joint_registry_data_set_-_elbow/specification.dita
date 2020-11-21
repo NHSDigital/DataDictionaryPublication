@@ -6,691 +6,687 @@
     <searchtitle>Data Set: National Joint Registry Data Set - Elbow - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>ELBOW PRIMARY</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>ELBOW PRIMARY</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Patient Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Patient Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_handedness_code__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_handedness_code__joint_replacement_">HANDEDNESS CODE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Elbow Primary Procedure Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Elbow Primary Procedure Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_anatomical_side__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_patient_diagnosis_indication__primary_elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgical Approach</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_anatomical_side__national_joint_registry_">ANATOMICAL SIDE (NATIONAL JOINT REGISTRY)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_procedure_type__primary_elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_fixation_type__elbow_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_diagnosis_indication__primary_elbow_replacement_">PATIENT DIAGNOSIS INDICATION (PRIMARY ELBOW REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_surgical_approach__primary_or_revision_elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_minimally_invasive_surgery_indicator__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_computer_guided_surgery_indicator__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Thromboprophylaxis</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgical Approach</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_chemical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_mechanical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Bone Graft Used</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_procedure_type__primary_elbow_replacement_">PATIENT PROCEDURE TYPE (PRIMARY ELBOW REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bone_graft_indicator__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_bone_graft_structure__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_indicator__ulnar_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_structure__ulnar_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__ulnar_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgeon Notes</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element" keyref="element_fixation_type__elbow_">FIXATION TYPE (ELBOW)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_surgeon_notes' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Intraoperative Event</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_surgical_approach__primary_or_revision_elbow_replacement_">SURGICAL APPROACH (PRIMARY OR REVISION ELBOW REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_untoward_intraoperative_event_code__elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Components</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_minimally_invasive_surgery_indicator__joint_replacement_">MINIMALLY INVASIVE SURGERY INDICATOR (JOINT REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_catalogue_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_computer_guided_surgery_indicator__joint_replacement_">COMPUTER GUIDED SURGERY INDICATOR (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Thromboprophylaxis</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_batch_or_lot_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_chemical_thromboprophylaxis_regime_type__joint_replacement_">CHEMICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_mechanical_thromboprophylaxis_regime_type__joint_replacement_">MECHANICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Bone Graft Used</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__humeral_">BONE GRAFT INDICATOR (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__humeral_">BONE GRAFT STRUCTURE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__humeral_">BONE GRAFT SOURCE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__ulnar_">BONE GRAFT INDICATOR (ULNAR)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__ulnar_">BONE GRAFT STRUCTURE (ULNAR)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__ulnar_">BONE GRAFT SOURCE (ULNAR)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgeon Notes</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Intraoperative Event</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_untoward_intraoperative_event_code__elbow_replacement_">UNTOWARD INTRAOPERATIVE EVENT CODE (ELBOW REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Components</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_catalogue_number">IMPLANT CATALOGUE NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_batch_or_lot_number">IMPLANT BATCH OR LOT NUMBER</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>ELBOW REVISION</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>ELBOW REVISION</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Patient Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Patient Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_handedness_code__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_handedness_code__joint_replacement_">HANDEDNESS CODE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Elbow Revision Procedure Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Elbow Revision Procedure Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_revision_procedure_type__elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_arthroplasty_revision_type__shoulder_and_elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_anatomical_side__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_joint_replacement_revision_reason_code__elbow_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Primary Operation Details</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_revision_procedure_type__elbow_replacement_">REVISION PROCEDURE TYPE (ELBOW REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_date__primary_joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Components Removed</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_arthroplasty_revision_type__shoulder_and_elbow_replacement_">ARTHROPLASTY REVISION TYPE (SHOULDER AND ELBOW REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_component_removal_indicator__radial_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_component_removal_indicator__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_component_removal_indicator__ulnar_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgical Approach</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_anatomical_side__national_joint_registry_">ANATOMICAL SIDE (NATIONAL JOINT REGISTRY)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_procedure_type__revision_elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_fixation_type__elbow_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_joint_replacement_revision_reason_code__elbow_">JOINT REPLACEMENT REVISION REASON CODE (ELBOW)</xref>
+  </p>
+</entry>
           </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_surgical_approach__primary_or_revision_elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Thromboprophylaxis</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Primary Operation Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_chemical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_mechanical_thromboprophylaxis_regime_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Bone Graft Used</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element"
+            keyref="element_procedure_date__primary_joint_replacement_">PROCEDURE DATE (PRIMARY JOINT REPLACEMENT)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bone_graft_indicator__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_bone_graft_structure__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__humeral_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_indicator__ulnar_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_structure__ulnar_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_bone_graft_source__ulnar_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Surgeon Notes</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Components Removed</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_surgeon_notes' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Intraoperative Event</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__radial_">COMPONENT REMOVAL INDICATOR (RADIAL)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_untoward_intraoperative_event_code__elbow_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Components</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__humeral_">COMPONENT REMOVAL INDICATOR (HUMERAL)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_catalogue_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_component_removal_indicator__ulnar_">COMPONENT REMOVAL INDICATOR (ULNAR)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgical Approach</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_implant_batch_or_lot_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_procedure_type__revision_elbow_replacement_">PATIENT PROCEDURE TYPE (REVISION ELBOW REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fixation_type__elbow_">FIXATION TYPE (ELBOW)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_surgical_approach__primary_or_revision_elbow_replacement_">SURGICAL APPROACH (PRIMARY OR REVISION ELBOW REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Thromboprophylaxis</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_chemical_thromboprophylaxis_regime_type__joint_replacement_">CHEMICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_mechanical_thromboprophylaxis_regime_type__joint_replacement_">MECHANICAL THROMBOPROPHYLAXIS REGIME TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Bone Graft Used</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__humeral_">BONE GRAFT INDICATOR (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__humeral_">BONE GRAFT STRUCTURE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__humeral_">BONE GRAFT SOURCE (HUMERAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_indicator__ulnar_">BONE GRAFT INDICATOR (ULNAR)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_structure__ulnar_">BONE GRAFT STRUCTURE (ULNAR)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bone_graft_source__ulnar_">BONE GRAFT SOURCE (ULNAR)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgeon Notes</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Intraoperative Event</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_untoward_intraoperative_event_code__elbow_replacement_">UNTOWARD INTRAOPERATIVE EVENT CODE (ELBOW REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Components</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_catalogue_number">IMPLANT CATALOGUE NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_implant_batch_or_lot_number">IMPLANT BATCH OR LOT NUMBER</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

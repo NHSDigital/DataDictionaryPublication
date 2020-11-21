@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_out-patient_attendance_indicator_for_radiotherapy_data_set.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: OUT-PATIENT ATTENDANCE INDICATOR FOR RADIOTHERAPY DATA SET - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+An indication of whether the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy_attendance">Radiotherapy Attendance</xref>
+ requires an Out-Patient Attendance record for the purposes of the 
+              <xref outputclass="dataSet" keyref="dataset_radiotherapy_data_set">Radiotherapy Data Set</xref>.        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+Where the 
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been admitted in connection with their 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_radiotherapy">Radiotherapy</xref>
+ treatment, an Out-Patient Attendance record 
+                                <b>is not</b>
+ required, and National Code 
+                                <i>'Out-Patient Attendance not recorded'</i>
+ applies.                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+Where the 
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is either:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <p>
+Admitted, but not in connection with the 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_radiotherapy_attendance">Radiotherapy Attendance</xref>, or                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+Not admitted and attends for 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_radiotherapy">Radiotherapy</xref>
+ Treatment as an out-patient                            </p>
+                  </div>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>
+then an Out-Patient Attendance record 
+                  <b>is</b>
+ required, and National Code 
+                  <i>'Out-Patient Attendance recorded'</i>
+ applies.          </p>
+  </div>
+</body>
+</topic>

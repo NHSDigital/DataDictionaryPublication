@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_consultant_upgrade.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Consultant Upgrade - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_upgrade">Consultant Upgrade</xref>
+ is an 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>.         </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_upgrade">Consultant Upgrade</xref>
+ is when the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ responsible for the care of the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ (or an authorised member of the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ team as defined by local policy) decides that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ should be upgraded onto an urgent 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_pathway">Cancer Pathway</xref>.        </p>
+      <p>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_upgrade">Consultant Upgrades</xref>
+ are not allowed for 
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+who were urgently referred with suspected cancer from an NHS Cancer 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_screening_programme">Screening Programme</xref>, where the 
+                                <xref outputclass="attribute"
+                        keyref="attribute_source_of_referral_for_out-patients">SOURCE OF REFERRAL FOR OUT-PATIENTS</xref>
+ National Code is 
+                                <i>'referral from a National 
+                                    <xref outputclass="businessDefinition"
+                           keyref="business_definition_screening_programme">Screening Programme</xref>'</i>
+ and                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+the 
+                                <xref outputclass="attribute" keyref="attribute_priority_type">PRIORITY TYPE</xref>
+ is National Code 
+                                <i>'Urgent'.</i>
+               </p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

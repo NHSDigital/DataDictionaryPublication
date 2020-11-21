@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_radiotherapy_treatment_modality.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: RADIOTHERAPY TREATMENT MODALITY - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The type of treatment delivered as part of a 
+              <xref outputclass="class" keyref="class_radiotherapy_prescription">RADIOTHERAPY PRESCRIPTION</xref>.        </p>
+      <p>
+Where the treatment is delivered as part of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_treatment_period">Cancer Treatment Period</xref>, 
+              <xref outputclass="attribute"
+               keyref="attribute_radiotherapy_treatment_modality">RADIOTHERAPY TREATMENT MODALITY</xref>
+ is equivalent to 
+              <xref outputclass="attribute" keyref="attribute_cancer_treatment_modality">CANCER TREATMENT MODALITY</xref>
+ National Codes 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_teletherapy">Teletherapy</xref>'</i>
+ or 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_brachytherapy">Brachytherapy</xref>'</i>.         </p>
+  </div>
+</body>
+</topic>

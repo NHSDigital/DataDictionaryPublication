@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_acute_oncology_assessment_patient_presentation_type.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: ACUTE ONCOLOGY ASSESSMENT PATIENT PRESENTATION TYPE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>New Presentation</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>Treatment Complication</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Suspected or Confirmed Neutropenic Sepsis</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>Cancer Complication</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_cancer_recurrence">Cancer Recurrence</xref>
+  <p>/
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ (Local or Regional)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_cancer_recurrence">Cancer Recurrence</xref>
+  <p>/
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ (Distant)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>Suspected or Confirmed Metastatic Spinal Cord Compression (MSCC)</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>Comorbidity Complications</stentry>
+      </strow>
+      <strow>
+        <stentry>98</stentry>
+        <stentry>Other (not listed)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_first_regular_day_or_night_admission.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: FIRST REGULAR DAY OR NIGHT ADMISSION - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>The first admission in a series of regular day/night admissions for a course of treatment.</p>
+      <p>
+If a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ changes from a regular day to a regular night admission, the next admission after the change is not a first admission in a series unless a new course of treatment is started.        </p>
+      <p>If a series of regular day or night admissions is interrupted by an ordinary admission then the next admission in the series is not a first admission unless a new course of treatment is started.</p>
+  </div>
+</body>
+</topic>

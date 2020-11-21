@@ -6,1324 +6,1219 @@
     <searchtitle>Data Set: NHS Breast Screening Programme Central Return Data Set (KC62) - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Organisation and reporting period</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Organisation and reporting period</b>
 
   <p>To carry details of the reporting organisation and the reporting period. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_end_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__breast_screening_unit_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__breast_screening_unit_">ORGANISATION IDENTIFIER (BREAST SCREENING UNIT)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Unit Indicators</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Unit Indicators</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_reading_type_automatic_recall_when_unanimous__percentage_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_reading_type_automatic_recall_when_unanimous__percentage_">BREAST SCREENING READING TYPE AUTOMATIC RECALL WHEN UNANIMOUS (PERCENTAGE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_reading_type_automatically_choose_abnormal__percentage_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_reading_type_automatically_choose_abnormal__percentage_">BREAST SCREENING READING TYPE AUTOMATICALLY CHOOSE ABNORMAL (PERCENTAGE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_reading_type_arbitrate_when_abnormal__percentage_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_reading_type_arbitrate_when_abnormal__percentage_">BREAST SCREENING READING TYPE ARBITRATE WHEN ABNORMAL (PERCENTAGE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_reading_type_no_automatic_arbitration__percentage_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_reading_type_no_automatic_arbitration__percentage_">BREAST SCREENING READING TYPE NO AUTOMATIC ARBITRATION (PERCENTAGE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_with_first_offered_appointment_within_36_months_of_previous_screen__percentage_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_with_first_offered_appointment_within_36_months_of_previous_screen__percentage_">WOMEN WITH FIRST OFFERED APPOINTMENT WITHIN 36 MONTHS OF PREVIOUS SCREEN (PERCENTAGE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_routine_digital_screen__percentage_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_routine_digital_screen__percentage_">ROUTINE DIGITAL SCREEN (PERCENTAGE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Part One</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Part One</b>
 
   <p>Invitations and Outcomes: To carry the details of the outcomes of screening and assessment of all women invited and/or screened.Multiple occurrences of this group are permitted, one for each AGE GROUP reported.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_age_group_code__kc62__parts_1_to_3' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_age_group_code__kc62__parts_1_to_3">BREAST SCREENING AGE GROUP CODE (KC62) PARTS 1 TO 3</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_invited_for_screening_in_period_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_invited_for_screening_in_period_total">WOMEN INVITED FOR SCREENING IN PERIOD TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_lost_to_follow-up_total__after_technically_inadequate_screening_mammogram_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_lost_to_follow-up_total__after_technically_inadequate_screening_mammogram_">WOMEN LOST TO FOLLOW-UP TOTAL (AFTER TECHNICALLY INADEQUATE SCREENING MAMMOGRAM)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_total__technically_adequate_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_screened_total__technically_adequate_">WOMEN SCREENED TOTAL (TECHNICALLY ADEQUATE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_initial_screen_not_known_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_initial_screen_not_known_total">OUTCOME OF INITIAL SCREEN NOT KNOWN TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_initial_screen_routine_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_initial_screen_routine_recall_total">OUTCOME OF INITIAL SCREEN ROUTINE RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_initial_screen_referred_for_assessment_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_initial_screen_referred_for_assessment_total">OUTCOME OF INITIAL SCREEN REFERRED FOR ASSESSMENT TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_final_outcome_of_assessment_failed_to_attend_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_final_outcome_of_assessment_failed_to_attend_total">FINAL OUTCOME OF ASSESSMENT FAILED TO ATTEND TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_final_outcome_of_assessment_not_known_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_final_outcome_of_assessment_not_known_total">FINAL OUTCOME OF ASSESSMENT NOT KNOWN TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_final_outcome_of_assessment_routine_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_final_outcome_of_assessment_routine_recall_total">FINAL OUTCOME OF ASSESSMENT ROUTINE RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_final_outcome_of_assessment_short_term_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_final_outcome_of_assessment_short_term_recall_total">FINAL OUTCOME OF ASSESSMENT SHORT TERM RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_final_outcome_of_assessment_cancer_diagnosed_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_final_outcome_of_assessment_cancer_diagnosed_total">FINAL OUTCOME OF ASSESSMENT CANCER DIAGNOSED TOTAL</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Part Two</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Part Two</b>
 
   <p>Assessment:To carry the details of the outcomes of assessment by the procedures involved for all women assessed as a result of screening. Multiple occurrences of this group are permitted, one for each AGE GROUP reported.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_age_group_code__kc62__parts_1_to_3' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_age_group_code__kc62__parts_1_to_3">BREAST SCREENING AGE GROUP CODE (KC62) PARTS 1 TO 3</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_with_cancer_diagnosed_without_cytology_or_histology_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_with_cancer_diagnosed_without_cytology_or_histology_total">WOMEN WITH CANCER DIAGNOSED WITHOUT CYTOLOGY OR HISTOLOGY TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_referred_for_cytology_and_or_core_biopsy_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_referred_for_cytology_and_or_core_biopsy_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY REFERRED FOR CYTOLOGY AND OR CORE BIOPSY TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_no_result_or_inadequate_result_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_no_result_or_inadequate_result_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY NOT REFERRED FOR OPEN BIOPSY NO RESULT OR INADEQUATE RESULT TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_routine_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_routine_recall_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY NOT REFERRED FOR OPEN BIOPSY ROUTINE RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_short_term_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_short_term_recall_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY NOT REFERRED FOR OPEN BIOPSY SHORT TERM RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_cancer_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_not_referred_for_open_biopsy_cancer_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY NOT REFERRED FOR OPEN BIOPSY CANCER TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_referred_for_open_biopsy_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_referred_for_open_biopsy_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY REFERRED FOR OPEN BIOPSY TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_open_biopsy_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_open_biopsy_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING OPEN BIOPSY TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_open_biopsy_no_result_or_inadequate_result_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_open_biopsy_no_result_or_inadequate_result_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING OPEN BIOPSY NO RESULT OR INADEQUATE RESULT TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_open_biopsy_result_benign_or_normal_routine_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_open_biopsy_result_benign_or_normal_routine_recall_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING OPEN BIOPSY RESULT BENIGN OR NORMAL ROUTINE RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_open_biopsy_result_benign_or_normal_short_term_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_open_biopsy_result_benign_or_normal_short_term_recall_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING OPEN BIOPSY RESULT BENIGN OR NORMAL SHORT TERM RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_assessment_up_to_and_including_open_biopsy_cancer_diagnosed_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_open_biopsy_cancer_diagnosed_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING OPEN BIOPSY CANCER DIAGNOSED TOTAL</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Part Three</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Part Three</b>
 
   <p>Cancer Diagnosed:To carry the details of the cancers formally diagnosed in women assessed as a result of screening. Only breast cancers should be reported. Multiple occurrences of this group are permitted, one for each AGE GROUP reported.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_age_group_code__kc62__parts_1_to_3' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_age_group_code__kc62__parts_1_to_3">BREAST SCREENING AGE GROUP CODE (KC62) PARTS 1 TO 3</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_with_cancer_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_women_with_cancer_total">WOMEN WITH CANCER TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_invasive_status_not_known_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_invasive_status_not_known_total">WOMEN INVASIVE STATUS NOT KNOWN TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_non-invasive_or_possibly_micro-invasive_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_non-invasive_or_possibly_micro-invasive_total">WOMEN NON-INVASIVE OR POSSIBLY MICRO-INVASIVE TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_definitely_micro-invasive_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_definitely_micro-invasive_total">WOMEN DEFINITELY MICRO-INVASIVE TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_less_than_10mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_less_than_10mm_total">BREAST CANCER INVASIVE SIZE LESS THAN 10mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_greater_than_or_equal_to_10mm_and_less_than_15mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_greater_than_or_equal_to_10mm_and_less_than_15mm_total">BREAST CANCER INVASIVE SIZE GREATER THAN OR EQUAL TO 10mm AND LESS THAN 15mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_greater_than_or_equal_to_15mm_and_less_than_20mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_greater_than_or_equal_to_15mm_and_less_than_20mm_total">BREAST CANCER INVASIVE SIZE GREATER THAN OR EQUAL TO 15mm AND LESS THAN 20mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_greater_than_or_equal_to_20mm_and_less_than_50mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_greater_than_or_equal_to_20mm_and_less_than_50mm_total">BREAST CANCER INVASIVE SIZE GREATER THAN OR EQUAL TO 20mm AND LESS THAN 50mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_greater_than_or_equal_to_50mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_greater_than_or_equal_to_50mm_total">BREAST CANCER INVASIVE SIZE GREATER THAN OR EQUAL TO 50mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_not_known_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_not_known_total">BREAST CANCER INVASIVE SIZE NOT KNOWN TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_invasive_breast_cancer_total">INVASIVE BREAST CANCER TOTAL</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Part Four</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Part Four</b>
 
   <p>Outcome Measures:To carry the details of outcome measures related to NHS Breast Screening Programme (NHSBSP) quality targets.Multiple occurrences of this group are permitted, one for each AGE GROUP reported.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_age_group_code__kc62__parts_4_to_5' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_age_group_code__kc62__parts_4_to_5">BREAST SCREENING AGE GROUP CODE (KC62) PARTS 4 TO 5</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_invited_for_routine_screening_with_technically_adequate_result__percentage_of_invited_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_invited_for_routine_screening_with_technically_adequate_result__percentage_of_invited_">WOMEN INVITED FOR ROUTINE SCREENING WITH TECHNICALLY ADEQUATE RESULT (PERCENTAGE OF INVITED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_referral_rate_for_breast_assessment__percentage_of_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_referral_rate_for_breast_assessment__percentage_of_screened_">REFERRAL RATE FOR BREAST ASSESSMENT (PERCENTAGE OF SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_non-invasive_or_micro-invasive_breast_cancers_detected__per_1_000_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_non-invasive_or_micro-invasive_breast_cancers_detected__per_1_000_screened_">NON-INVASIVE OR MICRO-INVASIVE BREAST CANCERS DETECTED (PER 1,000 SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_benign_biopsy_rate__per_1_000_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_benign_biopsy_rate__per_1_000_screened_">BENIGN BIOPSY RATE (PER 1,000 SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_benign_therapeutic_operation_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_benign_therapeutic_operation_number">BENIGN THERAPEUTIC OPERATION NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_benign_therapeutic_operation_rate__per_1_000_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_benign_therapeutic_operation_rate__per_1_000_screened_">BENIGN THERAPEUTIC OPERATION RATE (PER 1,000 SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_detection_rate__per_1_000_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_detection_rate__per_1_000_screened_">INVASIVE BREAST CANCER DETECTION RATE (PER 1,000 SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_detection_rate_invasive_size_less_than_10mm__per_1_000_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_detection_rate_invasive_size_less_than_10mm__per_1_000_screened_">INVASIVE BREAST CANCER DETECTION RATE INVASIVE SIZE LESS THAN 10mm (PER 1,000 SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_detection_rate_invasive_size_less_than_15mm__per_1_000_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_detection_rate_invasive_size_less_than_15mm__per_1_000_screened_">INVASIVE BREAST CANCER DETECTION RATE INVASIVE SIZE LESS THAN 15mm (PER 1,000 SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_referral_rate_for_cytology_and_or_core_biopsy__percentage_of_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_referral_rate_for_cytology_and_or_core_biopsy__percentage_of_screened_">REFERRAL RATE FOR CYTOLOGY AND OR CORE BIOPSY (PERCENTAGE OF SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_referral_rate_for_open_biopsy__percentage_of_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_referral_rate_for_open_biopsy__percentage_of_screened_">REFERRAL RATE FOR OPEN BIOPSY (PERCENTAGE OF SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_non-operative_diagnosis_rate__percentage_invasive_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_non-operative_diagnosis_rate__percentage_invasive_">NON-OPERATIVE DIAGNOSIS RATE (PERCENTAGE INVASIVE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_non-operative_diagnosis_rate__percentage_non-invasive_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_non-operative_diagnosis_rate__percentage_non-invasive_">NON-OPERATIVE DIAGNOSIS RATE (PERCENTAGE NON-INVASIVE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_non-operative_diagnosis_rate__percentage_overall_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_non-operative_diagnosis_rate__percentage_overall_">NON-OPERATIVE DIAGNOSIS RATE (PERCENTAGE OVERALL)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_short_term_recall_rate_following_assessment__percentage_of_screened_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_short_term_recall_rate_following_assessment__percentage_of_screened_">SHORT TERM RECALL RATE FOLLOWING ASSESSMENT (PERCENTAGE OF SCREENED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_total_observed' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_total_observed">INVASIVE BREAST CANCER TOTAL OBSERVED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_total_expected' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_total_expected">INVASIVE BREAST CANCER TOTAL EXPECTED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_standardised_detection_ratio_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_standardised_detection_ratio_total">STANDARDISED DETECTION RATIO TOTAL</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Part Five</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Part Five</b>
 
   <p>Data Completeness Indicators:To carry the details of the completeness of data recorded on information systems in a variety of key areas. Multiple occurrences of this group are permitted, one for each AGE GROUP reported.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_age_group_code__kc62__parts_4_to_5' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_age_group_code__kc62__parts_4_to_5">BREAST SCREENING AGE GROUP CODE (KC62) PARTS 4 TO 5</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_assessment_result_not_known__percentage_of_referred_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_assessment_result_not_known__percentage_of_referred_">BREAST ASSESSMENT RESULT NOT KNOWN (PERCENTAGE OF REFERRED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cytology_and_or_core_biopsy_result_not_known__percentage_of_referred_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cytology_and_or_core_biopsy_result_not_known__percentage_of_referred_">CYTOLOGY AND OR CORE BIOPSY RESULT NOT KNOWN (PERCENTAGE OF REFERRED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_open_biopsy_result_not_known__percentage_of_referred_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_open_biopsy_result_not_known__percentage_of_referred_">OPEN BIOPSY RESULT NOT KNOWN (PERCENTAGE OF REFERRED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_status_not_known__percentage_of_all_cancers_diagnosed_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_status_not_known__percentage_of_all_cancers_diagnosed_">BREAST CANCER INVASIVE STATUS NOT KNOWN (PERCENTAGE OF ALL CANCERS DIAGNOSED)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_size_not_known__percentage_of_invasive_breast_cancers_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_size_not_known__percentage_of_invasive_breast_cancers_">INVASIVE BREAST CANCER SIZE NOT KNOWN (PERCENTAGE OF INVASIVE BREAST CANCERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_lymph_node_status_not_known__percentage_of_invasive_breast_cancers_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_lymph_node_status_not_known__percentage_of_invasive_breast_cancers_">INVASIVE BREAST CANCER LYMPH NODE STATUS NOT KNOWN (PERCENTAGE OF INVASIVE BREAST CANCERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_grade_not_known__percentage_of_invasive_breast_cancers_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_grade_not_known__percentage_of_invasive_breast_cancers_">INVASIVE BREAST CANCER GRADE NOT KNOWN (PERCENTAGE OF INVASIVE BREAST CANCERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_special_type_not_known__percentage_of_invasive_breast_cancers_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_special_type_not_known__percentage_of_invasive_breast_cancers_">INVASIVE BREAST CANCER SPECIAL TYPE NOT KNOWN (PERCENTAGE OF INVASIVE BREAST CANCERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_grade_not_known__percentage_of_ductal_carcinoma_in-situ_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_grade_not_known__percentage_of_ductal_carcinoma_in-situ_">BREAST CANCER GRADE NOT KNOWN (PERCENTAGE OF DUCTAL CARCINOMA IN-SITU)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Annex</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Annex</b>
 
   <p>Cancers Detected:To carry the details of each cancer detected by the Screening Service in the review period. Multiple occurrences of this group are permitted, one CANCER per WOMAN detected.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_age_at_first_offered_appointment' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_age_at_first_offered_appointment">AGE AT FIRST OFFERED APPOINTMENT</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_status' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_breast_cancer_invasive_status">BREAST CANCER INVASIVE STATUS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_tumour_size' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_invasive_tumour_size">INVASIVE TUMOUR SIZE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tumour_grade__for_breast_screening_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tumour_grade__for_breast_screening_">TUMOUR GRADE (FOR BREAST SCREENING)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nodal_status_of_tumour_number_of_lymph_nodes_sampled' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nodal_status_of_tumour_number_of_lymph_nodes_sampled">NODAL STATUS OF TUMOUR NUMBER OF LYMPH NODES SAMPLED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nodal_status_of_tumour_number_of_positive_lymph_nodes_sampled' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nodal_status_of_tumour_number_of_positive_lymph_nodes_sampled">NODAL STATUS OF TUMOUR NUMBER OF POSITIVE LYMPH NODES SAMPLED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nodal_status_of_tumour_number_of_negative_lymph_nodes_sampled' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nodal_status_of_tumour_number_of_negative_lymph_nodes_sampled">NODAL STATUS OF TUMOUR NUMBER OF NEGATIVE LYMPH NODES SAMPLED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_histological_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_breast_cancer_histological_type">BREAST CANCER HISTOLOGICAL TYPE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>High Risk Table U</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>High Risk Table U</b>
 
   <p>To carry the details of women invited, screened, assessed and cancers detected in a high risk category.Multiple occurrences of this group are permitted, one for each RISK CATEGORY detected.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_high_risk_category' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_high_risk_category">BREAST SCREENING HIGH RISK CATEGORY</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_high_risk_women_invited_for_screening_in_period_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_high_risk_women_invited_for_screening_in_period_total">HIGH RISK WOMEN INVITED FOR SCREENING IN PERIOD TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_high_risk_women_screened_total__technically_adequate_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_high_risk_women_screened_total__technically_adequate_">HIGH RISK WOMEN SCREENED TOTAL (TECHNICALLY ADEQUATE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_outcome_of_initial_screen_referred_for_assessment_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_initial_screen_referred_for_assessment_total">OUTCOME OF INITIAL SCREEN REFERRED FOR ASSESSMENT TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_attended_for_assessment_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_attended_for_assessment_total">WOMEN ATTENDED FOR ASSESSMENT TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_final_outcome_of_assessment_short_term_recall_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_final_outcome_of_assessment_short_term_recall_total">FINAL OUTCOME OF ASSESSMENT SHORT TERM RECALL TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_final_outcome_of_assessment_cancer_diagnosed_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_final_outcome_of_assessment_cancer_diagnosed_total">FINAL OUTCOME OF ASSESSMENT CANCER DIAGNOSED TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_less_than_10mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_less_than_10mm_total">BREAST CANCER INVASIVE SIZE LESS THAN 10mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_greater_than_or_equal_to_10mm_and_less_than_15mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_greater_than_or_equal_to_10mm_and_less_than_15mm_total">BREAST CANCER INVASIVE SIZE GREATER THAN OR EQUAL TO 10mm AND LESS THAN 15mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_greater_than_or_equal_to_15mm_and_less_than_20mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_greater_than_or_equal_to_15mm_and_less_than_20mm_total">BREAST CANCER INVASIVE SIZE GREATER THAN OR EQUAL TO 15mm AND LESS THAN 20mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_greater_than_or_equal_to_20mm_and_less_than_50mm_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_greater_than_or_equal_to_20mm_and_less_than_50mm_total">BREAST CANCER INVASIVE SIZE GREATER THAN OR EQUAL TO 20mm AND LESS THAN 50mm TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_size_not_known_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_cancer_invasive_size_not_known_total">BREAST CANCER INVASIVE SIZE NOT KNOWN TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_breast_cancer_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_invasive_breast_cancer_total">INVASIVE BREAST CANCER TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_lymph_nodes_pathology_result_negative_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_lymph_nodes_pathology_result_negative_total">WOMEN LYMPH NODES PATHOLOGY RESULT NEGATIVE TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_lymph_nodes_pathology_result_positive_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_lymph_nodes_pathology_result_positive_total">WOMEN LYMPH NODES PATHOLOGY RESULT POSITIVE TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_lymph_nodes_pathology_result_unknown_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_lymph_nodes_pathology_result_unknown_total">WOMEN LYMPH NODES PATHOLOGY RESULT UNKNOWN TOTAL</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>High Risk Annex</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>High Risk Annex</b>
 
   <p> To carry the details of each cancer detected in women in a high risk category.Multiple occurrences of this group are permitted, one for each WOMAN screened.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_high_risk_category' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_high_risk_category">BREAST SCREENING HIGH RISK CATEGORY</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_age_or_protocol_age' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_age_or_protocol_age">AGE OR PROTOCOL AGE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_invasive_status' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_breast_cancer_invasive_status">BREAST CANCER INVASIVE STATUS</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_invasive_tumour_size' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_invasive_tumour_size">INVASIVE TUMOUR SIZE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tumour_grade__for_breast_screening_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tumour_grade__for_breast_screening_">TUMOUR GRADE (FOR BREAST SCREENING)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_sentinel_node_procedure' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_sentinel_node_procedure">SENTINEL NODE PROCEDURE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nodal_status_of_tumour_number_of_lymph_nodes_sampled' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nodal_status_of_tumour_number_of_lymph_nodes_sampled">NODAL STATUS OF TUMOUR NUMBER OF LYMPH NODES SAMPLED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nodal_status_of_tumour_number_of_positive_lymph_nodes_sampled' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nodal_status_of_tumour_number_of_positive_lymph_nodes_sampled">NODAL STATUS OF TUMOUR NUMBER OF POSITIVE LYMPH NODES SAMPLED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nodal_status_of_tumour_number_of_negative_lymph_nodes_sampled' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nodal_status_of_tumour_number_of_negative_lymph_nodes_sampled">NODAL STATUS OF TUMOUR NUMBER OF NEGATIVE LYMPH NODES SAMPLED</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_cancer_histological_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_breast_cancer_histological_type">BREAST CANCER HISTOLOGICAL TYPE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

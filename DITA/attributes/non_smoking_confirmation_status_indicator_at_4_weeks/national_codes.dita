@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_non_smoking_confirmation_status_indicator_at_4_weeks.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: NON SMOKING CONFIRMATION STATUS INDICATOR AT 4 WEEKS - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>Yes - non-smoking status confirmed by carbon monoxide validation</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+  <p>
+No - non-smoking status not confirmed - attempt has been made to contact the 
+        <xref outputclass="class" keyref="class_person">PERSON</xref>
+ for carbon monoxide validation or carbon monoxide validation done but non-smoking status not confirmed.    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>X</stentry>
+        <stentry>
+  <p>
+Not Applicable (e.g. 
+        <xref outputclass="class" keyref="class_person">PERSON</xref>
+ self reports as smoker at 4 weeks, confirmation not attempted as telephone service only or they are 'lost to follow-up')    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

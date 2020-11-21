@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_unique_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS UNIQUE IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ provides a unique identity for the life-time of an episode carried in a Commissioning Data Set message.        </p>
+      <p>
+Note that the 
+              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ must be constructed without the use of 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ Confidential Information. This includes 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ Identifiers such as 
+              <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+ or 
+              <xref outputclass="element" keyref="element_local_patient_identifier">LOCAL PATIENT IDENTIFIER</xref>, as well as any text which may identify the 
+              <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ of the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or any 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ procedures being undertaken.        </p>
+      <p>
+See the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+ for detailed information.        </p>
+      <p>
+         <b>
+Once assigned, a Commissioning Data Set record must retain its CDS UNIQUE IDENTIFIER otherwise duplicate Commissioning Data Set records may be generated and stored in the 
+                  <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database.            </b>
+      </p>
+      <p>
+The 
+              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ has three components. The recommended constructs are given below.        </p>
+      <p>
+         <b>For All CDS Types EXCEPT the EAL CDS Types:</b>
+      </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="5">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>REF</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>UID</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>FORMAT</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>CODES / VALUES</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>COMMENT</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <b>NHS Organisation Code Type</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an1</p>
+                  </entry>
+                  <entry>
+                     <p>
+A = Pre 1996 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ B = Post 1996 NHS 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  / 
+                        <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>
+Mandatory For all 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>2</p>
+                  </entry>
+                  <entry>
+                     <b>Provider Code</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an5</p>
+                  </entry>
+                  <entry>
+                     <p>
+The NHS 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  / 
+                        <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+  of the Provider at the time of, or at the start of, the period covered by the activity reported by the CDS Message.                  </p>
+                  </entry>
+                  <entry>
+                     <p>
+Mandatory for all 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>3a</p>
+                  </entry>
+                  <entry>
+                     <b>Application Specific CDS Identity</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an29</p>
+                  </entry>
+                  <entry>
+                     <p>
+A code of up to 
+                        <b>29 alpha-numeric characters</b>
+ generated by the Sender's application to uniquely identify the CDS within its CDS Type or family of CDS Types                  </p>
+                  </entry>
+                  <entry>
+                     <p>
+Mandatory for all 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+                        <b>Except for EAL CDS Types</b>
+                    </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>For EAL End Of Period (EOP) CDS Types only:</b>
+      </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="5">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>REF</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>UID</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>FORMAT</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>CODES / VALUES</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>COMMENT</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <b>NHS Organisation Code Type</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an1</p>
+                  </entry>
+                  <entry>
+                     <p>
+A = Pre 1996 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ B = Post 1996 NHS 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  / 
+                        <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>
+Mandatory For all 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>2</p>
+                  </entry>
+                  <entry>
+                     <b>Provider Code</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an5</p>
+                  </entry>
+                  <entry>
+                     <p>
+The NHS 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  / 
+                        <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+  of the Provider at the time of, or at the start of, the period covered by the activity reported by the CDS Message.                  </p>
+                  </entry>
+                  <entry>
+                     <p>
+Mandatory for all 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>3b</p>
+                  </entry>
+                  <entry>
+                     <b>Application Specific CDS Identity</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an9</p>
+                  </entry>
+                  <entry>
+                     <p>
+A code of up to 
+                        <b>9 alpha-numeric characters</b>
+ generated by the Sender's application to uniquely identify the EAL End Of period census CDS Types with the same Admission List Entry. Additional data positions must be left blank.                  </p>
+                  </entry>
+                  <entry>
+                     <b>Mandatory for all EAL EOP CDS Types</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>3c</p>
+                  </entry>
+                  <entry>
+                     <b>Filler</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an20</p>
+                  </entry>
+                  <entry>
+                     <p>Additional data positions must be left blank.</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>For EAL Event During Period (EDP) CDS Types only:</b>
+      </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="5">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>REF</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>UID</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>FORMAT</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>CODES / VALUES</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>COMMENT</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <b>NHS Organisation Code Type</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an1</p>
+                  </entry>
+                  <entry>
+                     <p>
+A = Pre 1996 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ B = Post 1996 NHS 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  / 
+                        <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <b>
+Mandatory For all 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+                     </b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>2</p>
+                  </entry>
+                  <entry>
+                     <b>Provider Code</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an5</p>
+                  </entry>
+                  <entry>
+                     <p>
+The NHS 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  / 
+                        <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+  of the Provider at the time of, or at the start of, the period covered by the activity reported by the CDS Message.                  </p>
+                  </entry>
+                  <entry>
+                     <b>
+Mandatory for all 
+                        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+                     </b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>3d</p>
+                  </entry>
+                  <entry>
+                     <b>Application Specific CDS Identity</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an9</p>
+                  </entry>
+                  <entry>
+                     <p>
+A code of up to 
+                        <b>5 alpha-numeric characters padded with 4 trailing spaces to 9 characters</b>. Generated by the Sender's application to uniquely identify the EAL Event During Period Census CDS Types with the same Admission List Entry.                  </p>
+                  </entry>
+                  <entry>
+                     <b>Mandatory for all EAL EDP CDS Types</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>3e</p>
+                  </entry>
+                  <entry>
+                     <b>Filler</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an3</p>
+                  </entry>
+                  <entry>
+                     <p>
+A code of 
+                        <b>3 alpha-numeric characters</b>
+ generated by the Sender's application to identify 
+                        <b>the event</b>
+ within the EAL Entry. Even if the events are of different types, they must have different identifiers.                  </p>
+                  </entry>
+                  <entry>
+                     <b>Mandatory for all EAL EDP CDS Types</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>3f</p>
+                  </entry>
+                  <entry>
+                     <b>Filler</b>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>an17</p>
+                  </entry>
+                  <entry>
+                     <p>Additional data positions must be left blank.</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>Usage:</b>
+         <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ is a mandatory data item when the Net Change Update Mechanism is used and strongly recommended for use with the Bulk Replacement Update Mechanism.        </p>
+      <p>
+         <i>
+            <b>
+However it is strongly advised that users of the Bulk Replacement Mechanism maintain a correctly generated 
+                      <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ within the Commissioning data. This will establish a migration path towards the use of the Net Change Mechanism and will also then minimise the risk of creating duplicate Commissioning Data Set data in the 
+                      <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database.                </b>
+         </i>
+      </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+Note that senders of Commissioning Data Set data remain directly responsible for the integrity of the 
+                                <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+It is a mandatory requirement for all submissions using the Net Change Update Mechanism that these two components are constructed correctly to ensure uniqueness of 
+                                <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIERS</xref>
+ across the NHS.                     </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>The structure of 3b and 3c allows the EAL End of Period Census and the EAL Event During Period Census for the same EAL Entry to be linked.</p>
+            </div>
+         </li>
+      </ul>
+      <p>There are circumstances in patient care application systems where the control of the UID key integrity may be suspect. These issues include:</p>
+      <p>
+a) Episode deletion (not resulting in a Commissioning Data Set deletion of previously submitted data sent to the original Commissioner);
+  b) Episode re-sequencing (not resulting in a corresponding Commissioning Data Set records being sent);
+  c) Service agreement alterations not resulting in correct adjustments - Old Service Agreement deletion / New Service Agreement addition
+  d) Re-admissions causing duplicate keys on the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database.        </p>
+      <p>
+Each use of an NHS 
+              <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ within a Commissioning Data Set message must be associated with the release version of the NHS Organisation Code scheme. At present this may be derived locally by NHS IT systems.        </p>
+      <p>The following values have been informally used in many Commissioning Data Set implementations and are recommended to be used:</p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>
+A or O 
+                        <b>*</b>
+                    </p>
+                  </entry>
+                  <entry>
+                     <p>
+Signifying "OLD" (pre-April 1996) to denote an 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ issued before, and in use up to the 1996 major re-issue                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+B or N 
+                        <b>*</b>
+                    </p>
+                  </entry>
+                  <entry>
+                     <p>
+Signifying "NEW" (post-April 1996) to denote an 
+                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+  / 
+                        <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+  issued from April 1996                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>*</b>
+ The values of 
+              <b>A and B</b>
+ must be used in the formatting of the 
+              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>.        </p>
+  </div>
+</body>
+</topic>

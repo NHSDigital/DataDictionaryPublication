@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_data_duplication.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set Data Duplication - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+It is acknowledged that the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ processes can be directed to create duplicate Commissioning Data Set records and on occasion to wrongly delete records. This may occur if data senders do not correctly apply the rules associated with the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+ such as the protocol dates and the sender and recipient codes applicable to interchanges.        </p>
+      <p>
+It is not advisable to mix the use of Bulk and Net protocol for Commissioning Data Set submissions for the same sender 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ and 
+              <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITE</xref>
+ as duplication or wrongful record deletion can occur.        </p>
+      <p>
+         <b>Anticipating possible causes of duplication</b>
+Data senders can take steps to avoid Commissioning Data Set duplication in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ by anticipating situations which could result in changes to the data applied in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocols</xref>
+ and by taking action to ensure that key data items that need to be retained consistently in the lifetime of the Commissioning Data Set record are not changed.        </p>
+      <p>Data senders should note the following guidance on situations where extra vigilance is needed and action to ensure consistent and correct application of data elements used in net or bulk protocols:</p>
+      <p>
+         <b>Changes of address in patient demographic data</b>
+A change of 
+              <xref outputclass="element" keyref="element_postcode">POSTCODE</xref>
+ following a change of 
+              <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+ can change the 
+              <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+ in bulk update submissions.  Where possible, data senders should monitor changes to postcodes when preparing Commissioning Data Set data for submission in order to help prepare to minimise its impact on the integrity of the Commissioning Data Set data.        </p>
+      <p>
+         <b>New Patient Care or other local systems used in Commissioning Data Set processing</b>
+When a new 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ care system or other system is implemented or used for preparing the Commissioning Data Set output data, it must be ensured that the Commissioning Data Set is generated to the appropriate specification required. The sender must ensure that any data events that may impact on key fields in the Commissioning Data Set are managed correctly.        </p>
+      <p>
+For example, if the 
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ is sourced from the new system it is important to check that its format will not be changed (eg from 5 to 3 characters, or inserting site codes in the 4th and 5th characters instead of zeros).        </p>
+      <p>
+         <b>Sub-contracting</b>
+If a provider sub-contracts healthcare services and associated Commissioning Data Set submissions to a second provider, both parties need to actively engage in coordinating their arrangements for Commissioning Data Set submissions, ensuring that 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+ rules are applied appropriately to maintain the Commissioning Data Set data integrity in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database.        </p>
+      <p>
+         <b>New XML Schema translation supplier</b>
+If a provider changes supplier arrangements for XML Schema translation, it is important that the new supplier is provided with the information required about the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocols</xref>
+ that have been used in previous Commissioning Data Set submissions in order to ensure that data integrity is maintained in the ongoing Commissioning Data Set XML Schema processes and in the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ database.        </p>
+  </div>
+</body>
+</topic>

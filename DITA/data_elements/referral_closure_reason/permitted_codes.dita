@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_referral_closure_reason.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: REFERRAL CLOSURE REASON - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>
+Admitted elsewhere (at the same or other 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>Treatment completed</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>Moved out of the area</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <p>No further treatment appropriate</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> did not attend</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> died</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> requested discharge</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <p>
+Referred to other speciality/
+        <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ (at the same or other 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>09</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> refused to be seen</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

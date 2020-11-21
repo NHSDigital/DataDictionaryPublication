@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_person_rhesus_factor.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: PERSON RHESUS FACTOR - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+An indication of whether a 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>
+ has or does not have the rhesus factor (or Rh D antigen) on the surface of their red blood cells, using the 
+              <xref outputclass="businessDefinition" keyref="business_definition_rh_system">Rh System</xref>.        </p>
+      <p>
+This is indicated in association with their 
+              <xref outputclass="attribute" keyref="attribute_person_blood_group">PERSON BLOOD GROUP</xref>, established as a result of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinical_investigation">Clinical Investigation</xref>, by:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>RhD-Positive (does have the Rh D antigen) or</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>RhD-Negative (does not have the antigen).</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <i>National Codes:</i>
+      </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>POS</p>
+                  </entry>
+                  <entry>
+                     <p>RhD-positive</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>NEG</p>
+                  </entry>
+                  <entry>
+                     <p>RhD-negative</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

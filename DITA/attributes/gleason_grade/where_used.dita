@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_gleason_grade.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: GLEASON GRADE - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_cancer_staging' outputclass='class'></xref>
+        </stentry>
+        <stentry>has an attribute GLEASON GRADE of type GLEASON GRADE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_gleason_grade__secondary_' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of GLEASON GRADE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_gleason_grade__tertiary_' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of GLEASON GRADE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_gleason_grade__primary_' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of GLEASON GRADE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_gleason_grade__primary_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description GLEASON GRADE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_gleason_grade__secondary_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description GLEASON GRADE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_gleason_grade__tertiary_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description GLEASON GRADE</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_gleason_grading_system' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description GLEASON GRADE</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

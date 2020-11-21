@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_organisation_code__admitted_from_to_neonatal_unit_.default_codes'>
+  <title>Default Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ORGANISATION CODE (ADMITTED FROM TO NEONATAL UNIT) - Default Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>ZZ201</p>
+</stentry>
+        <stentry>
+  <p>Not applicable (admitted from home)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>ZZ888</p>
+</stentry>
+        <stentry>
+  <p>
+Not applicable (admitted from non-NHS 
+        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>ZZ203</p>
+</stentry>
+        <stentry>
+  <p>Not known (not known where admitted from)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

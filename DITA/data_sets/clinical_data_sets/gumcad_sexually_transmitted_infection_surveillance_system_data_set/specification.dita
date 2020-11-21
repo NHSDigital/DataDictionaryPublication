@@ -6,844 +6,898 @@
     <searchtitle>Data Set: GUMCAD Sexually Transmitted Infection Surveillance System Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>SERVICE INFORMATION DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>SERVICE INFORMATION DETAILS</b>
 
   <p>To carry the service information details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinic_type__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinic_type__sexual_health_service_">CLINIC TYPE (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PERSONAL AND DEMOGRAPHIC DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PERSONAL AND DEMOGRAPHIC DETAILS</b>
 
   <p>To carry personal and demographic details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended_">LOCAL PATIENT IDENTIFIER (EXTENDED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_risk_factor__sexually_transmitted_infection_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_risk_factor__sexually_transmitted_infection_">PERSON RISK FACTOR (SEXUALLY TRANSMITTED INFECTION)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_gender_identity_code__sexual_health_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_gender_identity_code__sexual_health_">GENDER IDENTITY CODE (SEXUAL HEALTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_gender_identity_same_at_birth_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_gender_identity_same_at_birth_indicator">GENDER IDENTITY SAME AT BIRTH INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_age_at_attendance_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_age_at_attendance_date">AGE AT ATTENDANCE DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_stated_sexual_orientation_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_stated_sexual_orientation_code">PERSON STATED SEXUAL ORIENTATION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ethnic_category' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_country_code__birth_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_country_code__birth_">COUNTRY CODE (BIRTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ons_local_government_geographic_area_code__local_authority_district_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_ons_local_government_geographic_area_code__local_authority_district_">ONS LOCAL GOVERNMENT GEOGRAPHIC AREA CODE (LOCAL AUTHORITY DISTRICT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_lower_layer_super_output_area__person_residence_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_lower_layer_super_output_area__person_residence_">LOWER LAYER SUPER OUTPUT AREA (PERSON RESIDENCE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CLINIC ATTENDANCE AND ACTIVITY DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>CLINIC ATTENDANCE AND ACTIVITY DETAILS</b>
 
   <p>To carry clinic attendance and activity details. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_sexual_health_service_attendance_source__snomed_ct_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_sexual_health_service_attendance_source__snomed_ct_">SEXUAL HEALTH SERVICE ATTENDANCE SOURCE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_attendance_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_attendance_date">ATTENDANCE DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_consultation_medium_used__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_consultation_medium_used__sexual_health_service_">CONSULTATION MEDIUM USED (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_consultation_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_consultation_type">CONSULTATION TYPE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_service_type__sexual_health_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_service_type__sexual_health_">SERVICE TYPE (SEXUAL HEALTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_partner_notification_consultation_indicator__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_partner_notification_consultation_indicator__sexual_health_service_">PARTNER NOTIFICATION CONSULTATION INDICATOR (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_attendance_symptomatic_indicator__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_attendance_symptomatic_indicator__sexual_health_service_">PATIENT ATTENDANCE SYMPTOMATIC INDICATOR (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_diagnosis_confirmed_indication_code__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_sexual_health_and_hiv_activity_property_type">SEXUAL HEALTH AND HIV ACTIVITY PROPERTY TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_diagnostic_or_procedure_coding__sexual_health_and_human_immunodeficiency_virus_relevant_read_codes_">DIAGNOSTIC OR PROCEDURE CODING (SEXUAL HEALTH AND HUMAN IMMUNODEFICIENCY VIRUS RELEVANT READ CODES)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_sexual_health_and_hiv_activity_health_issue__snomed_ct_">SEXUAL HEALTH AND HIV ACTIVITY HEALTH ISSUE (SNOMED CT)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_sexual_health_and_hiv_activity_procedure__snomed_ct_">SEXUAL HEALTH AND HIV ACTIVITY PROCEDURE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_diagnosis_site_of_infection__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_diagnosis_confirmed_indication_code__sexual_health_service_">PATIENT DIAGNOSIS CONFIRMED INDICATION CODE (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_diagnosis_treatment_provided_indication_code__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_diagnosis_site_of_infection__sexual_health_service_">PATIENT DIAGNOSIS SITE OF INFECTION (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_diagnosis_treatment_provided_indication_code__sexual_health_service_">PATIENT DIAGNOSIS TREATMENT PROVIDED INDICATION CODE (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>PARTNER DETAILS</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>PARTNER DETAILS</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>opposite sex partnership</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>opposite sex partnership</b>
 
   <p>To carry the opposite sex partnership details. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_sex_partners_in_last_three_months_code__opposite_sex_partners_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_sex_partners_in_last_three_months_code__opposite_sex_partners_">NUMBER OF SEX PARTNERS IN LAST THREE MONTHS CODE (OPPOSITE SEX PARTNERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_new_sex_partners_in_last_three_months_indicator__opposite_sex_partners_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_new_sex_partners_in_last_three_months_indicator__opposite_sex_partners_">NEW SEX PARTNERS IN LAST THREE MONTHS INDICATOR (OPPOSITE SEX PARTNERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_condomless_sex_indicator__penetrative_sex_opposite_sex_partners_for_the_last_time_person_had_sex_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_condomless_sex_indicator__penetrative_sex_opposite_sex_partners_for_the_last_time_person_had_sex_">CONDOMLESS SEX INDICATOR (PENETRATIVE SEX OPPOSITE SEX PARTNERS FOR THE LAST TIME PERSON HAD SEX)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>male same sex partnership </p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>male same sex partnership </b>
 
   <p>To carry the male same sex partnership details. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_sex_partners_in_last_three_months_code__male_same_sex_partners_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_sex_partners_in_last_three_months_code__male_same_sex_partners_">NUMBER OF SEX PARTNERS IN LAST THREE MONTHS CODE (MALE SAME SEX PARTNERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_hiv_positive_partners_in_last_three_months_indicator__penetrative_sex_male_same_sex_partners_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_hiv_positive_partners_in_last_three_months_indicator__penetrative_sex_male_same_sex_partners_">HIV POSITIVE PARTNERS IN LAST THREE MONTHS INDICATOR (PENETRATIVE SEX MALE SAME SEX PARTNERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_condomless_sex_indicator__penetrative_sex_male_same_sex_partners_in_the_last_three_months_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_condomless_sex_indicator__penetrative_sex_male_same_sex_partners_in_the_last_three_months_">CONDOMLESS SEX INDICATOR (PENETRATIVE SEX MALE SAME SEX PARTNERS IN THE LAST THREE MONTHS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_condomless_sex_indicator__receptive_sex_male_same_sex_partners_in_the_last_three_months_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_condomless_sex_indicator__receptive_sex_male_same_sex_partners_in_the_last_three_months_">CONDOMLESS SEX INDICATOR (RECEPTIVE SEX MALE SAME SEX PARTNERS IN THE LAST THREE MONTHS)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>female same sex partnership</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>female same sex partnership</b>
 
   <p>To carry the female same sex partnership details. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_sex_partners_in_last_three_months_code__female_same_sex_partners_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_sex_partners_in_last_three_months_code__female_same_sex_partners_">NUMBER OF SEX PARTNERS IN LAST THREE MONTHS CODE (FEMALE SAME SEX PARTNERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_new_sex_partners_in_last_three_months_indicator__female_same_sex_partners_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_new_sex_partners_in_last_three_months_indicator__female_same_sex_partners_">NEW SEX PARTNERS IN LAST THREE MONTHS INDICATOR (FEMALE SAME SEX PARTNERS)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>partner notification</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>partner notification</b>
 
   <p>To carry the partner notification details. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_initial_partner_notification_discussion_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_initial_partner_notification_discussion_date">INITIAL PARTNER NOTIFICATION DISCUSSION DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_patient_reported_partners_for_diagnosed_sexually_transmitted_infection' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_patient_reported_partners_for_diagnosed_sexually_transmitted_infection">NUMBER OF PATIENT REPORTED PARTNERS FOR DIAGNOSED SEXUALLY TRANSMITTED INFECTION</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_contactable_patient_reported_partners_for_diagnosed_sexually_transmitted_infection' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_contactable_patient_reported_partners_for_diagnosed_sexually_transmitted_infection">NUMBER OF CONTACTABLE PATIENT REPORTED PARTNERS FOR DIAGNOSED SEXUALLY TRANSMITTED INFECTION</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_patient_partners_reported_as_attended_a_sexual_health_service' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_patient_partners_reported_as_attended_a_sexual_health_service">NUMBER OF PATIENT PARTNERS REPORTED AS ATTENDED A SEXUAL HEALTH SERVICE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_patient_partners_confirmed_as_attended_a_sexual_health_service' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_patient_partners_confirmed_as_attended_a_sexual_health_service">NUMBER OF PATIENT PARTNERS CONFIRMED AS ATTENDED A SEXUAL HEALTH SERVICE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PRE-EXPOSURE PROPHYLAXIS (PrEP) DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PRE-EXPOSURE PROPHYLAXIS (PrEP) DETAILS</b>
 
   <p>To carry the Pre- Exposure Prophylaxis (PrEP) details. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pre_exposure_prophylaxis_eligibility_reason' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pre_exposure_prophylaxis_eligibility_reason">PRE EXPOSURE PROPHYLAXIS ELIGIBILITY REASON</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pre_exposure_prophylaxis_offer_status_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pre_exposure_prophylaxis_offer_status_code">PRE EXPOSURE PROPHYLAXIS OFFER STATUS CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pre_exposure_prophylaxis_drug_regimen_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pre_exposure_prophylaxis_drug_regimen_code">PRE EXPOSURE PROPHYLAXIS DRUG REGIMEN CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_prescribed_item_quantity__pre_exposure_prophylaxis_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_prescribed_item_quantity__pre_exposure_prophylaxis_">PRESCRIBED ITEM QUANTITY (PRE EXPOSURE PROPHYLAXIS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pre_exposure_prophylaxis_stopped_reason' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pre_exposure_prophylaxis_stopped_reason">PRE EXPOSURE PROPHYLAXIS STOPPED REASON</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>DRUG AND ALCOHOL USAGE DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>DRUG AND ALCOHOL USAGE DETAILS</b>
 
   <p>To carry drug and alcohol usage details. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_alcohol_use_assessed_indicator__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_alcohol_use_assessed_indicator__sexual_health_service_">ALCOHOL USE ASSESSED INDICATOR (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_alcohol_use_assessed_as_problematic_indicator__sexual_health_service_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_alcohol_use_assessed_as_problematic_indicator__sexual_health_service_">ALCOHOL USE ASSESSED AS PROBLEMATIC INDICATOR (SEXUAL HEALTH SERVICE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__recreational_drugs_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__recreational_drugs_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (RECREATIONAL DRUGS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__amphetamine_or_speed_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__amphetamine_or_speed_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (AMPHETAMINE OR SPEED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__benzodiazepines_non_prescribed_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__benzodiazepines_non_prescribed_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (BENZODIAZEPINES NON PRESCRIBED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__cannabis_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__cannabis_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (CANNABIS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__cocaine_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__cocaine_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (COCAINE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__crack_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__crack_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (CRACK)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__crystal_meth_or_methamphetamine_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__crystal_meth_or_methamphetamine_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (CRYSTAL METH OR METHAMPHETAMINE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__ecstasy_or_methylenedioxymethamphetamine_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__ecstasy_or_methylenedioxymethamphetamine_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (ECSTASY OR METHYLENEDIOXYMETHAMPHETAMINE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__gammahydroxybutyrate_or_gammabutyrolactone_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__gammahydroxybutyrate_or_gammabutyrolactone_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (GAMMAHYDROXYBUTYRATE OR GAMMABUTYROLACTONE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__heroin_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__heroin_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (HEROIN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__ketamine_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__ketamine_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (KETAMINE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__mephedrone_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__mephedrone_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (MEPHEDRONE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__methadone_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__methadone_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (METHADONE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__novel_psychoactive_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__novel_psychoactive_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (NOVEL PSYCHOACTIVE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__poppers_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__poppers_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (POPPERS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__solvents_or_glue_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__solvents_or_glue_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (SOLVENTS OR GLUE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_use_in_the_last_three_months_indicator__unclassified_substance_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_use_in_the_last_three_months_indicator__unclassified_substance_">SUBSTANCE USE IN THE LAST THREE MONTHS INDICATOR (UNCLASSIFIED SUBSTANCE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_injected_in_the_last_three_months_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_injected_in_the_last_three_months_indicator">SUBSTANCE INJECTED IN THE LAST THREE MONTHS INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_substance_injected_shared_equipment_in_the_last_three_months_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_substance_injected_shared_equipment_in_the_last_three_months_indicator">SUBSTANCE INJECTED SHARED EQUIPMENT IN THE LAST THREE MONTHS INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_sexual_intercourse_under_the_influence_of_substance_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_sexual_intercourse_under_the_influence_of_substance_indicator">SEXUAL INTERCOURSE UNDER THE INFLUENCE OF SUBSTANCE INDICATOR</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

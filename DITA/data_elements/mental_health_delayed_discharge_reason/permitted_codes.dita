@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_mental_health_delayed_discharge_reason.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: MENTAL HEALTH DELAYED DISCHARGE REASON - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>A1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting completion of assessment (Retired 01 April 2017)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>A2</p>
+</stentry>
+        <stentry>
+  <p>Awaiting care coordinator allocation</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>B1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting public funding</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>C1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting further non-acute (including community and mental health) NHS care (including intermediate care, rehabilitation services etc)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>D1</p>
+</stentry>
+        <stentry>
+  <p>
+Awaiting 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+ placement or availability    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>D2</p>
+</stentry>
+        <stentry>
+  <p>
+Awaiting 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+ placement or availability    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>E1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting care package in own home</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>F1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting community equipment and adaptations (Retired 01 April 2017)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>F2</p>
+</stentry>
+        <stentry>
+  <p>Awaiting community equipment, telecare and/or adaptations</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>G1</p>
+</stentry>
+        <stentry>
+  <p>PATIENT or family choice (Retired 01 April 2017)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G2</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ or family choice (Reason not stated by 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or family)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G3</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> or family choice - Non-acute (including community and mental health) NHS care (including intermediate care, rehabilitation services etc)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G4</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ or family choice - 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+ placement    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G5</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ or family choice - 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+ placement    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G6</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> or family choice - Care package in own home</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G7</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> or family choice - Community equipment, telecare and/or adaptations</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G8</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> or Family Choice - general needs housing/private landlord acceptance as patient NOT covered by Housing Act/Care Act</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G9</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> or family choice - Supported accommodation </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G10</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ or family choice - Emergency accommodation from the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_local_authority">Local Authority</xref>
+ under the Housing Act    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G11</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> or family choice - Child or young person awaiting social care or family placement</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>G12</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> or family choice - Ministry of Justice agreement/permission of proposed placement</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>H1</p>
+</stentry>
+        <stentry>
+  <p>Disputes</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>I1</p>
+</stentry>
+        <stentry>
+  <p>Housing - PATIENT not covered by NHS and Community Care Act (Retired 01 April 2017)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>I2</p>
+</stentry>
+        <stentry>
+  <p>
+Housing - Awaiting availability of general needs housing/private landlord accommodation acceptance as 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ NOT covered by Housing Act and/or Care Act    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>I3</p>
+</stentry>
+        <stentry>
+  <p>
+Housing - Single homeless 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ or asylum seekers NOT covered by Care Act    </p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>J1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting availability of social care support (Retired 01 April 2017)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>J2</p>
+</stentry>
+        <stentry>
+  <p>Housing - Awaiting supported accommodation</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>K1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting availability of local health service provision (Retired 01 April 2017)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>K2</p>
+</stentry>
+        <stentry>
+  <p>
+Housing - Awaiting emergency accommodation from the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_local_authority">Local Authority</xref>
+ under the Housing Act    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>L1</p>
+</stentry>
+        <stentry>
+  <p>Child or young person awaiting social care or family placement</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>M1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting Ministry of Justice agreement/permission of proposed placement</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>N1</p>
+</stentry>
+        <stentry>
+  <p>Awaiting outcome of legal requirements (mental capacity/mental health legislation)</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>Z1</p>
+</stentry>
+        <stentry>
+  <p>Other Reason (Retired 01 April 2017)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

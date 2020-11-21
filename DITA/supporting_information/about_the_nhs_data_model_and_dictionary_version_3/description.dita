@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_about_the_nhs_data_model_and_dictionary_version_3.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: About the NHS Data Model and Dictionary Version 3 - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+Following the issue of 
+              <xref href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2004/072004.pdf"
+               scope="external"
+               format="html">DSCN 07/2004 'Data Standards: Meta Model'</xref>, the NHS Data Model and Dictionary was changed to reflect and be based upon a more generic logical data model which better supports the strategic way forward. This NHS Data Model and Dictionary was published as the NHS Data Model and Dictionary Version 3.        </p>
+      <p>There was extensive quality assurance of Version 3 including involvement of the Data Definition Group. All Version 3 contents were cross mapped and checked to ensure consistency with the Version 2 contents but the underlying structure was genericised. No changes were made to NHS Business Definitions. Version 3 superseded Version 2 on 1st May 2005.</p>
+      <p>
+         <xref href="https://v2.datadictionary.nhs.uk//"
+               scope="external"
+               format="html">The NHS Data Dictionary Version 2</xref>
+ has been frozen and made available for archive information purposes only and has been watermarked accordingly.        </p>
+      <p>Summary of main changes and enhancements incorporated within Version 3</p>
+      <ul>
+         <li>
+            <div>
+               <p>Introduction of the capability of holding Retired Items</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Introduction of NHS Business Definitions, which allow specific business areas to be defined in a more flexible manner</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>New 'All Items Index' which lists all the contents held within the NHS Data Model and Dictionary</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Reduction in the number of data model diagrams making them more comprehensible</p>
+            </div>
+         </li>
+         <li>
+            <p>Introduction of Domains, which are conceptual logical modelling objects which identify the logical format, length and value set attributable to one or more attribute(s)</p>
+         </li>
+         <li>
+            <div>
+               <p>'Where Used' list expanded to include a description of usage column</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Creation of a separate Meta Model area within the publication</p>
+            </div>
+         </li>
+      </ul>
+      <p>The introduction of Version 3 had no impact on current information standards or system suppliers.</p>
+      <p>
+         <b>About the Generic Model</b>
+      </p>
+      <p>
+Version 3 introduced a new Generic Model which is '<xref outputclass="class" keyref="class_person">PERSON</xref>
+ based' rather than '<xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ based'. The model has been developed around generic '<xref outputclass="class" keyref="class_care_activity">CARE ACTIVITIES</xref>' for a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>, with each event transaction being recorded.        </p>
+      <p>
+The Generic Model supports all the messages, data sets and central returns which the model supported but the underlying structure has been genericised. This involved grouping many of the old classes into generic classes like 
+              <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>. However, none of the detail was lost and most of the old class definitions can be found under 'NHS Business Definitions'. The number of diagrams has been greatly reduced and they now describe coherent areas of the model which is a far more useful approach for data modellers.        </p>
+      <p>
+The model is aimed at enabling all '<xref outputclass="class" keyref="class_care_activity">CARE ACTIVITIES</xref>' related to the same condition for the same 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to be recorded and linked across 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>. The different states of the same '<xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>' are recorded as event transactions e.g. requested, intended, scheduled, provided, cancelled, etc. These different state events also drive the scheduling and capacity planning of resources (people, equipment, facilities, etc.) to deliver the care.        </p>
+      <p>Although this may seem complicated, it is necessary both to form a coherent logical model and to relate physical information such as that which flows on the Data Sets to the logical model. Every physical item should be represented logically in the NHS Data Model and Dictionary. However, the scope of the logical model is greater than the physical information it holds and therefore not all logical information has a physical existence.</p>
+      <p>
+         <b>Contact us for more information:</b>
+  
+              <xref href="mailto:information.standards@nhs.net"
+               scope="external"
+               format="html">
+            <b>information.standards@nhs.net</b>
+         </xref>.        </p>
+  </div>
+</body>
+</topic>

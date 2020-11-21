@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_organisation_code__residence_responsibility_.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ORGANISATION CODE (RESIDENCE RESPONSIBILITY) - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <xref outputclass="supportingInformation"
+         keyref="supporting_definition_organisation_data_service_default_codes">ODS Default Codes</xref>
+  <p>:</p>
+</stentry>
+        <stentry>
+  <p>
+Q99 - High Level Health Geography/Primary Care 
+        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ of Residence Not Known
+    </p>
+  <p>Note: This code must not be used in the Commissioning Data Set header. It is not a default commissioner code.</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p> </p>
+</stentry>
+        <stentry>
+  <p>
+X98 - Primary Care 
+        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ Not Applicable (<xref outputclass="businessDefinition"
+            keyref="business_definition_overseas_visitor">Overseas Visitors</xref>)
+    </p>
+  <p>Note: this code must not be used in the Commissioning Data Set (CDS) header. It is not a default Commissioner code.</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

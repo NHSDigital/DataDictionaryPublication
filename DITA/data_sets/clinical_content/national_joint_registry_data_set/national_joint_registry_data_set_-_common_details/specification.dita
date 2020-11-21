@@ -6,269 +6,260 @@
     <searchtitle>Data Set: National Joint Registry Data Set - Common Details - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='7'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
-        <colspec colname='col6' colnum='6' colwidth='5*' />
-        <colspec colname='col7' colnum='7' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>COMMON DETAILS</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>COMMON DETAILS</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Patient Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Patient Details</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_consent_obtained_indicator__national_joint_registry_recording_data_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Patient Identifiers</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_consent_obtained_indicator__national_joint_registry_recording_data_">PATIENT CONSENT OBTAINED INDICATOR (NATIONAL JOINT REGISTRY RECORDING DATA)</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_given_name' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_person_family_name' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_height_in_metres">PERSON HEIGHT IN METRES</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element" keyref="element_body_mass_index">BODY MASS INDEX</xref>
+  </p>
+</entry>
           </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_local_patient_identifier__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_person_stated_gender_code__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_person_birth_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_postcode_of_usual_address' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Operation Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Patient Identifiers</b>
 
   <p>One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
             <entry>
-              <xref keyref='element_procedure_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_anaesthetic_type__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_asa_physical_status_classification_system_code__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_operation_funding__national_joint_registry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Surgeon Details</p>
-
-
-
-  <p>One occurrence of this group is required.</p>
-
+  <p>
+      <xref outputclass="element" keyref="element_person_given_name">PERSON GIVEN NAME</xref>
+  </p>
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_consultant_code__responsible_consultant_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_family_name">PERSON FAMILY NAME</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_code__operating_surgeon_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__national_joint_registry_">LOCAL PATIENT IDENTIFIER (NATIONAL JOINT REGISTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_lead_operating_surgeon_grade__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_stated_gender_code__national_joint_registry_">PERSON STATED GENDER CODE (NATIONAL JOINT REGISTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_first_assistant_grade__joint_replacement_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element" keyref="element_health_and_care_number">HEALTH AND CARE NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Operation Details</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_procedure_date">PROCEDURE DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_anaesthetic_type__joint_replacement_">ANAESTHETIC TYPE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_asa_physical_status_classification_system_code__national_joint_registry_">ASA PHYSICAL STATUS CLASSIFICATION SYSTEM CODE (NATIONAL JOINT REGISTRY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_operation_funding__national_joint_registry_">OPERATION FUNDING (NATIONAL JOINT REGISTRY)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Surgeon Details</b>
+
+  <p>One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_consultant_code__responsible_consultant_">CONSULTANT CODE (RESPONSIBLE CONSULTANT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_code__operating_surgeon_">CARE PROFESSIONAL CODE (OPERATING SURGEON)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_lead_operating_surgeon_grade__joint_replacement_">CARE PROFESSIONAL LEAD OPERATING SURGEON GRADE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_first_assistant_grade__joint_replacement_">CARE PROFESSIONAL FIRST ASSISTANT GRADE (JOINT REPLACEMENT)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

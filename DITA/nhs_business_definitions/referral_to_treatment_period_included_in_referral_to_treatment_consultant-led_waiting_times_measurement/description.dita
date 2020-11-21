@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Referral to Treatment Period Included in Referral to Treatment Consultant-led Waiting Times Measurement - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+ is a 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
+      <p>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+ is any 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ included in the reporting for Referral To Treatment Consultant-Led Waiting Times Measurement.        </p>
+      <p>
+It includes all 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_referral_to_treatment_period">Cancer Referral To Treatment Periods</xref>.        </p>
+      <p>
+It is all 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_measured_referral_to_treatment_period">Measured Referral to Treatment Periods</xref>
+ where the 
+              <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ is to a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
+ or an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_interface_service">Interface Service</xref>
+ except:        </p>
+      <ul>
+         <li>
+            <p>
+any 
+                          <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
+ where the 
+                          <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ did not attend their first 
+                          <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ during a 
+                          <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ (<xref outputclass="attribute"
+                     keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+ is National Code '<i>
+Did not attend - the 
+                              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ did not attend the first 
+                              <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+ after the referral')                    </i>
+            </p>
+         </li>
+         <li>
+            <p>
+any 
+                          <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
+ which are not commissioned by or on behalf of the English NHS.                </p>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

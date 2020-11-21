@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_employee_training_activity.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: EMPLOYEE TRAINING ACTIVITY - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each EMPLOYEE TRAINING ACTIVITY</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be attended by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_employee' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be provided by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

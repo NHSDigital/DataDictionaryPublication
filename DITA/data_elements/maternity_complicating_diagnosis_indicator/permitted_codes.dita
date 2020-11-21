@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_maternity_complicating_diagnosis_indicator.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: MATERNITY COMPLICATING DIAGNOSIS INDICATOR - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>Y</p>
+</stentry>
+        <stentry>
+  <p>
+Yes - a 
+        <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ may lead to complications during the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_episode">Maternity Episode</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>N</p>
+</stentry>
+        <stentry>
+  <p>
+No - a 
+        <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ may not lead to complications during the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_episode">Maternity Episode</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

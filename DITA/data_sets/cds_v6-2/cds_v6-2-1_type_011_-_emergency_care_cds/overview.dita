@@ -6,423 +6,590 @@
     <searchtitle>Data Set: CDS V6-2-1 Type 011 - Emergency Care CDS - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>
-      <xref outputclass="dataSet"
-            keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
+  <div>
+      <p>
+         <b>Introduction</b>
+      </p>
+      <p>
+         <xref outputclass="dataSet"
+               keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
  carries the data for an 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
-.  </p>
-  <p>
-      <b>
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>.        </p>
+      <p>
+         <b>
 To access more detailed information on the Commissioning Data Sets, see the 
-      <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
-               scope="external"
-               format="html">Commissioning_Data_Sets_Introduction</xref>
-.    </b>
-  </p>
-  <p>
-      <b>Data Group Overview</b>
-  </p>
-  <p>
-A high-level view of the Data Groups carried in the 
-    <xref outputclass="dataSet"
-            keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
- is shown below.  </p>
-  <p>
+                <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets Introduction</xref>.            </b>
+      </p>
+      <p>
+         <b>Data Group Overview</b>
+      </p>
+      <p>A high-level view of the Data Groups carried is shown below.</p>
+      <p>
 See 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
-            scope="external"
-            format="html">Commissioning Data Set Notation</xref>
- for an explanation of Group Status and Group Repeats.  </p>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>
-               <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
-                     scope="external"
-                     format="html">Notation</xref>
-            </b>
-         </stentry>
-         <stentry>
-            <b>DATA GROUP OVERVIEW: CDS V6-2-1 TYPE 011 - EMERGENCY CARE COMMISSIONING DATA SET</b>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <b>Group
-        Status</b>
-         </stentry>
-         <stentry>
-            <b>Group
-        Repeats</b>
-         </stentry>
-         <stentry>
-            <b>FUNCTION:
-        To support the details of an Emergency Care Attendance.</b>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..1</b>
-         </stentry>
-         <stentry>
-            <b>
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_notation">Commissioning Data Set Notation</xref>
+ for an explanation of Group Status and Group Repeats.        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="4">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_notation">Notation</xref>
+                     </b>
+                  </entry>
+                  <entry namest="col3" nameend="col4" scope="col">
+                     <b>DATA GROUP OVERVIEW: CDS V6-2-1 TYPE 011 - EMERGENCY CARE COMMISSIONING DATA SET</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry scope="col">
+                     <b>Group Status</b>
+                  </entry>
+                  <entry scope="col">
+                     <b>Group Repeats</b>
+                  </entry>
+                  <entry namest="col3" nameend="col4" scope="col">
+                     <b>FUNCTION: To support the details of an Emergency Care Attendance.</b>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <b>
 DATA GROUP: 
-                  <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_001_-_cds_interchange_header">CDS V6-2-1 Type 001 - Commissioning Data Set Interchange Header</xref>
-            </b>
-            <p>
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2-1_type_001_-_cds_interchange_header">CDS V6-2-1 Type 001 - Commissioning Data Set Interchange Header</xref>
+                     </b>
+                     <p>
 One per Interchange submitted to the 
-                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-                     scope="external"
-                     format="html">Secondary_Uses_Service</xref>
-.
-        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..*</b>
-         </stentry>
-         <stentry>
-            <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..*</b>
+                  </entry>
+                  <entry>
+                     <b>
 DATA GROUP: 
-                  <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_003_-_cds_message_header">CDS V6-2-1 Type 003 - Commissioning Data Set Message Header</xref>
-            </b>
-            <p>
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2-1_type_003_-_cds_message_header">CDS V6-2-1 Type 003 - Commissioning Data Set Message Header</xref>
+                     </b>
+                     <p>
 One per Commissioning Data Set Message submitted to the 
-                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-                     scope="external"
-                     format="html">Secondary_Uses_Service</xref>
-.        </p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..1</b>
-         </stentry>
-         <stentry>
-            <b>DATA GROUP: COMMISSIONING DATA SET TRANSACTION HEADER GROUP</b>
-            <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="5">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry namest="col3" nameend="col5">
+                     <b>DATA GROUP: COMMISSIONING DATA SET TRANSACTION HEADER GROUP</b>
+                     <p>
 Dependent upon the 
-                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_submission_protocol.asp"
-                     scope="external"
-                     format="html">Commissioning Data Set Submission Protocol</xref>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
  being used, one of the following must be used per Commissioning Data Set Message submitted to the 
-                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-                     scope="external"
-                     format="html">Secondary_Uses_Service</xref>
-:
-                  <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
-Or
-                  <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
-            </p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>O</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: PATIENT PATHWAY</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..1</b>
-         </stentry>
-         <stentry>
-            <b>DATA GROUP: PATIENT IDENTITY</b>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: PATIENT CHARACTERISTICS (EMERGENCY CARE)</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..*</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: MENTAL HEALTH ACT LEGAL STATUS</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: GP REGISTRATION</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: EMERGENCY CARE ATTENDANCE LOCATION</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: AMBULANCE DETAILS</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..1</b>
-         </stentry>
-         <stentry>
-            <b>DATA GROUP: EMERGENCY CARE ATTENDANCE ACTIVITY CHARACTERISTICS</b>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: INJURY CHARACTERISTICS</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: PATIENT CLINICAL HISTORY</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..1</b>
-         </stentry>
-         <stentry>
-            <b>SERVICE AGREEMENT DETAILS</b>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..*</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: CARE PROFESSIONALS (EMERGENCY CARE)</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..*</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: EMERGENCY CARE DIAGNOSES</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..*</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: EMERGENCY CARE INVESTIGATIONS</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..*</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: EMERGENCY CARE TREATMENTS</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..*</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: REFERRALS TO OTHER SERVICES</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>R</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: DISCHARGE FROM EMERGENCY CARE</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>O</p>
-         </stentry>
-         <stentry>
-            <p>0..1</p>
-         </stentry>
-         <stentry>
-            <p>DATA GROUP: RESEARCH AND DISEASE OUTBREAK NOTIFICATION</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..*</b>
-         </stentry>
-         <stentry>
-            <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>: 
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+ Or 
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+                     </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>O</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: PATIENT PATHWAY</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <b>DATA GROUP: PATIENT IDENTITY</b>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: PATIENT CHARACTERISTICS (EMERGENCY CARE)</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..*</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: MENTAL HEALTH ACT LEGAL STATUS</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: GP REGISTRATION</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: EMERGENCY CARE ATTENDANCE LOCATION</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: AMBULANCE DETAILS</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <b>DATA GROUP: EMERGENCY CARE ATTENDANCE ACTIVITY CHARACTERISTICS</b>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: INJURY CHARACTERISTICS</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: PATIENT CLINICAL HISTORY</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <b>SERVICE AGREEMENT DETAILS</b>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..*</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: CARE PROFESSIONALS (EMERGENCY CARE)</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..*</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: EMERGENCY CARE DIAGNOSES</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..*</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: EMERGENCY CARE INVESTIGATIONS</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..*</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: EMERGENCY CARE TREATMENTS</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..*</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: REFERRALS TO OTHER SERVICES</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>R</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: DISCHARGE FROM EMERGENCY CARE</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>O</p>
+                  </entry>
+                  <entry>
+                     <p>0..1</p>
+                  </entry>
+                  <entry>
+                     <p>DATA GROUP: RESEARCH AND DISEASE OUTBREAK NOTIFICATION</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..*</b>
+                  </entry>
+                  <entry>
+                     <b>
 DATA GROUP: 
-                  <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_004_-_cds_message_trailer">CDS V6-2-1 Type 004 - Commissioning Data Set Message Trailer</xref>
-            </b>
-            <p>
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2-1_type_004_-_cds_message_trailer">CDS V6-2-1 Type 004 - Commissioning Data Set Message Trailer</xref>
+                     </b>
+                     <p>
 One per Commissioning Data Set Message submitted to the 
-                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-                     scope="external"
-                     format="html">Secondary_Uses_Service</xref>
-.
-        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>M</b>
-         </stentry>
-         <stentry>
-            <b>1..1</b>
-         </stentry>
-         <stentry>
-            <b>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>M</b>
+                  </entry>
+                  <entry>
+                     <b>1..1</b>
+                  </entry>
+                  <entry>
+                     <b>
 DATA GROUP: 
-                  <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_002_-_cds_interchange_trailer">CDS V6-2-1 Type 002 - Commissioning Data Set Interchange Trailer</xref>
-            </b>
-            <p>
- 
-        One per Interchange submitted to the 
-                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-                     scope="external"
-                     format="html">Secondary_Uses_Service</xref>
-.
-        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
-         </stentry>
-      </strow>
-  </simpletable>
-
+                        <xref outputclass="dataSet"
+                              keyref="dataset_cds_v6-2-1_type_002_-_cds_interchange_trailer">CDS V6-2-1 Type 002 - Commissioning Data Set Interchange Trailer</xref>
+                     </b>
+                     <p>
+  One per Interchange submitted to the 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>Business Rules</b>
+      </p>
+      <p>
+See 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_business_rules">Commissioning Data Set Business Rules</xref>
+ for an explanation of the business and/or processing rules which apply to individual Data Elements.        </p>
+      <p>
+         <b>XML Schema</b>
+      </p>
+      <p>
+For guidance on the XML Schema constraints, see the 
+            <xref outputclass="xmlSchemaConstraint"
+               keyref="xml_schema_constraint_commissioning_data_set_version_6-2-1_xml_schema_constraints">Commissioning Data Set Version 6-2-1 XML Schema Constraints</xref>.        </p>
+      <p>
+For guidance on downloading the XML Schema, see 
+            <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/xml_schema_trud_download.html"
+               scope="external"
+               format="html">XML_Schema_TRUD_Download</xref>.        </p>
+  </div>
 </body>
 </topic>

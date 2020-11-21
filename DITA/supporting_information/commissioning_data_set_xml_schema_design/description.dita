@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_xml_schema_design.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set XML Schema Design - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The use of XML was mandated by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>) programme as the standard to be used for messaging by government organisations and has accordingly been adopted by the NHS.        </p>
+      <p>
+For the submission of Commissioning Data Set data to the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>, XML based messaging has been developed to be fully adopted by the end of 2007, replacing all previously published Commissioning Data Set Message formats.        </p>
+      <p>
+         <b>XML Schema Standards</b>
+The overall standards applied and supported by the schema are:        </p>
+      <ul>
+         <li>
+            <p>W3C schema standards</p>
+         </li>
+         <li>
+            <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
+            <p>
+(<xref outputclass="supportingInformation"
+                     keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>)                </p>
+         </li>
+         <li>
+            <p>e-GOV Best Practice guidelines for XML Schema</p>
+         </li>
+         <li>
+            <p>The NHS Data Model and Dictionary</p>
+         </li>
+      </ul>
+      <p>
+Note:
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+ and the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
+ 
+              <b>have been archived</b>
+ and are available for reference only.        </p>
+      <p>
+         <b>XML Schema Naming Conventions</b>
+These are in CamelCase reflecting recommended e-GOV guidelines for best practice. Wherever possible, schema data item names are compliant (or intuitively identifiable) with the NHS Data Model and Dictionary data naming conventions.        </p>
+      <p>
+         <b>XML Schema Components</b>
+The schema consists of the following components:        </p>
+      <ul>
+         <li>
+            <p>The CDS XML Message Root</p>
+         </li>
+         <li>
+            <p>The CDS XML Standard Data Structures</p>
+         </li>
+         <li>
+            <p>The CDS XML Standard Data Elements</p>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+            <p>Sub-Schemas</p>
+         </li>
+      </ul>
+      <p>These are described below.</p>
+      <p>
+         <b>The XML Schema Root</b>
+The schema root is the control section of the schema and uses the "XML Include" technique to call schema sub-components:        </p>
+      <ul>
+         <li>
+            <p>The Standard Data Structures</p>
+         </li>
+         <li>
+            <p>The Standard Data Elements</p>
+         </li>
+         <li>
+            <p>
+All 
+                          <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ sub-component schemas, including the Commissioning Data Set Headers and Trailers                </p>
+         </li>
+      </ul>
+      <p>In addition, the schema root is the only schema entry point and on entry the schema validates the XML Attributes for:</p>
+      <ul>
+         <li>
+            <p>SchemaVersion</p>
+         </li>
+         <li>
+            <p>SchemaDate</p>
+         </li>
+      </ul>
+      <b>XML Schema Component: Standard Data Structures</b>
+      <p>
+XML Schema Version 6-0 introduced standard data structures which are invoked from the 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ sub-component schemas. This simplifies the management and definition of data structures and eliminates (as far as is possible) the multiple definitions of the many common structures used across the 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ components. It also helps to eliminate naming and spelling inconsistencies.        </p>
+      <p>This implementation of the schema does not enforce the sequence of data elements within its data structures (nor its data structures within the schema), nor is it foreseen that this will be enforced in future. For ease of understanding, users are advised to implement the structure sequences as published.</p>
+      <p>In general, the restraints on the permitted occurrences of data groups have been removed and in most cases, unbounded occurrences of iterating data structures are supported. The NHS Data Model and Dictionary defines the actual requirements for the use of NHS data.</p>
+      <p>
+         <b>XML Schema Component: Standard Data Elements</b>
+XML Schema data items are defined with 
+              <i>
+            <b>_Type</b>
+         </i>
+ suffixes and usually refer to a standard list of XML data types which are usually qualified with an enumeration list to reflect the NHS Data Standards as published in the NHS Data Model and Dictionary.        </p>
+      <p>
+         <b>Schema Component: XML Attributes</b>
+XML Attributes are used (sparingly) to enforce certain logical data and structure relationships, an example being to determine the type of Critical Care Period data being carried.        </p>
+  </div>
+</body>
+</topic>

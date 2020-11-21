@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_heart_rate.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Heart Rate - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_clinical_investigation_result_item_type' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Heart Rate</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_critical_care_activity_code' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Heart Rate</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_critical_care_activity_code' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Heart Rate</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_heart_rate__on_admission_to_neonatal_critical_care_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Heart Rate</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_heart_rate' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Heart Rate</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

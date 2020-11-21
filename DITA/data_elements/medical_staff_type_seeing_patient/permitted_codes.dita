@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_medical_staff_type_seeing_patient.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: MEDICAL STAFF TYPE SEEING PATIENT - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>Consultant (Retired 2005-04-01)</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>Member of Consultant firm (Retired 2005-04-01)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>
+Lead 
+        <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ (Effective 2005-04-01)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <p>
+Member of 
+        <xref outputclass="class" keyref="class_care_professional_team">CARE PROFESSIONAL TEAM</xref>
+ (Effective 2005-04-01)    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

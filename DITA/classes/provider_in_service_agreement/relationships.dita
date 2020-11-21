@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_provider_in_service_agreement.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: PROVIDER IN SERVICE AGREEMENT - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each PROVIDER IN SERVICE AGREEMENT</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be provided within one or more </stentry>
+        <stentry>
+          <xref keyref='class_provider_in_service_agreement' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>may be a role undertaken by one or more </stentry>
+        <stentry>
+          <xref keyref='class_provider_in_service_agreement' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_diagnosis_scheme_in_use.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: DIAGNOSIS SCHEME IN USE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The type of 
+              <xref outputclass="class" keyref="class_coded_clinical_entry">CODED CLINICAL ENTRY</xref>
+ used for the 
+              <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>.        </p>
+      <p>Notes:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+National Code 01 
+                                <i>'Accident &amp; Emergency Diagnosis'</i>
+ is 
+                                <b>not</b>
+ valid for the 
+                                <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>, 
+                                <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ and 
+                                <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+                     </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+National Code 04 
+                                <i>'<xref outputclass="supportingInformation"
+                           keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+ Version 2'</i>
+ is 
+                                <b>not</b>
+ valid for the 
+                                <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+National Code 05 
+                                <i>'<xref outputclass="supportingInformation"
+                           keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+ Version 3 (CTV3)'</i>
+ (previously known as 3.1) is 
+                                <b>not</b>
+ supported in the Commissioning Data Sets and 
+                                <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+National Code 06 
+                                <i>'<xref outputclass="supportingInformation"
+                           keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+®'</i>
+ is 
+                                <b>not</b>
+ valid for Commissioning Data Set version 6-2.                    </p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

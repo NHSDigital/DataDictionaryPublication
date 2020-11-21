@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_referral_to_treatment_period_end_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: REFERRAL TO TREATMENT PERIOD END DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The end date of a 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
+      <p>
+This is a specific type of the attribute 
+              <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>.        </p>
+      <p>
+         <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+ will be one of the following:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+the 
+                                <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <p>
+when the 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is admitted for 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>. If the start of a 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s treatment is cancelled (by the 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ or 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>) after admission, the 
+                                            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ will continue.                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+for 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+ undertaken in an outpatient setting.                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+for 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+ undertaken by an 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>.                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+when the decision not to treat is made, with no further action at this time communicated to the 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>. This will include 
+                                            <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_discharge_after_patient_did_not_attend">Discharge After Patient Did Not Attend</xref>
+ and discharge back to primary care for treatment.                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+when the 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ declines offered treatment.                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+when the 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ did not attend for the first 
+                                            <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ during a 
+                                            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>. See 
+                                            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ for guidance on 
+                                            <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who do not attend.                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+the clinical decision is made (and agreed with the PATIENT) that 
+                                            <xref outputclass="businessDefinition"
+                              keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ will begin. If a PATIENT subsequently requires further treatment this decision would start a new 
+                                            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ as part of the same 
+                                            <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>. This includes any treatment that is planned for a specific date in the future as ongoing monitoring.                            </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+a clinical decision is made and has been communicated to the 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>, and subsequently their 
+                                            <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ and/or other referring 
+                                            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ without undue delay, to add the 
+                                            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to a transplant list.                            </p>
+                  </div>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <b>or</b>
+      <ul>
+         <li>
+            <p>
+the 
+                          <xref outputclass="element" keyref="element_person_death_date">PERSON DEATH DATE</xref>.                </p>
+         </li>
+      </ul>
+      <p>
+In the event that a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is booked into the wrong clinic and needs to be re-referred to the right one, this will not end the 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ or restart it. The start of the 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ is still the original 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>.        </p>
+  </div>
+</body>
+</topic>

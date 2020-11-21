@@ -1,0 +1,801 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_activity_location_type_codes.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Activity Location Type Codes - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+For further information regarding the definition and use of 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_activity_location_type_codes">Activity Location Type Codes</xref>
+ see the attribute 
+              <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>.        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>National Code</b>
+                  </entry>
+                  <entry>
+                     <b>National Code Description</b>
+                  </entry>
+                  <entry>
+                     <b>Notes</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ Main Residence or Related Location                  </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>A01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p>'s Home</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>A02</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+                     <p>'s Home</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>A03</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p>'s Workplace</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>A04</p>
+                  </entry>
+                  <entry>
+                     <p>
+Other 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ Related 
+                        <xref outputclass="class" keyref="class_location">LOCATION</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>
+E.g. temporary 
+                        <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Health Centre Premises</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>B01</p>
+                  </entry>
+                  <entry>
+                     <p>Primary Care Health Centre</p>
+                  </entry>
+                  <entry>
+                     <p>
+Primary Care Health Centre with or without 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_gp_practice">GP Practice</xref>
+ (s) based in it, providing community-based healthcare 
+                        <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ such as podiatry, community dentistry, ophthalmology, minor injuries nursing etc, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Service</xref>, health promotion etc, and sometimes hosting outreach services from 
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
+  and 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_nhs_foundation_trust">NHS Foundation Trusts</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>B02</p>
+                  </entry>
+                  <entry>
+                     <p>Polyclinic</p>
+                  </entry>
+                  <entry>
+                     <p>
+Provide similar services to Primary Care Health Centre but also additional 
+                        <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ such as diagnostics, minor procedures, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_out-patient_appointment">Out-Patient Appointments</xref>, urgent care etc. and also co-located services with 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_local_authority">Local Authority</xref>
+ Social Care.  May also provide extended/out of hours services.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>
+                        <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ and 
+                        <xref outputclass="class" keyref="class_ophthalmic_medical_practitioner">OPHTHALMIC MEDICAL PRACTITIONER</xref>
+                     </b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>C01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+                  </entry>
+                  <entry>
+                     <p>
+Stand-alone 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_gp_practice">GP Practice</xref>
+ premises, not part of a Primary Care Health Centre                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>C02</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_dental_practice">Dental Practice</xref>
+                  </entry>
+                  <entry>
+                     <p>
+Stand-alone 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_gp_practice">GP Practice</xref>
+ premises, not part of a Primary Care Health Centre                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>C03</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_ophthalmic_medical_practitioner">OPHTHALMIC MEDICAL PRACTITIONER</xref>
+                     <p>Premises</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Walk In Centres, Out of Hours Premises and Emergency Community Dental Services</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>D01</p>
+                  </entry>
+                  <entry>
+                     <p>Walk In Centre</p>
+                  </entry>
+                  <entry>
+                     <p>
+May be NHS 
+                        <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ Led, 
+                        <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ -led, or provided by private company.  May be sited in different areas - health care premises, in retail premises etc                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>D02</p>
+                  </entry>
+                  <entry>
+                     <p>Out of Hours Centre</p>
+                  </entry>
+                  <entry>
+                     <p>
+May be NHS 
+                        <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ -Led, 
+                        <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ -led, or provided by private company.  May be sited in different areas - health care premises, in retail premises etc                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>D03</p>
+                  </entry>
+                  <entry>
+                     <p>Emergency Community Dental Service</p>
+                  </entry>
+                  <entry>
+                     <p>
+Run by Community Dental Services not 
+                        <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Locations on Hospital Premises</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>E01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>E02</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_ward">WARD</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>E03</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_day_care_facility">Day Hospital</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>E04</p>
+                  </entry>
+                  <entry>
+                     <p>Accident and Emergency or Minor Injuries Department</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>E99</p>
+                  </entry>
+                  <entry>
+                     <p>Other Departments</p>
+                  </entry>
+                  <entry>
+                     <p>
+E.g. 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_pathology_laboratory">Pathology Laboratories</xref>, physiotherapy, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>, Occupational Therapy, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_pharmacy_premises">Pharmacy Premises</xref>
+ etc                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Hospice Premises</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>F01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition" keyref="business_definition_hospice">Hospice</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Nursing and Residential Homes</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>G01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>G02</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>G03</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_children_s_home">Children's Home</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>G04</p>
+                  </entry>
+                  <entry>
+                     <p>
+Integrated 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+  and 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Day Centre Premises</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>H01</p>
+                  </entry>
+                  <entry>
+                     <p>Day Centre</p>
+                  </entry>
+                  <entry>
+                     <p>Facilities operated by the NHS, Social Services or private or voluntary bodies, providing day care and respite care for elderly or disabled people</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Resource Centre Premises</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>J01</p>
+                  </entry>
+                  <entry>
+                     <p>Resource Centre</p>
+                  </entry>
+                  <entry>
+                     <p>
+Premises where information and support for 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ and their families/ 
+                        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carers</xref>
+ is provided.                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Dedicated Facilities for Children and Families</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>K01</p>
+                  </entry>
+                  <entry>
+                     <p>Sure Start Children's Centre</p>
+                  </entry>
+                  <entry>
+                     <p>
+Children's centres are service hubs where children under five years old and their families can receive seamless integrated services and information. 
+                        <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ vary according to centre but may include:                  </p>
+                     <ul>
+                        <li>
+                           <div>
+                              <p>Integrated early education and childcare</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p>Support for parents including advice on parenting, local childcare options and access to specialist services for families</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p>Child and family health services</p>
+                           </div>
+                        </li>
+                        <li>
+                           <div>
+                              <p>Helping parents into work</p>
+                           </div>
+                        </li>
+                     </ul>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>K02</p>
+                  </entry>
+                  <entry>
+                     <p>Child Development Centre</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Educational, Childcare and Training Establishments</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>L01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition" keyref="business_definition_school">School</xref>
+                  </entry>
+                  <entry>
+                     <p>
+Including Extended Services, where provided on 
+                        <xref outputclass="businessDefinition" keyref="business_definition_school">School</xref>
+ premises (where provided off 
+                        <xref outputclass="businessDefinition" keyref="business_definition_school">School</xref>
+ premises, use other appropriate 
+                        <xref outputclass="class" keyref="class_location">LOCATION</xref>)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>L02</p>
+                  </entry>
+                  <entry>
+                     <p>
+Further Education 
+                        <xref outputclass="businessDefinition" keyref="business_definition_college">College</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>L03</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_university">University</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>L04</p>
+                  </entry>
+                  <entry>
+                     <p>Nursery Premises</p>
+                  </entry>
+                  <entry>
+                     <p>
+Pre-school Nurseries attached to 
+                        <xref outputclass="businessDefinition" keyref="business_definition_school">Schools</xref>
+ would be classed as 
+                        <xref outputclass="businessDefinition" keyref="business_definition_school">Schools</xref>
+  in their own right                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>L05</p>
+                  </entry>
+                  <entry>
+                     <p>Other Childcare Premises</p>
+                  </entry>
+                  <entry>
+                     <p>E.g. Childminder</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>L06</p>
+                  </entry>
+                  <entry>
+                     <p>Training Establishments</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>L99</p>
+                  </entry>
+                  <entry>
+                     <p>Other Educational Premises</p>
+                  </entry>
+                  <entry>
+                     <p>Such as Teenage Pregnancy Units, School Preparation Units (for toddlers), Pupil Referral Units (excluded older children and young people), units providing specialist education e.g. deaf children, autistic children etc</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Justice and Home Office Premises</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>M01</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition" keyref="business_definition_prison">Prison</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>M02</p>
+                  </entry>
+                  <entry>
+                     <p>Probation Service Premises</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>M03</p>
+                  </entry>
+                  <entry>
+                     <p>
+Police Station / 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_police_custody_suite">Police Custody Suite</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>M04</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_young_offender_institution">Young Offender Institution</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>M05</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_immigration_removal_centre">Immigration Removal Centre</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>M06</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_young_offender_institution__15-17_">Young Offender Institution (15-17)</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>M07</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_young_offender_institution__18-21_">Young Offender Institution (18-21)</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Public Locations</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>N01</p>
+                  </entry>
+                  <entry>
+                     <p>Street or other public open space</p>
+                  </entry>
+                  <entry>
+                     <p>Public areas such as streets, parks, outdoor sports facilities etc</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>N02</p>
+                  </entry>
+                  <entry>
+                     <p>Other publicly accessible area or building</p>
+                  </entry>
+                  <entry>
+                     <p>Publicly accessible premises such as Youth Centres, supermarkets, shops and other retail locations such as shopping centres, community facilities such as libraries, church halls, community centres etc</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>N03</p>
+                  </entry>
+                  <entry>
+                     <p>Voluntary or charitable agency premises</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>N04</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_dispensing_optician">Dispensing Optician</xref>
+                     <p> Premises</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>N05</p>
+                  </entry>
+                  <entry>
+                     <p>
+Dispensing 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_pharmacy_premises">Pharmacy Premises</xref>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>
+Where it is not on a 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_hospital_site">Hospital Site</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <b>Other Locations</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>X01</p>
+                  </entry>
+                  <entry>
+                     <p>Other locations not elsewhere classified</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

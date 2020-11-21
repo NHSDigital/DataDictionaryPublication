@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_planned_cancer_treatment_type.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PLANNED CANCER TREATMENT TYPE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>Surgery</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_teletherapy">Teletherapy</xref>
+  <p> </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_chemotherapy">Chemotherapy</xref>
+  <p> </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_hormone_therapy">Hormone Therapy</xref>
+  <p> </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_specialist_palliative_care">Specialist Palliative Care</xref>
+  <p> </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_brachytherapy">Brachytherapy</xref>
+  <p> </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_biological_therapy">Biological Therapy</xref>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <p>Other (Retired 1 January 2013)</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>09</p>
+</stentry>
+        <stentry>
+  <p>Active Monitoring (Retired 1 January 2013)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>10</p>
+</stentry>
+        <stentry>
+  <p>Other Active Treatment (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>11</p>
+</stentry>
+        <stentry>
+  <p>No Active Treatment</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>12</p>
+</stentry>
+        <stentry>
+  <p>Biphosphonates</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>13</p>
+</stentry>
+        <stentry>
+  <p>Anti Cancer Drug - Other</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>14</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_radiotherapy">Radiotherapy</xref>
+  <p> - Other</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

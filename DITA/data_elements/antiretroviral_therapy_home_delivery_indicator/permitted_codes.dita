@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_antiretroviral_therapy_home_delivery_indicator.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ANTIRETROVIRAL THERAPY HOME DELIVERY INDICATOR - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>Y</p>
+</stentry>
+        <stentry>
+  <p>
+Yes - the 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is receiving prescribed 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_antiretroviral_therapy">Antiretroviral Therapy</xref>
+ at the 
+        <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>N</p>
+</stentry>
+        <stentry>
+  <p>
+No - the 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is not receiving prescribed 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_antiretroviral_therapy">Antiretroviral Therapy</xref>
+ at the 
+        <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

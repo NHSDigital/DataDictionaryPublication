@@ -6,3258 +6,3479 @@
     <searchtitle>Data Set: Maternity Services Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>SUBMISSION IDENTIFIER</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>SUBMISSION IDENTIFIER</b>
 
   <p>To carry the submission header details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_data_set_version_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_data_set_version_number">DATA SET VERSION NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_provider_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_submitting_organisation_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_submitting_organisation_">ORGANISATION IDENTIFIER (CODE OF SUBMITTING ORGANISATION)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_data_collection_system_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_primary_data_collection_system_in_use">PRIMARY DATA COLLECTION SYSTEM IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_end_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_data_set_created_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_data_set_created_date">DATA SET CREATED DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_data_set_created_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_data_set_created_time">DATA SET CREATED TIME</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>MOTHER'S DETAILS</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>MOTHER'S DETAILS</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Mother's Demographics</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Mother's Demographics</b>
 
   <p>To carry the demographic details for the mother's Maternity Episode.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__mother__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__mother__">LOCAL PATIENT IDENTIFIER (EXTENDED (MOTHER))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__local_patient_identifier__mother__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__local_patient_identifier__mother__">ORGANISATION IDENTIFIER (LOCAL PATIENT IDENTIFIER (MOTHER))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_birth_date__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_birth_date__mother_">PERSON BIRTH DATE (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__residence_responsibility_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__residence_responsibility_">ORGANISATION IDENTIFIER (RESIDENCE RESPONSIBILITY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number__mother_">NHS NUMBER (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number_status_indicator_code__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nhs_number_status_indicator_code__mother_">NHS NUMBER STATUS INDICATOR CODE (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_postcode_of_usual_address__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_postcode_of_usual_address__mother_">POSTCODE OF USUAL ADDRESS (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ethnic_category__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ethnic_category__mother_">ETHNIC CATEGORY (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_death_date__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_death_date__mother_">PERSON DEATH DATE (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_death_time__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_death_time__mother_">PERSON DEATH TIME (MOTHER)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>GP Practice Registration</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>GP Practice Registration</b>
 
   <p>To carry details of the GP Practice Registration of the mother.At least one occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__mother__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__mother__">LOCAL PATIENT IDENTIFIER (EXTENDED (MOTHER))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_general_medical_practice_code__patient_registration__mother__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_general_medical_practice_code__patient_registration__mother__">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION (MOTHER))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_date__gmp_patient_registration_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__gmp_patient_registration_">START DATE (GMP PATIENT REGISTRATION)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_end_date__gmp_patient_registration_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_end_date__gmp_patient_registration_">END DATE (GMP PATIENT REGISTRATION)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__gp_practice_responsibility_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__gp_practice_responsibility_">ORGANISATION IDENTIFIER (GP PRACTICE RESPONSIBILITY)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Social and Personal Circumstance</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Social and Personal Circumstance</b>
 
   <p>To carry details of the mother's social and personal circumstances.Multiple occurrences of this group are permitted for each Pregnancy Episode.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__mother__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__mother__">LOCAL PATIENT IDENTIFIER (EXTENDED (MOTHER))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_social_and_personal_circumstance__snomed_ct_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_social_and_personal_circumstance__snomed_ct_">SOCIAL AND PERSONAL CIRCUMSTANCE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_social_and_personal_circumstance_recorded_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_social_and_personal_circumstance_recorded_date">SOCIAL AND PERSONAL CIRCUMSTANCE RECORDED DATE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Overseas Visitor Charging Category</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Overseas Visitor Charging Category</b>
 
   <p>To carry details of the Overseas Visitor Charging Category of the mother.Multiple occurrences of this group are permitted for each pregnancy episode.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__mother__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__mother__">LOCAL PATIENT IDENTIFIER (EXTENDED (MOTHER))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_overseas_visitor_charging_category' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_overseas_visitor_charging_category">OVERSEAS VISITOR CHARGING CATEGORY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_overseas_visitor_charging_category_applicable_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_overseas_visitor_charging_category_applicable_date">OVERSEAS VISITOR CHARGING CATEGORY APPLICABLE DATE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>MOTHER'S BOOKING AND DIAGNOSIS DETAILS</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>MOTHER'S BOOKING AND DIAGNOSIS DETAILS</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Pregnancy and Booking Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Pregnancy and Booking Details</b>
 
   <p>To carry the personal, social and other details of the mother at the formal antenatal booking appointment, during the Maternity Episode and at discharge from Maternity Services.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__mother__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__mother__">LOCAL PATIENT IDENTIFIER (EXTENDED (MOTHER))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_appointment_date__formal_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_appointment_date__formal_antenatal_booking_">APPOINTMENT DATE (FORMAL ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_first_contact_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_first_contact_date">PREGNANCY FIRST CONTACT DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_estimated_date_of_delivery__agreed_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_estimated_date_of_delivery__agreed_">ESTIMATED DATE OF DELIVERY (AGREED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_antenatal_booking_">ORGANISATION SITE IDENTIFIER (OF ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_method_of_estimated_date_of_delivery__agreed_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_method_of_estimated_date_of_delivery__agreed_">METHOD OF ESTIMATED DATE OF DELIVERY (AGREED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_source_of_referral_for_maternity' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_source_of_referral_for_maternity">SOURCE OF REFERRAL FOR MATERNITY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__provider_of_origin_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__provider_of_origin_">ORGANISATION IDENTIFIER (PROVIDER OF ORIGIN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__receiving_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__receiving_">ORGANISATION IDENTIFIER (RECEIVING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_late_antenatal_booking_appointment_reason' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_late_antenatal_booking_appointment_reason">LATE ANTENATAL BOOKING APPOINTMENT REASON</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_type__pregnancy_first_contact_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_type__pregnancy_first_contact_">CARE PROFESSIONAL TYPE (PREGNANCY FIRST CONTACT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_last_menstrual_period_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_last_menstrual_period_date">LAST MENSTRUAL PERIOD DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_disability_indicator__at_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_disability_indicator__at_antenatal_booking_">DISABILITY INDICATOR (AT ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_language_code__preferred_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_language_code__preferred_">LANGUAGE CODE (PREFERRED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_mental_health_prediction_and_detection_indicator__at_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_mental_health_prediction_and_detection_indicator__at_antenatal_booking_">MENTAL HEALTH PREDICTION AND DETECTION INDICATOR (AT ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_complex_social_factors_indicator__at_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_complex_social_factors_indicator__at_antenatal_booking_">COMPLEX SOCIAL FACTORS INDICATOR (AT ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_employment_status__mother_at_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_employment_status__mother_at_antenatal_booking_">EMPLOYMENT STATUS (MOTHER AT ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_support_status_indicator__at_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_support_status_indicator__at_antenatal_booking_">SUPPORT STATUS INDICATOR (AT ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_employment_status__partner_at_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_employment_status__partner_at_antenatal_booking_">EMPLOYMENT STATUS (PARTNER AT ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_total_previous_caesarean_sections' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pregnancy_total_previous_caesarean_sections">PREGNANCY TOTAL PREVIOUS CAESAREAN SECTIONS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_total_previous_live_births' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pregnancy_total_previous_live_births">PREGNANCY TOTAL PREVIOUS LIVE BIRTHS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_total_previous_stillbirths' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pregnancy_total_previous_stillbirths">PREGNANCY TOTAL PREVIOUS STILLBIRTHS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_total_previous_losses_less_than_24_weeks' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_pregnancy_total_previous_losses_less_than_24_weeks">PREGNANCY TOTAL PREVIOUS LOSSES LESS THAN 24 WEEKS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_folic_acid_supplement_status__at_antenatal_booking_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_folic_acid_supplement_status__at_antenatal_booking_">FOLIC ACID SUPPLEMENT STATUS (AT ANTENATAL BOOKING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_date__mother_maternity_services_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_date__mother_maternity_services_">DISCHARGE DATE (MOTHER MATERNITY SERVICES)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_discharge_reason__mother_maternity_services_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_primary_discharge_reason__mother_maternity_services_">PRIMARY DISCHARGE REASON (MOTHER MATERNITY SERVICES)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Maternity Care Plan</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Maternity Care Plan</b>
 
   <p>To carry details of the Care Plan during the current Maternity Episode.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternity_care_plan_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_maternity_care_plan_date">MATERNITY CARE PLAN DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternity_care_plan_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_maternity_care_plan_type">MATERNITY CARE PLAN TYPE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternity_personalised_care_plan_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_maternity_personalised_care_plan_indicator">MATERNITY PERSONALISED CARE PLAN INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_continuity_of_carer_pathway_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_continuity_of_carer_pathway_indicator">CONTINUITY OF CARER PATHWAY INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_local_identifier">CARE PROFESSIONAL LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_team_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_team_local_identifier">CARE PROFESSIONAL TEAM LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_planned_delivery_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_planned_delivery_">ORGANISATION SITE IDENTIFIER (OF PLANNED DELIVERY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternity_care_setting__of_planned_delivery_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_maternity_care_setting__of_planned_delivery_">MATERNITY CARE SETTING (OF PLANNED DELIVERY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_planned_delivery_setting_change_reason__antenatal_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_planned_delivery_setting_change_reason__antenatal_">PLANNED DELIVERY SETTING CHANGE REASON (ANTENATAL)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Dating Scan Procedure</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Dating Scan Procedure</b>
 
   <p>To carry details of the first ultrasound (dating) scan during the current Maternity Episode.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_activity_offer_date__dating_ultrasound_scan_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_activity_offer_date__dating_ultrasound_scan_">ACTIVITY OFFER DATE (DATING ULTRASOUND SCAN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_offer_status__dating_ultrasound_scan_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_offer_status__dating_ultrasound_scan_">OFFER STATUS (DATING ULTRASOUND SCAN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_date__dating_ultrasound_scan_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_procedure_date__dating_ultrasound_scan_">PROCEDURE DATE (DATING ULTRASOUND SCAN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_gestation_length__dating_ultrasound_scan_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_gestation_length__dating_ultrasound_scan_">GESTATION LENGTH (DATING ULTRASOUND SCAN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_fetuses__dating_ultrasound_scan_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_fetuses__dating_ultrasound_scan_">NUMBER OF FETUSES (DATING ULTRASOUND SCAN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_fetal_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fetal_order' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fetal_order">FETAL ORDER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_abnormality_detected_indicator__dating_ultrasound_scan_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_abnormality_detected_indicator__dating_ultrasound_scan_">ABNORMALITY DETECTED INDICATOR (DATING ULTRASOUND SCAN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__of_dating_ultrasound_scan_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__of_dating_ultrasound_scan_">ORGANISATION IDENTIFIER (OF DATING ULTRASOUND SCAN)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Coded Scored Assessment (Pregnancy)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Coded Scored Assessment (Pregnancy)</b>
 
   <p>To carry details of coded scored assessments that are issued and completed as part of a Maternity Episode outside of a contact.One occurrence of this group is permitted for each coded scored assessment question or dimension.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_assessment_tool_type__snomed_ct_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_assessment_tool_type__snomed_ct_">CODED ASSESSMENT TOOL TYPE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_score">PERSON SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_assessment_tool_completion_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_assessment_tool_completion_date">ASSESSMENT TOOL COMPLETION DATE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Provisional Diagnosis (Pregnancy)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Provisional Diagnosis (Pregnancy)</b>
 
   <p>To carry details of a provisional diagnosis for a mother made by the Maternity Service.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_provisional_diagnosis__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_provisional_diagnosis__coded_clinical_entry_">PROVISIONAL DIAGNOSIS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_provisional_diagnosis_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_provisional_diagnosis_date">PROVISIONAL DIAGNOSIS DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_fetal_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fetal_order' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fetal_order">FETAL ORDER</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Diagnosis (Pregnancy)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Diagnosis (Pregnancy)</b>
 
   <p>To carry details of a diagnosis for a mother made by the Maternity Service.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis__coded_clinical_entry_">DIAGNOSIS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternity_complicating_diagnosis_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_maternity_complicating_diagnosis_indicator">MATERNITY COMPLICATING DIAGNOSIS INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_date">DIAGNOSIS DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_fetal_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fetal_order' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fetal_order">FETAL ORDER</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Medical History (Previous Diagnosis)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Medical History (Previous Diagnosis)</b>
 
   <p>To carry details of any previous diagnoses for a mother, which are stated by the mother or mother's proxy or recorded in medical notes.These do not have to have been diagnosed by the organisation submitting the data.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_previous_diagnosis__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_previous_diagnosis__coded_clinical_entry_">PREVIOUS DIAGNOSIS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_date">DIAGNOSIS DATE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Family History at Booking</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Family History at Booking</b>
 
   <p>To carry details of any family history of medical and obstetric conditions at booking.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_situation_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_situation_scheme_in_use">SITUATION SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_situation__clinical_terminology_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_situation__clinical_terminology_">CODED SITUATION (CLINICAL TERMINOLOGY)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Finding and Observation (Mother)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Finding and Observation (Mother)</b>
 
   <p>To carry details of findings and observations of a mother which have taken place during a Maternity Episode.Multiple occurrences of this group are permitted when findings and observations are recorded.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_fetal_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fetal_order' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fetal_order">FETAL ORDER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_finding_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_finding_date">FINDING DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_finding_scheme_in_use">FINDING SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_finding__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_finding__coded_clinical_entry_">CODED FINDING (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_date">OBSERVATION DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_scheme_in_use">OBSERVATION SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_observation__clinical_terminology_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_observation__clinical_terminology_">CODED OBSERVATION (CLINICAL TERMINOLOGY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_value' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_value">OBSERVATION VALUE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ucum_unit_of_measurement' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CARE CONTACT, CARE ACTIVITIES AND INDIRECT ACTIVITIES</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>CARE CONTACT, CARE ACTIVITIES AND INDIRECT ACTIVITIES</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Care Contact (Pregnancy)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Care Contact (Pregnancy)</b>
 
   <p>To carry details of any contacts with a mother which have taken place as part of a Maternity Episode.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_contact_identifier">CARE CONTACT IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_contact_date">CARE CONTACT DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_contact_time">CARE CONTACT TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_administrative_category_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_administrative_category_code">ADMINISTRATIVE CATEGORY CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_contact_duration_of_care_contact' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_contact_duration_of_care_contact">CLINICAL CONTACT DURATION OF CARE CONTACT</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_consultation_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_consultation_type">CONSULTATION TYPE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_subject' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_contact_subject">CARE CONTACT SUBJECT</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_consultation_medium_used' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_consultation_medium_used">CONSULTATION MEDIUM USED</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_activity_location_type_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_group_therapy_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_group_therapy_indicator">GROUP THERAPY INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_attended_or_did_not_attend_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_attended_or_did_not_attend_code">ATTENDED OR DID NOT ATTEND CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_cancellation_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_contact_cancellation_date">CARE CONTACT CANCELLATION DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_cancellation_reason' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_contact_cancellation_reason">CARE CONTACT CANCELLATION REASON</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_replacement_appointment_date_offered' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_replacement_appointment_date_offered">REPLACEMENT APPOINTMENT DATE OFFERED</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_replacement_appointment_booked_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_replacement_appointment_booked_date">REPLACEMENT APPOINTMENT BOOKED DATE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Care Activity (Pregnancy)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Care Activity (Pregnancy)</b>
 
   <p>To carry details of any activities which have taken place as part of a contact with a mother during a Maternity Episode.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_activity_identifier__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_activity_identifier__mother_">CARE ACTIVITY IDENTIFIER (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_contact_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_contact_identifier">CARE CONTACT IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_local_identifier">CARE PROFESSIONAL LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_team_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_team_local_identifier">CARE PROFESSIONAL TEAM LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_contact_duration_of_care_activity' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_contact_duration_of_care_activity">CLINICAL CONTACT DURATION OF CARE ACTIVITY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_fetal_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fetal_order' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fetal_order">FETAL ORDER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_procedure_scheme_in_use">PROCEDURE SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_procedure_and_procedure_status__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_procedure_and_procedure_status__coded_clinical_entry_">CODED PROCEDURE AND PROCEDURE STATUS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_finding_scheme_in_use">FINDING SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_finding__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_finding__coded_clinical_entry_">CODED FINDING (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_scheme_in_use">OBSERVATION SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_observation__clinical_terminology_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_observation__clinical_terminology_">CODED OBSERVATION (CLINICAL TERMINOLOGY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_value' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_value">OBSERVATION VALUE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ucum_unit_of_measurement' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Coded Scored Assessment (Contact)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Coded Scored Assessment (Contact)</b>
 
   <p>To carry details of scored assessments that are issued and completed as part of a specific contact during a Maternity Episode.One occurrence of this group is permitted for each coded scored assessment question or dimension.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_activity_identifier__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_activity_identifier__mother_">CARE ACTIVITY IDENTIFIER (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_assessment_tool_type__snomed_ct_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_assessment_tool_type__snomed_ct_">CODED ASSESSMENT TOOL TYPE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_score">PERSON SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Labour and Delivery</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Labour and Delivery</b>
 
   <p>To carry details of events during labour and delivery.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_labour_and_delivery_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_labour_and_delivery_identifier">LABOUR AND DELIVERY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__at_start_of_intrapartum_care_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__at_start_of_intrapartum_care_">ORGANISATION SITE IDENTIFIER (AT START OF INTRAPARTUM CARE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternity_care_setting__at_start_of_intrapartum_care_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_maternity_care_setting__at_start_of_intrapartum_care_">MATERNITY CARE SETTING (AT START OF INTRAPARTUM CARE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_planned_delivery_setting_change_reason__labour_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_planned_delivery_setting_change_reason__labour_">PLANNED DELIVERY SETTING CHANGE REASON (LABOUR)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_labour_or_delivery_onset_method_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_labour_or_delivery_onset_method_code">LABOUR OR DELIVERY ONSET METHOD CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_onset_of_established_labour_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_onset_of_established_labour_date">ONSET OF ESTABLISHED LABOUR DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_onset_of_established_labour_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_onset_of_established_labour_time">ONSET OF ESTABLISHED LABOUR TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_date__caesarean_section_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_procedure_date__caesarean_section_">PROCEDURE DATE (CAESAREAN SECTION)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_time__caesarean_section_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_procedure_time__caesarean_section_">PROCEDURE TIME (CAESAREAN SECTION)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_date__mother_labour_and_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__mother_labour_and_delivery_hospital_provider_spell_">START DATE (MOTHER LABOUR AND DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_time__mother_labour_and_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_time__mother_labour_and_delivery_hospital_provider_spell_">START TIME (MOTHER LABOUR AND DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_decision_to_deliver_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_decision_to_deliver_date">DECISION TO DELIVER DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_decision_to_deliver_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_decision_to_deliver_time">DECISION TO DELIVER TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_admission_method_code__mother_labour_and_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_admission_method_code__mother_labour_and_delivery_hospital_provider_spell_">ADMISSION METHOD CODE (MOTHER LABOUR AND DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_date__mother_post_labour_and_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_date__mother_post_labour_and_delivery_hospital_provider_spell_">DISCHARGE DATE (MOTHER POST LABOUR AND DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_time__mother_post_labour_and_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_time__mother_post_labour_and_delivery_hospital_provider_spell_">DISCHARGE TIME (MOTHER POST LABOUR AND DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_method_code__mother_post_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_method_code__mother_post_delivery_hospital_provider_spell_">DISCHARGE METHOD CODE (MOTHER POST DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_destination_code__mother_post_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_destination_code__mother_post_delivery_hospital_provider_spell_">DISCHARGE DESTINATION CODE (MOTHER POST DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__postnatal_pathway_lead_provider_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__postnatal_pathway_lead_provider_">ORGANISATION IDENTIFIER (POSTNATAL PATHWAY LEAD PROVIDER)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Care Activity (Labour and Delivery)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Care Activity (Labour and Delivery)</b>
 
   <p>To carry details of any activities which have taken place during labour and delivery.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_labour_and_delivery_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_labour_and_delivery_identifier">LABOUR AND DELIVERY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_intervention_date__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_intervention_date__mother_">CLINICAL INTERVENTION DATE (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_intervention_time__mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_intervention_time__mother_">CLINICAL INTERVENTION TIME (MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_contact_duration_of_care_activity' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_contact_duration_of_care_activity">CLINICAL CONTACT DURATION OF CARE ACTIVITY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_local_identifier">CARE PROFESSIONAL LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_team_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_team_local_identifier">CARE PROFESSIONAL TEAM LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_fetal_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fetal_order' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_fetal_order">FETAL ORDER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternal_critical_incident_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_maternal_critical_incident_indicator">MATERNAL CRITICAL INCIDENT INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_procedure_scheme_in_use">PROCEDURE SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_procedure_and_procedure_status__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_procedure_and_procedure_status__coded_clinical_entry_">CODED PROCEDURE AND PROCEDURE STATUS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_finding_scheme_in_use">FINDING SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_finding__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_finding__coded_clinical_entry_">CODED FINDING (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_scheme_in_use">OBSERVATION SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_observation__clinical_terminology_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_observation__clinical_terminology_">CODED OBSERVATION (CLINICAL TERMINOLOGY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_value' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_value">OBSERVATION VALUE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ucum_unit_of_measurement' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>BABY'S DETAILS</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>BABY'S DETAILS</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Baby's Demographic and Birth Details</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Baby's Demographic and Birth Details</b>
 
   <p>To carry details of the baby's demographics and birth.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__baby__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__baby__">LOCAL PATIENT IDENTIFIER (EXTENDED (BABY))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_labour_and_delivery_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_labour_and_delivery_identifier">LABOUR AND DELIVERY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__local_patient_identifier__baby__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__local_patient_identifier__baby__">ORGANISATION IDENTIFIER (LOCAL PATIENT IDENTIFIER (BABY))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_birth_date__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_birth_date__baby_">PERSON BIRTH DATE (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_birth_time__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_birth_time__baby_">PERSON BIRTH TIME (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_outcome' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_outcome">PREGNANCY OUTCOME</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_phenotypic_sex' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_phenotypic_sex">PERSON PHENOTYPIC SEX</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ethnic_category__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ethnic_category__baby_">ETHNIC CATEGORY (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number__baby_">NHS NUMBER (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number_status_indicator_code__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nhs_number_status_indicator_code__baby_">NHS NUMBER STATUS INDICATOR CODE (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_fetal_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_birth_order__maternity_services_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_birth_order__maternity_services_">BIRTH ORDER (MATERNITY SERVICES)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_death_date__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_death_date__baby_">PERSON DEATH DATE (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_death_time__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_death_time__baby_">PERSON DEATH TIME (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_presentation_of_fetus_at_onset_of_labour_or_delivery' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_presentation_of_fetus_at_onset_of_labour_or_delivery">PRESENTATION OF FETUS AT ONSET OF LABOUR OR DELIVERY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_gestation_length__at_birth_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_gestation_length__at_birth_">GESTATION LENGTH (AT BIRTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_delivery_method_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_delivery_method_code">DELIVERY METHOD CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_delivered_in_water_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_delivered_in_water_indicator">DELIVERED IN WATER INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_actual_place_of_delivery_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_actual_place_of_delivery_">ORGANISATION SITE IDENTIFIER (OF ACTUAL PLACE OF DELIVERY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_local_identifier__delivering_baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_local_identifier__delivering_baby_">CARE PROFESSIONAL LOCAL IDENTIFIER (DELIVERING BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_maternity_care_setting__actual_place_of_birth_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_maternity_care_setting__actual_place_of_birth_">MATERNITY CARE SETTING (ACTUAL PLACE OF BIRTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_baby_first_feed_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_baby_first_feed_date">BABY FIRST FEED DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_baby_first_feed_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_baby_first_feed_time">BABY FIRST FEED TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_baby_first_feed_breast_milk_indication_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_baby_first_feed_breast_milk_indication_code">BABY FIRST FEED BREAST MILK INDICATION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_skin_to_skin_contact_indicator__within_one_hour_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_skin_to_skin_contact_indicator__within_one_hour_">SKIN TO SKIN CONTACT INDICATOR (WITHIN ONE HOUR)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_date__baby_post_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_date__baby_post_delivery_hospital_provider_spell_">DISCHARGE DATE (BABY POST DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_time__baby_post_delivery_hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_time__baby_post_delivery_hospital_provider_spell_">DISCHARGE TIME (BABY POST DELIVERY HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Neonatal Admission</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Neonatal Admission</b>
 
   <p>To carry details of neonatal admissions.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__baby__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__baby__">LOCAL PATIENT IDENTIFIER (EXTENDED (BABY))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_transfer_start_date__neonatal_unit_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_transfer_start_date__neonatal_unit_">TRANSFER START DATE (NEONATAL UNIT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_transfer_start_time__neonatal_unit_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_transfer_start_time__neonatal_unit_">TRANSFER START TIME (NEONATAL UNIT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_admitting_neonatal_unit_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_admitting_neonatal_unit_">ORGANISATION SITE IDENTIFIER (OF ADMITTING NEONATAL UNIT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_neonatal_critical_care_admission_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_neonatal_critical_care_admission_indicator">NEONATAL CRITICAL CARE ADMISSION INDICATOR</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Provisional Diagnosis (Neonatal)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Provisional Diagnosis (Neonatal)</b>
 
   <p>To carry details of provisional diagnoses made for the baby.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__baby__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__baby__">LOCAL PATIENT IDENTIFIER (EXTENDED (BABY))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_provisional_diagnosis__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_provisional_diagnosis__coded_clinical_entry_">PROVISIONAL DIAGNOSIS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_provisional_diagnosis_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_provisional_diagnosis_date">PROVISIONAL DIAGNOSIS DATE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Diagnosis (Neonatal)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Diagnosis (Neonatal)</b>
 
   <p>To carry details of diagnoses made for the baby.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__baby__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__baby__">LOCAL PATIENT IDENTIFIER (EXTENDED (BABY))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_scheme_in_use">DIAGNOSIS SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis__coded_clinical_entry_">DIAGNOSIS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_date">DIAGNOSIS DATE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Care Activity (Baby)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Care Activity (Baby)</b>
 
   <p>To carry details of any activities for the baby which have taken place prior to discharge from Maternity Services.Multiple occurrences of this group are permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_activity_identifier__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_activity_identifier__baby_">CARE ACTIVITY IDENTIFIER (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended__baby__' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended__baby__">LOCAL PATIENT IDENTIFIER (EXTENDED (BABY))</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_intervention_date__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_intervention_date__baby_">CLINICAL INTERVENTION DATE (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_intervention_time__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_intervention_time__baby_">CLINICAL INTERVENTION TIME (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_contact_duration_of_care_activity' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_contact_duration_of_care_activity">CLINICAL CONTACT DURATION OF CARE ACTIVITY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_local_identifier">CARE PROFESSIONAL LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_team_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_team_local_identifier">CARE PROFESSIONAL TEAM LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_neonatal_critical_incident_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_neonatal_critical_incident_indicator">NEONATAL CRITICAL INCIDENT INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_procedure_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_procedure_scheme_in_use">PROCEDURE SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_procedure_and_procedure_status__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_procedure_and_procedure_status__coded_clinical_entry_">CODED PROCEDURE AND PROCEDURE STATUS (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_finding_scheme_in_use">FINDING SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_finding__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_finding__coded_clinical_entry_">CODED FINDING (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_scheme_in_use">OBSERVATION SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_observation__clinical_terminology_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_observation__clinical_terminology_">CODED OBSERVATION (CLINICAL TERMINOLOGY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_observation_value' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_value">OBSERVATION VALUE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ucum_unit_of_measurement' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__newborn_blood_spot_screening_laboratory_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__newborn_blood_spot_screening_laboratory_">ORGANISATION IDENTIFIER (NEWBORN BLOOD SPOT SCREENING LABORATORY)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Coded Scored Assessment (Baby)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Coded Scored Assessment (Baby)</b>
 
   <p>To carry details of coded scored assessments that are completed for the baby prior to discharge from Maternity Services.One occurrence of this group is permitted for each coded scored observation question or dimension.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_activity_identifier__baby_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_care_activity_identifier__baby_">CARE ACTIVITY IDENTIFIER (BABY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_assessment_tool_type__snomed_ct_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_assessment_tool_type__snomed_ct_">CODED ASSESSMENT TOOL TYPE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_score">PERSON SCORE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>HOSPITAL PROVIDER SPELLS</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>HOSPITAL PROVIDER SPELLS</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Hospital Provider Spell</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Hospital Provider Spell</b>
 
   <p>To carry details of each Hospital Provider Spell for the mother. This includes any hospital admissions for the mother during the Maternity Episode, but does not include admission for labour and delivery.One occurrence of this group is permitted for each Hospital Provider Spell.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_hospital_provider_spell_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_hospital_provider_spell_number">HOSPITAL PROVIDER SPELL NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_pregnancy_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_pregnancy_identifier">PREGNANCY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_date__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__hospital_provider_spell_">START DATE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_time__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_time__hospital_provider_spell_">START TIME (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_source_of_admission_code__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_source_of_admission_code__hospital_provider_spell_">SOURCE OF ADMISSION CODE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_classification_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_patient_classification_code">PATIENT CLASSIFICATION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_admission_method_code__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_admission_method_code__hospital_provider_spell_">ADMISSION METHOD CODE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_date__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_date__hospital_provider_spell_">DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_time__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_time__hospital_provider_spell_">DISCHARGE TIME (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_method_code__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_method_code__hospital_provider_spell_">DISCHARGE METHOD CODE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_destination_code__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_destination_code__hospital_provider_spell_">DISCHARGE DESTINATION CODE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Hospital Spell Commissioner</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Hospital Spell Commissioner</b>
 
   <p>To carry details of each commissioner assignment for the mother.One occurrence of this group is permitted for each commissioner assignment.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_hospital_provider_spell_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_hospital_provider_spell_number">HOSPITAL PROVIDER SPELL NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_date__commissioner_assignment_period_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__commissioner_assignment_period_">START DATE (COMMISSIONER ASSIGNMENT PERIOD)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_end_date__commissioner_assignment_period_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_end_date__commissioner_assignment_period_">END DATE (COMMISSIONER ASSIGNMENT PERIOD)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Ward Stay</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Ward Stay</b>
 
   <p>To carry details of Ward Stays which occurred during a Hospital Provider Spell for the mother.One occurrence of this group is permitted for each Ward Stay.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_hospital_provider_spell_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_hospital_provider_spell_number">HOSPITAL PROVIDER SPELL NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_date__ward_stay_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_start_date__ward_stay_">START DATE (WARD STAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_time__ward_stay_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_start_time__ward_stay_">START TIME (WARD STAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_end_date__ward_stay_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_end_date__ward_stay_">END DATE (WARD STAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_end_time__ward_stay_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_end_time__ward_stay_">END TIME (WARD STAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ward_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ward_code">WARD CODE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Assigned Care Professional</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Assigned Care Professional</b>
 
   <p>To carry details of the Care Professional Admitted Care Episodes during a Hospital Provider Spell for the mother.One occurrence of this group is permitted for each Care Professional Admitted Care Episode.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_hospital_provider_spell_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_hospital_provider_spell_number">HOSPITAL PROVIDER SPELL NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_local_identifier">CARE PROFESSIONAL LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_team_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_team_local_identifier">CARE PROFESSIONAL TEAM LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_start_date__care_professional_admitted_care_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__care_professional_admitted_care_episode_">START DATE (CARE PROFESSIONAL ADMITTED CARE EPISODE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_end_date__care_professional_admitted_care_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_end_date__care_professional_admitted_care_episode_">END DATE (CARE PROFESSIONAL ADMITTED CARE EPISODE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_treatment_function_code__maternity_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_treatment_function_code__maternity_">TREATMENT FUNCTION CODE (MATERNITY)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>ANONYMOUS SELF-ASSESSMENT</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>ANONYMOUS SELF-ASSESSMENT</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Anonymous Self-Assessment</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Anonymous Self-Assessment</b>
 
   <p>To carry details of anonymous self-assessments that are issued by Maternity Services.One occurrence of this group is permitted when an anonymous self-assessment is received from a mother.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_assessment_tool_completion_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_assessment_tool_completion_date">ASSESSMENT TOOL COMPLETION DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_assessment_tool_type__snomed_ct_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_assessment_tool_type__snomed_ct_">CODED ASSESSMENT TOOL TYPE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_score">PERSON SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_activity_location_type_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>Anonymous Findings</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Anonymous Findings</b>
 
   <p>To carry details of anonymous findings that are recorded by Maternity Services.One occurrence of this group is permitted when an anonymous finding is recorded for a mother.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_intervention_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_clinical_intervention_date">CLINICAL INTERVENTION DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_finding_scheme_in_use">FINDING SCHEME IN USE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coded_finding__coded_clinical_entry_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coded_finding__coded_clinical_entry_">CODED FINDING (CODED CLINICAL ENTRY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>STAFF DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>STAFF DETAILS</b>
 
   <p>To carry details of the staff involved in the treatment of a mother.One occurrence of this group is permitted for each staff member.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_local_identifier">CARE PROFESSIONAL LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_professional_registration_body_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_professional_registration_body_code">PROFESSIONAL REGISTRATION BODY CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_professional_registration_entry_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_professional_registration_entry_identifier">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_staff_group__maternity_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_staff_group__maternity_">CARE PROFESSIONAL STAFF GROUP (MATERNITY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_occupation_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_occupation_code">OCCUPATION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional__job_role_code_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional__job_role_code_">CARE PROFESSIONAL (JOB ROLE CODE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

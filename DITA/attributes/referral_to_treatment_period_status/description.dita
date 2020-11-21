@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_referral_to_treatment_period_status.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: REFERRAL TO TREATMENT PERIOD STATUS - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The status of an 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ (or anticipated 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>) for the 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ decided by the lead 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>.        </p>
+      <p>Notes:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+National Code 33 
+                                <i>'End of the 
+                                    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>: Did not attend - the 
+                                    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ did not attend the first 
+                                    <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+ after the referral'</i>
+ may only be used where:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <p>
+The 
+                                      <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ did not attend their first 
+                                      <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ following the 
+                                      <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
+ that started the 
+                                      <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>, provided that the 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ can demonstrate that the 
+                                      <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ was clearly communicated to the 
+                                      <xref outputclass="class" keyref="class_patient">PATIENT</xref>.                        </p>
+                  <ul>
+                     <li>
+                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
+                        <p>
+with 
+                                                  <xref outputclass="attribute"
+                                 keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+ of National Code 33 are excluded from the measurement of the 18 weeks 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+ and the count of 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+ 
+                                                  <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>.                                </p>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <p>
+National Code 34 
+                          <i>'End of the 
+                              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>: Decision not to treat - decision not to treat made or no further contact required'</i>
+ includes a:                </p>
+            <ul>
+               <li>
+                  <xref outputclass="supportingInformation"
+                        keyref="supporting_definition_discharge_after_patient_did_not_attend">Discharge After Patient Did Not Attend</xref>
+                  <p>
+the second or a subsequent 
+                                      <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+ after the referral                        </p>
+               </li>
+               <li>
+                  <p>Change resulting in care no longer being commissioned by the English NHS</p>
+               </li>
+               <li>
+                  <p>
+Referral to a 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
+ during a 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_referral_to_treatment_period_excluded_from_target">Referral To Treatment Period Excluded From Target</xref>
+ for the same condition, disease or injury. A new 
+                                      <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ will start.                        </p>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <div>
+               <p>
+Where the 
+                                <xref outputclass="attribute"
+                        keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+ is National Code 99 
+                                <i>'<xref outputclass="attribute"
+                           keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+ not yet known'</i>, the status is treated as if the 
+                                <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ is a subsequent 
+                                <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ during a 
+                                <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>. In this case the 
+                                <xref outputclass="attribute"
+                        keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+ should be corrected once it is possible to determine the correct value.                     </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>National Code descriptions have been updated to remove National Code headings and add prefixes where required. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.</p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <p>The explanation of the National Code description prefixes are:</p>
+                  </div>
+                  <ul>
+                     <li>
+                        <div>
+                           <p>
+First 
+                                                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>: The first 
+                                                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ in a 
+                                                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ where the 
+                                                        <xref outputclass="businessDefinition"
+                                    keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+ will be a subsequent 
+                                                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+                                     </p>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                           <p>
+Subsequent 
+                                                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>: Subsequent 
+                                                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ during a 
+                                                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+                                     </p>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                           <p>
+End of the 
+                                                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>: 
+                                                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ that ends the 
+                                                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+                                     </p>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                           <p>
+Not part of a 
+                                                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>: 
+                                                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ that is not part of a 
+                                                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.                                    </p>
+                        </div>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

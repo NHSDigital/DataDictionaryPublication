@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_accident_and_emergency_investigation_table.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Accident and Emergency Investigation Table - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <ul>
+         <li>
+            <div>
+               <p>
+A broad classification of types of investigation which may be requested to assist with diagnosis as a result of 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>.                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Certain items are sub-analysed to specify the diagnosis, investigation or treatment more precisely. These are marked with an asterisk. The diagnosis sub-analysis list follows the main diagnosis list, and the treatment sub-analysis list follows the main treatment list.</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>It is recommended that computerised systems provide a minimum of six character fields for each category in order to accommodate more detailed information if necessary. Where fewer than six characters are required for coding, such as for investigations and treatments, it is recommended that the codes are left-justified and the unused fields left blank.</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="attribute"
+                     keyref="attribute_accident_and_emergency_investigation">ACCIDENT AND EMERGENCY INVESTIGATION</xref>
+               <p>is a six character code, comprising:</p>
+            </div>
+         </li>
+      </ul>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Investigation</p>
+                  </entry>
+                  <entry>
+                     <p>n2 (see Table below)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Local sub-Analysis</p>
+                  </entry>
+                  <entry>
+                     <p>up to an4</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>Accident And Emergency Investigation Table</b>
+      </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>Investigation</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Code</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>X-ray plain film</p>
+                  </entry>
+                  <entry>
+                     <p>01</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Electrocardiogram</p>
+                  </entry>
+                  <entry>
+                     <p>02</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Haematology</p>
+                  </entry>
+                  <entry>
+                     <p>03</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Cross match blood/group and save serum for later cross match</p>
+                  </entry>
+                  <entry>
+                     <p>04</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Biochemistry</p>
+                  </entry>
+                  <entry>
+                     <p>05</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Urinalysis</p>
+                  </entry>
+                  <entry>
+                     <p>06</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Bacteriology</p>
+                  </entry>
+                  <entry>
+                     <p>07</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Histology</p>
+                  </entry>
+                  <entry>
+                     <p>08</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Computerised Tomography - Retired 2006-04-01</p>
+                  </entry>
+                  <entry>
+                     <p>09</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Ultrasound</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Magnetic Resonance Imaging</p>
+                  </entry>
+                  <entry>
+                     <p>11</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Computerised Tomography (excludes genitourinary contrast examination/tomography)</p>
+                  </entry>
+                  <entry>
+                     <p>12</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Genitourinary contrast examination/tomography</p>
+                  </entry>
+                  <entry>
+                     <p>13</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Clotting studies</p>
+                  </entry>
+                  <entry>
+                     <p>14</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Immunology</p>
+                  </entry>
+                  <entry>
+                     <p>15</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Cardiac enzymes</p>
+                  </entry>
+                  <entry>
+                     <p>16</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Arterial/capillary blood gas</p>
+                  </entry>
+                  <entry>
+                     <p>17</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Toxicology</p>
+                  </entry>
+                  <entry>
+                     <p>18</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Blood culture</p>
+                  </entry>
+                  <entry>
+                     <p>19</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Serology</p>
+                  </entry>
+                  <entry>
+                     <p>20</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Pregnancy test</p>
+                  </entry>
+                  <entry>
+                     <p>21</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Dental investigation</p>
+                  </entry>
+                  <entry>
+                     <p>22</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Refraction, orthoptic tests and computerised visual fields</p>
+                  </entry>
+                  <entry>
+                     <p>23</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>None</p>
+                  </entry>
+                  <entry>
+                     <p>24</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Other</p>
+                  </entry>
+                  <entry>
+                     <p>99</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+Items expected to be sub-analysed at discretion of individual 
+                  <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Departments</xref>.          </p>
+  </div>
+</body>
+</topic>

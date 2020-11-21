@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_referral_request.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: REFERRAL REQUEST - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A subtype of 
+              <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
+ is a request for a care service, other than a specific diagnostic investigation or diagnostic procedure, to be provided for a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>. This includes 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ self-referrals for an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ to see or be in contact with a 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ of an 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+      <p>If there is a verbal request this would normally be confirmed by written request, and these should be processed as one referral. An electronic message is treated as a written referral.</p>
+      <p>
+Where the 
+              <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
+ relates to a booking system, the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is given the choice of when to attend or be in contact. For full booking, the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is offered a date within one working day of the referral or 
+              <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>.        </p>
+  </div>
+</body>
+</topic>

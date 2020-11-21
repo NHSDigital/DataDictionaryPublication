@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cancer_diagnostic_referral_route.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CANCER DIAGNOSTIC REFERRAL ROUTE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>
+Abnormal diagnostics result following a 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_national_institute_for_health_and_care_excellence">NICE</xref>
+ guidance NG12 referral to a direct access diagnostics service    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>Other (not listed)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

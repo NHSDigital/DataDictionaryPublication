@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_accident_and_emergency_attendance_category_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ACCIDENT AND EMERGENCY ATTENDANCE CATEGORY CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_accident_and_emergency_attendance_category_code">ACCIDENT AND EMERGENCY ATTENDANCE CATEGORY CODE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_a_and_e_attendance_category">A AND E ATTENDANCE CATEGORY</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="attribute" keyref="attribute_first_attendance">FIRST ATTENDANCE</xref>
+ is the first or only attendance for the same incident, which may be an injury or occurrence of a condition; a follow-up attendance is a visit to the same department for the same incident as the first visit within the episode. If a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has a recurring condition, such as epilepsy, or a tendency for joints to dislocate, there would be a new 
+              <xref outputclass="attribute" keyref="attribute_first_attendance">FIRST ATTENDANCE</xref>
+ each time that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ presents with the condition.        </p>
+      <p>A subsequent attendance may not always be a follow-up attendance. It could qualify as an attendance at a consultant out-patient clinic and if so, it needs to be recorded appropriately.</p>
+  </div>
+</body>
+</topic>

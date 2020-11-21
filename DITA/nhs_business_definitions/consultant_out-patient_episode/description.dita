@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_consultant_out-patient_episode.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Consultant Out-patient Episode - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ is an 
+              <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ is an episode of care for a particular 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ comprising a series of 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendances Consultant</xref>, in respect of one referral, managed by the same 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ or, in the case of shared-care, by two or more 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+ equally participating in care. Where care is provided by two or more 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+ within the same episode, one 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ will take overriding responsibility for the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ and only one 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ is recorded. Additional 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+ participating in the care of a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ are defined as 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_shared_care_out-patient_consultant">Shared Care Out-Patient Consultants</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ can overlap with other 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episodes</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episodes (Hospital Provider)</xref>
+ for a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ using a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_bed">Hospital Bed</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ starts on the date the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ first sees or is in contact with the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ at an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>. The episode ends when the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is not given a further 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+ by the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ or the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has not attended or been contacted for six months with no forthcoming 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>. If after discharge the condition deteriorates and the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ returns to a clinic run by the same 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, this is a new episode (referral).        </p>
+      <p>
+During the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may be subject to more than one 
+              <xref outputclass="class" keyref="class_administrative_category_period">ADMINISTRATIVE CATEGORY PERIOD</xref>.        </p>
+      <p>
+         <b>Do not</b>
+ count the following attendances or contacts as part of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>:        </p>
+      <ul>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_nurse_clinic">Nurse Clinic</xref>
+            <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+            <p> / attendance;</p>
+         </li>
+         <li>
+            <p>face to face contacts with other health professionals;</p>
+         </li>
+         <li>
+            <p>
+contact with community 
+                          <xref outputclass="class" keyref="class_nurse">NURSES</xref>;                </p>
+         </li>
+      </ul>
+      <p>
+If the treatment changes but the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ stays the same, record it as the 
+              <b>same</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>; if the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ changes but the treatment stays the same, record it as a 
+              <b>new</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ would not necessarily terminate because a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was admitted into hospital or placed on an 
+              <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>; if further 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ in respect of the same referral with the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ are intended or expected, these would all be included in the same 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>, with attendances after the end of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ counting as follow-up attendances.        </p>
+      <p>
+Note that a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ can have a concurrent 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+ and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>. For example, a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ in a long-stay 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>
+ under the care of a psychiatrist might also be attending a general surgeon.         </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_reporting_period_start_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: REPORTING PERIOD START DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_reporting_period_start_date">REPORTING PERIOD START DATE</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
+ is the start date of the 
+              <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+ and is used in conjunction with 
+              <xref outputclass="attribute" keyref="attribute_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+ to specify the actual period the reported information relates to.        </p>
+      <p>
+The date should not be after the 
+              <xref outputclass="attribute" keyref="attribute_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+ although it can be the same if the period being reported only covers 1 day.        </p>
+  </div>
+</body>
+</topic>

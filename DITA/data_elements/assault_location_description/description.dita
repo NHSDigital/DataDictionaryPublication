@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_assault_location_description.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ASSAULT LOCATION DESCRIPTION - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_assault_location_description">ASSAULT LOCATION DESCRIPTION</xref>
+ is the same as attribute 
+              <xref outputclass="attribute"
+               keyref="attribute_person_observation_text_string">PERSON OBSERVATION TEXT STRING</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_assault_location_description">ASSAULT LOCATION DESCRIPTION</xref>
+ provides further comment and/or details of the 
+              <xref outputclass="class" keyref="class_location">LOCATION</xref>
+ where an assault took place.  This data element may only be completed when the 
+              <xref outputclass="element retired" keyref="element_assault_location_type">ASSAULT LOCATION TYPE</xref>
+ is 
+              <i>'Other location (specify)'</i>.        </p>
+  </div>
+</body>
+</topic>

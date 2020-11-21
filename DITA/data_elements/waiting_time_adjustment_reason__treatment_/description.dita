@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_waiting_time_adjustment_reason__treatment_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: WAITING TIME ADJUSTMENT REASON (TREATMENT) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_waiting_time_adjustment_reason__treatment_">WAITING TIME ADJUSTMENT REASON (TREATMENT)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute"
+               keyref="attribute_waiting_time_adjustment_reason">WAITING TIME ADJUSTMENT REASON</xref>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_waiting_time_adjustment_reason__treatment_">WAITING TIME ADJUSTMENT REASON (TREATMENT)</xref>
+ is mandatory, whenever an adjustment is appropriate as calculated and recorded by 
+              <xref outputclass="element"
+               keyref="element_waiting_time_adjustment__treatment_">WAITING TIME ADJUSTMENT (TREATMENT)</xref>. It is the prime reason for the adjustment and where there is more than one adjustment applicable, this should be the reason for the longest calculated adjustment days.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_waiting_time_adjustment_reason__treatment_">WAITING TIME ADJUSTMENT REASON (TREATMENT)</xref>
+ should only be recorded where 
+              <xref outputclass="attribute"
+               keyref="attribute_cancer_care_setting_for_treatment">CANCER CARE SETTING FOR TREATMENT</xref>
+ is:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+National Code 
+                                <i>'Cancer treatment delivered as part of a 
+                                    <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </i>
+ (where 
+                                <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+ is National Code 
+                                <i>'Ordinary admission')</i>
+ or                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+National Code 
+                                <i>'Cancer treatment delivered as part of a 
+                                    <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </i>
+ (where 
+                                <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+ is National Code 
+                                <i>'Day case admission'</i>).                    </p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

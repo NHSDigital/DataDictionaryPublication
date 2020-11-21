@@ -6,350 +6,286 @@
     <searchtitle>Data Set: NHS Breast Screening Programme Central Return Data Set (KC63) - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Organisation and reporting period</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Organisation and reporting period</b>
 
   <p>To carry details of the reporting organisation and the reporting period. One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_end_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ons_organisation_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_ons_organisation_identifier">ONS ORGANISATION IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PART 1</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PART 1</b>
 
   <p>Population of women covered by the NHS Breast Screening Programme:To carry the breast screening details of the total number of women resident, age group and ineligible population covered by the NHS Breast Screening Programme.Multiple occurrences of this group are permitted, one for each AGE GROUP reported.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_screening_age_group_code__kc63_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_screening_age_group_code__kc63_">BREAST SCREENING AGE GROUP CODE (KC63)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_resident_eligible_women_total__upper_tier_local_authority_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_resident_eligible_women_total__upper_tier_local_authority_">RESIDENT ELIGIBLE WOMEN TOTAL (UPPER TIER LOCAL AUTHORITY)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_recall_ceased_total__upper_tier_local_authority_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_recall_ceased_total__upper_tier_local_authority_">WOMEN RECALL CEASED TOTAL (UPPER TIER LOCAL AUTHORITY)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_never_screened_total__selected_for_screening_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_never_screened_total__selected_for_screening_">WOMEN NEVER SCREENED TOTAL (SELECTED FOR SCREENING)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_never_screened_total__not_selected_for_screening_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_never_screened_total__not_selected_for_screening_">WOMEN NEVER SCREENED TOTAL (NOT SELECTED FOR SCREENING)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_invited_for_screening_in_period_total__call_and_recall_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_invited_for_screening_in_period_total__call_and_recall_">WOMEN INVITED FOR SCREENING IN PERIOD TOTAL (CALL AND RECALL)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_in_period_total__call_and_recall_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_screened_in_period_total__call_and_recall_">WOMEN SCREENED IN PERIOD TOTAL (CALL AND RECALL)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_invited_for_screening_in_last_three_years_total__call_and_recall_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_invited_for_screening_in_last_three_years_total__call_and_recall_">WOMEN INVITED FOR SCREENING IN LAST THREE YEARS TOTAL (CALL AND RECALL)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_in_last_three_years_total__call_and_recall_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_screened_in_last_three_years_total__call_and_recall_">WOMEN SCREENED IN LAST THREE YEARS TOTAL (CALL AND RECALL)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_in_period_total__self_and_gp_referrals_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_screened_in_period_total__self_and_gp_referrals_">WOMEN SCREENED IN PERIOD TOTAL (SELF AND GP REFERRALS)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_in_last_three_years_total__self_and_gp_referrals_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_screened_in_last_three_years_total__self_and_gp_referrals_">WOMEN SCREENED IN LAST THREE YEARS TOTAL (SELF AND GP REFERRALS)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_in_period_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_women_screened_in_period_total">WOMEN SCREENED IN PERIOD TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_in_last_three_years_total' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_screened_in_last_three_years_total">WOMEN SCREENED IN LAST THREE YEARS TOTAL</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_coverage__percentage_of_eligible_women_screened_in_last_three_years_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_coverage__percentage_of_eligible_women_screened_in_last_three_years_">COVERAGE (PERCENTAGE OF ELIGIBLE WOMEN SCREENED IN LAST THREE YEARS)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PART 2</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PART 2</b>
 
   <p> Open Breast Screening Episodes:To carry the details of the women with open episodes for the NHS Breast Screening Programme.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_not_invited_total__open_breast_screening_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_not_invited_total__open_breast_screening_episode_">WOMEN NOT INVITED TOTAL (OPEN BREAST SCREENING EPISODE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_invited_total__open_breast_screening_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_invited_total__open_breast_screening_episode_">WOMEN INVITED TOTAL (OPEN BREAST SCREENING EPISODE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PART 3</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PART 3</b>
 
   <p>High Risk Episodes:To carry the details of the women with a High Risk Episode for the NHS Breast Screening Programme. One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_total__high_risk_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_women_total__high_risk_episode_">WOMEN TOTAL (HIGH RISK EPISODE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_women_screened_total__high_risk_episode_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_screened_total__high_risk_episode_">WOMEN SCREENED TOTAL (HIGH RISK EPISODE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

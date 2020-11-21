@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_out-patient_appointment_consultant.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Out-patient Appointment Consultant - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+An 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_appointment_consultant">Out-Patient Appointment Consultant</xref>
+ is an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
+      <p>
+An 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_appointment_consultant">Out-Patient Appointment Consultant</xref>
+ is an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>.        </p>
+      <p>
+An 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_appointment_consultant">Out-Patient Appointment Consultant</xref>
+ is an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ for a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to see or have contact with a 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, or member of the 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ Firm, at a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_clinic">Consultant Clinic</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ may result in a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinic_attendance_consultant">Clinic Attendance Consultant</xref>
+ as part of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>.        </p>
+      <p>
+Information recorded for an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_appointment_consultant">Out-Patient Appointment Consultant</xref>
+ includes:        </p>
+      <div>
+         <xref outputclass="attribute" keyref="attribute_attended_or_did_not_attend">ATTENDED OR DID NOT ATTEND</xref>
+      </div>
+  </div>
+</body>
+</topic>

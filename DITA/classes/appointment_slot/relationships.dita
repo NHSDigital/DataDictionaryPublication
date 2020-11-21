@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_appointment_slot.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: APPOINTMENT SLOT - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each APPOINTMENT SLOT</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be within one and only one </stentry>
+        <stentry>
+          <xref keyref='class_session' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be filled by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_appointment' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be allocated one or more </stentry>
+        <stentry>
+          <xref keyref='class_appointment_offer' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

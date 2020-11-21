@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_mental_health_admitted_patient_classification.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: MENTAL HEALTH ADMITTED PATIENT CLASSIFICATION - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The classification of the admitted 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ during a 
+              <xref outputclass="businessDefinition" keyref="business_definition_ward_stay">Ward Stay</xref>
+ for the 
+              <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>.        </p>
+      <p>
+         <xref outputclass="attribute"
+               keyref="attribute_mental_health_admitted_patient_classification">MENTAL HEALTH ADMITTED PATIENT CLASSIFICATION</xref>
+ is derived from the attributes 
+              <xref outputclass="attribute"
+               keyref="attribute_ward_setting_type_for_mental_health">WARD SETTING TYPE FOR MENTAL HEALTH</xref>, 
+              <xref outputclass="attribute" keyref="attribute_ward_security_level">WARD SECURITY LEVEL</xref>, 
+              <xref outputclass="attribute"
+               keyref="attribute_age_group_intended_for_mental_health">AGE GROUP INTENDED FOR MENTAL HEALTH</xref>, 
+              <xref outputclass="attribute" keyref="attribute_clinical_care_intensity">CLINICAL CARE INTENSITY</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>.        </p>
+      <p>Notes:</p>
+      <ul>
+         <li>
+            <div>
+               <p>National Code descriptions have been updated to remove National Code headings and add prefixes where required. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.</p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

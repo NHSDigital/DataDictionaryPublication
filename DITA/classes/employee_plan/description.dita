@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_employee_plan.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: EMPLOYEE PLAN - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A written plan related to the 
+              <xref outputclass="class" keyref="class_position">POSITION</xref>
+ or personal development of an 
+              <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>
+ as agreed with their employing 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+      <p>
+The type of plan is recorded by 
+              <xref outputclass="attribute" keyref="attribute_employee_plan_type">EMPLOYEE PLAN TYPE</xref>.        </p>
+      <p>
+Each 
+              <xref outputclass="class" keyref="class_employee_plan">EMPLOYEE PLAN</xref>
+ should be reviewed at least annually, but may be reviewed more frequently. Each review should be recorded by an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_appraisal_review">Appraisal Review</xref>
+ with the 
+              <xref outputclass="attribute"
+               keyref="attribute_appraisal_review_planned_date">APPRAISAL REVIEW PLANNED DATE</xref>
+ indicating when the review should take place.        </p>
+      <p>
+There should be only one 
+              <xref outputclass="class" keyref="class_employee_plan">EMPLOYEE PLAN</xref>
+ of each 
+              <xref outputclass="attribute" keyref="attribute_employee_plan_type">EMPLOYEE PLAN TYPE</xref>
+ active within an 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ any one time. For an 
+              <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>
+ who has an 
+              <xref outputclass="class" keyref="class_employment_contract">EMPLOYMENT CONTRACT</xref>
+  within more than one 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ at the same time then they can have an 
+              <xref outputclass="class" keyref="class_employee_plan">EMPLOYEE PLAN</xref>
+ active for each 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+  </div>
+</body>
+</topic>

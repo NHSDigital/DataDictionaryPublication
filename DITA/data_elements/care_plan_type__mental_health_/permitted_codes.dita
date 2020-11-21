@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_care_plan_type__mental_health_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CARE PLAN TYPE (MENTAL HEALTH) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>10</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_mental_health_care_plan">Mental Health Care Plan</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>11</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_urgent_and_emergency_mental_health_care_plan">Urgent and Emergency Mental Health Care Plan</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>12</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_mental_health_crisis_plan">Mental Health Crisis Plan</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>13</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_positive_behaviour_support_plan">Positive Behaviour Support Plan</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>14</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_child_or_young_person_s_mental_health_transition_plan">Child or Young Person's Mental Health Transition Plan</xref>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

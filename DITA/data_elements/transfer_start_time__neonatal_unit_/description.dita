@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_transfer_start_time__neonatal_unit_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: TRANSFER START TIME (NEONATAL UNIT) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+ 
+              <xref outputclass="element"
+               keyref="element_transfer_start_time__neonatal_unit_">TRANSFER START TIME (NEONATAL UNIT)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_activity_time">ACTIVITY TIME</xref>
+ where the 
+              <xref outputclass="attribute" keyref="attribute_activity_time_type">ACTIVITY TIME TYPE</xref>
+ is National Code 
+              <i>'</i>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_start_time">Start Time</xref>
+ for a 
+              <xref outputclass="businessDefinition" keyref="business_definition_ward_stay">Ward Stay</xref>
+ by a 
+              <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonate</xref>, when transferred to a 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_neonatal_unit">Neonatal Unit</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_neonatal_unit">NNU</xref>).        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_transfer_start_time__neonatal_unit_">TRANSFER START TIME (NEONATAL UNIT)</xref>
+ is equivalent to the 
+              <xref outputclass="element" keyref="element_critical_care_start_time">CRITICAL CARE START TIME</xref>
+ when the 
+              <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ for a 
+              <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonate</xref>
+ begins within the same 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>.        </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_planned_activity.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: PLANNED ACTIVITY - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each PLANNED ACTIVITY</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_patient' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be planned by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the planning of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be planned as a result of one or more </stentry>
+        <stentry>
+          <xref keyref='class_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be planned to be carried out at one and only one </stentry>
+        <stentry>
+          <xref keyref='class_appointment' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be planned to be carried out at  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_care_contact' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be a result of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_care_plan' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be planned by  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_care_professional' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be classified as one and only one </stentry>
+        <stentry>
+          <xref keyref='class_coded_clinical_entry' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be resultant in one or more </stentry>
+        <stentry>
+          <xref keyref='class_decision_to_admit' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the subject of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_elective_admission_list_entry' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be planned to occur at one and only one </stentry>
+        <stentry>
+          <xref keyref='class_location' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the subject of  one or more </stentry>
+        <stentry>
+          <xref keyref='class_planned_activity_date_time' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be related to one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be resultant from one and only one </stentry>
+        <stentry>
+          <xref keyref='class_service_request' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

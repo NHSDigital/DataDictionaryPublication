@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_gs1_global_location_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: GS1 GLOBAL LOCATION NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A unique number which identifies a 
+              <xref outputclass="class" keyref="class_location">LOCATION</xref>
+ within an 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>, for the purposes of 
+              <xref outputclass="businessDefinition" keyref="business_definition_gs1">GS1</xref>
+ Standards.        </p>
+      <p>
+The 
+              <xref outputclass="attribute" keyref="attribute_gs1_global_location_number">GS1 GLOBAL LOCATION NUMBER</xref>
+ is allocated by the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ from the 
+              <xref outputclass="attribute"
+               keyref="attribute_gs1_unique_organisation_prefix_number">GS1 UNIQUE ORGANISATION PREFIX NUMBER</xref>.        </p>
+      <p>
+Further guidance can be found on the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+              <xref href="https://digital.nhs.uk/isce/publication/dcb1077"
+               scope="external"
+               format="html">DCB1077: AIDC for Patient Identification.</xref>
+      </p>
+  </div>
+</body>
+</topic>

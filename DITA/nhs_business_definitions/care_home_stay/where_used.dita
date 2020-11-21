@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_care_home_stay.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Care Home Stay - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_care_home_stay' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Care Home Stay</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_care_home_stay__residential_' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Care Home Stay</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_mental_health_absence_without_leave' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Care Home Stay</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

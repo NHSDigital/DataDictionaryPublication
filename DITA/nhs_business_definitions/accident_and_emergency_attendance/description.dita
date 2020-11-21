@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_accident_and_emergency_attendance.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Accident and Emergency Attendance - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+An 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ is a 
+              <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>.        </p>
+      <p>
+An 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ is an individual visit by one 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ to receive treatment from the accident and emergency service.        </p>
+      <p>
+Note that the accident and emergency service may be provided by staff from other 
+              <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>.        </p>
+      <p>
+During an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may temporarily leave the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>, e.g. for an X-ray, whilst still under the responsibility of the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>.        </p>
+      <p>
+An 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ may be as a result of a request from a 
+              <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ for help with a diagnosis or treatment.        </p>
+      <p>
+Attendances at 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+ run in the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ should not be recorded as 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ but should be recorded as 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinic_attendance_non-consultant">Clinic Attendance Non-Consultant</xref>
+ depending upon the type of 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+ attended.        </p>
+      <p>
+Any facility set up to receive and treat emergency cases is regarded as an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ for this purpose.        </p>
+      <p>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendances</xref>
+ include both first and follow-up attendances. A follow-up attendance is any subsequent 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ at the same 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ for the same incident. All attendances for the same incident will constitute an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_episode">Accident and Emergency Episode</xref>.        </p>
+      <p>
+Each 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>, which is a first attendance or an unplanned follow-up attendance, should be assigned an 
+              <xref outputclass="attribute" keyref="attribute_a_and_e_stream">A AND E STREAM</xref>.        </p>
+      <p>
+Any 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ diagnoses and interventions should be recorded using the A &amp; E specific codes, see 
+              <xref outputclass="attribute"
+               keyref="attribute_accident_and_emergency_diagnosis">ACCIDENT AND EMERGENCY DIAGNOSIS</xref>, 
+              <xref outputclass="attribute"
+               keyref="attribute_accident_and_emergency_investigation">ACCIDENT AND EMERGENCY INVESTIGATION</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_accident_and_emergency_treatment">ACCIDENT AND EMERGENCY TREATMENT</xref>.        </p>
+  </div>
+</body>
+</topic>

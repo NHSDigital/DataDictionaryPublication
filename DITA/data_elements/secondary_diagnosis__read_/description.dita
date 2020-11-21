@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_secondary_diagnosis__read_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: SECONDARY DIAGNOSIS (READ) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_secondary_diagnosis__read_">SECONDARY DIAGNOSIS (READ)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_clinical_terminology_code">CLINICAL TERMINOLOGY CODE</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_secondary_diagnosis__read_">SECONDARY DIAGNOSIS (READ)</xref>
+ is the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+ used to identify the secondary 
+              <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>.        </p>
+      <p>For Commissioning Data Set (CDS) purposes it is recommended that multiple Diagnoses are recorded and the CDS XML Schema (CDS Version 6 onwards) has been designed to carry as many Diagnoses as required.</p>
+      <p>
+Note: 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+ Version 3 (CTV3) with qualifiers is not supported in the 
+              <xref href="https://v3.datadictionary.nhs.uk/web_site_content/navigation/commissioning_data_sets_menu.html"
+               scope="external"
+               format="html">Commissioning Data Sets</xref>. Therefore, the Commissioning Data Set Version 6-2 XML Schema has the format of this Data Element constrained to max an5.        </p>
+  </div>
+</body>
+</topic>

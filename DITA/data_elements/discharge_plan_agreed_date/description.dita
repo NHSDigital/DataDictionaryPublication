@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_discharge_plan_agreed_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DISCHARGE PLAN AGREED DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_discharge_plan_agreed_date">DISCHARGE PLAN AGREED DATE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+              <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_care_plan_agreed_date">Care Plan Agreed Date</xref>'.            </i>
+      </p>
+      <p>
+         <xref outputclass="element" keyref="element_discharge_plan_agreed_date">DISCHARGE PLAN AGREED DATE</xref>
+ is the date on which the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_discharge_plan">Discharge Plan</xref>
+ was agreed by a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_patient_proxy">Patient Proxy</xref>.        </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_discharge_after_patient_did_not_attend.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Discharge after Patient Did Not Attend - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ who does not attend for an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_elective_admission">Elective Admission</xref>
+ and does not cancel the 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ before the scheduled 
+              <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_appointment_time">APPOINTMENT TIME</xref>
+ may be subsequently discharged back to their 
+              <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ provided that the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ ensures:        </p>
+      <ul>
+         <li>
+            <p>
+the 
+                          <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ was clearly communicated to the 
+                          <xref outputclass="class" keyref="class_patient">PATIENT</xref>;                </p>
+         </li>
+         <li>
+            <p>
+discharging the 
+                          <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is not contrary to their best clinical interests;                </p>
+         </li>
+         <li>
+            <p>
+discharging the 
+                          <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is carried out according to local publically available policies on 
+                          <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who do not attend an 
+                          <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>;                </p>
+         </li>
+         <li>
+            <p>
+These local policies are clearly defined and specifically protect the clinical interests of vulnerable 
+                          <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ (for example children) and are agreed with 
+                          <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>, commissioners, 
+                          <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ and other relevant stakeholders.                </p>
+         </li>
+      </ul>
+      <p>
+A 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_discharge_after_patient_did_not_attend">Discharge After Patient Did Not Attend</xref>
+ will end an open 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>. Where the 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ is the first 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ in a 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ the 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ will not be included in the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+ or the count of 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+ 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>.        </p>
+  </div>
+</body>
+</topic>

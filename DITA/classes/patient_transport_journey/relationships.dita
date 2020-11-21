@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_patient_transport_journey.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: PATIENT TRANSPORT JOURNEY - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each PATIENT TRANSPORT JOURNEY</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>must be categorised by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_administrative_category' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the user of one or more </stentry>
+        <stentry>
+          <xref keyref='class_ambulance_vehicle' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be allocated by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be to one and only one </stentry>
+        <stentry>
+          <xref keyref='class_organisation_site' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_patient' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

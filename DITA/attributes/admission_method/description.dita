@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_admission_method.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: ADMISSION METHOD - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The method of admission to a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
+      <p>
+Note: see 
+              <xref outputclass="attribute" keyref="attribute_elective_admission_type">ELECTIVE ADMISSION TYPE</xref>
+ for a full definition of 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_elective_admission">Elective Admission</xref>.        </p>
+      <p>Notes:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+The following National Codes have been introduced to replace National Code 28 
+                                <i>'Other means'.</i>
+ National Code 28 will be retired in the next version of the 
+                                <xref outputclass="supportingInformation"
+                        keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <p>
+2A 
+                                            <i>'Emergency Admission: 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ of another provider where the 
+                                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ had not been admitted'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+2B 
+                                            <i>'Emergency Admission: Transfer of an admitted 
+                                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from another 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ in an emergency'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+2C 
+                                            <i>'Emergency Admission: Baby born at home as intended'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+2D 
+                                            <i>'Emergency Admission: Other emergency admission'</i>
+                     </p>
+                  </div>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <div>
+               <p>
+The following National Codes are 
+                                <b>not</b>
+ valid for use in the 
+                                <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <p>
+2C 
+                                            <i>'Emergency Admission: Baby born at home as intended'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+28 
+                                            <i>'Emergency Admission: Other means'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+31 
+                                            <i>'Maternity Admission: Admitted ante partum'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+32 
+                                            <i>'Maternity Admission: Admitted post partum'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+82 
+                                            <i>'Other Admission: The birth of a baby in this 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_health_care_provider">Health Care Provider</xref>'</i>
+                     </p>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <p>
+83 
+                                            <i>'Other Admission: Baby born outside the 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ except when born at home as intended'</i>
+                     </p>
+                  </div>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <div>
+               <p>National Code descriptions have been updated to remove National Code headings and add prefixes. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.</p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <p>The explanation of the National Code description prefixes are:</p>
+                  </div>
+                  <ul>
+                     <li>
+                        <div>
+                           <xref outputclass="supportingInformation"
+                                 keyref="supporting_definition_elective_admission">Elective Admission</xref>
+                           <p>: when the 
+                                                        <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ could be separated in time from the actual admission. Note that this does not include a transfer from another 
+                                                        <xref outputclass="businessDefinition"
+                                    keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ (see National Code 81 below)                                    </p>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                           <p>Emergency Admission: when admission is unpredictable and at short notice because of clinical need</p>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                           <p>
+Maternity Admission: of a pregnant or recently pregnant woman to a maternity 
+                                                        <xref outputclass="class" keyref="class_ward">WARD</xref>
+ (including 
+                                                        <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities) except when the intention is to terminate the pregnancy                                    </p>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                           <p>Other Admission: not specified above.</p>
+                        </div>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>
+         <i>National Codes:</i>
+      </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>11</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="supportingInformation"
+                           keyref="supporting_definition_elective_admission">Elective Admission</xref>
+                     <p>: Waiting list</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>12</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="supportingInformation"
+                           keyref="supporting_definition_elective_admission">Elective Admission</xref>
+                     <p>: Booked</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>13</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="supportingInformation"
+                           keyref="supporting_definition_elective_admission">Elective Admission</xref>
+                     <p>: Planned</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>21</p>
+                  </entry>
+                  <entry>
+                     <p>
+Emergency Admission: Accident and emergency or dental casualty department of the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_health_care_provider">Health Care Provider</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>22</p>
+                  </entry>
+                  <entry>
+                     <p>
+Emergency Admission: 
+                        <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>: after a request for immediate admission has been made direct to a 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_hospital_provider">Hospital Provider</xref>, i.e. not through a Bed bureau, by a 
+                        <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ or deputy                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>23</p>
+                  </entry>
+                  <entry>
+                     <p>Emergency Admission: Bed bureau</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>24</p>
+                  </entry>
+                  <entry>
+                     <p>
+Emergency Admission: 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_consultant_clinic">Consultant Clinic</xref>, of this or another 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_health_care_provider">Health Care Provider</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>25</p>
+                  </entry>
+                  <entry>
+                     <p>Emergency Admission: Admission via Mental Health Crisis Resolution Team</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>2A</p>
+                  </entry>
+                  <entry>
+                     <p>
+Emergency Admission: 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ of another provider where the 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  had not been admitted                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>2B</p>
+                  </entry>
+                  <entry>
+                     <p>
+Emergency Admission: Transfer of an admitted 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from another 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ in an emergency                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>2C</p>
+                  </entry>
+                  <entry>
+                     <p>Emergency Admission: Baby born at home as intended</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>2D</p>
+                  </entry>
+                  <entry>
+                     <p>Emergency Admission: Other emergency admission</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>28</p>
+                  </entry>
+                  <entry>
+                     <p>
+Emergency Admission: Other means, examples are:  - admitted from the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ of another provider where they had not been admitted - transfer of an admitted 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from another 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ in an emergency - baby born at home as intended                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>31</p>
+                  </entry>
+                  <entry>
+                     <p>Maternity Admission: Admitted ante partum</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>32</p>
+                  </entry>
+                  <entry>
+                     <p>Maternity Admission: Admitted post partum</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>82</p>
+                  </entry>
+                  <entry>
+                     <p>
+Other Admission: The birth of a baby in this 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_health_care_provider">Health Care Provider</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>83</p>
+                  </entry>
+                  <entry>
+                     <p>
+Other Admission: Baby born outside the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ except when born at home as intended                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>81</p>
+                  </entry>
+                  <entry>
+                     <p>
+Other Admission: Transfer of any admitted 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from other 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ other than in an emergency                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

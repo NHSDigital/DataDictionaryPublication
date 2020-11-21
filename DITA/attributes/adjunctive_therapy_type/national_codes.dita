@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_adjunctive_therapy_type.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: ADJUNCTIVE THERAPY TYPE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_adjuvant_therapy">Adjuvant Therapy</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_neoadjuvant_therapy">Neoadjuvant Therapy</xref>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

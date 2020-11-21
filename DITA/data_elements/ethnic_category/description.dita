@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_ethnic_category.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ETHNIC CATEGORY - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_ethnic_category_code_2001">ETHNIC CATEGORY CODE 2001</xref>.        </p>
+      <p>The 16+1 ethnic data categories defined in the 2001 census is the national mandatory standard for the collection and analysis of ethnicity.</p>
+      <p>The national code must be transmitted as the first character in the 2 character field. The second character is optional for use locally. It must, however, be able to be grouped consistently with the 16 main categories.</p>
+      <p>
+National code Z should be used where the 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>
+ has been given the opportunity to state their 
+              <xref outputclass="class" keyref="class_ethnic_category">ETHNIC CATEGORY</xref>
+ but chose not to. Default code 99 should be used where the 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>'s 
+              <xref outputclass="class" keyref="class_ethnic_category">ETHNIC CATEGORY</xref>
+ is not known.        </p>
+      <p>
+Note: for the 
+              <xref outputclass="dataSet"
+               keyref="dataset_stop_smoking_services_quarterly_data_set">Stop Smoking Services Quarterly Data Set</xref>
+ default code 99 
+              <i>'Not Known'</i>
+ is 
+              <b>not</b>
+ valid.        </p>
+  </div>
+</body>
+</topic>

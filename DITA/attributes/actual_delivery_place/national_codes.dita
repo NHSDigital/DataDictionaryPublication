@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_actual_delivery_place.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: ACTUAL DELIVERY PLACE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>
+  <p>
+At a domestic 
+        <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>
+  <p>
+In NHS hospital - 
+        <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities associated with 
+        <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>
+  <p>
+In NHS hospital - 
+        <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities associated with 
+        <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>0</stentry>
+        <stentry>
+  <p>
+In NHS hospital - 
+        <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities associated with 
+        <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>4</stentry>
+        <stentry>
+  <p>
+In NHS hospital - 
+        <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities associated with 
+        <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>/ 
+        <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>/ 
+        <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+ inclusive of any combination of two of the professionals mentioned    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>7</stentry>
+        <stentry>
+  <p>
+In NHS hospital - 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+ or unit without 
+        <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>5</stentry>
+        <stentry>In private hospital</stentry>
+      </strow>
+      <strow>
+        <stentry>6</stentry>
+        <stentry>In other hospital or institution</stentry>
+      </strow>
+      <strow>
+        <stentry>8</stentry>
+        <stentry>None of the above</stentry>
+      </strow>
+      <strow>
+        <stentry>9</stentry>
+        <stentry>Not known</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

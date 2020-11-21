@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_commissioning_serial_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: COMMISSIONING SERIAL NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_commissioning_serial_number">COMMISSIONING SERIAL NUMBER</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_nhs_service_agreement_number">NHS SERVICE AGREEMENT NUMBER</xref>.        </p>
+      <p>
+From 01/04/2001 this data item will be used to identify 
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ treated under 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_non-contract_activity">Non-Contract Activities</xref>. 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
+ and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_foundation_trust">NHS Foundation Trusts</xref>
+ are required to insert the letters 'OAT' (mandated input as capitals) in the first three characters of the 
+              <xref outputclass="element" keyref="element_commissioning_serial_number">COMMISSIONING SERIAL NUMBER</xref>
+ field of the Admitted Patient Care Commissioning Data Set. The remaining three characters will continue to be defined locally, see 
+              <xref href="https://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2000/172000.pdf"
+               scope="external"
+               format="html">DSCN 17/2000</xref>.        </p>
+      <p>
+From 01/04/2005 an '=' (equals) as the last significant character in this six character field will indicate an episode that should be excluded from the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+ tariff.        </p>
+      <p>The position of the last character depends on any preceding characters eg 1st character if field is otherwise blank, 4th character if following 'OAT', up to a maximum of 6th position. This provides a general exclusion facility for unusual circumstances or where more specific rules regarding coding in other fields cannot be implemented due to local software restrictions.</p>
+  </div>
+</body>
+</topic>

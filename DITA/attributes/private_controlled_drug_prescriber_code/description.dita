@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_private_controlled_drug_prescriber_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: PRIVATE CONTROLLED DRUG PRESCRIBER CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="attribute"
+               keyref="attribute_private_controlled_drug_prescriber_code">PRIVATE CONTROLLED DRUG PRESCRIBER CODE</xref>
+ is allocated by the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+ to private prescribers who prescribe schedule 2 and 3 controlled drugs that are intended to be dispensed by registered pharmacies.        </p>
+      <p>
+         <i>
+Note: A registered pharmacy means 
+                  <xref outputclass="businessDefinition"
+                  keyref="business_definition_pharmacy_premises">Pharmacy Premises</xref>
+ registered with the 
+                  <xref outputclass="businessDefinition"
+                  keyref="business_definition_general_pharmaceutical_council">General Pharmaceutical Council</xref>
+ and listed on the 
+                  <xref outputclass="businessDefinition"
+                  keyref="business_definition_general_pharmaceutical_council_register">General Pharmaceutical Council Register</xref>
+         </i>.        </p>
+      <p>
+For information on Controlled Drugs, see the 
+              <xref href="https://www.nhsbsa.nhs.uk/pharmacies-gp-practices-and-appliance-contractors/prescribing-and-dispensing/safer-management"
+               scope="external"
+               format="html">NHS Business Services Authority Prescription Pricing Division website.</xref>
+      </p>
+      <p>Private Controlled Drug Prescribers fall into one of the following types:</p>
+      <ul>
+         <li>
+            <div>
+               <p>Private General Practitioners</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Private Nurses</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Private Pharmacists</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Private Optometrists</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Private Physiotherapists</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Private Radiographers</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Private Podiatrists.</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+Each Private Controlled Drug Prescriber is linked to one 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_sustainability_and_transformation_partnership">Sustainability and Transformation Partnership</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_sustainability_and_transformation_partnership">STP</xref>). This is the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_sustainability_and_transformation_partnership">Sustainability and Transformation Partnership</xref>
+ that is responsible for the Private Controlled Drug Prescriber and may not necessarily be the geographic 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_sustainability_and_transformation_partnership">Sustainability and Transformation Partnership</xref>.        </p>
+      <p>Private Controlled Drug Prescriber Code format</p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="13">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <colspec colname="col7" colwidth="1*"/>
+            <colspec colname="col8" colwidth="1*"/>
+            <colspec colname="col9" colwidth="1*"/>
+            <colspec colname="col10" colwidth="1*"/>
+            <colspec colname="col11" colwidth="1*"/>
+            <colspec colname="col12" colwidth="1*"/>
+            <colspec colname="col13" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry morerows="1" scope="col">
+                     <p>Practitioner Code Type</p>
+                  </entry>
+                  <entry namest="col2" nameend="col9" scope="col">
+                     <p>Character Position</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Allocated By</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Allocated To</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Known As</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Notes</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>1</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>2</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>3</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>4</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>5</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>6</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>7</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>8</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="attribute"
+                           keyref="attribute_private_controlled_drug_prescriber_code">PRIVATE CONTROLLED DRUG PRESCRIBER CODE</xref>
+                  </entry>
+                  <entry>
+                     <p>Q</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Private Prescribers of Controlled Drugs in England and Wales</p>
+                  </entry>
+                  <entry>
+                     <p>PCDP</p>
+                  </entry>
+                  <entry>
+                     <p>Last character is a check digit</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

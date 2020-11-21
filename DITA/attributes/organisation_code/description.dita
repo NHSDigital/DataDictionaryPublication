@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_organisation_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: ORGANISATION CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+An 
+              <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ is a code which identifies an 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ uniquely.        </p>
+      <p>
+         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODES</xref>
+ are managed by:        </p>
+      <ul>
+         <li>
+            <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
+            <p>
+ (<xref outputclass="supportingInformation"
+                     keyref="supporting_definition_organisation_data_service">ODS</xref>)                </p>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_nhs_dental_services">NHS Dental Services</xref>
+            <p>.</p>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
+               <p>
+codes can be downloaded from 
+                                <xref outputclass="supportingInformation"
+                        keyref="supporting_definition_technology_reference_data_update_distribution__trud_">Technology Reference Data Update Distribution (TRUD)</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
+               <p>
+contact details can be found at 
+                                <xref outputclass="supportingInformation"
+                        keyref="supporting_definition_contact_details">Contact Details</xref>.                    </p>
+            </div>
+         </li>
+      </ul>
+      <b>
+All NHS 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ are coded using coding frames, as shown in the tables at: 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_organisation_coding_frames">Organisation Coding Frames</xref>.        </b>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_person_property.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: META PERSON PROPERTY - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each META PERSON PROPERTY</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be collected by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_change_activity_state' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be the property of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_person' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be qualified by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_person_property_qualifier' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be related to one or more </stentry>
+        <stentry>
+          <xref keyref='class_meta_activity_qualifier' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be comprise qualifiers one or more </stentry>
+        <stentry>
+          <xref keyref='class_meta_direct_person_property_qualifier' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be relevant to one or more </stentry>
+        <stentry>
+          <xref keyref='class_meta_health_and_social_care_issue' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be required by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_health_and_social_care_issue' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be acts as one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_health_and_social_care_issue' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

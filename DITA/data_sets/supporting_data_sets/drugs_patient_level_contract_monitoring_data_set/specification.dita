@@ -6,672 +6,685 @@
     <searchtitle>Data Set: Drugs Patient Level Contract Monitoring Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>SUBMISSION HEADER</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>SUBMISSION HEADER</b>
 
   <p>To carry the submission header details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_financial_month' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_financial_month">FINANCIAL MONTH</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_financial_year' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_financial_year">FINANCIAL YEAR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_date_and_time_data_set_created' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_date_and_time_data_set_created">DATE AND TIME DATA SET CREATED</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>ORGANISATION DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>ORGANISATION DETAILS</b>
 
   <p>To carry the Organisation details of the Provider and Commissioner.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_provider_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__gp_practice_responsibility_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__gp_practice_responsibility_">ORGANISATION IDENTIFIER (GP PRACTICE RESPONSIBILITY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_general_medical_practice_code__patient_registration_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>DEMOGRAPHICS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>DEMOGRAPHICS</b>
 
   <p>To carry the demographic details of the patient.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_withheld_identity_reason' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_withheld_identity_reason">WITHHELD IDENTITY REASON</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_local_patient_identifier__extended_">LOCAL PATIENT IDENTIFIER (EXTENDED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_postcode_of_usual_address' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_birth_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_age_at_activity_date__contract_monitoring_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_age_at_activity_date__contract_monitoring_">AGE AT ACTIVITY DATE (CONTRACT MONITORING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_stated_gender_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_stated_gender_code">PERSON STATED GENDER CODE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>CARE ACTIVITY DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>CARE ACTIVITY DETAILS</b>
 
   <p>To carry the care activity details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_activity_treatment_function_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_activity_treatment_function_code">ACTIVITY TREATMENT FUNCTION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_hospital_provider_spell_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_hospital_provider_spell_number">HOSPITAL PROVIDER SPELL NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_attendance_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_attendance_identifier">ATTENDANCE IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_intervention_date__drug_administered_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_clinical_intervention_date__drug_administered_">CLINICAL INTERVENTION DATE (DRUG ADMINISTERED)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_therapeutic_indication_code__snomed_ct_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_therapeutic_indication_code__snomed_ct_">THERAPEUTIC INDICATION CODE (SNOMED CT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_high_cost_tariff_excluded_drug_code__snomed_ct_dm_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_high_cost_tariff_excluded_drug_code__snomed_ct_dm_d_">HIGH COST TARIFF EXCLUDED DRUG CODE (SNOMED CT DM+D)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_dm_d_taxonomy_code__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_dm_d_taxonomy_code__high_cost_tariff_excluded_drug_">DM+D TAXONOMY CODE (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_drug_name__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_drug_name__high_cost_tariff_excluded_drug_">DRUG NAME (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_route_of_administration__snomed_ct_dm_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_route_of_administration__snomed_ct_dm_d_">ROUTE OF ADMINISTRATION (SNOMED CT DM+D)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_drug_strength__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_drug_strength__high_cost_tariff_excluded_drug_">DRUG STRENGTH (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_drug_volume__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_drug_volume__high_cost_tariff_excluded_drug_">DRUG VOLUME (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_drug_pack_size__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_drug_pack_size__high_cost_tariff_excluded_drug_">DRUG PACK SIZE (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_drug_quantity_or_weight_proportion__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_drug_quantity_or_weight_proportion__high_cost_tariff_excluded_drug_">DRUG QUANTITY OR WEIGHT PROPORTION (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_unit_of_measurement__snomed_ct_dm_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_unit_of_measurement__snomed_ct_dm_d_">UNIT OF MEASUREMENT (SNOMED CT DM+D)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_dispensing_route__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_dispensing_route__high_cost_tariff_excluded_drug_">DISPENSING ROUTE (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>SERVICE AGREEMENT AND COMMISSIONING DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>SERVICE AGREEMENT AND COMMISSIONING DETAILS</b>
 
   <p>To carry the service agreement and commissioning details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_provider_reference_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_provider_reference_number">PROVIDER REFERENCE NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_commissioned_service_category_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_commissioned_service_category_code">COMMISSIONED SERVICE CATEGORY CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_specialised_service_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_specialised_service_code">SPECIALISED SERVICE CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_point_of_delivery_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_point_of_delivery_code">POINT OF DELIVERY CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_point_of_delivery_further_detail_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_point_of_delivery_further_detail_code">POINT OF DELIVERY FURTHER DETAIL CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_point_of_delivery_further_detail_description' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_point_of_delivery_further_detail_description">POINT OF DELIVERY FURTHER DETAIL DESCRIPTION</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_detail__first_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_detail__first_">CONTRACT MONITORING ADDITIONAL DETAIL (FIRST)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_description__first_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_description__first_">CONTRACT MONITORING ADDITIONAL DESCRIPTION (FIRST)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_detail__second_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_detail__second_">CONTRACT MONITORING ADDITIONAL DETAIL (SECOND)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_description__second_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_description__second_">CONTRACT MONITORING ADDITIONAL DESCRIPTION (SECOND)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_detail__third_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_detail__third_">CONTRACT MONITORING ADDITIONAL DETAIL (THIRD)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_description__third_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_description__third_">CONTRACT MONITORING ADDITIONAL DESCRIPTION (THIRD)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_detail__fourth_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_detail__fourth_">CONTRACT MONITORING ADDITIONAL DETAIL (FOURTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_description__fourth_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_description__fourth_">CONTRACT MONITORING ADDITIONAL DESCRIPTION (FOURTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_detail__fifth_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_detail__fifth_">CONTRACT MONITORING ADDITIONAL DETAIL (FIFTH)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_contract_monitoring_additional_description__fifth_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contract_monitoring_additional_description__fifth_">CONTRACT MONITORING ADDITIONAL DESCRIPTION (FIFTH)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>COST AND PRICING DETAILS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>COST AND PRICING DETAILS</b>
 
   <p>To carry the service cost and pricing details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_unit_price__supplier_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_unit_price__supplier_">UNIT PRICE (SUPPLIER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_unit_price__commissioner_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_unit_price__commissioner_">UNIT PRICE (COMMISSIONER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_home_delivery_charge__high_cost_tariff_excluded_drug_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_home_delivery_charge__high_cost_tariff_excluded_drug_">HOME DELIVERY CHARGE (HIGH COST TARIFF EXCLUDED DRUG)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_value_added_tax_charged_indicator__contract_monitoring_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_value_added_tax_charged_indicator__contract_monitoring_">VALUE ADDED TAX CHARGED INDICATOR (CONTRACT MONITORING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_total_cost' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_total_cost">TOTAL COST</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

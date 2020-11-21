@@ -6,198 +6,200 @@
     <searchtitle>Data Set: NHS Breast Screening Programme Central Return Data Set (KC62) - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>
+  <div>
+      <p>
+         <b>Introduction</b>
+      </p>
+      <p>
 The 
-    <xref outputclass="dataSet"
-            keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
  provides information to the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_breast_screening_programme">NHS Breast Screening Programme</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_breast_screening_programme">NHS Breast Screening Programme</xref>
  from 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_breast_screening_unit">Breast Screening Units</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_breast_screening_unit">Breast Screening Units</xref>
  on the processes and outcomes of the call and recall system. 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_screening_programme">Screening Programmes</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_screening_programme">Screening Programmes</xref>
  are supported by the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_uk_national_screening_committee">UK National Screening Committee</xref>
-.  </p>
-  <p>The information is used:</p>
-  <ul>
-      <li>
-         <div>
-            <p>to monitor progress towards achieving the cancer targets</p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_uk_national_screening_committee">UK National Screening Committee</xref>.        </p>
+      <p>The information is used:</p>
+      <ul>
+         <li>
+            <div>
+               <p>to monitor progress towards achieving the cancer targets</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 to ensure that the 
-                <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_breast_screening_programme">NHS Breast Screening Programme</xref>
- is monitored and managed effectively.        </p>
-         </div>
-      </li>
-  </ul>
-  <p>
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_nhs_breast_screening_programme">NHS Breast Screening Programme</xref>
+ is monitored and managed effectively.                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
 The 
-    <xref outputclass="dataSet"
-            keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
  is analysed by 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
  and also used by the Public Health Research Unit to evaluate the effectiveness of 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>
-.  It is also used by the Regional Breast Screening Quality Assurance Reference Centres as part of the quality assurance process, and enables on-going monitoring of their individual programmes and comparisons within their regions and with England overall.  </p>
-  <p>
-      <b>Collection</b>
-  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>.  It is also used by the Regional Breast Screening Quality Assurance Reference Centres as part of the quality assurance process, and enables on-going monitoring of their individual programmes and comparisons within their regions and with England overall.        </p>
+      <p>
+         <b>Collection</b>
+      </p>
+      <p>
 The 
-    <xref outputclass="dataSet"
-            keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
  requires information on women invited for 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>
-, the outcome of the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>, the outcome of the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>
  and further information on each cancer detected.  It is completed annually and submitted by the end of the October following the end of the 
-    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
- to which the data relates.  </p>
-  <p>
+              <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+ to which the data relates.        </p>
+      <p>
 Women are included in the 
-    <xref outputclass="dataSet"
-            keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
  only if the test date offered or 
-    <xref outputclass="element" keyref="element_screening_test_date">SCREENING TEST DATE</xref>
+              <xref outputclass="element" keyref="element_screening_test_date">SCREENING TEST DATE</xref>
  was within the review period.  All 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_screening_test">Screening Tests</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_screening_test">Screening Tests</xref>
  taking place within the 
-    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+              <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
  are counted.  One woman may not have more than one outcome of cancer in the 
-    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
-.  Women who are referred directly for a 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_screening_test">Screening Test</xref>
+              <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>.  Women who are referred directly for a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_screening_test">Screening Test</xref>
  (rather than an invitation as part of a 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_screening_programme">Screening Programme</xref>
-) are also included if the 
-    <xref outputclass="element" keyref="element_screening_test_date">SCREENING TEST DATE</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_screening_programme">Screening Programme</xref>) are also included if the 
+              <xref outputclass="element" keyref="element_screening_test_date">SCREENING TEST DATE</xref>
  is within the 
-    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
-.  </p>
-  <p>
-      <b>Submission</b>
-  </p>
-  <p>
+              <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>.        </p>
+      <p>
+         <b>Submission</b>
+      </p>
+      <p>
 Parts One to Five of the 
-    <xref outputclass="dataSet"
-            keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
- should be reported for Tables A to T.  </p>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <b>TABLE</b>
-         </stentry>
-         <stentry>
-            <b>DESCRIPTION</b>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>A*</p>
-         </stentry>
-         <stentry>
-            <p>First invitation for routine screening</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>B*</p>
-         </stentry>
-         <stentry>
-            <p>Routine invitation to previous non-attenders</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>C1*</p>
-         </stentry>
-         <stentry>
-            <p>Return invitation to previous attenders (last screen within 5 years)</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>C2</p>
-         </stentry>
-         <stentry>
-            <p>Return invitation to previous attenders (last screen more than 5 years)</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>D</p>
-         </stentry>
-         <stentry>
-            <p>Short term recall</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>E</p>
-         </stentry>
-         <stentry>
-            <p>Self/GP referrals of women not previously screened</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>F1</p>
-         </stentry>
-         <stentry>
-            <p>Self/GP referrals of women previously screened (last screen within 5 years)</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>F2</p>
-         </stentry>
-         <stentry>
-            <p>Self/GP referrals of women previously screened (last screen more than 5 years previously)</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>T</p>
-         </stentry>
-         <stentry>
-            <p>All invitations and screenings: Sum of Tables A - F2</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <p>
+              <xref outputclass="dataSet"
+               keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
+ should be reported for Tables A to T.        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <b>TABLE</b>
+                  </entry>
+                  <entry>
+                     <b>DESCRIPTION</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>A*</p>
+                  </entry>
+                  <entry>
+                     <p>First invitation for routine screening</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>B*</p>
+                  </entry>
+                  <entry>
+                     <p>Routine invitation to previous non-attenders</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>C1*</p>
+                  </entry>
+                  <entry>
+                     <p>Return invitation to previous attenders (last screen within 5 years)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>C2</p>
+                  </entry>
+                  <entry>
+                     <p>Return invitation to previous attenders (last screen more than 5 years)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>D</p>
+                  </entry>
+                  <entry>
+                     <p>Short term recall</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>E</p>
+                  </entry>
+                  <entry>
+                     <p>Self/GP referrals of women not previously screened</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>F1</p>
+                  </entry>
+                  <entry>
+                     <p>Self/GP referrals of women previously screened (last screen within 5 years)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>F2</p>
+                  </entry>
+                  <entry>
+                     <p>Self/GP referrals of women previously screened (last screen more than 5 years previously)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>T</p>
+                  </entry>
+                  <entry>
+                     <p>All invitations and screenings: Sum of Tables A - F2</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
 * 
-    <xref outputclass="element"
-            keyref="element_invasive_breast_cancer_total_observed">INVASIVE BREAST CANCER TOTAL OBSERVED</xref>
-, 
-    <xref outputclass="element"
-            keyref="element_invasive_breast_cancer_total_expected">INVASIVE BREAST CANCER TOTAL EXPECTED</xref>
+              <xref outputclass="element"
+               keyref="element_invasive_breast_cancer_total_observed">INVASIVE BREAST CANCER TOTAL OBSERVED</xref>, 
+              <xref outputclass="element"
+               keyref="element_invasive_breast_cancer_total_expected">INVASIVE BREAST CANCER TOTAL EXPECTED</xref>
  and 
-    <xref outputclass="element"
-            keyref="element_standardised_detection_ratio_total">STANDARDISED DETECTION RATIO TOTAL</xref>
- are only appropriate for tables A, B and C1.  </p>
-  <p>
+              <xref outputclass="element"
+               keyref="element_standardised_detection_ratio_total">STANDARDISED DETECTION RATIO TOTAL</xref>
+ are only appropriate for tables A, B and C1.        </p>
+      <p>
 The 
-    <xref outputclass="dataSet"
-            keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
- is submitted in csv file format.  </p>
-
+              <xref outputclass="dataSet"
+               keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
+ is submitted in csv file format.        </p>
+  </div>
 </body>
 </topic>

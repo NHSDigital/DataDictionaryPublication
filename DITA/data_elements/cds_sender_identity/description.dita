@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_sender_identity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS SENDER IDENTITY - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ is the mandatory NHS 
+              <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ of the 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ acting as the physical Sender of Commissioning Data Set submissions.        </p>
+      <p>
+         <b>Usage:</b>
+The Commissioning Data Set sender must make sure that the Commissioning Data Set extraction and submission facilities and processes differentiate correctly between:        </p>
+      <ul>
+         <li>
+            <p>
+The 
+                          <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ (<xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>) as carried in the 
+                          <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+ Transaction Header Group for every Commissioning Data Set,                </p>
+         </li>
+         <li>
+            <p>and</p>
+         </li>
+         <li>
+            <p>
+The 
+                          <xref outputclass="element"
+                     keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ as carried in the Service Agreement details which are part of the Episode/Attendance details.                </p>
+         </li>
+      </ul>
+      <p>
+Once associated with the a Commissioning Data Set record and submitted to the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>, the 
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ should not be changed unless great care is taken to delete the original Commissioning Data Set records before any resubmission is undertaken.        </p>
+      <p>
+Usually, the 
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ is never altered once assigned.        </p>
+      <p>
+         <b>
+            <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+ will be replaced with 
+                  <xref outputclass="element"
+                  keyref="element_organisation_identifier__cds_sender_">ORGANISATION IDENTIFIER (CDS SENDER)</xref>, when it has been approved for use in national information standards.            </b>
+      </p>
+  </div>
+</body>
+</topic>

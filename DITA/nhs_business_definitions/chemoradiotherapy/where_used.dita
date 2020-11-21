@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_chemoradiotherapy.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Chemoradiotherapy - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_cancer_treatment_modality' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Chemoradiotherapy</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_cancer_treatment_modality' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Chemoradiotherapy</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_cancer_treatment_modality__registration_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Chemoradiotherapy</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_clinical_intervention_type' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Chemoradiotherapy</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_chemoradiotherapy' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Chemoradiotherapy</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_radiotherapy_intent' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Chemoradiotherapy</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

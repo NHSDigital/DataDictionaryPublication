@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_length_of_stay_adjustment.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: LENGTH OF STAY ADJUSTMENT - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The total number of days within a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
+ that a discrete period of 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ such as Rehabilitation or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_specialist_palliative_care">Specialist Palliative Care</xref>
+ occurred, which requires an adjustment to the total length of stay for 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+ purposes.         </p>
+      <p>
+The 
+              <xref outputclass="attribute" keyref="attribute_length_of_stay_adjustment">LENGTH OF STAY ADJUSTMENT</xref>
+ should be calculated using the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+ rules (i.e. count of midnights). The 
+              <xref outputclass="attribute"
+               keyref="attribute_length_of_stay_adjustment_reason">LENGTH OF STAY ADJUSTMENT REASON</xref>
+ should also be recorded.        </p>
+      <p>
+Where several discrete periods of applicable activity for the same 
+              <xref outputclass="attribute"
+               keyref="attribute_length_of_stay_adjustment_reason">LENGTH OF STAY ADJUSTMENT REASON</xref>
+ occur within one 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>, the number of days under the same 
+              <xref outputclass="attribute"
+               keyref="attribute_length_of_stay_adjustment_reason">LENGTH OF STAY ADJUSTMENT REASON</xref>
+ should be totalled and reported in a single 
+              <xref outputclass="attribute" keyref="attribute_length_of_stay_adjustment">LENGTH OF STAY ADJUSTMENT</xref>.        </p>
+  </div>
+</body>
+</topic>

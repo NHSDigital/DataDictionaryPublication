@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_diagnosis_scheme_in_use.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: DIAGNOSIS SCHEME IN USE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Accident &amp; Emergency Diagnosis</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+  <xref outputclass="supportingInformation"
+         keyref="supporting_definition_international_classification_of_diseases__icd_">ICD</xref>
+  <p>-10</p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>03</stentry>
+        <stentry>Read Code 4Byte Version (retired 1 October 2009)</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+  <xref outputclass="supportingInformation"
+         keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+  <p> Version 2</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+  <xref outputclass="supportingInformation"
+         keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+  <p> Version 3 (CTV3)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+  <xref outputclass="supportingInformation"
+         keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+  <p>®</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

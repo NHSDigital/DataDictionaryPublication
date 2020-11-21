@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_onward_referral_reason.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: ONWARD REFERRAL REASON - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Transfer of Clinical Responsibility</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>For Opinion Only</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>For Diagnostic Test Only</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>New Referral (Non Transfer)</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+  <p>
+Stepped up from low intensity 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_improving_access_to_psychological_therapies_service">Improving Access to Psychological Therapies Service</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+  <p>
+Stepped down from high intensity 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_improving_access_to_psychological_therapies_service">Improving Access to Psychological Therapies Service</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>96</stentry>
+        <stentry>Other (not listed)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

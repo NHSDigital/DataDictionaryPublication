@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_service.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: SERVICE - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each SERVICE</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>must be provided during one and only one </stentry>
+        <stentry>
+          <xref keyref='class_clinic_or_facility' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be applicable to one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement_change' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be subject of one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement_line' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be allocated one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_financial_allocation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be reported in one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_international_neuroblastoma_risk_group_staging_system_stage.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: INTERNATIONAL NEUROBLASTOMA RISK GROUP STAGING SYSTEM STAGE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>L1</p>
+</stentry>
+        <stentry>
+  <p>
+Stage L1: The 
+        <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ is located only in the area where it started; no Image-Defined Risk Factors (IDFSs) are found on imaging scans, such as 
+        <xref outputclass="businessDefinition" keyref="business_definition_ct_scan">CT</xref>
+ or 
+        <xref outputclass="businessDefinition" keyref="business_definition_mri_scan">MRI</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>L2</p>
+</stentry>
+        <stentry>
+  <p>
+Stage L2: The 
+        <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ has not spread beyond the area where it started and the nearby 
+        <xref outputclass="class" keyref="class_tissue">TISSUE</xref>; Image-Defined Risk Factors (IDFSs) are found on imaging scans, such as 
+        <xref outputclass="businessDefinition" keyref="business_definition_ct_scan">CT</xref>
+ or 
+        <xref outputclass="businessDefinition" keyref="business_definition_mri_scan">MRI</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>M</p>
+</stentry>
+        <stentry>
+  <p>
+Stage M: The 
+        <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ has spread to other parts of the body (except stage MS)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MS</p>
+</stentry>
+        <stentry>
+  <p>
+Stage MS: The 
+        <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ has spread to only the skin, liver, and/or bone marrow (less than 10% marrow involvement) in 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ less than 18 months    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

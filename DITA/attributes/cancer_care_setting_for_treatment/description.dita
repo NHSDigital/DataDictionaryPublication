@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_cancer_care_setting_for_treatment.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: CANCER CARE SETTING FOR TREATMENT - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The type of care setting where the cancer care, relating to the 
+              <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>, took place.        </p>
+      <p>
+Where the cancer care is delivered during a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>, distinction is made between care delivered as part of an ordinary admission (where the 
+              <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+ is National Code 
+              <i>'Ordinary Admission') </i>
+and a day case admission (where 
+              <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+ is National Code 
+              <i>'Day case admission'</i>)
+              <i>.</i>
+      </p>
+  </div>
+</body>
+</topic>

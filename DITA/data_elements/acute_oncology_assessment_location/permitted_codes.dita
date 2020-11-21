@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_acute_oncology_assessment_location.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ACUTE ONCOLOGY ASSESSMENT LOCATION - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>Medical Assessment Unit</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>Emergency Ambulatory Care Unit</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_ward">WARD</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <p>Dedicated Acute Oncology Bed/Chair</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <p>Day Case Unit</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_chemotherapy">Chemotherapy</xref>
+  <p> Unit</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>98</p>
+</stentry>
+        <stentry>
+  <p>Other (not listed)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

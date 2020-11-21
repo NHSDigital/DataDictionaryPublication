@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_accommodation_status_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ACCOMMODATION STATUS CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>MA00</p>
+</stentry>
+        <stentry>
+  <p>Mainstream Housing</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MA01</p>
+</stentry>
+        <stentry>
+  <p>Owner occupier</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MA02</p>
+</stentry>
+        <stentry>
+  <p>Settled mainstream housing with family/friends</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MA03</p>
+</stentry>
+        <stentry>
+  <p>Shared ownership scheme e.g. Social Homebuy Scheme (tenant purchase percentage of home value from landlord)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MA04</p>
+</stentry>
+        <stentry>
+  <p>
+Tenant - 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_local_authority">Local Authority</xref>/Arms Length Management Organisation/Registered Landlord    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MA05</p>
+</stentry>
+        <stentry>
+  <p>Tenant - Housing Association</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MA06</p>
+</stentry>
+        <stentry>
+  <p>Tenant - private landlord</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MA09</p>
+</stentry>
+        <stentry>
+  <p>Other mainstream housing (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM00</p>
+</stentry>
+        <stentry>
+  <p>Homeless</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM01</p>
+</stentry>
+        <stentry>
+  <p>Rough sleeper</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM02</p>
+</stentry>
+        <stentry>
+  <p>Squatting</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM03</p>
+</stentry>
+        <stentry>
+  <p>Night shelter/emergency hostel/Direct access hostel (temporary accommodation accepting self referrals, no waiting list and relatively frequent vacancies)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM04</p>
+</stentry>
+        <stentry>
+  <p>Sofa surfing (sleeps on different friends floor each night)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM05</p>
+</stentry>
+        <stentry>
+  <p>
+Placed in temporary accommodation by 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_local_authority">Local Authority</xref>
+ (including Homelessness resettlement service) e.g. Bed and Breakfast accommodation    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM06</p>
+</stentry>
+        <stentry>
+  <p>Staying with friends/family as a short term guest</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HM07</p>
+</stentry>
+        <stentry>
+  <p>Other homeless (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MH00</p>
+</stentry>
+        <stentry>
+  <p>Accommodation with mental health care support</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MH01</p>
+</stentry>
+        <stentry>
+  <p>Supported accommodation (accommodation supported by staff or resident caretaker)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MH02</p>
+</stentry>
+        <stentry>
+  <p>Supported lodgings (lodgings supported by staff or resident caretaker)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MH03</p>
+</stentry>
+        <stentry>
+  <p>Supported group home (supported by staff or resident caretaker)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MH04</p>
+</stentry>
+        <stentry>
+  <p>
+Mental Health Registered 
+        <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>MH09</p>
+</stentry>
+        <stentry>
+  <p>Other accommodation with mental health care and support (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HS00</p>
+</stentry>
+        <stentry>
+  <p>Acute/long stay healthcare residential facility/hospital</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HS01</p>
+</stentry>
+        <stentry>
+  <p>
+NHS acute psychiatric 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HS02</p>
+</stentry>
+        <stentry>
+  <p>Independent hospital/clinic</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HS03</p>
+</stentry>
+        <stentry>
+  <p>Specialist rehabilitation/recovery</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HS04</p>
+</stentry>
+        <stentry>
+  <p>Secure psychiatric unit</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HS05</p>
+</stentry>
+        <stentry>
+  <p>Other NHS facilities/hospital</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>HS09</p>
+</stentry>
+        <stentry>
+  <p>Other acute/long stay healthcare residential facility/hospital (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CH00</p>
+</stentry>
+        <stentry>
+  <p>Accommodation with other (not specialist mental health) care support</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CH01</p>
+</stentry>
+        <stentry>
+  <p>Foyer - accommodation for young people aged 16-25 who are homeless or in housing need</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CH02</p>
+</stentry>
+        <stentry>
+  <p>Refuge</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CH03</p>
+</stentry>
+        <stentry>
+  <p>
+Non-Mental Health Registered 
+        <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CH09</p>
+</stentry>
+        <stentry>
+  <p>Other accommodation with care and support (not specialist mental health) (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ00</p>
+</stentry>
+        <stentry>
+  <p>Accommodation with criminal justice support</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ01</p>
+</stentry>
+        <stentry>
+  <p>Bail/Probation hostel</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ02</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_prison">Prison</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ03</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_young_offender_institution">Young Offender Institution</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ04</p>
+</stentry>
+        <stentry>
+  <p>Detention Centre</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ05</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_young_offender_institution__15-17_">Young Offender Institution (15-17)</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ06</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_young_offender_institution__18-21_">Young Offender Institution (18-21)</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ07</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_secure_children_s_home">Secure Children's Home</xref>
+  <p>
+ (<xref outputclass="businessDefinition"
+            keyref="business_definition_secure_welfare_accommodation">Secure Welfare Accommodation</xref>
+ only)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ08</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_secure_children_s_home">Secure Children's Home</xref>
+  <p>
+ (<xref outputclass="businessDefinition"
+            keyref="business_definition_youth_detention_accommodation">Youth Detention Accommodation</xref>
+ only)    </p>
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>
+  <p>CJ09</p>
+</stentry>
+        <stentry>
+  <p>Other accommodation with criminal justice support such as ex-offender support (Retired 1 April 2020)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ10</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_secure_children_s_home">Secure Children's Home</xref>
+  <p>
+ (<xref outputclass="businessDefinition"
+            keyref="business_definition_secure_welfare_accommodation">Secure Welfare Accommodation</xref>
+ and 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_youth_detention_accommodation">Youth Detention Accommodation</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ11</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_secure_training_centre">Secure Training Centre</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>CJ12</p>
+</stentry>
+        <stentry>
+  <p>Other accommodation with criminal justice support (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>SH00</p>
+</stentry>
+        <stentry>
+  <p>Sheltered Housing (accommodation with a scheme manager or warden living on the premises or nearby, contactable by an alarm system if necessary)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>SH01</p>
+</stentry>
+        <stentry>
+  <p>Sheltered housing for older persons</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>SH02</p>
+</stentry>
+        <stentry>
+  <p>Extra care sheltered housing (also known as 'very sheltered housing'. For people who are less able to manage on their own, but who do need an extra level of care. Services offered vary between schemes, but meals and some personal care are often provided.)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>SH03</p>
+</stentry>
+        <stentry>
+  <p>Nursing Home for older persons</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>SH09</p>
+</stentry>
+        <stentry>
+  <p>Other sheltered housing (not listed)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>ML00</p>
+</stentry>
+        <stentry>
+  <p>Mobile accommodation</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>OC96</p>
+</stentry>
+        <stentry>
+  <p>Other (Not elsewhere classified)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

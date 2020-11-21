@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_person_stated_nationality.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PERSON STATED NATIONALITY - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_person_stated_nationality">PERSON STATED NATIONALITY</xref>
+  is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_person_stated_nationality">PERSON STATED NATIONALITY</xref>.        </p>
+      <p>
+For the 
+              <xref outputclass="dataSet" keyref="dataset_national_workforce_data_set">National Workforce Data Set</xref>
+ the 
+              <xref outputclass="element" keyref="element_person_stated_nationality">PERSON STATED NATIONALITY</xref>
+ is the nationality of the 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+as stated by the individual on appointment to a 
+                                <xref outputclass="class" keyref="class_position">POSITION</xref>
+ or                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+as stated by the individual in the course of employment (should they change their 
+                                <xref outputclass="class" keyref="class_nationality">NATIONALITY</xref>).                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
+For 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_electronic_staff_record">Electronic Staff Record</xref>
+ and 
+              <xref outputclass="dataSet" keyref="dataset_national_workforce_data_set">National Workforce Data Set</xref>
+ only one 
+              <xref outputclass="class" keyref="class_nationality">NATIONALITY</xref>
+ can be identified. In the case of dual 
+              <xref outputclass="class" keyref="class_nationality">NATIONALITY</xref>, the 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>
+ should choose their preferred 
+              <xref outputclass="class" keyref="class_nationality">NATIONALITY</xref>.        </p>
+  </div>
+</body>
+</topic>

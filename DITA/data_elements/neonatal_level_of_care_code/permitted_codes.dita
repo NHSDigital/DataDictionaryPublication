@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_neonatal_level_of_care_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: NEONATAL LEVEL OF CARE CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>0</p>
+</stentry>
+        <stentry>
+  <p>Normal Care: Care given by the mother or mother substitute with medical and neonatal nursing advice if needed.</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>1</p>
+</stentry>
+        <stentry>
+  <p>
+Special Care: Care given in a special care nursery, transitional care ward or 
+        <xref outputclass="businessDefinition" keyref="business_definition_postnatal">Postnatal</xref>
+ ward which provides care and treatment exceeding normal routine care. Some aspects of special care can be undertaken by a mother supervised by qualified nursing staff. Special nursing care includes support and education of the infant's parent(s).    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>2</p>
+</stentry>
+        <stentry>
+  <p>Level 2 Intensive Care (High Dependency Intensive Care): Care given in an intensive or special care nursery which provides continuous skilled supervision by qualified and specially trained nursing staff who may care for more babies than in Level 1 Intensive Care. Medical supervision is not so immediate as in Level 1 Intensive Care. Care includes support of the infant's parent(s).</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>3</p>
+</stentry>
+        <stentry>
+  <p>Level 1 Intensive Care (Maximal Intensive Care): Care given in an intensive care nursery which provides continuous skilled supervision by qualified and specially trained nursing and medical staff. Such care includes support of the infant's parent(s).</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

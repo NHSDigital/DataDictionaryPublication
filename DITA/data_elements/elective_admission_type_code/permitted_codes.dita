@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_elective_admission_type_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ELECTIVE ADMISSION TYPE CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>11</p>
+</stentry>
+        <stentry>
+  <p>Waiting list admission
+</p>
+  <p>
+A 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted electively from a 
+        <xref outputclass="class" keyref="class_waiting_list">WAITING LIST</xref>
+ having been given no date of admission at a time a 
+        <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ was made    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>12</p>
+</stentry>
+        <stentry>
+  <p>Booked admission
+</p>
+  <p>
+A 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted having been given a date at the time the 
+        <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ was made, determined mainly on the grounds of resource availability    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>13</p>
+</stentry>
+        <stentry>
+  <p>Planned admission
+</p>
+  <p>
+A 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted, having been given a date or approximate date at the time that the 
+        <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ was made. This is usually part of a planned sequence of clinical care determined mainly on clinical criteria (eg check cystoscopy)    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

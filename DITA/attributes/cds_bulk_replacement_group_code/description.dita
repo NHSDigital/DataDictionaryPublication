@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_cds_bulk_replacement_group_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: CDS BULK REPLACEMENT GROUP CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The Commissioning Data Set Group into which 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+ must be grouped when using the Commissioning Data Set Bulk Replacement Update Mechanism.        </p>
+      <p>Note:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+National Code 160 '<i>Emergency Care Attendance</i>' is 
+                                <b>only</b>
+ valid for:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <div>
+                     <xref outputclass="dataSet"
+                           keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <xref outputclass="dataSet"
+                           keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <xref outputclass="dataSet"
+                           keyref="dataset_cds_v6-2-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+                  </div>
+               </li>
+               <li>
+                  <xref outputclass="dataSet"
+                        keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+                  <p>.
+                                      <i> </i>
+                  </p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

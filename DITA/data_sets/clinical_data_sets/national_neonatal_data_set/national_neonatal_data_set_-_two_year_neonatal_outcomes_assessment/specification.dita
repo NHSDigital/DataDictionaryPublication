@@ -6,1618 +6,2073 @@
     <searchtitle>Data Set: National Neonatal Data Set - Two Year Neonatal Outcomes Assessment - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='7'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
-        <colspec colname='col6' colnum='6' colwidth='5*' />
-        <colspec colname='col7' colnum='7' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>TWO YEAR NEONATAL OUTCOMES ASSESSMENT</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>TWO YEAR NEONATAL OUTCOMES ASSESSMENT</b>
 
   <p>One of the following Child Demographics Data Group Structures must be used:</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Choice 1</p>
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Choice 1</b>
 </entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Child Demographics (Standard)</b>
 
-  <p>Choice 2</p>
-
+  <p>To carry the Child's demographic details where anonymisation of the record is NOT required.One occurrence of this group is required.</p>
 </entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_community_health_index_number">COMMUNITY HEALTH INDEX NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_health_and_care_number">HEALTH AND CARE NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_baby_local_patient_identifier__national_neonatal_data_set_">BABY LOCAL PATIENT IDENTIFIER (NATIONAL NEONATAL DATA SET)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_date_time_of_birth">DATE TIME OF BIRTH</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_site_code__of_actual_place_of_delivery_">SITE CODE (OF ACTUAL PLACE OF DELIVERY)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__of_actual_place_of_delivery_">ORGANISATION CODE (OF ACTUAL PLACE OF DELIVERY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_gestation_length__at_delivery_">GESTATION LENGTH (AT DELIVERY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_gestation_length__remaining_days_at_delivery_">GESTATION LENGTH (REMAINING DAYS AT DELIVERY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_phenotypic_sex">PERSON PHENOTYPIC SEX</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_genotypic_sex__national_neonatal_data_set_">PERSON GENOTYPIC SEX (NATIONAL NEONATAL DATA SET)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Child's Demographics (Withheld)</b>
 
-  <p>Two Year TPRG-SEND - Neuromotor</p>
+  <p>To carry the Child's demographic details where anonymisation of the record IS required.One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_baby_local_patient_identifier__national_neonatal_data_set_">BABY LOCAL PATIENT IDENTIFIER (NATIONAL NEONATAL DATA SET)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_year_and_month_of_birth">YEAR AND MONTH OF BIRTH</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_site_code__of_actual_place_of_delivery_">SITE CODE (OF ACTUAL PLACE OF DELIVERY)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__of_actual_place_of_delivery_">ORGANISATION CODE (OF ACTUAL PLACE OF DELIVERY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_gestation_length__at_delivery_">GESTATION LENGTH (AT DELIVERY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_gestation_length__remaining_days_at_delivery_">GESTATION LENGTH (REMAINING DAYS AT DELIVERY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_phenotypic_sex">PERSON PHENOTYPIC SEX</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_genotypic_sex__national_neonatal_data_set_">PERSON GENOTYPIC SEX (NATIONAL NEONATAL DATA SET)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Choice 2</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Assessment Administration (Standard)</b>
 
+  <p>To carry administrative information relating to the Two Year Neonatal Outcomes Assessment where anonymisation of the record is NOT required.One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_two_year_neonatal_outcomes_assessment_date">TWO YEAR NEONATAL OUTCOMES ASSESSMENT DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_job_role_code__two_year_neonatal_outcomes_assessment_">CARE PROFESSIONAL JOB ROLE CODE (TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_postcode_of_usual_address__at_two_year_neonatal_outcomes_assessment_">POSTCODE OF USUAL ADDRESS (AT TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_site_code__of_two_year_neonatal_outcomes_assessment_">SITE CODE (OF TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__of_two_year_neonatal_outcomes_assessment_">ORGANISATION CODE (OF TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_two_year_neonatal_outcomes_assessment_not_carried_out_reason">TWO YEAR NEONATAL OUTCOMES ASSESSMENT NOT CARRIED OUT REASON</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_death_date__post_discharge_from_neonatal_critical_care_">PERSON DEATH DATE (POST DISCHARGE FROM NEONATAL CRITICAL CARE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Administration (Withheld)</b>
 
+  <p>To carry administrative information relating to the Two Year Neonatal Outcomes Assessment where anonymisation of the record IS required.One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_two_year_neonatal_outcomes_assessment_year_and_month">TWO YEAR NEONATAL OUTCOMES ASSESSMENT YEAR AND MONTH</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_job_role_code__two_year_neonatal_outcomes_assessment_">CARE PROFESSIONAL JOB ROLE CODE (TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_site_code__of_two_year_neonatal_outcomes_assessment_">SITE CODE (OF TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__of_two_year_neonatal_outcomes_assessment_">ORGANISATION CODE (OF TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_two_year_neonatal_outcomes_assessment_not_carried_out_reason">TWO YEAR NEONATAL OUTCOMES ASSESSMENT NOT CARRIED OUT REASON</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_death_year_and_month__post_discharge_from_neonatal_critical_care_">PERSON DEATH YEAR AND MONTH (POST DISCHARGE FROM NEONATAL CRITICAL CARE)</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Neuromotor</b>
 
   <p>To carry information relating to TPRG-SEND Neuromotor at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_c_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_c_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION C)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_d_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION D)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_e_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_e_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION E)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_f_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_f_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION F)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_g_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_g_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION G)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_h_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neuromotor_question_h_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROMOTOR QUESTION H)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Malformations</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Malformations</b>
 
   <p>To carry information relating to TPRG-SEND Malformations at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__malformations_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__malformations_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (MALFORMATIONS QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__malformations_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__malformations_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (MALFORMATIONS QUESTION B)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Respiratory and Cardiovascular</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Respiratory and Cardiovascular</b>
 
   <p>To carry information relating to TPRG-SEND Respiratory and Cardiovascular System at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__respiratory_and_cardiovascular_system_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__respiratory_and_cardiovascular_system_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (RESPIRATORY AND CARDIOVASCULAR SYSTEM QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__respiratory_and_cardiovascular_system_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__respiratory_and_cardiovascular_system_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (RESPIRATORY AND CARDIOVASCULAR SYSTEM QUESTION B)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Gastrointestinal Tract</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Gastrointestinal Tract</b>
 
   <p>To carry information relating to TPRG-SEND Gastrointestinal Tract at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__gastro-intestinal_tract_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__gastro-intestinal_tract_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (GASTRO-INTESTINAL TRACT QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_special_diet_description' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_special_diet_description">SPECIAL DIET DESCRIPTION</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__gastro-intestinal_tract_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__gastro-intestinal_tract_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (GASTRO-INTESTINAL TRACT QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__gastro-intestinal_tract_question_c_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__gastro-intestinal_tract_question_c_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (GASTRO-INTESTINAL TRACT QUESTION C)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Renal</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Renal</b>
 
   <p>To carry information relating to TPRG-SEND Renal at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__renal_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__renal_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (RENAL QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__renal_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__renal_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (RENAL QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__renal_question_c_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__renal_question_c_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (RENAL QUESTION C)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Neurology</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Neurology</b>
 
   <p>To carry information relating to TPRG-SEND Neurology at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROLOGY QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROLOGY QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_c_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_c_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROLOGY QUESTION C)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurology_question_d_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROLOGY QUESTION D)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Growth</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Growth</b>
 
   <p>To carry information relating to TPRG-SEND Growth at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_weight__at_two_year_neonatal_outcomes_assessment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_weight__at_two_year_neonatal_outcomes_assessment_">PERSON WEIGHT (AT TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_height_in_centimetres__at_two_year_neonatal_outcomes_assessment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>P</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_date__weight_">OBSERVATION DATE (WEIGHT)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_observation_year_and_month__weight_">OBSERVATION YEAR AND MONTH (WEIGHT)</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_head_circumference_in_centimetres__at_two_year_neonatal_outcomes_assessment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_person_height_in_centimetres__at_two_year_neonatal_outcomes_assessment_">PERSON HEIGHT IN CENTIMETRES (AT TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Development</p>
-
-
+          <row>
+            <entry>
+  <p>P</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_observation_date__height_">OBSERVATION DATE (HEIGHT)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_observation_year_and_month__height_">OBSERVATION YEAR AND MONTH (HEIGHT)</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_head_circumference_in_centimetres__at_two_year_neonatal_outcomes_assessment_">HEAD CIRCUMFERENCE IN CENTIMETRES (AT TWO YEAR NEONATAL OUTCOMES ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>P</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_observation_date__head_circumference_">OBSERVATION DATE (HEAD CIRCUMFERENCE)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_observation_year_and_month__head_circumference_">OBSERVATION YEAR AND MONTH (HEAD CIRCUMFERENCE)</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Development</b>
 
   <p>To carry information relating to TPRG-SEND Development at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_additional_question_for_national_neonatal_data_set_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_additional_question_for_national_neonatal_data_set_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (DEVELOPMENT ADDITIONAL QUESTION FOR NATIONAL NEONATAL DATA SET)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (DEVELOPMENT QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (DEVELOPMENT QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_c_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_c_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (DEVELOPMENT QUESTION C)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__development_question_d_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (DEVELOPMENT QUESTION D)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_neurodevelopmental_assessment_already_taken_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_neurodevelopmental_assessment_already_taken_indicator">NEURODEVELOPMENTAL ASSESSMENT ALREADY TAKEN INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_neurodevelopmental_assessment_test_name' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_neurodevelopmental_assessment_test_name">NEURODEVELOPMENTAL ASSESSMENT TEST NAME</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Neurosensory</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Neurosensory</b>
 
   <p>To carry information relating to TPRG-SEND Neurosensory at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROSENSORY QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROSENSORY QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_c_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_c_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROSENSORY QUESTION C)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_d_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROSENSORY QUESTION D)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_e_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_e_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROSENSORY QUESTION E)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_f_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__neurosensory_question_f_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (NEUROSENSORY QUESTION F)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Communication</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Communication</b>
 
   <p>To carry information relating to TPRG-SEND Communication at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (COMMUNICATION QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (COMMUNICATION QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_c_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_c_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (COMMUNICATION QUESTION C)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_d_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_d_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (COMMUNICATION QUESTION D)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_e_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__communication_question_e_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (COMMUNICATION QUESTION E)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Special Questions</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Special Questions</b>
 
   <p>To carry information relating to TPRG-SEND Special Questions at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__special_questions_question_a_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__special_questions_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (SPECIAL QUESTIONS QUESTION A)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tprg-send_two_year_corrected_age_outcome_assessment_score__special_questions_question_b_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__special_questions_question_b_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (SPECIAL QUESTIONS QUESTION B)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_child_difficult_to_test_reason_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_child_difficult_to_test_reason_code">CHILD DIFFICULT TO TEST REASON CODE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year TPRG-SEND - Neurological Diagnosis</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year TPRG-SEND - Neurological Diagnosis</b>
 
   <p>To carry information relating to TPRG-SEND Neurological Diagnosis at the Two Year Neonatal Outcomes Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_diagnosis_indicator__cerebral_palsy_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_patient_diagnosis_indicator__cerebral_palsy_">PATIENT DIAGNOSIS INDICATOR (CEREBRAL PALSY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cerebral_palsy_type_code__national_neonatal_data_set_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cerebral_palsy_type_code__national_neonatal_data_set_">CEREBRAL PALSY TYPE CODE (NATIONAL NEONATAL DATA SET)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diagnosis__icd_neurological_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis__icd_neurological_">DIAGNOSIS (ICD NEUROLOGICAL)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Bayley III Assessment</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Bayley III Assessment</b>
 
   <p>To carry information relating to the Bayley III Assessment.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Bayley III - Cognitive</p>
-
-
+          <row>
+            <entry><p></p></entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_assessment_tool_completion_date">ASSESSMENT TOOL COMPLETION DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_assessment_tool_completion_year_and_month">ASSESSMENT TOOL COMPLETION YEAR AND MONTH</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Bayley III - Cognitive</b>
 
   <p>To carry information relating to the Bayley III Cognitive sub-scale.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_cognitive_total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_cognitive_total_raw_score">BAYLEY III COGNITIVE TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_cognitive_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_bayley_iii_cognitive_scale_score">BAYLEY III COGNITIVE SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_cognitive_developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_cognitive_developmental_age_equivalent_score">BAYLEY III COGNITIVE DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_cognitive_composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_cognitive_composite_score">BAYLEY III COGNITIVE COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Bayley III - Communication</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Bayley III - Communication</b>
 
   <p>To carry information relating to the Bayley III Communication sub-scales.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__receptive_communication__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__receptive_communication__total_raw_score">BAYLEY III COMMUNICATION (RECEPTIVE COMMUNICATION) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__receptive_communication__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__receptive_communication__scale_score">BAYLEY III COMMUNICATION (RECEPTIVE COMMUNICATION) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__receptive_communication__developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__receptive_communication__developmental_age_equivalent_score">BAYLEY III COMMUNICATION (RECEPTIVE COMMUNICATION) DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__receptive_communication__composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__receptive_communication__composite_score">BAYLEY III COMMUNICATION (RECEPTIVE COMMUNICATION) COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__expressive_communication__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__expressive_communication__total_raw_score">BAYLEY III COMMUNICATION (EXPRESSIVE COMMUNICATION) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__expressive_communication__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__expressive_communication__scale_score">BAYLEY III COMMUNICATION (EXPRESSIVE COMMUNICATION) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__expressive_communication__developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__expressive_communication__developmental_age_equivalent_score">BAYLEY III COMMUNICATION (EXPRESSIVE COMMUNICATION) DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication__expressive_communication__composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication__expressive_communication__composite_score">BAYLEY III COMMUNICATION (EXPRESSIVE COMMUNICATION) COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication_sum_total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication_sum_total_raw_score">BAYLEY III COMMUNICATION SUM TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication_sum_total_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication_sum_total_scale_score">BAYLEY III COMMUNICATION SUM TOTAL SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication_sum_total_developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication_sum_total_developmental_age_equivalent_score">BAYLEY III COMMUNICATION SUM TOTAL DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_communication_sum_total_composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_communication_sum_total_composite_score">BAYLEY III COMMUNICATION SUM TOTAL COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Bayley III - Neuromotor</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Bayley III - Neuromotor</b>
 
   <p>To carry information relating to the Bayley III Neuromotor sub-scales.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__fine_motor__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__fine_motor__total_raw_score">BAYLEY III NEUROMOTOR (FINE MOTOR) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__fine_motor__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__fine_motor__scale_score">BAYLEY III NEUROMOTOR (FINE MOTOR) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__fine_motor__developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__fine_motor__developmental_age_equivalent_score">BAYLEY III NEUROMOTOR (FINE MOTOR) DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__fine_motor__composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__fine_motor__composite_score">BAYLEY III NEUROMOTOR (FINE MOTOR) COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__gross_motor__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__gross_motor__total_raw_score">BAYLEY III NEUROMOTOR (GROSS MOTOR) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__gross_motor__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__gross_motor__scale_score">BAYLEY III NEUROMOTOR (GROSS MOTOR) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__gross_motor__developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__gross_motor__developmental_age_equivalent_score">BAYLEY III NEUROMOTOR (GROSS MOTOR) DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor__gross_motor__composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor__gross_motor__composite_score">BAYLEY III NEUROMOTOR (GROSS MOTOR) COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor_sum_total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor_sum_total_raw_score">BAYLEY III NEUROMOTOR SUM TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor_sum_total_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor_sum_total_scale_score">BAYLEY III NEUROMOTOR SUM TOTAL SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor_sum_total_developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor_sum_total_developmental_age_equivalent_score">BAYLEY III NEUROMOTOR SUM TOTAL DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_neuromotor_sum_total_composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_neuromotor_sum_total_composite_score">BAYLEY III NEUROMOTOR SUM TOTAL COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Bayley III - Social-Emotional</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Bayley III - Social-Emotional</b>
 
   <p>To carry information relating to the Bayley III Social-Emotional sub-scale.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_social-emotional_total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_social-emotional_total_raw_score">BAYLEY III SOCIAL-EMOTIONAL TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_social-emotional_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_social-emotional_scale_score">BAYLEY III SOCIAL-EMOTIONAL SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_social-emotional_developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_social-emotional_developmental_age_equivalent_score">BAYLEY III SOCIAL-EMOTIONAL DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_social-emotional_composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_social-emotional_composite_score">BAYLEY III SOCIAL-EMOTIONAL COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Bayley III - Adaptive Behaviour</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Bayley III - Adaptive Behaviour</b>
 
   <p>To carry information relating to the Bayley III Adaptive Behaviour sub-scales.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__communication__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__communication__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (COMMUNICATION) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__communication__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__communication__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (COMMUNICATION) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__community_use__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__community_use__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (COMMUNITY USE) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__community_use__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__community_use__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (COMMUNITY USE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__functional_pre-academics__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__functional_pre-academics__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (FUNCTIONAL PRE-ACADEMICS) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__functional_pre-academics__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__functional_pre-academics__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (FUNCTIONAL PRE-ACADEMICS) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__home_living__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__home_living__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (HOME LIVING) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__home_living__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__home_living__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (HOME LIVING) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__health_and_safety__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__health_and_safety__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (HEALTH AND SAFETY) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__health_and_safety__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__health_and_safety__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (HEALTH AND SAFETY) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__leisure__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__leisure__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (LEISURE) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__leisure__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__leisure__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (LEISURE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__self-care__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__self-care__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (SELF-CARE) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__self-care__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__self-care__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (SELF-CARE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__self-direction__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__self-direction__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (SELF-DIRECTION) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__self-direction__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__self-direction__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (SELF-DIRECTION) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__social__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__social__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (SOCIAL) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__social__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__social__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (SOCIAL) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__motor__total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__motor__total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR (MOTOR) TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour__motor__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour__motor__scale_score">BAYLEY III ADAPTIVE BEHAVIOUR (MOTOR) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour_sum_total_raw_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour_sum_total_raw_score">BAYLEY III ADAPTIVE BEHAVIOUR SUM TOTAL RAW SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour_sum_total_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour_sum_total_scale_score">BAYLEY III ADAPTIVE BEHAVIOUR SUM TOTAL SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour_sum_total_developmental_age_equivalent_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour_sum_total_developmental_age_equivalent_score">BAYLEY III ADAPTIVE BEHAVIOUR SUM TOTAL DEVELOPMENTAL AGE EQUIVALENT SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bayley_iii_adaptive_behaviour_sum_total_composite_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bayley_iii_adaptive_behaviour_sum_total_composite_score">BAYLEY III ADAPTIVE BEHAVIOUR SUM TOTAL COMPOSITE SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Griffiths</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Griffiths</b>
 
   <p>To carry information relating to Griffiths Scale of Infant Development.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_griffiths_locomotor_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>P</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_assessment_tool_completion_date">ASSESSMENT TOOL COMPLETION DATE</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_assessment_tool_completion_year_and_month">ASSESSMENT TOOL COMPLETION YEAR AND MONTH</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_griffiths_personal-social_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_griffiths_locomotor_scale_score">GRIFFITHS LOCOMOTOR SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_griffiths_language_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_griffiths_personal-social_scale_score">GRIFFITHS PERSONAL-SOCIAL SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_griffiths_eye_and_hand_co-ordination_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_griffiths_language_scale_score">GRIFFITHS LANGUAGE SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_griffiths_performance_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_griffiths_eye_and_hand_co-ordination_scale_score">GRIFFITHS EYE AND HAND CO-ORDINATION SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_griffiths_practical_reasoning_scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_griffiths_performance_scale_score">GRIFFITHS PERFORMANCE SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col7'>
-
-  <p>Two Year Schedule of Growing</p>
-
-
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_griffiths_practical_reasoning_scale_score">GRIFFITHS PRACTICAL REASONING SCALE SCORE</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>Two Year Schedule of Growing</b>
 
   <p>To carry information relating to Schedule of Growing Skills.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__passive_posture__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>P</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_assessment_tool_completion_date">ASSESSMENT TOOL COMPLETION DATE</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_assessment_tool_completion_year_and_month">ASSESSMENT TOOL COMPLETION YEAR AND MONTH</xref>
+  </p>
+  <p>And</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__active_posture__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__passive_posture__scale_score">SCHEDULE OF GROWING SKILLS (PASSIVE POSTURE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__locomotor__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__active_posture__scale_score">SCHEDULE OF GROWING SKILLS (ACTIVE POSTURE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__manipulative__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__locomotor__scale_score">SCHEDULE OF GROWING SKILLS (LOCOMOTOR) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__visual__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__manipulative__scale_score">SCHEDULE OF GROWING SKILLS (MANIPULATIVE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__hearing_and_language__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__visual__scale_score">SCHEDULE OF GROWING SKILLS (VISUAL) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__speech_and_language__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__hearing_and_language__scale_score">SCHEDULE OF GROWING SKILLS (HEARING AND LANGUAGE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__interactive_social__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__speech_and_language__scale_score">SCHEDULE OF GROWING SKILLS (SPEECH AND LANGUAGE) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry />
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_schedule_of_growing_skills__self-care_social__scale_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__interactive_social__scale_score">SCHEDULE OF GROWING SKILLS (INTERACTIVE SOCIAL) SCALE SCORE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_schedule_of_growing_skills__self-care_social__scale_score">SCHEDULE OF GROWING SKILLS (SELF-CARE SOCIAL) SCALE SCORE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

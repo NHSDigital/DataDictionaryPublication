@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_stage_date__cancer_site_specific_stage_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: STAGE DATE (CANCER SITE SPECIFIC STAGE) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_stage_date__cancer_site_specific_stage_">STAGE DATE (CANCER SITE SPECIFIC STAGE)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute"
+               keyref="attribute_person_property_recorded_date">PERSON PROPERTY RECORDED DATE</xref>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_stage_date__cancer_site_specific_stage_">STAGE DATE (CANCER SITE SPECIFIC STAGE)</xref>
+ is the date a positive site cancer specific stage outcome was provided and is either the:        </p>
+      <ul>
+         <li>
+            <div>
+date the 
+                            <xref outputclass="class" keyref="class_sample">SAMPLE</xref>
+ was taken (if a 
+                            <xref outputclass="class" keyref="class_sample">SAMPLE</xref>
+ was taken) or                </div>
+         </li>
+         <li>
+            <div>
+date of the 
+                            <xref outputclass="businessDefinition"
+                     keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+ (if it was a clinical decision without a 
+                            <xref outputclass="class" keyref="class_sample">SAMPLE</xref>).                </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

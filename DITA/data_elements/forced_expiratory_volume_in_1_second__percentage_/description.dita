@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_forced_expiratory_volume_in_1_second__percentage_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: FORCED EXPIRATORY VOLUME IN 1 SECOND (PERCENTAGE) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_forced_expiratory_volume_in_1_second__percentage_">FORCED EXPIRATORY VOLUME IN 1 SECOND (PERCENTAGE)</xref>
+ is the result of the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+ which measures the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_forced_expiratory_volume_in_1_second__percentage_">Forced Expiratory Volume in 1 second (Percentage)</xref>.        </p>
+      <p>
+For the 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="element"
+                     keyref="element_forced_expiratory_volume_in_1_second__percentage_">FORCED EXPIRATORY VOLUME IN 1 SECOND (PERCENTAGE)</xref>
+               <p> is presented in the range 1 to 200.</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Note: the result for this test is usually less than 100%, but it is possible for it to be above 100% as it is percentage predicted.</p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

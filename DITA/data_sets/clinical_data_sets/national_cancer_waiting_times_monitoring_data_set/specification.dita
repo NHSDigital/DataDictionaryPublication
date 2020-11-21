@@ -6,659 +6,682 @@
     <searchtitle>Data Set: National Cancer Waiting Times Monitoring Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PATIENT AND PATHWAY IDENTIFICATION</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PATIENT AND PATHWAY IDENTIFICATION</b>
 
   <p>To carry Patient and Pathway details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nhs_number_status_indicator_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_patient_pathway_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__patient_pathway_identifier_issuer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__patient_pathway_identifier_issuer_">ORGANISATION IDENTIFIER (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>OUTPATIENT SERVICES</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>OUTPATIENT SERVICES</b>
 
   <p>To carry Outpatient Services details.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_source_of_referral_for_out-patients' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_source_of_referral_for_out-patients">SOURCE OF REFERRAL FOR OUT-PATIENTS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_priority_type_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_priority_type_code">PRIORITY TYPE CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_decision_to_refer_date__cancer_or_breast_symptoms_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_decision_to_refer_date__cancer_or_breast_symptoms_">DECISION TO REFER DATE (CANCER OR BREAST SYMPTOMS)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_referral_to_treatment_period_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_referral_to_treatment_period_start_date">CANCER REFERRAL TO TREATMENT PERIOD START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_two_week_wait_cancer_or_symptomatic_breast_referral_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_two_week_wait_cancer_or_symptomatic_breast_referral_type">TWO WEEK WAIT CANCER OR SYMPTOMATIC BREAST REFERRAL TYPE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_consultant_upgrade_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_consultant_upgrade_date">CONSULTANT UPGRADE DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_provider_consultant_upgrade_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_consultant_upgrade_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CONSULTANT UPGRADE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_date_first_seen' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_date_first_seen">DATE FIRST SEEN</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_provider_first_seen_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_waiting_time_adjustment__first_seen_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_waiting_time_adjustment__first_seen_">WAITING TIME ADJUSTMENT (FIRST SEEN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_waiting_time_adjustment_reason__first_seen_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_waiting_time_adjustment_reason__first_seen_">WAITING TIME ADJUSTMENT REASON (FIRST SEEN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason__first_seen_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason__first_seen_">CANCER CARE SPELL DELAY REASON (FIRST SEEN)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason_comment__first_seen_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason_comment__first_seen_">CANCER CARE SPELL DELAY REASON COMMENT (FIRST SEEN)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_cancer_diagnostic_referral_route">CANCER DIAGNOSTIC REFERRAL ROUTE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_rapid_diagnostic_centre_pathway_compliance_indicator">RAPID DIAGNOSTIC CENTRE PATHWAY COMPLIANCE INDICATOR</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>MULTIDISCIPLINARY TEAM ACTIVITY</p>
-
-
-
-  <p>To carry Multidisciplinary Team Activity details.One occurrence of this group is permitted.</p>
-
-</entry>
-          </row>
-          <row>
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
-</entry>
-          </row>
-        </thead>
-        <tbody>
-          <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_multidisciplinary_team_cancer_care_plan_discussed_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
-            <entry>
-              <xref keyref='element_multidisciplinary_team_discussion_date__cancer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <thead>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PATIENT STATUS AND DIAGNOSIS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PATIENT STATUS AND DIAGNOSIS</b>
 
   <p>To carry Patient Status and Diagnosis details.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_or_symptomatic_breast_referral_patient_status' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_or_symptomatic_breast_referral_patient_status">CANCER OR SYMPTOMATIC BREAST REFERRAL PATIENT STATUS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_diagnosis__icd_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_tumour_laterality' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_tumour_laterality">TUMOUR LATERALITY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_treatment_period_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_treatment_period_start_date">CANCER TREATMENT PERIOD START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_provider_cancer_decision_to_treat_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_cancer_decision_to_treat_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CANCER DECISION TO TREAT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_service_requested_date__inter-provider_transfer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_referral_request_received_date__inter-provider_transfer_">REFERRAL REQUEST RECEIVED DATE (INTER-PROVIDER TRANSFER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_referral_request_received_date__inter-provider_transfer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_prostate_cancer_clinical_risk_category">PROSTATE CANCER CLINICAL RISK CATEGORY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__referring_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_faster_diagnosis_pathway_end_reason">CANCER FASTER DIAGNOSIS PATHWAY END REASON</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__receiving_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_primary_cancer_site__cancer_faster_diagnosis_pathway_">PRIMARY CANCER SITE (CANCER FASTER DIAGNOSIS PATHWAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_transfer_referring_reason__inter-provider_transfer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_faster_diagnosis_pathway_end_date">CANCER FASTER DIAGNOSIS PATHWAY END DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_transfer_receiving_reason__inter-provider_transfer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason__outcome_communication_cancer_faster_diagnosis_pathway_">CANCER CARE SPELL DELAY REASON (OUTCOME COMMUNICATION CANCER FASTER DIAGNOSIS PATHWAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_faster_diagnosis_pathway_end_reason' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason_comment__outcome_communication_cancer_faster_diagnosis_pathway_">CANCER CARE SPELL DELAY REASON COMMENT (OUTCOME COMMUNICATION CANCER FASTER DIAGNOSIS PATHWAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_cancer_site__cancer_faster_diagnosis_pathway_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_faster_diagnosis_pathway_exclusion_reason">CANCER FASTER DIAGNOSIS PATHWAY EXCLUSION REASON</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_faster_diagnosis_pathway_end_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_professional_type__outcome_communication_cancer_faster_diagnosis_pathway_">CARE PROFESSIONAL TYPE (OUTCOME COMMUNICATION CANCER FASTER DIAGNOSIS PATHWAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason__outcome_communication_cancer_faster_diagnosis_pathway_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_method_of_communication__end_of_cancer_faster_diagnosis_pathway_">METHOD OF COMMUNICATION (END OF CANCER FASTER DIAGNOSIS PATHWAY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason_comment__outcome_communication_cancer_faster_diagnosis_pathway_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_cancer_faster_diagnosis_pathway_end_date_">ORGANISATION SITE IDENTIFIER (OF CANCER FASTER DIAGNOSIS PATHWAY END DATE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_faster_diagnosis_pathway_exclusion_reason' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_service_requested_date__inter-provider_transfer_">SERVICE REQUESTED DATE (INTER-PROVIDER TRANSFER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_care_professional_type_code__outcome_communication_cancer_faster_diagnosis_pathway_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__referring_">ORGANISATION IDENTIFIER (REFERRING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_method_of_communication__end_of_cancer_faster_diagnosis_pathway_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__receiving_">ORGANISATION IDENTIFIER (RECEIVING)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_cancer_faster_diagnosis_pathway_end_date_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_transfer_referring_reason__inter-provider_transfer_">CANCER TRANSFER REFERRING REASON (INTER-PROVIDER TRANSFER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_transfer_receiving_reason__inter-provider_transfer_">CANCER TRANSFER RECEIVING REASON (INTER-PROVIDER TRANSFER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>TREATMENT EVENTS</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>TREATMENT EVENTS</b>
 
   <p>To carry Treatment Event details.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_treatment_start_date__cancer_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_site_identifier__of_provider_cancer_treatment_start_date_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_cancer_treatment_start_date_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CANCER TREATMENT START DATE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_treatment_event_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_cancer_treatment_event_type">CANCER TREATMENT EVENT TYPE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_treatment_modality' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_cancer_treatment_modality">CANCER TREATMENT MODALITY</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_trial_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_clinical_trial_indicator">CLINICAL TRIAL INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_setting__treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_cancer_care_setting__treatment_">CANCER CARE SETTING (TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_radiotherapy_priority' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason__decision_to_treatment_">CANCER CARE SPELL DELAY REASON (DECISION TO TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason__decision_to_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason_comment__decision_to_treatment_">CANCER CARE SPELL DELAY REASON COMMENT (DECISION TO TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason_comment__decision_to_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_waiting_time_adjustment__treatment_">WAITING TIME ADJUSTMENT (TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_waiting_time_adjustment__treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_waiting_time_adjustment_reason__treatment_">WAITING TIME ADJUSTMENT REASON (TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_waiting_time_adjustment_reason__treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason__referral_to_treatment_">CANCER CARE SPELL DELAY REASON (REFERRAL TO TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason__referral_to_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason_comment__referral_to_treatment_">CANCER CARE SPELL DELAY REASON COMMENT (REFERRAL TO TREATMENT)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason_comment__referral_to_treatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason__consultant_upgrade_">CANCER CARE SPELL DELAY REASON (CONSULTANT UPGRADE)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason__consultant_upgrade_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
-          </row>
-          <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
+  <p>O</p>
+</entry>
             <entry>
-              <xref keyref='element_cancer_care_spell_delay_reason_comment__consultant_upgrade_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_care_spell_delay_reason_comment__consultant_upgrade_">CANCER CARE SPELL DELAY REASON COMMENT (CONSULTANT UPGRADE)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

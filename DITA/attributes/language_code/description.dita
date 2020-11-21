@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_language_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: LANGUAGE CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The language used by a 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>.        </p>
+      <p>
+         <xref outputclass="attribute" keyref="attribute_language_code">LANGUAGE CODE</xref>
+ is based on the ISO 639-1 two character language codes (see the 
+              <xref href="http://www.loc.gov/standards/iso639-2/php/code_list.php"
+               scope="external"
+               format="html">ISO Registration Authority website</xref>) plus five communication method extensions:        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>q1</p>
+                  </entry>
+                  <entry>
+                     <p>Braille - for people who are unable to see</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>q2</p>
+                  </entry>
+                  <entry>
+                     <p>American Sign Language</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>q3</p>
+                  </entry>
+                  <entry>
+                     <p>Australian Sign Language</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>q4</p>
+                  </entry>
+                  <entry>
+                     <p>British Sign Language</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>q5</p>
+                  </entry>
+                  <entry>
+                     <p>
+Makaton - devised for children and adults with a variety of communication and 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_learning_disability">Learning Disabilities</xref>
+                     </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

@@ -6,560 +6,515 @@
     <searchtitle>Data Set: Neonatal Critical Care Minimum Data Set - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>
-      <b>Introduction</b>
-  </p>
-  <p>
+  <div>
+      <p>
+         <b>Introduction</b>
+      </p>
+      <p>
 The 
-    <xref outputclass="dataSet"
-            keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
- (
-    <xref outputclass="dataSet"
-            keyref="dataset_neonatal_critical_care_minimum_data_set">NCCMDS</xref>
-) provides a record of what happens to a 
-    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
+ (<xref outputclass="dataSet"
+               keyref="dataset_neonatal_critical_care_minimum_data_set">NCCMDS</xref>) provides a record of what happens to a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  when they receive Neonatal Critical Care in a Neonatal Intensive Care Unit, Maternity 
-    <xref outputclass="class" keyref="class_ward">WARD</xref>
-, or Neonatal Transitional Care 
-    <xref outputclass="class" keyref="class_ward">WARD</xref>
-.  </p>
-  <p>
+              <xref outputclass="class" keyref="class_ward">WARD</xref>, or Neonatal Transitional Care 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>.        </p>
+      <p>
 The primary purpose of the 
-    <xref outputclass="dataSet"
-            keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
  is to allow the operation of the 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
-            scope="external"
-            format="html">National_Tariff_Payment_System</xref>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
  within neonatal critical care. The 
-    <xref outputclass="dataSet"
-            keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
  supports the 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
-            scope="external"
-            format="html">National_Tariff_Payment_System</xref>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
  by capturing the data needed to generate a 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
-            scope="external"
-            format="html">Healthcare_Resource_Group</xref>
- (
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
-            scope="external"
-            format="html">HRG</xref>
-) for each calendar day (or part thereof) of a period of neonatal critical care; these 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
-            scope="external"
-            format="html">Healthcare Resource Groups</xref>
- are then used to inform the annual aggregate costing exercise, NHS Reference Costs.  </p>
-  <p>
-      <b>Scope and Uses</b>
-  </p>
-  <p>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">HRG</xref>) for each calendar day (or part thereof) of a period of neonatal critical care; these 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Groups</xref>
+ are then used to inform the annual aggregate costing exercise, NHS Reference Costs.        </p>
+      <p>
+         <b>Scope and Uses</b>
+      </p>
+      <p>
 The scope of the 
-    <xref outputclass="dataSet"
-            keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
- is:  </p>
-  <p>
+              <xref outputclass="dataSet"
+               keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
+ is:        </p>
+      <p>
 a) All 
-      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                  <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  on a 
-      <xref outputclass="class" keyref="class_ward">WARD</xref>
+                  <xref outputclass="class" keyref="class_ward">WARD</xref>
  with a 
-      <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+                  <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
  of National Code 
-      <i>'13 - Neonatal Intensive Care Unit (Neonatal critical care patients predominate)'</i>
-.  </p>
-  <p>
+                  <i>'13 - Neonatal Intensive Care Unit (Neonatal critical care patients predominate)'</i>.          </p>
+      <p>
 b) All 
-      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                  <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  (excluding Mothers) on a 
-      <xref outputclass="class" keyref="class_ward">WARD</xref>
+                  <xref outputclass="class" keyref="class_ward">WARD</xref>
  with a 
-      <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
- of National Code:  </p>
-  <ul>
-      <li>
-         <div>
-            <i>14 - Facility for Babies on a Neonatal Transitional Care Ward</i>
-         </div>
-      </li>
-      <li>
-         <div>
-            <i>15 - Facility for Babies on a Maternity Ward</i>
-         </div>
-      </li>
-  </ul>
-  <p>
+                  <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+ of National Code:          </p>
+      <ul>
+         <li>
+            <div>
+               <i>14 - Facility for Babies on a Neonatal Transitional Care Ward</i>
+            </div>
+         </li>
+         <li>
+            <div>
+               <i>15 - Facility for Babies on a Maternity Ward</i>
+            </div>
+         </li>
+      </ul>
+      <p>
 to whom one or more of the following 
-      <xref outputclass="attribute" keyref="attribute_critical_care_activity_code">CRITICAL CARE ACTIVITY CODES</xref>
- applies for a period greater than 4 hours:  </p>
-  <simpletable outputclass="simpletable table table-striped table-sm">
-      <strow>
-         <stentry>
-            <p>01</p>
-         </stentry>
-         <stentry>
-            <p>Respiratory support via a tracheal tube (Respiratory support via a tracheal tube provided)</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>02</p>
-         </stentry>
-         <stentry>
-            <p>
-Nasal Continuous Positive Airway Pressure (nCPAP) (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving nCPAP for any part of the day)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>04</p>
-         </stentry>
-         <stentry>
-            <p>
-Exchange Transfusion (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- received exchange transfusion)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>05</p>
-         </stentry>
-         <stentry>
-            <p>
-Peritoneal Dialysis (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- received Peritoneal Dialysis)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>06</p>
-         </stentry>
-         <stentry>
-            <p>
-Continuous infusion of inotrope, pulmonary vasodilator or prostaglandin (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- received a continuous infusion of an inotrope, vasodilator (includes pulmonary vasodilators) or prostaglandin)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>07</p>
-         </stentry>
-         <stentry>
-            <p>
-Parenteral Nutrition (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving Parenteral Nutrition (amino acids +/- lipids))        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>08</p>
-         </stentry>
-         <stentry>
-            <p>
-Convulsions (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- having convulsions requiring treatment)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>09</p>
-         </stentry>
-         <stentry>
-            <p>
-Oxygen Therapy (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving additional oxygen)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>10</p>
-         </stentry>
-         <stentry>
-            <p>
-Neonatal abstinence syndrome (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving drug treatment for neonatal abstinence (withdrawal) syndrome)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>11</p>
-         </stentry>
-         <stentry>
-            <p>
-Care of an intra-arterial catheter or chest drain (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving care of an intra-arterial catheter or chest drain)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>12</p>
-         </stentry>
-         <stentry>
-            <p>
-Dilution Exchange Transfusion (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- received Dilution Exchange Transfusion)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>13</p>
-         </stentry>
-         <stentry>
-            <p>
-Tracheostomy cared for by nursing staff (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                  <xref outputclass="attribute" keyref="attribute_critical_care_activity_code">CRITICAL CARE ACTIVITY CODES</xref>
+ applies for a period greater than 4 hours:          </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>01</p>
+                  </entry>
+                  <entry>
+                     <p>Respiratory support via a tracheal tube (Respiratory support via a tracheal tube provided)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>02</p>
+                  </entry>
+                  <entry>
+                     <p>
+Nasal Continuous Positive Airway Pressure (nCPAP) (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving nCPAP for any part of the day)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>04</p>
+                  </entry>
+                  <entry>
+                     <p>
+Exchange Transfusion (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received exchange transfusion)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>05</p>
+                  </entry>
+                  <entry>
+                     <p>
+Peritoneal Dialysis (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received Peritoneal Dialysis)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>06</p>
+                  </entry>
+                  <entry>
+                     <p>
+Continuous infusion of inotrope, pulmonary vasodilator or prostaglandin (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received a continuous infusion of an inotrope, vasodilator (includes pulmonary vasodilators) or prostaglandin)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>07</p>
+                  </entry>
+                  <entry>
+                     <p>
+Parenteral Nutrition (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving Parenteral Nutrition (amino acids +/- lipids))                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>08</p>
+                  </entry>
+                  <entry>
+                     <p>
+Convulsions (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ having convulsions requiring treatment)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>09</p>
+                  </entry>
+                  <entry>
+                     <p>
+Oxygen Therapy (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving additional oxygen)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p>
+Neonatal abstinence syndrome (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving drug treatment for neonatal abstinence (withdrawal) syndrome)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>11</p>
+                  </entry>
+                  <entry>
+                     <p>
+Care of an intra-arterial catheter or chest drain (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving care of an intra-arterial catheter or chest drain)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>12</p>
+                  </entry>
+                  <entry>
+                     <p>
+Dilution Exchange Transfusion (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received Dilution Exchange Transfusion)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>13</p>
+                  </entry>
+                  <entry>
+                     <p>
+Tracheostomy cared for by nursing staff (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
  receiving care of tracheostomy cared for by nursing staff not by an external 
-                  <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
- (e.g. parent))        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>14</p>
-         </stentry>
-         <stentry>
-            <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ (e.g. parent))                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>14</p>
+                  </entry>
+                  <entry>
+                     <p>
 Tracheostomy cared for by external 
-                  <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
- (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
  receiving care of tracheostomy cared for by an external 
-                  <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
  (e.g. parent) not by a 
-                  <xref outputclass="class" keyref="class_nurse">NURSE</xref>
-)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>15</p>
-         </stentry>
-         <stentry>
-            <p>
-Recurrent apnoea (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- has recurrent apnoea needing frequent intervention, i.e. over 5 stimulations in 8 hours, or resuscitation with IPPV two or more times in 24 hours)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>16</p>
-         </stentry>
-         <stentry>
-            <p>
-Haemofiltration (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- received Haemofiltration)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>22</p>
-         </stentry>
-         <stentry>
-            <p>
-Continuous monitoring (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                        <xref outputclass="class" keyref="class_nurse">NURSE</xref>)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>15</p>
+                  </entry>
+                  <entry>
+                     <p>
+Recurrent apnoea (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has recurrent apnoea needing frequent intervention, i.e. over 5 stimulations in 8 hours, or resuscitation with IPPV two or more times in 24 hours)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>16</p>
+                  </entry>
+                  <entry>
+                     <p>
+Haemofiltration (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received Haemofiltration)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>22</p>
+                  </entry>
+                  <entry>
+                     <p>
+Continuous monitoring (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
  requiring continuous monitoring (by mechanical monitoring equipment) of respiration or heart rate, or by transcutaneous transducers or by Saturation Monitors. Note: apnoea alarms and monitors are 
-                  <i>excluded</i>
- as forms of continuous monitoring)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>23</p>
-         </stentry>
-         <stentry>
-            <p>
-Intravenous glucose and electrolyte solutions (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- being given intravenous glucose and electrolyte solutions)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>24</p>
-         </stentry>
-         <stentry>
-            <p>
-Tube-fed (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- being tube-fed)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>25</p>
-         </stentry>
-         <stentry>
-            <p>
-Barrier nursed (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- being barrier nursed)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>26</p>
-         </stentry>
-         <stentry>
-            <p>
-Phototherapy (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving phototherapy)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>27</p>
-         </stentry>
-         <stentry>
-            <p>
-Special monitoring (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving special monitoring of blood glucose or serum bilirubin measurement at a minimum frequency of more than one per calendar day)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>28</p>
-         </stentry>
-         <stentry>
-            <p>
-Observations at regular intervals (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- requiring recorded observations for temperature, heart rate, respiratory rate, blood pressure or scoring for neonatal abstinence syndrome. Recorded observations must be at a minimum frequency of 4 hourly)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>29</p>
-         </stentry>
-         <stentry>
-            <p>
-Intravenous medication (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving intravenous medication)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>80</p>
-         </stentry>
-         <stentry>
-            <p>
-Heated Humidified High Flow Therapy (HHHFT) (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving HHHFT)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>81</p>
-         </stentry>
-         <stentry>
-            <p>Presence of an umbilical venous line</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>82</p>
-         </stentry>
-         <stentry>
-            <p>
-Continuous infusion of insulin (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving a continuous infusion of insulin)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>83</p>
-         </stentry>
-         <stentry>
-            <p>
-Therapeutic hypothermia (
-                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- receiving therapeutic hypothermia)        </p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>84</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has a Replogle tube in situ</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>85</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has an epidural catheter in situ</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>86</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has an abdominal silo</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>87</p>
-         </stentry>
-         <stentry>
-            <p>Administration of intravenous (IV) blood products</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>88</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has a central venous or long line (Peripherally Inserted Central Catheter line) in situ</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>89</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has an indwelling urinary or suprapubic catheter in situ</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>90</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has a trans-anastomotic tube in situ following oesophageal atresia repair</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>91</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has confirmed clinical seizure(s) today and/or continuous cerebral function monitoring (CFM)</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>92</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has a ventricular tap via needle or reservoir today</p>
-         </stentry>
-      </strow>
-      <strow>
-         <stentry>
-            <p>93</p>
-         </stentry>
-         <stentry>
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            <p> has a stoma</p>
-         </stentry>
-      </strow>
-  </simpletable>
-  <p>
+                        <i>excluded</i>
+ as forms of continuous monitoring)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>23</p>
+                  </entry>
+                  <entry>
+                     <p>
+Intravenous glucose and electrolyte solutions (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ being given intravenous glucose and electrolyte solutions)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>24</p>
+                  </entry>
+                  <entry>
+                     <p>
+Tube-fed (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ being tube-fed)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>25</p>
+                  </entry>
+                  <entry>
+                     <p>
+Barrier nursed (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ being barrier nursed)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>26</p>
+                  </entry>
+                  <entry>
+                     <p>
+Phototherapy (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving phototherapy)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>27</p>
+                  </entry>
+                  <entry>
+                     <p>
+Special monitoring (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving special monitoring of blood glucose or serum bilirubin measurement at a minimum frequency of more than one per calendar day)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>28</p>
+                  </entry>
+                  <entry>
+                     <p>
+Observations at regular intervals (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ requiring recorded observations for temperature, heart rate, respiratory rate, blood pressure or scoring for neonatal abstinence syndrome. Recorded observations must be at a minimum frequency of 4 hourly)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>29</p>
+                  </entry>
+                  <entry>
+                     <p>
+Intravenous medication (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving intravenous medication)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>80</p>
+                  </entry>
+                  <entry>
+                     <p>
+Heated Humidified High Flow Therapy (HHHFT) (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  receiving HHHFT)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>81</p>
+                  </entry>
+                  <entry>
+                     <p>Presence of an umbilical venous line</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>82</p>
+                  </entry>
+                  <entry>
+                     <p>
+Continuous infusion of insulin (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  receiving a continuous infusion of insulin)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>83</p>
+                  </entry>
+                  <entry>
+                     <p>
+Therapeutic hypothermia (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  receiving therapeutic hypothermia)                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>84</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has a Replogle tube in situ</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>85</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has an epidural catheter in situ</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>86</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has an abdominal silo</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>87</p>
+                  </entry>
+                  <entry>
+                     <p>Administration of intravenous (IV) blood products</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>88</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has a central venous or long line (Peripherally Inserted Central Catheter line) in situ</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>89</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has an indwelling urinary or suprapubic catheter in situ</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>90</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has a trans-anastomotic tube in situ following oesophageal atresia repair</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>91</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has confirmed clinical seizure(s) today and/or continuous cerebral function monitoring (CFM)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>92</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has a ventricular tap via needle or reservoir today</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>93</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                     <p> has a stoma</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
 This data is captured and recorded locally and may be used for the purposes of direct care, clinical audit, Reference Costs, and other local uses. Any transmission of the 
-    <xref outputclass="dataSet"
-            keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
  must be covered by fair processing arrangements in accordance with information governance criteria and appropriate local arrangements.
-    <b> </b>
-  </p>
-  <p>
-      <b>Commissioning Data Set</b>
-      <b>Transmission</b>
-  </p>
-  <p>
+              <b> </b>
+      </p>
+      <p>
+         <b>Commissioning Data Set</b>
+         <b>Transmission</b>
+      </p>
+      <p>
 Subject to the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/message_documentation/xml_schema_constraints/commissioning_data_set_version_6-2_xml_schema_constraints.asp"
-            scope="external"
-            format="html">Commissioning_Data_Set_Version_6-2_XML_Schema_Constraints</xref>
-, the 
-    <xref outputclass="dataSet"
-            keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
+              <xref outputclass="xmlSchemaConstraint"
+               keyref="xml_schema_constraint_commissioning_data_set_version_6-2_xml_schema_constraints">Commissioning Data Set Version 6-2 XML Schema Constraints</xref>, the 
+              <xref outputclass="dataSet"
+               keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
  is carried into the 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-            scope="external"
-            format="html">Secondary_Uses_Service</xref>
- (
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-            scope="external"
-            format="html">SUS</xref>
-) as a part of the following Commissioning Data Set messages, see 
-    <xref href="https://www.digital.nhs.uk/isce/publication"
-            scope="external"
-            format="html">SCCI0075</xref>
-:  </p>
-  <ul>
-      <li>
-         <div>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">SUS</xref>) as a part of the following Commissioning Data Set messages, see 
+              <xref href="https://www.digital.nhs.uk/isce/publication"
+               scope="external"
+               format="html">SCCI0075</xref>:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
+            </div>
+         </li>
+         <li>
             <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
-         </div>
-      </li>
-      <li>
-         <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
-      </li>
-      <li>
-         <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
-      </li>
-      <li>
-         <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
-         <p> </p>
-      </li>
-  </ul>
-  <p>
+                  keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
+         </li>
+         <li>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
+         </li>
+         <li>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
+            <p> </p>
+         </li>
+      </ul>
+      <p>
 The 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
-            scope="external"
-            format="html">Secondary_Uses_Service</xref>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  groups this data into neonatal critical care 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
-            scope="external"
-            format="html">Healthcare Resource Groups</xref>
-; these are a mandated currency under the 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
-            scope="external"
-            format="html">National_Tariff_Payment_System</xref>
-. Further guidance can be found on the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Groups</xref>; these are a mandated currency under the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>. Further guidance can be found on the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-    <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/scci0075-neonatal-critical-care-minimum-data-set-version-2"
-            scope="external"
-            format="html">SCCI0075</xref>
-.  </p>
-
+              <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/scci0075-neonatal-critical-care-minimum-data-set-version-2"
+               scope="external"
+               format="html">SCCI0075</xref>.        </p>
+  </div>
 </body>
 </topic>

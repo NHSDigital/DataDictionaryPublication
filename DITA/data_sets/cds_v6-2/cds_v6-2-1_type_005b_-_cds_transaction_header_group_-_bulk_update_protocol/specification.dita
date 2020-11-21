@@ -6,286 +6,242 @@
     <searchtitle>Data Set: CDS V6-2-1 Type 005B - CDS Transaction Header Group - Bulk Update Protocol - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
         <thead>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>DATA GROUP: CDS V6-2-1 TYPE 005B - COMMISSIONING DATA SET TRANSACTION HEADER GROUP - BULK UPDATE PROTOCOL</p>
-
-
-
-  <p>To carry the details of the mandatory Commissioning Data Set Submission Protocol controls for when using the Bulk Update mechanism.One per Commissioning Data Set Message submitted to the Secondary Uses Service.Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</p>
-
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+      <b>Data Group:</b>
+ CDS V6-2-1 TYPE 005B - COMMISSIONING DATA SET TRANSACTION HEADER GROUP - BULK UPDATE PROTOCOL    </p>
 </entry>
           </row>
-          <row>
-            <entry>
-
-  <p>Mandation</p>
-
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>M</p>
 </entry>
-            <entry>
-
-  <p>Repeats</p>
-
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>1..1</p>
 </entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col3' nameend='col6'>
+  <p>
+      <b>Function:</b>
+      <b>To carry the details of the mandatory Commissioning Data Set Submission Protocol controls for when using the Bulk Update mechanism.
+ One per Commissioning Data Set Message submitted to the Secondary Uses Service.
+ Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</b>
+  </p>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row>
-            <entry>
-
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='12' align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry morerows='12' align='center'>
   <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
 
 </entry>
-            <entry>
-              <xref keyref='element_cds_type_code' outputclass='element' />
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
             </entry>
-            <entry>
-
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_type_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
   <p>V</p>
-
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_protocol_identifier_code' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_protocol_identifier_code' outputclass='element'></xref>
             </entry>
-            <entry>
-
+            <entry align='center'>
   <p>V</p>
-
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>O</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>0..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_unique_identifier' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_unique_identifier' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS9</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S9</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_bulk_replacement_group_code' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_bulk_replacement_group_code' outputclass='element'></xref>
             </entry>
-            <entry>
-
+            <entry align='center'>
   <p>V</p>
-
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_extract_date' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_extract_date' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS13</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_extract_time' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_extract_time' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS14</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_report_period_start_date' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_report_period_start_date' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS6S13</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S6</p>
+  <p>S13</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_report_period_end_date' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_report_period_end_date' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS6S13</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S6</p>
+  <p>S13</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_activity_date' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_activity_date' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS6S10S11S13</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S6</p>
+  <p>S10</p>
+  <p>S11</p>
+  <p>S13</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_sender_identity' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_sender_identity' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS5</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S5</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..1</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_prime_recipient_identity' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_prime_recipient_identity' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS5S7</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S5</p>
+  <p>S7</p>
 </entry>
           </row>
           <row>
-            <entry>
-
+            <entry align='center'>
   <p>O</p>
-
 </entry>
-            <entry>
-
+            <entry align='center'>
   <p>1..7</p>
-
 </entry>
-            <entry>
-              <xref keyref='element_cds_copy_recipient_identity' outputclass='element' />
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_copy_recipient_identity' outputclass='element'></xref>
             </entry>
-            <entry>
-
-  <p>FS5S7</p>
-
+            <entry align='center'>
+  <p>F</p>
+  <p>S5</p>
+  <p>S7</p>
 </entry>
           </row>
         </tbody>

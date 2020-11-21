@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_glossary_of_terms.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Glossary of Terms - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p/>
+      <p>The Glossary lists commonly used terms in alphabetical order. These terms are not defined and therefore do not have a class or attribute. Each entry in the Glossary is shown with its related class and attribute where appropriate.</p>
+      <p>
+For example 'Booked Admission' is shown as relating to the class 
+              <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>. 
+              <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+ has an attribute 
+              <xref outputclass="attribute" keyref="attribute_elective_admission_type">ELECTIVE ADMISSION TYPE</xref>
+ and reference to the attribute definition will identify that 'Booked Admission' is one of the national code classifications of 
+              <xref outputclass="attribute" keyref="attribute_elective_admission_type">ELECTIVE ADMISSION TYPES</xref>.        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>Class</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Attribute</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+                     <p>
+of the 
+                        <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+   
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_start_date">Start Date</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Annual Census</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+                     <p>
+of the 
+                        <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+   
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_start_date">Start Date</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+                     <p>
+of the 
+                        <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+   
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_discharge_date">Discharge Date</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Booked Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_elective_admission_type">ELECTIVE ADMISSION TYPE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Code of General Practitioner</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute"
+                           keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute"
+                           keyref="attribute_general_dental_practitioner_code">GENERAL DENTAL PRACTITIONER CODE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Consultant Code</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Consultant Name</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_person_name">PERSON NAME</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Day Case Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Diagnostic Services</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_pathology_department">Pathology Department</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_radiology_department">Radiology Department</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Discharge</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+                     <p>
+of the 
+                        <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+   
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_discharge_date">Discharge Date</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Emergency Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>General Practitioner Name</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_person_name">PERSON NAME</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>GMC or GDC Reference Number</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_care_professional_identifier">CARE PROFESSIONAL IDENTIFIER</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Local Patient Identifier</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient_organisation">PATIENT ORGANISATION</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_local_patient_identifier">LOCAL PATIENT IDENTIFIER</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Maternity Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Neonate</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Nurse Identifier</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_care_professional_identifier">CARE PROFESSIONAL IDENTIFIER</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Nurse Name</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_person_name">PERSON NAME</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Ordinary Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Organisation Postcode</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_postcode">POSTCODE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_address_association">ADDRESS ASSOCIATION</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Organisation Address</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_address_association">ADDRESS ASSOCIATION</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_address_association_type">ADDRESS ASSOCIATION TYPE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Patient Name</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_person_name">PERSON NAME</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Patients Usual Address</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_address_association">ADDRESS ASSOCIATION</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_address_association_type">ADDRESS ASSOCIATION TYPE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Planned Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_elective_admission_type">ELECTIVE ADMISSION TYPE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Postcode of Usual Address</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_postcode">POSTCODE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Regular Day Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Sex</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_person_gender">PERSON GENDER</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_person_gender_code">PERSON GENDER CODE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="element" keyref="element_person_gender_code_current">PERSON GENDER CODE CURRENT</xref>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Telephone Number</b>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="1">
+                     <xref outputclass="class" keyref="class_communication_contact_method">COMMUNICATION CONTACT METHOD</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_communication_contact_method">COMMUNICATION CONTACT METHOD</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_communication_contact_string">COMMUNICATION CONTACT STRING</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>TCI (To Come In Date)</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_offered_for_admission_date">OFFERED FOR ADMISSION DATE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Waiting List Admission</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_elective_admission_type">ELECTIVE ADMISSION TYPE</xref>
+                  </entry>
+               </row>
+               <row>
+                  <entry namest="col1" nameend="col2">
+                     <b>Ward Transfer</b>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="1">
+                     <xref outputclass="businessDefinition" keyref="business_definition_ward_stay">Ward Stay</xref>
+                  </entry>
+                  <entry>
+                     <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+                     <p>
+of the 
+                        <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+   
+                        <xref outputclass="businessDefinition" keyref="business_definition_end_date">End Date</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

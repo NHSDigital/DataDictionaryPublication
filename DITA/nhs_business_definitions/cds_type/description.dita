@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_cds_type.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: CDS Type - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ forms part of an 
+              <xref outputclass="class" keyref="class_electronic_health_record_extract">ELECTRONIC HEALTH RECORD EXTRACT</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ is a code to identify the specific type of Commissioning Data Set (CDS).        </p>
+      <p>
+The 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+ are:        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>010</p>
+                  </entry>
+                  <entry>
+                     <p>Accident and Emergency Attendance</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>011</p>
+                  </entry>
+                  <entry>
+                     <p>Emergency Care Attendance</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>020</p>
+                  </entry>
+                  <entry>
+                     <p>
+Outpatient 
+                        <i>(Known in the Schema as Care Activity)</i>
+   May also be used to submit a 
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>021</p>
+                  </entry>
+                  <entry>
+                     <p>
+Future Outpatient 
+                        <i>(Known in the Schema as Future Care Activity)</i>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>030</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List End of Period Census (Standard)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>040</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List End of Period Census (Old)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>050</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List End of Period Census (New)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>060</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List Event During Period (Add)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>070</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List Event During Period (Remove)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>080</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List Event During Period (Offer)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>090</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List Event During Period (Available/Unavailable)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>100</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List Event During Period (Old Service Agreement)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>110</p>
+                  </entry>
+                  <entry>
+                     <p>Elective Admission List Event During Period (New Service Agreement)</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>120</p>
+                  </entry>
+                  <entry>
+                     <p>Finished Birth Episode</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>130</p>
+                  </entry>
+                  <entry>
+                     <p>Finished General Episode</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>140</p>
+                  </entry>
+                  <entry>
+                     <p>Finished Delivery Episode</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>150</p>
+                  </entry>
+                  <entry>
+                     <p>Other Birth</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>160</p>
+                  </entry>
+                  <entry>
+                     <p>Other Delivery</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>170</p>
+                  </entry>
+                  <entry>
+                     <p>Detained and/or Long-Term Psychiatric Census</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>180</p>
+                  </entry>
+                  <entry>
+                     <p>Unfinished Birth Episode</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>190</p>
+                  </entry>
+                  <entry>
+                     <p>Unfinished General Episode</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>200</p>
+                  </entry>
+                  <entry>
+                     <p>Unfinished Delivery Episode</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

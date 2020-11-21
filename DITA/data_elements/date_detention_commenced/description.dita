@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_date_detention_commenced.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DATE DETENTION COMMENCED - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_date_detention_commenced">DATE DETENTION COMMENCED</xref>
+ is the 
+              <xref outputclass="attribute"
+               keyref="attribute_person_property_effective_start_date">PERSON PROPERTY EFFECTIVE START DATE</xref>
+ of the first 
+              <xref outputclass="class"
+               keyref="class_mental_health_act_legal_status_classification">MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION</xref>
+ where the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is detained.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_date_detention_commenced">DATE DETENTION COMMENCED</xref>
+ is the date on which the first order was made in this period of detention, even though the section of the Act under which the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is detained may have changed, the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may have been transferred to another provider or the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was detained under the Act after admission to the current provider. All changes in 
+              <xref outputclass="attribute"
+               keyref="attribute_mental_health_act_legal_status_classification_code">MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION CODE</xref>
+ should be recorded, and the continuous period of detention obtained by comparing the 
+              <xref outputclass="attribute"
+               keyref="attribute_person_property_effective_start_date">PERSON PROPERTY EFFECTIVE START DATES</xref>
+ for the historical Mental Health Act Legal Status records. (Act refers to the 1983 Mental Health Act).        </p>
+      <p>
+Where the detention order is held by a hospital other than that where the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is present at the date of the census, the latter should ensure the information relating to this detention order is obtained from the former hospital. Only the hospital where the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is treated should submit the data.        </p>
+  </div>
+</body>
+</topic>

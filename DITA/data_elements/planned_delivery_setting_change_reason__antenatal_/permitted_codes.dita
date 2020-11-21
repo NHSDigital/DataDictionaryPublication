@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_planned_delivery_setting_change_reason__antenatal_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PLANNED DELIVERY SETTING CHANGE REASON (ANTENATAL) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>
+Change of 
+        <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>Maternal preference</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>Clinical reason maternal</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <p>Clinical reason fetal</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <p>Unit closure</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_service">SERVICE</xref>
+  <p> capacity</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

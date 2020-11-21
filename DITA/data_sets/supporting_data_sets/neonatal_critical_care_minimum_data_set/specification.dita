@@ -6,339 +6,241 @@
     <searchtitle>Data Set: Neonatal Critical Care Minimum Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Person Group (Patient)</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Person Group (Patient)</b>
 
   <p>To carry the personal details of the Patient (the baby).One occurrence of this Group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_birth_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_date__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_date__hospital_provider_spell_">DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_discharge_method_code__hospital_provider_spell_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_discharge_method_code__hospital_provider_spell_">DISCHARGE METHOD CODE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Neonatal Critical Care Group</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Neonatal Critical Care Group</b>
 
   <p>To carry the details of the Neonatal Critical Care Period.One occurrence of this Group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_local_identifier' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_local_identifier">CRITICAL CARE LOCAL IDENTIFIER</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_start_date">CRITICAL CARE START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_start_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_start_time">CRITICAL CARE START TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_discharge_date">CRITICAL CARE DISCHARGE DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_discharge_time' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_discharge_time">CRITICAL CARE DISCHARGE TIME</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_unit_function' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_gestation_length__at_delivery_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_gestation_length__at_delivery_">GESTATION LENGTH (AT DELIVERY)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>Neonatal Critical Care Daily Activity Group</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>Neonatal Critical Care Daily Activity Group</b>
 
   <p>To carry the daily activity data for each day of the Neonatal Critical Care Period.999 occurrences of this Group are permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_activity_date__critical_care_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_activity_date__critical_care_">ACTIVITY DATE (CRITICAL CARE)</xref>
+  </p>
+</entry>
           </row>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_person_weight' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>20 occurrences of Critical Care Activity Codes are permitted within the Neonatal Critical Care Daily Activity Group</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>20 occurrences of Critical Care Activity Codes are permitted within the Neonatal Critical Care Daily Activity Group</b>
 
   <p>20 occurrences of Critical Care Activity Codes are permitted within the Neonatal Critical Care Daily Activity Group. All codes relate to care provided on the ACTIVITY DATE (CRITICAL CARE).</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_critical_care_activity_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_activity_code">CRITICAL CARE ACTIVITY CODE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>20 occurrences of High Cost Drugs OPCS codes are permitted within the Neonatal Critical Care Daily Activity Group</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>20 occurrences of High Cost Drugs OPCS codes are permitted within the Neonatal Critical Care Daily Activity Group</b>
 
   <p>20 occurrences of High Cost Drugs OPCS codes are permitted within the Neonatal Critical Care Daily Activity Group. All codes relate to drugs provided on the ACTIVITY DATE (CRITICAL CARE).</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
             <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_high_cost_drugs__opcs_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>
+      <xref outputclass="element" keyref="element_high_cost_drugs__opcs_">HIGH COST DRUGS (OPCS)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

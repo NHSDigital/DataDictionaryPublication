@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_psychotropic_medication_usage_indication_code.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PSYCHOTROPIC MEDICATION USAGE INDICATION CODE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Prescribed but not taking</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>Prescribed and taking</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Not Prescribed</stentry>
+      </strow>
+      <strow>
+        <stentry>UU</stentry>
+        <stentry>
+  <p>
+Unknown (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ asked and does not know or is not sure)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>ZZ</stentry>
+        <stentry>
+  <p>
+Not Stated (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ asked but declined to provide a response)    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

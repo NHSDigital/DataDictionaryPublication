@@ -6,113 +6,108 @@
     <searchtitle>Data Set: NHS Health Checks Data Set (Retired) - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>
+  <div>
+      <p>
 The 
-    <xref outputclass="dataSet retired"
-            keyref="dataset_nhs_health_checks_data_set">NHS Health Checks Data Set</xref>
- is used to  </p>
-  <ul>
-      <li>
-         <div>
-            <p>
+              <xref outputclass="dataSet retired"
+               keyref="dataset_nhs_health_checks_data_set">NHS Health Checks Data Set</xref>
+ is used to        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
 Support a uniform, quality and safe 
-                <xref outputclass="businessDefinition retired"
-                     keyref="business_definition_nhs_health_check_assessment">NHS Health Check Assessment</xref>
- for all those eligible between the age of 40 and 74 in England.        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>Ensure that everyone who is eligible for the check will receive the same 'face to face' national offer wherever their check is conducted.</p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+                                <xref outputclass="businessDefinition retired"
+                        keyref="business_definition_nhs_health_check_assessment">NHS Health Check Assessment</xref>
+ for all those eligible between the age of 40 and 74 in England.                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>Ensure that everyone who is eligible for the check will receive the same 'face to face' national offer wherever their check is conducted.</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 Help estimate the impact of the 
-                <xref outputclass="businessDefinition retired"
-                     keyref="business_definition_nhs_health_check_programme">NHS Health Check Programme</xref>
+                                <xref outputclass="businessDefinition retired"
+                        keyref="business_definition_nhs_health_check_programme">NHS Health Check Programme</xref>
  on local services and enable commissioners to be more responsive and effective in their commissioning of services to support the 
-                <xref outputclass="businessDefinition retired"
-                     keyref="business_definition_nhs_health_check_programme">NHS Health Check Programme</xref>
-.        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+                                <xref outputclass="businessDefinition retired"
+                        keyref="business_definition_nhs_health_check_programme">NHS Health Check Programme</xref>.                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 Provide a common and understood interface for Primary Care clinical system suppliers to support the process of risk assessment and 
-                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- care.        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ care.                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 Support the reporting of 
-                <xref outputclass="businessDefinition retired"
-                     keyref="business_definition_nhs_health_check_assessment">NHS Health Check Assessment</xref>
- data for performance management and research purposes.        </p>
-         </div>
-      </li>
-  </ul>
-  <p>
-      <b>DATA EXTRACT SPECIFICATION</b>
-  </p>
-  <p>
+                                <xref outputclass="businessDefinition retired"
+                        keyref="business_definition_nhs_health_check_assessment">NHS Health Check Assessment</xref>
+ data for performance management and research purposes.                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <b>DATA EXTRACT SPECIFICATION</b>
+      </p>
+      <p>
 The 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
  require NHS Primary Care System Suppliers to extract data, apply documented derivation rules and then securely transmit to 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
-, where the information will be validated and stored for 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
- analysis.  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>, where the information will be validated and stored for 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+ analysis.        </p>
+      <p>
 The data extract consists of anonymised demographic data and a limited set of clinical observations. The data does not constitute the full 
-    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- record.  </p>
-  <p>
-      <b>Time period:</b>
- The extract covers one calendar quarter.  </p>
-  <p>
-      <b>Frequency:</b>
- Reports are run quarterly, 6 weeks after the end of the quarter.  </p>
-  <p>
-      <b>Format:</b>
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ record.        </p>
+      <p>
+         <b>Time period:</b>
+ The extract covers one calendar quarter.        </p>
+      <p>
+         <b>Frequency:</b>
+ Reports are run quarterly, 6 weeks after the end of the quarter.        </p>
+      <p>
+         <b>Format:</b>
  Data for submission will be formatted into an XML file as per the 
-    <xref outputclass="dataSet retired"
-            keyref="dataset_nhs_health_checks_data_set">NHS Health Checks Data Set</xref>
- Message.  </p>
-  <p>
-      <b>Transmission:</b>
+              <xref outputclass="dataSet retired"
+               keyref="dataset_nhs_health_checks_data_set">NHS Health Checks Data Set</xref>
+ Message.        </p>
+      <p>
+         <b>Transmission:</b>
  Electronic files are transmitted to 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
  via an encrypted web based portal hosted at 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
-. This web portal enables delegated system suppliers to submit data files in a secure manner across the Internet after derivation rules have been applied.  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>. This web portal enables delegated system suppliers to submit data files in a secure manner across the Internet after derivation rules have been applied.        </p>
+      <p>
 Guidance and information on derivation rules, READ format mappings and transmission protocols are available from 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
-.  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>.        </p>
+      <p>
 Further guidance on the 
-    <xref outputclass="dataSet retired"
-            keyref="dataset_nhs_health_checks_data_set">NHS Health Checks Data Set</xref>
+              <xref outputclass="dataSet retired"
+               keyref="dataset_nhs_health_checks_data_set">NHS Health Checks Data Set</xref>
  can be found on the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-    <xref href="https://digital.nhs.uk/nhshealthcheck"
-            scope="external"
-            format="html">NHS Health Check Data Set</xref>
-.  </p>
-
+              <xref href="https://digital.nhs.uk/nhshealthcheck"
+               scope="external"
+               format="html">NHS Health Check Data Set</xref>.        </p>
+  </div>
 </body>
 </topic>

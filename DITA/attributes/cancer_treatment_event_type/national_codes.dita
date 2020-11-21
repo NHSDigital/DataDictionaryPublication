@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_cancer_treatment_event_type.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: CANCER TREATMENT EVENT TYPE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+  <p>
+ for a new 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+  <p>
+Second or subsequent treatment for a new 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+  <p>
+Treatment for a local recurrence of a 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+  <p>
+Treatment for a regional 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrence of Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+  <p>
+Treatment for a distant 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrence of Cancer</xref>
+ (metastatic disease)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+  <p>
+Treatment for multiple 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_recurrence">Recurrence of Cancer</xref>
+ (local and/or regional and/or distant)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>
+  <p>
+First treatment for metastatic disease following an unknown 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>
+  <p>
+Second or subsequent treatment for metastatic disease following an unknown 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>
+  <p>
+Treatment for relapse of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+ (second or subsequent)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>
+  <p>
+Treatment for 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_progression">Cancer Progression</xref>
+ of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+ (second or subsequent)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>
+  <p>
+Treatment for 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_transformation">Cancer Transformation</xref>
+ of 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+ (second or subsequent)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>12</stentry>
+        <stentry>
+  <p>
+First treatment for metastatic disease following a known 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_primary_cancer">Primary Cancer</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

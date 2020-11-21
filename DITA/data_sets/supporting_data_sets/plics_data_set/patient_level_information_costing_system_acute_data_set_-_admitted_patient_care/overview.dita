@@ -6,198 +6,223 @@
     <searchtitle>Data Set: Patient Level Information Costing System Acute Data Set - Admitted Patient Care - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>
-      <b>Contextual Overview</b>
-  </p>
-  <p>
+  <div>
+      <p>
+         <b>Introduction</b>
+      </p>
+      <p>
 The 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/supporting_data_sets/overviews/plics_data_set_overview/patient_level_information_costing_system_acute_data_set_introduction.asp"
-            scope="external"
-            format="html">Patient Level Information Costing System Acute Data Set</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/patient_level_information_costing_system_acute_data_set_introduction.html"
+               scope="external"
+               format="html">Patient Level Information Costing System Acute Data Set</xref>
  is used to standardise the method of reporting cost information at 
-    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  level. All designated NHS 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Providers</xref>
  of acute activity are required to submit 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/patient_level_information_costing.asp"
-            scope="external"
-            format="html">Patient_Level_Information_Costing</xref>
- data.  </p>
-  <p>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>
+ data.        </p>
+      <p>
 The 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/supporting_data_sets/overviews/plics_data_set_overview/patient_level_information_costing_system_acute_data_set_introduction.asp"
-            scope="external"
-            format="html">Patient Level Information Costing System Acute Data Set</xref>
- is used to  </p>
-  <ul>
-      <li>
-         <div>
-            <p>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/patient_level_information_costing_system_acute_data_set_introduction.html"
+               scope="external"
+               format="html">Patient Level Information Costing System Acute Data Set</xref>
+ is used to        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
 inform new methods of pricing NHS 
-                <xref outputclass="class" keyref="class_service">SERVICES</xref>
-;        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+                                <xref outputclass="class" keyref="class_service">SERVICES</xref>;                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 inform new approaches and other changes to the design of the currencies used to price NHS 
-                <xref outputclass="class" keyref="class_service">SERVICES</xref>
-;        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+                                <xref outputclass="class" keyref="class_service">SERVICES</xref>;                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 contribute to 
-                <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_improvement">NHS Improvement</xref>
-'s strategic objective of a 'single national cost collection by 2020' inform the relationship between provider characteristics and cost;        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_nhs_improvement">NHS Improvement</xref>'s strategic objective of a 'single national cost collection by 2020' inform the relationship between provider characteristics and cost;                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 help 
-                <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
- to maximise use of their resources and improve efficiencies, as required by the provider licence;        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
+ to maximise use of their resources and improve efficiencies, as required by the provider licence;                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
 identify the relationship between 
-                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- characteristics and cost;        </p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>support an approach to benchmarking for regulatory purposes.</p>
-         </div>
-      </li>
-  </ul>
-  <p>
-      <b>Data Extract Specification</b>
-  </p>
-  <p>
-      <b>Description</b>
-  </p>
-  <p>
-      <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_improvement">NHS Improvement</xref>
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ characteristics and cost;                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>support an approach to benchmarking for regulatory purposes.</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <b>Data Extract Specification</b>
+      </p>
+      <p>
+         <b>Description</b>
+      </p>
+      <p>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_improvement">NHS Improvement</xref>
  has mandated designated 
-    <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
  and 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>
- to record and report:  </p>
-  <ul>
-      <li>
-         <div>
-            <xref outputclass="dataSet"
-                  keyref="dataset_patient_level_information_costing_system_acute_data_set_-_admitted_patient_care">Patient Level Information Costing System Acute Data Set - Admitted Patient Care</xref>
-         </div>
-      </li>
-      <li>
-         <div>
-            <xref outputclass="dataSet"
-                  keyref="dataset_patient_level_information_costing_system_acute_data_set_-_emergency_care">Patient Level Information Costing System Acute Data Set - Emergency Care</xref>
-         </div>
-      </li>
-      <li>
-         <div>
-            <xref outputclass="dataSet"
-                  keyref="dataset_patient_level_information_costing_system_acute_data_set_-_out-patient_care">Patient Level Information Costing System Acute Data Set - Out-Patient Care</xref>
-         </div>
-      </li>
-      <li>
-         <div>
-            <xref outputclass="dataSet"
-                  keyref="dataset_patient_level_information_costing_system_data_set_-_reconciliation">Patient Level Information Costing System Data Set - Reconciliation</xref>
-         </div>
-      </li>
-      <li>
-         <div>
-            <xref outputclass="dataSet"
-                  keyref="dataset_patient_level_information_costing_system_acute_data_set_-_specialist_ward_care">Patient Level Information Costing System Acute Data Set - Specialist Ward Care</xref>
-         </div>
-      </li>
-      <li>
-         <div>
-            <xref outputclass="dataSet"
-                  keyref="dataset_patient_level_information_costing_system_acute_data_set_-_supplementary_information">Patient Level Information Costing System Acute Data Set - Supplementary Information</xref>
-         </div>
-      </li>
-  </ul>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>
+ to record and report:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="dataSet"
+                     keyref="dataset_patient_level_information_costing_system_acute_data_set_-_admitted_patient_care">Patient Level Information Costing System Acute Data Set - Admitted Patient Care</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="dataSet"
+                     keyref="dataset_patient_level_information_costing_system_acute_data_set_-_emergency_care">Patient Level Information Costing System Acute Data Set - Emergency Care</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="dataSet"
+                     keyref="dataset_patient_level_information_costing_system_acute_data_set_-_out-patient_care">Patient Level Information Costing System Acute Data Set - Out-Patient Care</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="dataSet"
+                     keyref="dataset_patient_level_information_costing_system_data_set_-_reconciliation">Patient Level Information Costing System Data Set - Reconciliation</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="dataSet"
+                     keyref="dataset_patient_level_information_costing_system_acute_data_set_-_specialist_ward_care">Patient Level Information Costing System Acute Data Set - Specialist Ward Care</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="dataSet"
+                     keyref="dataset_patient_level_information_costing_system_acute_data_set_-_supplementary_information">Patient Level Information Costing System Acute Data Set - Supplementary Information</xref>
+            </div>
+         </li>
+      </ul>
+      <p>
 Reporting is required at the end of each financial year, consistent with the methodologies and submission processes in the 
-    <xref href="https://improvement.nhs.uk/resources/approved-costing-guidance/"
-            scope="external"
-            format="html">Approved Costing Guidance</xref>
-. This only includes those NHS 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+              <xref href="https://improvement.nhs.uk/resources/approved-costing-guidance/"
+               scope="external"
+               format="html">Approved Costing Guidance</xref>. This only includes those NHS 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Providers</xref>
  noted in the 
-    <xref href="https://improvement.nhs.uk/resources/costing-mandation-project/"
-            scope="external"
-            format="html">Costing Mandation Timetable</xref>
+              <xref href="https://improvement.nhs.uk/resources/costing-mandation-project/"
+               scope="external"
+               format="html">Costing Mandation Timetable</xref>
  and does not include non-NHS 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Providers</xref>
-.  </p>
-  <p>
-      <b>Time</b>
-  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Providers</xref>.        </p>
+      <p>
+         <b>Time</b>
+      </p>
+      <p>
 The data is collected annually. It must be submitted in accordance with the timetable set out by 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_improvement">NHS Improvement</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_improvement">NHS Improvement</xref>
  in the National Cost Collection Guidance (part of the 
-    <xref href="https://improvement.nhs.uk/resources/approved-costing-guidance/"
-            scope="external"
-            format="html">Approved Costing Guidance</xref>
-).  </p>
-  <p>
-      <b>Format</b>
-  </p>
-  <p>
+              <xref href="https://improvement.nhs.uk/resources/approved-costing-guidance/"
+               scope="external"
+               format="html">Approved Costing Guidance</xref>).        </p>
+      <p>
+         <b>Format</b>
+      </p>
+      <p>
 The data should be submitted in an XML file, created by 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_improvement">NHS Improvement</xref>
-'s Data Validation Tool (DVT). Information on how to access and use this tool is included in the National Cost Collection Guidance (part of the 
-    <xref href="https://improvement.nhs.uk/resources/approved-costing-guidance/"
-            scope="external"
-            format="html">Approved Costing Guidance</xref>
-).  </p>
-  <p>
-      <b>Transmission</b>
-  </p>
-  <p>
-      <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/patient_level_information_costing.asp"
-            scope="external"
-            format="html">Patient_Level_Information_Costing</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_improvement">NHS Improvement</xref>'s Data Validation Tool (DVT). Information on how to access and use this tool is included in the National Cost Collection Guidance (part of the 
+              <xref href="https://improvement.nhs.uk/resources/approved-costing-guidance/"
+               scope="external"
+               format="html">Approved Costing Guidance</xref>).        </p>
+      <p>
+         <b>Transmission</b>
+      </p>
+      <p>
+         <xref outputclass="supportingInformation"
+               keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>
  data will be submitted to 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
  using 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_secure_electronic_file_transfer">Secure Electronic File Transfer</xref>
- (
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_secure_electronic_file_transfer">SEFT</xref>
-). 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_secure_electronic_file_transfer">Secure Electronic File Transfer</xref>
- (
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_secure_electronic_file_transfer">SEFT</xref>
-) can only be accessed by registered and approved users and 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_improvement">NHS Improvement</xref>
- will invite relevant people to register for the service and provide details of the log in process.  </p>
-
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_secure_electronic_file_transfer">Secure Electronic File Transfer</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_secure_electronic_file_transfer">SEFT</xref>). 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_secure_electronic_file_transfer">Secure Electronic File Transfer</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_secure_electronic_file_transfer">SEFT</xref>) can only be accessed by registered and approved users and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_improvement">NHS Improvement</xref>
+ will invite relevant people to register for the service and provide details of the log in process.        </p>
+      <p>
+         <b>Mandation</b>
+      </p>
+      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+      <ul>
+         <li>
+            <div>
+               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+            </div>
+         </li>
+         <li>
+            <p>R = Required: NHS business processes cannot be delivered without this data element.</p>
+         </li>
+      </ul>
+      <p>
+         <b>Data Set Constraints</b>
+      </p>
+      <p>For guidance on the Data Set constraints, see the:</p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="xmlSchemaConstraint"
+                     keyref="xml_schema_constraint_plics_acute_admitted_patient_care_data_set_constraints">PLICS Acute Admitted Patient Care Data Set Constraints</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="xmlSchemaConstraint"
+                     keyref="xml_schema_constraint_plics_acute_out-patient_care_data_set_constraints">PLICS Acute Out-Patient Care Data Set Constraints</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="xmlSchemaConstraint"
+                     keyref="xml_schema_constraint_plics_acute_emergency_care_data_set_constraints">PLICS Acute Emergency Care Data Set Constraints</xref>
+               <p>.</p>
+            </div>
+         </li>
+      </ul>
+  </div>
 </body>
 </topic>

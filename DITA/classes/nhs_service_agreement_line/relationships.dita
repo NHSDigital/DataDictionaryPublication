@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_nhs_service_agreement_line.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: NHS SERVICE AGREEMENT LINE - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each NHS SERVICE AGREEMENT LINE</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>may be sub-division of one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement_line' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>may be agreement for one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement_line' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the agreement for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_service_provided_under_agreement' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

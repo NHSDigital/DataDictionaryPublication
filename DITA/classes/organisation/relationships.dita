@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_organisation.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: ORGANISATION - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each ORGANISATION</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>must be the location for  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or must be contacted via one and only one </stentry>
+        <stentry>
+          <xref keyref='class_communication_contact_method' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or may be vacated by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_leave' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or must be the operator of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_machine' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or may be intending to perform one and only one </stentry>
+        <stentry>
+          <xref keyref='class_planned_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or must be the location for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_session' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or must be subdivided into one and only one </stentry>
+        <stentry>
+          <xref keyref='class_ward' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the requester of one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the issuer of one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be accessed by using one or more </stentry>
+        <stentry>
+          <xref keyref='class_right_of_admission' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the originator of one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_request' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be a supplier of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the destination of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_ambulance_vehicle' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the originator of  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_care_plan' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the employer of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_care_professional_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the contractor of one or more </stentry>
+        <stentry>
+          <xref keyref='class_consultant' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the subject of one or more </stentry>
+        <stentry>
+          <xref keyref='class_date_time' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the treatment location for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_elective_admission_list_entry' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be agreeing to one and only one </stentry>
+        <stentry>
+          <xref keyref='class_employee_plan' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the provider of  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_employee_training_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the lead for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_health_programme' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the creator and updater of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_location' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be responsible for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_lodged_patient' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the commissioner of one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the registered organisation for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_patient_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the issuer of the identifier of one or more </stentry>
+        <stentry>
+          <xref keyref='class_patient_pathway' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the destination for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_patient_transport_journey' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the controller of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_position' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the player of a role within one or more </stentry>
+        <stentry>
+          <xref keyref='class_provider_in_service_agreement' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the qualification awarding body of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_qualification' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the holder of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_register' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the provider of one or more </stentry>
+        <stentry>
+          <xref keyref='class_right_of_admission' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the receiver of a copy of one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the responsible owner organisation of one or more </stentry>
+        <stentry>
+          <xref keyref='class_waiting_list' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

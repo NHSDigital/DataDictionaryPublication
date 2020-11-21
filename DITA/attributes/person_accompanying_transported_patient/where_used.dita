@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_person_accompanying_transported_patient.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: PERSON ACCOMPANYING TRANSPORTED PATIENT - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_patient_transport_journey' outputclass='class'></xref>
+        </stentry>
+        <stentry>has an attribute PERSON ACCOMPANYING TRANSPORTED PATIENT of type PERSON ACCOMPANYING TRANSPORTED PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_person_accompanying_transported_patient' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON ACCOMPANYING TRANSPORTED PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_person_accompanying_transported_patient' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PERSON ACCOMPANYING TRANSPORTED PATIENT</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

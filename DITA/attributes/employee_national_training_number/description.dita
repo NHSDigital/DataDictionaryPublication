@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_employee_national_training_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: EMPLOYEE NATIONAL TRAINING NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A unique identifier issued by a Postgraduate Dean to an 
+              <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>
+ where the 
+              <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>
+ has formally accepted, or commenced, a 
+              <xref outputclass="class" keyref="class_employee_training_activity">EMPLOYEE TRAINING ACTIVITY</xref>
+ as a Specialist Registrar.        </p>
+      <p>This is also known as the Medical and Dental National Training Number, or the NTN/VTN/FTN Number.</p>
+      <ul>
+         <li>
+            <div>
+               <p>NTN = National Training Number</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>VTN = Visiting Training Number (until 31/03/04)</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>FTN = Fixed Term Training Appointment Training Number.</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+The standard format for the 
+              <xref outputclass="attribute"
+               keyref="attribute_employee_national_training_number">EMPLOYEE NATIONAL TRAINING NUMBER</xref>
+ comprises:        </p>
+      <ul>
+         <li>
+            <p> Three characters to identify the particular Deanery (e.g. "WMD")</p>
+         </li>
+         <li>
+            <p>
+ Three digits identifying the 
+                          <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+ applicable to the training programme (e.g. "006")                </p>
+         </li>
+         <li>
+            <p> Three digits to identify the holder of the number (i.e. "324")</p>
+         </li>
+         <li>
+            <p> a single character suffix to specify the Type of the number (i.e. "N" [NTN], "V" [VTN] or "F" [FTN]</p>
+         </li>
+      </ul>
+      <p>
+Note: not all posts have NTN/VTN/FTN status. Only doctors who hold NTN or VTN approved numbers will be able to complete their formal training and be entered onto the Specialist Register, and thus be eligible to gain appointments as a 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>.        </p>
+      <p>The allocation of NTN, VTN and FTN numbers reflects the numbers of training places nationally, and the allocation of those numbers to each Deanery.</p>
+  </div>
+</body>
+</topic>

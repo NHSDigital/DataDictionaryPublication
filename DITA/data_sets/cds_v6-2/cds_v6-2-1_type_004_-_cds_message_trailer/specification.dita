@@ -6,66 +6,73 @@
     <searchtitle>Data Set: CDS V6-2-1 Type 004 - CDS Message Trailer - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
         <thead>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>DATA GROUP: CDS V6-2-1 TYPE 004 - COMMISSIONING DATA SET MESSAGE TRAILER</p>
-
-
-
-  <p>To carry the details of the mandatory identity controls for each Commissioning Data Set Message.One per Commissioning Data Set Message submitted to the Secondary Uses Service.Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</p>
-
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+      <b>Data Group:</b>
+ CDS V6-2-1 TYPE 004 - COMMISSIONING DATA SET MESSAGE TRAILER    </p>
 </entry>
           </row>
-          <row>
-            <entry>
-
-  <p>Mandation</p>
-
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>M</p>
 </entry>
-            <entry>
-
-  <p>Repeats</p>
-
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>1..1</p>
 </entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col3' nameend='col6'>
+  <p>
+      <b>Function:</b>
+      <b>To carry the details of the mandatory identity controls for each Commissioning Data Set Message.
+ One per Commissioning Data Set Message submitted to the Secondary Uses Service</b>
+      <b>.
+ Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</b>
+  </p>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row>
-            <entry>
-
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='1' align='center'>
   <p>M</p>
-
 </entry>
-            <entry>
-
+            <entry morerows='1' align='center'>
   <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
 
 </entry>
-            <entry>
-              <xref keyref='element_cds_message_reference' outputclass='element' />
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
             </entry>
-            <entry>
-
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_message_reference' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
   <p>F</p>
-
 </entry>
           </row>
         </tbody>

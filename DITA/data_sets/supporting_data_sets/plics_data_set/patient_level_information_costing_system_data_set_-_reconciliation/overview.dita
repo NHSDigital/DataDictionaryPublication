@@ -6,8 +6,32 @@
     <searchtitle>Data Set: Patient Level Information Costing System Data Set - Reconciliation - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>Awaiting Info from PLICS</p>
-
+  <div>
+      <p>
+         <b>Introduction</b>
+      </p>
+      <p>Awaiting Info from PLICS</p>
+      <p>
+         <b>Mandation</b>
+      </p>
+      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+      <ul>
+         <li>
+            <div>
+               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+            </div>
+         </li>
+         <li>
+            <p>R = Required: NHS business processes cannot be delivered without this data element</p>
+         </li>
+      </ul>
+      <p>
+         <b>Data Set Constraints</b>
+      </p>
+      <p>
+For guidance on the Data Set constraints, see the 
+              <xref outputclass="xmlSchemaConstraint"
+               keyref="xml_schema_constraint_plics_reconciliation_data_set_constraints">PLICS Reconciliation Data Set Constraints</xref>.        </p>
+  </div>
 </body>
 </topic>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_pack.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: PACK - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each PACK</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>may be a subdivision of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_pack' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be subdivided into one and only one </stentry>
+        <stentry>
+          <xref keyref='class_pack' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be a stock control unit for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_proprietary_product_in_pack' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

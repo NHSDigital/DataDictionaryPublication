@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_intended_clinical_care_intensity_code__mental_health_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: INTENDED CLINICAL CARE INTENSITY CODE (MENTAL HEALTH) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_intended_clinical_care_intensity_code__mental_health_">INTENDED CLINICAL CARE INTENSITY CODE (MENTAL HEALTH)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_clinical_care_intensity">CLINICAL CARE INTENSITY</xref>
+ for the 
+              <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>.        </p>
+      <p>Notes:</p>
+      <ul>
+         <li>
+            <div>
+               <p>National Code descriptions have been updated to remove National Code headings and add prefixes. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.</p>
+            </div>
+         </li>
+      </ul>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>51</p>
+                  </entry>
+                  <entry>
+                     <p>
+Mental Illness intensive care: specially designated ward for 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ needing containment and more intensive management (e.g. Psychiatric Intensive Care Unit (PICU)). This is not to be confused with intensive nursing where 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ may require one to one nursing while on a standard 
+                        <xref outputclass="class" keyref="class_ward">WARD</xref>
+                    </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>52</p>
+                  </entry>
+                  <entry>
+                     <p>
+Mental Illness short stay: 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ intended to stay less than a year                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>53</p>
+                  </entry>
+                  <entry>
+                     <p>
+Mental Illness long stay: 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ intended to stay a year or more                  </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>61</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_learning_disability">Learning Disability</xref>
+                     <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                     <p> in a designated or interim secure unit</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>62</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_learning_disability">Learning Disability</xref>
+                     <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                     <p>intending to stay less than a year</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>63</p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_learning_disability">Learning Disability</xref>
+                     <p>
+  
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+  intending to stay a year or more                  </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

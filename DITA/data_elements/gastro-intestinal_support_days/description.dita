@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_gastro-intestinal_support_days.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: GASTRO-INTESTINAL SUPPORT DAYS - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The total number of days that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received gastro-intestinal system support during a 
+              <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>, ranging from 000 to 997 days.        </p>
+      <p>
+This is derived from the difference between the 
+              <xref outputclass="attribute"
+               keyref="attribute_activity_property_effective_date">ACTIVITY PROPERTY EFFECTIVE DATE</xref>
+ and the 
+              <xref outputclass="attribute" keyref="attribute_activity_property_end_date">ACTIVITY PROPERTY END DATE</xref>
+ for all 
+              <xref outputclass="class" keyref="class_activity_property">ACTIVITY PROPERTIES</xref>
+ where the 
+              <xref outputclass="attribute" keyref="attribute_organ_system_supported">ORGAN SYSTEM SUPPORTED</xref>
+ is National Code 07 '<i>Gastrointestinal Support'</i>
+ within the 
+              <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>.        </p>
+  </div>
+</body>
+</topic>

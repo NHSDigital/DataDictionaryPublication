@@ -1,0 +1,2117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_organisation_site_coding_frames.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Organisation Site Coding Frames - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+For further information, see the attribute 
+            <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>.        </p>
+      <p>ORGANISATION SITE CODING FRAMES</p>
+      <ul>
+         <li>
+            <p>
+All NHS 
+                        <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITES</xref>
+ are coded using coding frames, as shown in the tables below:                </p>
+         </li>
+      </ul>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="10">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <colspec colname="col7" colwidth="1*"/>
+            <colspec colname="col8" colwidth="1*"/>
+            <colspec colname="col9" colwidth="1*"/>
+            <colspec colname="col10" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>
+                        <b>Character Position</b>
+                     </p>
+                  </entry>
+                  <entry scope="col">
+                     <p>1</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>2</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>3</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>4</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>5</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>6</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>7</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>8</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>9</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>Format</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>a/n</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>A Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col4">
+                     <p>Organisation Type Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col5" nameend="col6">
+                     <p>Organisation Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col7" nameend="col8">
+                     <p>Site or Sub-Division Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>B Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Organisation Type Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col3" nameend="col4">
+                     <p>Organisation Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col5" nameend="col6">
+                     <p>Site or Sub-Division Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>C Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <p>Organisation Type Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Organisation Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col5" nameend="col6">
+                     <p>Site or Sub-Division Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>D Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Organisation Type Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col3" nameend="col7">
+                     <p>Practice Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col8" nameend="col10">
+                     <p>Branch Surgery Identifier</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>F Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Organisation Type Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col3" nameend="col6">
+                     <p>Organisation Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>H Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col4">
+                     <p>Organisation Type Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col5" nameend="col6">
+                     <p>Organisation Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>I Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <p>Organisation Type Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col4" nameend="col6">
+                     <p>Organisation Identifier</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>J Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col3">
+                     <p>Organisation Type Identifier</p>
+                  </entry>
+                  <entry namest="col4" nameend="col6">
+                     <p>Organisation Identifier</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>K Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col4">
+                     <p>Organisation and Organisation Type Identifier</p>
+                  </entry>
+                  <entry namest="col5" nameend="col6">
+                     <p>Organisation Site Identifier</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <b>L Frame</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry namest="col2" nameend="col6">
+                     <p>
+Organisation Type Identifier 
+                        <i>and</i>
+ Site or Sub-Division Identifier                  </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>A Frame:</b>
+      </p>
+      <p>
+         <b>Example</b>
+Local Service Provider Site e.g. LSP0101        </p>
+      <ul>
+         <li>
+            <p>LSP = Org Type Identifier</p>
+         </li>
+         <li>
+            <p>01 = Organisation Identifier</p>
+         </li>
+         <li>
+            <p>01 = Site or Sub-Division Identifier</p>
+         </li>
+      </ul>
+      <p>
+         <b>B Frame:</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_care_trust">Care Trust</xref>
+ Site e.g. TAK01        </p>
+      <ul>
+         <li>
+            <p>T = Organisation Type Identifier</p>
+         </li>
+         <li>
+            <p>AK = Organisation Identifier</p>
+         </li>
+         <li>
+            <p>01 = Site or Sub-Division Identifier</p>
+         </li>
+      </ul>
+      <p>Also:</p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Government Department Site</p>
+                  </entry>
+                  <entry>
+                     <p>e.g. XDA01</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_local_authority">Local Authority</xref>
+                     <p> Site</p>
+                  </entry>
+                  <entry>
+                     <p>e.g. 000AA</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_local_health_board__wales_">Local Health Board (Wales)</xref>
+                     <p>Site</p>
+                  </entry>
+                  <entry>
+                     <p>e.g. 7A101 </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+                     <p>Site</p>
+                  </entry>
+                  <entry>
+                     <p>e.g. RH802 </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_other_statutory_authority">Other Statutory Authority</xref>
+                     <p>
+(<xref outputclass="businessDefinition"
+                              keyref="business_definition_other_statutory_authority">OSA</xref>) Site                   </p>
+                  </entry>
+                  <entry>
+                     <p>e.g. X1601 </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>e.g. Q3001</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>C Frame:</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_independent_sector_healthcare_provider">ISHP</xref>) Site e.g. NV701        </p>
+      <ul>
+         <li>
+            <p>NV = Organisation Site Type Identifier</p>
+         </li>
+         <li>
+            <p>7 = Organisation Identifier</p>
+         </li>
+         <li>
+            <p>01 = Site or Sub-Division Identifier</p>
+         </li>
+      </ul>
+      <p>
+         <b>D Frame</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_gp_practice">GP Practice</xref>
+ Branch Surgery: e.g. H81010002        </p>
+      <ul>
+         <li>
+            <p>H (and length of code) = Organisation Identifier</p>
+         </li>
+         <li>
+            <p>81010 = Organisation Identifier (parent GP Practice)</p>
+         </li>
+         <li>
+            <p>002 = Branch Surgery Identifier</p>
+         </li>
+      </ul>
+      <p>
+         <b>F Frame</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_commissioning_support_unit">Commissioning Support Unit</xref>
+ Site: e.g. 0AA01        </p>
+      <ul>
+         <li>
+            <p>0 = Organisation Type Identifier</p>
+         </li>
+         <li>
+            <p>AA01 = Organisation Identifier</p>
+         </li>
+      </ul>
+      <p>
+         <b>H Frame</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition" keyref="business_definition_prison">Prison</xref>: e.g. YDE01        </p>
+      <ul>
+         <li>
+            <p>YDE = Organisation Type Identifier</p>
+         </li>
+         <li>
+            <p>01 = Site or Sub-Division Identifier</p>
+         </li>
+      </ul>
+      <p>
+         <b>I Frame</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_optical_site">Optical Site</xref>: e.g. TP01A        </p>
+      <ul>
+         <li>
+            <p>TP = Organisation Type Identifier</p>
+         </li>
+         <li>
+            <p>01A = Site or Sub-Division Identifier</p>
+         </li>
+      </ul>
+      <p>
+         <b>J Frame</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+ Site: e.g. VN01A        </p>
+      <ul>
+         <li>
+            <p>VN = Organisation Type Identifier</p>
+         </li>
+         <li>
+            <p>01A = Site or Sub-Division Identifier</p>
+         </li>
+      </ul>
+      <p>Also:</p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Health Observatory</p>
+                  </entry>
+                  <entry>
+                     <p>e.g. XP001</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_primary_healthcare_directorate__isle_of_man_">Primary Healthcare Directorate (Isle of Man)</xref>
+                     <p> Site</p>
+                  </entry>
+                  <entry>
+                     <p>e.g. YK101</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <b>K Frame</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_clinical_commissioning_group">CCG</xref>) Site e.g. 11AAA - 99YZZ        </p>
+      <ul>
+         <li>
+            <p>11A = Organisation and Organisation Type Identifier</p>
+         </li>
+         <li>
+            <p>AA = Organisation Site Identifier</p>
+         </li>
+      </ul>
+      <p>
+         <b>L Frame</b>
+      </p>
+      <p>
+         <b>Example</b>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_special_health_authority">Special Health Authority</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_special_health_authority">SpHA</xref>) Site: e.g. T115A        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+T115A - Organisation Type Identifier 
+                              <i>and</i>
+ Site or Sub-Division Identifier                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
+The structure and format of 
+            <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODES</xref>
+ maintained by the 
+            <xref outputclass="supportingInformation"
+               keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>, 
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+ and other agencies are detailed in the tables below.        </p>
+      <p>NHS ORGANISATION SITE CODES TABLES</p>
+      <p>Coding Formats</p>
+      <p>Table 1: CODING FORMATS FOR ORGANISATION SITES IN ENGLAND AND WALES</p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="13">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <colspec colname="col7" colwidth="1*"/>
+            <colspec colname="col8" colwidth="1*"/>
+            <colspec colname="col9" colwidth="1*"/>
+            <colspec colname="col10" colwidth="1*"/>
+            <colspec colname="col11" colwidth="1*"/>
+            <colspec colname="col12" colwidth="1*"/>
+            <colspec colname="col13" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>Organisation Site Type</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Frame Type</p>
+                  </entry>
+                  <entry namest="col3" nameend="col11" scope="col">
+                     <p>Character Position</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Code allocated by:</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Notes/Comments</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref scope="external" format="html" href="#CodingFrames">See Coding Frames Table</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>2</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>3</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>4</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>5</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>6</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>7</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>8</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+ Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>J</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>V</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>L, M or N</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>E.g. VN01A, VM01A, VL01A</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_care_trust">Care Trust</xref>
+ Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>T</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_care_trust">Care Trust</xref>
+                     </p>
+                     <p>E.g. TAK01</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                     <p>
+ (<xref outputclass="businessDefinition"
+                              keyref="business_definition_clinical_commissioning_group">CCG</xref>) Site                    </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>K</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                     </p>
+                     <p>E.g. 11AAA - 99YZZ</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_commissioning_support_unit">Commissioning Support Unit</xref>
+  (<xref outputclass="businessDefinition"
+                              keyref="business_definition_commissioning_support_unit">CSU</xref>) Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>F</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>E.g. 0AA01</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Executive Agency Site</p>
+                     <b> </b>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>N/A</b>
+                     </p>
+                     <p>
+                        <xref scope="external" format="html" href="#ExecAgencies">
+                           <b>See Note</b>
+                        </xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>X</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>First three characters denote Executive Agency</p>
+                     <p>E.g. X0901</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Government Department Site</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>X</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>First three characters denote Government Department</p>
+                     <p>E.g. XDA01</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_gp_practice">GP Practice</xref>
+ Branch Surgery - England and Wales                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>D</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-H, J-N, P, W &amp; Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First 6 characters denote parent practice. Char 1 = W for Welsh 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_gp_practice">GP Practice</xref>.                  </p>
+                     <p>
+All other values represent English 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_gp_practice">GP Practices</xref>
+                     </p>
+                     <p>E.g. H81010002</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Health Observatory</p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>J </b>
+                     </p>
+                  </entry>
+                  <entry>
+                     <p>X</p>
+                  </entry>
+                  <entry>
+                     <p>P</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>E.g. XP001</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_care_trust">Care Trust</xref>
+ Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Q</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>E.g. TAK01</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>
+ (<xref outputclass="businessDefinition"
+                              keyref="business_definition_independent_sector_healthcare_provider">ISHP</xref>) Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>C</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A, B, D, G, I, K, L, M , N, O, S, U, V, W</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y, 0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y, 0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y, 0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>
+  (<xref outputclass="businessDefinition"
+                              keyref="business_definition_independent_sector_healthcare_provider">ISHP</xref>)                  </p>
+                     <p>E.g. NV701</p>
+                     <p>Note: The A-Y range includes all letters except Z</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_local_authority">Local Authority</xref>
+ (<xref outputclass="businessDefinition"
+                              keyref="business_definition_local_authority">LA</xref>) Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Z</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Z</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote parent 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_local_authority">Local Authority</xref>
+                     </p>
+                     <p>E.g. 000AA</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_local_health_board__wales_">Local Health Board (Wales)</xref>
+                     <p>Site</p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>7</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+                     </p>
+                     <p>E.g. 7A101</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Local Service Provider Site</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>A</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>L</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>S</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>P</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>First five characters denote owning Local Service Provider</p>
+                     <p>E.g. LSP0101</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+ Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>R</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+                     </p>
+                     <p>E.g. RH802</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_optical_site">Optical Site</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>I</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>T</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>P or Q</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>E.g. TP01A, TQ01A</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_other_statutory_authority">Other Statutory Authority</xref>
+ (<xref outputclass="businessDefinition"
+                              keyref="business_definition_other_statutory_authority">OSA</xref>) Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>X</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_other_statutory_authority">Other Statutory Authority</xref>
+                     </p>
+                     <p>E.g. X1601 </p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_primary_care_trust">Primary Care Trust</xref>
+ (<xref outputclass="businessDefinition"
+                              keyref="business_definition_primary_care_trust">PCT</xref>) Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>5</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_primary_care_trust">Primary Care Trust</xref>
+                     </p>
+                     <p>E.g. 5CT49</p>
+                     <p>
+                        <b>
+All 
+                              <xref outputclass="businessDefinition"
+                                 keyref="business_definition_primary_care_trust">Primary Care Trusts</xref>
+  closed 31 March 2013                        </b>
+                     </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_special_health_authority">Special Health Authority</xref>
+ (<xref outputclass="businessDefinition"
+                              keyref="business_definition_special_health_authority">SpHA</xref>) Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>L</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>T</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-Y, 1-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+The characters do 
+                        <b>NOT</b>
+ denote any ownership.                  </p>
+                     <p>E.g. T115A</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_strategic_health_authority">Strategic Health Authority</xref>
+ (<xref outputclass="businessDefinition"
+                              keyref="business_definition_strategic_health_authority">SHA</xref>) Site                  </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>B</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Q</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+First three characters denote owning 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_strategic_health_authority">SHA</xref>
+ Trust                  </p>
+                     <p>E.g. Q3001</p>
+                     <p>
+                        <b>
+All 
+                              <xref outputclass="businessDefinition"
+                                 keyref="business_definition_strategic_health_authority">Strategic Health Authorities</xref>
+  closed 31 March 2013 - from 1 April 2013 referred to as High Level Health Geography Site                        </b>
+                     </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <i>Note: Codes for Executive Agency, Executive Agency Programme, Executive Agency Site and Executive Agency Programme Department do not easily fit into the coding frames as shown above and are therefore not included. This is due to their unusual structure in that there are more hierarchical 'tiers' than with other organisations.</i>
+      </p>
+      <p>
+         <i>Executive Agency and Executive Agency Programme are both considered Organisation level entities, although each Programme does have a relationship to an Executive Agency. Executive Agency codes are three characters long. Executive Agency Programme codes are six, and their first three characters are the same as the Executive Agency they are associated to.</i>
+      </p>
+      <p>
+         <i>Department codes of eight characters long can then be allocated underneath a Programme code (sharing the first six characters). Executive Agency Site codes of five characters long can be allocated under an Executive Agency code (and share the first three characters).</i>
+      </p>
+      <i>
+Note: A-9 indicates that characters A-Z and 0-9 are valid: except B, I, O, S, U and Z (to avoid ambiguity). This applies to all 
+            <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODES</xref>
+ in the Coding Format Table above except 
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>
+      </i>
+      <i>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_independent_sector_healthcare_provider">ISHP</xref>) sites.        </i>
+      <p>  </p>
+      <p>Table 2: CODING FORMATS FOR ORGANISATION SITES IN OTHER HOME COUNTRIES</p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="13">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <colspec colname="col7" colwidth="1*"/>
+            <colspec colname="col8" colwidth="1*"/>
+            <colspec colname="col9" colwidth="1*"/>
+            <colspec colname="col10" colwidth="1*"/>
+            <colspec colname="col11" colwidth="1*"/>
+            <colspec colname="col12" colwidth="1*"/>
+            <colspec colname="col13" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry scope="col">
+                     <p>Organisation Site Type</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Frame Type</p>
+                  </entry>
+                  <entry namest="col3" nameend="col11" scope="col">
+                     <p>Character Position</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Code allocated by:</p>
+                  </entry>
+                  <entry scope="col">
+                     <p>Notes/Comments</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref scope="external" format="html" href="#CodingFrames">See Coding Frames Table</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>2</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>3</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>4</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>5</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>6</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>7</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>8</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_primary_healthcare_directorate__isle_of_man_">Primary Healthcare Directorate (Isle of Man)</xref>
+  Site                  </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <b>J</b>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>Y</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>K</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>A-9</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+                        <xref outputclass="supportingInformation"
+                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                     </p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>E.g. YK101</p>
+                     <p> </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>
+         <i>Note: A-9 indicates that characters A-Z and 0-9 are valid: except B, I, O, S, U and Z (to avoid ambiguity).</i>
+      </p>
+  </div>
+</body>
+</topic>

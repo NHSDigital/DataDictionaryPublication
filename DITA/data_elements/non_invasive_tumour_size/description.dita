@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_non_invasive_tumour_size.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: NON INVASIVE TUMOUR SIZE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_non_invasive_tumour_size">NON INVASIVE TUMOUR SIZE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_tumour_size">TUMOUR SIZE</xref>, where the 
+              <xref outputclass="attribute" keyref="attribute_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+ is 
+              <i>'Millimetres (mm)'</i>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_non_invasive_tumour_size">NON INVASIVE TUMOUR SIZE</xref>
+ is the size of the non invasive 
+              <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>.        </p>
+      <p>
+For the 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>, 
+              <xref outputclass="element" keyref="element_non_invasive_tumour_size">NON INVASIVE TUMOUR SIZE</xref>
+ is only required if there is no invasive component.        </p>
+  </div>
+</body>
+</topic>

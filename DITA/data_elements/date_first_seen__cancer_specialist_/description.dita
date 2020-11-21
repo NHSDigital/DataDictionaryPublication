@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_date_first_seen__cancer_specialist_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DATE FIRST SEEN (CANCER SPECIALIST) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_date_first_seen__cancer_specialist_">DATE FIRST SEEN (CANCER SPECIALIST)</xref>
+ is the date that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is first seen by the appropriate specialist for cancer care within a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_care_spell">Cancer Care Spell</xref>.        </p>
+      <p>
+This is the 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>
+ or 
+              <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ who are most able to progress the diagnosis of the primary 
+              <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_date_first_seen__cancer_specialist_">DATE FIRST SEEN (CANCER SPECIALIST)</xref>
+ will be one of the following, whichever is the earlier 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ related to the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_care_spell">Cancer Care Spell</xref>
+ where the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ saw an appropriate specialist for cancer care:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+first 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+ with an appropriate cancer specialist; this is the first attendance of the 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+first diagnostic procedure if this precedes the first 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>; this is the first 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_clinical_intervention_date">Clinical Intervention Date</xref>
+ (i.e. date of the 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_imaging_or_radiodiagnostic_event">Imaging or Radiodiagnostic Event</xref>)                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+first seen as an emergency; this is the 
+                                <xref outputclass="element"
+                        keyref="element_start_date__hospital_provider_spell_">START DATE (HOSPITAL PROVIDER SPELL)</xref>
+ or 
+                                <xref outputclass="element" keyref="element_emergency_care_arrival_date">EMERGENCY CARE ARRIVAL DATE</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+first seen following recall by screening unit; this is the 
+                                <xref outputclass="element" keyref="element_screening_test_date">SCREENING TEST DATE</xref>.                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <xref outputclass="element"
+               keyref="element_date_first_seen__cancer_specialist_">DATE FIRST SEEN (CANCER SPECIALIST)</xref>
+ may be the same as 
+              <xref outputclass="element" keyref="element_date_first_seen">DATE FIRST SEEN</xref>
+ if the initial consultation was with an appropriate cancer specialist in the Trust that receives the first referral.        </p>
+  </div>
+</body>
+</topic>

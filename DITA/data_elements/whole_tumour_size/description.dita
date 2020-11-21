@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_whole_tumour_size.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: WHOLE TUMOUR SIZE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_whole_tumour_size">WHOLE TUMOUR SIZE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_tumour_size">TUMOUR SIZE</xref>, where the 
+              <xref outputclass="attribute" keyref="attribute_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+ is 
+              <i>'Millimetres (mm)'</i>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_whole_tumour_size">WHOLE TUMOUR SIZE</xref>
+ is the whole size of the 
+              <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ and is only required where the 
+              <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ has a 
+              <xref outputclass="element" keyref="element_ductal_carcinoma_in_situ_grade">DUCTAL CARCINOMA IN SITU GRADE</xref>.        </p>
+  </div>
+</body>
+</topic>

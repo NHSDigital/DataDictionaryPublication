@@ -6,404 +6,384 @@
     <searchtitle>Data Set: Cover of Vaccination Evaluated Rapidly (COVER) Data Set - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>SUBMISSION IDENTIFIER</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>SUBMISSION IDENTIFIER</b>
 
   <p>To carry the details of the providing organisation and reporting period.One occurrence of this group is required.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_organisation_identifier__residence_responsibility_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__residence_responsibility_">ORGANISATION IDENTIFIER (RESIDENCE RESPONSIBILITY)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_general_medical_practice_code__patient_registration_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_start_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_reporting_period_end_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>PRIMARY IMMUNISATIONS 12 MONTH COHORT</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PRIMARY IMMUNISATIONS 12 MONTH COHORT</b>
 
   <p>To carry details of completed primary immunisations at 12 months.Multiple occurrences of this group are permitted, one for each Childhood Immunisation Type reported.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_total__cover_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type__cover_">CHILDHOOD IMMUNISATION TYPE (COVER)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type_combined__cover_">CHILDHOOD IMMUNISATION TYPE COMBINED (COVER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_immunised_percentage__cover_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_total__cover_">ELIGIBLE POPULATION TOTAL (COVER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_immunised_percentage__cover_">ELIGIBLE POPULATION IMMUNISED PERCENTAGE (COVER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>PRIMARY IMMUNISATIONS 24 MONTH COHORT</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PRIMARY IMMUNISATIONS 24 MONTH COHORT</b>
 
   <p>To carry details of completed primary immunisations at 24 months.Multiple occurrences of this group are permitted, one for each Childhood Immunisation Type reported.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_total__cover_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type__cover_">CHILDHOOD IMMUNISATION TYPE (COVER)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type_combined__cover_">CHILDHOOD IMMUNISATION TYPE COMBINED (COVER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_immunised_percentage__cover_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_total__cover_">ELIGIBLE POPULATION TOTAL (COVER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_immunised_percentage__cover_">ELIGIBLE POPULATION IMMUNISED PERCENTAGE (COVER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>PRIMARY IMMUNISATIONS and BOOSTERS 5 YEAR COHORT</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PRIMARY IMMUNISATIONS and BOOSTERS 5 YEAR COHORT</b>
 
   <p>To carry details of completed primary immunisations and boosters at 5 years.Multiple occurrences of this group are permitted, one for each Childhood Immunisation Type reported.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_total__cover_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type__cover_">CHILDHOOD IMMUNISATION TYPE (COVER)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type_combined__cover_">CHILDHOOD IMMUNISATION TYPE COMBINED (COVER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_immunised_percentage__cover_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_total__cover_">ELIGIBLE POPULATION TOTAL (COVER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_immunised_percentage__cover_">ELIGIBLE POPULATION IMMUNISED PERCENTAGE (COVER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHERS 12 MONTH COHORT</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHERS 12 MONTH COHORT</b>
 
   <p>To carry details of Neonatal Hepatitis B coverage at 12 months.Multiple occurrences of this group are permitted, one for each Childhood Immunisation Type reported.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_total__cover_hepatitis_b_surface_antigen_positive_mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type__cover_hepatitis_b_surface_antigen_positive_mother_">CHILDHOOD IMMUNISATION TYPE (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type_combined__cover_hepatitis_b_surface_antigen_positive_mother_">CHILDHOOD IMMUNISATION TYPE COMBINED (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_immunised_percentage__cover_hepatitis_b_surface_antigen_positive_mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_total__cover_hepatitis_b_surface_antigen_positive_mother_">ELIGIBLE POPULATION TOTAL (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_immunised_percentage__cover_hepatitis_b_surface_antigen_positive_mother_">ELIGIBLE POPULATION IMMUNISED PERCENTAGE (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHERS 24 MONTH COHORT</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHERS 24 MONTH COHORT</b>
 
   <p>To carry details of Neonatal Hepatitis B coverage at 24 months.Multiple occurrences of this group are permitted, one for each Childhood Immunisation Type reported.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_total__cover_hepatitis_b_surface_antigen_positive_mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type__cover_hepatitis_b_surface_antigen_positive_mother_">CHILDHOOD IMMUNISATION TYPE (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_childhood_immunisation_type_combined__cover_hepatitis_b_surface_antigen_positive_mother_">CHILDHOOD IMMUNISATION TYPE COMBINED (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_eligible_population_immunised_percentage__cover_hepatitis_b_surface_antigen_positive_mother_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_total__cover_hepatitis_b_surface_antigen_positive_mother_">ELIGIBLE POPULATION TOTAL (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_eligible_population_immunised_percentage__cover_hepatitis_b_surface_antigen_positive_mother_">ELIGIBLE POPULATION IMMUNISED PERCENTAGE (COVER HEPATITIS B SURFACE ANTIGEN POSITIVE MOTHER)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

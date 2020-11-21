@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_outcome_at_4_week_follow-up_for_stop_smoking.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: OUTCOME AT 4 WEEK FOLLOW-UP FOR STOP SMOKING - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>
+  <p>
+Successfully quit at 4 week follow-up (self-report). This should be those who report not having smoked for 2 weeks after the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_intended_smoking_quit_date">Intended Smoking Quit Date</xref>.    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>Not quit at 4 week follow-up (self-report)</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>
+  <p>
+Non-smoking status not known/lost to follow-up. This should include all 
+        <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ for whom it has not been possible to successfully follow-up at four weeks (-3 days or +14 days) from the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_intended_smoking_quit_date">Intended Smoking Quit Date</xref>.    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

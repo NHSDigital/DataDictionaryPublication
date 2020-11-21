@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_clinic_attendance_nurse.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Clinic Attendance Nurse - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinic_attendance_nurse">Clinic Attendance Nurse</xref>
+ is a 
+              <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinic_attendance_nurse">Clinic Attendance Nurse</xref>
+ is a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinic_attendance_non-consultant">Clinic Attendance Non-Consultant</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinic_attendance_nurse">Clinic Attendance Nurse</xref>
+ is an attendance at or contact with a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nurse_clinic">Nurse Clinic</xref>.        </p>
+      <p>
+Note: Local arrangements for apportioning attendances or contacts to the relevant 
+              <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
+ may be made instead of recording this for each attendance.        </p>
+  </div>
+</body>
+</topic>

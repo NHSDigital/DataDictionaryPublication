@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_planned_activity.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Class: PLANNED ACTIVITY - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_coded_clinical_entry' outputclass='class'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_contract_monitoring_planned_activity' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_event' outputclass='class'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_intended_patient_procedure' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_planned_activity_date' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_planned_activity_date_time' outputclass='class'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_planned_activity_date_type' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_planned_activity_identifier' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_planned_cancer_treatment' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_service_report' outputclass='class'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

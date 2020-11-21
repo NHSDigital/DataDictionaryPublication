@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_decided_to_admit_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DECIDED TO ADMIT DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_decided_to_admit_date">DECIDED TO ADMIT DATE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_decided_to_admit_date">DECIDED TO ADMIT DATE</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_decided_to_admit_date">DECIDED TO ADMIT DATE</xref>
+ may be the same as the date of admission (e.g. most emergency admissions). Alternatively, a decision can be made to admit at a future date. This decision denotes that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is intended to be admitted to a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_bed">Hospital Bed</xref>, either immediately or subsequently in the future. It records the event that a clinical 
+              <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ has been made by or on behalf of someone, who has the right of admission to a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider">Hospital Provider</xref>.        </p>
+      <p>
+The date will be different from the 
+              <xref outputclass="attribute"
+               keyref="attribute_original_decided_to_admit_date">ORIGINAL DECIDED TO ADMIT DATE</xref>
+ when the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been transferred from another provider's list, or when the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been admitted to hospital, discharged but not treated and is again placed on an 
+              <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ with a new 
+              <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>.        </p>
+  </div>
+</body>
+</topic>

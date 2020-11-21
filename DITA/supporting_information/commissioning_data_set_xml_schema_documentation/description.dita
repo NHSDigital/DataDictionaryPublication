@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='supporting_definition_commissioning_data_set_xml_schema_documentation.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Supporting Information: Commissioning Data Set XML Schema Documentation - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The use of XML was mandated by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
+ (<xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>) programme as the standard to be used for messaging by government organisations and accordingly this has been adopted by the NHS.        </p>
+      <p>
+Note:
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+ and the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
+ 
+              <b>have been archived</b>
+ and are available for reference only.        </p>
+      <p>For the most part, the XML Schema applies the data specifications as authorised by the NHS and documented in the NHS Data Model and Dictionary.</p>
+      <p>
+         <b>The Issued Documentation</b>
+The Data Dictionary and Messaging Team maintain and issue the following XML Schema documentation:        </p>
+      <ul>
+         <li>
+            <b>The XML Schema Files</b>
+            <p>(generated using ALTOVA XMLSPY ©)
+      The XML Schema files consist of a series of interpretable XML/HTML statements which define the data structures and content rules for the use of the message. User systems use the XML Schema to either populate or interpret a 'XML Schema instance' that is the resultant XML formatted message file which carries the data.</p>
+         </li>
+      </ul>
+      <p>The XML Schema therefore represents the 'design' of the message and it may be necessary therefore to interpret and understand the information inherent in the XML Schema file code.</p>
+      <ul>
+         <li>
+            <b>The XML Schema Documentation</b>
+            <p>(generated using ALTOVA XMLSPY ©)
+      These files are generated using XMLSPY software and may be read in any browser, e.g. MS Explorer©. The files consist of a 'root' entry HTML formatted file and a (usually) large number of supporting .png graphic files used by the root HTML.</p>
+         </li>
+      </ul>
+      <p>This documentation enables useful "drill down" functions for investigating structures and data items, but these features are not as powerful as when using a full XML Schema editor (see below).</p>
+      <p>Most browsers will support printing and thus the XML Schema details can be printed as required but users are warned that browser based prints often generate a large number of pages.</p>
+      <p>The CDS XML Schema generates approximately 450+ pages of details, printing is therefore not advised.</p>
+      <ul>
+         <li>
+            <b>The XML Schema Release Notes</b>
+            <p>
+This is a pdf document identifying the changes applied to the XML Schema release.
+      References to 
+                          <xref outputclass="supportingInformation"
+                     keyref="supporting_definition_information_standards_notice">Information Standards Notices</xref>
+ and other technical change requirements are detailed.                </p>
+         </li>
+      </ul>
+      <p>
+         <b>Reading XML Schema</b>
+Whilst XML Schemas can be read as HTML in most browsers, it may be difficult to fully interpret the XML Schema unless the reader has a detailed understanding of HTML.        </p>
+      <p>It is recommended that XML Schemas are read using an XML interpreter (such as ALTOVA XMLSPY ©), many of these are freely available on the internet.</p>
+      <p>XML Schema technicians may prefer to use such software to examine XML Schemas more deeply as the interactive facilities provided are generally more powerful than browsing the XML/HTML supplied Schema code.</p>
+  </div>
+</body>
+</topic>

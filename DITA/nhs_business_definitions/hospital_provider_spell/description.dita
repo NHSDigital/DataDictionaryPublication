@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_hospital_provider_spell.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Hospital Provider Spell - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ is an 
+              <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ is the total continuous stay of a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ using a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ on premises controlled by a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ during which medical care is the responsibility of one or more 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>, or the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is receiving care under one or more 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nursing_episode">Nursing Episodes</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_midwife_episode">Midwife Episodes</xref>
+ in a 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>. During 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nursing_episode">Nursing Episodes</xref>
+ and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_midwife_episode">Midwife Episodes</xref>
+ general medical care is the responsibility of their own 
+              <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>, who is not acting as a 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>. The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ may be as a result of an 
+              <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>.        </p>
+      <p>
+During the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>, the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may be subject to more than one 
+              <xref outputclass="class" keyref="class_administrative_category_period">ADMINISTRATIVE CATEGORY PERIODS</xref>. The 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may be subject to one or more 
+              <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIODS</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ starts when a 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, 
+              <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ or 
+              <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+ assumes responsibility for care following the 
+              <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>. This may be before formal admission procedures have been completed and the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ transferred to a 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>. For example, if a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is brought into hospital as an emergency and dies in the 
+              <xref outputclass="class" keyref="class_operating_theatre">OPERATING THEATRE</xref>
+ before being transferred to a 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>, the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ would have started a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
+      <p>
+In some circumstances a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may take 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_home_leave">Home Leave</xref>, or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_mental_health_leave_of_absence">Mental Health Leave of Absence</xref>
+ for a period of 28 days or less, or have a current period of 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_mental_health_absence_without_leave">Mental Health Absence Without Leave</xref>
+ of 28 days or less, which does not interrupt the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nursing_episode">Nursing Episode</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_midwife_episode">Midwife Episode</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_stay">Hospital Stay</xref>.        </p>
+      <p>
+Each admission as part of a series of regular day/night admissions generates a separate 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>. An admission is the start of the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ and the first 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episodes (Hospital Provider)</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_midwife_episode">Midwife Episode</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nursing_episode">Nursing Episode</xref>
+ within the spell. If the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is on a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_site">Hospital Site</xref>
+ the admission will also start the first 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_stay">Hospital Stay</xref>
+ and, unless the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has to spend time as a 
+              <xref outputclass="class" keyref="class_lodged_patient">LODGED PATIENT</xref>, the admission will also start the first 
+              <xref outputclass="businessDefinition" keyref="business_definition_ward_stay">Ward Stay</xref>
+ within that 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>. If the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is in a 
+              <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+ the admission will start the first 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_care_home_stay__consultant_care_">Care Home Stay (Consultant Care)</xref>
+ within the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>. Any admission of a 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>
+ liable to be detained under the Mental Health Act 1983 cannot be in a 
+              <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+ and must be a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
+      <p>
+A discharge will be the end of the last 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_midwife_episode">Midwife Episode</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nursing_episode">Nursing Episode</xref>, and the end of the last 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_care_home_stay__consultant_care_">Care Home Stay (Consultant Care)</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_stay">Hospital Stay</xref>
+ and 
+              <xref outputclass="businessDefinition" keyref="business_definition_ward_stay">Ward Stay</xref>
+ within that 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
+      <p>
+If there is any time spent as a 
+              <xref outputclass="class" keyref="class_lodged_patient">LODGED PATIENT</xref>
+ before transfer to a 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>
+ this is included in the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ starts with a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ admission and ends with a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ discharge.        </p>
+      <p>
+There may be one or more 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_mental_health_delayed_discharge_period">Mental Health Delayed Discharge Periods</xref>
+ recorded for any 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
+ within the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
+  </div>
+</body>
+</topic>

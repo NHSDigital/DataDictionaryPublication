@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_morphology__snomed_diagnosis_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: MORPHOLOGY (SNOMED DIAGNOSIS) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_clinical_terminology_code">CLINICAL TERMINOLOGY CODE</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
+ is the 
+              <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ using the SNOMED® (Systematised Nomenclature of Medicine) International code or 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+® concept ID for the 
+              <xref outputclass="class" keyref="class_cell">CELL</xref>
+ type of the 
+              <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ recorded.        </p>
+      <p>
+For the 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>, 
+              <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
+ can be recorded as well as or instead of 
+              <xref outputclass="element" keyref="element_morphology__icd-o_diagnosis_">MORPHOLOGY (ICD-O DIAGNOSIS)</xref>
+ as part of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_care_spell">Cancer Care Spell</xref>.        </p>
+  </div>
+</body>
+</topic>

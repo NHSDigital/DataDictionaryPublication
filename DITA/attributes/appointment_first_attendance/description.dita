@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_appointment_first_attendance.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: APPOINTMENT FIRST ATTENDANCE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+This indicates, when an attendance or contact is to take place as an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>, whether it is a first attendance 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or a follow-up attendance 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
+      <p>
+If the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ does not attend the first 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>, another first attendance 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ should be made.        </p>
+      <p>
+An 
+              <xref outputclass="attribute" keyref="attribute_appointment_first_attendance">APPOINTMENT FIRST ATTENDANCE</xref>
+ may be the first in a series such as an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>, or only 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ which took place regardless of how many previous 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ were made which did not take place for whatever reason. All subsequent 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ in the series which take place should be recorded as follow-up.        </p>
+      <p>
+Where one or more 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ is recorded for a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ but none has as yet taken place, the notional 
+              <i>'Appointment first attendance'</i>
+ will be the 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ with the earliest 
+              <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>. This excludes any 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ which have been cancelled as indicated by a recorded 
+              <xref outputclass="attribute" keyref="attribute_appointment_cancelled_date">APPOINTMENT CANCELLED DATE</xref>.        </p>
+      <p>This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained to ensure the modelling is consistent.</p>
+  </div>
+</body>
+</topic>

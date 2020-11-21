@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_procedure_date__primary_joint_replacement_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PROCEDURE DATE (PRIMARY JOINT REPLACEMENT) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_procedure_date__primary_joint_replacement_">PROCEDURE DATE (PRIMARY JOINT REPLACEMENT)</xref>
+ is the same as Data Element 
+              <xref outputclass="element" keyref="element_procedure_date">PROCEDURE DATE</xref>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_procedure_date__primary_joint_replacement_">PROCEDURE DATE (PRIMARY JOINT REPLACEMENT)</xref>
+ is the date of the Primary 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_joint_replacement_surgery">Joint Replacement Surgery</xref>
+ and is recorded for Revision 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_joint_replacement_surgery">Joint Replacement Surgery</xref>
+ items.        </p>
+      <p>If the exact primary operation date is not known:</p>
+      <ul>
+         <li>
+            <div>
+               <p>the year is recorded if available</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>'Not Available' is selected if the date is not known.</p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

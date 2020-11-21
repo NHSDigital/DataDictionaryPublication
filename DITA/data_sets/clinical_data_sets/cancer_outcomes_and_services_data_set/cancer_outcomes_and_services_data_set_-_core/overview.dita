@@ -6,210 +6,233 @@
     <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Core - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>
+  <div>
+      <p>
+         <b>Due to Covid-19, the implementation date of the Cancer Outcomes and Services Data Set (COSDS) version 9 was deferred until 1 July 2020.</b>
+      </p>
+      <p>
+         <b>Introduction</b>
+      </p>
+      <p>
 The 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">Cancer Outcomes and Services Data Set</xref>
- is a compiled data set which provides the standard for secondary uses information required to support national cancer registration and associated analysis (at local, regional, national and international level), as well as other national cancer audit programmes  </p>
-  <p>The standard and XML Schema consists of:</p>
-  <ul>
-      <li>
-         <div>
-            <p>a set of individual data items, with their definitions</p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>the assemblage of data items into discrete data sets</p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>the means of flowing the data items</p>
-         </div>
-      </li>
-      <li>
-         <div>
-            <p>compilation of the data items into a reconciled and verified data set.</p>
-         </div>
-      </li>
-  </ul>
-  <p>Additionally, the output supports commissioning and service development through provision of relevant information on service delivery and outcomes.</p>
-  <p>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>
+ is a compiled data set which provides the standard for secondary uses information required to support national cancer registration and associated analysis (at local, regional, national and international level), as well as other national cancer audit programmes        </p>
+      <p>The standard and XML Schema consists of:</p>
+      <ul>
+         <li>
+            <div>
+               <p>a set of individual data items, with their definitions</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>the assemblage of data items into discrete data sets</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>the means of flowing the data items</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>compilation of the data items into a reconciled and verified data set.</p>
+            </div>
+         </li>
+      </ul>
+      <p>Additionally, the output supports commissioning and service development through provision of relevant information on service delivery and outcomes.</p>
+      <p>
 All 
-    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  diagnosed with or receiving cancer treatment in or funded by the NHS in England are covered by the standard. This includes adult and paediatric cancer 
-    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
-. The standard applies to all 
-    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>. The standard applies to all 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  providing 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_cancer_service">Cancer Services</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_service">Cancer Services</xref>
  within secondary care. It does not apply to general practice 
-    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
-.  </p>
-  <p>
+              <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>.        </p>
+      <p>
 The 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">Cancer Outcomes and Services Data Set</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>
  covers diseases as defined by the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_united_kingdom_and_ireland_association_of_cancer_registries">United Kingdom and Ireland Association of Cancer Registries</xref>
- (
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_united_kingdom_and_ireland_association_of_cancer_registries">UKIACR</xref>
-) as described in the 
-    <xref href="http://www.ncin.org.uk/collecting_and_using_data/data_collection/cancer_outcomes_and_services_dataset_cosd_latest_downloads"
-            scope="external"
-            format="html">User Guide</xref>
- at Appendix A and B.  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_united_kingdom_and_ireland_association_of_cancer_registries">United Kingdom and Ireland Association of Cancer Registries</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_united_kingdom_and_ireland_association_of_cancer_registries">UKIACR</xref>) as described in the 
+              <xref href="http://www.ncin.org.uk/collecting_and_using_data/data_collection/cancer_outcomes_and_services_dataset_cosd_latest_downloads"
+               scope="external"
+               format="html">User Guide</xref>
+ at Appendix A and B.        </p>
+      <p>
 Unless otherwise specified, the term cancer is used throughout the standard and related documents to cover all conditions registerable by the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_united_kingdom_and_ireland_association_of_cancer_registries">United Kingdom and Ireland Association of Cancer Registries</xref>
-.  </p>
-  <p>
-      <b>Submission Information:</b>
-  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_united_kingdom_and_ireland_association_of_cancer_registries">United Kingdom and Ireland Association of Cancer Registries</xref>.        </p>
+      <p>
+         <b>Submission Information</b>
+      </p>
+      <p>
 Providers of 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_cancer_service">Cancer Services</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_service">Cancer Services</xref>
  are required to provide a monthly return on all cancer 
-    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  using the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">Cancer Outcomes and Services Data Set</xref>
-.  </p>
-  <p>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>.        </p>
+      <p>
 The 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">Cancer Outcomes and Services Data Set</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>
  is submitted to the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
- (
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_national_cancer_registration_and_analysis_service">NCRAS</xref>
-) using the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">COSDS</xref>
- XML Schema.  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+ (<xref outputclass="businessDefinition"
+               keyref="business_definition_national_cancer_registration_and_analysis_service">NCRAS</xref>) using the 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">COSDS</xref>
+ XML Schema.        </p>
+      <p>
 While the core and cancer site specific data sets are shown as separate data sets within the NHS Data Model and Dictionary, the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">COSDS</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">COSDS</xref>
  XML Schema integrates each core and cancer site specific set of data elements. Documentation provided on the 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/technology_reference_data_update_distribution_(trud).asp"
-            scope="external"
-            format="html">Technology_Reference_Data_Update_Distribution_(TRUD)</xref>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_technology_reference_data_update_distribution__trud_">Technology Reference Data Update Distribution (TRUD)</xref>
  page at: 
-    <xref href="https://isd.digital.nhs.uk/trud3/user/authenticated/group/101/pack/36"
-            scope="external"
-            format="html">NHS Data Model and Dictionary: DD XML Schemas</xref>
- gives full details of the specification.  </p>
-  <p>
+              <xref href="https://isd.digital.nhs.uk/trud3/user/authenticated/group/101/pack/36"
+               scope="external"
+               format="html">NHS Data Model and Dictionary: DD XML Schemas</xref>
+ gives full details of the specification.        </p>
+      <p>
 For all diagnoses not covered by a cancer site specific data set, only the 
-    <xref outputclass="dataSet"
-            keyref="dataset_cancer_outcomes_and_services_data_set_-_core">Core Data Set</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_cancer_outcomes_and_services_data_set_-_core">Core Data Set</xref>
  should be completed. A full list of diagnoses mapped to the appropriate data set is provided in the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
  
-    <xref href="http://www.ncin.org.uk/collecting_and_using_data/data_collection/cancer_outcomes_and_services_dataset_cosd_latest_downloads"
-            scope="external"
-            format="html">User Guide</xref>
-.  </p>
-  <p>
-      <b>Pathology:</b>
-  </p>
-  <p>
+              <xref href="http://www.ncin.org.uk/collecting_and_using_data/data_collection/cancer_outcomes_and_services_dataset_cosd_latest_downloads"
+               scope="external"
+               format="html">User Guide</xref>.        </p>
+      <p>
+         <b>Pathology</b>
+      </p>
+      <p>
 From January 2016 Pathology 
-    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/laboratory.asp"
-            scope="external"
-            format="html">Laboratories</xref>
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_laboratory">Laboratories</xref>
  across England were mandated through 
-    <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb1521-cancer-outcomes-and-services-data-set"
-            scope="external"
-            format="html">SCCI1521 17/2014</xref>
-, to collect and return structured pathology using the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">COSDS</xref>
- XML Schema.  </p>
-  <p>
+              <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb1521-cancer-outcomes-and-services-data-set"
+               scope="external"
+               format="html">SCCI1521 17/2014</xref>, to collect and return structured pathology using the 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">COSDS</xref>
+ XML Schema.        </p>
+      <p>
 This replaced the current reporting to the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
  of electronic pathology reports which were then transcribed by the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
  into the Cancer Registration Reports. This also prevented 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_cancer_service">Cancer Service</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_service">Cancer Service</xref>
  teams, for example, 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_multidisciplinary_team">Multidisciplinary Teams</xref>
-, Pathway Co-ordinators, duplicating the work, which had been happening as part of their data collection process.  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_multidisciplinary_team">Multidisciplinary Teams</xref>, Pathway Co-ordinators, duplicating the work, which had been happening as part of their data collection process.        </p>
+      <p>
 From April 2020, the pathology data can only be collected and submitted using the separate 
-    <xref outputclass="dataSet"
-            keyref="dataset_cancer_outcomes_and_services_data_set_-_pathology">Pathology Data Set</xref>
+              <xref outputclass="dataSet"
+               keyref="dataset_cancer_outcomes_and_services_data_set_-_pathology">Pathology Data Set</xref>
  and Pathology XML Schema. Pathology data items have been removed from the main 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">Cancer Outcomes and Services Data Set</xref>
-.  </p>
-  <p>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>.        </p>
+      <p>
 This allows the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_cancer_service">Cancer Service</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_service">Cancer Service</xref>
  teams to concentrate on collecting and reporting all the other clinical data required for the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">Cancer Outcomes and Services Data Set</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>
  and the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_pathologist">Pathologists</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_pathologist">Pathologists</xref>
  to collect and report the pathology items. This will reduce the burden of data collection for the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_cancer_service">Cancer Service</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_service">Cancer Service</xref>
  teams and allow for more accurate pathology reporting to be submitted to the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
-.  </p>
-  <p>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>.        </p>
+      <p>
 There will be no requirement for 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_pathology_laboratory">Pathology Laboratories</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_pathology_laboratory">Pathology Laboratories</xref>
  to double report. Once their Laboratory Information Management Systems (LIMS) are updated to report in the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">COSDS</xref>
- XML Schema, all other pathology reporting can cease.  </p>
-  <p>
-      <b>Further Guidance:</b>
-  </p>
-  <p>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">COSDS</xref>
+ XML Schema, all other pathology reporting can cease.        </p>
+      <p>
+         <b>Further Guidance</b>
+      </p>
+      <p>
 Further guidance for submission of the 
-    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
-            scope="external"
-            format="html">Cancer Outcomes and Services Data Set</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
+               scope="external"
+               format="html">Cancer Outcomes and Services Data Set</xref>
  is provided by the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
  at 
-    <xref href="http://www.ncin.org.uk/collecting_and_using_data/data_collection/cosd"
-            scope="external"
-            format="html">Cancer Outcomes and Services Dataset</xref>
-.  </p>
-
+              <xref href="http://www.ncin.org.uk/collecting_and_using_data/data_collection/cosd"
+               scope="external"
+               format="html">Cancer Outcomes and Services Dataset</xref>.        </p>
+      <p>
+         <b>Mandation</b>
+      </p>
+      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+      <ul>
+         <li>
+            <div>
+               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>R = Required: NHS business processes cannot be delivered without this data element</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <b>XML Schema</b>
+      </p>
+      <p>
+For guidance on the XML Schema constraints, see the 
+              <xref outputclass="xmlSchemaConstraint"
+               keyref="xml_schema_constraint_cancer_outcomes_and_services_data_set_xml_schema_constraints">Cancer Outcomes and Services Data Set XML Schema Constraints</xref>.        </p>
+      <p>
+For guidance on downloading the XML Schema, see 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/xml_schema_trud_download.html"
+               scope="external"
+               format="html">XML_Schema_TRUD_Download</xref>.        </p>
+  </div>
 </body>
 </topic>

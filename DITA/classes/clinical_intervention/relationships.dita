@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_clinical_intervention.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: CLINICAL INTERVENTION - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each CLINICAL INTERVENTION</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>may be the reason for administering one or more </stentry>
+        <stentry>
+          <xref keyref='class_anaesthetic_or_analgesic' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the provider of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_clinical_investigation_result_item' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be classified as one and only one </stentry>
+        <stentry>
+          <xref keyref='class_coded_clinical_entry' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the reason for using one and only one </stentry>
+        <stentry>
+          <xref keyref='class_machine' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the user of  one or more </stentry>
+        <stentry>
+          <xref keyref='class_medical_device' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the user of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_sample' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_mother_current_smoker_at_booking_indicator.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: MOTHER CURRENT SMOKER AT BOOKING INDICATOR - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>An indication of whether the mother is a current smoker at booking.</p>
+      <p>
+         <xref outputclass="attribute"
+               keyref="attribute_mother_current_smoker_at_booking_indicator">MOTHER CURRENT SMOKER AT BOOKING INDICATOR</xref>
+ is derived from 
+              <xref outputclass="attribute" keyref="attribute_smoking_status_for_maternity">SMOKING STATUS FOR MATERNITY</xref>.         </p>
+      <p>
+Where 
+              <xref outputclass="attribute" keyref="attribute_smoking_status_for_maternity">SMOKING STATUS FOR MATERNITY</xref>
+ National Code 
+              <i>'Current smoker'</i>
+ is recorded, 
+              <xref outputclass="attribute"
+               keyref="attribute_mother_current_smoker_at_booking_indicator">MOTHER CURRENT SMOKER AT BOOKING INDICATOR</xref>
+ should be derived as National Code 
+              <i>'Current smoker at booking'</i>.  Where any other National Code for 
+              <xref outputclass="attribute" keyref="attribute_smoking_status_for_maternity">SMOKING STATUS FOR MATERNITY</xref>
+ is recorded, 
+              <xref outputclass="attribute"
+               keyref="attribute_mother_current_smoker_at_booking_indicator">MOTHER CURRENT SMOKER AT BOOKING INDICATOR</xref>
+ should be derived as 
+              <i>'Not a current smoker at booking'</i>.        </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_country_code__birth_.default_codes'>
+  <title>Default Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: COUNTRY CODE (BIRTH) - Default Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>XXX</p>
+</stentry>
+        <stentry>
+  <p>
+Unknown: only valid for use in the 
+        <xref outputclass="dataSet"
+            keyref="dataset_female_genital_mutilation_data_set">Female Genital Mutilation Data Set</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>ZZZ</p>
+</stentry>
+        <stentry>
+  <p>
+Not stated (<xref outputclass="class" keyref="class_person">PERSON</xref>
+ asked but declined to provide a response): only valid for use in the 
+        <xref outputclass="dataSet"
+            keyref="dataset_gumcad_sexually_transmitted_infection_surveillance_system_data_set">GUMCAD Sexually Transmitted Infection Surveillance System Data Set</xref>
+ and 
+        <xref outputclass="dataSet"
+            keyref="dataset_female_genital_mutilation_data_set">Female Genital Mutilation Data Set</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

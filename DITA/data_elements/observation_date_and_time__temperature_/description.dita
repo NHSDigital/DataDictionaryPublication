@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_observation_date_and_time__temperature_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: OBSERVATION DATE AND TIME (TEMPERATURE) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_observation_date_and_time__temperature_">OBSERVATION DATE AND TIME (TEMPERATURE)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_activity_time">ACTIVITY TIME</xref>
+ where the 
+              <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_activity_time_type">ACTIVITY TIME TYPE</xref>
+ is National Code 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_observable_entity_date">Observable Entity Date</xref>'</i>
+ and 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_observable_entity_time">Observable Entity Time</xref>'</i>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_observation_date_and_time__temperature_">OBSERVATION DATE AND TIME (TEMPERATURE)</xref>
+ is the date and time when the 
+              <xref outputclass="class" keyref="class_person">PERSON</xref>'s 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_temperature">Temperature</xref>
+ was taken.        </p>
+  </div>
+</body>
+</topic>

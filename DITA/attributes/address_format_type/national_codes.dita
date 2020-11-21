@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_address_format_type.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: ADDRESS FORMAT TYPE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>Post Office Preferred Format</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>
+  <p>Vernacular Format
+</p>
+  <p>
+To be used for 
+        <xref outputclass="class" keyref="class_address">ADDRESSES</xref>
+ that are structured but have not been matched with the Post Office Address File    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>
+  <p>Unstructured Format
+</p>
+  <p>
+To be used in conjunction with 
+        <xref outputclass="class" keyref="class_address_unstructured">ADDRESS UNSTRUCTURED</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

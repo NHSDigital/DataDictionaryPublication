@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_appointment.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: APPOINTMENT - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+An arrangement for a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to be seen by or be in contact with one or more 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>, following an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_appointment_request">Appointment Request</xref>.        </p>
+      <p>
+An 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ becomes an entry on the 
+              <xref outputclass="class" keyref="class_appointment_waiting_list">APPOINTMENT WAITING LIST</xref>
+ when it is decided that an offer of an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ should be made following a 
+              <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ for an out-patient 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ being received. The offer of an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ is made by one or more 
+              <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFERS</xref>.        </p>
+      <p>
+         <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ include:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="businessDefinition"
+                     keyref="business_definition_out-patient_appointment_consultant">Out-Patient Appointment Consultant</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="businessDefinition"
+                     keyref="business_definition_out-patient_appointment_non-consultant">Out-Patient Appointment Non-Consultant</xref>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ are also made for 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_screening_test">Screening Tests</xref>.        </p>
+      <p>
+When a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ accepts an 
+              <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
+ the 
+              <xref outputclass="attribute" keyref="attribute_appointment_date_offered">APPOINTMENT DATE OFFERED</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_appointment_time_offered">APPOINTMENT TIME OFFERED</xref>
+ of the offer become the 
+              <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_appointment_time">APPOINTMENT TIME</xref>
+ of the accepted 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
+      <p>
+Where more than one 
+              <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
+ has been made for an 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ and one has been accepted all the others for the same 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ should be refused.        </p>
+      <p>
+The 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ should be removed from the 
+              <xref outputclass="class" keyref="class_appointment_waiting_list">APPOINTMENT WAITING LIST</xref>
+ when the 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ has taken place.        </p>
+      <p>
+A series of 
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ should relate to the same 
+              <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ which initiated the series within the 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ may be related to a previous 
+              <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ either from within the same or another 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ and be related to subsequent 
+              <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ to the same or another 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_extract_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS EXTRACT DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_cds_extract_date">CDS EXTRACT DATE</xref>
+ is the date (with an associated 
+              <xref outputclass="element" keyref="element_cds_extract_time">CDS EXTRACT TIME</xref>) of the update event (or the nearest equivalent) that resulted in the need to exchange this Commissioning Data Set.        </p>
+      <p>
+         <b>Usage:</b>
+         <xref outputclass="element" keyref="element_cds_extract_date">CDS EXTRACT DATE</xref>
+ is mandatory when used with the Commissioning Data Set Bulk Replacement Update Mechanism. It is not required when the Commissioning Data Set Net Change Update Mechanism is used, see the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="element" keyref="element_cds_extract_date">CDS EXTRACT DATE</xref>
+ (and 
+              <xref outputclass="element" keyref="element_cds_extract_time">CDS EXTRACT TIME</xref>
+ if supplied) is used by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ to detect duplicate Interchanges of a similarly defined Bulk Update submission of Commissioning Data Sets.        </p>
+      <p>
+The 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ processes and stores the date and time information to ensure correct updating of the Commissioning Data Set data in the correct relative date/time sequence.        </p>
+  </div>
+</body>
+</topic>

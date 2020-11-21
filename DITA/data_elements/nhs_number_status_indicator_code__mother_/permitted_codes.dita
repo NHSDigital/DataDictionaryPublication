@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_nhs_number_status_indicator_code__mother_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: NHS NUMBER STATUS INDICATOR CODE (MOTHER) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>Number present and verified</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>Number present but not traced</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>Trace required</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <p>Trace attempted - No match or multiple match found</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <p>
+Trace needs to be resolved - (<xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
+ or 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ detail conflict)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <p>Trace in progress</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <p>Number not present and trace not required</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <p>Trace postponed (baby under six weeks old)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_general_dental_council_registration_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: GENERAL DENTAL COUNCIL REGISTRATION NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+All 
+              <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+ and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_dental_care_professional">Dental Care Professionals</xref>
+ who practise in the United Kingdom must be registered with the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_general_dental_council">General Dental Council</xref>.        </p>
+      <p>
+This includes, all 
+              <xref outputclass="class" keyref="class_general_dental_practitioner">Dentist</xref>
+s, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_dental_nurse">Dental Nurses</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_dental_technician">Dental Technicians</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_dental_hygienist">Dental Hygienists</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_dental_therapist">Dental Therapists</xref>, 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_clinical_dental_technician">Clinical Dental Technicians</xref>
+ and 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_orthodontic_therapist">Orthodontic Therapists</xref>
+      </p>
+      <p>
+The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_general_dental_council_dentists_register">General Dental Council Dentists Register</xref>
+ lists all dentists registered with the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_general_dental_council">General Dental Council</xref>. 
+              <i>
+The 
+                  <xref outputclass="businessDefinition"
+                  keyref="business_definition_general_dental_council">General Dental Council</xref>
+ also maintains the 
+                  <xref outputclass="businessDefinition"
+                  keyref="business_definition_general_dental_council_dental_care_professionals_register">General Dental Council Dental Care Professionals Register</xref>
+ and the 
+                  <xref outputclass="businessDefinition"
+                  keyref="business_definition_general_dental_council_specialist_lists_in_distinctive_branches_of_dentistry">General Dental Council Specialist Lists in Distinctive Branches of Dentistry</xref>.            </i>
+      </p>
+      <p>
+Note: 
+              <xref outputclass="attribute"
+               keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBERS</xref>
+ vary in length. Filling zeros are used between the prefix and 
+              <xref outputclass="attribute"
+               keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>, where required, to maintain total length of eight characters.        </p>
+      <p>
+For 
+              <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+ working as a dental 
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ who do not have a 
+              <xref outputclass="attribute"
+               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>, the 
+              <xref outputclass="attribute"
+               keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
+ should be used to derive the 
+              <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>, prefixed with "CD".        </p>
+      <p>
+For further information, please refer to the 
+              <xref href="https://digital.nhs.uk/organisation-data-service/data-downloads/miscellaneous"
+               scope="external"
+               format="html">Dental Consultants in England (PDF)</xref>
+ guidance document issued by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>.        </p>
+      <p>
+         <xref outputclass="attribute"
+               keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
+ FORMAT        </p>
+      <table outputclass="table table-striped table-bordered table-sm">
+         <tgroup cols="13">
+            <colspec colname="col1" colwidth="1*"/>
+            <colspec colname="col2" colwidth="1*"/>
+            <colspec colname="col3" colwidth="1*"/>
+            <colspec colname="col4" colwidth="1*"/>
+            <colspec colname="col5" colwidth="1*"/>
+            <colspec colname="col6" colwidth="1*"/>
+            <colspec colname="col7" colwidth="1*"/>
+            <colspec colname="col8" colwidth="1*"/>
+            <colspec colname="col9" colwidth="1*"/>
+            <colspec colname="col10" colwidth="1*"/>
+            <colspec colname="col11" colwidth="1*"/>
+            <colspec colname="col12" colwidth="1*"/>
+            <colspec colname="col13" colwidth="1*"/>
+            <tbody>
+               <row>
+                  <entry morerows="1" scope="col">
+                     <p>Practitioner Code Type</p>
+                  </entry>
+                  <entry namest="col2" nameend="col9" scope="col">
+                     <p>Character Position</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Allocated By</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Allocated To</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Known As</p>
+                  </entry>
+                  <entry morerows="1" scope="col">
+                     <p>Notes</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>1</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>2</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>3</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>4</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>5</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>6</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>7</p>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>8</p>
+                     <p> </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <xref outputclass="attribute"
+                           keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p>0-9</p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_general_dental_council">General Dental Council</xref>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+                     <p>, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_dental_nurse">Dental Nurses</xref>, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_dental_technician">Dental Technicians</xref>, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_dental_hygienist">Dental Hygienists</xref>, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_dental_therapist">Dental Therapists</xref>, 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_clinical_dental_technician">Clinical Dental Technicians</xref>,  
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_orthodontic_therapist">Orthodontic Therapists</xref>
+                    </p>
+                  </entry>
+                  <entry>
+                     <xref outputclass="businessDefinition"
+                           keyref="business_definition_general_dental_council">GDC</xref>
+                     <p> </p>
+                  </entry>
+                  <entry>
+                     <p>
+The 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_general_dental_council">General Dental Council</xref>
+ is a 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_regulatory_body">Regulatory Body</xref>
+ - all 
+                        <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+ and 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_dental_care_professional">Dental Care Professionals</xref>
+ who practise in the United Kingdom must be registered with the 
+                        <xref outputclass="businessDefinition"
+                              keyref="business_definition_general_dental_council">General Dental Council</xref>
+                    </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+  </div>
+</body>
+</topic>

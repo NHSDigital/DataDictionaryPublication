@@ -6,861 +6,815 @@
     <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Haematological - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CANCER CARE PLAN CHOICE - HAEMATOLOGICAL</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>CANCER CARE PLAN CHOICE - HAEMATOLOGICAL</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 1 - CHRONIC MYELOID LEUKAEMIA (CML)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - CHRONIC MYELOID LEUKAEMIA (CML)</b>
 
   <p>To carry cancer care plan details specific to Chronic Myeloid Leukaemia (CML) for Haematological cancer.One occurrence of this group is required per Core Cancer Care Plan if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_chronic_myeloid_leukaemia_index_score__sokal_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_chronic_myeloid_leukaemia_index_score__sokal_">CHRONIC MYELOID LEUKAEMIA INDEX SCORE (SOKAL)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 2 - MYELODYSPLASIA</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - MYELODYSPLASIA</b>
 
   <p>To carry cancer care plan details specific to Myelodysplasia for Haematological cancer.One occurrence of this group is required per Core Cancer Care Plan if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_revised_international_prognostic_scoring_system_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_revised_international_prognostic_scoring_system_score">REVISED INTERNATIONAL PROGNOSTIC SCORING SYSTEM SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 3 - CHRONIC LYMPHOID LEUKAEMIA (CLL)</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 3 - CHRONIC LYMPHOID LEUKAEMIA (CLL)</b>
 
   <p>To carry cancer care plan details specific to Chronic Lymphoid Leukaemia (CLL) for Haematological cancer. One occurrence of this group is required per Core Cancer Care Plan if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_splenomegaly_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_splenomegaly_indicator">SPLENOMEGALY INDICATOR</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 4 - FOLLICULAR LYMPHOMA</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 4 - FOLLICULAR LYMPHOMA</b>
 
   <p>To carry cancer care plan details specific to Follicular Lymphoma for Haematological cancer.One occurrence of this group is required per Core Cancer Care Plan if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_abnormal_nodal_areas' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_number_of_abnormal_nodal_areas">NUMBER OF ABNORMAL NODAL AREAS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_follicular_lymphoma_international_prognostic_index_2_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_follicular_lymphoma_international_prognostic_index_2_score">FOLLICULAR LYMPHOMA INTERNATIONAL PROGNOSTIC INDEX 2 SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 5 - DIFFUSE LARGE B-CELL LYMPHOMA (DLBCL)</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 5 - DIFFUSE LARGE B-CELL LYMPHOMA (DLBCL)</b>
 
   <p>To carry cancer care plan details specific to Diffuse Large B-Cell Lymphoma (DLBCL) for Haematological cancer.One occurrence of this group is required per Core Cancer Care Plan if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_abnormal_nodal_areas' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_number_of_abnormal_nodal_areas">NUMBER OF ABNORMAL NODAL AREAS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_extranodal_cancer_site' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_primary_extranodal_cancer_site">PRIMARY EXTRANODAL CANCER SITE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_extranodal_sites_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_number_of_extranodal_sites_code">NUMBER OF EXTRANODAL SITES CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_revised_international_prognostic_index_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_revised_international_prognostic_index_score">REVISED INTERNATIONAL PROGNOSTIC INDEX SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 6 - HODGKIN LYMPHOMA</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 6 - HODGKIN LYMPHOMA</b>
 
   <p>To carry cancer care plan details specific to Hodgkin Lymphoma for Haematological cancer.One occurrence of this group is required per Core Cancer Care Plan if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_number_of_abnormal_nodal_areas' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_number_of_abnormal_nodal_areas">NUMBER OF ABNORMAL NODAL AREAS</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_extranodal_cancer_site' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_primary_extranodal_cancer_site">PRIMARY EXTRANODAL CANCER SITE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_hasenclever_index_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_hasenclever_index_score">HASENCLEVER INDEX SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 7 - ACUTE LYMPHOBLASTIC LEUKAEMIA (ALL)</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 7 - ACUTE LYMPHOBLASTIC LEUKAEMIA (ALL)</b>
 
   <p>To carry cancer care plan details specific to Acute Lymphoblastic Leukaemia (ALL) for Haematological cancer.One occurrence of this group is required per Core Cancer Care Plan if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_extramedullary_disease_site' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_extramedullary_disease_site">EXTRAMEDULLARY DISEASE SITE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>SITE SPECIFIC STAGING - HAEMATOLOGICAL</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>SITE SPECIFIC STAGING - HAEMATOLOGICAL</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 1 - ANN ARBOR</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - ANN ARBOR</b>
 
   <p>To carry Ann Arbor site specific staging details for various haematological diseases for Haematological cancer.One occurrence of this group is required per Core Site Specific Staging if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ann_arbor_stage' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_ann_arbor_stage">ANN ARBOR STAGE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 2 - CHRONIC LYMPHOID LEUKAEMIA (CLL)</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - CHRONIC LYMPHOID LEUKAEMIA (CLL)</b>
 
   <p>To carry Chronic Lymphoid Leukaemia (CLL) staging details for Haematological cancer.One occurrence of this group is required per Core Site Specific Staging if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_binet_stage' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_binet_stage">BINET STAGE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 3 - MYELOMA</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 3 - MYELOMA</b>
 
   <p>To carry Myeloma staging details for Haematological cancer.One occurrence of this group is permitted per Core Site Specific Staging if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_revised_international_staging_system_stage_for_multiple_myeloma' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_revised_international_staging_system_stage_for_multiple_myeloma">REVISED INTERNATIONAL STAGING SYSTEM STAGE FOR MULTIPLE MYELOMA</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 4 - NON HODGKIN LYMPHOMA (NHL)</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 4 - NON HODGKIN LYMPHOMA (NHL)</b>
 
   <p>To carry Non Hodgkin Lymphoma (NHL) staging details for Haematological cancer.One occurrence of this group is required per Core Site Specific Staging if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_murphy_st_jude_stage' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_murphy_st_jude_stage">MURPHY ST JUDE STAGE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>ANN ARBOR: EXTENSIONS - HAEMATOLOGICAL</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>ANN ARBOR: EXTENSIONS - HAEMATOLOGICAL</b>
 
   <p>To carry supporting Ann Arbor staging details for various haematological diseases as specified.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ann_arbor_symptoms_indication_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_ann_arbor_symptoms_indication_code">ANN ARBOR SYMPTOMS INDICATION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ann_arbor_extranodality_indication_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_ann_arbor_extranodality_indication_code">ANN ARBOR EXTRANODALITY INDICATION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ann_arbor_bulky_disease_indication_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_ann_arbor_bulky_disease_indication_code">ANN ARBOR BULKY DISEASE INDICATION CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_ann_arbor_splenic_indication_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_ann_arbor_splenic_indication_code">ANN ARBOR SPLENIC INDICATION CODE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>LABORATORY RESULTS CHOICE - HAEMATOLOGICAL</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>LABORATORY RESULTS CHOICE - HAEMATOLOGICAL</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 1 - VARIOUS HAEMATOLOGICAL DISEASES</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - VARIOUS HAEMATOLOGICAL DISEASES</b>
 
   <p>To carry laboratory results for various haematological diseases for Haematological cancer.One occurrence of this group is required per Core Laboratory Results if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_european_leukaemia_net_genetic_risk_code' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_european_leukaemia_net_genetic_risk_code">EUROPEAN LEUKAEMIA NET GENETIC RISK CODE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_white_blood_cell_count__highest_pretreatment_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_white_blood_cell_count__highest_pretreatment_">WHITE BLOOD CELL COUNT (HIGHEST PRETREATMENT)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>To carry laboratory results for various haematological diseases for Children Teenagers and Young Adults (CTYA) Haematological cancer.One occurrence of this group is required per Core Laboratory Results if selected as the choice.</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>To carry laboratory results for various haematological diseases for Children Teenagers and Young Adults (CTYA) Haematological cancer.One occurrence of this group is required per Core Laboratory Results if selected as the choice.</b>
 
   <p>CHOICE 2 - VARIOUS HAEMATOLOGICAL DISEASES: CHILDREN, TEENAGERS AND YOUNG ADULTS (CTYA).</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_bone_marrow_blast_cells_percentage' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_bone_marrow_blast_cells_percentage">BONE MARROW BLAST CELLS PERCENTAGE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cytogenetic_findings_comment' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_cytogenetic_findings_comment">CYTOGENETIC FINDINGS COMMENT</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 3 - PAEDIATRIC MYELODYSPLASIA</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 3 - PAEDIATRIC MYELODYSPLASIA</b>
 
   <p>To carry Paediatric Myelodysplasia laboratory result details for Haematological cancer.One occurrence of this group is required per Core Laboratory Results if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cellularity_percentage' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_cellularity_percentage">CELLULARITY PERCENTAGE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_diepoxybutane_test_result' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_diepoxybutane_test_result">DIEPOXYBUTANE TEST RESULT</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_dysplastic_haemopoiesis_type' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_dysplastic_haemopoiesis_type">DYSPLASTIC HAEMOPOIESIS TYPE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 4 - ACUTE LYMPHOBLASTIC LEUKAEMIA (ALL) - RESPONSE</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 4 - ACUTE LYMPHOBLASTIC LEUKAEMIA (ALL) - RESPONSE</b>
 
   <p>To carry Acute Lymphoblastic Leukaemia (ALL) Response laboratory result details for Haematological cancer.One occurrence of this group is required per Core Laboratory Results if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_leukaemic_cells_present_post_minimal_residual_disease_induction_percentage' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_leukaemic_cells_present_post_minimal_residual_disease_induction_percentage">LEUKAEMIC CELLS PRESENT POST MINIMAL RESIDUAL DISEASE INDUCTION PERCENTAGE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='5'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
-        <colspec colname='col5' colnum='5' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>DIAGNOSIS CHOICE - HAEMATOLOGICAL</p>
-
-</entry>
-          </row>
-          <row>
-            <entry />
-            <entry>
-
-  <p>Mandation</p>
-
-</entry>
-            <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
-  <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSIS CHOICE - HAEMATOLOGICAL</b>
 </entry>
           </row>
         </thead>
         <tbody>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 1 - MIXED PHENOTYPE ACUTE LEUKAEMIA (MPAL)</p>
-
-
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - MIXED PHENOTYPE ACUTE LEUKAEMIA (MPAL)</b>
 
   <p>To carry diagnostic Mixed Phenotype Acute Leukaemia (MPAL) details for Haematological cancer.One occurrence of this group is required per Core Diagnosis if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_mixed_phenotype_acute_leukaemia_symptoms__at_diagnosis_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_mixed_phenotype_acute_leukaemia_symptoms__at_diagnosis_">MIXED PHENOTYPE ACUTE LEUKAEMIA SYMPTOMS (AT DIAGNOSIS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_european_group_for_the_immunological_classification_of_leukaemia_scoring_system_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_european_group_for_the_immunological_classification_of_leukaemia_scoring_system_score">EUROPEAN GROUP FOR THE IMMUNOLOGICAL CLASSIFICATION OF LEUKAEMIA SCORING SYSTEM SCORE</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 2 - ACUTE MYELOID LEUKAEMIA (AML)</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - ACUTE MYELOID LEUKAEMIA (AML)</b>
 
   <p>To carry diagnostic Acute Myeloid Leukaemia (AML) details for Haematological cancer.One occurrence of this group is required per Core Diagnosis if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_french_american_british_classification__acute_myeloid_leukaemia_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_french_american_british_classification__acute_myeloid_leukaemia_">FRENCH AMERICAN BRITISH CLASSIFICATION (ACUTE MYELOID LEUKAEMIA)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_cytogenetic_risk_group__paediatric_molecular_genetic_abnormalities_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cytogenetic_risk_group__paediatric_molecular_genetic_abnormalities_">CYTOGENETIC RISK GROUP (PAEDIATRIC MOLECULAR GENETIC ABNORMALITIES)</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_acute_myeloid_leukaemia_risk_factors__at_diagnosis_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_acute_myeloid_leukaemia_risk_factors__at_diagnosis_">ACUTE MYELOID LEUKAEMIA RISK FACTORS (AT DIAGNOSIS)</xref>
+  </p>
+</entry>
           </row>
-          <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col5'>
-
-  <p>CHOICE 3 - PAEDIATRIC MYELODYSPLASIA</p>
-
-
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 3 - PAEDIATRIC MYELODYSPLASIA</b>
 
   <p>To carry diagnostic Paediatric Myelodysplasia details for Haematological cancer.One occurrence of this group is required per Core Diagnosis if selected as the choice.</p>
-
 </entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_paediatric_myelodysplasia_clinical_findings__at_diagnosis_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_paediatric_myelodysplasia_clinical_findings__at_diagnosis_">PAEDIATRIC MYELODYSPLASIA CLINICAL FINDINGS (AT DIAGNOSIS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_underlying_disease_associated_with_myelodysplasia__at_diagnosis_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_underlying_disease_associated_with_myelodysplasia__at_diagnosis_">UNDERLYING DISEASE ASSOCIATED WITH MYELODYSPLASIA (AT DIAGNOSIS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_congenital_anomalies_comment' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_congenital_anomalies_comment">CONGENITAL ANOMALIES COMMENT</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry />
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_other_myelodysplasia_symptoms_at_diagnosis' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_other_myelodysplasia_symptoms_at_diagnosis">OTHER MYELODYSPLASIA SYMPTOMS AT DIAGNOSIS</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>ACUTE LEUKAEMIAS - HAEMATOLOGICAL</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>ACUTE LEUKAEMIAS - HAEMATOLOGICAL</b>
 
   <p>To carry treatment details for Acute Leukaemias for Haematological cancer.One occurrence of this group is permitted per Core Treatment.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_primary_induction_chemotherapy_failure_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_primary_induction_chemotherapy_failure_indicator">PRIMARY INDUCTION CHEMOTHERAPY FAILURE INDICATOR</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>MOLECULAR AND BIOMARKERS - SOMATIC TESTING FOR TARGETED THERAPY AND PERSONALISED THERAPY: NON HODGKIN LYMPHOMA - HAEMATOLOGICAL</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>MOLECULAR AND BIOMARKERS - SOMATIC TESTING FOR TARGETED THERAPY AND PERSONALISED THERAPY: NON HODGKIN LYMPHOMA - HAEMATOLOGICAL</b>
 
   <p>Somatic Testing for Targeted Therapy and Personalised Medicine.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_alk_gene_fusion_status__anaplastic_large_cell_lymphoma_' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_alk_gene_fusion_status__anaplastic_large_cell_lymphoma_">ALK GENE FUSION STATUS (ANAPLASTIC LARGE CELL LYMPHOMA)</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

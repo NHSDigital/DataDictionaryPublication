@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_other_intermediate_care_waiting_time_measurement.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Other Intermediate Care Waiting Time Measurement - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+An 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_other_intermediate_care_waiting_time_measurement">Other Intermediate Care Waiting Time Measurement</xref>
+ is a 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_other_intermediate_care_waiting_time_measurement">Other Intermediate Care Waiting Time Measurement</xref>:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+is for 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_intermediate_care">Intermediate Care</xref>
+ other than 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_crisis_response_intermediate_care">Crisis Response Intermediate Care</xref>, i.e. 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_reablement_intermediate_care">Reablement Intermediate Care</xref>, 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_home-based_intermediate_care">Home-based Intermediate Care</xref>
+ and 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+allows monitoring of waiting times for 
+                                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ that are deemed not clinically appropriate for the 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_other_intermediate_care_within_2_days_waiting_time_measurement">Other Intermediate Care Within 2 Days Waiting Time Measurement</xref>.                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
+         <b>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_reablement_intermediate_care">Reablement Intermediate Care</xref>
+         </b>
+         <b>:</b>
+      </p>
+      <p>
+The waiting time is the duration between the 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_reablement_intermediate_care">Reablement Intermediate Care</xref>
+ Waiting Time Measurement:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="attribute"
+                     keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+               <p>
+ and 
+                                <xref outputclass="attribute"
+                        keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <p>
+The 
+                                      <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is identified by a 
+                                      <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_social_care_worker">Social Care Worker</xref>
+ as needing reablement to enable care to be delivered in their own home as a safe alternative to hospital or 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>.                        </p>
+                  <ul>
+                     <li>
+                        <p>
+For step up care, the need for the 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_reablement_intermediate_care_service">Reablement Intermediate Care Service</xref>
+ is identified for a community-located 
+                                                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ by a community-based 
+                                                  <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_social_care_worker">Social Care Worker</xref>
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+For step down care, the need for the 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_reablement_intermediate_care_service">Reablement Intermediate Care Service</xref>
+ is identified for an acute hospital-located 
+                                                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ based on a "medically optimised for discharge" decision making process that determines care in hospital is no longer needed.
+                                              </p>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <xref outputclass="attribute"
+                  keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+            <p>
+and 
+                          <xref outputclass="attribute"
+                     keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>:                </p>
+            <ul>
+               <li>
+                  <p>
+The 
+                                      <xref outputclass="element" keyref="element_care_contact_date">CARE CONTACT DATE</xref>
+ and 
+                                      <xref outputclass="element" keyref="element_care_contact_time">CARE CONTACT TIME</xref>
+ of the first face-to-face contact from a reablement worker in their own home.                        </p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>
+         <b>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_home-based_intermediate_care">Home-based Intermediate Care</xref>
+         </b>
+         <b>:</b>
+      </p>
+      <p>
+The waiting time is the duration between the 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_home-based_intermediate_care">Home-based Intermediate Care</xref>
+ Waiting Time Measurement:        </p>
+      <ul>
+         <li>
+            <xref outputclass="attribute"
+                  keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+            <p>
+ and 
+                          <xref outputclass="attribute"
+                     keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>:                </p>
+            <ul>
+               <li>
+                  <p>
+The 
+                                    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is identified by a 
+                                    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or 
+                                    <xref outputclass="businessDefinition"
+                           keyref="business_definition_social_care_worker">Social Care Worker</xref>
+ as needing 
+                                    <xref outputclass="businessDefinition"
+                           keyref="business_definition_home-based_intermediate_care">Home-based Intermediate Care</xref>
+ as a safe alternative to hospital or 
+                                    <xref outputclass="businessDefinition"
+                           keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>.
+                                </p>
+                  <ul>
+                     <li>
+                        <p>
+For step up care, the need for the 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_home-based_intermediate_care_service">Home-based Intermediate Care Service</xref>
+ is identified for a community-located 
+                                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ by a community-based 
+                                                <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_social_care_worker">Social Care Worker</xref>.                                </p>
+                     </li>
+                  </ul>
+                  <ul>
+                     <li>
+                        <p>
+For step down care, the need for the 
+                                                <xref outputclass="businessDefinition"
+                                 keyref="business_definition_home-based_intermediate_care_service">Home-based Intermediate Care Service</xref>
+ is identified for an acute hospital-located 
+                                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ based on a "medically optimised for discharge" decision making process that determines care in hospital is no longer needed.                                </p>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <ul>
+         <li>
+            <xref outputclass="attribute"
+                  keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+            <p>
+and 
+                          <xref outputclass="attribute"
+                     keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>:                </p>
+            <ul>
+               <li>
+                  <p>
+The 
+                                      <xref outputclass="element" keyref="element_care_contact_date">CARE CONTACT DATE</xref>
+ and 
+                                      <xref outputclass="element" keyref="element_care_contact_time">CARE CONTACT TIME</xref>
+ of the first face-to-face contact the 
+                                      <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receives from an 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_intermediate_care_service">Intermediate Care Service</xref>
+                     <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ in their own home.                        </p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>
+         <b>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>
+         </b>
+         <b>:</b>
+      </p>
+      <p>
+The waiting time is measured to ensure there are 2 midnights or fewer between the 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+ and 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>
+ Waiting Time Measurement:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="attribute"
+                     keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+               <p>
+ and 
+                                <xref outputclass="attribute"
+                        keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>:                    </p>
+            </div>
+            <ul>
+               <li>
+                  <p>
+The 
+                                      <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is identified by a 
+                                      <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_social_care_worker">Social Care Worker</xref>
+ as needing 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>
+ as a safe alternative to acute hospital care.
+                                  </p>
+                  <ul>
+                     <li>
+                        <p>
+For step up care, the need for the 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>
+ is identified for a community-located 
+                                                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ by a community-based 
+                                                  <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_social_care_worker">Social Care Worker</xref>.
+                                              </p>
+                     </li>
+                     <li>
+                        <p>
+For step down care, the need for the 
+                                                  <xref outputclass="businessDefinition"
+                                 keyref="business_definition_community_bed-based_intermediate_care">Community Bed-based Intermediate Care</xref>
+ is identified for an acute hospital-located 
+                                                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ based on a "medically optimised for discharge" decision making process that determines care in hospital is no longer needed.                                </p>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <xref outputclass="attribute"
+                  keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+            <p>
+and 
+                          <xref outputclass="attribute"
+                     keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>:                </p>
+            <ul>
+               <li>
+                  <p>
+The 
+                                      <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is admitted to community-commissioned 
+                                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_hospital_bed">Hospital Bed</xref>.                        </p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

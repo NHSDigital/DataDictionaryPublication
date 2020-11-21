@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_patient_treated_to_childrens_cancer_and_leukaemia_group_guidelines_indicator.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PATIENT TREATED TO CHILDRENS CANCER AND LEUKAEMIA GROUP GUIDELINES INDICATOR - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>Y</p>
+</stentry>
+        <stentry>
+  <p>
+Yes - the 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was treated according to the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_children_s_cancer_and_leukaemia_group">Children's Cancer and Leukaemia Group</xref>
+ guidelines    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>N</p>
+</stentry>
+        <stentry>
+  <p>
+No - the 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was not treated according to the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_children_s_cancer_and_leukaemia_group">Children's Cancer and Leukaemia Group</xref>
+ guidelines    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

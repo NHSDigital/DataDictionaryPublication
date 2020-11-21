@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_estimated_discharge_date__hospital_provider_spell_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ESTIMATED DISCHARGE DATE (HOSPITAL PROVIDER SPELL) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_estimated_discharge_date__hospital_provider_spell_">ESTIMATED DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_planned_activity_date">PLANNED ACTIVITY DATE</xref>
+ where the 
+              <xref outputclass="attribute" keyref="attribute_planned_activity_date_type">PLANNED ACTIVITY DATE TYPE</xref>
+ is National Code 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_estimated_discharge_date__hospital_provider_spell_">Estimated Discharge Date (Hospital Provider Spell)</xref>'</i>.        </p>
+      <p>
+Note: for the 
+              <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>, this is different to the 
+              <xref outputclass="element"
+               keyref="element_planned_discharge_date__hospital_provider_spell_">PLANNED DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>, which is set once the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been confirmed for discharge.        </p>
+  </div>
+</body>
+</topic>

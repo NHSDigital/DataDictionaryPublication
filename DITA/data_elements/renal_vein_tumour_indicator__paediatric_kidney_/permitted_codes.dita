@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_renal_vein_tumour_indicator__paediatric_kidney_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: RENAL VEIN TUMOUR INDICATOR (PAEDIATRIC KIDNEY) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>Y</p>
+</stentry>
+        <stentry>
+  <p>
+Yes - there is evidence of 
+        <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ thrombus in the renal vein    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>N</p>
+</stentry>
+        <stentry>
+  <p>
+No - there is no evidence of 
+        <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ thrombus in the renal vein    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>U</p>
+</stentry>
+        <stentry>
+  <p>Uncertain (Unable to give a definitive answer)</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

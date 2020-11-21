@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_systemic_anti-cancer_therapy_drug_regimen_modification_indicator_for_dose_reduction.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: SYSTEMIC ANTI-CANCER THERAPY DRUG REGIMEN MODIFICATION INDICATOR FOR DOSE REDUCTION - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+  <p>
+Yes - the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>
+ was modified by reducing the dose of the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
+ drug administered    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+  <p>
+No - the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>
+ was not modified by reducing the dose of the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
+ drug administered    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

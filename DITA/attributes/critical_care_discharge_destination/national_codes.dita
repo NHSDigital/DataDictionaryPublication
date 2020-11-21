@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_critical_care_discharge_destination.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: CRITICAL CARE DISCHARGE DESTINATION - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+  <p>
+Same NHS 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_site">Hospital Site</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+  <p>
+Other NHS 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_site">Hospital Site</xref>
+ (can be same Trust or a different 
+        <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+  <p>
+Independent 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ in the UK    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+  <p>
+Non-hospital destination within the UK (e.g. home as coded in 
+        <xref outputclass="class" keyref="class_location">LOCATION</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>Non United Kingdom destination (e.g. repatriation)</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+  <p>
+No 
+        <xref outputclass="attribute" keyref="attribute_discharge_destination">DISCHARGE DESTINATION</xref>, 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ died in unit    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

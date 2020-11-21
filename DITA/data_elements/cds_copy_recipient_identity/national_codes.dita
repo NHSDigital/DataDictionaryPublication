@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_copy_recipient_identity.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS COPY RECIPIENT IDENTITY - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <xref outputclass="supportingInformation"
+         keyref="supporting_definition_organisation_data_service_default_codes">ODS Default Codes</xref>
+  <p>:</p>
+</stentry>
+        <stentry>
+  <p>
+VPP00 - Private 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ / 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+ liable for charges    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p> </p>
+</stentry>
+        <stentry>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

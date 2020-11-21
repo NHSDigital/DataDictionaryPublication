@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_employee_local_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: EMPLOYEE LOCAL IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_employee_local_identifier">EMPLOYEE LOCAL IDENTIFIER</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_employee_local_identifier">EMPLOYEE LOCAL IDENTIFIER</xref>.        </p>
+      <p>
+The Non-Medical Workforce Census requires this data item to identify an individual record. It is used in place of personal details (such as 
+              <xref outputclass="class" keyref="class_person_name">PERSON NAME</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_national_insurance_number">NATIONAL INSURANCE NUMBER</xref>) to refer queries to the employing 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
+      <p>
+The 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_electronic_staff_record">Electronic Staff Record</xref>
+ provides this item as well as 
+              <xref outputclass="attribute" keyref="attribute_employee_nhs_identifier">EMPLOYEE NHS IDENTIFIER</xref>. It is not duplicated and is not re-used within the system.        </p>
+  </div>
+</body>
+</topic>

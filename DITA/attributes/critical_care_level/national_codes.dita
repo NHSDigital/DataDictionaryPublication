@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_critical_care_level.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: CRITICAL CARE LEVEL - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>00</stentry>
+        <stentry>
+  <p>
+Level 0 (Patients whose needs can be met through normal 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+ care in an acute hospital)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+  <p>
+Level 1 (<xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ at risk of their condition deteriorating, or those recently relocated from higher levels of care, whose needs can be met on an acute 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+ with additional advice and support from the critical care team.)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+  <p>
+Level 2 (<xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ requiring more detailed observation or intervention including support for a single failing organ system or post-operative care and those 'stepping down' from higher levels of care.)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+  <p>
+Level 3 (<xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ requiring advanced respiratory support alone or monitoring and support for two or more organ systems. This level includes all complex 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ requiring support for multi-organ failure.)    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

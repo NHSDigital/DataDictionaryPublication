@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_planned_activity_date_type.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PLANNED ACTIVITY DATE TYPE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_planned_discharge_date__hospital_provider_spell_">Planned Discharge Date (Hospital Provider Spell)</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_estimated_discharge_date__hospital_provider_spell_">Estimated Discharge Date (Hospital Provider Spell)</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_intended_smoking_quit_date">Intended Smoking Quit Date</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_nhs_continuing_healthcare_care_package_review_date">NHS Continuing Healthcare Care Package Review Date</xref>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

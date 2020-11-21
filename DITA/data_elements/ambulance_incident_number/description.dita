@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_ambulance_incident_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: AMBULANCE INCIDENT NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_ambulance_incident_number">AMBULANCE INCIDENT NUMBER</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_ambulance_call_identifier">AMBULANCE CALL IDENTIFIER</xref>.        </p>
+      <p>
+From Commissioning Data Set version 6-2, this data element may be submitted where the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ arrived at hospital by 
+              <xref outputclass="businessDefinition" keyref="business_definition_ambulance">Ambulance</xref>, and an 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ related to this was recorded.        </p>
+      <p>
+         <b>
+            <xref outputclass="element" keyref="element_ambulance_incident_number">AMBULANCE INCIDENT NUMBER</xref>
+ will be replaced with 
+                  <xref outputclass="element" keyref="element_ambulance_call_identifier">AMBULANCE CALL IDENTIFIER</xref>, which is the most recent approved national information standard to describe the required definition.            </b>
+      </p>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_multi-professional_or_multi-disciplinary_indication_code__payment_by_results_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: MULTI-PROFESSIONAL OR MULTI-DISCIPLINARY INDICATION CODE (PAYMENT BY RESULTS) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>1</p>
+</stentry>
+        <stentry>
+  <p>Uni-Professional clinic attendance</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>2</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_multi-professional_consultation__national_tariff_payment_system_">Multi-Professional Consultation (National Tariff Payment System)</xref>
+  <p> clinic attendance</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>3</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_multi-disciplinary_consultation__national_tariff_payment_system_">Multi-Disciplinary Consultation (National Tariff Payment System)</xref>
+  <p> clinic attendance</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

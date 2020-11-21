@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_intended_management_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: INTENDED MANAGEMENT CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_intended_management_code">INTENDED MANAGEMENT CODE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_intended_management">INTENDED MANAGEMENT</xref>.        </p>
+      <p>
+This categorisation describes what is intended to happen to the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>. Occasionally the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s treatment does not go exactly to plan. For example, a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted as a day case may develop complications and have to be kept in overnight. Therefore another data item, 
+              <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>, is used to describe what actually happens to the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>. In this example, the 
+              <xref outputclass="attribute" keyref="attribute_patient_classification">PATIENT CLASSIFICATION</xref>
+ would be 'Ordinary admission' and not 'Day case admission'.        </p>
+  </div>
+</body>
+</topic>

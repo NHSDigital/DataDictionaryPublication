@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_healthcare_resource_group_unbundled_activity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Healthcare Resource Group Unbundled Activity - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_healthcare_resource_group_unbundled_activity">Healthcare Resource Group Unbundled Activity</xref>
+ identifies separate elements of cost and 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ from the core 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>, and are generated in addition to the core 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+ for an 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>, episode or spell of care or attendance.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_healthcare_resource_group_unbundled_activity">Healthcare Resource Group Unbundled Activity</xref>
+ may be event based and derived from a specific 
+              <xref outputclass="element" keyref="element_opcs-4_code">OPCS-4 CODE</xref>
+ in the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ record, or duration based. Multiple 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_healthcare_resource_group_unbundled_activity">Healthcare Resource Group Unbundled Activities</xref>
+ may be generated in addition to a single core 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>.        </p>
+      <p>
+For further information on 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Groups</xref>, see the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+              <xref href="https://digital.nhs.uk/services/national-casemix-office/downloads-groupers-and-tools"
+               scope="external"
+               format="html">Downloads - Groupers and Tools</xref>.        </p>
+  </div>
+</body>
+</topic>

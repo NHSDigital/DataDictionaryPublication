@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_gleason_grade__secondary_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: GLEASON GRADE (SECONDARY) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_gleason_grade__secondary_">GLEASON GRADE (SECONDARY)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_gleason_grade">GLEASON GRADE</xref>
+ where additional grades are present.        </p>
+      <p>The value is presented in the range 2-5.</p>
+      <p>
+Note: 
+              <xref outputclass="element" keyref="element_gleason_grade__secondary_">GLEASON GRADE (SECONDARY)</xref>
+ records the highest grade (<xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>) or the second most extensive grade (TURP (Transurethral resection of the prostate) and radicals). If no additional grades are present, 
+              <xref outputclass="element" keyref="element_gleason_grade__primary_">GLEASON GRADE (PRIMARY)</xref>
+ and 
+              <xref outputclass="element" keyref="element_gleason_grade__secondary_">GLEASON GRADE (SECONDARY)</xref>
+ are the same.        </p>
+  </div>
+</body>
+</topic>

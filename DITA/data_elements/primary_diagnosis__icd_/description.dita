@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_primary_diagnosis__icd_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PRIMARY DIAGNOSIS (ICD) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_clinical_classification_code">CLINICAL CLASSIFICATION CODE</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+ is the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
+ code used to identify the 
+              <xref outputclass="attribute" keyref="attribute_primary_diagnosis">PRIMARY DIAGNOSIS</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+ is used by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ to derive the 
+              <b>
+            <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+ 4            </b>. Failure to correctly populate this data element is likely to result in an incorrect 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>, usually associated with lower levels of healthcare resource.        </p>
+      <p>
+For further information, please refer to the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+              <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance"
+               scope="external"
+               format="html">Payment by Results Guidance</xref>.        </p>
+      <p>Note:</p>
+      <ul>
+         <li>
+            <div>
+               <p>The format/length of this Data Element has been corrected as a result of the work undertaken for the development of the Coding Strategy.</p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>The data set specifications of the data sets that contain this Data Element will be updated in the next version of the information standard where it is not already correct.</p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_referring_organisation_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: REFERRING ORGANISATION CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
+ is the 
+              <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ of the 
+              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ from which the referral is made, such as a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_gp_practice">GP Practice</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+ or 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>.        </p>
+      <p>This information is essential for managing service agreements which are based on patterns of referral.</p>
+      <p>
+         <b>
+            <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
+ will be replaced with 
+                  <xref outputclass="element"
+                  keyref="element_organisation_identifier__referring_">ORGANISATION IDENTIFIER (REFERRING)</xref>, when it has been approved for use in national information standards.            </b>
+      </p>
+  </div>
+</body>
+</topic>

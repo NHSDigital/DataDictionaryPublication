@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_critical_care_activity_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: CRITICAL CARE ACTIVITY CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A type of 
+              <xref outputclass="class" keyref="class_critical_care_activity">CRITICAL CARE ACTIVITY</xref>
+ provided to a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ during a 
+              <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>.        </p>
+      <p>Note:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+National Codes 80-97 should not be reported nationally until the functionality to do so becomes available in the next release of the 
+                                <xref href="https://v3.datadictionary.nhs.uk/web_site_content/pages/help_pages/commissioning_data_sets_help.html"
+                        scope="external"
+                        format="html">Commissioning Data Sets</xref>
+ and the associated XML Schema. Prior to this release, these codes must be recorded locally, however the National Codes 80-97 cannot be transmitted in the current version of the 
+                                <xref href="https://v3.datadictionary.nhs.uk/web_site_content/pages/help_pages/commissioning_data_sets_help.html"
+                        scope="external"
+                        format="html">Commissioning Data Sets</xref>
+ (Version 6-2). Further guidance can be found on the 
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+                                <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/scci0075-neonatal-critical-care-minimum-data-set-version-2"
+                        scope="external"
+                        format="html">SCCI0075</xref>
+ and  
+                                <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/scci0076-paediatric-critical-care-minimum-data-set-version-2"
+                        scope="external"
+                        format="html">SCCI0076</xref>.                    </p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

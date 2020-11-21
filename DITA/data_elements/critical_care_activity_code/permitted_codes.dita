@@ -1,0 +1,660 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_critical_care_activity_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CRITICAL CARE ACTIVITY CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>Respiratory support via a tracheal tube (Respiratory support via a tracheal tube provided)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>
+Nasal Continuous Positive Airway Pressure (nCPAP) (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving nCPAP for any part of the day)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>
+Surgery (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received surgery)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <p>
+Exchange Transfusion (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received exchange transfusion)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <p>
+Peritoneal Dialysis (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received Peritoneal Dialysis)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <p>
+Continuous infusion of inotrope, pulmonary vasodilator or prostaglandin (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received a continuous infusion of an inotrope, vasodilator (includes pulmonary vasodilators) or prostaglandin)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <p>
+Parenteral Nutrition (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving Parenteral Nutrition (amino acids +/- lipids))    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <p>
+Convulsions (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ having convulsions requiring treatment)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>09</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_oxygen_therapy">Oxygen Therapy</xref>
+  <p>
+ (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving additional oxygen)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>10</p>
+</stentry>
+        <stentry>
+  <p>
+Neonatal abstinence syndrome (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving drug treatment for neonatal abstinence (withdrawal) syndrome)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>11</p>
+</stentry>
+        <stentry>
+  <p>
+Care of an intra-arterial catheter or chest drain (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving care of an intra-arterial catheter or chest drain)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>12</p>
+</stentry>
+        <stentry>
+  <p>
+Dilution Exchange Transfusion (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received Dilution Exchange Transfusion)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>13</p>
+</stentry>
+        <stentry>
+  <p>
+Tracheostomy cared for by nursing staff (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving care of tracheostomy cared for by nursing staff not by an external 
+        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ (e.g. parent))    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>14</p>
+</stentry>
+        <stentry>
+  <p>
+Tracheostomy cared for by external 
+        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving care of tracheostomy cared for by an external 
+        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ (e.g. parent) not by a 
+        <xref outputclass="class" keyref="class_nurse">NURSE</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>15</p>
+</stentry>
+        <stentry>
+  <p>
+Recurrent apnoea (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has recurrent apnoea needing frequent intervention, i.e. over 5 stimulations in 8 hours, or resuscitation with IPPV two or more times in 24 hours)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>16</p>
+</stentry>
+        <stentry>
+  <p>
+Haemofiltration (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received Haemofiltration)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>21</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+  <p>
+ Resident - Caring for Baby (External 
+        <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ (for example, parent) resident with the baby and reducing nursing required by caring for the baby)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>22</p>
+</stentry>
+        <stentry>
+  <p>
+Continuous monitoring (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ requiring continuous monitoring (by mechanical monitoring equipment) of respiration or heart rate, or by transcutaneous transducers or by Saturation Monitors. Note: apnoea alarms and monitors are 
+        <i>excluded</i>
+ as forms of continuous monitoring)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>23</p>
+</stentry>
+        <stentry>
+  <p>
+Intravenous glucose and electrolyte solutions (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ being given intravenous glucose and electrolyte solutions)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>24</p>
+</stentry>
+        <stentry>
+  <p>
+Tube-fed (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ being tube-fed)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>25</p>
+</stentry>
+        <stentry>
+  <p>
+Barrier nursed (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ being barrier nursed)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>26</p>
+</stentry>
+        <stentry>
+  <p>
+Phototherapy (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving phototherapy)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>27</p>
+</stentry>
+        <stentry>
+  <p>
+Special monitoring (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving special monitoring of blood glucose or serum bilirubin measurement at a minimum frequency of more than one per calendar day)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>28</p>
+</stentry>
+        <stentry>
+  <p>
+Observations at regular intervals (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ requiring recorded observations for 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_temperature">Temperature</xref>, 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_heart_rate">Heart Rate</xref>, 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_respiratory_rate">Respiratory Rate</xref>, 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_blood_pressure">Blood Pressure</xref>
+ or scoring for neonatal abstinence syndrome. Recorded observations must be at a minimum frequency of 4 hourly)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>29</p>
+</stentry>
+        <stentry>
+  <p>
+Intravenous medication (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving intravenous medication)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>50</p>
+</stentry>
+        <stentry>
+  <p>Continuous electrocardiogram monitoring</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>51</p>
+</stentry>
+        <stentry>
+  <p>Invasive ventilation via endotracheal tube</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>52</p>
+</stentry>
+        <stentry>
+  <p>Invasive ventilation via tracheostomy tube</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>53</p>
+</stentry>
+        <stentry>
+  <p>Non-invasive ventilatory support</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>55</p>
+</stentry>
+        <stentry>
+  <p>Nasopharyngeal airway</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>56</p>
+</stentry>
+        <stentry>
+  <p>Advanced ventilatory support (Jet or Oscillatory ventilation)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>57</p>
+</stentry>
+        <stentry>
+  <p>Upper airway obstruction requiring nebulised Epinephrine/ Adrenaline</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>58</p>
+</stentry>
+        <stentry>
+  <p>Apnoea requiring intervention</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>59</p>
+</stentry>
+        <stentry>
+  <p>Acute severe asthma requiring intravenous bronchodilator therapy or continuous nebuliser</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>60</p>
+</stentry>
+        <stentry>
+  <p>Arterial line monitoring</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>61</p>
+</stentry>
+        <stentry>
+  <p>Cardiac pacing via an external box (pacing wires or external pads or oesophageal pacing)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>62</p>
+</stentry>
+        <stentry>
+  <p>Central venous pressure monitoring</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>63</p>
+</stentry>
+        <stentry>
+  <p>Bolus intravenous fluids (&gt; 80 ml/kg/day) in addition to maintenance intravenous fluids</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>64</p>
+</stentry>
+        <stentry>
+  <p>Cardio-pulmonary resuscitation (CPR)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>65</p>
+</stentry>
+        <stentry>
+  <p>Extracorporeal membrane oxygenation (ECMO) or Ventricular Assist Device (VAD) or aortic balloon pump</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>66</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_haemodialysis">Haemodialysis</xref>
+  <p>
+ (acute 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ only i.e. excluding chronic)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>67</p>
+</stentry>
+        <stentry>
+  <p>Plasma filtration or Plasma exchange</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>68</p>
+</stentry>
+        <stentry>
+  <p>ICP-intracranial pressure monitoring</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>69</p>
+</stentry>
+        <stentry>
+  <p>Intraventricular catheter or external ventricular drain</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>70</p>
+</stentry>
+        <stentry>
+  <p>Diabetic ketoacidosis (DKA) requiring continuous infusion of insulin</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>71</p>
+</stentry>
+        <stentry>
+  <p>Intravenous infusion of thrombolytic agent (limited to tissue plasminogen activator [tPA] and streptokinase)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>72</p>
+</stentry>
+        <stentry>
+  <p>Extracorporeal liver support using Molecular Absorbent Liver Recirculating System (MARS)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>73</p>
+</stentry>
+        <stentry>
+  <p>Continuous pulse oximetry</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>74</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> nursed in single occupancy cubicle</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>80</p>
+</stentry>
+        <stentry>
+  <p>
+Heated Humidified High Flow Therapy (HHHFT) (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving HHHFT)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>81</p>
+</stentry>
+        <stentry>
+  <p>Presence of an umbilical venous line</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>82</p>
+</stentry>
+        <stentry>
+  <p>
+Continuous infusion of insulin (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving a continuous infusion of insulin)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>83</p>
+</stentry>
+        <stentry>
+  <p>
+Therapeutic hypothermia (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving therapeutic hypothermia)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>84</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has a Replogle tube in situ</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>85</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has an epidural catheter in situ</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>86</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has an abdominal silo</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>87</p>
+</stentry>
+        <stentry>
+  <p>Administration of intravenous (IV) blood products</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>88</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has a central venous or long line (Peripherally Inserted Central Catheter line) in situ</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>89</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has an indwelling urinary or suprapubic catheter in situ</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>90</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has a trans-anastomotic tube in situ following oesophageal atresia repair</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>91</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has confirmed clinical seizure(s) today and/or continuous cerebral function monitoring (CFM)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>92</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has a ventricular tap via needle or reservoir today</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>93</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has a stoma</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>94</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has arrhythmia requiring intravenous anti-arrhythmic therapy</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>95</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has reduced conscious level (Glasgow Coma Score 12 or below) and hourly (or more frequent) Glasgow Coma Score monitoring</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>96</p>
+</stentry>
+        <stentry>
+  <p>
+Intravenous infusion of sedative agent (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving continuous intravenous infusion of sedative agent)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>97</p>
+</stentry>
+        <stentry>
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> has status epilepticus requiring treatment with continuous intravenous infusion</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>99</p>
+</stentry>
+        <stentry>
+  <p>
+No Defined Critical Care Activity (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is not receiving any of the critical care interventions listed above (Excluding code 21). For example, 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is on the Intensive Care Unit ready for discharge and is receiving normal care. This is the default code.    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

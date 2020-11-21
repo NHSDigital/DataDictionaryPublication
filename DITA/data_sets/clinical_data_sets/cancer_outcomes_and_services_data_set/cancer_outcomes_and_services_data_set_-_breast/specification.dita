@@ -6,201 +6,163 @@
     <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Breast - Specification</searchtitle>
   </titlealts>
   <body>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>TRIPLE DIAGNOSTIC ASSESSMENT - BREAST</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>TRIPLE DIAGNOSTIC ASSESSMENT - BREAST</b>
 
   <p>To carry diagnostic details for Breast cancer.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_breast_triple_diagnostic_assessment_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_breast_triple_diagnostic_assessment_indicator">BREAST TRIPLE DIAGNOSTIC ASSESSMENT INDICATOR</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>PROGNOSTIC INDEX - BREAST</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>PROGNOSTIC INDEX - BREAST</b>
 
   <p>To carry prognostic details for Breast cancer.One occurrence of this group is permitted.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_nottingham_prognostic_index_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nottingham_prognostic_index_score">NOTTINGHAM PROGNOSTIC INDEX SCORE</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>
     </table>
-    <table outputclass='table table-striped table-sm'>
-      <tgroup cols='4'>
-        <colspec colname='col1' colnum='1' colwidth='5*' />
-        <colspec colname='col2' colnum='2' colwidth='5*' />
-        <colspec colname='col3' colnum='3' colwidth='5*' />
-        <colspec colname='col4' colnum='4' colwidth='5*' />
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
         <thead>
           <row outputclass='thead-light'>
-            <entry namest='col1' nameend='col4'>
-
-  <p>CLINICAL NURSE SPECIALIST AND RISK FACTOR ASSESSMENT: NATIONAL AUDIT OF BREAST CANCER IN OLDER PATIENTS (NABCOP) - BREAST</p>
-
-
+            <entry namest='col1' nameend='col2'>
+  <b>CLINICAL NURSE SPECIALIST AND RISK FACTOR ASSESSMENT: NATIONAL AUDIT OF BREAST CANCER IN OLDER PATIENTS (NABCOP) - BREAST</b>
 
   <p>To carry National Audit of Breast Cancer in Older Patients assessment details for Breast cancer.One occurrence of this group is permitted per Core Clinical Nurse Specialist and Risk Factor Assessment.</p>
-
 </entry>
           </row>
           <row>
             <entry>
-
   <p>Mandation</p>
-
 </entry>
             <entry>
-
-  <p>Repeats</p>
-
-</entry>
-            <entry>
-
   <p>Data Elements</p>
-
-</entry>
-            <entry>
-
-  <p>Rules</p>
-
 </entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fitness_assessment_for_older_patients_with_breast_cancer_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_fitness_assessment_for_older_patients_with_breast_cancer_indicator">FITNESS ASSESSMENT FOR OLDER PATIENTS WITH BREAST CANCER INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_fitness_assessment_for_older_patients_with_breast_cancer_completed_date' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_fitness_assessment_for_older_patients_with_breast_cancer_completed_date">FITNESS ASSESSMENT FOR OLDER PATIENTS WITH BREAST CANCER COMPLETED DATE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_clinical_frailty_scale_point' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_clinical_frailty_scale_point">CLINICAL FRAILTY SCALE POINT</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_abbreviated_mental_test_score' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element" keyref="element_abbreviated_mental_test_score">ABBREVIATED MENTAL TEST SCORE</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_severe_cardiorespiratory_disease_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_severe_cardiorespiratory_disease_indicator">SEVERE CARDIORESPIRATORY DISEASE INDICATOR</xref>
+  </p>
+</entry>
           </row>
           <row>
-            <entry><p></p></entry>
-            <entry><p></p></entry>
             <entry>
-              <xref keyref='element_other_non_breast_locally_advanced_metastatic_malignancy_indicator' outputclass='element' />
-            </entry>
-            <entry><p></p></entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+      <xref outputclass="element"
+            keyref="element_other_non_breast_locally_advanced_metastatic_malignancy_indicator">OTHER NON BREAST LOCALLY ADVANCED METASTATIC MALIGNANCY INDICATOR</xref>
+  </p>
+</entry>
           </row>
         </tbody>
       </tgroup>

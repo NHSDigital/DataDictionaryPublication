@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_source_of_referral_for_female_genital_mutilation.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: SOURCE OF REFERRAL FOR FEMALE GENITAL MUTILATION - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>
+Other NHS 
+        <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>Self Referral</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_educational_establishment">Educational Establishment</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <p>Voluntary Sector (including charitable organisations, victim/survivor groups etc.)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_local_authority">Local Authority</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <p>Police</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <p>Justice Service</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>09</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_immigration_removal_centre">Immigration Removal Centre</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>10</p>
+</stentry>
+        <stentry>
+  <p>Religious Organisation</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>XX</p>
+</stentry>
+        <stentry>
+  <p>Other</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>ZZ</p>
+</stentry>
+        <stentry>
+  <p>
+Not Stated (<xref outputclass="class" keyref="class_person">PERSON</xref>
+ asked but declined to provide a response)    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

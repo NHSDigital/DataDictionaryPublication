@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_care_professional_admitted_care_episode.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Care Professional Admitted Care Episode - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_care_professional_admitted_care_episode">Care Professional Admitted Care Episode</xref>
+ is an 
+              <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>.        </p>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_care_professional_admitted_care_episode">Care Professional Admitted Care Episode</xref>
+ is the period of time within a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ during which the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is under the medical responsibility of a:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+            </div>
+         </li>
+         <li>
+            <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+         </li>
+      </ul>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_care_professional_admitted_care_episode">Care Professional Admitted Care Episode</xref>
+ can be a:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="businessDefinition"
+                     keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="businessDefinition"
+                     keyref="business_definition_midwife_episode">Midwife Episode</xref>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="businessDefinition"
+                     keyref="business_definition_nursing_episode">Nursing Episode</xref>
+               <p>.</p>
+            </div>
+         </li>
+      </ul>
+  </div>
+</body>
+</topic>

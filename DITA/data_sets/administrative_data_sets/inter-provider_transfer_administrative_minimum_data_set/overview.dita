@@ -6,163 +6,169 @@
     <searchtitle>Data Set: Inter-Provider Transfer Administrative Minimum Data Set - Overview</searchtitle>
   </titlealts>
   <body>
-
-  <p>Contextual Overview</p>
-  <p>
+  <div>
+      <p>
+         <b>Introduction</b>
+      </p>
+      <p>
 The NHS need to measure and monitor the 
-    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  within 
-    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAYS</xref>
- to ensure that they are progressing as planned to achieve the 18 weeks target.  </p>
-  <p>
-In an estimated 10% to 20% of cases, responsibility for the 
-    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
- will be transferred between 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Providers</xref>
-. The receiving 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Provider</xref>
- would be unable to report on the 18 weeks target for these cases unless the referring 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Provider</xref>
- supplied the 
-    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
- information at the time of transfer.  </p>
-  <p>
-This data set specifies the data necessary to permit the receiving 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Provider</xref>
- to be able to report the 
-    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-'s progress along their 
-    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
- and, in particular, their 
-    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
-.  </p>
-  <p>Scope and Collection</p>
-  <ul>
-      <li>
-         <p>
-Completion is mandatory for all 
-            <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
- with a 
-            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
- where there has been a transfer of care to an alternative 
-            <xref outputclass="businessDefinition"
-                  keyref="business_definition_health_care_provider">Health Care Provider</xref>
-.      </p>
-      </li>
-      <li>
-         <p>
-Completion is advisable for 
-            <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
- without a 
-            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
-, where there has been a transfer of care to an alternative 
-            <xref outputclass="businessDefinition"
-                  keyref="business_definition_health_care_provider">Health Care Provider</xref>
-, but this is voluntary.      </p>
-      </li>
-      <li>
-         <p>
-The referring 
-            <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
- should send the data set within 48 hours of 
-            <xref outputclass="element"
-                  keyref="element_decision_to_refer_date__inter-provider_transfer_">DECISION TO REFER DATE (INTER-PROVIDER TRANSFER)</xref>
-.      </p>
-      </li>
-      <li>
-         <p>
-Inter-provider transfer 
-            <xref outputclass="class" keyref="class_service_request">SERVICE REQUESTS</xref>
- for clinical opinion or diagnostics, where the care of the 
-            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
- remains with the referring 
-            <xref outputclass="businessDefinition"
-                  keyref="business_definition_health_care_provider">Health Care Provider</xref>
-, are voluntary.      </p>
-      </li>
-      <li>
-         <xref outputclass="class" keyref="class_service_request">SERVICE REQUESTS</xref>
-         <p>
-associated with the following 
             <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAYS</xref>
- are also not currently included:      </p>
-      </li>
-      <li>
-         <ul>
-            <li>
-               <p>
+ to ensure that they are progressing as planned to achieve the 18 weeks target.        </p>
+      <p>
+In an estimated 10% to 20% of cases, responsibility for the 
+            <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+ will be transferred between 
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Providers</xref>. The receiving 
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ would be unable to report on the 18 weeks target for these cases unless the referring 
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ supplied the 
+            <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+ information at the time of transfer.        </p>
+      <p>
+This data set specifies the data necessary to permit the receiving 
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ to be able to report the 
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s progress along their 
+            <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+ and, in particular, their 
+            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
+      <b>Scope and Collection</b>
+      <ul>
+         <li>
+            <p>
+Completion is mandatory for all 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with a 
+                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ where there has been a transfer of care to an alternative 
+                        <xref outputclass="businessDefinition"
+                     keyref="business_definition_health_care_provider">Health Care Provider</xref>.                </p>
+         </li>
+         <li>
+            <p>
+Completion is advisable for 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ without a 
+                        <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>, where there has been a transfer of care to an alternative 
+                        <xref outputclass="businessDefinition"
+                     keyref="business_definition_health_care_provider">Health Care Provider</xref>, but this is voluntary.                </p>
+         </li>
+         <li>
+            <p>
+The referring 
+                        <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ should send the data set within 48 hours of 
+                        <xref outputclass="element"
+                     keyref="element_decision_to_refer_date__inter-provider_transfer_">DECISION TO REFER DATE (INTER-PROVIDER TRANSFER)</xref>.                </p>
+         </li>
+         <li>
+            <p>
+Inter-provider transfer 
+                        <xref outputclass="class" keyref="class_service_request">SERVICE REQUESTS</xref>
+ for clinical opinion or diagnostics, where the care of the 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ remains with the referring 
+                        <xref outputclass="businessDefinition"
+                     keyref="business_definition_health_care_provider">Health Care Provider</xref>, are voluntary.                </p>
+         </li>
+         <li>
+            <xref outputclass="class" keyref="class_service_request">SERVICE REQUESTS</xref>
+            <p>
+associated with the following 
+                        <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAYS</xref>
+ are also not currently included:                </p>
+         </li>
+         <li>
+            <ul>
+               <li>
+                  <p>
 Non-elective 
-                    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
-               </p>
-            </li>
-            <li>
-               <p>Planned admissions (usually part of a planned sequence of clinical care determined mainly on social or clinical criteria, for example, a check cystoscopy).</p>
-            </li>
-         </ul>
-      </li>
-  </ul>
-  <p>
+                                    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                  </p>
+               </li>
+               <li>
+                  <p>Planned admissions (usually part of a planned sequence of clinical care determined mainly on social or clinical criteria, for example, a check cystoscopy).</p>
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>
 Where the 
-    <xref outputclass="dataSet"
-            keyref="dataset_inter-provider_transfer_administrative_minimum_data_set">Inter-Provider Transfer Administrative Minimum Data Set</xref>
- is sent WITH the clinical referral letter it is considered to be complete if the following key data items are included:  </p>
-  <ul>
-      <li>
-         <div>
-            <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
-         </div>
-      </li>
-      <li>
-         <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
-      </li>
-      <li>
-         <xref outputclass="element"
-               keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
-      </li>
-      <li>
-         <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
-      </li>
-      <li>
-         <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
-      </li>
-      <li>
-         <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_status__inter-provider_transfer_">REFERRAL TO TREATMENT PERIOD STATUS (INTER-PROVIDER TRANSFER)</xref>
-      </li>
-  </ul>
-  <p>
+            <xref outputclass="dataSet"
+               keyref="dataset_inter-provider_transfer_administrative_minimum_data_set">Inter-Provider Transfer Administrative Minimum Data Set</xref>
+ is sent WITH the clinical referral letter it is considered to be complete if the following key data items are included:        </p>
+      <ul>
+         <li>
+            <div>
+               <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+            </div>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
+         </li>
+         <li>
+            <xref outputclass="element"
+                  keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
+         </li>
+         <li>
+            <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
+         </li>
+         <li>
+            <xref outputclass="element"
+                  keyref="element_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+         </li>
+         <li>
+            <xref outputclass="element"
+                  keyref="element_referral_to_treatment_period_status__inter-provider_transfer_">REFERRAL TO TREATMENT PERIOD STATUS (INTER-PROVIDER TRANSFER)</xref>
+         </li>
+      </ul>
+      <p>
 Where the 
-    <xref outputclass="dataSet"
-            keyref="dataset_inter-provider_transfer_administrative_minimum_data_set">Inter-Provider Transfer Administrative Minimum Data Set</xref>
+            <xref outputclass="dataSet"
+               keyref="dataset_inter-provider_transfer_administrative_minimum_data_set">Inter-Provider Transfer Administrative Minimum Data Set</xref>
  is sent independently of the clinical referral letter, ALL mandated 
-    <xref outputclass="dataSet"
-            keyref="dataset_inter-provider_transfer_administrative_minimum_data_set">Inter-Provider Transfer Administrative Minimum Data Set</xref>
- data items must be completed.  </p>
-  <p>Further Guidance</p>
-  <p>
+            <xref outputclass="dataSet"
+               keyref="dataset_inter-provider_transfer_administrative_minimum_data_set">Inter-Provider Transfer Administrative Minimum Data Set</xref>
+ data items must be completed.        </p>
+      <b>Further Guidance</b>
+      <p>
 Further guidance on the data set can be found in 'The Inter-Provider Transfer Administrative Data Set Operational Information Standard' and in 
-    <xref href="https://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2007/302007.pdf"
-            scope="external"
-            format="html">DSCN 30/2007</xref>
-.  </p>
-  <p>
+            <xref href="https://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2007/302007.pdf"
+               scope="external"
+               format="html">DSCN 30/2007</xref>.        </p>
+      <p>
 Further guidance and definitions on 
-    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
+            <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
  and those 
-    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAYS</xref>
+            <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAYS</xref>
  included within the Consultant-Led Referral to Treatment Waiting Times can be found on the 
-    <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_england">NHS England</xref>
+            <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_england">NHS England</xref>
  website at: 
-    <xref href="https://www.england.nhs.uk/statistics/rtt-waiting-times/"
-            scope="external"
-            format="html">Consultant-led Referral to Treatment Waiting Times</xref>
-.  </p>
-
+            <xref href="https://www.england.nhs.uk/statistics/rtt-waiting-times/"
+               scope="external"
+               format="html">Consultant-led Referral to Treatment Waiting Times</xref>.        </p>
+      <p>
+         <b>Mandation</b>
+      </p>
+      <p>The Mandation column indicates the NHS recommendation for the inclusion of data:</p>
+      <ul>
+         <li>
+            <div>
+               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+            </div>
+         </li>
+         <li>
+            <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
+         </li>
+      </ul>
+  </div>
 </body>
 </topic>

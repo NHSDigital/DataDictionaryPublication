@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_physical_activity_vital_sign_level.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PHYSICAL ACTIVITY VITAL SIGN LEVEL - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>Achieves guidance level of physical activity</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>Does not achieve guidance level of physical activity</stentry>
+      </strow>
+      <strow>
+        <stentry>Z</stentry>
+        <stentry>
+  <p>
+Not Stated (<xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ asked but declined to provide a response)    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

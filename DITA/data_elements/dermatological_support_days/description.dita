@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_dermatological_support_days.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DERMATOLOGICAL SUPPORT DAYS - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+The total number of days that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received dermatological system support during a 
+              <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>, ranging from 000 to 997 days.        </p>
+      <p>
+This is derived from the difference between the 
+              <xref outputclass="attribute"
+               keyref="attribute_activity_property_effective_date">ACTIVITY PROPERTY EFFECTIVE DATE</xref>
+ and the 
+              <xref outputclass="attribute" keyref="attribute_activity_property_end_date">ACTIVITY PROPERTY END DATE</xref>
+ for all 
+              <xref outputclass="class" keyref="class_activity_property">ACTIVITY PROPERTIES</xref>
+ where the 
+              <xref outputclass="attribute" keyref="attribute_organ_system_supported">ORGAN SYSTEM SUPPORTED</xref>
+ is National Code 08 '<i>Dermatological Support'</i>
+ within the 
+              <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>.        </p>
+      <p>
+         <xref outputclass="element" keyref="element_dermatological_support_days">DERMATOLOGICAL SUPPORT DAYS</xref>
+ is used by the 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ to derive the 
+              <b>
+            <xref outputclass="supportingInformation"
+                  keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+         </b>
+  
+              <b>4</b>. Failure to correctly populate this data element is likely to result in an incorrect 
+              <xref outputclass="supportingInformation"
+               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>, usually associated with lower levels of healthcare resource.        </p>
+      <p>
+For further information, please refer to the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+              <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance"
+               scope="external"
+               format="html">Payment by Results Guidance</xref>.        </p>
+  </div>
+</body>
+</topic>

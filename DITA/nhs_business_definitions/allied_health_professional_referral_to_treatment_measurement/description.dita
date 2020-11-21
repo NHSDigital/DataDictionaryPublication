@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_allied_health_professional_referral_to_treatment_measurement.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Allied Health Professional Referral to Treatment Measurement - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+A 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+ is a 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
+      <p>
+In 2008, the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+ published 'Framing the Contribution of Allied Health Professionals', which sets out three key aspects for improving the 
+              <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ which 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>
+ in 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Services (Referral To Treatment Measurement)</xref>
+ provide:        </p>
+      <ul>
+         <li>
+            <div>
+               <p>
+To mandate the collection of Referral To Treatment information for Allied Health Professionals and support 
+                                <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ redesign to improve 
+                                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ for 
+                                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+To promote the benefits of self-referral to Physiotherapy 
+                                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+               </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <p>
+To improve the quality of 
+                                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ delivered                    </p>
+            </div>
+         </li>
+      </ul>
+      <p>
+The 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+ introduced voluntary collection of Allied Health Professional 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ waiting time information from April 2010, and mandatory collection from April 2011.  The 
+              <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ and the 
+              <xref href="https://v3.datadictionary.nhs.uk/web_site_content/navigation/commissioning_data_sets_menu.html"
+               scope="external"
+               format="html">Commissioning Data Sets</xref>
+ (version 6-2 onwards) include the facility to report the Allied Health Professional 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ waiting time data elements which are used for waiting time measurement.        </p>
+      <p>The Allied Health Professionals mandated to collect and flow Referral To Treatment data are:</p>
+      <ul>
+         <li>
+            <div>
+               <p>
+Art Therapists, Music Therapists and Dramatherapists (<xref outputclass="businessDefinition"
+                        keyref="business_definition_arts_therapist">Arts Therapists</xref>)                    </p>
+            </div>
+         </li>
+         <li>
+            <div>
+               <xref outputclass="businessDefinition"
+                     keyref="business_definition_chiropodist">Chiropodists</xref>
+               <p>/
+                                <xref outputclass="businessDefinition"
+                        keyref="business_definition_chiropodist">Podiatrist</xref>
+s                    </p>
+            </div>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition" keyref="business_definition_dietitian">Dietitians</xref>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_occupational_therapist">Occupational Therapists</xref>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_orthoptist">Orthoptists</xref>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_physiotherapist">Physiotherapists</xref>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_prosthetist">Prosthetists</xref>
+            <p>
+ and 
+                          <xref outputclass="businessDefinition" keyref="business_definition_orthotist">Orthotists</xref>
+            </p>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_radiographer">Radiographers</xref>
+            <p> (Diagnostic and Therapeutic)</p>
+         </li>
+         <li>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_speech_and_language_therapist">Speech and Language Therapists</xref>
+         </li>
+      </ul>
+      <p>
+There is no maximum waiting time target attached to an Allied Health Professional 
+              <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>, so no adjustments can be applied to the calculated waiting time between the 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+ and the 
+              <xref outputclass="attribute"
+               keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>.  However, locally the 
+              <xref outputclass="element"
+               keyref="element_earliest_clinically_appropriate_date">EARLIEST CLINICALLY APPROPRIATE DATE</xref>
+ and the 
+              <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ can be used by 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ and their Commissioners to analyse unexpectedly long waits for 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>.        </p>
+      <p>
+Allied Health Professionals working as part of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
+ in secondary care are excluded.        </p>
+      <p>
+Further guidance relating to the Allied Health Professional Referral To Treatment initiative can be found on the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+ at: 
+              <xref href="http://webarchive.nationalarchives.gov.uk/20130107105354/http://www.dh.gov.uk/en/Publicationsandstatistics/Publications/PublicationsPolicyAndGuidance/DH_114871"
+               scope="external"
+               format="html">Allied Health Professional (AHP) Referral to Treatment (RTT) guide</xref>.        </p>
+  </div>
+</body>
+</topic>

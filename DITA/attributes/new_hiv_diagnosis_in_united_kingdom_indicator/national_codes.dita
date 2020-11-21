@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_new_hiv_diagnosis_in_united_kingdom_indicator.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: NEW HIV DIAGNOSIS IN UNITED KINGDOM INDICATOR - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+  <p>
+Yes - the 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was newly diagnosed with Human Immunodeficiency Virus (HIV) in the United Kingdom at the current 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_hiv_clinic_attendance">HIV Clinic Attendance</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+  <p>
+No - the 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was not newly diagnosed with Human Immunodeficiency Virus (HIV) in the United Kingdom at the current 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_hiv_clinic_attendance">HIV Clinic Attendance</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="error">
+    <title><b>We can't seem to find the page you're looking for</b></title>
+    <body>
+        <p outputclass="alert alert-danger">We can't seem to find the page you're looking for -
+            error code 404</p>
+        <p>You can :
+            <ul id="ul_fjc_v4c_vmb">
+                <li>Go to <xref href="about/about.dita"/>, </li>
+                <li>Use the menu above, or</li>
+                <li>Try searching for the page you are looking for</li>
+            </ul>
+        </p>
+        <p>If you still can’t find the information you want, try our <xref
+                href="help.dita"/> page.</p>
+        <p
+            conref="help.dita#contact_us_and_faq_overview_overview/email.address"
+        />
+    </body>
+</topic>

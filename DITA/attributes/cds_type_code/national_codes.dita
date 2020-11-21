@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_cds_type_code.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: CDS TYPE CODE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>010</stentry>
+        <stentry>Accident and Emergency Attendance</stentry>
+      </strow>
+      <strow>
+        <stentry>011</stentry>
+        <stentry>Emergency Care Attendance</stentry>
+      </strow>
+      <strow>
+        <stentry>020</stentry>
+        <stentry>
+  <p>Outpatient
+</p>
+  <p>
+May also be used to submit a 
+        <xref outputclass="supportingInformation"
+            keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>021</stentry>
+        <stentry>Future Outpatient</stentry>
+      </strow>
+      <strow>
+        <stentry>030</stentry>
+        <stentry>Elective Admission List End of Period Census (Standard)</stentry>
+      </strow>
+      <strow>
+        <stentry>040</stentry>
+        <stentry>Elective Admission List End of Period Census (Old)</stentry>
+      </strow>
+      <strow>
+        <stentry>050</stentry>
+        <stentry>Elective Admission List End of Period Census (New)</stentry>
+      </strow>
+      <strow>
+        <stentry>060</stentry>
+        <stentry>Elective Admission List Event During Period (Add)</stentry>
+      </strow>
+      <strow>
+        <stentry>070</stentry>
+        <stentry>Elective Admission List Event During Period (Remove)</stentry>
+      </strow>
+      <strow>
+        <stentry>080</stentry>
+        <stentry>Elective Admission List Event During Period (Offer)</stentry>
+      </strow>
+      <strow>
+        <stentry>090</stentry>
+        <stentry>Elective Admission List Event During Period (Available/Unavailable)</stentry>
+      </strow>
+      <strow>
+        <stentry>100</stentry>
+        <stentry>Elective Admission List Event During Period (Old Service Agreement)</stentry>
+      </strow>
+      <strow>
+        <stentry>110</stentry>
+        <stentry>Elective Admission List Event During Period (New Service Agreement)</stentry>
+      </strow>
+      <strow>
+        <stentry>120</stentry>
+        <stentry>Finished Birth Episode</stentry>
+      </strow>
+      <strow>
+        <stentry>130</stentry>
+        <stentry>Finished General Episode</stentry>
+      </strow>
+      <strow>
+        <stentry>140</stentry>
+        <stentry>Finished Delivery Episode</stentry>
+      </strow>
+      <strow>
+        <stentry>150</stentry>
+        <stentry>Other Birth</stentry>
+      </strow>
+      <strow>
+        <stentry>160</stentry>
+        <stentry>Other Delivery</stentry>
+      </strow>
+      <strow>
+        <stentry>170</stentry>
+        <stentry>Detained and/or Long-Term Psychiatric Census</stentry>
+      </strow>
+      <strow>
+        <stentry>180</stentry>
+        <stentry>Unfinished Birth Episode</stentry>
+      </strow>
+      <strow>
+        <stentry>190</stentry>
+        <stentry>Unfinished General Episode</stentry>
+      </strow>
+      <strow>
+        <stentry>200</stentry>
+        <stentry>Unfinished Delivery Episode</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

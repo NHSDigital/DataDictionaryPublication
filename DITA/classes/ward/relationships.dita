@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_ward.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: WARD - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each WARD</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be within one and only one </stentry>
+        <stentry>
+          <xref keyref='class_organisation' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be within  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_organisation_site' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the actual location for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or may be vacated due to one and only one </stentry>
+        <stentry>
+          <xref keyref='class_leave' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be accessed via one or more </stentry>
+        <stentry>
+          <xref keyref='class_right_of_admission' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the planned location for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the subject of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_ward_operational_plan' outputclass='class'></xref>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

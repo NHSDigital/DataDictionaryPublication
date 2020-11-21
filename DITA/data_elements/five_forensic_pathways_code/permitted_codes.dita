@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_five_forensic_pathways_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: FIVE FORENSIC PATHWAYS CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>0</p>
+</stentry>
+        <stentry>
+  <p>
+Unable to assign 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to one of the 
+        <xref outputclass="businessDefinition"
+            keyref="business_definition_five_forensic_pathways">Five Forensic Pathways</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>1</p>
+</stentry>
+        <stentry>
+  <p>Treatment responsive group</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>2</p>
+</stentry>
+        <stentry>
+  <p>Treatment resistant group - challenging behaviour</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>3</p>
+</stentry>
+        <stentry>
+  <p>Treatment resistant group - continuing care</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>4</p>
+</stentry>
+        <stentry>
+  <p>
+Personality disorder group - 
+        <xref outputclass="businessDefinition" keyref="business_definition_prison">Prison</xref>
+ transfer    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>5</p>
+</stentry>
+        <stentry>
+  <p>Personality disorder group - co-morbidity</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

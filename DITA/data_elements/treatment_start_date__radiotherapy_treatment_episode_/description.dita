@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_treatment_start_date__radiotherapy_treatment_episode_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: TREATMENT START DATE (RADIOTHERAPY TREATMENT EPISODE) - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+         <xref outputclass="element"
+               keyref="element_treatment_start_date__radiotherapy_treatment_episode_">TREATMENT START DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+ is the same as data element 
+              <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>.        </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_treatment_start_date__radiotherapy_treatment_episode_">TREATMENT START DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+ is the 
+              <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
+ where the treatment is being undertaken as part of a 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_cancer_treatment_period">Cancer Treatment Period</xref>
+ and where the 
+              <xref outputclass="attribute" keyref="attribute_cancer_treatment_modality">CANCER TREATMENT MODALITY</xref>
+ is National Code 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_teletherapy">Teletherapy</xref>'</i>
+ or 
+              <i>'<xref outputclass="businessDefinition"
+                  keyref="business_definition_brachytherapy">Brachytherapy</xref>'.            </i>
+      </p>
+      <p>
+         <xref outputclass="element"
+               keyref="element_treatment_start_date__radiotherapy_treatment_episode_">TREATMENT START DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+ is the date that treatment for a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s condition using a 
+              <xref outputclass="attribute"
+               keyref="attribute_radiotherapy_treatment_modality">RADIOTHERAPY TREATMENT MODALITY</xref>
+ started.        </p>
+      <p>
+For the 
+              <xref outputclass="dataSet" keyref="dataset_radiotherapy_data_set">Radiotherapy Data Set</xref>, 
+              <xref outputclass="element"
+               keyref="element_treatment_start_date__radiotherapy_treatment_episode_">TREATMENT START DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+ is the date the first 
+              <xref outputclass="businessDefinition" keyref="business_definition_fraction">Fraction</xref>
+ of 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy">Radiotherapy</xref>
+ was given to the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ in the 
+              <xref outputclass="businessDefinition"
+               keyref="business_definition_radiotherapy_episode">Radiotherapy Episode</xref>.        </p>
+  </div>
+</body>
+</topic>

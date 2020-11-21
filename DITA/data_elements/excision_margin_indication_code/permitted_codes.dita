@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_excision_margin_indication_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: EXCISION MARGIN INDICATION CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>01</p>
+</stentry>
+        <stentry>
+  <p>Excision margins are clear (distance from margin not stated)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>02</p>
+</stentry>
+        <stentry>
+  <p>
+Excision margins are clear (<xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ greater than 5mm from the margin)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>03</p>
+</stentry>
+        <stentry>
+  <p>
+Excision margins are clear (<xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ greater than 1mm but less than or equal to 5mm from the margin)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>04</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+  <p> is less than or equal to 1mm of excision margin, but does not reach margin</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>05</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+  <p>
+ reaches 
+        <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ margin    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>06</p>
+</stentry>
+        <stentry>
+  <p>Uncertain (Unable to give a definitive answer)</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>07</p>
+</stentry>
+        <stentry>
+  <p>Margin not involved - equal to or greater than 1mm</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>08</p>
+</stentry>
+        <stentry>
+  <p>Margin not involved less than 1mm</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>09</p>
+</stentry>
+        <stentry>
+  <p>Margin not involved 1-5mm</p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

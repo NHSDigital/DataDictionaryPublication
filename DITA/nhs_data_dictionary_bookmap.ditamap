@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>NHS Data Model and Dictionary</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <bookrights>
+            <copyrfirst>
+                <year>1987</year>
+            </copyrfirst>
+            <copyrlast>
+                <year>2020</year>
+            </copyrlast>
+            <bookowner><organization>Health and Social Care Information Centre, known as NHS Digital</organization></bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+    <preface href="preface.ditamap" format="ditamap"></preface>
+     <colophon href="colophon_ditamap.ditamap" />
+       <booklists>
+            <toc />
+        </booklists>
+    </frontmatter>
+        
+    
+    <part navtitle="Data set specifications">
+        <chapter href="about.ditamap" toc="yes"/>
+        <chapter href="data_sets.ditamap" toc="yes"/>
+        <chapter href="data_elements.ditamap" toc="no"/>
+    </part>
+    <part navtitle="NHS Data Model">
+        <chapter href="attributes.ditamap" toc="no"/>
+        <chapter href="classes.ditamap" toc="no"/>
+        <chapter href="nhs_business_definitions.ditamap" toc="no"/>
+    </part>
+    <part navtitle="Additional information">
+        <chapter href="supporting_information.ditamap" toc="no"/>
+        <chapter href="xml_schema_constraints.ditamap" toc="no"/>
+        <chapter href="all_items_index__a-z_.ditamap" toc="yes"/>
+        <chapter href="keydefs.ditamap" format="ditamap" processing-role="resource-only"/>
+    </part>
+</bookmap>

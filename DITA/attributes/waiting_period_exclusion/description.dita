@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_waiting_period_exclusion.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: WAITING PERIOD EXCLUSION - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+      <p>
+It is a total of all periods that a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been suspended, plus the effect in days if a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has self-deferred, for 
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ on an 
+              <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>.        </p>
+      <p>
+When a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been transferred between providers, this is the total number of days that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was excluded from the 
+              <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ at previous provider(s) as well as with the current provider.        </p>
+      <p>
+Please note: if a 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is offered a date of admission but does not turn up and gives no advanced warning, then their waiting time is re-set from the admission date which the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ failed to attend. Therefore, any 
+              <xref outputclass="attribute" keyref="attribute_waiting_period_exclusion">WAITING PERIOD EXCLUSIONS</xref>
+ from before the re-set waiting time date will be annulled, and should not be used for any further waiting time calculations.        </p>
+  </div>
+</body>
+</topic>

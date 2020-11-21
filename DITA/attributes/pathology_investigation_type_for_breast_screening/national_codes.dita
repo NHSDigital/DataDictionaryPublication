@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_pathology_investigation_type_for_breast_screening.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PATHOLOGY INVESTIGATION TYPE FOR BREAST SCREENING - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+  <p>
+Needle 
+        <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+ for Cytology (Fine Needle Aspiration or Cytology)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+  <p>
+Needle 
+        <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+ for Histology (Wide Bore Needle or Core Biopsy)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Diagnostic Surgery for Histology (Open Biopsy)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

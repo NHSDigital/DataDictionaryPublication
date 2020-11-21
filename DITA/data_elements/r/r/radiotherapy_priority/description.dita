@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_radiotherapy_priority.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: RADIOTHERAPY PRIORITY - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an1</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_radiotherapy_priority">RADIOTHERAPY PRIORITY</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_radiotherapy_priority">RADIOTHERAPY PRIORITY</xref>
+.   </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>
+, 
+    <xref outputclass="attribute" keyref="attribute_radiotherapy_priority">RADIOTHERAPY PRIORITY</xref>
+ must be recorded where the 
+    <xref outputclass="attribute" keyref="attribute_cancer_treatment_modality">CANCER TREATMENT MODALITY</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_teletherapy">Teletherapy</xref>
+ (Beam radiation excluding 
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_proton_therapy">Proton Therapy</xref>
+)'    </i>
+.  </p>
+
+
+  </body>
+</topic>

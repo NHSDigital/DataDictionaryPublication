@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_cancer_surgical_admission_type.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: CANCER SURGICAL ADMISSION TYPE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The type of surgical admission during a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_care_spell">Cancer Care Spell</xref>
+.  </p>
+  <p>
+      <xref outputclass="attribute"
+            keyref="attribute_cancer_surgical_admission_type">CANCER SURGICAL ADMISSION TYPE</xref>
+ is derived from 
+    <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
+.  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="attribute"
+                  keyref="attribute_cancer_surgical_admission_type">CANCER SURGICAL ADMISSION TYPE</xref>
+            <p>
+ is National Code 
+                <i>'Elective Admission'</i>
+ where 
+                <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
+ is: National Code 
+                <i>'Waiting list'</i>
+, 
+                <i>'Booked'</i>
+ or 
+                <i>'Planned'</i>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="attribute"
+                  keyref="attribute_cancer_surgical_admission_type">CANCER SURGICAL ADMISSION TYPE</xref>
+            <p>
+ is National Code 
+                <i>'Emergency Admission'</i>
+               <i> </i>
+where 
+                <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
+ is: National Code 
+                <i>
+'Accident and emergency or dental casualty department of the 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_health_care_provider">Health Care Provider</xref>
+'          </i>
+, 
+                <i>
+'
+                  <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+: after a request for immediate admission has been made direct to a 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_hospital_provider">Hospital Provider</xref>
+, i.e. not through a Bed bureau, by a 
+                  <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ or deputy'          </i>
+, 
+                <i>' Bed bureau'</i>
+, 
+                <i>
+' 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_consultant_clinic">Consultant Clinic</xref>
+, of this or another 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_health_care_provider">Health Care Provider</xref>
+'          </i>
+, 
+                <i>' Admission via Mental Health Crisis Resolution Team'</i>
+, 
+                <i>
+' 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ of another provider where the 
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ had not been admitted'          </i>
+, 
+                <i>
+'Transfer of an admitted 
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from another 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ in an emergency'          </i>
+, 
+                <i>' Other emergency admission'</i>
+ or 
+                <i>' Other means'.</i>
+            </p>
+         </div>
+      </li>
+  </ul>
+  <code>TermServer</code>
+
+</body>
+</topic>

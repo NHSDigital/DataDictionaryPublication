@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode CDS - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
+ carries the data for a Finished Birth Episode.  </p>
+  <p>
+This is required when a delivery has resulted in a 
+    <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTH</xref>
+ which has taken place in either an NHS Hospital or in an non-NHS 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ funded by the NHS.  </p>
+  <p>The information is taken from the birth notification for each baby born.</p>
+  <p>
+In addition to Finished Birth Episodes, Unfinished Birth Episode Commissioning Data Set records are required for all Unfinished Birth Episodes as at midnight on 31st March each year
+    <b>.</b>
+  </p>
+  <p>
+      <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
+ should be used for the submission of this Unfinished Birth Episode Commissioning Data Set.  </p>
+  <p>
+      <b>
+To access more detailed information on the Commissioning Data Sets, see the 
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+               scope="external"
+               format="html">Commissioning_Data_Sets_Introduction</xref>
+.    </b>
+  </p>
+  <p>
+      <b>Data Group Overview</b>
+  </p>
+  <p>
+A high-level view of the Data Groups carried in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
+ is shown below.  </p>
+  <p>
+See 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
+            scope="external"
+            format="html">Commissioning Data Set Notation</xref>
+ for an explanation of Group Status and Group Repeats.   </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>
+               <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
+                     scope="external"
+                     format="html">Notation</xref>
+            </b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP OVERVIEW: CDS V6-2 TYPE 120 - APC-FINISHED BIRTH EPISODE COMMISSIONING DATA SET</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>Group
+        Status</b>
+         </stentry>
+         <stentry>
+            <b>Group
+        Repeats</b>
+         </stentry>
+         <stentry>
+            <b>FUNCTION:
+        To support the details of a Finished Birth Episode.</b>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_001_-_cds_interchange_header">CDS V6-2 Type 001 - Commissioning Data Set Interchange Header</xref>
+            </b>
+            <p>
+One per Interchange submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.
+        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..*</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_003_-_cds_message_header">CDS V6-2 Type 003 - Commissioning Data Set Message Header</xref>
+            </b>
+            <p>
+One per Commissioning Data Set Message submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: CDS TRANSACTION HEADER GROUP</b>
+Dependent upon the        <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_submission_protocol.asp"
+                  scope="external"
+                  format="html">Commissioning Data Set Submission Protocol</xref>
+being used, one of the following must be used per Commissioning Data Set Message submitted to the        <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                  scope="external"
+                  format="html">Secondary_Uses_Service</xref>
+:
+              <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+            <p>
+Or
+                <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+            </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PATIENT PATHWAY</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: PERSON GROUP (PATIENT)</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: PATIENT IDENTITY</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PATIENT CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: HOSPITAL PROVIDER SPELL</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: ADMISSION CHARACTERISTICS</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: DISCHARGE CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: BIRTH EPISODE</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: ACTIVITY CHARACTERISTICS</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..5</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: OVERSEAS VISITOR STATUS</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: SERVICE AGREEMENT DETAILS</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PERSON GROUP (CONSULTANT)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: CLINICAL DIAGNOSIS GROUP (ICD)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: CLINICAL DIAGNOSIS GROUP (READ)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: CLINICAL ACTIVITY GROUP (OPCS)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: CLINICAL ACTIVITY GROUP (READ)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: LOCATION GROUP (AT START OF EPISODE)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..97</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: LOCATION GROUP (AT WARD STAY)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: LOCATION GROUP (AT END OF EPISODE)</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: CRITICAL CARE PERIOD</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..9</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: NEONATAL CRITICAL CARE PERIOD</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..9</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PAEDIATRIC CRITICAL CARE PERIOD</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..9</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: ADULT CRITICAL CARE PERIOD</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0.1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: GP REGISTRATION</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0.1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: REFERRER</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0.1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PREGNANCY - ACTIVITY CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: ANTENATAL CARE</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: ACTIVITY CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PERSON GROUP (RESPONSIBLE CLINICIAN)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: LOCATION GROUP (DELIVERY PLACE INTENDED)</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: LABOUR/DELIVERY - ACTIVITY CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: DELIVERY OCCURRENCE</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: ACTIVITY CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PERSON IDENTITY (MOTHER)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PERSON CHARACTERISTICS (MOTHER)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: LOCATION GROUP (DELIVERY PLACE ACTUAL)</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..*</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_004_-_cds_message_trailer">CDS V6-2 Type 004 - Commissioning Data Set Message Trailer</xref>
+            </b>
+            <p>
+One per Commissioning Data Set Message submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.
+        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_002_-_cds_interchange_trailer">CDS V6-2 Type 002 - Commissioning Data Set Interchange Trailer</xref>
+            </b>
+            <p>
+One per Interchange submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.
+        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+</body>
+</topic>

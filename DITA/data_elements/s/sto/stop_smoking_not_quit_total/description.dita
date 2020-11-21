@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_stop_smoking_not_quit_total.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: STOP SMOKING NOT QUIT TOTAL - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_stop_smoking_not_quit_total">STOP SMOKING NOT QUIT TOTAL</xref>
+ is the number of 
+    <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ in a 
+    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+ with a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_person_stop_smoking_episode">Person Stop Smoking Episode</xref>
+ and an 
+    <xref outputclass="attribute"
+            keyref="attribute_outcome_at_4_week_follow-up_for_stop_smoking">OUTCOME AT 4 WEEK FOLLOW-UP FOR STOP SMOKING</xref>
+ of National Code 
+    <i>'Not quit at 4 week follow-up'.</i>
+  </p>
+
+
+  </body>
+</topic>

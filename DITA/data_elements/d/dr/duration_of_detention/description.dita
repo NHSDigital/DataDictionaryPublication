@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_duration_of_detention.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DURATION OF DETENTION - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>n5</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_duration_of_detention">DURATION OF DETENTION</xref>
+ is the duration derived from the 
+    <xref outputclass="element" keyref="element_date_detention_commenced">DATE DETENTION COMMENCED</xref>
+ and the date of the census.  </p>
+  <p>Enter 00000-29200 in days (approximately 80 years), right justified with preceding zeros.</p>
+
+
+  </body>
+</topic>

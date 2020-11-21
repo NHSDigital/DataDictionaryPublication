@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_patient_usual_address.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PATIENT USUAL ADDRESS - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an175 (5 lines each an35)</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+  is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_address">ADDRESS</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+ is the usual 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ nominated by the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+, where the 
+    <xref outputclass="attribute" keyref="attribute_address_association_type">ADDRESS ASSOCIATION TYPE</xref>
+ is National Code 
+    <i>'Main Permanent Residence'</i>
+ or 
+    <i>'Other Permanent Residence'</i>
+.  </p>
+  <p>
+For the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+            scope="external"
+            format="html">Commissioning Data Sets</xref>
+ it is necessary whenever an 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ is included in a 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+            scope="external"
+            format="html">Commissioning Data Set</xref>
+ message to allow correct interpretation by the recipient. The following values have been used in 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+            scope="external"
+            format="html">Commissioning Data Set</xref>
+ message implementations and are recommended to be used.  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>1 or S</p>
+         </stentry>
+         <stentry>
+            <p>
+To denote a "Label format" 
+                  <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+, i.e. an 
+                  <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ consisting of up to five address lines of 35 characters where each line is left justified as a specific data element        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>2 or U</p>
+         </stentry>
+         <stentry>
+            <p>
+To denote an unstructured 
+                  <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+, i.e. an 
+                  <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ consisting of up to five contiguous data elements of 35 characters representing a 175 character string        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>
+If 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ usually resident elsewhere are staying in hotels, hostels or other residential establishments for a short term, for example, a week, they should be recorded as staying at their usual place of residence. However if it is long term, such as at boarding school, the 
+    <xref outputclass="businessDefinition" keyref="business_definition_school">School</xref>
+      <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ must be recorded. University students may nominate either their home 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ or the 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ of their university accommodation.  </p>
+  <p>
+Where 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ are not capable of supplying this information, because of age or mental illness, for example, then the 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ responsible for the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+, such as a parent or guardian, should nominate the 
+    <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+.  </p>
+  <p>
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ not able to provide an 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ should be asked for their most recent 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+. If this cannot be established, record the 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ as 
+    <i>'No fixed abode'</i>
+ or 
+    <i>'Address unknown'</i>
+. These 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ are regarded as resident in the local geographical district for commissioning purposes.  </p>
+  <p>For birth episodes this should refer to the mother's usual place of residence.</p>
+  <p>
+The format of 5 lines of an35 conforms to 
+    <xref outputclass="attribute" keyref="attribute_address_format_type">ADDRESS FORMAT TYPE</xref>
+      <i>'Unstructured Format'</i>
+. The format refers to the physical layout of the 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+, not the logical layout, and does not require intelligent intervention when splitting the text string into lines. For example:  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>Flat 1, 21 Arbuthnott Avenue, Pollo (35 chars)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>k Estate, Lesser Hinkley, Staffords (35 chars)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>hire (4 chars)</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s name and 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ should be withheld from any commissioning record which contains a valid 
+    <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+.  </p>
+
+
+  </body>
+</topic>

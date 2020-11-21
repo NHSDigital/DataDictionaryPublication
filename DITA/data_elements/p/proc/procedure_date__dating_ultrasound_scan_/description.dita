@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_procedure_date__dating_ultrasound_scan_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PROCEDURE DATE (DATING ULTRASOUND SCAN) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_procedure_date__dating_ultrasound_scan_">PROCEDURE DATE (DATING ULTRASOUND SCAN)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_procedure_date">Procedure Date</xref>
+'    </i>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_dating_ultrasound_scan">Dating Ultrasound Scan</xref>
+.  </p>
+
+
+  </body>
+</topic>

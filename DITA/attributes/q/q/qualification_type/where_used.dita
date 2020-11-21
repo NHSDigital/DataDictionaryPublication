@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_qualification_type.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: QUALIFICATION TYPE - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_qualification' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute QUALIFICATION TYPE of type QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_qualification_type' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_employee_qualification_planned_completion_date__gp_training_' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_employee_qualification_planned_completion_date__specialist_training_' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_qualification_planned_completion_date_change_reason__cct_' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_qualification_type' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_training_activity_actual_completion_date__gp_training_' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_training_activity_actual_completion_date__specialist_training_' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_training_activity_start_date__gp_training_' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_training_activity_start_date__specialist_training_' outputclass='element' />
+        </stentry>
+        <stentry>references in description QUALIFICATION TYPE</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

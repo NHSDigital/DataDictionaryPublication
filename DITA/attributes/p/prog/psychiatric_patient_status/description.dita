@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_psychiatric_patient_status.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: PSYCHIATRIC PATIENT STATUS - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An indication of whether the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been admitted or transferred to a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ in one of the psychiatric specialties within a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+.  </p>
+  <p>
+      <xref outputclass="attribute" keyref="attribute_psychiatric_patient_status">PSYCHIATRIC PATIENT STATUS</xref>
+ should be recorded against the first 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ episode in one of the psychiatric specialties but not for subsequent psychiatric consultant episodes or for any non-psychiatric episodes.  </p>
+  <p>
+This information is used to indicate the turnover period within the 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ and identify, where possible, all first time psychiatric admissions and re-admissions.  </p>
+  <p>
+Where a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has a history of admissions to several 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider">Hospital Providers</xref>
+, then priority between National Codes 1 and 2 should be given to the current 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+, and National Code 1 selected, irrespective of whether or not the last admission was to the same 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

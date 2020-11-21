@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_patient_level_contract_monitoring_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Patient Level Contract Monitoring Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <b>Introduction</b>
+  </p>
+  <p>
+The purpose of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+ (
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">PLCM</xref>
+) is to enable the interchange, in a uniform format, of monthly 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ level 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/contract_monitoring.asp"
+            scope="external"
+            format="html">Contract_Monitoring</xref>
+ data between all purchasers and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+. This will ensure that 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/contract_monitoring.asp"
+            scope="external"
+            format="html">Contract_Monitoring</xref>
+ and reporting is consistent, comparable and fit for purpose across all commissioning 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+ is a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ level report containing 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ identifiers. Its purpose is to substantiate and provide detail to the information contained within the 
+    <xref outputclass="dataSet"
+            keyref="dataset_aggregate_contract_monitoring_data_set">Aggregate Contract Monitoring Data Set</xref>
+ (
+    <xref outputclass="dataSet"
+            keyref="dataset_aggregate_contract_monitoring_data_set">ACM</xref>
+). It will contain details of 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ level clinical activities that are not found in flows of standard 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+            scope="external"
+            format="html">Commissioning Data Sets</xref>
+ (CDS) submitted to the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+.  </p>
+  <p>
+      <b>Scope</b>
+  </p>
+  <p>
+The scope of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+ Information Standard is all NHS-funded acute and community clinical care (excluding drugs and 
+    <xref outputclass="class" keyref="class_medical_device">MEDICAL DEVICES</xref>
+ not covered by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+) provided to 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+, as well as financial adjustments not attributed directly to clinical care, for all commissioners.  </p>
+  <p>This covers:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+All acute and community NHS and secondary care 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Providers</xref>
+, but not primary care, from whom the NHS commissions healthcare        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+All NHS commissioners (
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
+ (
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_clinical_commissioning_group">CCG</xref>
+) or their equivalents and 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_nhs_england">NHS England</xref>
+).        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+Note that the totality of expenditure in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+ must be equivalent to the monetary value (excluding drugs and 
+    <xref outputclass="class" keyref="class_medical_device">MEDICAL DEVICES</xref>
+ not covered by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+) shown in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_aggregate_contract_monitoring_data_set">Aggregate Contract Monitoring Data Set</xref>
+.  </p>
+  <p>
+      <b>Submission</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+ is submitted on a monthly basis to the respective 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_data_services_for_commissioners_regional_office">Data Services for Commissioners Regional Office</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_data_services_for_commissioners_regional_office">DSCRO</xref>
+) as nominated by each commissioning function in line with the dates documented in the data submission timetable within Schedule 6 of the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/nhs_standard_contract.asp"
+            scope="external"
+            format="html">NHS_Standard_Contract</xref>
+.  </p>
+  <p>
+The completed monthly 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+ should be transmitted using the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/data_landing_portal.asp"
+            scope="external"
+            format="html">Data_Landing_Portal</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/data_landing_portal.asp"
+            scope="external"
+            format="html">DLP</xref>
+).  </p>
+  <p>
+For further information on the 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+, see the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_england">NHS England</xref>
+ website at: 
+    <xref href="https://www.england.nhs.uk/nhs-standard-contract/dc-reporting/"
+            scope="external"
+            format="html">Directly Commissioned Services Reporting Requirements</xref>
+.  </p>
+
+</body>
+</topic>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_appointment_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: APPOINTMENT DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>
+.  </p>
+  <p>
+      <b>Usage in the CDS:</b>
+  </p>
+  <p>
+The Outpatient and Future Outpatient CDS Types use the 
+    <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+ as the "CDS ORIGINATING DATE" as a mandatory requirement of the CDS Exchange Protocol, see 
+    <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+.
+  </p>
+  <p>
+For the Future Outpatient CDS where no 
+    <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+ is available from the healthcare system, a default date value of 2999-12-31 may be applied. Care must be taken to generate the correct CDS Exchange Protocol when using this default value.  </p>
+  <p>
+When submitting a 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/referral_to_treatment_clock_stop_administrative_event.asp"
+            scope="external"
+            format="html">Referral_To_Treatment_Clock_Stop_Administrative_Event</xref>
+ via the 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+, 
+    <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+ is equivalent to the 
+    <xref outputclass="element"
+            keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+ carried in the record.  </p>
+
+
+  </body>
+</topic>

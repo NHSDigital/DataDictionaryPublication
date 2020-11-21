@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_a_and_e_attendance_category.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: A AND E ATTENDANCE CATEGORY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An indication of whether a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is making first or follow-up attendance at a particular 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+.  </p>
+  <p>
+      <b>Note:</b>
+  </p>
+  <p>
+An attendance at a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_clinic">Consultant Clinic</xref>
+ following an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ is an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>
+ and not an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ even if the clinic may be held in or near the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+, e.g. a Fracture Clinic.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

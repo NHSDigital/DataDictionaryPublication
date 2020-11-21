@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_critical_care_source_location.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CRITICAL CARE SOURCE LOCATION - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Theatre and Recovery (following surgical and/or anaesthetic procedure)</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>Recovery only (when used to provide temporary critical care facility)</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <p>
+Other 
+    <xref outputclass="class" keyref="class_ward">WARD</xref>
+ (not critical care)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_imaging_department">Imaging Department</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>Accident and emergency</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>Other intermediate care or specialist treatment areas including endoscopy units and catheter suites</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>Obstetrics area</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>Clinic</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>Home or other residence (including nursing home, H.M. Prison or other residential care)</stentry>
+      </strow>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>Adult level three critical care bed (ICU bed)</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>Adult level two critical care bed (HDU bed)</stentry>
+      </strow>
+      <strow>
+        <stentry>12</stentry>
+        <stentry>Paediatric critical care area (neonatal and paediatric care)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

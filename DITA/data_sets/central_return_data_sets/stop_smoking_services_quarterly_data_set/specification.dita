@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_stop_smoking_services_quarterly_data_set.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: Stop Smoking Services Quarterly Data Set - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>SUBMISSION IDENTIFIER</p>
+
+
+
+  <p>To carry the submission identifier details.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__stop_smoking_service_provider_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_reporting_period_quarter_start_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_reporting_period_quarter_end_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>PART 1 - SUMMARY DATA FOR INDIVIDUALS</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1A</p>
+
+
+
+  <p>Number of people setting a smoking quit date and number who have successfully quit by ethnic category and gender. One occurrence of this group is required per ethnic category and gender.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_ethnic_category' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_stated_gender_code__stop_smoking_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_setting_quit_date_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1B</p>
+
+
+
+  <p>Number of people setting a smoking quit date by age, gender and outcome at 4 week follow-up.One occurrence of this group is required per age band and gender.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_age_band_at_smoking_quit_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_stated_gender_code__stop_smoking_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_setting_quit_date_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_not_quit_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_lost_to_follow-up_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_carbon_monoxide_validation_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1C</p>
+
+
+
+  <p>Number of pregnant women setting a smoking quit date by outcome at 4 week follow-up.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total__pregnant_women_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_not_quit_total__pregnant_women_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_lost_to_follow-up_total__pregnant_women_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_carbon_monoxide_validation_total__pregnant_women_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1D</p>
+
+
+
+  <p>Number of people who receive free prescriptions setting a smoking quit date and the number of those who have successfully quit.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_setting_quit_date_total__free_prescription_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total__free_prescription_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1E</p>
+
+
+
+  <p>Number of people setting a smoking quit date and the number who have successfully quit by socio-economic classification. One occurrence of this group is required per socio-economic classification.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_socio-economic_classification_code__stop_smoking_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_setting_quit_date_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1F</p>
+
+
+
+  <p>Number of people setting a smoking quit date and the number who have successfully quit by pharmacotherapy stop smoking aid received.One occurrence of this group is required per pharmacotherapy stop smoking aid received.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_pharmacotherapy_stop_smoking_aid_received' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_setting_quit_date_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1G</p>
+
+
+
+  <p>Number of people setting a smoking quit date and number who have successfully quit by intervention session type used.One occurrence of this group is required per intervention session type.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_intervention_session_type__stop_smoking_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_setting_quit_date_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_intervention_session_type_reason_for_exception' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 1H</p>
+
+
+
+  <p>Number of people setting a smoking quit date and number who have successfully quit by intervention setting type used.One occurrence of this group is required per intervention setting type.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_intervention_setting_type__stop_smoking_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_setting_quit_date_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_successfully_quit_total' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_intervention_setting_type_reason_for_exception' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>PART 2 - SUMMARY FINANCIAL ALLOCATION</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 2A</p>
+
+
+
+  <p>Financial allocation for the year.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_service_local_authority_financial_allocation' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Part 2B</p>
+
+
+
+  <p>Cumulative total spend on Stop Smoking Services for the year up to the end of the quarter by type of allocation.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_service_cumulative_spend' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_service_pharmacotherapy_spend' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stop_smoking_service_other_financial_allocation' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

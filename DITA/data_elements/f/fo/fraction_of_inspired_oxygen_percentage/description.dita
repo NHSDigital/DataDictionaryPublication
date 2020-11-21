@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_fraction_of_inspired_oxygen_percentage.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: FRACTION OF INSPIRED OXYGEN PERCENTAGE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n3</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_fraction_of_inspired_oxygen_percentage">FRACTION OF INSPIRED OXYGEN PERCENTAGE</xref>
+ is the result of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+ which measures the 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+'s fraction of inspired oxygen (FiO
+    <sub>2</sub>
+), where the 
+    <xref outputclass="attribute" keyref="attribute_unit_of_measurement">UNIT OF MEASUREMENT</xref>
+ is '
+    <i>Percentage'</i>
+.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_neonatal_data_set_-_episodic_and_daily_care">National Neonatal Data Set - Episodic and Daily Care</xref>
+, 
+    <xref outputclass="element"
+            keyref="element_fraction_of_inspired_oxygen_percentage">FRACTION OF INSPIRED OXYGEN PERCENTAGE</xref>
+ indicates the maximum fraction of inspired oxygen percentage that the baby received on the 
+    <xref outputclass="element"
+            keyref="element_neonatal_critical_care_daily_care_date">NEONATAL CRITICAL CARE DAILY CARE DATE</xref>
+.  </p>
+
+
+  </body>
+</topic>

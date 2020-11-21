@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_pathology_investigation_type.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PATHOLOGY INVESTIGATION TYPE - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>CY</stentry>
+        <stentry>Cytology</stentry>
+      </strow>
+      <strow>
+        <stentry>BU</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  <p> NOS (Not otherwise specified)</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>EX</stentry>
+        <stentry>Excision</stentry>
+      </strow>
+      <strow>
+        <stentry>PE</stentry>
+        <stentry>Partial Excision</stentry>
+      </strow>
+      <strow>
+        <stentry>RE</stentry>
+        <stentry>Radical Excision</stentry>
+      </strow>
+      <strow>
+        <stentry>FE</stentry>
+        <stentry>Further Excision</stentry>
+      </strow>
+      <strow>
+        <stentry>CU</stentry>
+        <stentry>Curettage</stentry>
+      </strow>
+      <strow>
+        <stentry>SB</stentry>
+        <stentry>
+
+  <p>
+Shave 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>PB</stentry>
+        <stentry>
+
+  <p>
+Punch 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>IB</stentry>
+        <stentry>
+
+  <p>
+Incisional 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>99</stentry>
+        <stentry>Uncertain/other</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>9</stentry>
+        <stentry>Uncertain/other (Retired 1 January 2013)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

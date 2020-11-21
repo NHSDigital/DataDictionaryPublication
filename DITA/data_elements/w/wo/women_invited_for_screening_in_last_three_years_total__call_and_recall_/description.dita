@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_women_invited_for_screening_in_last_three_years_total__call_and_recall_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: WOMEN INVITED FOR SCREENING IN LAST THREE YEARS TOTAL (CALL AND RECALL) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n7</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_invited_for_screening_in_last_three_years_total__call_and_recall_">WOMEN INVITED FOR SCREENING IN LAST THREE YEARS TOTAL (CALL AND RECALL)</xref>
+ is the total number of women:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+with a 
+                <xref outputclass="attribute" keyref="attribute_breast_screening_call_status">BREAST SCREENING CALL STATUS</xref>
+ recorded as National Code '
+                <i>Call', 'Routine Call' or 'Early/short term recall'</i>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+who are sent a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>
+ test invitation by the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_nhs_breast_screening_programme">NHS Breast Screening Programme</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+and have a first 
+                <xref outputclass="element" keyref="element_screening_test_date">SCREENING TEST DATE</xref>
+ offered in the 36 months up to the 
+                <xref outputclass="attribute" keyref="attribute_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

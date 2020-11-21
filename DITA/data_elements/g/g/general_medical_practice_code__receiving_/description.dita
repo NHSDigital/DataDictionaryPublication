@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_general_medical_practice_code__receiving_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: GENERAL MEDICAL PRACTICE CODE (RECEIVING) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_general_medical_practice_code__receiving_">GENERAL MEDICAL PRACTICE CODE (RECEIVING)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+.  </p>
+  <p>
+The data for 
+    <xref outputclass="element"
+            keyref="element_general_medical_practice_code__receiving_">GENERAL MEDICAL PRACTICE CODE (RECEIVING)</xref>
+ is supplied by the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_general_medical_practice_code__receiving_">GENERAL MEDICAL PRACTICE CODE (RECEIVING)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_gp_practice">GP Practice</xref>
+ that is receiving the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from another 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+.  </p>
+  <p>
+      <b>
+Use of 
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/organisation_data_service_default_codes.asp"
+               scope="external"
+               format="html">Organisation_Data_Service_Default_Codes</xref>
+:    </b>
+  </p>
+  <ul>
+      <li>
+         <b>V81998</b>
+         <p>
+should be used where a 
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ should not have a registered 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_gp_practice">GP Practice</xref>
+.      </p>
+      </li>
+      <li/>
+      <li>
+         <div>
+            <b>V81999</b>
+            <p>
+should be used where it is not possible to determine a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s registered 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_gp_practice">GP Practice</xref>
+ code, but it is known that they should have one, or where it is impossible to determine whether they should or shouldn't have a registered practice (for instance the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ cannot communicate and is unidentified).        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

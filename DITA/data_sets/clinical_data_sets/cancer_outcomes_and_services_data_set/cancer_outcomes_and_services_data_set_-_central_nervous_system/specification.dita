@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cancer_outcomes_and_services_data_set_-_central_nervous_system.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Central Nervous System - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>IMAGING - CENTRAL NERVOUS SYSTEM (CNS)</p>
+
+
+
+  <p>To carry imaging details for Central Nervous System (CNS) cancer.One occurrence of this group is permitted per Core Imaging.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_lesion_location__radiological_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_number_of_lesions__radiological_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_lesion_size__radiological_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_principal_diagnostic_imaging_type' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>CANCER CARE PLAN - CENTRAL NERVOUS SYSTEM (CNS)</p>
+
+
+
+  <p>To carry cancer care plan details for Central Nervous System (CNS) cancer.One occurrence of this group is permitted Core Cancer Care Plan.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_provisional_diagnosis__icd_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>SURGERY - TREATMENT - CENTRAL NERVOUS SYSTEM (CNS)</p>
+
+
+
+  <p>To carry surgery details for Central Nervous System (CNS) cancer.One occurrence of this group is permitted per Core Treatment Surgery.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_tumour_location__surgical_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_biopsy_type__central_nervous_system_tumours_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_excision_type__central_nervous_system_tumours_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>SURGERY - TREATMENT: CHILDREN, TEENAGERS AND YOUNG ADULTS (CTYA) - CENTRAL NERVOUS SYSTEM (CNS)</p>
+
+
+
+  <p>To carry surgery details for Children, Teenagers and Young Adults (CTYA) for Central Nervous System (CNS) cancer.One occurrence of this group is permitted per Core Treatment Surgery.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_resection_status' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>DIAGNOSIS: LOW GRADE GLIOMA - CENTRAL NERVOUS SYSTEM (CNS)</p>
+
+
+
+  <p>To carry diagnostic Low Grade Glioma details for Central Nervous System (CNS) cancer.One occurrence of this group is permitted per Core Diagnosis.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_visual_acuity_test_result__at_diagnosis_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_visual_field_test_result__at_diagnosis_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>SITE SPECIFIC STAGING: CEREBROSPINAL FLUID (CSF) - CENTRAL NERVOUS SYSTEM (CNS)</p>
+
+
+
+  <p>To carry site specific staging Cerebrospinal Fluid (CSF) details for Central Nervous System (CNS) cancer.One occurrence of this group is required per Core Site Specific Staging.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_chang_staging_system_stage' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>LABORATORY RESULTS: GERM CELL CENTRAL NERVOUS SYSTEM (CNS) TUMOURS CHOICE - CENTRAL NERVOUS SYSTEM (CNS)</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>CHOICE 1 - ALPHA FETOPROTEIN</p>
+
+
+
+  <p>To carry Germ Cell Central Nervous System (CNS) tumour laboratory result details.One occurrence of this group is required per Core Laboratory Results if selected as the choice.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_alpha_fetoprotein__cerebrospinal_fluid_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>CHOICE 2 - BETA HUMAN CHORIONIC GONADOTROPIN</p>
+
+
+
+  <p>To carry Germ Cell Central Nervous System (CNS) tumour laboratory result details.One occurrence of this group is required per Core Laboratory Results if selected as the choice.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_beta_human_chorionic_gonadotropin__cerebrospinal_fluid_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

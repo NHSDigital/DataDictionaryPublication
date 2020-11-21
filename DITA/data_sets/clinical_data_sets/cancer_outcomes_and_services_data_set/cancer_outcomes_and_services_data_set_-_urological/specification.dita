@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cancer_outcomes_and_services_data_set_-_urological.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Urological - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>DIAGNOSTIC PROCEDURES: PROSTATE - UROLOGICAL</p>
+
+
+
+  <p>To carry cancer diagnostic procedure details for Urological cancer for the prostate.One occurrence of this group is permitted per Core Diagnostic Procedures.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_pretreatment_prostate_biopsy_technique_type' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_biopsy_anaesthetic_type' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>DIAGNOSIS: PROSTATE - UROLOGICAL</p>
+
+
+
+  <p>To carry the diagnosis details for Urological cancer for the prostate.One occurrence of this group is permitted per Core Diagnosis.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_multiparametric_mri_scan_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_mri_ultrasound_fusion_guided_biopsy_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_prostate_specific_antigen__diagnosis_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>CANCER CARE PLAN - UROLOGICAL</p>
+
+
+
+  <p>To carry cancer care plan details for Urological cancer.One occurrence of this group is permitted per Core Cancer Care Plan.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_estimated_glomerular_filtration_rate' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hydronephrosis_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_s_category_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>LABORATORY RESULTS - UROLOGICAL</p>
+
+
+
+  <p>To carry Laboratory Result details for Urological cancer.One occurrence of this group is permitted per Core Laboratory Results.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_s_category__alpha_fetoprotein_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_s_category__human_chorionic_gonadotropin_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_s_category__lactate_dehydrogenase_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_lactate_dehydrogenase_level__normal_upper_limit_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>STAGING: TESTICULAR - UROLOGICAL</p>
+
+
+
+  <p>To carry staging details for Urological cancer for testicular.One occurrence of this group is permitted per Core Site Specific Staging.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_stage_grouping__testicular_cancer_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_extent_of_metastatic_spread' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_lung_metastases_sub-stage_grouping' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>TREATMENT: BLADDER CHOICE - UROLOGICAL</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>CHOICE 1 - INTRAVESICAL CHEMOTHERAPY</p>
+
+
+
+  <p>To carry treatment details for Urological cancer for the bladder.One occurrence of this group is required per Core Treatment if selected as the choice.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_intravesical_chemotherapy_received_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>CHOICE 2 - INTRAVESICAL IMMUNOTHERAPY</p>
+
+
+
+  <p>To carry treatment details for Urological cancer for the bladder.One occurrence of this group is required per Core Treatment if selected as the choice.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_intravesical_immunotherapy_received_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>TREATMENT: PROSTATE - UROLOGICAL</p>
+
+
+
+  <p>To carry cancer treatment details for Urological cancer for the prostate.One occurrence of this group is required per Core Treatment.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_prostate_nerve_sparing_surgery_type' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_radical_prostatectomy_margin_status' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

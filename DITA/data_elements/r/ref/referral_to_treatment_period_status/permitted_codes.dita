@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_referral_to_treatment_period_status.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: REFERRAL TO TREATMENT PERIOD STATUS - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>
+
+  <p>
+First 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ in a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>
+
+  <p>
+First 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ at the start of a new 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ following 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>12</stentry>
+        <stentry>
+
+  <p>
+First 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ at the start of a new 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ following a decision to refer directly to the 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
+ for a separate condition  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>20</stentry>
+        <stentry>
+
+  <p>
+Subsequent 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ during a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ - further 
+    <xref outputclass="class" keyref="class_activity">ACTIVITIES</xref>
+ anticipated  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>21</stentry>
+        <stentry>
+
+  <p>
+Subsequent 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ by another 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ following a transfer to another 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ during a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ anticipated  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>30</stentry>
+        <stentry>
+
+  <p>
+End of the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: Start of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>31</stentry>
+        <stentry>
+
+  <p>
+End of the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: Start of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ initiated by the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>32</stentry>
+        <stentry>
+
+  <p>
+End of the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: Start of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ initiated by the 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>33</stentry>
+        <stentry>
+
+  <p>
+End of the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: Did not attend - the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ did not attend the first 
+    <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+ after the referral  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>34</stentry>
+        <stentry>
+
+  <p>
+End of the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: Decision not to treat - decision not to treat made or no further contact required  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>35</stentry>
+        <stentry>
+
+  <p>
+End of the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ declined offered treatment  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>36</stentry>
+        <stentry>
+
+  <p>
+End of the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ died before treatment  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>90</stentry>
+        <stentry>
+
+  <p>
+Not part of a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: After treatment - 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+ occurred previously (e.g. admitted as an emergency from A&amp;E or the 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ is after the start of treatment)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>91</stentry>
+        <stentry>
+
+  <p>
+Not part of a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: 
+    <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+ during 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>92</stentry>
+        <stentry>
+
+  <p>
+Not part of a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: Not yet referred for treatment, undergoing diagnostic tests by 
+    <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ before referral  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>98</stentry>
+        <stentry>
+
+  <p>
+Not part of a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+: 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ not applicable to 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>99</stentry>
+        <stentry>
+
+  <xref outputclass="attribute"
+         keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+  <p> not yet known</p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

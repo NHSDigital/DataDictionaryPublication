@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_earliest_reasonable_offer_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: EARLIEST REASONABLE OFFER DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ is the date of the earliest of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_reasonable_offer">Reasonable Offers</xref>
+ made to a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ for an 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/elective_admission.asp"
+            scope="external"
+            format="html">Elective_Admission</xref>
+. It should only be included on the Commissioning Data Sets where the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has declined at least two 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_reasonable_offer">Reasonable Offers</xref>
+, and a Patient Pause is to be applied to the length of wait calculation performed by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+.  </p>
+  <ul>
+      <li>
+         <p>
+For an 
+            <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ this is the earliest of the 
+            <xref outputclass="attribute" keyref="attribute_appointment_date_offered">APPOINTMENT DATES OFFERED</xref>
+ where the 
+            <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
+ is a 
+            <i>'</i>
+            <i>
+               <xref outputclass="businessDefinition"
+                     keyref="business_definition_reasonable_offer">Reasonable Offer</xref>
+'        </i>
+.      </p>
+      </li>
+      <li>
+         <div>
+            <p>
+For an 
+                <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+ this is the earliest of the 
+                <xref outputclass="attribute" keyref="attribute_offered_for_admission_date">OFFERED FOR ADMISSION DATES</xref>
+ where the 
+                <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+ is a 
+                <i>'</i>
+               <i>
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_reasonable_offer">Reasonable Offer</xref>
+'          </i>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <b>Patient Cancellations</b>
+  </p>
+  <p>
+Where, for any reason, a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ cancels or does not attend an 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or an 
+    <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+ the 
+    <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ for the rearranged 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or 
+    <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+ will be the 
+    <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ of the cancelled 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or 
+    <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+.  </p>
+  <p>
+      <b>Provider Cancellations</b>
+  </p>
+  <p>
+Where, for any reason, any 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ cancels and re-arranges an 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or an 
+    <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+, the 
+    <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ for the re-arranged 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ or 
+    <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+ will be the date of the earliest 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_reasonable_offer">Reasonable Offer</xref>
+ made following the cancellation.  </p>
+  <p>
+      <b>Patients who are unavailable</b>
+  </p>
+  <p>
+Where a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ makes themself unavailable for a longer period of time, for example a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ who is a teacher who wishes to delay their admission until the summer holidays, making a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_reasonable_offer">Reasonable Offer</xref>
+ may be inappropriate.  </p>
+  <p>
+In these circumstances, so long as the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ could have made at least two 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_reasonable_offer">Reasonable Offers</xref>
+, the 
+    <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ will be the date of the earliest 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_reasonable_offer">Reasonable Offer</xref>
+ that the provider could have offered the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+. This must be communicated to the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+      <b>Use in Commissioning Data Set version 6-0 onwards for Referral To Treatment Consultant-Led Waiting Times:</b>
+  </p>
+  <p>If the Commissioning Data Set record:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+relates to a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+            </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <b>and</b>
+  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+includes the 
+                <xref outputclass="element"
+                     keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+ of the 
+                <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+               <b> </b>
+            </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <b>and</b>
+  </p>
+  <ul>
+      <li>
+         <div>
+            <p> is of the following Commissioning Data Set Types:</p>
+         </div>
+         <ul>
+            <li>
+               <div>
+                  <xref outputclass="dataSet"
+                        keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode CDS</xref>
+               </div>
+            </li>
+            <li>
+               <div>
+                  <xref outputclass="dataSet"
+                        keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode CDS</xref>
+               </div>
+            </li>
+         </ul>
+      </li>
+  </ul>
+  <p>
+then 
+    <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ must be populated in the Commissioning Data Set record if a Patient Pause (the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is paused on the 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ because they have made themselves unavailable for treatment for a specified period (for non-clinical reasons)) is to be applied to a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+.   </p>
+  <p>
+Failure to include 
+    <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ in the Admitted Patient Care General Episode Commissioning Data Set record carrying the 
+    <xref outputclass="element"
+            keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+, will mean no Patient Pause is applied to the duration of wait calculation for the 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+ performed by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+.  </p>
+  <p>
+      <b>
+Use in the 
+      <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+, 
+      <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+, 
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+               scope="external"
+               format="html">Commissioning Data Sets</xref>
+ (version 6-2 onwards) for Allied Health Professional Referral To Treatment:    </b>
+  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+, 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ and the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_overview.asp"
+            scope="external"
+            format="html">Commissioning Data Sets</xref>
+ (version 6-2 onwards) the 
+    <xref outputclass="element" keyref="element_earliest_reasonable_offer_date">EARLIEST REASONABLE OFFER DATE</xref>
+ may be used locally to inform waiting time calculations for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+.  It can be used to account for periods of time where the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has not accepted the first available 
+    <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
+ and this has extended the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+ waiting time, for example:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+where a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ who is a child has been offered an 
+                <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ but their parent/
+                <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ states that they wish to wait until the school holidays commence. The 
+                <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ cannot commence planned treatment until the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is available.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+where the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ works away and cannot attend for a period of time, but it is not appropriate to discharge the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from the 
+                <xref outputclass="class" keyref="class_service">SERVICE</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

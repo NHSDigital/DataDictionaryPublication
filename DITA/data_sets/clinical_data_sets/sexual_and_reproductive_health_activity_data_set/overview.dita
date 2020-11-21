@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_sexual_and_reproductive_health_activity_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Sexual and Reproductive Health Activity Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ requires the mandatory collection of information on the 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ provided by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_sexual_and_reproductive_health_activity_data_set">Sexual and Reproductive Health Activity Data Set</xref>
+ provides essential data to:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>Ensure a relevant collection of electronic data to support local service development</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Allow monitoring of key policy initiatives and indicators such as: The Public Health Outcome Framework Indicator on under 18 conceptions; increasing access to all methods of contraception, including Long Acting Reversible Contraceptions (LARC) methods and emergency contraception for women of all ages and their partners; reducing teenage conceptions; reducing the rate of unintended pregnancies and modernisation of 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Provide appropriate definitions and guidance material to enable a standardised data set from 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Support commissioners in understanding which population groups are accessing 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+ and which 
+                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ they are receiving, including the LARC methods as recommended by 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_national_institute_for_health_and_care_excellence">National Institute for Health and Care Excellence</xref>
+ (
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_national_institute_for_health_and_care_excellence">NICE</xref>
+), and therefore allowing for long-term commissioning of 
+                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Develop, over time, indicators of quality and outcome in 
+                <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ delivery (especially in comparative reports). For example the removal and length of use for LARC devices, provision of emergency 
+                <xref outputclass="class" keyref="class_contraception">CONTRACEPTION</xref>
+, the provision of 
+                <xref outputclass="class" keyref="class_contraception">CONTRACEPTION</xref>
+ post abortion and referrals to secondary care, the comparison of attendance rates for selected care and the diversity of young 
+                <xref outputclass="class" keyref="class_person">PERSON</xref>
+ provision by 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+ including social referrals        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Aid the development of a benchmark measure to indicate how 
+                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ compare in delivering the most appropriate and effective care to 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Reflect current data collection practices and requirements at 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_sexual_and_reproductive_health_activity_data_set">Sexual and Reproductive Health Activity Data Set</xref>
+ covers 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ contact with the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+ whether in a clinic setting, in the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s home or at an alternative location.  </p>
+  <p>
+      <b>DATA EXTRACT SPECIFICATION</b>
+  </p>
+  <p>
+      <b>Description:</b>
+ The 
+    <xref outputclass="dataSet"
+            keyref="dataset_sexual_and_reproductive_health_activity_data_set">Sexual and Reproductive Health Activity Data Set</xref>
+ return includes 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ provided by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+ in clinics and non-clinic venues (e.g. outreach facilities or domiciliary visits). Also included are 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+ provided by non - NHS clinics funded wholly or in part by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_local_authority">Local Authorities</xref>
+ and/or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
+ (e.g. Brook). It does not include 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ provided by 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+ in Outpatient Clinics or those provided by 
+    <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONERS</xref>
+.  </p>
+  <p>
+Data collected will be used by the NHS, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_care_quality_commission">Care Quality Commission</xref>
+, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_local_authority">Local Authorities</xref>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
+, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ and other appropriate 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ to support the monitoring of the National Strategies on 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sexual_and_reproductive_health_service">Sexual and Reproductive Health Services</xref>
+, service provision, benchmarking and development of commissioning.  </p>
+  <p>
+      <b>Time period:</b>
+ The extract will cover one financial year.  </p>
+  <p>
+      <b>Frequency:</b>
+ Extracts run annually, six weeks after the end of the financial year.  </p>
+  <p>
+      <b>Format:</b>
+ Data returned should be formatted to a comma separated variable (CSV) or in a MS Excel file. The data variables should be transmitted in the order specified in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_sexual_and_reproductive_health_activity_data_set">Sexual and Reproductive Health Activity Data Set</xref>
+.  </p>
+  <p>
+      <b>Transmission:</b>
+ Data is submitted via an on-line process to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+.  </p>
+  <p>
+For further information on the 
+    <xref outputclass="dataSet"
+            keyref="dataset_sexual_and_reproductive_health_activity_data_set">Sexual and Reproductive Health Activity Data Set</xref>
+ see the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/data-collections/sexual-and-reproductive-health-activity-data-set-srhad-collection"
+            scope="external"
+            format="html">Sexual and Reproductive Health Activity Data Set (SRHAD) Collection</xref>
+.  </p>
+
+</body>
+</topic>

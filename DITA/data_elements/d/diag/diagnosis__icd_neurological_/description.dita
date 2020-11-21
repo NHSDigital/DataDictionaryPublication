@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_diagnosis__icd_neurological_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DIAGNOSIS (ICD NEUROLOGICAL) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>See ICD-10_CODE</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis__icd_neurological_">DIAGNOSIS (ICD NEUROLOGICAL)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_clinical_classification_code">CLINICAL CLASSIFICATION CODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis__icd_neurological_">DIAGNOSIS (ICD NEUROLOGICAL)</xref>
+ is the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+            scope="external"
+            format="html">ICD</xref>
+ code describing a 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ relating to a 
+    <i>Neurological Condition.</i>
+  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_neonatal_data_set_-_two_year_neonatal_outcomes_assessment">National Neonatal Data Set - Two Year Neonatal Outcomes Assessment</xref>
+, 
+    <xref outputclass="element" keyref="element_diagnosis__icd_neurological_">DIAGNOSIS (ICD NEUROLOGICAL)</xref>
+ may be recorded for the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_tprg-send_two_year_corrected_age_outcome_assessment">TPRG-SEND Two Year Corrected Age Outcome Assessment</xref>
+ when 
+    <i>'Yes'</i>
+ is recorded for any question (A-H) in the 'Neuromotor' section, or for question B in the 'Malformations' section.  </p>
+
+
+  </body>
+</topic>

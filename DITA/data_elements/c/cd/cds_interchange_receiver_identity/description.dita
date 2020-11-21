@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_interchange_receiver_identity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS INTERCHANGE RECEIVER IDENTITY - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an15</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_cds_interchange_receiver_identity">CDS INTERCHANGE RECEIVER IDENTITY</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_cds_interchange_receiver_identity">CDS INTERCHANGE RECEIVER IDENTITY</xref>
+.  </p>
+  <p>
+      <b>Usage:</b>
+  </p>
+  <p>
+The collection facility for Commissioning data is the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+.  </p>
+  <b>CDS XML Schema Interchanges:</b>
+  <p>
+All 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+            scope="external"
+            format="html">Commissioning Data Set</xref>
+ XML Schema interchanges submitted must contain the 
+    <xref outputclass="element"
+            keyref="element_cds_interchange_receiver_identity">CDS INTERCHANGE RECEIVER IDENTITY</xref>
+ of the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+.  </p>
+
+
+  </body>
+</topic>

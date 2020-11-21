@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_women_not_invited_total__open_breast_screening_episode_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: WOMEN NOT INVITED TOTAL (OPEN BREAST SCREENING EPISODE) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n4</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_women_not_invited_total__open_breast_screening_episode_">WOMEN NOT INVITED TOTAL (OPEN BREAST SCREENING EPISODE)</xref>
+ is the total number of women with an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_open_breast_screening_episode">Open Breast Screening Episode</xref>
+ without a first offered 
+    <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>
+. The women may have been selected for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>
+ but have not yet been sent an invitation for a 
+    <xref outputclass="businessDefinition" keyref="business_definition_mammogram">Mammogram</xref>
+.  </p>
+
+
+  </body>
+</topic>

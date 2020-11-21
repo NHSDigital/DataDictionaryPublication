@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_forensic_mental_health_care_cluster.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Forensic Mental Health Care Cluster - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>
+ is a type of 
+    <xref outputclass="class" keyref="class_care_cluster">CARE CLUSTER</xref>
+ for 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ accessing 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_service">Forensic Mental Health Services</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>
+ is part of a currency developed to support the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+ for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_service">Forensic Mental Health Services</xref>
+.  </p>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Clusters</xref>
+ are 22 groupings of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_patient">Forensic Mental Health Patients</xref>
+ based on their characteristics.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>
+ is assigned using a decision tree or algorithm based on the 
+    <xref outputclass="class" keyref="class_person_score">PERSON SCORE</xref>
+ from the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_clustering_tool">Forensic Mental Health Clustering Tool</xref>
+ undertaken by a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ for the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+This is done by first assigning the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to one of three 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/mental_health_care_cluster_super_class.asp"
+            scope="external"
+            format="html">Mental Health Care Cluster Super Classes</xref>
+, to narrow down the number of possible 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Clusters</xref>
+ which are applicable to the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s condition. The 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is then assigned to the most appropriate of this sub-set of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Clusters</xref>
+.  </p>
+  <p>
+Further information relating to the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_clustering_tool">Forensic Mental Health Clustering Tool</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>
+ is available from the gov.uk website at: 
+    <xref href="https://improvement.nhs.uk/resources/national-tariff/"
+            scope="external"
+            format="html">The NHS payment system: documents and guidance</xref>
+.  </p>
+
+</body>
+</topic>

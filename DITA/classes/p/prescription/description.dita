@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_prescription.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: PRESCRIPTION - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A subtype of 
+    <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+.  </p>
+  <p>
+A request for the dispensing of one or more items or 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ to a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+Subtypes of 
+    <xref outputclass="class" keyref="class_prescription">PRESCRIPTION</xref>
+ are:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_radiotherapy_prescription">RADIOTHERAPY PRESCRIPTION</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

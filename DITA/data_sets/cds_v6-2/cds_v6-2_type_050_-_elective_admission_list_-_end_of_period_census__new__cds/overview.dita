@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cds_v6-2_type_050_-_elective_admission_list_-_end_of_period_census__new__cds.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: CDS V6-2 Type 050 - Elective Admission List - End of Period Census (New) CDS - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_050_-_elective_admission_list_-_end_of_period_census__new__cds">CDS V6-2 Type 050 - Elective Admission List - End of Period Census (New) Commissioning Data Set</xref>
+ is used to report to a new Commissioner an 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+ that had previously been the responsibility of another Commissioner.  </p>
+  <p>
+This 
+    <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ should be sent within one month of the end of the period to which it relates unless a shorter time-scale has been agreed with the recipient.  </p>
+  <p>
+It covers 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRIES</xref>
+ under the care of a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+, 
+    <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+ or 
+    <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+, where an appropriate 
+    <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
+ and 
+    <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
+ exists.  </p>
+  <p>
+      <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ taking place under the care of Allied Health Professionals, other 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_biomedical_scientist">Biomedical Scientists</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_scientist">Clinical Scientists</xref>
+ may also be carried (where an appropriate 
+    <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
+ and 
+    <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
+ exists) if required although this is not a 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_mandated_data_flows.asp"
+            scope="external"
+            format="html">Commissioning Data Set Mandated Data Flow</xref>
+.
+  </p>
+  <p>
+      <b>
+To access more detailed information on the Commissioning Data Sets, see the 
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+               scope="external"
+               format="html">Commissioning_Data_Sets_Introduction</xref>
+.    </b>
+  </p>
+  <p>
+      <b>Data Group Overview</b>
+  </p>
+  <p>
+A high-level view of the Data Groups carried in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_050_-_elective_admission_list_-_end_of_period_census__new__cds">CDS V6-2 Type 050 - Elective Admission List - End of Period Census (New) Commissioning Data Set</xref>
+ is shown below.  </p>
+  <p>
+See 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
+            scope="external"
+            format="html">Commissioning Data Set Notation</xref>
+ for an explanation of Group Status and Group Repeats.   </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>
+               <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
+                     scope="external"
+                     format="html">Notation</xref>
+            </b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP OVERVIEW: CDS V6-2 TYPE 050 - ELECTIVE ADMISSION LIST - END OF PERIOD CENSUS (NEW) COMMISSIONING DATA SET</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>Group
+        Status</b>
+         </stentry>
+         <stentry>
+            <b>Group
+        Repeats</b>
+         </stentry>
+         <stentry>
+            <b>FUNCTION:
+        To be used to report to a new Commissioner an EAL Entry that had previously been the responsibility of another Commissioner.</b>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_001_-_cds_interchange_header">CDS V6-2 Type 001 - Commissioning Data Set Interchange Header</xref>
+            </b>
+            <p>
+One per Interchange submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.
+        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..</b>
+            <p>*</p>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_003_-_cds_message_header">CDS V6-2 Type 003 - Commissioning Data Set Message Header</xref>
+            </b>
+            <p>
+One per Commissioning Data Set Message submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: CDS TRANSACTION HEADER GROUP</b>
+            <p>
+Dependent upon the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_submission_protocol.asp"
+                     scope="external"
+                     format="html">Commissioning Data Set Submission Protocol</xref>
+ being used, one of the following must be used per Commissioning Data Set Message submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+:
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+Or
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+            </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PATIENT PATHWAY</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: PERSON GROUP (PATIENT)</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: PATIENT IDENTITY</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: EAL PATIENT CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP: EAL SERVICE AGREEMENT DETAILS</b>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: EAL ENTRY</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: ACTIVITY CHARACTERISTICS</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: PERSON GROUP (CONSULTANT)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: INTENDED PROCEDURES (OPCS)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: INTENDED PROCEDURES (READ)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: INTENDED PROCEDURES - LOCATION GROUP</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: GP REGISTRATION</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: REFERRER</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: REFERRAL</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: OFFER OF ADMISSION</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>R</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: ORIGINAL EAL ENTRY</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>O</p>
+         </stentry>
+         <stentry>
+            <p>0..1</p>
+         </stentry>
+         <stentry>
+            <p>DATA GROUP: EAL ENTRY REMOVAL</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..*</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_004_-_cds_message_trailer">CDS V6-2 Type 004 - Commissioning Data Set Message Trailer</xref>
+            </b>
+            <p>
+One per Commissioning Data Set Message submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.
+        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..1</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_002_-_cds_interchange_trailer">CDS V6-2 Type 002 - Commissioning Data Set Interchange Trailer</xref>
+            </b>
+            <p>
+One per Interchange submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.
+        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+</body>
+</topic>

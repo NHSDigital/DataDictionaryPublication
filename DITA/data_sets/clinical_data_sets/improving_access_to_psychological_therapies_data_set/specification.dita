@@ -1,0 +1,1675 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_improving_access_to_psychological_therapies_data_set.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: Improving Access to Psychological Therapies Data Set - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>HEADER</p>
+
+
+
+  <p>To carry header details for the submission.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_data_set_version_number' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__code_of_provider_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__code_of_submitting_organisation_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_primary_data_collection_system_in_use' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_reporting_period_start_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_reporting_period_end_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_date_and_time_data_set_created' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>PATIENT DEMOGRAPHICS</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Master Patient Index</p>
+
+
+
+  <p>To carry personal details of the patient.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__local_patient_identifier_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__residence_responsibility_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_nhs_number' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_nhs_number_status_indicator_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_birth_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_postcode_of_usual_address' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_stated_gender_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_ethnic_category' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_ex-british_armed_forces_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_language_code__preferred_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_educational_establishment_type__improving_access_to_psychological_therapies_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>GP Practice Registration</p>
+
+
+
+  <p>To carry details of the GP Practice Registration of the patient.One occurrence of this group is required for each change of GP Practice Registration.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_general_medical_practice_code__patient_registration_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_start_date__gmp_patient_registration_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_end_date__gmp_patient_registration_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__gp_practice_responsibility_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Employment Status</p>
+
+
+
+  <p>To carry details of the employment status of the patient.One occurrence of this group is permitted for each employment status.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_employment_status' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_employment_status_recorded_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_weekly_hours_worked' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_self_employed_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_sickness_absence_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_statutory_sick_pay_receipt_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_benefit_receipt_indicator__improving_access_to_psychological_therapies_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_jobseekers_allowance_receipt_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_employment_and_support_allowance_receipt_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_universal_credit_receipt_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_personal_independence_payment_receipt_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_other_benefits_receipt_indicator__improving_access_to_psychological_therapies_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_employment_support_suitability_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_employment_support_referral_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Disability Type</p>
+
+
+
+  <p>To carry details of the type of disability affecting a patient, based on formal diagnoses, the patient's perception or the perception of a patient proxy.One occurrence of this group is permitted for each disability identified.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_disability_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Social and Personal Circumstances</p>
+
+
+
+  <p>To carry details of social and personal circumstances of a patient.One occurrence of this group is permitted for each social and personal circumstance recorded.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_social_and_personal_circumstance__snomed_ct_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_social_and_personal_circumstance_recorded_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Overseas Visitor Charging Category</p>
+
+
+
+  <p>To carry details of the Overseas Visitor Charging Category of the patient.Multiple occurrences of this group are permitted, one for each Overseas Visitor Charging Category recorded for the patient.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_overseas_visitor_charging_category' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_overseas_visitor_charging_category_applicable_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>REFERRALS</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Service or Team Referral</p>
+
+
+
+  <p>To carry details of the Service or Team referral that the patient is subject to.One occurrence of this group is required for each referral.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_referral_request_received_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_source_of_referral_for_mental_health' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_year_and_month_of_symptoms_onset__improving_access_to_psychological_therapies_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_previous_diagnosed_condition_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_discharge_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Onward Referral</p>
+
+
+
+  <p>To carry details of any onward referral of the patient which has taken place.One occurrence of this group is permitted for each onward referral.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_onward_referral_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_onward_referral_time' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_onward_referral_reason' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__receiving_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>WAITING TIME PAUSES</p>
+
+
+
+  <p>To carry details of the Waiting Time Pauses.One occurrence is permitted for each Waiting Time Pause.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_improving_access_to_psychological_therapies_activity_suspension_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_activity_suspension_start_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_activity_suspension_end_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_improving_access_to_psychological_therapies_activity_suspension_reason' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>CARE CONTACT, CARE ACTIVITIES AND INDIRECT ACTIVITIES</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Care Contact</p>
+
+
+
+  <p>To carry details of any contacts with a patient which have taken place as part of a referral.One occurrence of this group is permitted for each Care Contact.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_contact_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_contact_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_contact_time' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_planned_care_contact_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_attended_or_did_not_attend_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_appointment_slot_short_notice_cancellation_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_clinical_contact_duration_of_care_contact' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_integrated_improving_access_to_psychological_therapies_long_term_condition_service_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_appointment_type__improving_access_to_psychological_therapies_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_consultation_medium_used' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_internet_enabled_therapy_programme' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_contact_patient_therapy_mode' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_number_of_group_therapy_participants' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_number_of_group_therapy_facilitators' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_psychotropic_medication_usage_indication_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_activity_location_type_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_language_code__treatment_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_interpreter_present_at_care_contact_indication_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Care Activity</p>
+
+
+
+  <p>To carry details of any activities which have taken place as part of a Care Contact.One occurrence of this group is permitted for each Care Activity.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_activity_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_contact_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_personnel_local_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_clinical_contact_duration_of_care_activity' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_coded_procedure_and_procedure_status__snomed_ct_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_coded_finding__coded_clinical_entry_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_coded_observation__snomed_ct_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_observation_value' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_ucum_unit_of_measurement' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Internet Enabled Therapy Care Professional Activity Log</p>
+
+
+
+  <p>To carry details of the summarised activity during a specified time period for the Care Professional supporting Internet Enabled Therapy for a patient.One occurrence this group is permitted for each activity log.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_start_date__internet_enabled_therapy_activity_log_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_end_date__internet_enabled_therapy_activity_log_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_internet_enabled_therapy_programme' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_duration_of_internet_enabled_therapy_improving_access_to_psychological_therapies_care_professional_clinical_time' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_personnel_local_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_internet_enabled_therapy_integrated_software_engine_used_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='5'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <colspec colname='col5' colnum='5' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>CLINICALLY CODED TERMINOLOGY</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Long Term Physical Health Condition</p>
+
+
+
+  <p>To carry details of any Long Term Physical Health Conditions for a patient which are stated by the patient or recorded in medical notesOne occurrence of this group is permitted for each Long Term Physical Health Condition.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_long_term_physical_health_condition__coded_clinical_entry_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Presenting Complaints</p>
+
+
+
+  <p>To carry details of the primary and any secondary presenting complaints recorded for a patient, made by the service that the patient was referred or admitted to.One occurrence of this group is permitted for each presenting complaint.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_finding_scheme_in_use' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_presenting_complaint__coded_clinical_entry_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_presenting_complaint_coding_significance' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_presenting_complaint_recorded_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Coded Scored Assessment (Referral)</p>
+
+
+
+  <p>To carry details of scored assessments that are issued and completed as part of a Service Request, but do not take place at a specific contact.One occurrence of this group is permitted for each coded scored assessment question or dimension captured outside of a Care Contact.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_service_request_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_coded_assessment_tool_type__snomed_ct_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_score' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_assessment_tool_completion_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_assessment_tool_completion_time' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col5'>
+
+  <p>Coded Scored Assessment (Care Activity)</p>
+
+
+
+  <p>To carry details of scored assessments that are issued and completed as part of a specific Care Activity.One occurrence of this group is permitted for each coded scored assessment question or dimension captured as part of a specific Care Activity.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_activity_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_coded_assessment_tool_type__snomed_ct_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry />
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_score' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>CARE CLUSTERS</p>
+
+
+
+  <p>To carry details of the Care Cluster resulting from a clustering tool assessment.One occurrence of this group is permitted for each period of time that a patient was allocated to a Care Cluster.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_adult_mental_health_care_cluster_code__final_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_start_date__care_cluster_assignment_period_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_start_time__care_cluster_assignment_period_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_end_date__care_cluster_assignment_period_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_end_time__care_cluster_assignment_period_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>CARE PERSONNEL QUALIFICATION</p>
+
+
+
+  <p>To carry details of each qualification attained or planned to be attained by the Care Personnel.One occurrence of this group is permitted for each qualification.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_personnel_local_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_qualification_attainment_level__improving_access_to_psychological_therapies_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_employee_qualification_awarded_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_employee_qualification_planned_completion_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

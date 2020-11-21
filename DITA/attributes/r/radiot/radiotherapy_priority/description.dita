@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_radiotherapy_priority.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: RADIOTHERAPY PRIORITY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The priority for the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_radiotherapy_treatment_course">Radiotherapy Treatment Course</xref>
+ as classified by the requesting clinician.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_radiotherapy_data_set">Radiotherapy Data Set</xref>
+, this is the priority of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_radiotherapy_episode">Radiotherapy Episode</xref>
+.  </p>
+  <code>TermServer</code>
+  <p>
+For further information on the Royal College of Radiologists Categories see the 
+    <xref href="https://www.rcr.ac.uk/" scope="external" format="html">Royal College of Radiologists</xref>
+ website.  </p>
+
+</body>
+</topic>

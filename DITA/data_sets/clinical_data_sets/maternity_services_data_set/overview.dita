@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_maternity_services_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Maternity Services Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <b>Contextual Overview</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ (
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">MSDS</xref>
+) is a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+-level data set that captures key information at each stage of the maternity care pathway including mother's demographics, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_antenatal_booking_appointment">Antenatal Booking Appointments</xref>
+, admissions and re-admissions, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_screening_test">Screening Tests</xref>
+, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_labour_and_delivery">Labour and Delivery</xref>
+ along with baby's demographics, admissions, diagnoses and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_screening_test">Screening Tests</xref>
+.  </p>
+  <p>
+As a secondary uses data set the 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ re-uses clinical and operational data for purposes other than direct 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ care. It defines the data items, definitions and associated value sets extracted or derived from local information systems.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ is designed to meet requirements that resulted from the 
+    <xref href="https://www.england.nhs.uk/mat-transformation/implementing-better-births/mat-review/"
+            scope="external"
+            format="html">National Maternity Review</xref>
+, which led to the publication of the 
+    <xref href="https://www.england.nhs.uk/wp-content/uploads/2016/02/national-maternity-review-report.pdf"
+            scope="external"
+            format="html">Better Births</xref>
+ report in February 2016. 
+    <xref href="https://www.england.nhs.uk/wp-content/uploads/2016/02/national-maternity-review-report.pdf"
+            scope="external"
+            format="html">Better Births</xref>
+ highlighted the need for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_service">Maternity Services</xref>
+ in England to become safer, more personalised and provide better access to information for pregnant women. The publication of 
+    <xref href="https://www.england.nhs.uk/wp-content/uploads/2016/02/national-maternity-review-report.pdf"
+            scope="external"
+            format="html">Better Births</xref>
+ resulted in the establishment of the 
+    <xref href="https://www.england.nhs.uk/mat-transformation/"
+            scope="external"
+            format="html">Maternity Transformation Programme</xref>
+, and the data set forms part of the 'Sharing Data and Information' workstream of the programme.  </p>
+  <p>
+      <b>Data Collection</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ collects information on each stage of care for women as they go through pregnancy.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/information_standards_notice.asp"
+            scope="external"
+            format="html">Information_Standards_Notice</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/information_standards_notice.asp"
+            scope="external"
+            format="html">ISN</xref>
+) mandates the central flow of administrative and clinical information for secondary uses purposes. The scope of the data set includes all 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ carried out by NHS-funded 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_service">Maternity Services</xref>
+ relating to the mother and baby or babies, from the point of the first 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_antenatal_booking_appointment">Antenatal Booking Appointment</xref>
+ until the mother and baby are discharged from 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_service">Maternity Services</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ provides the definitions for data:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>to be lodged in the central data warehouse regularly and routinely e.g. monthly. Extracts will be taken at prearranged intervals for publication</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>to be assembled, compiled and to flow into a secondary uses data warehouse</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+to provide timely, pseudonymised 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+-based data and information for purposes other than direct clinical care, e.g. planning, commissioning, public health, clinical audit, performance improvement, research, clinical governance.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ enables standardised collection of data from various services to be assembled for reporting purposes.  </p>
+  <p>
+      <b>Submission information</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ is submitted centrally via the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/data_processing_services.asp"
+            scope="external"
+            format="html">Data_Processing_Services</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/data_processing_services.asp"
+            scope="external"
+            format="html">DPS</xref>
+) maintained by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ is submitted to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ using the 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ XML Schema.  </p>
+  <p>A conversion tool has also been developed which enables the loading or copying of data into the provided table structure. Once populated, the tool can export the data in the required XML format, ready for submission.</p>
+  <p>
+      <b>Format information</b>
+  </p>
+  <p>
+Data for submission will be formatted into an XML file as per 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/technology_reference_data_update_distribution_(trud).asp"
+            scope="external"
+            format="html">Technology_Reference_Data_Update_Distribution_(TRUD)</xref>
+ at: 
+    <xref href="https://isd.digital.nhs.uk/trud3/user/authenticated/group/101/pack/36"
+            scope="external"
+            format="html">NHS Data Model and Dictionary: DD XML Schemas</xref>
+.  </p>
+  <p>
+For enquiries regarding the XML Schema, please contact 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ at 
+    <xref href="mailto:enquiries@nhsdigital.nhs.uk,"
+            scope="external"
+            format="html">enquiries@nhsdigital.nhs.uk</xref>
+.  </p>
+  <p>
+      <b>Further guidance</b>
+  </p>
+  <p>
+Further guidance has been produced by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ and is available at 
+    <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/maternity-services-data-set"
+            scope="external"
+            format="html">Maternity Services Data Set</xref>
+.  </p>
+
+</body>
+</topic>

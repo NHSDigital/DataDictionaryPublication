@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_maternity_care_setting__actual_place_of_birth_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: MATERNITY CARE SETTING (ACTUAL PLACE OF BIRTH) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>NHS Obstetric Unit (including theatre)</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>NHS Alongside Midwifery Unit</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>NHS Freestanding Midwifery Unit (FMU)</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>Home (NHS care)</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>Home (Private care)</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>Private hospital</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>Maternity assessment or triage unit/ area</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>
+
+  <p>
+NHS 
+    <xref outputclass="class" keyref="class_ward">WARD</xref>
+/health care setting without 
+    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>
+
+  <p>
+In transit (with NHS 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ambulance_service">Ambulance Services</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>
+
+  <p>
+In transit (with private 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ambulance_service">Ambulance Services</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>In transit (without healthcare services present)</stentry>
+      </strow>
+      <strow>
+        <stentry>12</stentry>
+        <stentry>Non-domestic and non-health care</stentry>
+      </strow>
+      <strow>
+        <stentry>98</stentry>
+        <stentry>Other (not listed)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

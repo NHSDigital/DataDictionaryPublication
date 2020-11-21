@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_multidisciplinary_team_meeting_type_for_cancer.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: MULTIDISCIPLINARY TEAM MEETING TYPE FOR CANCER - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The type of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+ at which the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_care_plan">Cancer Care Plan</xref>
+ was discussed.  </p>
+  <p>
+Note: the National Codes at the high level (ending in "0") are 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ groups and the items below each high-level code are 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_multidisciplinary_team">Multidisciplinary Teams</xref>
+. 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ will only use the high-level code if the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_multidisciplinary_team">Multidisciplinary Team</xref>
+ is not listed.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

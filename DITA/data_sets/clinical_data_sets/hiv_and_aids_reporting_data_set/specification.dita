@@ -1,0 +1,1015 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_hiv_and_aids_reporting_data_set.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: HIV and AIDS Reporting Data Set - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>SUBMISSION IDENTIFIER</p>
+
+
+
+  <p>To carry the submission header details.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hars_submission_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hars_submission_record_count' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_reporting_period_start_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_reporting_period_end_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hars_message_version_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_code__code_of_submitting_organisation_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_date_and_time_data_set_created' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hars_test_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>RECORD IDENTIFIER</p>
+
+
+
+  <p>To carry the record identifier details.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hars_unique_identifier' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>PERSONAL AND DEMOGRAPHIC</p>
+
+
+
+  <p>To carry personal and demographic details for the patient.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_general_medical_practice_code__patient_registration_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_patient_consent_obtained_indicator__care_professional_contact_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_year_and_month_of_last_care_professional_hiv_communication' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_surname_soundex_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_initial__first_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_birth_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_gender_identity_code__sexual_health_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_gender_identity_same_at_birth_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_ethnic_category' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_country_code__birth_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_lower_layer_super_output_area__person_residence_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_prisoner_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_current_sex_worker_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_disability_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>SERVICE INFORMATION</p>
+
+
+
+  <p>To carry service information details for the patient.One occurrence of this group is permitted.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_organisation_code__code_of_provider_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_site_code__of_treatment_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_patient_hiv_care_status' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_site_code__of_previous_hiv_care_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_site_code__referred_to_for_shared_hiv_care_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>HIV CLINIC ATTENDANCE</p>
+
+
+
+  <p>To carry clinic attendance details for the patient.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_consultation_medium_used' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_clinic_attendance_purpose_code__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_care_professional_type__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_attendance_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>DIAGNOSIS</p>
+
+
+
+  <p>To carry diagnosis details for the patient.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_new_hiv_diagnosis_in_united_kingdom_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_diagnosis_date_in_united_kingdom__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_year_of_diagnosis_outside_united_kingdom__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_date_first_seen' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_patient_exposure_to_hiv' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_country_code__hiv_infection_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_year_of_uk_entry' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_initial_diagnosis_care_setting_or_service__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_previous_negative_hiv_test_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_year_and_month_of_last_negative_hiv_test' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_patient_diagnosis_indicator__seroconversion_illness_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_test_of_recent_infection_result__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_number_of_hiv_contacts' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_number_of_hiv_contactable_contacts' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_number_of_hiv_contactable_contacts_tested_for_hiv' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>TREATMENT</p>
+
+
+
+  <p>To carry treatment details for the patient.One occurrence of this group is permitted.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_first_antiretroviral_therapy_in_united_kingdom_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_year_and_month_first_started_antiretroviral_therapy' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_start_date__antiretroviral_therapy_at_current_provider_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_post-exposure_prophylaxis_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_pre-exposure_prophylaxis_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_antiretroviral_therapy_drug__snomed_ct_dm_d_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_antiretroviral_therapy_drug_regimen_group_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_antiretroviral_therapy_home_delivery_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>CLINICAL INFORMATION</p>
+
+
+
+  <p>To carry clinical information details for the patient.One occurrence of this group is required.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_cd4_cell_count_performed_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_cd4_cell_count' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_viral_load_count_performed_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_viral_load_count' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_aids_defining_illness_code_adult__snomed_ct_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_patient_diagnosis_indicator__viraemia_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_tuberculosis_treatment_indicator__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_chronic_viral_liver_disease_treatment_indicator__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hepatitis_b_infection_indication_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_hepatitis_c_infection_indication_code' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_malignancy_treatment_indicator__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_patient_diagnosis_indicator__hiv_end_organ_disease_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_psychiatric_care_indicator__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_pregnancy_indicator__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_social_worker_care_indicator__hiv_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_latent_tuberculosis_test_performed_indicator' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_offer_status__human_papillomavirus_vaccination_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>DEATH</p>
+
+
+
+  <p>To carry death details for the patient.One occurrence of this group is permitted.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_person_death_date' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+          <row>
+            <entry><p></p></entry>
+            <entry><p></p></entry>
+            <entry>
+              <xref keyref='element_death_cause_icd_code__care_professional_reported_' outputclass='element' />
+            </entry>
+            <entry><p></p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

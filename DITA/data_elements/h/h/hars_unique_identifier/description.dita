@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_hars_unique_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: HARS UNIQUE IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an36</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_hars_unique_identifier">HARS UNIQUE IDENTIFIER</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_record_identifier">RECORD IDENTIFIER</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_hars_unique_identifier">HARS UNIQUE IDENTIFIER</xref>
+ is used in conjunction with the 
+    <xref outputclass="element"
+            keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ to uniquely identify a record within a 
+    <xref outputclass="dataSet" keyref="dataset_hiv_and_aids_reporting_data_set">HIV and AIDS Reporting Data Set</xref>
+ submission to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">PHE</xref>
+).  </p>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_hars_unique_identifier">HARS UNIQUE IDENTIFIER</xref>
+ may appear on data quality reports, error reports, and audit logs exchanged between 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ and the submitting 
+    <xref outputclass="element"
+            keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_hars_unique_identifier">HARS UNIQUE IDENTIFIER</xref>
+ must be populated for each record, in the HARS Record Identifier group within the 
+    <xref outputclass="dataSet" keyref="dataset_hiv_and_aids_reporting_data_set">HIV and AIDS Reporting Data Set</xref>
+ XML Schema, by the sender of the data set submission prior to transmission of the data to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+.  </p>
+
+
+  </body>
+</topic>

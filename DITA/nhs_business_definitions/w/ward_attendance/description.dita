@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_ward_attendance.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Ward Attendance - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ward_attendance">Ward Attendance</xref>
+ is a 
+    <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ward_attendance">Ward Attendance</xref>
+ is an attendance at a 
+    <xref outputclass="class" keyref="class_ward">WARD</xref>
+ by a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ for nursing care, where the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is not currently admitted to that 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+. A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ward_attendance">Ward Attendance</xref>
+ should be recorded for only one 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nurse_or_midwife_contact">Nurse or Midwife Contact</xref>
+. If the attendance is primarily for the purpose of examination or treatment by a doctor it is an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>
+ and not a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ward_attendance">Ward Attendance</xref>
+. The care is for the prevention, cure, relief or investigation because of a disease, injury, health problem or other factor affecting their health status and may include one or more 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_procedure">Patient Procedures</xref>
+. This includes:-  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>a.</p>
+         </stentry>
+         <stentry>
+            <p>Disease (physical or mental) confirmed or suspected - inclusive of undiagnosed signs or symptoms.</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>b.</p>
+         </stentry>
+         <stentry>
+            <p>Injury - inclusive of poisoning - confirmed or suspected.</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>c.</p>
+         </stentry>
+         <stentry>
+            <p>Health problem e.g. prostheses or graft in situ</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>d.</p>
+         </stentry>
+         <stentry>
+            <p>
+Other factors influencing the health status of non-sick 
+                  <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ e.g.        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>i.</p>
+         </stentry>
+         <stentry>
+            <p>pregnancy</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>ii.</p>
+         </stentry>
+         <stentry>
+            <p>sexual and reproductive health (formerly known as family planning)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>iii.</p>
+         </stentry>
+         <stentry>
+            <p>potential donor (organ or tissue)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>iv.</p>
+         </stentry>
+         <stentry>
+            <p>potential problem requiring prophylactic (preventative) care</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>v.</p>
+         </stentry>
+         <stentry>
+            <p>bereavement or other problem requiring health professional counselling</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>vi.</p>
+         </stentry>
+         <stentry>
+            <p>cosmetic surgery</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>vii.</p>
+         </stentry>
+         <stentry>
+            <p>other</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_administrative_category">ADMINISTRATIVE CATEGORY</xref>
+ of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ can be recorded for the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ward_attendance">Ward Attendance</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s 
+    <xref outputclass="element" keyref="element_first_attendance_code">FIRST ATTENDANCE CODE</xref>
+ whether the first in a series or the only attendance should be recorded.  </p>
+
+</body>
+</topic>

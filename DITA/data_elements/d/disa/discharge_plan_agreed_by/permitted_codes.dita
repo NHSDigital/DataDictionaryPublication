@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_discharge_plan_agreed_by.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: DISCHARGE PLAN AGREED BY - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>
+
+  <p>
+Family member or 
+    <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>12</stentry>
+        <stentry>Advocate</stentry>
+      </strow>
+      <strow>
+        <stentry>13</stentry>
+        <stentry>Clinical Service or Team</stentry>
+      </strow>
+      <strow>
+        <stentry>14</stentry>
+        <stentry>Local Community Support Team</stentry>
+      </strow>
+      <strow>
+        <stentry>15</stentry>
+        <stentry>Current Commissioner</stentry>
+      </strow>
+      <strow>
+        <stentry>16</stentry>
+        <stentry>
+
+  <p>
+Commissioner of Planned 
+    <xref outputclass="attribute" keyref="attribute_discharge_destination">DISCHARGE DESTINATION</xref>
+  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

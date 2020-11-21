@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_morphology__icd-o_diagnosis_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: MORPHOLOGY (ICD-O DIAGNOSIS) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>See ICD-O_CODE</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_morphology__icd-o_diagnosis_">MORPHOLOGY (ICD-O DIAGNOSIS)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_clinical_classification_code">CLINICAL CLASSIFICATION CODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_morphology__icd-o_diagnosis_">MORPHOLOGY (ICD-O DIAGNOSIS)</xref>
+ is the 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ using the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_for_oncology_(icd-o).asp"
+            scope="external"
+            format="html">International_Classification_of_Diseases_for_Oncology_(ICD-O)</xref>
+ code.  </p>
+  <p>
+For the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
+            scope="external"
+            format="html">Cancer Outcomes and Services Data Set</xref>
+, 
+    <xref outputclass="element" keyref="element_morphology__icd-o_diagnosis_">MORPHOLOGY (ICD-O DIAGNOSIS)</xref>
+ can be recorded as well as or instead of 
+    <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
+ as part of a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_care_spell">Cancer Care Spell</xref>
+.  </p>
+
+
+  </body>
+</topic>

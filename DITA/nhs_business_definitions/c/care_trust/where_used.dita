@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_care_trust.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Care Trust - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_care_trust' outputclass='businessDefinition' />
+        </stentry>
+        <stentry>references in description Care Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_health_care_provider' outputclass='businessDefinition' />
+        </stentry>
+        <stentry>references in description Care Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_mental_health_services_data_set' outputclass='dataSet' />
+        </stentry>
+        <stentry>references in description Care Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_mental_health_service' outputclass='businessDefinition' />
+        </stentry>
+        <stentry>references in description Care Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_organisation_code__residence_responsibility_' outputclass='element' />
+        </stentry>
+        <stentry>references in description Care Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_organisation_identifier__residence_responsibility_' outputclass='element' />
+        </stentry>
+        <stentry>references in description Care Trust</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

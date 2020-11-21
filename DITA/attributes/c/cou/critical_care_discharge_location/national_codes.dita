@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_critical_care_discharge_location.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: CRITICAL CARE DISCHARGE LOCATION - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_ward">WARD</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>Recovery only (when used to provide temporary critical care facility)</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <p>
+Other intermediate care or specialised treatment area but excluding temporary visits en route, e.g. imaging, 
+    <xref outputclass="businessDefinition" keyref="business_definition_endoscopy">Endoscopy</xref>
+, catheter suites and operating departments.  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>Adult level three critical care bed (e.g. in a flexibly configured unit)</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>Adult level two critical care bed (e.g. in a flexibly configured unit)</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+
+  <p>
+No discharge location, 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ died in unit  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>Obstetrics area</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>Paediatric critical care area (neonatal and paediatric care)</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>Home or other residence (e.g. nursing home, H.M. Prison, residential care)</stentry>
+      </strow>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>
+
+  <p>
+Other non-hospital 
+    <xref outputclass="class" keyref="class_location">LOCATION</xref>
+  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

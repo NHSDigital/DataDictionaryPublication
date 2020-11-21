@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_employment_status.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: EMPLOYMENT STATUS - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Employed</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>Unemployed and actively seeking work</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Undertaking full (at least 16 hours per week) or part-time (less than 16 hours per week) education or training as a student and not working or actively seeking work</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>Long-term sick or disabled, those receiving government sickness and disability benefits</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>Looking after the family or home as a homemaker and not working or actively seeking work</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>Not receiving government sickness and disability benefits and not working or actively seeking work</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>Unpaid voluntary work and not working or actively seeking work</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>Retired</stentry>
+      </strow>
+      <strow>
+        <stentry>ZZ</stentry>
+        <stentry>
+
+  <p>
+Not Stated (
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ asked but declined to provide a response)  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

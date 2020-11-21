@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_offer_status__dating_ultrasound_scan_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: OFFER STATUS (DATING ULTRASOUND SCAN) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an2</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_offer_status__dating_ultrasound_scan_">OFFER STATUS (DATING ULTRASOUND SCAN)</xref>
+ is either attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_offer_status">ACTIVITY OFFER STATUS</xref>
+ or 
+    <xref outputclass="attribute"
+            keyref="attribute_activity_not_offered_reason_for_maternity">ACTIVITY NOT OFFERED REASON FOR MATERNITY</xref>
+, for the mother during the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_episode">Maternity Episode</xref>
+ for the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_dating_ultrasound_scan">Dating Ultrasound Scan</xref>
+. 
+    <code>TermServer</code>
+  </p>
+
+
+  </body>
+</topic>

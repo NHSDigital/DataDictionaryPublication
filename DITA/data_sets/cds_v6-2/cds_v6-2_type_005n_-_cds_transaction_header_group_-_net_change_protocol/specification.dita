@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: CDS V6-2 Type 005N - CDS Transaction Header Group - Net Change Protocol - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-sm'>
+      <tgroup cols='4'>
+        <colspec colname='col1' colnum='1' colwidth='5*' />
+        <colspec colname='col2' colnum='2' colwidth='5*' />
+        <colspec colname='col3' colnum='3' colwidth='5*' />
+        <colspec colname='col4' colnum='4' colwidth='5*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col4'>
+
+  <p>DATA GROUP: CDS V6-2 TYPE 005N - COMMISSIONING DATA SET TRANSACTION HEADER GROUP - NET CHANGE PROTOCOL</p>
+
+
+
+  <p>To carry the details of the mandatory Commissioning Data Set Submission Protocol controls for when using the Net Change mechanism.One per Commissioning Data Set Message submitted to the Secondary Uses Service.Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>Mandation</p>
+
+</entry>
+            <entry>
+
+  <p>Repeats</p>
+
+</entry>
+            <entry>
+
+  <p>Data Elements</p>
+
+</entry>
+            <entry>
+
+  <p>Rules</p>
+
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_type_code' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>V</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_protocol_identifier_code' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>V</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_unique_identifier' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>FS9</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_update_type' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>V</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_applicable_date' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>FS8S13</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_applicable_time' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>FS8S14</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_activity_date' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>FS6S10S11S13</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_sender_identity' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>FS5</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>M</p>
+
+</entry>
+            <entry>
+
+  <p>1..1</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_prime_recipient_identity' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>FS5S7S15</p>
+
+</entry>
+          </row>
+          <row>
+            <entry>
+
+  <p>O</p>
+
+</entry>
+            <entry>
+
+  <p>1..7</p>
+
+</entry>
+            <entry>
+              <xref keyref='element_cds_copy_recipient_identity' outputclass='element' />
+            </entry>
+            <entry>
+
+  <p>FS5S7</p>
+
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

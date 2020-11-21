@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_hars_message_version_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: HARS MESSAGE VERSION IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an10</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_hars_message_version_identifier">HARS MESSAGE VERSION IDENTIFIER</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_data_set_version_number">DATA SET VERSION NUMBER</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_hars_message_version_identifier">HARS MESSAGE VERSION IDENTIFIER</xref>
+ identifies the version number of the 
+    <xref outputclass="dataSet" keyref="dataset_hiv_and_aids_reporting_data_set">HIV and AIDS Reporting Data Set</xref>
+ XML Schema which is being used to submit data to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">PHE</xref>
+).  </p>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_hars_message_version_identifier">HARS MESSAGE VERSION IDENTIFIER</xref>
+ must be populated for each record, in the HARS Submission Identifier group within the 
+    <xref outputclass="dataSet" keyref="dataset_hiv_and_aids_reporting_data_set">HIV and AIDS Reporting Data Set</xref>
+ XML Schema, by the sender of the data set submission prior to transmission of the data to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+.  </p>
+
+
+  </body>
+</topic>

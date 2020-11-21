@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_group_therapy.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Group Therapy - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_group_therapy">Group Therapy</xref>
+ is a 
+    <xref outputclass="class" keyref="class_session">SESSION</xref>
+.  </p>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_group_therapy">Group Therapy</xref>
+ is a 
+    <xref outputclass="class" keyref="class_session">SESSION</xref>
+ where more than one 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ attends at the same time, to see one or more 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+(s).  Clinical notes are recorded in each individual 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ record.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_group_therapy">Group Therapy</xref>
+ is recorded as a 
+    <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
+.  </p>
+  <p>
+Note: 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_group_session">Group Sessions</xref>
+ are recorded when the attendees at the 
+    <xref outputclass="class" keyref="class_session">SESSION</xref>
+ are not known in advance, and clinical notes are not made in individual 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ records.  </p>
+
+</body>
+</topic>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_pathology_observation_report_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PATHOLOGY OBSERVATION REPORT IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>min an1 max an36</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_pathology_observation_report_identifier">PATHOLOGY OBSERVATION REPORT IDENTIFIER</xref>
+ identifies the specific 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_royal_college_of_pathologists">Royal College of Pathologists</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_royal_college_of_pathologists">RCPath</xref>
+) form used.  </p>
+  <p>
+Multiple 
+    <xref outputclass="element"
+            keyref="element_pathology_observation_report_identifier">PATHOLOGY OBSERVATION REPORT IDENTIFIERS</xref>
+ can be contained within a 
+    <xref outputclass="class" keyref="class_service_report">SERVICE REPORT</xref>
+, where there are multiple 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumours</xref>
+.  </p>
+
+
+  </body>
+</topic>

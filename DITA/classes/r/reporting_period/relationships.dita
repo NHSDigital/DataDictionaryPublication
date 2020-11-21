@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_reporting_period.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: REPORTING PERIOD - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each REPORTING PERIOD</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>may be allocated during one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_financial_allocation' outputclass='class' />
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

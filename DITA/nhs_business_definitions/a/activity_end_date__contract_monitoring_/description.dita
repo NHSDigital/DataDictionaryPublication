@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_activity_end_date__contract_monitoring_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Activity End Date (Contract Monitoring) - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_activity_end_date__contract_monitoring_">Activity End Date (Contract Monitoring)</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_activity_end_date__contract_monitoring_">Activity End Date (Contract Monitoring)</xref>
+ is the date on which a commissioned 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ is deemed to have ended, for the purposes of 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/contract_monitoring.asp"
+            scope="external"
+            format="html">Contract_Monitoring</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_activity_end_date__contract_monitoring_">Activity End Date (Contract Monitoring)</xref>
+ for:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>Admitted patient care:</p>
+         </div>
+         <ul>
+            <li>
+               <div>
+                  <p>
+Finished Consultant Episodes (FCEs) is 
+                        <xref outputclass="element" keyref="element_end_date__episode_">END DATE (EPISODE)</xref>
+                  </p>
+               </div>
+            </li>
+            <li>
+               <div>
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                  <p>
+ is the 
+                        <xref outputclass="element"
+                           keyref="element_discharge_date__hospital_provider_spell_">DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>
+                  </p>
+               </div>
+            </li>
+         </ul>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_out-patient_appointment">Out-Patient Appointments</xref>
+            <p>
+ (non-admitted care and diagnostic tests) is the 
+                <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_package_of_care">Packages of Care</xref>
+            <p>
+ is the 
+                <xref outputclass="element" keyref="element_end_date">END DATE</xref>
+ of the 
+                <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ within the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_package_of_care">Package of Care</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_emergency_care_attendance">Emergency Care Attendances</xref>
+            <p>
+ is the 
+                <xref outputclass="element" keyref="element_emergency_care_departure_date">EMERGENCY CARE DEPARTURE DATE</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Critical care is the 
+                <xref outputclass="element" keyref="element_end_date">END DATE</xref>
+ of that particular level of critical care.        </p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

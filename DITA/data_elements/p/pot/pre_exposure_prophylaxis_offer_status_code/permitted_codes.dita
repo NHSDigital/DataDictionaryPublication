@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_pre_exposure_prophylaxis_offer_status_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PRE EXPOSURE PROPHYLAXIS OFFER STATUS CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Offer accepted</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <p>
+Offer declined - 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ choice  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Offer declined - obtained at another source</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

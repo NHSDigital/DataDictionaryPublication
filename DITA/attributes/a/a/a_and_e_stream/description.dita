@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_a_and_e_stream.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: A AND E STREAM - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+This records the streaming classification assigned to an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+, within an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+. Streaming is a system whereby 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ are allocated to different flows according to their needs. These flows are individually staffed and continue to function whatever the pressures in other streams. Within any stream, at any one time, there may be 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with different 
+    <xref outputclass="attribute"
+            keyref="attribute_a_and_e_initial_assessment_triage_category">A AND E INITIAL ASSESSMENT TRIAGE CATEGORIES</xref>
+. An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ will have either simple streaming or full streaming in place and will use the appropriate classification.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

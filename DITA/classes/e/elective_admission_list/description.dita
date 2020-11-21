@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_elective_admission_list.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: ELECTIVE ADMISSION LIST - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A subtype of 
+    <xref outputclass="class" keyref="class_waiting_list">WAITING LIST</xref>
+.  </p>
+  <p>
+A list of 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+, for whom a 
+    <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ has been made, currently awaiting admission regardless of whether a date to admit has been given.  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ can be on more than one 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+. This may be because the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ needs treatment for more than one condition or because the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been placed on the list of more than one provider for the same condition.  </p>
+  <p>
+It is also possible for a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to be entered on an 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ more than once, either for a different condition or for the same condition, where two or more admissions are required. For example, a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ would have two 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRIES</xref>
+ on a list where the intention was to perform two or more operations requiring two or more admissions, such as repair of inguinal hernia and operation on varicose veins. Only one 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+ should be made in the event of the intention to perform two or more procedures during one admission.  </p>
+  <p>
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ already in a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ who are waiting for transfer in the same 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ unit or to another 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ unit should not be included in an 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ for the condition being treated or for the treatment for which they are awaiting transfer. An 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ is only for 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ without a current 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+, waiting for admission to hospital to start a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ and 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ already admitted and waiting for a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ elsewhere should not be included.  </p>
+
+</body>
+</topic>

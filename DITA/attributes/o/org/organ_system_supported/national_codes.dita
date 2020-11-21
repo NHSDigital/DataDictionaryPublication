@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_organ_system_supported.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: ORGAN SYSTEM SUPPORTED - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+
+  <p>Basic Respiratory Support. Indicated by one or more of the following:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+More than 50% oxygen delivered by face mask. (Note: more than 50% has been chosen to identify the more seriously ill 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+  in a hospital). Short-term increases in the fraction of inspired oxygen (FiO2) to facilitate procedures such as transfers or physiotherapy do not qualify.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>Close observation due to the potential for acute deterioration to the point of needing advanced respiratory support. (e.g. severely compromised airway or deteriorating respiratory muscle function).</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>Physiotherapy or suction to clear secretions at least two hourly, whether via tracheostomy, minitracheostomy, or in the absence of an artificial airway.</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+            <p> recently (within 24 hours) extubated after a period (greater than 24 hours) of mechanical ventilation via an endotracheal tube.</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>Mask / hood continuous positive airway pressure (CPAP) or mask / hood Bi-level positive airway pressure ventilation (non-invasive ventilation).</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+            <p>who are intubated to protect the airway but needing no ventilatory support.</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Continuous positive airway pressure (CPAP) via a tracheostomy. 
+                <b>Note:</b>
+ The presence of a tracheostomy used for long term airway access only does not qualify for any respiratory support.        </p>
+         </div>
+      </li>
+  </ul>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>Advanced Respiratory Support. Indicated by: Invasive mechanical ventilatory support applied via a trans-laryngeal tracheal tube or applied via a tracheostomy Bi-level positive airway pressure applied via a trans-laryngeal tracheal tube or applied via a tracheostomy. Continuous positive airway pressure via a trans-laryngeal tracheal tube. Extracorporeal respiratory support.</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Basic Cardiovascular Support. Indicated by one or more of the following: Use of a central venous pressure (CVP) line for monitoring of central venous pressure and/or provision of central venous access to deliver titrated fluids to treat hypovolaemia. Use of an arterial line for monitoring of arterial pressure and/or sampling of arterial blood. Single intravenous vasoactive drug used to support or control arterial pressure, cardiac output or organ perfusion. Single intravenous rhythm controlling drug to support or control cardiac arrhythmias.</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>Advanced Cardiovascular Support. Indicated by one or more of the following: Multiple intravenous vasoactive and/or rhythm controlling drugs when used simultaneously to support or control arterial pressure, cardiac output or organ perfusion (eg inotropes, amiodarone, nitrates). To qualify for advanced support status, at least one drug needs to be vasoactive. Continuous observation of cardiac output and derived indices (e.g. pulmonary artery catheter, lithium dilution, pulse contour analyses, oesophageal doppler). Intra aortic balloon pumping and other assist devices. Insertion of a temporary cardiac pacemaker (criteria valid for each day of connection to a functioning external pacemaker unit).</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>Renal Support. In the context of critical illness, this is indicated by: Acute renal replacement therapy (e.g. haemodialysis, haemofiltration etc.) or the provision of renal replacement therapy to a chronic renal failure patient who is requiring other acute organ support in a critical care situation.</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>Neurological Support. Indicated by one or more of the following: Central nervous system depression sufficient to prejudice the airway and protective reflexes, excepting that caused by sedation prescribed to facilitate mechanical ventilation or poisoning (e.g. deliberate or accidental overdose, alcohol, drugs, etc.) Invasive neurological monitoring e.g. intracranial pressure, jugular bulb sampling, external ventricular drain. Continuous intravenous medication to control seizures and/or continuous cerebral monitoring. Therapeutic hypothermia using cooling protocols or devices.</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>Gastrointestinal Support. Indicated by: Feeding with parenteral or enteral nutrition (implies methods of feeding other than normal oral intake).</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>
+
+  <p>Dermatological Support. Indicated by one or more of the following:</p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+            <p>with major skin rashes, exfoliation or burns (eg greater than 30% body surface area affected).</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>Use of complex dressings (e.g. large skin area greater than 30% body surface area, open abdomen, vacuum dressings or large trauma such as multiple limb or limb and head dressings).</p>
+         </div>
+      </li>
+  </ul>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>
+
+  <p>Liver Support. Indicated by:</p>
+  <ul>
+      <li>
+         <div>
+            <p>Acute on chronic Hepatocellular failure requiring management of coagulopathy and/or portal hypertension (including liver purification and detoxification techniques), or</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Primary Acute Hepatocellular failure 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who are being considered for transplantation and require management of coagulopathy and / or portal hypertension (including liver purification and detoxification techniques).        </p>
+         </div>
+      </li>
+  </ul>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

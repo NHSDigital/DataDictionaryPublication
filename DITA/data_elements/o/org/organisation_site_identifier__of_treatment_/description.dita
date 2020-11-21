@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_organisation_site_identifier__of_treatment_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ORGANISATION SITE IDENTIFIER (OF TREATMENT) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>min an5 max an9</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+ of the 
+    <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITE</xref>
+ where the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was treated, i.e. it should enable the treating 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ to be identified.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+ identifies the 
+    <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITE</xref>
+ within the 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ on which the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was treated, since facilities may vary on different hospital sites.  </p>
+  <p>
+The code recorded should always be the national code; if the treatment is sub-commissioned to another NHS 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ or an independent UK provider, the 
+    <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+ used should be the 
+    <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ actually carrying out the work.  </p>
+  <p>
+Where treatment is sub-commissioned to an overseas provider the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/organisation_data_service_default_codes.asp"
+            scope="external"
+            format="html">Organisation Data Service Default Code</xref>
+ 89997 
+    <i>
+'Non-UK Provider where no 
+      <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+ has been issued'    </i>
+ is applicable.  </p>
+  <p>
+Each 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ has a unique 
+    <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+. However, where an 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ has more than one site from which it provides 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+, then each site is uniquely identified. These sites are 
+    <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITES</xref>
+ and are uniquely identified by an 
+    <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+.  </p>
+  <p>
+For out-patients, 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ may take place outside the hospital, such as in the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'S home; in such cases, raising a site code is impractical. Therefore, code R9998 
+    <i>'Not a hospital site'</i>
+ would be used in these circumstances.
+  </p>
+  <p>
+      <i>
+Note: 
+      <xref outputclass="element" keyref="element_location_class">LOCATION CLASS</xref>
+ is used in the Commissioning Data Set (CDS) message to indicate the physical 
+      <xref outputclass="class" keyref="class_location">LOCATION</xref>
+ within which the 
+      <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ occurred.     </i>
+  </p>
+  <p>
+      <b>Use in the Future Outpatient CDS:</b>
+  </p>
+  <p>
+If the 
+    <xref outputclass="element"
+            keyref="element_intended_site_code__of_treatment_">INTENDED SITE CODE (OF TREATMENT)</xref>
+ is not known, this data element should be omitted.  </p>
+  <p>
+      <b>
+         <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
+ will be replaced with 
+      <xref outputclass="element"
+               keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+, when it has been approved for use in national information standards.    </b>
+  </p>
+
+
+  </body>
+</topic>

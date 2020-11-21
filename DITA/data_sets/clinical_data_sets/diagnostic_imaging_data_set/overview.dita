@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_diagnostic_imaging_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Diagnostic Imaging Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ was introduced by 
+    <xref href="http://webarchive.nationalarchives.gov.uk/+tf_/http://www.isb.nhs.uk/documents/isb-1577/amd-10-2011/index_html"
+            scope="external"
+            format="html">ISB 1577 Diagnostic Imaging Data Set</xref>
+, in response to the lack of detailed data on national data on 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ tests for NHS 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+. The original requirement came from the cancer strategy to improve 
+    <xref outputclass="class" keyref="class_general_practitioner">GP</xref>
+ direct access to certain 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ tests, as a method was required to monitor implementation of this policy.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+, however, has many benefits for example, to:  </p>
+  <ul>
+      <li>
+         <p>
+Provide NHS data on 
+            <xref outputclass="class" keyref="class_general_practitioner">GP</xref>
+s' direct access to tests, as well as tests requested via other referral sources. Benchmarking data will be fed back to 
+            <xref outputclass="class" keyref="class_general_practitioner">GP</xref>
+s and, where appropriate, used to encourage increased use of tests, leading to earlier diagnosis and hence improved outcomes      </p>
+      </li>
+      <li>
+         <p>
+Provide more detailed NHS data than is currently available on test type (modality), body site of test and 
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ demographics      </p>
+      </li>
+      <li>
+         <p>Enable analysis of turnaround times for tests</p>
+      </li>
+      <li>
+         <p>
+Enable better analysis of cancer pathways by linking the 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+ data to 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ test data for cancer 
+            <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+         </p>
+      </li>
+      <li>
+         <p>
+Allow 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_public_health_england">Public Health England</xref>
+ (
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_public_health_england">PHE</xref>
+) to calculate more accurate estimates of the distribution of individual radiation dose estimates from medical exposures.      </p>
+      </li>
+  </ul>
+  <p>
+From April 2012 it became a mandatory requirement that all providers of NHS-funded 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ tests for NHS 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ in England submit the central 
+    <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ on a monthly basis.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ facilitates the collection of clinical data and the sharing of such data to underpin the delivery of effective 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+. It is structured around the clinical processes of local Radiology Information Systems (RISs) used by 
+    <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_foundation_trust">NHS Foundation Trusts</xref>
+. It records administrative data relating to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ test 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+.  </p>
+  <p>
+Information is collected relating exclusively to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ test 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+. The 
+    <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ describes 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ tests that have taken place as part of a broader 
+    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+. This includes 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ referred from within the 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+, either as an out-patient, in-patient or from 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_department">Accident and Emergency Departments</xref>
+, or referred directly from their 
+    <xref outputclass="class" keyref="class_general_practitioner">GP</xref>
+ or another 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ is collected from NHS funded providers of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+ test 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ and submitted via a portal on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website. The submissions are processed and aggregate extracts are produced for provider and commissioner 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ and national groups such as the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+. This also allows linkage to the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+.  </p>
+  <p>
+Please note that the collection of the 
+    <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ does not replace any other collection of diagnostic data such as the Diagnostics Waiting Times and Activity Data Set (DM01), which should continue to be collected.  </p>
+  <p>
+      <b>Data Set Order:</b>
+  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+The transmission order of the 
+                <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ is different to the order of the items in the NHS Data Model and Dictionary and XML Schema.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Please see the "Guidance Notes" at: 
+                <xref href="https://did.hscic.gov.uk/Main/Guidance"
+                     scope="external"
+                     format="html">Diagnostic Imaging Dataset: Guidance for Data Submitters</xref>
+, which contains a full list of 
+                <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ fields in the order they are submitted.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Work is planned to amend some of the 
+                <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>
+ items and when this is approved by the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_data_coordination_board">Data Coordination Board</xref>
+ (
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_data_coordination_board">DCB</xref>
+), the NHS Data Model and Dictionary will be updated to match.        </p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

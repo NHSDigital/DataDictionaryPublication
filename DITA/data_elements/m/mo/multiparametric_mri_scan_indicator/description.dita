@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_multiparametric_mri_scan_indicator.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: MULTIPARAMETRIC MRI SCAN INDICATOR - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an1</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_multiparametric_mri_scan_indicator">MULTIPARAMETRIC MRI SCAN INDICATOR</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_patient_procedure_performed_indicator">PATIENT PROCEDURE PERFORMED INDICATOR</xref>
+, to indicate whether a Multiparametric (mp) 
+    <xref outputclass="businessDefinition" keyref="business_definition_mri_scan">MRI Scan</xref>
+ was performed on the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ before the 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+ during a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_urological_cancer_care_spell">Urological Cancer Care Spell</xref>
+.  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_planned_activity_date.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: PLANNED ACTIVITY DATE - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_planned_activity_date_time' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute PLANNED ACTIVITY DATE of type PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_planned_discharge_date__hospital_provider_spell_' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_estimated_discharge_date__hospital_provider_spell_' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_package_review_date__nhs_continuing_healthcare_' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_package_next_planned_review_date__nhs_continuing_healthcare_' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_package_next_planned_review_date__nhs_continuing_healthcare_' outputclass='element' />
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_package_review_date__nhs_continuing_healthcare_' outputclass='element' />
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_estimated_discharge_date__hospital_provider_spell_' outputclass='element' />
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_planned_discharge_date__hospital_provider_spell_' outputclass='element' />
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY DATE</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

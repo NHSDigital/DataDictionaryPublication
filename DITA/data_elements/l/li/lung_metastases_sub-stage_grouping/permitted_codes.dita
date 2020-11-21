@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_lung_metastases_sub-stage_grouping.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: LUNG METASTASES SUB-STAGE GROUPING - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>L1</stentry>
+        <stentry>Less than or equal to 3 metastases</stentry>
+      </strow>
+      <strow>
+        <stentry>L2</stentry>
+        <stentry>Greater than 3 metastases</stentry>
+      </strow>
+      <strow>
+        <stentry>L3</stentry>
+        <stentry>Greater than 3 metastases, one or more greater than or equal to 2cm diameter</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

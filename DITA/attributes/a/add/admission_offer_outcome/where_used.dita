@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_admission_offer_outcome.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: ADMISSION OFFER OUTCOME - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_offer_of_admission' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute ADMISSION OFFER OUTCOME of type ADMISSION OFFER OUTCOME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_admission_offer_outcome_code' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of ADMISSION OFFER OUTCOME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_admission_offer_outcome_code' outputclass='element' />
+        </stentry>
+        <stentry>references in description ADMISSION OFFER OUTCOME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_elective_admission_list_removal_reason_code' outputclass='element' />
+        </stentry>
+        <stentry>references in description ADMISSION OFFER OUTCOME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_last_dna_or_patient_cancelled_date' outputclass='element' />
+        </stentry>
+        <stentry>references in description ADMISSION OFFER OUTCOME</stentry>
+      </strow>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_offer_of_admission' outputclass='class' />
+        </stentry>
+        <stentry>references in description ADMISSION OFFER OUTCOME</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

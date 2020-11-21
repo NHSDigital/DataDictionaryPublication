@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_labour_or_delivery_onset_method_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: LABOUR OR DELIVERY ONSET METHOD CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an1</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_labour_or_delivery_onset_method_code">LABOUR OR DELIVERY ONSET METHOD CODE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_labour_or_delivery_onset_method">LABOUR OR DELIVERY ONSET METHOD</xref>
+.  </p>
+  <p>
+Only those methods that are used to induce 
+    <xref outputclass="businessDefinition" keyref="business_definition_labour">Labour</xref>
+, such as surgical induction, medical induction or a combination of the two, should be recorded. Methods that are used to accelerate 
+    <xref outputclass="businessDefinition" keyref="business_definition_labour">Labour</xref>
+ should not be recorded.  </p>
+  <p>
+For specific National Code usage, see 
+    <xref outputclass="attribute"
+            keyref="attribute_labour_or_delivery_onset_method">LABOUR OR DELIVERY ONSET METHOD</xref>
+.  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_main_specialty.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: MAIN SPECIALTY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>Specialties are divisions of clinical work which may be defined by body systems (dermatology), age (paediatrics), clinical technology (nuclear medicine), clinical function (rheumatology), group of diseases (oncology) or combinations of these factors. Only Specialty titles recognised by the Royal Colleges and Faculties should be used. This list is maintained by the General and Specialist Medical Practice (Education, Training and Qualifications) Order 2003 and European Primary and Specialist Dental Qualifications Regulations 1998.</p>
+  <p>
+Each 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ should be assigned a 
+    <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+ by the 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ which the 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ is contracted. For physicians and surgeons with a generalist component to their work, the 
+    <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+ should be general medicine or general surgery. The hallmark of a general physician or general surgeon is the continued care of unselected emergency referrals. The 
+    <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+ is specific to a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+. If, for example, a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ physician working in two 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+s has a generalist component to the work in one and not the other, general medicine is only assigned as the 
+    <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+ in the former case. 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+ in general medicine or general surgery may also have specialist interests and these should be recorded as well as the 
+    <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+.
+  </p>
+  <p>
+The initial source of the information should be the designation on the 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+'s contract. This should be checked periodically against the work a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ is actually doing so that the statistics can relate to a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+'s current type of work.  </p>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+ only should be used for the purpose of producing Specialty costing statistics and for Workforce statistics where links with activity and finance are required. Other specialist interests of 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+ may be recorded for workforce planning purposes.  </p>
+  <p>This will be used to indicate the skill level of medical and dental employees.</p>
+  <p>
+      <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
+      <i>960 ALLIED HEALTH PROFESSIONAL</i>
+ should be used for recording 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ by Allied Health Professionals, other 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_biomedical_scientist">Biomedical Scientists</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_scientist">Clinical Scientists</xref>
+.  </p>
+
+</body>
+</topic>

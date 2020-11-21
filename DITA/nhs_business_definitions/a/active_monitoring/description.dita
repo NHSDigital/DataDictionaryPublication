@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_active_monitoring.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Active Monitoring - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+.  </p>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ will commence when a decision is made (and agreed with the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+) that it is clinically appropriate to start a period of monitoring, possibly whilst the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receives symptomatic support, but without any specific or significant 
+    <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTION</xref>
+ at this stage.  </p>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ may be initiated by either a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ or a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+The start of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ will end a 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+.  </p>
+  <p>
+During 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ will remain under the care of a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
+ although the 
+    <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ will be updated with the progress of their 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+If a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_decision_to_treat">Decision To Treat</xref>
+ is made during 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+, this will end the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+ and will start a new 
+    <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+; see 
+    <xref outputclass="attribute"
+            keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+.  </p>
+
+</body>
+</topic>

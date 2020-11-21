@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_specialist_services_flag.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: SPECIALIST SERVICES FLAG - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A flag indicating that 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_specialised_service">Specialised Service</xref>
+ top-up payments are to be paid to reimburse 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ for the higher costs of treating 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who require this specialised care.   </p>
+  <p>
+National prices in the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+ are calculated on the basis of average costs. They do not therefore take into account cost differences between 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ that arise because some 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ serve 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with more complex needs.  </p>
+  <p>
+The purpose of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_specialised_service">Specialised Service</xref>
+ top-up payments for inpatient care relating to some 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_specialised_service">Specialised Services</xref>
+ is to recognise these cost differences and to improve the extent to which prices paid reflect the actual costs of providing healthcare, when this is not sufficiently differentiated in the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">Healthcare_Resource_Group</xref>
+ design.  </p>
+  <p>
+For further information, see the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_improvement">NHS Improvement</xref>
+ website at: see the 
+    <xref href="https://improvement.nhs.uk/resources/developing-the-national-tariff/"
+            scope="external"
+            format="html">National tariff payment system</xref>
+.  </p>
+
+</body>
+</topic>

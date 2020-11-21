@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_myometrial_invasion_identification_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: MYOMETRIAL INVASION IDENTIFICATION CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow outputclass='retired'>
+        <stentry>1</stentry>
+        <stentry>None (Retired 1 April 2020)</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>2</stentry>
+        <stentry>Less than 50% (Retired 1 April 2020)</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>Greater than or equal to 50%</stentry>
+      </strow>
+      <strow>
+        <stentry>4</stentry>
+        <stentry>None or less than 50%</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

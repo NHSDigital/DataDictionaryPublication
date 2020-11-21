@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_duration_of_care_to_psychiatric_census_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DURATION OF CARE TO PSYCHIATRIC CENSUS DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>n5</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_duration_of_care_to_psychiatric_census_date">DURATION OF CARE TO PSYCHIATRIC CENSUS DATE</xref>
+ is the duration derived from the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_start_date">Start Date</xref>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+.  </p>
+  <p>Enter 00000-29200 in days (approximately 80 years), right justified with preceding zeros.</p>
+
+
+  </body>
+</topic>

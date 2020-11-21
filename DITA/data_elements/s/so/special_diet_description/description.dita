@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_special_diet_description.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: SPECIAL DIET DESCRIPTION - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an250</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_special_diet_description">SPECIAL DIET DESCRIPTION</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_person_observation_text_string">PERSON OBSERVATION TEXT STRING</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_special_diet_description">SPECIAL DIET DESCRIPTION</xref>
+ is a text description of a special diet regime followed by a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.   </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_neonatal_data_set_-_two_year_neonatal_outcomes_assessment">National Neonatal Data Set - Two Year Neonatal Outcomes Assessment</xref>
+, 
+    <xref outputclass="element" keyref="element_special_diet_description">SPECIAL DIET DESCRIPTION</xref>
+ should be completed where the 
+    <xref outputclass="element"
+            keyref="element_tprg-send_two_year_corrected_age_outcome_assessment_score__gastro-intestinal_tract_question_a_">TPRG-SEND TWO YEAR CORRECTED AGE OUTCOME ASSESSMENT SCORE (GASTRO-INTESTINAL TRACT QUESTION A)</xref>
+ response is 
+    <i>'Yes'.</i>
+  </p>
+
+
+  </body>
+</topic>

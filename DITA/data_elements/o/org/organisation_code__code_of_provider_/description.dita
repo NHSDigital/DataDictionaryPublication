@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_organisation_code__code_of_provider_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ORGANISATION CODE (CODE OF PROVIDER) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an3, an5 or an6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ is the same as the attribute 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ of the 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ acting as a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+.  </p>
+  <p>
+For 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/navigation/commissioning_data_sets_menu.asp"
+            scope="external"
+            format="html">Commissioning Data Sets</xref>
+, the 
+    <xref outputclass="element"
+            keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ should always be the 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ receiving the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+ income.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ is used by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ to derive the 
+    <b>
+         <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+               scope="external"
+               format="html">Healthcare_Resource_Group</xref>
+      </b>
+  
+    <b>4</b>
+. Failure to correctly populate this data element is likely to result in an incorrect 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">Healthcare_Resource_Group</xref>
+, usually associated with lower levels of healthcare resource.  </p>
+  <p>
+For further information, please refer to the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance"
+            scope="external"
+            format="html">Payment by Results Guidance</xref>
+.  </p>
+  <p>
+      <b>
+         <xref outputclass="element"
+               keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+ will be replaced with 
+      <xref outputclass="element"
+               keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+, when it has been approved for use in national information standards.    </b>
+  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_date_of_primary_cancer_diagnosis__clinically_agreed_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DATE OF PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_date_of_primary_cancer_diagnosis__clinically_agreed_">DATE OF PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+ is the same as data element 
+    <xref outputclass="element" keyref="element_diagnosis_date">DIAGNOSIS DATE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_date_of_primary_cancer_diagnosis__clinically_agreed_">DATE OF PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+ is either the date:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_primary_cancer">Primary Cancer</xref>
+ was confirmed or        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_primary_cancer">Primary Cancer</xref>
+ diagnosis was agreed        </p>
+         </div>
+         <ul>
+            <li>
+               <div>
+                  <p>
+this will normally be the date of the authorised 
+                        <xref outputclass="businessDefinition"
+                           keyref="business_definition_pathology_laboratory_service_report">Pathology Laboratory Service Report</xref>
+ which confirms the 
+                        <xref outputclass="businessDefinition"
+                           keyref="business_definition_primary_cancer">Primary Cancer</xref>
+ or            </p>
+               </div>
+            </li>
+            <li>
+               <div>
+                  <p>
+if this date is not available, 
+                        <xref outputclass="element"
+                           keyref="element_date_of_primary_cancer_diagnosis__clinically_agreed_">DATE OF PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+ will be the date of the 
+                        <xref outputclass="businessDefinition"
+                           keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+.            </p>
+               </div>
+            </li>
+         </ul>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

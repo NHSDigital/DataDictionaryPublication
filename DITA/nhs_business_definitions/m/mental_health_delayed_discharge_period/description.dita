@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_mental_health_delayed_discharge_period.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Mental Health Delayed Discharge Period - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_delayed_discharge_period">Mental Health Delayed Discharge Period</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_delayed_discharge_period">Mental Health Delayed Discharge Period</xref>
+ is the period of time during a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
+ under a 
+    <xref outputclass="element"
+            keyref="element_main_specialty_code__mental_health_">MAIN SPECIALTY CODE (MENTAL HEALTH)</xref>
+ that the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is fit and ready for discharge, but discharge is delayed due to external factors outside the control of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+.  These reasons are detailed in 
+    <xref outputclass="attribute"
+            keyref="attribute_mental_health_delayed_discharge_reason">MENTAL HEALTH DELAYED DISCHARGE REASON</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is ready for discharge when:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+A clinical decision has been made that the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is ready for discharge        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+A 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_multidisciplinary_team">Multidisciplinary Team</xref>
+ decision has been made that the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is ready for discharge        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+The 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is safe to discharge.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_delayed_discharge_period">Mental Health Delayed Discharge Period</xref>
+:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+Starts on the 
+                <xref outputclass="element"
+                     keyref="element_start_date__mental_health_delayed_discharge_period_">START DATE (MENTAL HEALTH DELAYED DISCHARGE PERIOD)</xref>
+ and        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Ends on the 
+                <xref outputclass="element"
+                     keyref="element_end_date__mental_health_delayed_discharge_period_">END DATE (MENTAL HEALTH DELAYED DISCHARGE PERIOD)</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+      <xref outputclass="element"
+            keyref="element_end_date__mental_health_delayed_discharge_period_">END DATE (MENTAL HEALTH DELAYED DISCHARGE PERIOD)</xref>
+ may be the same as the 
+      <xref outputclass="element"
+            keyref="element_discharge_date__hospital_provider_spell_">DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>
+, if the external factors are resolved while the 
+      <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is still ready for discharge.   </p>
+  <p>
+However if the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s condition deteriorates while awaiting discharge, the decision may be taken to end the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_delayed_discharge_period">Mental Health Delayed Discharge Period</xref>
+, and the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_care_professional_admitted_care_episode">Care Professional Admitted Care Episode</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ continue.  </p>
+  <p>
+Multiple 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_delayed_discharge_period">Mental Health Delayed Discharge Periods</xref>
+ may occur during a single 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_care_professional_admitted_care_episode">Care Professional Admitted Care Episode</xref>
+, and within a single 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ (though they may occur in different 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_care_professional_admitted_care_episode">Care Professional Admitted Care Episodes</xref>
+ within that 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+).  </p>
+
+</body>
+</topic>

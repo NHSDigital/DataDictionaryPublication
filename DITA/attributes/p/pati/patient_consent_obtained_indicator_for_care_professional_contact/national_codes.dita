@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_patient_consent_obtained_indicator_for_care_professional_contact.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PATIENT CONSENT OBTAINED INDICATOR FOR CARE PROFESSIONAL CONTACT - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+
+  <p>
+Yes - the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has consented for their 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ to be contacted about their care  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+
+  <p>
+No - the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has not consented for their 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ to be contacted about their care  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

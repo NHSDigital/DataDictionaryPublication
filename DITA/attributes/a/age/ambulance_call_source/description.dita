@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_ambulance_call_source.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: AMBULANCE CALL SOURCE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The source of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ambulance_call">Ambulance Call</xref>
+ into the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ambulance_control_room">Ambulance Control Room</xref>
+.  </p>
+  <p>
+This could be a direct 999 call or a call transferred from another 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

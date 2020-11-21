@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_episode_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: EPISODE NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>n2</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_episode_number">EPISODE NUMBER</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_identifier">ACTIVITY IDENTIFIER</xref>
+ and is used to uniquely identify episodes, and is a sequence number for each 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
+ in a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+. The first episode of each new 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ (including re-admitted 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+) commences at 01.  </p>
+  <p>
+A known 
+    <xref outputclass="element" keyref="element_episode_number">EPISODE NUMBER</xref>
+ can be between 01 to 87.  </p>
+  <p>
+For other 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ episodes, it is a sequence number for a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+/
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ combination; or it is a sequence number for each 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sexual_health_and_hiv_episode">Sexual Health and HIV Episode</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_episode_number">EPISODE NUMBER</xref>
+ is used by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ to derive the 
+    <b>
+         <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+               scope="external"
+               format="html">Healthcare_Resource_Group</xref>
+      </b>
+  
+    <b>4</b>
+. Failure to correctly populate this data element is likely to result in an incorrect 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">Healthcare_Resource_Group</xref>
+, usually associated with lower levels of healthcare resource.  </p>
+  <p>
+For further information, please refer to the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance"
+            scope="external"
+            format="html">Payment by Results Guidance</xref>
+.  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_care_activity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: CARE ACTIVITY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A subtype of 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+ is the provision of an individual instance of care to a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ given by one or more 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>
+.  </p>
+  <p>
+Subtypes of 
+    <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+ are:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTION</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITIES</xref>
+ include:  </p>
+  <ul>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+      </li>
+  </ul>
+
+</body>
+</topic>

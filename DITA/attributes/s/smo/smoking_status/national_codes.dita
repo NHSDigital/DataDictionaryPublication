@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_smoking_status.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: SMOKING STATUS - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>Current smoker</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>Ex-smoker</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>Non-smoker - history unknown</stentry>
+      </strow>
+      <strow>
+        <stentry>4</stentry>
+        <stentry>Never smoked</stentry>
+      </strow>
+      <strow>
+        <stentry>Z</stentry>
+        <stentry>
+
+  <p>
+Not Stated (
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ asked but declined to provide a response)  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

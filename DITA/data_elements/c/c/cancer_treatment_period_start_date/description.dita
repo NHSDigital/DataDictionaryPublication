@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cancer_treatment_period_start_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CANCER TREATMENT PERIOD START DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_treatment_period_start_date">CANCER TREATMENT PERIOD START DATE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+, where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_start_date">Start Date</xref>
+'    </i>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_treatment_period">Cancer Treatment Period</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="element"
+            keyref="element_cancer_treatment_period_start_date">CANCER TREATMENT PERIOD START DATE</xref>
+ will be either:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+the 
+                <xref outputclass="attribute" keyref="attribute_decision_to_treat_date">DECISION TO TREAT DATE</xref>
+            </p>
+         </div>
+         <ul>
+            <li>
+               <div>
+                  <p>
+the date that a 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ agrees a treatment plan for either first or subsequent treatments within a 
+                        <xref outputclass="businessDefinition"
+                           keyref="business_definition_cancer_care_plan">Cancer Care Plan</xref>
+.  An individual 
+                        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may have multiple 
+                        <xref outputclass="attribute" keyref="attribute_decision_to_treat_date">DECISION TO TREAT DATES</xref>
+ or            </p>
+               </div>
+            </li>
+         </ul>
+      </li>
+      <li>
+         <div>
+            <p>
+the 
+                <xref outputclass="element"
+                     keyref="element_earliest_clinically_appropriate_date">EARLIEST CLINICALLY APPROPRIATE DATE</xref>
+            </p>
+         </div>
+         <ul>
+            <li>
+               <div>
+                  <p>
+where there is no new 
+                        <xref outputclass="attribute" keyref="attribute_decision_to_treat_date">DECISION TO TREAT DATE</xref>
+, but there has been a previously agreed and clinically appropriate period of delay. In this case the subsequent 
+                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ may not be the final treatment, but could be the next 
+                        <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ which deals with the planning of subsequent treatments.            </p>
+               </div>
+            </li>
+         </ul>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

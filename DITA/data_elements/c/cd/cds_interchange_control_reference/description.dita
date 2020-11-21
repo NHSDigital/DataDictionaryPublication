@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_interchange_control_reference.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS INTERCHANGE CONTROL REFERENCE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an14</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_cds_interchange_control_reference">CDS INTERCHANGE CONTROL REFERENCE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_cds_interchange_control_reference">CDS INTERCHANGE CONTROL REFERENCE</xref>
+.  </p>
+  <p>
+For each Interchange submitted, the 
+    <xref outputclass="element"
+            keyref="element_cds_interchange_control_reference">CDS INTERCHANGE CONTROL REFERENCE</xref>
+ must be incremented by 1. The maximum value supported is n7 and wrap around from 9999999 to 1 must be supported.  </p>
+  <p>
+      <b>Usage:</b>
+  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cds_interchange_control_reference">CDS INTERCHANGE CONTROL REFERENCE</xref>
+ is a mandatory data element when submitting Commissioning Data Set Interchanges and is used to uniquely identify and if required, to sequence check Commissioning Data Set submissions.
+  </p>
+  <p>Although (for historical reasons) contained in a 14 alpha-numeric format, a maximum value of 9999999 is permitted in the format of n7.
+</p>
+  <p>
+This control reference data may also be presented on 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">SUS</xref>
+) service messages and audit logs, etc.  </p>
+  <p>
+      <b>CDS</b>
+      <b>XML Schema Interchanges:</b>
+  </p>
+  <p>
+All CDS XML Schema interchanges submitted must contain a 
+    <xref outputclass="element"
+            keyref="element_cds_interchange_control_reference">CDS INTERCHANGE CONTROL REFERENCE</xref>
+.  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_time_of_birth__patient_identification_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: TIME OF BIRTH (PATIENT IDENTIFICATION) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an5 (HH:mm)</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_time_of_birth__patient_identification_">TIME OF BIRTH (PATIENT IDENTIFICATION)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_person_birth_time">PERSON BIRTH TIME</xref>
+ of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+, where the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is a 
+    <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonate</xref>
+, for the purposes of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_aidc_for_patient_identification_data_set">AIDC for Patient Identification Data Set</xref>
+.  </p>
+  <p>
+Further guidance can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/isce/publication/dcb1077"
+            scope="external"
+            format="html">DCB1077: AIDC for Patient Identification.</xref>
+  </p>
+
+
+  </body>
+</topic>

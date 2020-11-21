@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_synchronous_tumour_indicator.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: SYNCHRONOUS TUMOUR INDICATOR - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+
+  <p>
+Yes - synchronous 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumours</xref>
+ present  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+
+  <p>
+No - no synchronous 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumours</xref>
+ present  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

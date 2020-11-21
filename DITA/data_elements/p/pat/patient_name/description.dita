@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_patient_name.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PATIENT NAME - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an70</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_patient_name">PATIENT NAME</xref>
+ is the preferred name of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+For the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+            scope="external"
+            format="html">Commissioning Data Sets</xref>
+ it is necessary to identify whether the 
+    <xref outputclass="class" keyref="class_person_name">PERSON NAME</xref>
+ is a 
+    <xref outputclass="class" keyref="class_person_name_structured">PERSON NAME STRUCTURED</xref>
+ or 
+    <xref outputclass="class" keyref="class_person_name_unstructured">PERSON NAME UNSTRUCTURED</xref>
+ using the following codes.  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>1</p>
+         </stentry>
+         <stentry>
+            <p>Structured - two element name, forename followed by surname, each element an35</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>2</p>
+         </stentry>
+         <stentry>
+            <p>Unstructured - an70</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>9</p>
+         </stentry>
+         <stentry>
+            <p>Not known: a validation error</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s name and 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ should be withheld from any 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+            scope="external"
+            format="html">Commissioning Data Set</xref>
+ that contains a valid 
+    <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+.  For further information, see the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/security_issues_and_patient_confidentiality.asp"
+            scope="external"
+            format="html">Security Issues and Patient Confidentiality</xref>
+.  </p>
+
+
+  </body>
+</topic>

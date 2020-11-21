@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_diagnosis__snomed_ct_recorded_on_discharge_from_neonatal_critical_care_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DIAGNOSIS (SNOMED CT RECORDED ON DISCHARGE FROM NEONATAL CRITICAL CARE) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>See SNOMED_CT_CODE</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_diagnosis__snomed_ct_on_neonatal_critical_care_daily_care_date_">DIAGNOSIS (SNOMED CT ON NEONATAL CRITICAL CARE DAILY CARE DATE)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_clinical_terminology_code">CLINICAL TERMINOLOGY CODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_diagnosis__snomed_ct_on_neonatal_critical_care_daily_care_date_">DIAGNOSIS (SNOMED CT ON NEONATAL CRITICAL CARE DAILY CARE DATE)</xref>
+ is the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/snomed_ct.asp"
+            scope="external"
+            format="html">SNOMED_CT</xref>
+® concept ID describing a 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ recorded when the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is discharged from neonatal critical care.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_diagnosis__snomed_ct_recorded_on_discharge_from_neonatal_critical_care_">DIAGNOSIS (SNOMED CT RECORDED ON DISCHARGE FROM NEONATAL CRITICAL CARE)</xref>
+ should include any 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSES</xref>
+ which were not recorded as expected on the applicable 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_neonatal_critical_care_daily_care_date">Neonatal Critical Care Daily Care Date</xref>
+ during a Neonatal 
+    <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+.  </p>
+
+
+  </body>
+</topic>

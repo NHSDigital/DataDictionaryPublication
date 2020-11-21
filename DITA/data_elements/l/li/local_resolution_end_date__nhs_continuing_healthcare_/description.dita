@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_local_resolution_end_date__nhs_continuing_healthcare_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: LOCAL RESOLUTION END DATE (NHS CONTINUING HEALTHCARE) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+ 
+    <xref outputclass="element"
+            keyref="element_local_resolution_end_date__nhs_continuing_healthcare_">LOCAL RESOLUTION END DATE (NHS CONTINUING HEALTHCARE)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is ' 
+    <i>
+         <xref outputclass="businessDefinition" keyref="business_definition_end_date">End Date</xref>
+      </i>
+      <i>'</i>
+ for the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+ the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been found eligible for.  </p>
+
+
+  </body>
+</topic>

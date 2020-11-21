@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_critical_care_period.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: CRITICAL CARE PERIOD - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A subtype of 
+    <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+.  </p>
+  <p>
+A period of time within a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ during which a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receives critical care.  </p>
+  <p>
+For 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ treated in 'neonatal facilities', that is, in 
+    <xref outputclass="class" keyref="class_ward">WARDS</xref>
+ with a 
+    <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+ of 13, 14 or 15, critical care 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ include:  </p>
+  <p>
+a) All 
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ on a 
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+ with a 
+      <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+      <i>Neonatal Intensive Care Unit</i>
+ regardless of care being delivered.
+  or
+  b) All 
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ (excluding Mothers) on a 
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+ with a 
+      <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+      <i>Facility for Babies on a Neonatal Transitional Care Ward</i>
+ or 
+      <i>Facility for Babies on a Maternity Ward</i>
+ to whom one or more 
+      <xref outputclass="class" keyref="class_critical_care_activity">CRITICAL CARE ACTIVITIES</xref>
+ with codes 01 to 02, 04 - 16 or 22 - 29 is delivered for a period greater than 4 hours.
+    </p>
+  <p>
+For 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ treated in 'adult facilities' or 'other facilities', that is, 
+    <xref outputclass="class" keyref="class_ward">WARDS</xref>
+ with a 
+    <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+ of 01-03, 05-12, 90 or 91, the following conditions apply:  </p>
+  <ul>
+      <li>
+         <p>
+A new 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ starts when the 
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is admitted to a critical care location regardless of 
+            <xref outputclass="attribute" keyref="attribute_critical_care_level">CRITICAL CARE LEVEL</xref>
+.       </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+Outreach activity, although part of critical care, should not be recorded as a 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+.       </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+Resuscitation conducted outside designated critical care locations, e.g. as part of conventional care in operating theatres and 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_accident_and_emergency_department">Accident and Emergency Departments</xref>
+, should not be recorded as a 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ even though many aspects of the care given may satisfy the definitions for Level 2 or Level 3  
+            <xref outputclass="attribute" keyref="attribute_critical_care_level">CRITICAL CARE LEVELS</xref>
+.      </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+Repeated admissions to the same unit should be recorded as separate 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIODS</xref>
+ identified by different 
+            <xref outputclass="element" keyref="element_critical_care_start_date">CRITICAL CARE START DATES</xref>
+. A transfer to a different critical care location within the same 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ will initiate a new 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ identified by the differing 
+            <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+.      </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+A change of 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
+ or brief transfers for investigation and/or treatment do not end the 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+.      </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+A 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ ends when the 
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is discharged from the critical care location, or dies, or the care that is being delivered in a non-standard location (see below) is 
+            <xref outputclass="attribute" keyref="attribute_critical_care_level">CRITICAL CARE LEVEL</xref>
+ National Code 00 
+            <i>Level 0</i>
+ or 01 
+            <i>'Level 1'</i>
+.      </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+Critical care locations are described by 
+            <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+ and 
+            <xref outputclass="attribute" keyref="attribute_unit_bed_configuration">UNIT BED CONFIGURATION</xref>
+. Critical Care beds may include occasional non-standard locations using a ward area or operating department when conventional critical care beds are not available. Non standard locations may only be recorded if the 
+            <xref outputclass="attribute" keyref="attribute_critical_care_level">CRITICAL CARE LEVEL</xref>
+ is National Code 02 
+            <i>'Level 2'</i>
+ or 03 
+            <i>'Level 3'</i>
+ and the delivery of care is greater than four hours. For 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIODS</xref>
+ with 
+            <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTIONS</xref>
+ of either National Code 90 
+            <i>'non standard location using a ward area'</i>
+ or National Code 91 
+            <i>'non standard location using the operating department',</i>
+ care provided in these locations must exceed four hours, and must include 
+            <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTIONS</xref>
+, monitoring and supervision normally associated with a critical care area i.e. intensive therapy unit or high dependency unit. Further the care provided must be continuously supervised by currently practising critical care doctors and 
+            <xref outputclass="class" keyref="class_nurse">NURSES</xref>
+ who would normally work in critical care.      </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+The type of 
+            <xref outputclass="attribute" keyref="attribute_organ_system_supported">ORGAN SYSTEM SUPPORTED</xref>
+ is recorded and the duration of each organ system support is calculated from the 
+            <xref outputclass="attribute"
+                  keyref="attribute_activity_property_effective_date">ACTIVITY PROPERTY EFFECTIVE DATE</xref>
+ and the 
+            <xref outputclass="attribute" keyref="attribute_activity_property_end_date">ACTIVITY PROPERTY END DATE</xref>
+.      </p>
+      </li>
+      <li/>
+      <li>
+         <p>
+A 
+            <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ does not include the following:
+    a. Surgical and anaesthetic intra-operative care
+    b. Post-operative care within an operating department except where level 2 or level 3 care are provided for more than 4 hours
+    c. Care delivered in a cardiac or coronary care unit
+    d. Imaging procedures
+    e. Endoscopy procedures
+    f.  Care delivered in an 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+         </p>
+      </li>
+  </ul>
+  <p>
+      <b>Commissioning Data Set Transmission</b>
+  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+The 
+                <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ may overlap Episodes, i.e. the 
+                <xref outputclass="element" keyref="element_critical_care_start_date">CRITICAL CARE START DATE</xref>
+ may precede the start of the 
+                <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+/ 
+                <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+ / 
+                <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ Episode; similarly the 
+                <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ may not have ended by the end of the Episode.        </p>
+         </div>
+      </li>
+      <li/>
+      <li>
+         <div>
+            <p>
+The Data Elements 
+                <xref outputclass="element" keyref="element_critical_care_start_date">CRITICAL CARE START DATE</xref>
+, 
+                <xref outputclass="element" keyref="element_critical_care_local_identifier">CRITICAL CARE LOCAL IDENTIFIER</xref>
+ and 
+                <xref outputclass="element" keyref="element_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+ must always be present.        </p>
+         </div>
+      </li>
+      <li/>
+      <li>
+         <div>
+            <p>
+Where applicable, Support Days and Critical Care Level Days should only be entered when the 
+                <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+ is finished and the 
+                <xref outputclass="element" keyref="element_critical_care_discharge_date">CRITICAL CARE DISCHARGE DATE</xref>
+ is entered.        </p>
+         </div>
+      </li>
+      <li/>
+      <li>
+         <div>
+            <p>
+The 
+                <xref outputclass="element" keyref="element_critical_care_discharge_date">CRITICAL CARE DISCHARGE DATE</xref>
+ must be on or before the 
+                <xref outputclass="element"
+                     keyref="element_discharge_date__hospital_provider_spell_">DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

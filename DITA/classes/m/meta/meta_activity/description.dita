@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_activity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: META ACTIVITY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>This is a meta model class.</p>
+  <p>A activity which has an identifiable purpose and uses one or more resource in performance of it.</p>
+  <p>
+This is used as a general class that groups all activities. It identifies the characteristics that apply to all kinds of activities. Sub types of 
+    <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
+ show the particular business activities and their attributes and relationships that relate to the care profession. These include:  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>-</p>
+         </stentry>
+         <stentry>
+            <p>Clinical Interventions</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>-</p>
+         </stentry>
+         <stentry>
+            <p>Clinics</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>-</p>
+         </stentry>
+         <stentry>
+            <p>Appointments</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>
+Each 
+    <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
+ must have one or more 
+    <xref outputclass="class" keyref="class_meta_change_activity_state">META CHANGE ACTIVITY STATES</xref>
+ which are identified by specific subtypes. Each state represents an instance of an event for the 
+    <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
+ may be broken down into a related series of subordinate 
+    <xref outputclass="class" keyref="class_meta_activity">META ACTIVITIES</xref>
+ all of which must be related to the owning 
+    <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
+.  </p>
+
+</body>
+</topic>

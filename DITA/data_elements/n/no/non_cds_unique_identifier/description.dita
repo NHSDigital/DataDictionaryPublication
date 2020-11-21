@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_non_cds_unique_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: NON CDS UNIQUE IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an35</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_non_cds_unique_identifier">NON CDS UNIQUE IDENTIFIER</xref>
+ is used in conjunction with the 
+    <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+ to uniquely identify a record within a 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+ submission, where there is no 
+    <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+ present in the record.  </p>
+
+
+  </body>
+</topic>

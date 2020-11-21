@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_birth_care_plan.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Birth Care Plan - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_birth_care_plan">Birth Care Plan</xref>
+ is a 
+    <xref outputclass="class" keyref="class_care_plan">CARE PLAN</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_birth_care_plan">Birth Care Plan</xref>
+ is a 
+    <xref outputclass="class" keyref="class_care_plan">CARE PLAN</xref>
+ developed within a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_episode">Maternity Episode</xref>
+ for the period of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_labour_and_delivery">Labour and Delivery</xref>
+.   </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_birth_care_plan">Birth Care Plan</xref>
+ should include:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>details of medical history</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+the 
+                <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>
+ involved and their 
+                <xref outputclass="class" keyref="class_care_professional_role">CARE PROFESSIONAL ROLES</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+the 
+                <xref outputclass="attribute" keyref="attribute_intended_delivery_place">INTENDED DELIVERY PLACE</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+the mother's preferences for birth partner, pain relief in 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_labour_and_delivery">Labour and Delivery</xref>
+ and intended 
+                <xref outputclass="attribute" keyref="attribute_breastfeeding_status">BREASTFEEDING STATUS</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

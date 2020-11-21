@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_service_discharge_time.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: SERVICE DISCHARGE TIME - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an8 HH:MM:SS</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_service_discharge_time">SERVICE DISCHARGE TIME</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_time">ACTIVITY TIME</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_time_type">ACTIVITY TIME TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_discharge_time">Discharge Time</xref>
+      </i>
+ '.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_service_discharge_time">SERVICE DISCHARGE TIME</xref>
+ is the time a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was discharged from a 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+.  </p>
+
+
+  </body>
+</topic>

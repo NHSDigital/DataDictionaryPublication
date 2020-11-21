@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_delivery_method_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DELIVERY METHOD CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an1</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_delivery_method_code">DELIVERY METHOD CODE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_delivery_method">DELIVERY METHOD</xref>
+.  </p>
+  <p>
+Additional National Code guidance not contained in the attribute definition is given below. It is shown in 
+    <i>italics</i>
+.  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>0</p>
+         </stentry>
+         <stentry>
+            <p>
+Spontaneous vertex 
+                  <i>
+(normal vaginal 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+, occipitoanterior)          </i>
+            </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>1</p>
+         </stentry>
+         <stentry>
+            <p>
+Spontaneous other cephalic 
+                  <i>
+(cephalic vaginal 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ with abnormal presentation of head at 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+, without instruments, with or without manipulation)          </i>
+            </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>2</p>
+         </stentry>
+         <stentry>
+            <p>
+Low forceps, not breech 
+                  <i>
+(e.g. forceps, low application, without manipulation. Includes forceps 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ not otherwise specified)          </i>
+            </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>3</p>
+         </stentry>
+         <stentry>
+            <p>
+Other forceps, not breech 
+                  <i>(e.g. forceps with manipulation. Includes high forceps and mid forceps)</i>
+            </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>4</p>
+         </stentry>
+         <stentry>
+            <p>Ventouse, vacuum extraction</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>5</p>
+         </stentry>
+         <stentry>
+            <p>
+Breech 
+                  <i>
+(spontaneous 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ assisted or unspecified. Includes partial breech extraction)          </i>
+            </p>
+         </stentry>
+         <stentry>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>6</p>
+         </stentry>
+         <stentry>
+            <p>
+Breech extraction (
+                  <i>not otherwise specified. Includes total breech extraction and version with breech extraction</i>
+)        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>7</p>
+         </stentry>
+         <stentry>
+            <p>
+Elective caesarean section (
+                  <i>
+caesarean section before, or at onset of, 
+                    <xref outputclass="businessDefinition" keyref="business_definition_labour">Labour</xref>
+)          </i>
+            </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>8</p>
+         </stentry>
+         <stentry>
+            <p>Emergency caesarean section</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>9</p>
+         </stentry>
+         <stentry>
+            <p>
+Other than those specified above 
+                  <i>
+(e.g. application of weight to leg in breech 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+. Includes destructive operation to facilitate 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ and other surgical or instrumental 
+                    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+)          </i>
+            </p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+
+  </body>
+</topic>

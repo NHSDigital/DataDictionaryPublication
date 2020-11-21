@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_waiting_time_measurement_type.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: WAITING TIME MEASUREMENT TYPE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an2</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>
+.  </p>
+  <p>
+Note: National Codes 01, 03 and 04 are not valid for the Referral To Treatment (RTT) data group in the 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+.  </p>
+  <p>
+For specific National Code usage in different data sets, see 
+    <xref outputclass="attribute"
+            keyref="attribute_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>
+.  </p>
+
+
+  </body>
+</topic>

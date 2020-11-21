@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_elective_admission_list_entry.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: ELECTIVE ADMISSION LIST ENTRY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An entry on an 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ denoting a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ for whom the 
+    <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ has been made.  </p>
+  <p>
+Being placed on the 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+ will result in an 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+. When the 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+ is first recorded, the 
+    <xref outputclass="attribute"
+            keyref="attribute_original_decided_to_admit_date">ORIGINAL DECIDED TO ADMIT DATE</xref>
+ should be recorded as the same as the 
+    <xref outputclass="attribute" keyref="attribute_decided_to_admit_date">DECIDED TO ADMIT DATE</xref>
+ of the first 
+    <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+.  </p>
+  <p>
+It is possible for a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to have more than one 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+, either for a different condition or for the same condition where two or more admissions are required.  </p>
+  <p>
+Only one 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+ should be made in the event of the intention to perform two or more procedures during one admission.  </p>
+  <p>
+To monitor key targets it is necessary for the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ responsible for the 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+, to record the date of any previous 
+    <xref outputclass="class" keyref="class_offer_of_admission">OFFERS OF ADMISSION</xref>
+ for the same condition, which was made by a previous 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ and then cancelled by them on the day of or after admission for non-medical reasons.  </p>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+ is removed from the 
+    <xref outputclass="class" keyref="class_waiting_list">WAITING LIST</xref>
+ when the PATIENT is admitted or removed for other specified reasons. ELECTIVE ADMISSION LIST REMOVAL REASON records the method of removal from the list and 
+    <xref outputclass="attribute"
+            keyref="attribute_elective_admission_list_removal_date">ELECTIVE ADMISSION LIST REMOVAL DATE</xref>
+ records the removal date.  </p>
+  <p>
+Once removed from the 
+    <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
+, the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ ceases to be waiting for admission and all associated 
+    <xref outputclass="class" keyref="class_offer_of_admission">OFFERS OF ADMISSION</xref>
+ become inactive.  </p>
+  <p>
+Note: An 
+    <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
+ must be related to a 
+    <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+.  </p>
+
+</body>
+</topic>

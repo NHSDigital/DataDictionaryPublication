@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_national_neonatal_data_set_-_episodic_and_daily_care.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: National Neonatal Data Set - Episodic and Daily Care - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <b>Contextual Overview</b>
+  </p>
+  <p>
+The 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/national_neonatal_data_set_overviews/national_neonatal_data_set_introduction.asp"
+            scope="external"
+            format="html">National Neonatal Data Set</xref>
+ consists of a defined list of data items that are extracted from electronic clinical records created by clinical staff on all admissions to Neonatal Critical Care Units in England.  </p>
+  <p>
+The 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/national_neonatal_data_set_overviews/national_neonatal_data_set_introduction.asp"
+            scope="external"
+            format="html">National Neonatal Data Set</xref>
+ is in two parts:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+The 
+                <xref outputclass="dataSet"
+                     keyref="dataset_national_neonatal_data_set_-_episodic_and_daily_care">National Neonatal Data Set - Episodic and Daily Care</xref>
+ covers the period of time a baby is cared for in Neonatal Critical Care, Transitional Care, or other non-standard critical care settings        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+The 
+                <xref outputclass="dataSet"
+                     keyref="dataset_national_neonatal_data_set_-_two_year_neonatal_outcomes_assessment">National Neonatal Data Set - Two Year Neonatal Outcomes Assessment</xref>
+, carries data relating to a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_two_year_neonatal_outcomes_assessment">Two Year Neonatal Outcomes Assessment</xref>
+ carried out on the same child approximately two years after their treatment.  The 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_two_year_neonatal_outcomes_assessment">Two Year Neonatal Outcomes Assessment</xref>
+ may be carried out by the same 
+                <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ who was responsible for the neonatal 
+                <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+, or by a different 
+                <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+The two neonatal data sets comprise data items relating to 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ demographics, 
+    <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTIONS</xref>
+, outcomes, and 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSES</xref>
+. Each data item is mapped where possible to existing 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/information_standards_board_for_health_and_social_care.asp"
+            scope="external"
+            format="html">ISB</xref>
+ / 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/standardisation_committee_for_care_information.asp"
+            scope="external"
+            format="html">SCCI</xref>
+ / 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_data_coordination_board">DCB</xref>
+ 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/information_standard_and_collection_(including_extraction).asp"
+            scope="external"
+            format="html">Information Standards and Collections (including Extractions)</xref>
+ (such as the 
+    <xref outputclass="dataSet"
+            keyref="dataset_neonatal_critical_care_minimum_data_set">Neonatal Critical Care Minimum Data Set</xref>
+ and Maternity Services Data Set Version 1) as well as to 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/snomed_ct.asp"
+            scope="external"
+            format="html">SNOMED_CT</xref>
+ and 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+            scope="external"
+            format="html">ICD</xref>
+ codes.  </p>
+  <p>
+The aim of the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/national_neonatal_data_set_overviews/national_neonatal_data_set_introduction.asp"
+            scope="external"
+            format="html">National Neonatal Data Set</xref>
+ is to extract data items from electronic clinical records, create a database of these items, and make this available as a national resource to serve a variety of needs, so avoiding duplicate data collections for different purposes, minimising the burden placed upon clinical teams, and promoting data quality and completeness.  </p>
+  <p>
+      <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ involved in the collection may choose whether to allow identifiable or unidentifiable (anonymised) information to flow to the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_neonatal_data_analysis_unit">Neonatal Data Analysis Unit</xref>
+.  Where anonymised data is to flow, the appropriate 'withheld' patient and parents demographic structures should be used (i.e. those with no 
+    <xref outputclass="attribute" keyref="attribute_person_identifier">PERSON IDENTIFIERS</xref>
+, such as 
+    <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
+ or 
+    <xref outputclass="attribute" keyref="attribute_person_birth_date">PERSON BIRTH DATE</xref>
+).   </p>
+  <p>
+In addition, where anonymisation is required, the dates and times of events carried throughout the data set (such as 
+    <xref outputclass="element" keyref="element_sample_collection_date_and_time">SAMPLE COLLECTION DATE AND TIME</xref>
+, 
+    <xref outputclass="element"
+            keyref="element_procedure_date_and_time__abdominal_x-ray_">PROCEDURE DATE AND TIME (ABDOMINAL X-RAY)</xref>
+) should be replaced with the specific relevant year and month of the event 
+    <b>and</b>
+ the 
+    <xref outputclass="element"
+            keyref="element_number_of_minutes__birth_to_event_">NUMBER OF MINUTES (BIRTH TO EVENT)</xref>
+.  The 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/national_neonatal_data_set_overviews/national_neonatal_data_set_introduction.asp"
+            scope="external"
+            format="html">National Neonatal Data Set</xref>
+ structure allows an either/or choice for these event items throughout the data set.  </p>
+  <p>
+      <b>Data Collection</b>
+  </p>
+  <p>
+The 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/national_neonatal_data_set_overviews/national_neonatal_data_set_introduction.asp"
+            scope="external"
+            format="html">National Neonatal Data Set</xref>
+ consists of a defined list of data items that are extracted from electronic clinical records created by clinical staff relating to all neonatal critical care delivered in England.  The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_neonatal_data_analysis_unit">Neonatal Data Analysis Unit</xref>
+ has established a database, the National Neonatal Research Database (NNRD) to hold data comprising the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/national_neonatal_data_set_overviews/national_neonatal_data_set_introduction.asp"
+            scope="external"
+            format="html">National Neonatal Data Set</xref>
+, as a national resource.  </p>
+  <p>
+      <b>Submission Information</b>
+  </p>
+  <p>
+For submission information, see the 
+    <xref href="http://www1.imperial.ac.uk/departmentofmedicine/divisions/infectiousdiseases/paediatrics/neonatalmedicine/ndau/"
+            scope="external"
+            format="html">NDAU website</xref>
+.  Note that all date and time fields in the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/national_neonatal_data_set_overviews/national_neonatal_data_set_introduction.asp"
+            scope="external"
+            format="html">National Neonatal Data Set</xref>
+ should be in Co-ordinated Universal Time (UTC) for submission purposes.  </p>
+  <p>
+      <b>Further Guidance</b>
+  </p>
+  <p>
+Further guidance has been produced by the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_neonatal_data_analysis_unit">Neonatal Data Analysis Unit</xref>
+ and is available on their website at: 
+    <xref href="http://www1.imperial.ac.uk/departmentofmedicine/divisions/infectiousdiseases/paediatrics/neonatalmedicine/ndau/"
+            scope="external"
+            format="html">NDAU website</xref>
+.  </p>
+
+</body>
+</topic>

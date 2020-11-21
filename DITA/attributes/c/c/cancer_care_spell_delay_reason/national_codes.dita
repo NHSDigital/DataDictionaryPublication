@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_cancer_care_spell_delay_reason.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: CANCER CARE SPELL DELAY REASON - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Clinic cancellation</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <p>
+Out-patient capacity inadequate (i.e. no cancelled clinic, but not enough slots for this 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Administrative delay</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>Elective cancellation (for non-medical reason) for treatment in an admitted care setting</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+
+  <p>
+Elective capacity inadequate (
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ unable to be scheduled for treatment within standard time) for treatment in an admitted care setting  </p>
+
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>06</stentry>
+        <stentry>Delay to diagnostic test or treatment planning (Retired 1 July 2012)</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>Complex diagnostic pathway (many, or complex, diagnostic tests required)</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>08</stentry>
+        <stentry>Delay due to referral between Trusts (Retired 1 July 2012)</stentry>
+      </strow>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>
+
+  <p>
+Treatment delayed for medical reasons (
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ unfit for treatment episode, excluding planned recovery period following diagnostic test) in an admitted care setting  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>
+
+  <p>
+Diagnosis delayed for medical reasons (
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ unfit for diagnostic episode, excluding planned recovery period following diagnostic test)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>13</stentry>
+        <stentry>
+
+  <p>
+Delay due to recovery after an invasive test (
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ or treatment delayed due to planned recovery period following an invasive diagnostic test)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>14</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ Did Not Attend treatment 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>16</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ Choice (
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ declined or cancelled an offered 
+    <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>
+ for treatment)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>17</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ choice delay relating to first 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>18</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_health_care_provider">Health Care Provider</xref>
+  <p> initiated delay to diagnostic test or treatment planning</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>19</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> initiated (choice) delay to diagnostic test or treatment planning, advance notice given</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>20</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ Did Not Attend an 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ for a diagnostic test or treatment planning event (no advance notice)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>21</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> failed to present for elective treatment (choice) in an admitted care setting</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>22</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p> care not commissioned by the NHS in England (waiting time standard does not apply) for treatment in an admitted care setting</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>23</stentry>
+        <stentry>Equipment breakdown</stentry>
+      </strow>
+      <strow>
+        <stentry>24</stentry>
+        <stentry>Inconclusive diagnostic result</stentry>
+      </strow>
+      <strow>
+        <stentry>25</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_health_care_provider">Health Care Provider</xref>
+  <p>
+ unable to make contact with 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ by telephone  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>26</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ choice (
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ declined or cancelled an offered 
+    <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>
+ for follow up 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>97</stentry>
+        <stentry>Other reason (not listed)</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>98</stentry>
+        <stentry>Other reason (Retired 1 April 2018)</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>99</stentry>
+        <stentry>Other reason (Retired 1 July 2012)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_procedure_year_and_month__abdominal_x-ray_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PROCEDURE YEAR AND MONTH (ABDOMINAL X-RAY) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an7 YYYY-MM</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_procedure_year_and_month__abdominal_x-ray_">PROCEDURE YEAR AND MONTH (ABDOMINAL X-RAY)</xref>
+ is the year and month the recorded 
+    <xref outputclass="element" keyref="element_procedure_date">PROCEDURE DATE</xref>
+ when an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_abdominal_x-ray">Abdominal X-Ray</xref>
+ was performed.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_neonatal_data_set_-_episodic_and_daily_care">National Neonatal Data Set - Episodic and Daily Care</xref>
+, 
+    <xref outputclass="element"
+            keyref="element_procedure_year_and_month__abdominal_x-ray_">PROCEDURE YEAR AND MONTH (ABDOMINAL X-RAY)</xref>
+ is submitted instead of 
+    <xref outputclass="element"
+            keyref="element_procedure_date_and_time__abdominal_x-ray_">PROCEDURE DATE AND TIME (ABDOMINAL X-RAY)</xref>
+, where the data set record is anonymised.  </p>
+
+
+  </body>
+</topic>

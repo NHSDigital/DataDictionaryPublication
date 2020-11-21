@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_organisation_identifier__code_of_commissioner_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ORGANISATION IDENTIFIER (CODE OF COMMISSIONER) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>min an3 max an5</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+ of the 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ commissioning health care.  </p>
+  <p>
+For 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/navigation/commissioning_data_sets_menu.asp"
+            scope="external"
+            format="html">Commissioning Data Sets</xref>
+, the 
+    <xref outputclass="element"
+            keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+ should always be the 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+ of the original commissioner to support the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_england">NHS England</xref>
+ document 
+    <xref href="https://www.england.nhs.uk/wp-content/uploads/2014/05/who-pays.pdf"
+            scope="external"
+            format="html">"Who pays? Determining responsibility for payments to providers"</xref>
+ sets out a framework for establishing responsibility for commissioning an individual's care within the NHS, (i.e. determining who pays for a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s care.)  </p>
+  <p>The document includes information on the following:</p>
+  <ul>
+      <li>
+         <div>
+            <p>General Rules</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Applying the rules to 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+ and 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_nhs_england">NHS England</xref>
+ commissioned services        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>Exceptions to the general rules</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Examples to help clarify the boundaries of responsibility between commissioning 
+                <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+For further information on this document contact 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_england">NHS England</xref>
+ at 
+    <xref href="https://www.england.nhs.uk/contact-us/"
+            scope="external"
+            format="html">"Contact us"</xref>
+.  </p>
+  <p>
+Where 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_england">NHS England</xref>
+ is the responsible commissioner for a specialised 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+, based on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_england">NHS England</xref>
+      <xref href="https://www.england.nhs.uk/publication/commissioner-assignment-method-flowchart-201617/"
+            scope="external"
+            format="html">Commissioner Assignment Method (CAM)</xref>
+, one of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_specialised_commissioning_hub">Specialised Commissioning Hub</xref>
+ 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIERS</xref>
+ should be used depending on which 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ delivered the 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+, e.g. 
+    <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website provides a mapping list of which 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ map to which 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_specialised_commissioning_hub">Specialised Commissioning Hub</xref>
+. The mapping can be found on the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/organisation_data_service.asp"
+            scope="external"
+            format="html">Organisation_Data_Service</xref>
+ web pages at: 
+    <xref href="https://digital.nhs.uk/services/organisation-data-service/data-downloads/other-nhs-organisations"
+            scope="external"
+            format="html">Provider to Commissioning Hub Mapping</xref>
+.  </p>
+  <p>
+      <b>
+         <xref outputclass="element"
+               keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+ will be replaced with 
+      <xref outputclass="element"
+               keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+, when it has been approved for use in national information standards.    </b>
+  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_healthy_person_stay.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Healthy Person Stay - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_healthy_person_stay">Healthy Person Stay</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_healthy_person_stay">Healthy Person Stay</xref>
+ is a record of all overnight stays by healthy 
+    <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ who use a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ allocated to the healthy 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ may be drawn from the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ stock allocated to 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ (thus the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ becomes unavailable), or from specially provided facilities.  </p>
+  <p>This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained for information.</p>
+
+</body>
+</topic>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_person_relationship.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: META PERSON RELATIONSHIP - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each META PERSON RELATIONSHIP</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be related from one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_person' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be related to one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_person' outputclass='class' />
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

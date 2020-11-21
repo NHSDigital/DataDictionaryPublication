@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_mental_health_services_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Mental Health Services Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <b>Contextual Overview</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ (
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">MHSDS</xref>
+) is a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ level, output based, secondary uses data set which aims to deliver robust, comprehensive, nationally consistent and comparable person-based information for children, young people and adults (including elderly people) who are in contact with specialist secondary 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_service">Mental Health Services</xref>
+ located in England, or located outside England but treating 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ commissioned by an English 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_commissioning_group">CCG</xref>
+) or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_england">NHS England</xref>
+ specialised commissioner.  </p>
+  <p>
+As a secondary uses data set, the 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ re-uses clinical and operational data for purposes other than direct 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ care and defines the data items, definitions and associated value sets to be extracted or derived from local information systems.  </p>
+  <p>
+All 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ relating to 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who receive specialist secondary 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_service">Mental Health Services</xref>
+ and have, or are thought to have:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>A mental illness</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+A 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_learning_disability">Learning Disability</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+An 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_autistic_spectrum_disorder">Autistic Spectrum Disorder</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Any combination of mental health, 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_learning_disability">Learning Disability</xref>
+ or 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_autistic_spectrum_disorder">Autistic Spectrum Disorder</xref>
+ needs        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+is within scope of the 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+.  </p>
+  <p>
+The scope of the 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ requires 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ record level data submission from 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ as follows:  </p>
+  <p>
+For each 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ attending a 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ located in England:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+If the care is wholly funded by the NHS: the data submission for that 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is mandatory        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+If the care is partially funded by the NHS: the data submission for that 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is mandatory        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+If the care is wholly funded by any means that is not NHS: the data submission for that 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is optional.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+For each 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ attending a 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ located outside England, but commissioned by an English 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_england">NHS England</xref>
+ specialised commissioner:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>The data submission is optional.</p>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ is used across the range of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ and 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ that provide specialist secondary mental health and/or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_learning_disability">Learning Disabilities</xref>
+ and/or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_autistic_spectrum_disorder">Autistic Spectrum Disorder</xref>
+ 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ (irrespective of funding arrangements) including:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>NHS Mental Health Trusts</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>NHS Learning Disabilities Trusts</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>NHS Acute Trusts</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+NHS 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_care_trust">Care Trusts</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Providers</xref>
+            <p>
+offering a service model that includes NHS funded and non-NHS funded 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <p>
+Any qualified provider offering specialist secondary mental health, 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_learning_disability">Learning Disability</xref>
+ or 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_autistic_spectrum_disorder">Autistic Spectrum Disorder</xref>
+            <xref outputclass="class" keyref="class_service">SERVICES</xref>
+         </p>
+      </li>
+      <li>
+         <p>
+Community 
+            <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ offering secondary care to children.      </p>
+      </li>
+  </ul>
+  <p>
+      <b>Submission information</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ is submitted centrally via the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/strategic_data_collection_service_in_the_cloud.asp"
+            scope="external"
+            format="html">Strategic_Data_Collection_Service_in_the_Cloud</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/strategic_data_collection_service_in_the_cloud.asp"
+            scope="external"
+            format="html">SDCS Cloud</xref>
+) maintained by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ has historically been submitted using two submission windows, primary and refresh. This has changed to a multiple submission window model which gives submitters the opportunity to resubmit throughout the submission year. Guidance on the new submission model can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/mental-health-services-data-set/how-do-i-submit-data-to-the-mental-health-services-data-set#what-are-the-submission-dates"
+            scope="external"
+            format="html">How to submit to the MHSDS</xref>
+.  </p>
+  <p>
+      <b>Further guidance</b>
+  </p>
+  <p>
+Further information regarding the structure and submission of the 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/mental-health-services-data-set"
+            scope="external"
+            format="html">Mental Health Services Data Set (MHSDS)</xref>
+.  </p>
+
+</body>
+</topic>

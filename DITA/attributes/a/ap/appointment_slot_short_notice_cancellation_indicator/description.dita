@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_appointment_slot_short_notice_cancellation_indicator.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: APPOINTMENT SLOT SHORT NOTICE CANCELLATION INDICATOR - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An indication of whether the 
+    <xref outputclass="class" keyref="class_appointment_slot">APPOINTMENT SLOT</xref>
+ could be reallocated, where the 
+    <xref outputclass="attribute" keyref="attribute_attended_or_did_not_attend">ATTENDED OR DID NOT ATTEND</xref>
+ National Code is 
+    <i>'</i>
+      <i>
+         <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+      </i>
+      <i>cancelled by, or on behalf of, the</i>
+      <i>
+         <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'    </i>
+, where the 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ was cancelled at short notice.  </p>
+  <p>
+Note: For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+, short notice is determined locally. See the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/iapt" scope="external" format="html">Improving Access to Psychological Therapies Data Set</xref>
+ for further guidance.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

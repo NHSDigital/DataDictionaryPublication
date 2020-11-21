@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_co-morbidity_adjustment_indicator.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CO-MORBIDITY ADJUSTMENT INDICATOR - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+
+  <p>
+Yes - a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s co-morbidity (overall physical state) was a significant factor  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+
+  <p>
+No - a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s co-morbidity (overall physical state) was not a significant factor  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_consultant_upgrade_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Consultant Upgrade Date - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_upgrade_date">Consultant Upgrade Date</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>
+.   </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_upgrade_date">Consultant Upgrade Date</xref>
+ is the date of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_upgrade">Consultant Upgrade</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_upgrade_date">Consultant Upgrade Date</xref>
+ should only be recorded when the 
+    <xref outputclass="attribute" keyref="attribute_priority_type">PRIORITY TYPE</xref>
+ of the original 
+    <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ was 
+    <u>not</u>
+ National Code 
+    <i>'Two Week Wait'</i>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_consultant_upgrade_date">Consultant Upgrade Date</xref>
+ must be:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+on or before the 
+                <xref outputclass="attribute" keyref="attribute_decision_to_treat_date">DECISION TO TREAT DATE</xref>
+ (if recorded) and         </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+on or before the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_multidisciplinary_team_discussion_date__cancer_">Multidisciplinary Team Discussion Date (Cancer)</xref>
+ (if recorded).        </p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

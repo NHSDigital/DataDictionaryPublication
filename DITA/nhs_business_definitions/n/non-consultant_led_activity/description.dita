@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_non-consultant_led_activity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Non-Consultant Led Activity - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_non-consultant_led_activity">Non-Consultant Led Activity</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_non-consultant_led_activity">Non-Consultant Led Activity</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ where a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ does not retain overall clinical responsibility for 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ care.  </p>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_main_specialty">MAIN SPECIALTY</xref>
+ will be recorded using the appropriate default 
+    <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
+ for the type of 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ along with a default 
+    <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
+ is used by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ to identify 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_non-consultant_led_activity">Non-Consultant Led Activity</xref>
+.  </p>
+
+</body>
+</topic>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_health_and_social_care_issue.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: META HEALTH AND SOCIAL CARE ISSUE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>This is a meta model class.</p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_meta_person_property">META PERSON PROPERTY</xref>
+ towards which care is directed. It may be a diagnosis, sign, symptom or any other 
+    <xref outputclass="class" keyref="class_meta_person_property">META PERSON PROPERTY</xref>
+.  </p>
+  <p>
+Only a minority of 
+    <xref outputclass="class" keyref="class_meta_person_property">META PERSON PROPERTIES</xref>
+ become 
+    <xref outputclass="class" keyref="class_meta_health_and_social_care_issue">META HEALTH AND SOCIAL CARE ISSUES</xref>
+: for example the mum-to be's weights and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_blood_pressure">Blood Pressures</xref>
+ would not become 
+    <xref outputclass="class" keyref="class_meta_health_and_social_care_issue">META HEALTH AND SOCIAL CARE ISSUES</xref>
+ unless they were sufficiently abnormal to become foci of care in their own right. Examples: a ruptured spleen, pregnancy, high blood pressure, malaria infection.  </p>
+  <p>
+A single 
+    <xref outputclass="class" keyref="class_meta_health_and_social_care_issue">META HEALTH AND SOCIAL CARE ISSUE</xref>
+ will provide the focus for a 
+    <xref outputclass="class" keyref="class_meta_care_spell">META CARE SPELL</xref>
+. For example, Diabetes, AMI, Mental Health, Cancer.  </p>
+
+</body>
+</topic>

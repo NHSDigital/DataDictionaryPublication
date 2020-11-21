@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_attendance_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ATTENDANCE IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an12</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_attendance_identifier">ATTENDANCE IDENTIFIER</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_activity_identifier">ACTIVITY IDENTIFIER</xref>
+ for the attendance.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_attendance_identifier">ATTENDANCE IDENTIFIER</xref>
+ is a sequential number or time of day used to enable an attendance to be uniquely identified.  </p>
+  <p>
+If a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is seen by a doctor, sent elsewhere for a test or X-ray and then seen again by a doctor of the same 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+'s firm during the same clinic session, it would be recorded as one attendance - not two.  </p>
+
+
+  </body>
+</topic>

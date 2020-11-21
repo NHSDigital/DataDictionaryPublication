@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_systemic_anti-cancer_therapy_drug_regimen_treatment_intent.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: SYSTEMIC ANTI-CANCER THERAPY DRUG REGIMEN TREATMENT INTENT - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow outputclass='retired'>
+        <stentry>A</stentry>
+        <stentry>Adjuvant (Retired 1 September 2019 )</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>N</stentry>
+        <stentry>Neoadjuvant (Retired 1 September 2019 )</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>C</stentry>
+        <stentry>Curative (Retired 1 September 2019 )</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>P</stentry>
+        <stentry>Palliative (Retired 1 September 2019 )</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>D</stentry>
+        <stentry>Disease Modification (Retired 1 September 2019 )</stentry>
+      </strow>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Curative - aiming to permanently eradicate disease</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_palliative_care">Palliative</xref>
+  <p> - aiming to extend life expectancy</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_palliative_care">Palliative</xref>
+  <p> - aiming to relieve and/or control malignancy related symptoms</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_palliative_care">Palliative</xref>
+  <p> - aiming to achieve remission</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_palliative_care">Palliative</xref>
+  <p> - aiming to delay tumour progression</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>98</stentry>
+        <stentry>Other (not listed)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

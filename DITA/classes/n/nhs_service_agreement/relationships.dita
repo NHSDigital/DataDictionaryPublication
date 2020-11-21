@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_nhs_service_agreement.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: NHS SERVICE AGREEMENT - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each NHS SERVICE AGREEMENT</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>may be commissioned by one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be comprised of one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement_line' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be out of area treatment for one or more </stentry>
+        <stentry>
+          <xref keyref='class_patient' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be an agreement with one or more </stentry>
+        <stentry>
+          <xref keyref='class_provider_in_service_agreement' outputclass='class' />
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

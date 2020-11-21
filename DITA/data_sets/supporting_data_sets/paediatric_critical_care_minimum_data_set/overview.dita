@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_paediatric_critical_care_minimum_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Paediatric Critical Care Minimum Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <b>Introduction</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_paediatric_critical_care_minimum_data_set">Paediatric Critical Care Minimum Data Set</xref>
+ (
+    <xref outputclass="dataSet"
+            keyref="dataset_paediatric_critical_care_minimum_data_set">PCCMDS</xref>
+) provides a record of what happens to a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ when they receive Paediatric Critical Care in a Paediatric Intensive Care Unit, or other critical care setting suitable for children.  </p>
+  <p>
+The primary purpose of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_paediatric_critical_care_minimum_data_set">Paediatric Critical Care Minimum Data Set</xref>
+ is to allow the operation of the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+ within paediatric critical care. The 
+    <xref outputclass="dataSet"
+            keyref="dataset_paediatric_critical_care_minimum_data_set">Paediatric Critical Care Minimum Data Set</xref>
+ supports the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/national_tariff_payment_system.asp"
+            scope="external"
+            format="html">National_Tariff_Payment_System</xref>
+ by capturing the data needed to generate a 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">Healthcare_Resource_Group</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">HRG</xref>
+) for each calendar day (or part thereof) of a period of paediatric critical care; these 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">Healthcare Resource Groups</xref>
+ are then used to inform the annual aggregate costing exercise, NHS Reference Costs.  </p>
+  <p>
+      <b>Scope and Uses</b>
+  </p>
+  <p>
+The scope of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_paediatric_critical_care_minimum_data_set">Paediatric Critical Care Minimum Data Set</xref>
+ is:  </p>
+  <p>
+a) All 
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ on a 
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+ with a 
+      <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+ of National Code 
+      <i>'04 - Paediatric Intensive Care Unit (Paediatric critical care patients predominate)'</i>
+  </p>
+  <p>
+b) All 
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ on a 
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+ with a 
+      <xref outputclass="attribute" keyref="attribute_critical_care_unit_function">CRITICAL CARE UNIT FUNCTION</xref>
+ of National Code of either:  </p>
+  <ul>
+      <li>
+         <i>16 - Ward for children and young people</i>
+      </li>
+      <li>
+         <i>17 - High Dependency Unit for children and young people</i>
+      </li>
+      <li>
+         <i>18 - Renal Unit for children and young people</i>
+      </li>
+      <li>
+         <i>19 - Burns Unit for children and young people</i>
+      </li>
+      <li>
+         <i>92 - Non standard location using the operating department for children and young people</i>
+      </li>
+  </ul>
+  <p>
+to whom one or more of the following 
+      <xref outputclass="attribute" keyref="attribute_critical_care_activity_code">CRITICAL CARE ACTIVITY CODES</xref>
+ applies for a period greater than 4 hours:
+      <i> </i>
+  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>04</p>
+         </stentry>
+         <stentry>
+            <p>
+Exchange Transfusion (
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received exchange transfusion)        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>05</p>
+         </stentry>
+         <stentry>
+            <p>
+Peritoneal dialysis (acute 
+                  <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ only i.e. excluding chronic) *        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>06</p>
+         </stentry>
+         <stentry>
+            <p>
+Continuous infusion of inotrope, pulmonary vasodilator or prostaglandin (
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received a continuous infusion of an inotrope, vasodilator (includes pulmonary vasodilators) or prostaglandin)        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>09</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_oxygen_therapy">Oxygen Therapy</xref>
+            <p>
+(supplementary 
+                  <xref outputclass="businessDefinition"
+                     keyref="business_definition_oxygen_therapy">Oxygen Therapy</xref>
+, irrespective of ventilatory state) **        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>13</p>
+         </stentry>
+         <stentry>
+            <p>
+Tracheostomy cared for by nursing staff (
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving care of tracheostomy cared for by nursing staff not by an external 
+                  <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ (e.g. parent))        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>16</p>
+         </stentry>
+         <stentry>
+            <p>
+Haemofiltration (
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ received Haemofiltration)        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>50</p>
+         </stentry>
+         <stentry>
+            <p>Continuous electrocardiogram monitoring</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>51</p>
+         </stentry>
+         <stentry>
+            <p>Invasive ventilation via endotracheal tube</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>52</p>
+         </stentry>
+         <stentry>
+            <p>Invasive ventilation via tracheostomy tube</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>53</p>
+         </stentry>
+         <stentry>
+            <p>Non-invasive ventilatory support</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>55</p>
+         </stentry>
+         <stentry>
+            <p>Nasopharyngeal airway</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>56</p>
+         </stentry>
+         <stentry>
+            <p>Advanced ventilatory support (Jet or Oscillatory ventilation)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>57</p>
+         </stentry>
+         <stentry>
+            <p>Upper airway obstruction requiring nebulised Epinephrine/ Adrenaline</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>58</p>
+         </stentry>
+         <stentry>
+            <p>Apnoea requiring intervention</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>59</p>
+         </stentry>
+         <stentry>
+            <p>Acute severe asthma requiring intravenous bronchodilator therapy or continuous nebuliser</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>60</p>
+         </stentry>
+         <stentry>
+            <p>Arterial line monitoring</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>61</p>
+         </stentry>
+         <stentry>
+            <p>Cardiac pacing via an external box (pacing wires or external pads or oesophageal pacing)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>62</p>
+         </stentry>
+         <stentry>
+            <p>Central venous pressure monitoring</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>63</p>
+         </stentry>
+         <stentry>
+            <p>Bolus intravenous fluids (&gt; 80 ml/kg/day) in addition to maintenance intravenous fluids</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>64</p>
+         </stentry>
+         <stentry>
+            <p>Cardio-pulmonary resuscitation (CPR)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>65</p>
+         </stentry>
+         <stentry>
+            <p>Extracorporeal membrane oxygenation (ECMO) or Ventricular Assist Device (VAD) or aortic balloon pump</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>66</p>
+         </stentry>
+         <stentry>
+            <p>
+Haemodialysis (acute 
+                  <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ only i.e. excluding chronic)        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>67</p>
+         </stentry>
+         <stentry>
+            <p>Plasma filtration or Plasma exchange</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>68</p>
+         </stentry>
+         <stentry>
+            <p>ICP-intracranial pressure monitoring</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>69</p>
+         </stentry>
+         <stentry>
+            <p>Intraventricular catheter or external ventricular drain</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>70</p>
+         </stentry>
+         <stentry>
+            <p>Diabetic ketoacidosis (DKA) requiring continuous infusion of insulin</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>71</p>
+         </stentry>
+         <stentry>
+            <p>Intravenous infusion of thrombolytic agent (limited to tissue plasminogen activator [tPA] and streptokinase)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>72</p>
+         </stentry>
+         <stentry>
+            <p>Extracorporeal liver support using Molecular Absorbent Liver Recirculating System (MARS)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>73</p>
+         </stentry>
+         <stentry>
+            <p>Continuous pulse oximetry</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>74</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+            <p>nursed in single occupancy cubicle</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>80</p>
+         </stentry>
+         <stentry>
+            <p>
+Heated Humidified High Flow Therapy (HHHFT) (
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving HHHFT)        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>85</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+            <p> has an epidural catheter in situ</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>94</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+            <p> has arrhythmia requiring intravenous anti-arrhythmic therapy</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>95</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+            <p> has reduced conscious level (Glasgow Coma Score 12 or below) and hourly (or more frequent) Glasgow Coma Score monitoring</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>96</p>
+         </stentry>
+         <stentry>
+            <p>
+Intravenous infusion of sedative agent (
+                  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receiving continuous intravenous infusion of sedative agent)        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>97</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+            <p> has status epilepticus requiring treatment with continuous intravenous infusion</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>Notes:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+* National Code 05 applies as an inclusion criterion for acute 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ only: it does not apply with chronic 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+** National Code 09 applies as an inclusion criterion when the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ receives supplementary 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_oxygen_therapy">Oxygen Therapy</xref>
+, irrespective of their ventilatory state.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+This data is captured and recorded locally and may be used for the purposes of direct care, clinical audit, Reference Costs, and other local uses. Any transmission of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_paediatric_critical_care_minimum_data_set">Paediatric Critical Care Minimum Data Set</xref>
+ must be covered by fair processing arrangements in accordance with information governance criteria and appropriate local arrangements.  </p>
+  <p>
+      <b>Commissioning Data Set</b>
+      <b>Transmission</b>
+  </p>
+  <p>
+Subject to the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/message_documentation/xml_schema_constraints/commissioning_data_set_version_6-2_xml_schema_constraints.asp"
+            scope="external"
+            format="html">Commissioning_Data_Set_Version_6-2_XML_Schema_Constraints</xref>
+, the 
+    <xref outputclass="dataSet"
+            keyref="dataset_paediatric_critical_care_minimum_data_set">Paediatric Critical Care Minimum Data Set</xref>
+ is sent to the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">SUS</xref>
+) as a part of the following Commissioning Data Set messages, 
+    <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/scci0076-paediatric-critical-care-minimum-data-set-version-2"
+            scope="external"
+            format="html">SCCI0076</xref>
+:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/cds_v6-2/data_sets/cds_v6-2_type_140_-_admitted_patient_care_-_finished_delivery_episode_cds.asp"
+                  scope="external"
+                  format="html">CDS V6-2 Type 140 - Admitted Patient Care - Finished Delivery Episode Commissioning Data Set</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/cds_v6-2/data_sets/cds_v6-2_type_200_-_admitted_patient_care_-_unfinished_delivery_episode_cds.asp"
+                  scope="external"
+                  format="html">CDS V6-2 Type 200 - Admitted Patient Care - Unfinished Delivery Episode Commissioning Data Set</xref>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ groups this data into paediatric critical care 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">Healthcare Resource Groups</xref>
+. Further guidance can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/scci0076-paediatric-critical-care-minimum-data-set-version-2"
+            scope="external"
+            format="html">SCCI0076</xref>
+.  </p>
+
+</body>
+</topic>

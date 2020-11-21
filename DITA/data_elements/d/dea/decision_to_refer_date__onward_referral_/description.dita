@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_decision_to_refer_date__onward_referral_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DECISION TO REFER DATE (ONWARD REFERRAL) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_decision_to_refer_date__onward_referral_">DECISION TO REFER DATE (ONWARD REFERRAL)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_decision_to_refer_date">DECISION TO REFER DATE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_decision_to_refer_date__onward_referral_">DECISION TO REFER DATE (ONWARD REFERRAL)</xref>
+ is the date on which a decision was made to refer the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from one 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ to another 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+, which may be in the same or a different 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+.  </p>
+
+
+  </body>
+</topic>

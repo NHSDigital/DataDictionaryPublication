@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_hospital_stay.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Hospital Stay - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_stay">Hospital Stay</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_stay">Hospital Stay</xref>
+ is the time a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ using a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ stays on one 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_site">Hospital Site</xref>
+ during a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+.  </p>
+  <p>
+In some circumstances a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may take 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_home_leave">Home Leave</xref>
+, or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_leave_of_absence">Mental Health Leave of Absence</xref>
+ for 28 days or less, or have a current period of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_absence_without_leave">Mental Health Absence Without Leave</xref>
+ of 28 days or less, which does not interrupt the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_stay">Hospital Stay</xref>
+.  </p>
+  <p>
+If there is any time spent as a 
+    <xref outputclass="class" keyref="class_lodged_patient">LODGED PATIENT</xref>
+ before transfer to 
+    <xref outputclass="class" keyref="class_ward">WARD</xref>
+ this is included in the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_stay">Hospital Stay</xref>
+.  </p>
+
+</body>
+</topic>

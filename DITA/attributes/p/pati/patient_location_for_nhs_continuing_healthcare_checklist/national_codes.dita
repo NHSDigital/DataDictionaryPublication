@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_patient_location_for_nhs_continuing_healthcare_checklist.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PATIENT LOCATION FOR NHS CONTINUING HEALTHCARE CHECKLIST - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Own home</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <p>
+Acute hospital 
+    <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+
+  <p>
+Non-acute hospital 
+    <xref outputclass="class" keyref="class_ward">WARD</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition" keyref="business_definition_hospice">Hospice</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>98</stentry>
+        <stentry>Other (not listed)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

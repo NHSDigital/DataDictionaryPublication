@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_stop_smoking_successfully_quit_carbon_monoxide_validation_total.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: STOP SMOKING SUCCESSFULLY QUIT CARBON MONOXIDE VALIDATION TOTAL - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_stop_smoking_successfully_quit_carbon_monoxide_validation_total">STOP SMOKING SUCCESSFULLY QUIT CARBON MONOXIDE VALIDATION TOTAL</xref>
+ is the number of 
+    <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ in the 
+    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+ with:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_person_stop_smoking_episode">Person Stop Smoking Episode</xref>
+ and        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+a 
+                <xref outputclass="attribute"
+                     keyref="attribute_non_smoking_confirmation_status_indicator_at_4_weeks">NON SMOKING CONFIRMATION STATUS INDICATOR AT 4 WEEKS</xref>
+ of National Code 
+                <i>'Yes - non-smoking status confirmed by carbon monoxide validation'.</i>
+            </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

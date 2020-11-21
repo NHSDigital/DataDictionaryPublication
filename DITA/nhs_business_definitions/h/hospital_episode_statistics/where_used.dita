@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_hospital_episode_statistics.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Hospital Episode Statistics - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_administrative_category_code' outputclass='attribute' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_professional_main_specialty_code' outputclass='element' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_professional_main_specialty_code__cancer_referral_' outputclass='element' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_professional_main_specialty_code__diagnosis_' outputclass='element' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_care_professional_main_specialty_code__start_systemic_anti-cancer_therapy_' outputclass='element' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_consultant_code' outputclass='attribute' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_consultant_code' outputclass='element' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_hospital_episode_statistics' outputclass='businessDefinition' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_main_specialty_code' outputclass='attribute' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_patient_diagnosis' outputclass='class' />
+        </stentry>
+        <stentry>references in description Hospital Episode Statistics</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

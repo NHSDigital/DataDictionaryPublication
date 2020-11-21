@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_persons_eligible_for_nhs_continuing_healthcare_cumulative_activity__reporting_period_end_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PERSONS ELIGIBLE FOR NHS CONTINUING HEALTHCARE CUMULATIVE ACTIVITY (REPORTING PERIOD END) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_persons_eligible_for_nhs_continuing_healthcare_cumulative_activity__reporting_period_end_">PERSONS ELIGIBLE FOR NHS CONTINUING HEALTHCARE CUMULATIVE ACTIVITY (REPORTING PERIOD END)</xref>
+ is the number of 
+    <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ eligible for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+ at the year to date up to the end of the 
+    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+ (i.e. all cases eligible at any time between 1 April up to and including the last day of the 
+    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+).  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_persons_eligible_for_nhs_continuing_healthcare_cumulative_activity__reporting_period_end_">PERSONS ELIGIBLE FOR NHS CONTINUING HEALTHCARE CUMULATIVE ACTIVITY (REPORTING PERIOD END)</xref>
+ is derived from 
+    <xref outputclass="element"
+            keyref="element_persons_eligible_for_nhs_continuing_healthcare_cumulative_activity__previous_reporting_period_end_">PERSONS ELIGIBLE FOR NHS CONTINUING HEALTHCARE CUMULATIVE ACTIVITY (PREVIOUS REPORTING PERIOD END)</xref>
+ and 
+    <xref outputclass="element"
+            keyref="element_persons_newly_eligible_for_nhs_continuing_healthcare">PERSONS NEWLY ELIGIBLE FOR NHS CONTINUING HEALTHCARE</xref>
+.  </p>
+
+
+  </body>
+</topic>

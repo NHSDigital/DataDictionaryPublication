@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_enteral_feeding_method.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: ENTERAL FEEDING METHOD - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_clinical_intervention' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute ENTERAL FEEDING METHOD of type ENTERAL FEEDING METHOD</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_enteral_feeding_method' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of ENTERAL FEEDING METHOD</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_enteral_feeding_method' outputclass='element' />
+        </stentry>
+        <stentry>references in description ENTERAL FEEDING METHOD</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

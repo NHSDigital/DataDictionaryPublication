@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_nhs_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: NHS NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The 
+    <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
+, the primary identifier of a 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+, is a unique identifier for a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ within the NHS in England and Wales.  </p>
+  <p>
+This will not vary by any 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ of which a 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ is a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+It is mandatory to record the 
+    <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
+. There are exceptions, such as Accident and Emergency care, sexual health and major incidents, as defined in existing national policies.  </p>
+  <p>
+The 
+    <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
+ is 10 numeric digits in length. The tenth digit is a check digit used to confirm its validity. The check digit is validated using the Modulus 11 algorithm and the use of this algorithm is mandatory. There are 5 steps in the validation of the check digit:  </p>
+  <p>
+      <b>Step 1</b>
+ Multiply each of the first nine digits by a weighting factor as follows:  </p>
+  <p>
+      <b>Digit Position</b>
+  </p>
+  <p>(starting from the left) Factor:</p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>1</p>
+         </stentry>
+         <stentry>
+            <p>10</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>2</p>
+         </stentry>
+         <stentry>
+            <p>9</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>3</p>
+         </stentry>
+         <stentry>
+            <p>8</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>4</p>
+         </stentry>
+         <stentry>
+            <p>7</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>5</p>
+         </stentry>
+         <stentry>
+            <p>6</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>6</p>
+         </stentry>
+         <stentry>
+            <p>5</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>7</p>
+         </stentry>
+         <stentry>
+            <p>4</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>8</p>
+         </stentry>
+         <stentry>
+            <p>3</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>9</p>
+         </stentry>
+         <stentry>
+            <p>2</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>
+      <b>Step 2</b>
+ Add the results of each multiplication together.  </p>
+  <p>
+      <b>Step 3</b>
+ Divide the total by 11 and establish the remainder.  </p>
+  <p>
+      <b>Step 4</b>
+ Subtract the remainder from 11 to give the check digit.  </p>
+  <p>
+If the result is 11 then a check digit of 0 is used. If the result is 10 then the 
+    <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
+ is invalid and not used.  </p>
+  <p>
+      <b>Step 5</b>
+ Check the remainder matches the check digit. If it does not, the 
+    <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
+ is invalid.  </p>
+  <p>
+Further guidance is available from the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/article/301/NHS-Number"
+            scope="external"
+            format="html">NHS Number</xref>
+.  </p>
+  <p>Note:
+</p>
+  <p>
+This was 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/e-government_interoperability_framework.asp"
+            scope="external"
+            format="html">e-GIF</xref>
+ approved for use in NHS England.
+  </p>
+  <p>
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/e-government_interoperability_framework.asp"
+            scope="external"
+            format="html">e-GIF</xref>
+ and the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/government_data_standards_catalogue.asp"
+            scope="external"
+            format="html">Government_Data_Standards_Catalogue</xref>
+ 
+    <b>have been archived</b>
+ and are available for reference only.  </p>
+
+</body>
+</topic>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_referred_for_cytology_and_or_core_biopsy_total.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY REFERRED FOR CYTOLOGY AND OR CORE BIOPSY TOTAL - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n4</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_cytology_and_or_core_biopsy_referred_for_cytology_and_or_core_biopsy_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING CYTOLOGY AND OR CORE BIOPSY REFERRED FOR CYTOLOGY AND OR CORE BIOPSY TOTAL</xref>
+ is the total number of women with:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+a 
+                <xref outputclass="attribute"
+                     keyref="attribute_breast_screening_mammography_outcome_code">BREAST SCREENING MAMMOGRAPHY OUTCOME CODE</xref>
+ recorded as National Code 
+                <i>'Referred for assessment'</i>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+a 
+                <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
+ for 
+                <xref outputclass="attribute"
+                     keyref="attribute_pathology_investigation_type_for_breast_screening">PATHOLOGY INVESTIGATION TYPE FOR BREAST SCREENING</xref>
+ recorded as National Code 
+                <i>'Needle</i>
+               <i>
+                  <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+               </i>
+               <i>for Cytology (Fine Needle Aspiration or Cytology)'</i>
+ and or 
+                <i>
+'Needle 
+                  <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+               </i>
+ for Histology (Wide Bore Needle or Core Biopsy)' .        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

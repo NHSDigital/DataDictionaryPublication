@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_primary_discharge_reason__mother_maternity_services_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PRIMARY DISCHARGE REASON (MOTHER MATERNITY SERVICES) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+
+  <p>
+Discharge following 
+    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <p>
+Transfer to other 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>Miscarriage</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>Termination of Pregnancy less than 24 weeks</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>Termination of Pregnancy greater than or equal to 24 weeks</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>No further contact from mother</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>Maternal death</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

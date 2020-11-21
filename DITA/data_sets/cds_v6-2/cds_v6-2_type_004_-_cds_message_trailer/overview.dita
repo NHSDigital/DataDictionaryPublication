@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cds_v6-2_type_004_-_cds_message_trailer.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: CDS V6-2 Type 004 - CDS Message Trailer - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_004_-_cds_message_trailer">CDS V6-2 Type 004 - Commissioning Data Set Message Trailer</xref>
+ carries mandatory controls for a Commissioning Data Set Message and is only used by inclusion in other 
+    <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+.  </p>
+  <p>
+Commissioning Data Set Interchanges containing Commissioning Data Set Messages submitted to the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ must use the required Commissioning Data Set Interchange and Message Header and Trailer Controls to provide the correct addressing and identification for the data flows.  </p>
+  <p>Multiple Commissioning Data Set messages are usually sent in a single Commissioning Data Set Interchange which consists of:</p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_001_-_cds_interchange_header">CDS V6-2 Type 001 - Commissioning Data Set Interchange Header</xref>
+            <p> - Mandatory - One per Commissioning Data Set Interchange</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_003_-_cds_message_header">CDS V6-2 Type 003 - Commissioning Data Set Message Header</xref>
+            <p> - Mandatory - One per Commissioning Data Set Message</p>
+         </div>
+      </li>
+  </ul>
+  <p>
+Dependent upon the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_submission_protocol.asp"
+            scope="external"
+            format="html">Commissioning_Data_Set_Submission_Protocol</xref>
+ being used, one of the following must be used:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+            <p>
+- Mandatory, one per 
+                <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+            <p>
+ - Mandatory, one per 
+                <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+            </p>
+         </div>
+      </li>
+  </ul>
+  <p>Followed by:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+The 
+                <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ - As required to carry the specific Commissioning Data Set data records        </p>
+         </div>
+      </li>
+  </ul>
+  <p>Each Commissioning Data Set message ends with:</p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_004_-_cds_message_trailer">CDS V6-2 Type 004 - Commissioning Data Set Message Trailer</xref>
+            <p> - Mandatory - One per Commissioning Data Set Message</p>
+         </div>
+      </li>
+  </ul>
+  <p>Each Commissioning Data Set Interchange ends with:</p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_002_-_cds_interchange_trailer">CDS V6-2 Type 002 - Commissioning Data Set Interchange Trailer</xref>
+            <p>- Mandatory - One per Commissioning Data Set Interchange</p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <b>
+To access more detailed information on the Commissioning Data Sets, see the 
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_sets_introduction.asp"
+               scope="external"
+               format="html">Commissioning_Data_Sets_Introduction</xref>
+.    </b>
+  </p>
+  <p>
+      <b>Data Group Overview</b>
+  </p>
+  <p>
+A high-level view of the Data Groups carried in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_004_-_cds_message_trailer">CDS V6-2 Type 004 - Commissioning Data Set Message Trailer</xref>
+ is shown below.  </p>
+  <p>
+See 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
+            scope="external"
+            format="html">Commissioning Data Set Notation</xref>
+ for an explanation of Group Status and Group Repeats.  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>
+               <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_notation.asp"
+                     scope="external"
+                     format="html">Notation</xref>
+            </b>
+         </stentry>
+         <stentry>
+            <b>DATA GROUP OVERVIEW: CDS V6-2 TYPE 004 - COMMISSIONING DATA SET MESSAGE TRAILER</b>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <b>Group
+        Status</b>
+         </stentry>
+         <stentry>
+            <b>Group
+        Repeats</b>
+         </stentry>
+         <stentry>
+            <b>FUNCTION:
+        To define the mandatory identity and addressing information for a Commissioning Data Set submission .</b>
+         </stentry>
+      </strow>
+  </simpletable>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>M</b>
+         </stentry>
+         <stentry>
+            <b>1..*</b>
+         </stentry>
+         <stentry>
+            <b>
+DATA GROUP: 
+                  <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2_type_004_-_cds_message_trailer">CDS V6-2 Type 004 - Commissioning Data Set Message Trailer</xref>
+            </b>
+            <p>
+One per Commissioning Data Set Message submitted to the 
+                  <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+                     scope="external"
+                     format="html">Secondary_Uses_Service</xref>
+.
+        Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+</body>
+</topic>

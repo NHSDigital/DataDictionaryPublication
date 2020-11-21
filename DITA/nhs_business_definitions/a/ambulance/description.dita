@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_ambulance.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Ambulance - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition" keyref="business_definition_ambulance">Ambulance</xref>
+ is an 
+    <xref outputclass="class" keyref="class_ambulance_vehicle">AMBULANCE VEHICLE</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition" keyref="business_definition_ambulance">Ambulance</xref>
+ is a vehicle used to treat and/or transport 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+.  </p>
+  <p>
+Types of 
+    <xref outputclass="businessDefinition" keyref="business_definition_ambulance">Ambulance</xref>
+ are:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_emergency_ambulance">Emergency Ambulance</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_non-emergency_ambulance">Non-Emergency Ambulance</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_patient_transport_service_ambulance">Patient Transport Service Ambulance</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

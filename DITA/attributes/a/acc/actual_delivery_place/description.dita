@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_actual_delivery_place.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: ACTUAL DELIVERY PLACE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The actual place type of 
+    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+.  </p>
+  <p>
+Recording both the planned and the actual place of 
+    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ allows all changes of intent to be logged. Note that if a baby is delivered in a different hospital to the one originally specified, there would be no change in the 
+    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ place type, since the 
+    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Birth</xref>
+ would still have taken place in an NHS hospital.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

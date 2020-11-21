@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_gs1_application_identifier__internal_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: GS1 APPLICATION IDENTIFIER (INTERNAL) - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A number used to identify the meaning (or status) of the data which immediately follows the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/gs1_application_identifier_(internal).asp"
+            scope="external"
+            format="html">GS1_Application_Identifier_(Internal)</xref>
+.  </p>
+  <code>TermServer</code>
+  <p>Codes 95-97 have been reserved for national use only, and are not to be allocated by the NHS locally. Codes 98 and 99 can be allocated by the NHS for local use.</p>
+  <p>
+Further guidance can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/isce/publication/dcb1077"
+            scope="external"
+            format="html">DCB1077: AIDC for Patient Identification.</xref>
+  </p>
+
+</body>
+</topic>

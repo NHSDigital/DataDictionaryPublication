@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_pharmaceutical_product.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: PHARMACEUTICAL PRODUCT - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each PHARMACEUTICAL PRODUCT</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>must be administered as one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity_drug' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be requested for provision as one and only one </stentry>
+        <stentry>
+          <xref keyref='class_prescribed_item' outputclass='class' />
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

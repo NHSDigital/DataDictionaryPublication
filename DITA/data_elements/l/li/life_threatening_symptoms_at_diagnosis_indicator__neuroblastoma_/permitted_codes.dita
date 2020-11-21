@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_life_threatening_symptoms_at_diagnosis_indicator__neuroblastoma_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: LIFE THREATENING SYMPTOMS AT DIAGNOSIS INDICATOR (NEUROBLASTOMA) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+
+  <p>
+Yes - there were life threatening symptoms at 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+
+  <p>
+No - there were no life threatening symptoms at 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

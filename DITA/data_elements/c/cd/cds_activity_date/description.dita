@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_activity_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS ACTIVITY DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+For Commissioning data, every 
+    <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ has a "CDS Originating Date" contained within the Commissioning Data Set data that must be used to populate the 
+    <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+.The 
+    <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+ is held in the Commissioning Data Set Transaction Header Group and is a mandatory data element for all uses of the Commissioning Data Set for both Bulk Update and Net Change Protocols, see the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_submission_protocol.asp"
+            scope="external"
+            format="html">Commissioning Data Set Submission Protocol</xref>
+ supporting information.  </p>
+  <p>For Bulk Update use, see:</p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+            <p> </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+            <p> </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+         </div>
+      </li>
+  </ul>
+  <p>For Net Change Use, see:</p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+            <p> </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+            <p> </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="dataSet"
+                  keyref="dataset_cds_v6-2-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+ has an associated "CDS Originating Date" specifically identified for each 
+    <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ as follows:  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <b>CDS
+        TYPE</b>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <b>DESCRIPTION</b>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <b>CDS ORIGINATING DATE
+        (used to populate the CDS ACTIVITY DATE)</b>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>010</p>
+         </stentry>
+         <stentry>
+            <p>Accident and Emergency Attendance</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_arrival_date">ARRIVAL DATE</xref>
+            <p>
+, 
+                  <xref outputclass="element"
+                     keyref="element_arrival_time_at_accident_and_emergency_department">ARRIVAL TIME AT ACCIDENT AND EMERGENCY DEPARTMENT</xref>
+            </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>011</p>
+         </stentry>
+         <stentry>
+            <p>Emergency Care Attendance</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_emergency_care_arrival_date">EMERGENCY CARE ARRIVAL DATE</xref>
+            <p>
+, 
+                  <xref outputclass="element" keyref="element_emergency_care_arrival_time">EMERGENCY CARE ARRIVAL TIME</xref>
+            </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>020</p>
+         </stentry>
+         <stentry>
+            <p>Outpatient (known in the Schema as Care Activity)</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>021</p>
+         </stentry>
+         <stentry>
+            <p>Future Outpatient (known in the Schema as Future Care Activity)</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>030</p>
+         </stentry>
+         <stentry>
+            <p>EAL End Of Period Census - STANDARD</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_decided_to_admit_date">DECIDED TO ADMIT DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>040</p>
+         </stentry>
+         <stentry>
+            <p>EAL End Of Period Census - OLD</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element"
+                  keyref="element_nhs_service_agreement_change_date">NHS SERVICE AGREEMENT CHANGE DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>050</p>
+         </stentry>
+         <stentry>
+            <p>EAL End Of Period Census - NEW</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element"
+                  keyref="element_nhs_service_agreement_change_date">NHS SERVICE AGREEMENT CHANGE DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>060</p>
+         </stentry>
+         <stentry>
+            <p>EAL Event During Period - ADD</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_decided_to_admit_date">DECIDED TO ADMIT DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>070</p>
+         </stentry>
+         <stentry>
+            <p>EAL Event During Period - REMOVE</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element"
+                  keyref="element_elective_admission_list_removal_date">ELECTIVE ADMISSION LIST REMOVAL DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>080</p>
+         </stentry>
+         <stentry>
+            <p>EAL Event During Period - OFFER</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_offered_for_admission_date">OFFERED FOR ADMISSION DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>090</p>
+         </stentry>
+         <stentry>
+            <p>EAL Event During Period - AVAILABLE / UNAVAILABLE</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_suspension_start_date">SUSPENSION START DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>100</p>
+         </stentry>
+         <stentry>
+            <p>EAL Event During Period - OLD SERVICE AGREEMENT</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element"
+                  keyref="element_nhs_service_agreement_change_date">NHS SERVICE AGREEMENT CHANGE DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>110</p>
+         </stentry>
+         <stentry>
+            <p>EAL Event During Period - NEW SERVICE AGREEMENT</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element"
+                  keyref="element_nhs_service_agreement_change_date">NHS SERVICE AGREEMENT CHANGE DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>120</p>
+         </stentry>
+         <stentry>
+            <p>Finished Birth Episode</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_end_date__episode_">END DATE (EPISODE)</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>130</p>
+         </stentry>
+         <stentry>
+            <p>Finished General Episode</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_end_date__episode_">END DATE (EPISODE)</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>140</p>
+         </stentry>
+         <stentry>
+            <p>Finished Delivery Episode</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_end_date__episode_">END DATE (EPISODE)</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>150</p>
+         </stentry>
+         <stentry>
+            <p>Other Birth</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_delivery_date">DELIVERY DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>160</p>
+         </stentry>
+         <stentry>
+            <p>Other Delivery</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_delivery_date">DELIVERY DATE</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>170</p>
+         </stentry>
+         <stentry>
+            <p>Detained and/or Long-Term Psychiatric Census</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element"
+                  keyref="element_detained_and__or__long_term_psychiatric_census_date">DETAINED AND (OR) LONG TERM PSYCHIATRIC CENSUS DATE</xref>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>180</p>
+         </stentry>
+         <stentry>
+            <p>Unfinished Birth Episode</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_start_date__episode_">START DATE (EPISODE)</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>190</p>
+         </stentry>
+         <stentry>
+            <p>Unfinished General Episode</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_start_date__episode_">START DATE (EPISODE)</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>200</p>
+         </stentry>
+         <stentry>
+            <p>Unfinished Delivery Episode</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="element" keyref="element_start_date__episode_">START DATE (EPISODE)</xref>
+            <p> </p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>
+      <b>Usage:</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+ is validated by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ and Commissioning Data Set Interchanges are rejected if the date is not present, invalid or not compatible with the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_submission_protocol.asp"
+            scope="external"
+            format="html">Commissioning_Data_Set_Submission_Protocol</xref>
+ controls being used.  </p>
+  <p>
+In particular, when using the Commissioning Data Set Bulk Replacement Update Mechanism, the 
+    <xref outputclass="element" keyref="element_cds_activity_date">CDS ACTIVITY DATE</xref>
+ and its "CDS Originating Date" are used by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ to validate that the 
+    <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ date applicability falls within the 
+    <xref outputclass="element" keyref="element_cds_report_period_start_date">CDS REPORT PERIOD START DATE</xref>
+ and the 
+    <xref outputclass="element" keyref="element_cds_report_period_end_date">CDS REPORT PERIOD END DATE</xref>
+.  </p>
+
+
+  </body>
+</topic>

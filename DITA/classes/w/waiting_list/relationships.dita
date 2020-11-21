@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_waiting_list.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: WAITING LIST - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each WAITING LIST</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be classified by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_treatment_function' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>may be for  one or more </stentry>
+        <stentry>
+          <xref keyref='class_waiting_list' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be for one or more </stentry>
+        <stentry>
+          <xref keyref='class_care_professional' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>or null</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_newborn_hearing_screening_outcome_for_national_neonatal_data_set.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: NEWBORN HEARING SCREENING OUTCOME FOR NATIONAL NEONATAL DATA SET - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>
+
+  <p>
+Passed (where the 
+    <xref outputclass="attribute"
+            keyref="attribute_newborn_hearing_screening_outcome">NEWBORN HEARING SCREENING OUTCOME</xref>
+ is 
+    <i>'Clear response, no follow up required'</i>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>
+
+  <p>
+Failed (where the 
+    <xref outputclass="attribute"
+            keyref="attribute_newborn_hearing_screening_outcome">NEWBORN HEARING SCREENING OUTCOME</xref>
+ is 
+    <i>'Clear Response, targeted follow up required'</i>
+, 
+    <i>'No clear response, bilateral referral'</i>
+, 
+    <i>'No clear response, unilateral referral',</i>
+ or 
+    <i>'Incomplete'</i>
+)  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_consultant_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CONSULTANT CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an8</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
+.  </p>
+  <p>
+All 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_midwife_episode">Midwife Episodes</xref>
+ and attendances are identified in the Commissioning Data Sets and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+ by a pseudo 
+    <xref outputclass="element"
+            keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>
+, 560, see 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/main_specialty_and_treatment_function_codes_table.asp"
+            scope="external"
+            format="html">Main_Specialty_and_Treatment_Function_Codes_Table</xref>
+. An 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/organisation_data_service_default_codes.asp"
+            scope="external"
+            format="html">Organisation Data Service Default Code</xref>
+ is used in the 
+    <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
+ field to show that a 
+    <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+ is the responsible 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+. Note that the 
+    <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+'s own 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
+ code is not used.  </p>
+  <p>
+All 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nursing_episode">Nursing Episodes</xref>
+ and attendances are identified in the Commissioning Data Sets and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+ by a pseudo 
+    <xref outputclass="element"
+            keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>
+, 950, see 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/main_specialty_and_treatment_function_codes_table.asp"
+            scope="external"
+            format="html">Main_Specialty_and_Treatment_Function_Codes_Table</xref>
+. An 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/organisation_data_service_default_codes.asp"
+            scope="external"
+            format="html">Organisation Data Service Default Code</xref>
+ is used in the 
+    <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
+ field to show that a 
+    <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ is the responsible 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+. Note that the 
+    <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+'s own 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
+ code is not used.  </p>
+  <b>
+      <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
+ will be replaced with both 
+    <xref outputclass="element"
+            keyref="element_professional_registration_issuer_code">PROFESSIONAL REGISTRATION ISSUER CODE</xref>
+ and 
+    <xref outputclass="element"
+            keyref="element_professional_registration_entry_identifier">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER</xref>
+, which are the most recently approved national information standards to describe the required definition.  </b>
+
+
+  </body>
+</topic>

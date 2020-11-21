@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_hospital_bed.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Hospital Bed - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ includes any device that may be used to permit a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to lie down when the need to do so is as a consequence of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s condition rather than the need for active intervention such as examination, diagnostic investigation, manipulation/treatment, or transport. Cots should be included in statistics about 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Beds</xref>
+ where appropriate.  </p>
+  <p>It should be noted that:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+A couch or trolley should be considered as a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ provided it is used regularly to permit a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to lie down rather than for merely examination or transport. An example of such an arrangement is a day surgery ward furnished with trolleys        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+A 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may need to use a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Bed</xref>
+, couch or trolley whilst attending for a specific short procedure taking an hour or less, such as an endoscopy. If such devices are being used only because of the active intervention and not because of the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s condition, they should NOT be counted as 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Beds</xref>
+ for statistical purposes        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+A 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ needing a lengthy procedure such as renal dialysis may use a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ or other means of support such as a couch or special chair. Whatever the device used it should be counted as a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ if used regularly for this purpose        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Some procedures require narcosis. If this necessitates the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to lie down, the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Bed</xref>
+, couch or trolley can be counted as a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ if used regularly for this purpose        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+A device specifically and solely for the purpose of delivery should not be counted as a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ if another device is normally reserved for 
+                <xref outputclass="businessDefinition" keyref="business_definition_antenatal">Antenatal</xref>
+ and 
+                <xref outputclass="businessDefinition" keyref="business_definition_postnatal">Postnatal</xref>
+ care. Details of the facilities available for delivery in a maternity ward should be included in a 
+                <xref outputclass="class" keyref="class_ward">WARD</xref>
+ inventory.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Beds</xref>
+ may be reserved and unavailable for a variety of reasons, including when they are vacated by 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who are on 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_home_leave">Home Leave</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ vacated by a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ while on 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_home_leave">Home Leave</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_leave_of_absence">Mental Health Leave of Absence</xref>
+ for 28 days or less, or with a current period of Absence Without Leave of 28 days or less, may be recorded as reserved and not available because of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_home_leave">Home Leave</xref>
+, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_mental_health_leave_of_absence">Mental Health Leave of Absence</xref>
+ or Absence Without Leave.  </p>
+  <p>
+However, if a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ that is reserved for whatever reason is occupied by another 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ it should be recorded as available and occupied.  </p>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Beds</xref>
+ may be used sometimes by healthy 
+    <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ accompanying a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+. When this occurs the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ should be recorded as unavailable because it is being used by a healthy 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+.  </p>
+
+</body>
+</topic>

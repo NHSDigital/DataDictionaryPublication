@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_interpreter_present_at_care_contact_indication_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: INTERPRETER PRESENT AT CARE CONTACT INDICATION CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>
+
+  <p>
+Yes - a professional interpreter was used for the purposes of communication between a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ and a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>
+
+  <p>
+Yes - a family member or friend was used for the purposes of communication between a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ and a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>
+
+  <p>
+Yes - another 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ was used for the purposes of communication between a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ and a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>4</stentry>
+        <stentry>
+
+  <p>
+No - an interpreter was not used for the purposes of communication between a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ and a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+ as an interpreter was not required  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>5</stentry>
+        <stentry>
+
+  <p>
+No - an interpreter was not used for the purposes of communication between a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ and a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+ as the interpreter did not attend   </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

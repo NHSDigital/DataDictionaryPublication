@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_topography__snomed_pathology_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: TOPOGRAPHY (SNOMED PATHOLOGY) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>min an6 max an18</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_topography__snomed_pathology_">TOPOGRAPHY (SNOMED PATHOLOGY)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_clinical_terminology_code">CLINICAL TERMINOLOGY CODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_topography__snomed_pathology_">TOPOGRAPHY (SNOMED PATHOLOGY)</xref>
+ is the topographical site of the 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ using the SNOMED® (Systematised Nomenclature of Medicine) International code or 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/snomed_ct.asp"
+            scope="external"
+            format="html">SNOMED_CT</xref>
+® concept ID.  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_start_time__ward_stay_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: START TIME (WARD STAY) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an8 HH:MM:SS</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_start_time__ward_stay_">START TIME (WARD STAY)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_time">ACTIVITY TIME</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_time_type">ACTIVITY TIME TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_start_time">Start Time</xref>
+      </i>
+ ' of the 
+    <xref outputclass="businessDefinition" keyref="business_definition_ward_stay">Ward Stay</xref>
+.  </p>
+
+
+  </body>
+</topic>

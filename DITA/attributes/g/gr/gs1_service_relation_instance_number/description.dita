@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_gs1_service_relation_instance_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: GS1 SERVICE RELATION INSTANCE NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A unique number to identify each 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ within the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ episode of care for the purposes of 
+    <xref outputclass="businessDefinition" keyref="business_definition_gs1">GS1</xref>
+ Standards.  </p>
+  <p>
+The 
+    <xref outputclass="attribute"
+            keyref="attribute_gs1_service_relation_instance_number">GS1 SERVICE RELATION INSTANCE NUMBER</xref>
+ is allocated by the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="attribute"
+            keyref="attribute_gs1_service_relation_instance_number">GS1 SERVICE RELATION INSTANCE NUMBER</xref>
+ 
+    <b>must</b>
+ occur in combination with:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/gs1_global_service_relation_number.asp"
+                  scope="external"
+                  format="html">GS1_Global_Service_Relation_Number</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="element"
+                  keyref="element_gs1_application_identifier__global_">GS1 APPLICATION IDENTIFIER (GLOBAL)</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+  <p>
+Further guidance can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/isce/publication/dcb1077"
+            scope="external"
+            format="html">DCB1077: AIDC for Patient Identification.</xref>
+  </p>
+
+</body>
+</topic>

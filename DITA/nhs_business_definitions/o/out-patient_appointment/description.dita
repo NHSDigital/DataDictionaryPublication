@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_out-patient_appointment.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Out-Patient Appointment - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+ is an 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+ is an 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ for a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to see or have contact with a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ at an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+.  </p>
+  <p>
+Each 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+ is either an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment_consultant">Out-Patient Appointment Consultant</xref>
+ or an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment_non-consultant">Out-Patient Appointment Non-Consultant</xref>
+.  </p>
+
+</body>
+</topic>

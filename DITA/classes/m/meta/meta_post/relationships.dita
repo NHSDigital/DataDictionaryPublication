@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_post.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: META POST - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each META POST</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry>Key</stentry>
+        <stentry>must be the responsibility of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_meta_organisation' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be concerned with one or more </stentry>
+        <stentry>
+          <xref keyref='class_meta_contractual_relationship' outputclass='class' />
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

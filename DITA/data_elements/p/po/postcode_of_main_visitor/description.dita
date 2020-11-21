@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_postcode_of_main_visitor.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: POSTCODE OF MAIN VISITOR - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>See POSTCODE </dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_postcode_of_main_visitor">POSTCODE OF MAIN VISITOR</xref>
+ is the same as data element 
+    <xref outputclass="element" keyref="element_postcode">POSTCODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_postcode_of_main_visitor">POSTCODE OF MAIN VISITOR</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_postcode">POSTCODE</xref>
+ of the 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s main visitor where the 
+    <xref outputclass="attribute" keyref="attribute_address_association_type">ADDRESS ASSOCIATION TYPE</xref>
+ is National Code 
+    <i>'Main Permanent Residence'</i>
+ or 
+    <i>'Other Permanent Residence'.</i>
+  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+, 
+    <xref outputclass="element" keyref="element_postcode_of_main_visitor">POSTCODE OF MAIN VISITOR</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_postcode">POSTCODE</xref>
+ of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s main visitor to the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ whilst they are being treated as part of a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+.  </p>
+
+
+  </body>
+</topic>

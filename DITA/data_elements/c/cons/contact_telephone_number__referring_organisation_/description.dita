@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_contact_telephone_number__referring_organisation_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CONTACT TELEPHONE NUMBER (REFERRING ORGANISATION) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>See UK_TELEPHONE_NUMBER </dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_contact_telephone_number__referring_organisation_">CONTACT TELEPHONE NUMBER (REFERRING ORGANISATION)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_communication_contact_string">COMMUNICATION CONTACT STRING</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_communication_contact_method">COMMUNICATION CONTACT METHOD</xref>
+ is National Code 
+    <i>'UK Telephone Number'.</i>
+  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_contact_telephone_number__referring_organisation_">CONTACT TELEPHONE NUMBER (REFERRING ORGANISATION)</xref>
+ is the telephone number for a 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ who is the designated contact of the referring 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+.  </p>
+
+
+  </body>
+</topic>

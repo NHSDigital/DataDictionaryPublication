@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_pathology_report_text.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PATHOLOGY REPORT TEXT - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an270000</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_pathology_report_text">PATHOLOGY REPORT TEXT</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_person_observation_text_string">PERSON OBSERVATION TEXT STRING</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_pathology_report_text">PATHOLOGY REPORT TEXT</xref>
+ is the full text from the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_pathology_laboratory_service_report">Pathology Laboratory Service Report</xref>
+ which may be required by the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+ to calculate diagnosis and staging details.  </p>
+
+
+  </body>
+</topic>

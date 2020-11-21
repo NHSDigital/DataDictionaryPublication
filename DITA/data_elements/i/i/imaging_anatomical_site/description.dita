@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_imaging_anatomical_site.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: IMAGING ANATOMICAL SITE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an5</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>
+.  </p>
+  <p>
+For the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
+            scope="external"
+            format="html">Cancer Outcomes and Services Data Set</xref>
+, 
+    <xref outputclass="element" keyref="element_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>
+ is the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/opcs_classification_of_interventions_and_procedures.asp"
+            scope="external"
+            format="html">OPCS-4</xref>
+ 'Z' code plus the following permitted values:  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>CZ001</p>
+         </stentry>
+         <stentry>
+            <p>Whole body</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>CZ002</p>
+         </stentry>
+         <stentry>
+            <p>Multiple sites</p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+
+  </body>
+</topic>

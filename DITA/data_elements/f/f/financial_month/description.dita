@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_financial_month.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: FINANCIAL MONTH - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an2</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+ 
+    <xref outputclass="element" keyref="element_financial_month">FINANCIAL MONTH</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_financial_month">FINANCIAL MONTH</xref>
+.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_aggregate_contract_monitoring_data_set">Aggregate Contract Monitoring Data Set</xref>
+ and the 
+    <xref outputclass="dataSet"
+            keyref="dataset_patient_level_contract_monitoring_data_set">Patient Level Contract Monitoring Data Set</xref>
+, where an 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ spans more than one 
+    <xref outputclass="attribute" keyref="attribute_financial_month">FINANCIAL MONTH</xref>
+ (for example, a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+), this is the 
+    <xref outputclass="attribute" keyref="attribute_financial_month">FINANCIAL MONTH</xref>
+ in which the 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ ended.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_devices_patient_level_contract_monitoring_data_set">Devices Patient Level Contract Monitoring Data Set</xref>
+, this is the 
+    <xref outputclass="attribute" keyref="attribute_financial_month">FINANCIAL MONTH</xref>
+ in which the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_high_cost_tariff_excluded_device">High Cost Tariff Excluded Device</xref>
+ was inserted in or provided to the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
+, this is the 
+    <xref outputclass="attribute" keyref="attribute_financial_month">FINANCIAL MONTH</xref>
+ in which the 
+    <xref outputclass="class" keyref="class_prescribed_item">PRESCRIBED ITEM</xref>
+ was administered.  </p>
+
+
+  </body>
+</topic>

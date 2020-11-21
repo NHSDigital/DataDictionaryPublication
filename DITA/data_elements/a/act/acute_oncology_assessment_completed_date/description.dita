@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_acute_oncology_assessment_completed_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ACUTE ONCOLOGY ASSESSMENT COMPLETED DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+ 
+    <xref outputclass="element"
+            keyref="element_acute_oncology_assessment_completed_date">ACUTE ONCOLOGY ASSESSMENT COMPLETED DATE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+, where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>'</i>
+      <i>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_care_contact_date">Care Contact Date</xref>
+      </i>
+ '.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_acute_oncology_assessment_completed_date">ACUTE ONCOLOGY ASSESSMENT COMPLETED DATE</xref>
+ is the date an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_acute_oncology_assessment">Acute Oncology Assessment</xref>
+ was completed during a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_care_spell">Cancer Care Spell</xref>
+.  </p>
+
+
+  </body>
+</topic>

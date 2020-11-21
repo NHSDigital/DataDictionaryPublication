@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_patient_classification.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: PATIENT CLASSIFICATION - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>
+
+  <b>Ordinary admission
+</b>
+  <p>
+ A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ not admitted electively, and any 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted electively with the expectation that they will remain in hospital for at least one night, including a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted with this intention who leaves hospital for any reason without staying overnight. A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted electively with the intent of not staying overnight, but who does not return home as scheduled, should be counted as an ordinary admission  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>
+
+  <b>Day case admission</b>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted electively during the course of a day with the intention of receiving care who does not require the use of a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+  overnight and who returns home as scheduled. If this original intention is not fulfilled and the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ stays overnight, such a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ should be counted as an ordinary admission  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>
+
+  <b>Regular day admission</b>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted electively during the day, as part of a planned series of regular admissions for an on-going regime of broadly similar treatment and who is discharged the same day. If the intention is not fulfilled and one of these admissions should involve a stay of at least 24 hours, such an admission should be classified as an ordinary admission. The series of regular admissions ends when the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ no longer requires frequent admissions  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>4</stentry>
+        <stentry>
+
+  <b>Regular night admission</b>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ admitted electively for the night, as part of a planned series of regular admissions for an on-going regime of broadly similar treatment and who is discharged in the morning. If the intention is not fulfilled and one of these admissions should involve a stay of at least 24 hours, such an admission should be classified as an ordinary admission. The series of regular admissions ends when the patient no longer requires frequent admissions  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>5</stentry>
+        <stentry>
+
+  <b>Mother and baby using delivery facilities only</b>
+  <p>
+Mother and baby using 
+    <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
+ facilities only and not using a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+ in the 
+    <xref outputclass="businessDefinition" keyref="business_definition_antenatal">Antenatal</xref>
+ or 
+    <xref outputclass="businessDefinition" keyref="business_definition_postnatal">Postnatal</xref>
+ 
+    <xref outputclass="class" keyref="class_ward">WARDS</xref>
+ during the stay in hospital  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

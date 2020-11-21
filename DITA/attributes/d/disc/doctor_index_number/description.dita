@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_doctor_index_number.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: DOCTOR INDEX NUMBER - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_general_medical_council">General Medical Council</xref>
+ allocates all doctors a 
+    <xref outputclass="attribute"
+            keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+ on their first contact with the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_general_medical_council">General Medical Council</xref>
+.  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+If a doctor chooses to enter general practice in England or Wales, a further 6-digit number is allocated by 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_nhs_digital">NHS Digital</xref>
+. This number is referred to as the 
+                <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>
+.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+The 
+                <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>
+ is passed to the requesting 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+ or 
+                <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ authorised to act on their behalf who then liaise with 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+ on the issue of prescription pads etc.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+            <p>
+use the number to derive the 
+                <xref outputclass="attribute"
+                     keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+ by prefixing it with a leading character and adding a check digit at the end.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+A doctor can be both a 
+    <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ and a Hospital 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+, and therefore hold a 
+    <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>
+, 
+    <xref outputclass="attribute"
+            keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+ and a 
+    <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
+ simultaneously.  </p>
+  <p>Doctor Index Number Code Table</p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry outputclass="thead-light">
+            <p>Practitioner
+        Code Type</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Character Position</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Allocated
+        By</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Allocated
+        To</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Known
+        As</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Notes</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>1</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>2</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>3</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>4</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>5</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>6</p>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_nhs_digital">NHS Digital</xref>
+         </stentry>
+         <stentry>
+            <p>GMPs in England &amp; Wales</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="attribute" keyref="attribute_doctor_index_number">DIN</xref>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>Allocated to a doctor upon applying to enter General Medical Practice in England or Wales</p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+</body>
+</topic>

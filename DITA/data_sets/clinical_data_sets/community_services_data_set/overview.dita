@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_community_services_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Community Services Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <b>Contextual Overview</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ (
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">CSDS</xref>
+) is a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ level, output based, secondary uses data set which will deliver robust, comprehensive, nationally consistent and comparable person-centred information for people who are in contact with NHS-funded 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_health_service">Community Health Services</xref>
+. As a secondary uses data set it intends to re-use clinical and operational data for purposes other than direct 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ care. It defines the data items, definitions and associated value sets to be extracted or derived from local systems.  </p>
+  <p>
+The data collected in the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ covers all NHS-funded 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_health_service">Community Health Services</xref>
+ provided by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ in England. This includes all 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ listed in the 
+    <xref outputclass="attribute"
+            keyref="attribute_service_or_team_type_referred_to_for_community_care">SERVICE OR TEAM TYPE REFERRED TO FOR COMMUNITY CARE</xref>
+ within the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+, including any 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ that have transitioned into new organisational forms as a result of the 
+    <xref href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/215624/dh_126111.pdf"
+            scope="external"
+            format="html">Transforming Community Services (TCS) programme</xref>
+. This includes acute and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Providers</xref>
+ that provide NHS-funded 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_health_service">Community Health Services</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ is used by the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+, commissioners and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Providers</xref>
+ of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_health_service">Community Health Services</xref>
+ and 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+, as the data set provides:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+National, comparable, standardised data about 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_community_health_service">Community Health Services</xref>
+ that are being delivered, which will support intelligent commissioning decisions and 
+                <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ provision        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Information on the use of resources to improve the operational management of 
+                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>Information on outcomes, to help to address health inequalities</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Support for current national outcome indicators for 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_community_health_service">Community Health Services</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Traceability and visibility of 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_community_health_service">Community Health Service</xref>
+ expenditure, allowing the implementation of new payment approaches for 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_community_health_service">Community Health Services</xref>
+ through the development of defined currencies which are underpinned by consistent data        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Information to improve reference costs for 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_community_health_service">Community Health Services</xref>
+, to ensure that these are reported consistently        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Support for a nationally consistent clinical record for all 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ across England, which can be used to support national research projects        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Information for the future development of 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_community_health_service">Community Health Services</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <b>Data Collection</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ provides the definitions for data to provide timely, pseudonymised 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+-based data and information for purposes other than direct clinical care, e.g. planning, commissioning, public health, clinical audit, performance improvement, research, clinical governance.  </p>
+  <p>
+Data is expected to be collected from various clinical systems, collated and assembled. This standard is intended to facilitate electronic data recording and reporting but it is not intended to create clinical records for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_health_service">Community Health Services</xref>
+ or to enable systems used by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_health_service">Community Health Services</xref>
+ to interoperate with other clinical systems.  </p>
+  <p>
+      <b>Submission Information</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ is submitted via the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/strategic_data_collection_service_in_the_cloud.asp"
+            scope="external"
+            format="html">Strategic_Data_Collection_Service_in_the_Cloud</xref>
+ (
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/strategic_data_collection_service_in_the_cloud.asp"
+            scope="external"
+            format="html">SDCS Cloud</xref>
+) maintained by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ using the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ (
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">CSDS</xref>
+) XML Schema.  </p>
+  <p>
+      <b>Format Information</b>
+  </p>
+  <p>
+Data for submission will be formatted into an XML file as per the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/technology_reference_data_update_distribution_(trud).asp"
+            scope="external"
+            format="html">Technology_Reference_Data_Update_Distribution_(TRUD)</xref>
+ page at: 
+    <xref href="https://isd.hscic.gov.uk/trud3/user/authenticated/group/101/pack/36"
+            scope="external"
+            format="html">NHS Data Model and Dictionary: DD XML Schemas</xref>
+.  </p>
+  <p>
+For enquiries regarding the XML Schema, please contact 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ at 
+    <xref href="mailto:enquiries@nhsdigital.nhs.uk,"
+            scope="external"
+            format="html">enquiries@nhsdigital.nhs.uk</xref>
+.  </p>
+  <p>
+      <b>Further Guidance</b>
+  </p>
+  <p>
+Further information and implementation guidance has been produced by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ and is available at:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/community-services-data-set"
+                  scope="external"
+                  format="html">Community Services Data Set</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/community-services-data-set/community-services-data-set-user-guidance"
+                  scope="external"
+                  format="html">Community Services Data Set user guidance</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

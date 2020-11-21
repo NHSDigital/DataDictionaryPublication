@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_radiotherapy_treatment_course.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Radiotherapy Treatment Course - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_radiotherapy_treatment_course">Radiotherapy Treatment Course</xref>
+ is a 
+    <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTION</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_radiotherapy_treatment_course">Radiotherapy Treatment Course</xref>
+ is a set of 
+    <xref outputclass="businessDefinition" keyref="business_definition_fraction">Fractions</xref>
+ for an individual 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ which have been planned and prescribed as a whole. It should be noted that the following all constitute one course of treatment:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+Set of 
+                <xref outputclass="businessDefinition" keyref="business_definition_fraction">Fractions</xref>
+ planned and prescribed as a whole and using one or more different 
+                <xref outputclass="class" keyref="class_machine">MACHINES</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Set of 
+                <xref outputclass="businessDefinition" keyref="business_definition_fraction">Fractions</xref>
+ planned and prescribed as a whole with a period of no treatment during them (split course)        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Set of 
+                <xref outputclass="businessDefinition" keyref="business_definition_fraction">Fractions</xref>
+ planned and prescribed as a whole involving 
+                <xref outputclass="class" keyref="class_machine">MACHINES</xref>
+ located on two or more 
+                <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITES</xref>
+. (exceptionally a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may be transferred between sites possibly due to 
+                <xref outputclass="class" keyref="class_machine">MACHINE</xref>
+ failure)        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+If a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has two unrelated diseases both of which require 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_radiotherapy">Radiotherapy</xref>
+, each course of treatment should be recorded as a primary course.  </p>
+  <p>
+Similarly if a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has two primary lesions of the same disease, eg two rodent ulcers, the treatment of these comprises two primary courses, unless the lesions are in such close proximity that they are to be treated together.  </p>
+  <p>
+If during a course of treatment, a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ starts a further course, the second course should be separately identified.  </p>
+
+</body>
+</topic>

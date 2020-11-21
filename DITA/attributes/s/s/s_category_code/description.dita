@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_s_category_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: S CATEGORY CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The code to identify the serum 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ markers (measurable biochemicals associated with a malignancy of 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+      <xref outputclass="class" keyref="class_cell">CELLS</xref>
+) for testicular cancer only.  </p>
+  <code>TermServer</code>
+  <p>
+      <xref outputclass="attribute" keyref="attribute_s_category_code">S CATEGORY CODE</xref>
+ is derived following recording of the biochemistry test items:  </p>
+  <ul>
+      <li>
+         <xref outputclass="element"
+               keyref="element_s_category__lactate_dehydrogenase_">S CATEGORY (LACTATE DEHYDROGENASE)</xref>
+         <p> (LDH)</p>
+      </li>
+      <li>
+         <xref outputclass="element"
+               keyref="element_s_category__human_chorionic_gonadotropin_">S CATEGORY (HUMAN CHORIONIC GONADOTROPIN)</xref>
+         <p> (HCG)</p>
+      </li>
+      <li>
+         <xref outputclass="element" keyref="element_s_category__alpha_fetoprotein_">S CATEGORY (ALPHA FETOPROTEIN)</xref>
+         <p> (AFP)</p>
+      </li>
+  </ul>
+
+</body>
+</topic>

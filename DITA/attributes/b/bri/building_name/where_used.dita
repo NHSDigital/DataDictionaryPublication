@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_building_name.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: BUILDING NAME - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_address_structured' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute BUILDING NAME of type BUILDING NAME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_correspondence_address' outputclass='element' />
+        </stentry>
+        <stentry>references in description BUILDING NAME</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

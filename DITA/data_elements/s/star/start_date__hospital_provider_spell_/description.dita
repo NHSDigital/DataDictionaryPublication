@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_start_date__hospital_provider_spell_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: START DATE (HOSPITAL PROVIDER SPELL) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__hospital_provider_spell_">START DATE (HOSPITAL PROVIDER SPELL)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_start_date">Start Date</xref>
+'    </i>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_start_date">Start Date</xref>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ is the date of admission: the 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ or 
+    <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+ has assumed responsibility for care following the 
+    <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__hospital_provider_spell_">START DATE (HOSPITAL PROVIDER SPELL)</xref>
+ is used by the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ to derive the 
+    <b>
+         <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+               scope="external"
+               format="html">Healthcare_Resource_Group</xref>
+      </b>
+  
+    <b>4</b>
+. Failure to correctly populate this data element is likely to result in an incorrect 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/healthcare_resource_group.asp"
+            scope="external"
+            format="html">Healthcare_Resource_Group</xref>
+, usually associated with lower levels of healthcare resource.  </p>
+  <p>
+For further information, please refer to the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+    <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance"
+            scope="external"
+            format="html">Payment by Results Guidance</xref>
+.  </p>
+
+
+  </body>
+</topic>

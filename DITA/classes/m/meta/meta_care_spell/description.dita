@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_care_spell.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: META CARE SPELL - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>This is a meta data class.</p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_meta_care_spell">META CARE SPELL</xref>
+ starts at the start date and start time of the earliest activity associated with it, which is usually the activity which identified the 
+    <xref outputclass="class" keyref="class_meta_health_and_social_care_issue">META HEALTH AND SOCIAL CARE ISSUE</xref>
+. It ends when the care issue is resolved, the 
+    <xref outputclass="class" keyref="class_meta_patient">META PATIENT</xref>
+ dies, the 
+    <xref outputclass="class" keyref="class_meta_patient">META PATIENT</xref>
+ quits care or nothing more can be done for the 
+    <xref outputclass="class" keyref="class_meta_health_and_social_care_issue">META HEALTH AND SOCIAL CARE ISSUE</xref>
+ concerned.  </p>
+  <p>
+Note: a comprehensive description of this meta class can be found in the buisness definition 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_care_spell">Care Spell</xref>
+.  </p>
+
+</body>
+</topic>

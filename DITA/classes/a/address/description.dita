@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_address.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: ADDRESS - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>The identification of a place of relevance to a:</p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_person">PERSON</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITE</xref>
+            <p>or</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_location">LOCATION</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ may have 
+    <xref outputclass="class" keyref="class_communication_contact_method">COMMUNICATION CONTACT METHOD</xref>
+ associated with it and may be the location for an 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+.  </p>
+  <p>
+Subtypes of 
+    <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+ are:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_address_structured">ADDRESS STRUCTURED</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_address_unstructured">ADDRESS UNSTRUCTURED</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

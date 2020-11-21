@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_stop_smoking_setting_quit_date_total.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: STOP SMOKING SETTING QUIT DATE TOTAL - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_stop_smoking_setting_quit_date_total">STOP SMOKING SETTING QUIT DATE TOTAL</xref>
+ is the number of 
+    <xref outputclass="class" keyref="class_person">PERSONS</xref>
+ in the 
+    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+ with a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_person_stop_smoking_episode">Person Stop Smoking Episode</xref>
+ and an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_intended_smoking_quit_date">Intended Smoking Quit Date</xref>
+.  </p>
+
+
+  </body>
+</topic>

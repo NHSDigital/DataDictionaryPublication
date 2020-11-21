@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_base_deficit_concentration__worst_within_12_hours_after_birth_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: BASE DEFICIT CONCENTRATION (WORST WITHIN 12 HOURS AFTER BIRTH) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n2.n1</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_base_deficit_concentration__worst_within_12_hours_after_birth_">BASE DEFICIT CONCENTRATION (WORST WITHIN 12 HOURS AFTER BIRTH)</xref>
+ is the worst deficit result of any 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+ which measures the 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+'s base excess concentration, where the 
+    <xref outputclass="attribute" keyref="attribute_unit_of_measurement">UNIT OF MEASUREMENT</xref>
+ is '
+    <i>Millimoles per litre (mmol/L)'</i>
+, taken within twelve hours of the 
+    <xref outputclass="element" keyref="element_person_birth_date__baby_">PERSON BIRTH DATE (BABY)</xref>
+.   </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_five_forensic_pathways_assessment_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: FIVE FORENSIC PATHWAYS ASSESSMENT DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_five_forensic_pathways_assessment_date">FIVE FORENSIC PATHWAYS ASSESSMENT DATE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>'</i>
+      <i>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_clinical_intervention_date">Clinical Intervention Date</xref>
+      </i>
+      <i>'</i>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_five_forensic_pathways_assessment_date">FIVE FORENSIC PATHWAYS ASSESSMENT DATE</xref>
+ is the date on which a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_five_forensic_pathways">Five Forensic Pathways</xref>
+ assessment was completed for a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+
+
+  </body>
+</topic>

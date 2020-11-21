@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_activity_location_type_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ACTIVITY LOCATION TYPE CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>A01</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>'s Home</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>A02</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+  <p>'s Home</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>A03</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>'s Workplace</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>A04</stentry>
+        <stentry>
+
+  <p>
+Other 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ Related Location  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>B01</stentry>
+        <stentry>Primary Care Health Centre</stentry>
+      </strow>
+      <strow>
+        <stentry>B02</stentry>
+        <stentry>Polyclinic</stentry>
+      </strow>
+      <strow>
+        <stentry>C01</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>C02</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_dental_practice">Dental Practice</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>C03</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_ophthalmic_medical_practitioner">OPHTHALMIC MEDICAL PRACTITIONER</xref>
+  <p> Premises</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>D01</stentry>
+        <stentry>Walk In Centre</stentry>
+      </strow>
+      <strow>
+        <stentry>D02</stentry>
+        <stentry>Out of Hours Centre</stentry>
+      </strow>
+      <strow>
+        <stentry>D03</stentry>
+        <stentry>Emergency Community Dental Service</stentry>
+      </strow>
+      <strow>
+        <stentry>E01</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>E02</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_ward">WARD</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>E03</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_day_care_facility">Day Hospital</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>E04</stentry>
+        <stentry>Accident and Emergency or Minor Injuries Department</stentry>
+      </strow>
+      <strow>
+        <stentry>E99</stentry>
+        <stentry>Other Departments</stentry>
+      </strow>
+      <strow>
+        <stentry>F01</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition" keyref="business_definition_hospice">Hospice</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>G01</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>G02</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>G03</stentry>
+        <stentry>
+
+  <xref href="http://www.datadictionary.nhs.uk/data_dictionary/nhs_business_definitions/c/children&amp;apos;s_home_de.asp"
+         scope="external"
+         format="html">Children&amp;apos;s_Home</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>G04</stentry>
+        <stentry>
+
+  <p>
+Integrated 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>H01</stentry>
+        <stentry>Day Centre</stentry>
+      </strow>
+      <strow>
+        <stentry>J01</stentry>
+        <stentry>Resource Centre</stentry>
+      </strow>
+      <strow>
+        <stentry>K01</stentry>
+        <stentry>Sure Start Children’s Centre</stentry>
+      </strow>
+      <strow>
+        <stentry>K02</stentry>
+        <stentry>Child Development Centre</stentry>
+      </strow>
+      <strow>
+        <stentry>L01</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition" keyref="business_definition_school">School</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>L02</stentry>
+        <stentry>
+
+  <p>
+Further Education 
+    <xref outputclass="businessDefinition" keyref="business_definition_college">College</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>L03</stentry>
+        <stentry>University</stentry>
+      </strow>
+      <strow>
+        <stentry>L04</stentry>
+        <stentry>Nursery Premises</stentry>
+      </strow>
+      <strow>
+        <stentry>L05</stentry>
+        <stentry>Other Childcare Premises</stentry>
+      </strow>
+      <strow>
+        <stentry>L06</stentry>
+        <stentry>Training Establishments</stentry>
+      </strow>
+      <strow>
+        <stentry>L99</stentry>
+        <stentry>Other Educational Premises</stentry>
+      </strow>
+      <strow>
+        <stentry>M01</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition" keyref="business_definition_prison">Prison</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>M02</stentry>
+        <stentry>Probation Service Premises</stentry>
+      </strow>
+      <strow>
+        <stentry>M03</stentry>
+        <stentry>
+
+  <p>
+Police Station / 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_police_custody_suite">Police Custody Suite</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>M04</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_young_offender_institution">Young Offender Institution</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>M05</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_immigration_removal_centre">Immigration Removal Centre</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>M06</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_young_offender_institution__15-17_">Young Offender Institution (15-17)</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>M07</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_young_offender_institution__18-21_">Young Offender Institution (18-21)</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N01</stentry>
+        <stentry>Street or other public open space</stentry>
+      </strow>
+      <strow>
+        <stentry>N02</stentry>
+        <stentry>Other publicly accessible area or building</stentry>
+      </strow>
+      <strow>
+        <stentry>N03</stentry>
+        <stentry>Voluntary or charitable agency premises</stentry>
+      </strow>
+      <strow>
+        <stentry>N04</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_dispensing_optician">Dispensing Optician</xref>
+  <p> Premises</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N05</stentry>
+        <stentry>
+
+  <p>
+Dispensing 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_pharmacy_premises">Pharmacy Premises</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>X01</stentry>
+        <stentry>Other locations not elsewhere classified</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

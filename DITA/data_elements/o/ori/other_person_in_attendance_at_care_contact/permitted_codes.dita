@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_other_person_in_attendance_at_care_contact.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: OTHER PERSON IN ATTENDANCE AT CARE CONTACT - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Independent Advocate (Family Member)</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <p>
+Independent Advocate (Independent 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_independent_mental_capacity_advocate">Independent Mental Capacity Advocate</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_independent_mental_capacity_advocate">IMCA</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_independent_mental_health_advocate">Independent Mental Health Advocate</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_independent_mental_health_advocate">IMHA</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_non-instructed_advocate">Non-Instructed Advocate</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>Parent or relative (non-advocate)</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>Friend or neighbour (non-advocate)</stentry>
+      </strow>
+      <strow>
+        <stentry>12</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_care_worker">Care Worker</xref>
+  <p> (non-advocate)</p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_start_date__care_programme_approach_care_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: START DATE (CARE PROGRAMME APPROACH CARE) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_start_date__care_programme_approach_care_">START DATE (CARE PROGRAMME APPROACH CARE)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_start_date">Start Date</xref>
+'     </i>
+of the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/care_programme_approach.asp"
+            scope="external"
+            format="html">Care_Programme_Approach</xref>
+ care for the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+
+
+  </body>
+</topic>

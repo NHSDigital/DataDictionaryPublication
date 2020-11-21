@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_country_code__origin_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: COUNTRY CODE (ORIGIN) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>a3</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_country_code__origin_">COUNTRY CODE (ORIGIN)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_country_code">COUNTRY CODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_country_code__origin_">COUNTRY CODE (ORIGIN)</xref>
+ is the 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+'s country of origin.  </p>
+  <p>
+Refer to the ISO 3166-1 standard for actual list of alphabetic codes and countries. The alphabetic code to be used is the 3-char alphabetic code available on the International Organisation for Standardisation website 
+    <xref href="https://www.iso.org/home.html" scope="external" format="html">https://www.iso.org/home.html</xref>
+. The 2-char alphabetic code 
+    <b>must not be used.</b>
+  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_female_genital_mutilation_data_set">Female Genital Mutilation Data Set</xref>
+, this is the country which the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ believes reflects their cultural heritage.  </p>
+
+
+  </body>
+</topic>

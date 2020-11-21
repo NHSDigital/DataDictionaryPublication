@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: NHS Allied Health Professional Service (Referral To Treatment Measurement) - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
+ is a 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
+ is a 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ involving the treatment of a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ by one of the following types of Allied Health Professional:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+Art Therapists, Music Therapists and Dramatherapists (
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_arts_therapist">Arts Therapists</xref>
+)        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_chiropodist">Chiropodists</xref>
+            <p>
+/
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_chiropodist">Podiatrist</xref>
+s        </p>
+         </div>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition" keyref="business_definition_dietitian">Dietitians</xref>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_occupational_therapist">Occupational Therapists</xref>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_orthoptist">Orthoptists</xref>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_physiotherapist">Physiotherapists</xref>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_prosthetist">Prosthetists</xref>
+         <p>
+ and 
+            <xref outputclass="businessDefinition" keyref="business_definition_orthotist">Orthotists</xref>
+         </p>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_radiographer">Radiographers</xref>
+         <p> (Diagnostic and Therapeutic)</p>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_speech_and_language_therapist">Speech and Language Therapists</xref>
+      </li>
+  </ul>
+  <p>
+Where the Allied Health Professional works in a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_health_service">Community Health Service</xref>
+, the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+ requires their 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+ activity to be reported in the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+.   </p>
+  <p>
+Where the Allied Health Professional activity took place at an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+, the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+ activity must be reported in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+.  In addition to this, where an Allied Health Professional sees a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ on a 
+    <xref outputclass="class" keyref="class_ward">WARD</xref>
+ but the 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ is not related to the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is being treated under, this should be regarded as replacing an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment_non-consultant">Out-Patient Appointment Non-Consultant</xref>
+, and a 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+ record should flow.  
+    <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
+ may be submitted to allow identification of this Allied Health Professional 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+.  For example, if a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_chiropodist">Podiatrist</xref>
+ were asked to see a patient who was currently admitted for a condition where the agreed care pathway did not include Podiatry services, then an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment_non-consultant">Out-Patient Appointment Non-Consultant</xref>
+ should be recorded, with the 
+    <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
+ of E02 
+    <i>'</i>
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+      <i>'</i>
+, and the relevant Referral To Treatment data items also completed.  </p>
+  <p>
+Further guidance relating to Allied Health Professional Referral To Treatment initiative can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+ part of the gov.uk website at: the 
+    <xref href="https://www.gov.uk/government/publications/revised-guide-for-referral-to-treatment-for-allied-health-professionals"
+            scope="external"
+            format="html">Revised guide for referral to treatment for allied health professionals</xref>
+.  </p>
+
+</body>
+</topic>

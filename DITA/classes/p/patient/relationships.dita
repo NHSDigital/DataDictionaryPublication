@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_patient.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: PATIENT - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each PATIENT</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>must be the subject of  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the user of one or more </stentry>
+        <stentry>
+          <xref keyref='class_ambulance_vehicle' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be offered one and only one </stentry>
+        <stentry>
+          <xref keyref='class_appointment_offer' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the subject of  one or more </stentry>
+        <stentry>
+          <xref keyref='class_decision_to_admit' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the subject of  one or more </stentry>
+        <stentry>
+          <xref keyref='class_decision_to_refer' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the subject of  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_elective_admission_list_entry' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_electronic_health_record' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the subject of  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_leave' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be treated out of area under one or more </stentry>
+        <stentry>
+          <xref keyref='class_nhs_service_agreement' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be subject to one or more </stentry>
+        <stentry>
+          <xref keyref='class_overseas_visitor_status' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be related to  one or more </stentry>
+        <stentry>
+          <xref keyref='class_patient_clinic' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the registered patient of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_patient_organisation' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the recipient of  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_patient_transport_journey' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be recorded as one and only one </stentry>
+        <stentry>
+          <xref keyref='class_person' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be related to one and only one </stentry>
+        <stentry>
+          <xref keyref='class_person_in_programme' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the subject of  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_planned_activity' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the recipient of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_prescription' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be born as one and only one </stentry>
+        <stentry>
+          <xref keyref='class_registrable_birth' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the subject of one or more </stentry>
+        <stentry>
+          <xref keyref='class_service_request' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the donor of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_transplant_item' outputclass='class' />
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

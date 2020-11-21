@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_general_medical_practitioner__specified_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: GENERAL MEDICAL PRACTITIONER (SPECIFIED) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an8</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
+ is the 
+    <xref outputclass="attribute"
+            keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+ of the 
+    <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+ specified by the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+This 
+    <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+ works within the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ with which the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is registered.  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+ will have at least one of the following:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="attribute"
+                  keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="attribute"
+                  keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <b>Ministry of Defence Doctors:</b>
+  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+If a Ministry of Defence Doctor 
+                <b>has</b>
+ a 
+                <xref outputclass="attribute"
+                     keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+, the 
+                <xref outputclass="attribute"
+                     keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+ should be used        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+If a Ministry of Defence Doctor 
+                <b>does not have</b>
+ a 
+                <xref outputclass="attribute"
+                     keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+, 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/organisation_data_service_default_codes.asp"
+                     scope="external"
+                     format="html">Organisation Data Service Default Code</xref>
+ G9999981 
+                <i>
+'
+                  <xref outputclass="attribute"
+                        keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+ not applicable'          </i>
+ should be used.        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

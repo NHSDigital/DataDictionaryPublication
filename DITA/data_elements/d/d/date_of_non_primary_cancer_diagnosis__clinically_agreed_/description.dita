@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_date_of_non_primary_cancer_diagnosis__clinically_agreed_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DATE OF NON PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_date_of_non_primary_cancer_diagnosis__clinically_agreed_">DATE OF NON PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+ is the same as data element 
+    <xref outputclass="element" keyref="element_diagnosis_date">DIAGNOSIS DATE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_date_of_non_primary_cancer_diagnosis__clinically_agreed_">DATE OF NON PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+ is the date where the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_non_primary_cancer">Non Primary Cancer</xref>
+ 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ was confirmed or agreed.  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="element"
+                  keyref="element_date_of_non_primary_cancer_diagnosis__clinically_agreed_">DATE OF NON PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+            <p>
+will normally be the date of the authorised 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_pathology_laboratory_service_report">Pathology Laboratory Service Report</xref>
+ which confirms the cancer diagnosis.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+If this date is not available, 
+                <xref outputclass="element"
+                     keyref="element_date_of_non_primary_cancer_diagnosis__clinically_agreed_">DATE OF NON PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+ will be the date of the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+ when the 
+                <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ was agreed.        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_relationship_to_person_for_community.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: RELATIONSHIP TO PERSON FOR COMMUNITY - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_person_relationship' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute RELATIONSHIP TO PERSON FOR COMMUNITY of type RELATIONSHIP TO PERSON FOR COMMUNITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_person_relationship__main_carer_' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of RELATIONSHIP TO PERSON FOR COMMUNITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_person_relationship__main_carer_' outputclass='element' />
+        </stentry>
+        <stentry>references in description RELATIONSHIP TO PERSON FOR COMMUNITY</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_relationship_to_person_for_community' outputclass='attribute' />
+        </stentry>
+        <stentry>references in description RELATIONSHIP TO PERSON FOR COMMUNITY</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

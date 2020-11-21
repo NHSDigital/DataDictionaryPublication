@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_first_antiretroviral_therapy_in_united_kingdom_indicator.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: FIRST ANTIRETROVIRAL THERAPY IN UNITED KINGDOM INDICATOR - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+
+  <p>
+Yes - the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ started 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_antiretroviral_therapy">Antiretroviral Therapy</xref>
+ for the first time in the United Kingdom at the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hiv_clinic_attendance">HIV Clinic Attendance</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+
+  <p>
+No - the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ did not start 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_antiretroviral_therapy">Antiretroviral Therapy</xref>
+ for the first time in the United Kingdom at the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hiv_clinic_attendance">HIV Clinic Attendance</xref>
+  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

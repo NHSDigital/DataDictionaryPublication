@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_provisional_diagnosis__icd_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PROVISIONAL DIAGNOSIS (ICD) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>See ICD-10_CODE</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_provisional_diagnosis">PROVISIONAL DIAGNOSIS</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
+ is the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+            scope="external"
+            format="html">International_Classification_of_Diseases_(ICD)</xref>
+ code used to identify the 
+    <xref outputclass="attribute" keyref="attribute_provisional_diagnosis">PROVISIONAL DIAGNOSIS</xref>
+.  </p>
+  <p>
+For the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/clinical_data_sets/overviews/cancer_outcomes_and_services_data_set_overviews/cancer_outcomes_and_services_data_set_introduction.asp"
+            scope="external"
+            format="html">Cancer Outcomes and Services Data Set</xref>
+, 
+    <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
+ is the working 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ as defined at the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+ where the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+ is agreed. This is the clinical opinion which may also be informed by 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+, radiological and/or other investigations.  </p>
+  <p>Note:</p>
+  <ul>
+      <li>
+         <div>
+            <p>The format/length of this Data Element has been corrected as a result of the work undertaken for the development of the Coding Strategy.</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>The data set specifications of the data sets that contain this Data Element will be updated in the next version of the information standard where it is not already correct.</p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

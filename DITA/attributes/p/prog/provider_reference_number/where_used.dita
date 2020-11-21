@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_provider_reference_number.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: PROVIDER REFERENCE NUMBER - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_service_provided_under_agreement' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute PROVIDER REFERENCE NUMBER of type PROVIDER REFERENCE NUMBER</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_provider_reference_number' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of PROVIDER REFERENCE NUMBER</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_provider_reference_number' outputclass='element' />
+        </stentry>
+        <stentry>references in description PROVIDER REFERENCE NUMBER</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

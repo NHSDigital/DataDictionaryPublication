@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_imaging_or_radiodiagnostic_event.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Imaging or Radiodiagnostic Event - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_imaging_or_radiodiagnostic_event">Imaging or Radiodiagnostic Event</xref>
+ is a 
+    <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTION</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_imaging_or_radiodiagnostic_event">Imaging or Radiodiagnostic Event</xref>
+ is a test or examination performed, in response to one 
+    <xref outputclass="class" keyref="class_diagnostic_test_request">DIAGNOSTIC TEST REQUEST</xref>
+ and relating to one 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_anatomical_site">Anatomical Site</xref>
+.  </p>
+  <p>A test counts as one test if one report is issued regardless of the number of radioactive substances used and the number of days on which counting takes place.</p>
+  <p>It excludes imaging performed as part of radiotherapy planning and Doppler ultrasound examinations without imaging such as those used for peripheral arterial or venous disease or fetal heart studies.</p>
+
+</body>
+</topic>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_information_sharing_to_tackle_violence_minimum_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: Information Sharing to Tackle Violence Minimum Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The purpose of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_information_sharing_to_tackle_violence_minimum_data_set">Information Sharing to Tackle Violence Minimum Data Set</xref>
+ is to enable the collection of anonymised information on those 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ presenting at  
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_department">Accident and Emergency Departments</xref>
+ for treatment as a result of a violent assault.  This information is to be shared with 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_safety_partnership">Community Safety Partnerships</xref>
+ (formerly known as Crime and Disorder Reduction Partnerships in England) to reduce community violence.  </p>
+  <p>
+The requirement for 
+    <xref outputclass="attribute"
+            keyref="attribute_accident_and_emergency_department_type">ACCIDENT AND EMERGENCY DEPARTMENT TYPE</xref>
+ '01' to collect the 
+    <xref outputclass="dataSet"
+            keyref="dataset_information_sharing_to_tackle_violence_minimum_data_set">Information Sharing to Tackle Violence Minimum Data Set</xref>
+ is considered 
+    <b>
+         <i>mandatory</i>
+      </b>
+ .  </p>
+  <p>
+The requirement for 
+    <xref outputclass="attribute"
+            keyref="attribute_accident_and_emergency_department_type">ACCIDENT AND EMERGENCY DEPARTMENT TYPE</xref>
+ '02', '03' and '04' to collect the 
+    <xref outputclass="dataSet"
+            keyref="dataset_information_sharing_to_tackle_violence_minimum_data_set">Information Sharing to Tackle Violence Minimum Data Set</xref>
+ is considered 
+    <b>
+         <i>optional</i>
+      </b>
+ .  </p>
+  <p>
+The frequency of reporting the 
+    <xref outputclass="dataSet"
+            keyref="dataset_information_sharing_to_tackle_violence_minimum_data_set">Information Sharing to Tackle Violence Minimum Data Set</xref>
+ should be determined locally, but must be at least monthly.  </p>
+  <p>
+      <b>Submission Information:</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_information_sharing_to_tackle_violence_minimum_data_set">Information Sharing to Tackle Violence Minimum Data Set</xref>
+ is submitted to a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_safety_partnership">Community Safety Partnership</xref>
+ using the Information Sharing to Tackle Violence XML Schema.  </p>
+  <p>
+The XML Schema and Release Notes are available as a downloadable zip file from 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/technology_reference_data_update_distribution_(trud).asp"
+            scope="external"
+            format="html">Technology_Reference_Data_Update_Distribution_(TRUD)</xref>
+ at: 
+    <xref href="https://isd.digital.nhs.uk/trud3/user/authenticated/group/101/pack/36"
+            scope="external"
+            format="html">NHS Data Model and Dictionary: DD XML Schemas</xref>
+.  </p>
+  <p>
+Contact the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_community_safety_partnership">Community Safety Partnership</xref>
+ before submitting using the XML Schema.  </p>
+
+</body>
+</topic>

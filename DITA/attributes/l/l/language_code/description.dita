@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_language_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: LANGUAGE CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The language used by a 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+.  </p>
+  <p>
+      <xref outputclass="attribute" keyref="attribute_language_code">LANGUAGE CODE</xref>
+ is based on the ISO 639-1 two character language codes (see the 
+    <xref href="http://www.loc.gov/standards/iso639-2/php/code_list.php"
+            scope="external"
+            format="html">ISO Registration Authority website</xref>
+) plus five communication method extensions:  </p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>q1</p>
+         </stentry>
+         <stentry>
+            <p>Braille - for people who are unable to see</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>q2</p>
+         </stentry>
+         <stentry>
+            <p>American Sign Language</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>q3</p>
+         </stentry>
+         <stentry>
+            <p>Australian Sign Language</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>q4</p>
+         </stentry>
+         <stentry>
+            <p>British Sign Language</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>q5</p>
+         </stentry>
+         <stentry>
+            <p>
+Makaton - devised for children and adults with a variety of communication and 
+                  <xref outputclass="businessDefinition"
+                     keyref="business_definition_learning_disability">Learning Disabilities</xref>
+            </p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+</body>
+</topic>

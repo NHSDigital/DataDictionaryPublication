@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_age_at_attendance_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: AGE AT ATTENDANCE DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>n3</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_age_at_attendance_date">AGE AT ATTENDANCE DATE</xref>
+ is derived as the number of completed years between the 
+    <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+ of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ and the 
+    <xref outputclass="element" keyref="element_attendance_date">ATTENDANCE DATE</xref>
+      <b>or</b>
+ the estimated age of the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+
+
+  </body>
+</topic>

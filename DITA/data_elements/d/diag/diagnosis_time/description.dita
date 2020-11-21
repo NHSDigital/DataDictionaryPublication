@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_diagnosis_time.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DIAGNOSIS TIME - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an8 HH:MM:SS</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_diagnosis_time">DIAGNOSIS TIME</xref>
+ is the 
+    <xref outputclass="attribute"
+            keyref="attribute_person_property_observed_time">PERSON PROPERTY OBSERVED TIME</xref>
+ for the 
+    <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+.  </p>
+  <p>This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained for information.</p>
+
+
+  </body>
+</topic>

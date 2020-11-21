@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_icd-10_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ICD-10 CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>min an4 max an6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_icd-10_code">ICD-10 CODE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_clinical_classification_code">CLINICAL CLASSIFICATION CODE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element" keyref="element_icd-10_code">ICD-10 CODE</xref>
+ is the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+            scope="external"
+            format="html">International_Classification_of_Diseases_(ICD)</xref>
+ 10th Revision code which is used to identify the 
+    <xref outputclass="class" keyref="class_coded_clinical_entry">CODED CLINICAL ENTRY</xref>
+.  </p>
+  <p>Note:</p>
+  <ul>
+      <li>
+         <div>
+            <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+                  scope="external"
+                  format="html">ICD</xref>
+            <p>-10 diagnostic codes are at least four characters in length. The first character is always alphabetic. Where an undivided three character code is used, the fourth character must be filled with 'X'.</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+Fifth characters should be used in accordance with the National Clinical Coding Standards for (
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+                     scope="external"
+                     format="html">ICD</xref>
+-10). Where they are not used the character must be filled with a '-'.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+The sixth character of the code is used to designate an asterisk or dagger indicator in 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+                     scope="external"
+                     format="html">ICD</xref>
+-10; it may be an 'A' or 'D'.                  </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

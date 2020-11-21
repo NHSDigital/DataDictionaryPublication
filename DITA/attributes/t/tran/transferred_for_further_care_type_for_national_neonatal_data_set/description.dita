@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_transferred_for_further_care_type_for_national_neonatal_data_set.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: TRANSFERRED FOR FURTHER CARE TYPE FOR NATIONAL NEONATAL DATA SET - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The type of care a baby is being transferred for, where the 
+    <xref outputclass="attribute"
+            keyref="attribute_discharge_destination_from_neonatal_critical_care">DISCHARGE DESTINATION FROM NEONATAL CRITICAL CARE</xref>
+ is recorded as National Code 
+    <i>'Transferred to a</i>
+      <i>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_hospital_site">Hospital Site</xref>
+      </i>
+      <i> of another</i>
+      <i>
+         <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+     </i>
+      <i>for further care'</i>
+, for the purposes of the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_neonatal_data_set_-_episodic_and_daily_care">National Neonatal Data Set - Episodic and Daily Care</xref>
+.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

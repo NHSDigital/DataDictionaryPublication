@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_emergency_care_department_type__patient_level_information_costing_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: EMERGENCY CARE DEPARTMENT TYPE (PATIENT LEVEL INFORMATION COSTING) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+
+  <p>
+Emergency departments are a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ led 24 hour service with full resuscitation facilities and designated accommodation for the reception of accident and emergency 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <p>
+Consultant led mono specialty accident and emergency service (e.g. ophthalmology, dental) with designated accommodation for the reception of 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <p>
+Other type of A&amp;E/minor injury 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ with designated accommodation for the reception of accident and emergency 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+. The department may be doctor led or 
+    <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ led and treats at least minor injuries and illnesses and can be routinely accessed without 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+. A 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ mainly or entirely 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ based (for example a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_gp_practice">GP Practice</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+) is excluded even though it may treat a number of 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with minor illness or injury. Excludes NHS walk-in centres  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>NHS walk in centres</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_nhs_continuing_healthcare_assessment_conversion_rate.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: NHS CONTINUING HEALTHCARE ASSESSMENT CONVERSION RATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n3</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_nhs_continuing_healthcare_assessment_conversion_rate">NHS CONTINUING HEALTHCARE ASSESSMENT CONVERSION RATE</xref>
+ is the total number of cases assessed as eligible for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+ in the 
+    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+, as a percentage of the total number of cases assessed in the 
+    <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_nhs_continuing_healthcare_assessment_conversion_rate">NHS CONTINUING HEALTHCARE ASSESSMENT CONVERSION RATE</xref>
+ is derived from 
+    <xref outputclass="element"
+            keyref="element_persons_newly_eligible_for_nhs_continuing_healthcare">PERSONS NEWLY ELIGIBLE FOR NHS CONTINUING HEALTHCARE</xref>
+ and 
+    <xref outputclass="element"
+            keyref="element_persons_assessed_for_nhs_continuing_healthcare">PERSONS ASSESSED FOR NHS CONTINUING HEALTHCARE</xref>
+.  </p>
+
+
+  </body>
+</topic>

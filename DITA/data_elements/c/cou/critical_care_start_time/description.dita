@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_critical_care_start_time.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CRITICAL CARE START TIME - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an8 HH:MM:SS</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_critical_care_start_time">CRITICAL CARE START TIME</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_time">ACTIVITY TIME</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_time_type">ACTIVITY TIME TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_start_time">Start Time</xref>
+'    </i>
+ for the 
+    <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+.  </p>
+
+
+  </body>
+</topic>

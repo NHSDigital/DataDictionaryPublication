@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_invasive_breast_cancer_total_expected.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: INVASIVE BREAST CANCER TOTAL EXPECTED - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n3</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_total_expected">INVASIVE BREAST CANCER TOTAL EXPECTED</xref>
+ is derived from the 
+    <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_total_observed">INVASIVE BREAST CANCER TOTAL OBSERVED</xref>
+ and a predefined incidence rate (calculated every three years).  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_invasive_breast_cancer_total_expected">INVASIVE BREAST CANCER TOTAL EXPECTED</xref>
+ should only be reported in Table A, B and C1 in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_nhs_breast_screening_programme_central_return_data_set__kc62_">NHS Breast Screening Programme Central Return Data Set (KC62)</xref>
+.  </p>
+
+
+  </body>
+</topic>

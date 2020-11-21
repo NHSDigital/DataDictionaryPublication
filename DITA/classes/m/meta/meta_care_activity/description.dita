@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_meta_care_activity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: META CARE ACTIVITY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>This is a meta model class.</p>
+  <p>
+A type of 
+    <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
+.  </p>
+  <p>
+An activity can be concerned with the assessment (e.g. weigh patient, assess housing needs), diagnosis, treatment or care of a 
+    <xref outputclass="class" keyref="class_meta_patient">META PATIENT</xref>
+, or that supports the provision of care (request analysis of sample, recall patient) to a subject of care (e.g. 
+    <xref outputclass="class" keyref="class_meta_patient">META PATIENT</xref>
+).  </p>
+  <p>
+Examples of a 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITY</xref>
+ include:
+  </p>
+  <p>
+   
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>
+  </p>
+  <p>
+   
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_theatre_case">Theatre Case</xref>
+  </p>
+  <p>
+   
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+  </p>
+  <p>
+Each 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITY</xref>
+ may have one or more states which are identified by specific 
+    <xref outputclass="class" keyref="class_meta_change_activity_state">META CHANGE ACTIVITY STATE</xref>
+. Each state represents an instance of an event for the 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITY</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITY</xref>
+ may be broken down into a related series of subordinate 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITIES</xref>
+ all of which must be related to the owning 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITY</xref>
+. Each subordinate 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITY</xref>
+ may be further broken down into a related series of subordinate 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITIES</xref>
+ and so on and so on.  </p>
+  <p>
+For example, a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ could involve several 
+    <xref outputclass="businessDefinition" keyref="business_definition_ward_stay">Ward Stays</xref>
+, 
+    <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTIONS</xref>
+ or required activities such as x-rays to be carried out at different times during the period of the spell. Each of these 
+    <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTIONS</xref>
+ or activities are themselves 
+    <xref outputclass="class" keyref="class_meta_care_activity">META CARE ACTIVITIES</xref>
+ each of which can be separately scheduled and provided in the same way as the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ itself.  </p>
+
+</body>
+</topic>

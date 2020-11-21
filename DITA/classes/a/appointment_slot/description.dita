@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_appointment_slot.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: APPOINTMENT SLOT - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A period of time within a 
+    <xref outputclass="class" keyref="class_session">SESSION</xref>
+ for one or more 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
+ with a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+.  </p>
+  <p>
+      <xref outputclass="class" keyref="class_appointment_slot">APPOINTMENT SLOTS</xref>
+ may be of variable length e.g. to accommodate new 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+, and may be allocated more than once, if the original 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ is cancelled.  </p>
+  <p>
+An 
+    <xref outputclass="class" keyref="class_appointment_slot">APPOINTMENT SLOT</xref>
+ can be allocated to one or more 
+    <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
+ until an offer is accepted by, or on behalf of a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+When an 
+    <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
+ is accepted by, or on behalf of a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ the 
+    <xref outputclass="class" keyref="class_appointment_slot">APPOINTMENT SLOT</xref>
+ becomes booked and may become unavailable for any other offered 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ to which it was allocated.  </p>
+
+</body>
+</topic>

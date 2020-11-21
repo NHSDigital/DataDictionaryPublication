@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_activity_group.relationships'>
+  <title>Relationships</title>
+  <titlealts>
+    <searchtitle>Class: ACTIVITY GROUP - Relationships</searchtitle>
+  </titlealts>
+  <body>
+    <p>Each ACTIVITY GROUP</p>
+    <simpletable relcolwidth='1* 5* 5*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Key</stentry>
+        <stentry>Relationship</stentry>
+        <stentry>Class</stentry>
+      </sthead>
+      <strow>
+        <stentry />
+        <stentry>must be punctuated by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_activity_suspension' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be classified by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_administrative_category_period' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the originator for one and only one </stentry>
+        <stentry>
+          <xref keyref='class_care_plan' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be initiated by one and only one </stentry>
+        <stentry>
+          <xref keyref='class_decision_to_admit' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be initiated by  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_elective_admission_list_entry' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be the result of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_elective_admission_list_entry' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be punctuated by  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_leave' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be classified by  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_local_sub-specialty' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be subject to one or more </stentry>
+        <stentry>
+          <xref keyref='class_lodged_patient' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be result in one or more </stentry>
+        <stentry>
+          <xref keyref='class_patient_clinical_trial_status' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>may be the context for one or more </stentry>
+        <stentry>
+          <xref keyref='class_person_property' outputclass='class' />
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
+        <stentry>must be classified by  one and only one </stentry>
+        <stentry>
+          <xref keyref='class_person_property_assignment_period' outputclass='class' />
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

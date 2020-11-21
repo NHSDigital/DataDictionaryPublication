@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cancer_faster_diagnosis_pathway_end_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CANCER FASTER DIAGNOSIS PATHWAY END DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_faster_diagnosis_pathway_end_date">CANCER FASTER DIAGNOSIS PATHWAY END DATE</xref>
+ is the same as 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+, where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition" keyref="business_definition_end_date">End Date</xref>
+'    </i>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_cancer_faster_diagnosis_pathway_end_date">CANCER FASTER DIAGNOSIS PATHWAY END DATE</xref>
+ is either the date when the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+is informed of the 
+                <xref outputclass="attribute"
+                     keyref="attribute_cancer_faster_diagnosis_pathway_end_reason">CANCER FASTER DIAGNOSIS PATHWAY END REASON</xref>
+, where the National Code is either 
+                <i>'Diagnosis of cancer'</i>
+ or 
+                <i>'Ruling out of cancer'</i>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+is excluded from the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_cancer_faster_diagnosis_pathway">Cancer Faster Diagnosis Pathway</xref>
+, where the 
+                <xref outputclass="attribute"
+                     keyref="attribute_cancer_faster_diagnosis_pathway_end_reason">CANCER FASTER DIAGNOSIS PATHWAY END REASON</xref>
+ is National Code is 
+                <i>
+'Excluded from the 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_cancer_faster_diagnosis_pathway">Cancer Faster Diagnosis Pathway</xref>
+'          </i>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+Note: where a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_decision_to_treat">Decision To Treat</xref>
+ is made before the 
+    <xref outputclass="attribute"
+            keyref="attribute_cancer_faster_diagnosis_pathway_end_reason">CANCER FASTER DIAGNOSIS PATHWAY END REASON</xref>
+ is recorded
+    <i>, </i>
+then the end of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_cancer_faster_diagnosis_pathway">Cancer Faster Diagnosis Pathway</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_decision_to_treat_date">DECISION TO TREAT DATE</xref>
+.  </p>
+
+
+  </body>
+</topic>

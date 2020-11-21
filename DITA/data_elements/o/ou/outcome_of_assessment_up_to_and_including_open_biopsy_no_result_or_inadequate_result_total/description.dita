@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_outcome_of_assessment_up_to_and_including_open_biopsy_no_result_or_inadequate_result_total.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: OUTCOME OF ASSESSMENT UP TO AND INCLUDING OPEN BIOPSY NO RESULT OR INADEQUATE RESULT TOTAL - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n4</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_outcome_of_assessment_up_to_and_including_open_biopsy_no_result_or_inadequate_result_total">OUTCOME OF ASSESSMENT UP TO AND INCLUDING OPEN BIOPSY NO RESULT OR INADEQUATE RESULT TOTAL</xref>
+ is the total number of women who have a 
+    <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
+ for 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+ with a 
+    <xref outputclass="attribute"
+            keyref="attribute_pathology_investigation_type_for_breast_screening">PATHOLOGY INVESTIGATION TYPE FOR BREAST SCREENING</xref>
+ recorded as National Code  
+    <i>'Diagnostic Surgery for Histology (Open Biopsy)'.</i>
+  </p>
+  <p>
+These women have a 
+    <xref outputclass="attribute"
+            keyref="attribute_breast_biopsy_referral_outcome">BREAST BIOPSY REFERRAL OUTCOME</xref>
+ National Code of 
+    <i>'Inconclusive'</i>
+ or 
+    <i>'Biopsy not done or result not yet known'</i>
+ recorded within 6 months of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_breast_screening_programme">Breast Screening</xref>
+ date.  </p>
+
+
+  </body>
+</topic>

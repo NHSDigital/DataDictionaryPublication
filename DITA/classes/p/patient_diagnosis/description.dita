@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_patient_diagnosis.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: PATIENT DIAGNOSIS - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A subtype of 
+    <xref outputclass="class" keyref="class_person_property">PERSON PROPERTY</xref>
+.  </p>
+  <p>
+Diagnostic observations recorded about a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>Note:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+A 
+                <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+ should be classified, where possible, using 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+                     scope="external"
+                     format="html">International_Classification_of_Diseases_(ICD)</xref>
+ or other classification codes approved centrally for mapping to 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+                     scope="external"
+                     format="html">International_Classification_of_Diseases_(ICD)</xref>
+ codes.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/read_coded_clinical_terms.asp"
+                  scope="external"
+                  format="html">Read_Coded_Clinical_Terms</xref>
+            <p>
+ or 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/snomed_ct.asp"
+                     scope="external"
+                     format="html">SNOMED_CT</xref>
+ can be used in addition to 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+                     scope="external"
+                     format="html">International_Classification_of_Diseases_(ICD)</xref>
+ codes for 
+                <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
+. However 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/read_coded_clinical_terms.asp"
+                     scope="external"
+                     format="html">Read_Coded_Clinical_Terms</xref>
+ are not accepted for the purposes of central 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+ data, where 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/clinical_coding/international_classification_of_diseases_(icd).asp"
+                     scope="external"
+                     format="html">International_Classification_of_Diseases_(ICD)</xref>
+ is mandatory.        </p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_emergency_care_department_type.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: EMERGENCY CARE DEPARTMENT TYPE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>
+
+  <p>
+Emergency departments are a 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ led 24 hour service with full resuscitation facilities and designated accommodation for the reception of accident and emergency 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <p>
+Consultant led mono specialty accident and emergency service (e.g. ophthalmology, dental) with designated accommodation for the reception of 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+   </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <p>
+Other type of A&amp;E/minor injury 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ with designated accommodation for the reception of accident and emergency 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+. The department may be doctor led or 
+    <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ led and treats at least minor injuries and illnesses and can be routinely accessed without 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+. A 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ mainly or entirely 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ based (for example a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_gp_practice">GP Practice</xref>
+ or 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+) is excluded even though it may treat a number of 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with minor illness or injury. Excludes NHS walk-in centres  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>NHS walk in centres</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+
+  <p>
+Ambulatory Emergency Care Service. Note this is 
+    <b>only</b>
+ valid for piloting purposes in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
+ / 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>
+ and must not be submitted in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_cds_v6-2_type_010_-_accident_and_emergency_cds">CDS V6-2 Type 010 - Accident and Emergency Commissioning Data Set</xref>
+ or the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/messages/supporting_data_sets/data_sets/patient_level_information_costing_system_acute_data_set/patient_level_information_costing_system_acute_data_set_-_emergency_care.asp"
+            scope="external"
+            format="html">Patient_Level_Information_Costing_System_Acute_Data_Set_-_Emergency_Care</xref>
+.  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

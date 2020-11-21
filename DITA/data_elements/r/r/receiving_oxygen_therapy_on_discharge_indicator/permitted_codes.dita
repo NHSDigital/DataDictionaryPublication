@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_receiving_oxygen_therapy_on_discharge_indicator.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: RECEIVING OXYGEN THERAPY ON DISCHARGE INDICATOR - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ receiving 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_oxygen_therapy">Oxygen Therapy</xref>
+ on discharge  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+  <p>
+ not receiving 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_oxygen_therapy">Oxygen Therapy</xref>
+ on discharge  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

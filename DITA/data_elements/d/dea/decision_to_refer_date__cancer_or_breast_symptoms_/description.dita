@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_decision_to_refer_date__cancer_or_breast_symptoms_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: DECISION TO REFER DATE (CANCER OR BREAST SYMPTOMS) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_decision_to_refer_date__cancer_or_breast_symptoms_">DECISION TO REFER DATE (CANCER OR BREAST SYMPTOMS)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_decision_to_refer_date">DECISION TO REFER DATE</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_decision_to_refer_date__cancer_or_breast_symptoms_">DECISION TO REFER DATE (CANCER OR BREAST SYMPTOMS)</xref>
+ is the date on which:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+a 
+                <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
+, 
+                <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>
+ or 
+                <xref outputclass="class" keyref="class_optometrist">OPTOMETRIST</xref>
+ decides to refer a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ urgently to secondary care with suspected cancer        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+any 
+                <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ decides to make a referral to secondary care for breast symptoms where cancer is not suspected        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_screening_service">Screening Service</xref>
+ decides to urgently refer a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ with suspected cancer        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_consultant_upgrade">Consultant Upgrade</xref>
+ takes place.        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_activity_location_type_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: ACTIVITY LOCATION TYPE CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The type of 
+    <xref outputclass="class" keyref="class_location">LOCATION</xref>
+ for an 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+where 
+                <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ are seen        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+where 
+                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ are provided or        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+from which requests for 
+                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ are sent.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>Notes:</p>
+  <ul>
+      <li>
+         <p>
+The following National Code is 
+            <b>only</b>
+ valid for the 
+            <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+, 
+            <xref outputclass="dataSet"
+                  keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+, 
+            <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+ and 
+            <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+. Users of other data sets must map National Code G04 locally to other appropriate 
+            <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODES</xref>
+ for the purposes of flowing data:      </p>
+         <ul>
+            <li>
+               <p>
+G04 
+                    <i>
+'Integrated 
+                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_care_home_without_nursing">Care Home Without Nursing</xref>
+ and 
+                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_care_home_with_nursing">Care Home With Nursing</xref>
+'            </i>
+               </p>
+            </li>
+         </ul>
+      </li>
+      <li>
+         <p>
+The following National Codes have been introduced for the 
+            <xref outputclass="dataSet"
+                  keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+ and 
+            <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+            <b>only</b>
+ to add further granularity to National Code M04 
+            <i>
+'
+              <xref outputclass="businessDefinition"
+                     keyref="business_definition_young_offender_institution">Young Offender Institution</xref>
+'        </i>
+. However, National Code M04 is still valid for the 
+            <xref outputclass="dataSet"
+                  keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+ and 
+            <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ where extra detail cannot be collected:      </p>
+         <ul>
+            <li>
+               <p>
+M06 
+                    <i>
+'
+                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_young_offender_institution__15-17_">Young Offender Institution (15-17)</xref>
+'            </i>
+               </p>
+            </li>
+            <li>
+               <p>
+M07 
+                    <i>
+'
+                      <xref outputclass="businessDefinition"
+                           keyref="business_definition_young_offender_institution__18-21_">Young Offender Institution (18-21)</xref>
+'.            </i>
+               </p>
+            </li>
+         </ul>
+      </li>
+  </ul>
+  <p>
+      <b>
+Further information on the groupings and scope of each 
+      <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
+ is provided at: 
+      <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_information/activity_location_type_codes.asp"
+               scope="external"
+               format="html">Activity_Location_Type_Codes</xref>
+.    </b>
+  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

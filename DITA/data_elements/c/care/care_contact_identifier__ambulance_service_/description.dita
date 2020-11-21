@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_care_contact_identifier__ambulance_service_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CARE CONTACT IDENTIFIER (AMBULANCE SERVICE) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an20</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_contact_identifier__ambulance_service_">CARE CONTACT IDENTIFIER (AMBULANCE SERVICE)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_activity_identifier">ACTIVITY IDENTIFIER</xref>
+ for a 
+    <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
+ allocated by the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ambulance_service">Ambulance Service</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_care_contact_identifier__ambulance_service_">CARE CONTACT IDENTIFIER (AMBULANCE SERVICE)</xref>
+ is an identifier allocated to each 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ambulance_incident">Ambulance Incident</xref>
+ for each 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ can have more than one 
+    <xref outputclass="element"
+            keyref="element_care_contact_identifier__ambulance_service_">CARE CONTACT IDENTIFIER (AMBULANCE SERVICE)</xref>
+ if the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is treated more than once in separate 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ambulance_incident">Ambulance Incidents</xref>
+.  </p>
+
+
+  </body>
+</topic>

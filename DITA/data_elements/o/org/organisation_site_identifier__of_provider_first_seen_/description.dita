@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_organisation_site_identifier__of_provider_first_seen_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>min an5 max an9</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
+ of the 
+    <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITE</xref>
+ of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ at the first contact with the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>
+ this may be the:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_imaging_or_radiodiagnostic_event">Imaging or Radiodiagnostic Event</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTION</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+            <p>or</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_screening_test">Screening Test</xref>
+         </div>
+      </li>
+  </ul>
+  <p>
+whichever is the earlier 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ related to the initial 
+    <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>
+ may be the same 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ as for 
+    <xref outputclass="element"
+            keyref="element_organisation_site_identifier__of_provider_first_cancer_specialist_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST CANCER SPECIALIST)</xref>
+ if the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was first seen by the appropriate specialist for cancer.  </p>
+
+
+  </body>
+</topic>

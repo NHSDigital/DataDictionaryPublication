@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_indirect_activity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Indirect Activity - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_indirect_activity">Indirect Activity</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_indirect_activity">Indirect Activity</xref>
+ is 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+, with the specific purpose of supporting the care of a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+, but where the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is not present.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_indirect_activity">Indirect Activity</xref>
+ may take place between a:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            <p>
+and another 
+                <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            <p>and another professional such as a teacher</p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            <p>
+and another 
+                <xref outputclass="class" keyref="class_person">PERSON</xref>
+, such as a family member or 
+                <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+, not acting in the capacity of a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_patient_proxy">Patient Proxy</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+Examples of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_indirect_activity">Indirect Activity</xref>
+ include a:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            <p>
+ seeking advice from another 
+                <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ regarding the treatment or diagnosis of a specific 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            <p>
+providing training to a teacher to support the medical needs of a specific 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            <p>
+discussing the care of a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ with another 
+                <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ as part of a 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+, where the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is not present        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+            <p>
+providing training or advice to a family member or a 
+                <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ to support the medical needs of a specific 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_indirect_activity">Indirect Activity</xref>
+ does not include discussions regarding groups of 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ or other administrative activities such as writing up of notes or travel.  </p>
+  <p>
+Note: For the 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+, contacts between a 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ and a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+ should be captured as a 
+    <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
+ with the 
+    <xref outputclass="attribute" keyref="attribute_care_contact_subject">CARE CONTACT SUBJECT</xref>
+ set to '
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_patient_proxy">Patient Proxy</xref>
+'.  </p>
+
+</body>
+</topic>

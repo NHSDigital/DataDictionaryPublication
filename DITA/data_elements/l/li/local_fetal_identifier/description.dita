@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_local_fetal_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: LOCAL FETAL IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max an36</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_local_fetal_identifier">LOCAL FETAL IDENTIFIER</xref>
+ is a unique identifier allocated to each Fetus (unborn baby) in a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_fetus_episode">Fetus Episode</xref>
+ within the current 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_maternity_episode">Maternity Episode</xref>
+.  </p>
+
+
+  </body>
+</topic>

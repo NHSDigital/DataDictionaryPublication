@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_person_height_in_metres.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PERSON HEIGHT IN METRES - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>n1.max n2</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_person_height_in_metres">PERSON HEIGHT IN METRES</xref>
+ is the result of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+ which measures the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s 
+    <xref outputclass="businessDefinition" keyref="business_definition_height">Height</xref>
+, where the 
+    <xref outputclass="attribute" keyref="attribute_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+ is 
+    <i>'Metres (m)'</i>
+.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet"
+            keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
+, 
+    <xref outputclass="element" keyref="element_person_height_in_metres">PERSON HEIGHT IN METRES</xref>
+ is the 
+    <xref outputclass="businessDefinition" keyref="business_definition_height">Height</xref>
+ at the start of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>
+.  </p>
+
+
+  </body>
+</topic>

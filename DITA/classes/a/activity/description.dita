@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='class_activity.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Class: ACTIVITY - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ is a provision of 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ to a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ by one or more 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ may be either an 
+    <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+ or a 
+    <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+. An 
+    <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+ may include a series of one or more 
+    <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITIES</xref>
+.  </p>
+  <p>
+Subtypes of 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ are:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
+            <p>.</p>
+         </div>
+      </li>
+  </ul>
+
+</body>
+</topic>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_accident_and_emergency_attendance_conclusion_time.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Accident and Emergency Attendance Conclusion Time - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_attendance_conclusion_time">Accident and Emergency Attendance Conclusion Time</xref>
+ is an 
+    <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_accident_and_emergency_attendance_conclusion_time">Accident and Emergency Attendance Conclusion Time</xref>
+ is the time, recorded using a 24 hour clock:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+that a 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ concludes or        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+when treatment in an 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+ is completed (whichever is the later).        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+For those 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ admitted into hospital, the 
+    <xref outputclass="element"
+            keyref="element_a_and_e_attendance_conclusion_time">A and E ATTENDANCE CONCLUSION TIME</xref>
+ is recorded as the time when the 
+    <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ was made.  </p>
+
+</body>
+</topic>

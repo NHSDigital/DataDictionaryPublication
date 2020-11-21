@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_care_professional_operating_surgeon_type__cancer_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CARE PROFESSIONAL OPERATING SURGEON TYPE (CANCER) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>NU</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>TS</stentry>
+        <stentry>Trainee Specialist Doctor</stentry>
+      </strow>
+      <strow>
+        <stentry>CS</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+  <p> Surgeon (other than Plastic Surgeon)</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>CD</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+  <p> Dermatologist</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>CPS</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+  <p> Plastic Surgeon</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>HP</stentry>
+        <stentry>Hospital Practitioner</stentry>
+      </strow>
+      <strow>
+        <stentry>SI</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>GP</stentry>
+        <stentry>
+
+  <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>OO</stentry>
+        <stentry>
+
+  <p>
+Other 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ (not listed)  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

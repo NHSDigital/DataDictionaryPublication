@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_nurse_or_midwife_contact.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Nurse or Midwife Contact - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nurse_or_midwife_contact">Nurse or Midwife Contact</xref>
+ is a 
+    <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nurse_or_midwife_contact">Nurse or Midwife Contact</xref>
+ is a contact, attendance or visit as defined in each of the following:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_clinic_attendance_midwife">Clinic Attendance Midwife</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_clinic_attendance_nurse">Clinic Attendance Nurse</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_maternity_domiciliary_visit">Maternity Domiciliary Visit</xref>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_sexual_and_reproductive_health_domiciliary_visit">Sexual and Reproductive Health Domiciliary Visit</xref>
+         </div>
+      </li>
+      <li>
+         <xref outputclass="businessDefinition"
+               keyref="business_definition_ward_attendance">Ward Attendance</xref>
+         <p> </p>
+      </li>
+  </ul>
+  <p>
+There must be only one 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nurse_or_midwife_contact">Nurse or Midwife Contact</xref>
+ recorded for a face to face contact, whether it is at a clinic or any other location at one 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_health_care_provider">Health Care Provider</xref>
+.  </p>
+  <p>
+There must be only one responsible 
+    <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ or 
+    <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+ for each 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nurse_or_midwife_contact">Nurse or Midwife Contact</xref>
+.  </p>
+  <p>
+Nursing contacts may be made either by qualified 
+    <xref outputclass="class" keyref="class_nurse">NURSES</xref>
+ or by community support workers (nursing).  </p>
+  <p>
+A 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_nurse_or_midwife_contact">Nurse or Midwife Contact</xref>
+ may be made by one of the 
+    <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ types classified in 
+    <xref outputclass="attribute retired"
+            keyref="attribute_care_professional_group_type">CARE PROFESSIONAL GROUP TYPE</xref>
+.  </p>
+
+</body>
+</topic>

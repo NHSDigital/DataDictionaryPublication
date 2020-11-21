@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_professional_registration_issuer_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: PROFESSIONAL REGISTRATION ISSUER CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an2</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_professional_registration_issuer_code">PROFESSIONAL REGISTRATION ISSUER CODE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute"
+            keyref="attribute_professional_registration_body_code">PROFESSIONAL REGISTRATION BODY CODE</xref>
+ but only the following National Codes are permitted:  </p>
+  <p>Notes:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+National Code 04 
+                <i>
+'
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_general_optical_council">General Optical Council</xref>
+'          </i>
+ is only valid for 
+                <xref outputclass="dataSet"
+                     keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>
+ and must not be submitted in other 
+                <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_version_6-2_type_list.asp"
+                     scope="external"
+                     format="html">Commissioning Data Set</xref>
+ versions.        </p>
+         </div>
+      </li>
+  </ul>
+  <code>TermServer</code>
+
+
+  </body>
+</topic>

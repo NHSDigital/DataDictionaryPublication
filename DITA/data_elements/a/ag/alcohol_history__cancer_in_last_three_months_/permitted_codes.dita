@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_alcohol_history__cancer_in_last_three_months_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: ALCOHOL HISTORY (CANCER IN LAST THREE MONTHS) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>Heavy (greater than 14 Units per week)</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>Light (less than or equal to 14 Units per week)</stentry>
+      </strow>
+      <strow>
+        <stentry>3</stentry>
+        <stentry>None in this period</stentry>
+      </strow>
+      <strow>
+        <stentry>Z</stentry>
+        <stentry>
+
+  <p>
+Not Stated (
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ asked but declined to provide a response)  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

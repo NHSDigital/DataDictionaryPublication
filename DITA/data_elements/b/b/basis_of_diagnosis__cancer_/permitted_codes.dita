@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_basis_of_diagnosis__cancer_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: BASIS OF DIAGNOSIS (CANCER) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>0</stentry>
+        <stentry>Death Certificate: The only information available is from a death certificate</stentry>
+      </strow>
+      <strow>
+        <stentry>1</stentry>
+        <stentry>Clinical: Diagnosis made before death but without the benefit of any of the following (2-7)</stentry>
+      </strow>
+      <strow>
+        <stentry>2</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+  <p>:
+</p>
+  <p>
+Includes all diagnostic techniques (e.g. X-rays, 
+    <xref outputclass="businessDefinition" keyref="business_definition_endoscopy">Endoscopy</xref>
+, imaging, 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_ultrasound_scan">Ultrasound Scan</xref>
+, exploratory surgery and autopsy) without a 
+    <xref outputclass="class" keyref="class_tissue">TISSUE</xref>
+ diagnosis  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>4</stentry>
+        <stentry>
+
+  <p>
+Specific 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ markers:
+  </p>
+  <p>
+Includes biochemical and/or immunological markers which are specific for a 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ site  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>5</stentry>
+        <stentry>
+
+  <p>Cytology:
+</p>
+  <p>
+Examination of 
+    <xref outputclass="class" keyref="class_cell">CELLS</xref>
+ whether from a primary or secondary site, including fluids aspirated using endoscopes or needles. Also including microscopic examination of peripheral blood films and trephine bone marrow aspirates  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>6</stentry>
+        <stentry>
+
+  <p>Histology of a metastasis:
+</p>
+  <p>
+Histological examination of 
+    <xref outputclass="class" keyref="class_tissue">TISSUES</xref>
+ from a metastasis, including autopsy specimens  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>7</stentry>
+        <stentry>
+
+  <p>
+Histology of a primary 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+:
+  </p>
+  <p>
+Histological examination of 
+    <xref outputclass="class" keyref="class_tissue">TISSUE</xref>
+ from the primary 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+, however obtained, including all cutting and bone marrow 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsies</xref>
+. Also includes autopsy specimens of a primary 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>9</stentry>
+        <stentry>Unknown: No information on how the diagnosis has been made (e.g. Patient Administration System (PAS) /Hospital Information Support System (HISS) record only)</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

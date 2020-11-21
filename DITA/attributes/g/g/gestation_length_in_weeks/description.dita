@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_gestation_length_in_weeks.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: GESTATION LENGTH IN WEEKS - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>This is the number of weeks completed gestation, based upon an average 40 week gestation, which may be derived from:</p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry>
+            <p>a)</p>
+         </stentry>
+         <stentry>
+            <p>
+estimated date of delivery calculated by 
+                  <xref outputclass="businessDefinition"
+                     keyref="business_definition_ultrasound_scan">Ultrasound Scan</xref>
+ measurements according to the trimester of the scan        </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>b)</p>
+         </stentry>
+         <stentry>
+            <p>estimated date of delivery measured from the first day of last menstrual period (LMP)</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>c)</p>
+         </stentry>
+         <stentry>
+            <p>clinical assessment (in the absence of a or b) - antenatally for Maternity, postnatally for Neonatal</p>
+         </stentry>
+      </strow>
+  </simpletable>
+  <p>The gestational age should be recorded in completed weeks: e.g. events occurring 280-286 days after the onset of the last menstrual period are considered to have occurred at 40 weeks gestation.</p>
+
+</body>
+</topic>

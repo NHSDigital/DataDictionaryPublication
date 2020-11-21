@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_obstetric_diagnosis.where_used'>
+  <title>Where Used</title>
+  <titlealts>
+    <searchtitle>Attribute: OBSTETRIC DIAGNOSIS - Where Used</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 3* 2*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Type</stentry>
+        <stentry>Link</stentry>
+        <stentry>How used</stentry>
+      </sthead>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_patient_diagnosis' outputclass='class' />
+        </stentry>
+        <stentry>has an attribute OBSTETRIC DIAGNOSIS of type OBSTETRIC DIAGNOSIS</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_maternity_obstetric_diagnosis_type__current_pregnancy_' outputclass='element' />
+        </stentry>
+        <stentry>is the data element of OBSTETRIC DIAGNOSIS</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_maternity_obstetric_diagnosis_type__current_pregnancy_' outputclass='element' />
+        </stentry>
+        <stentry>references in description OBSTETRIC DIAGNOSIS</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_gumcad_sexually_transmitted_infection_surveillance_system_data_set.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: GUMCAD Sexually Transmitted Infection Surveillance System Data Set - Overview</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+      <b>Contextual Overview</b>
+  </p>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_gumcad_sexually_transmitted_infection_surveillance_system_data_set">GUMCAD Sexually Transmitted Infection Surveillance System Data Set</xref>
+ provides essential public health information about Sexually Transmitted Infection (STI) diagnoses, treatments and 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ provided by 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_level_3_genitourinary_medicine_service">Level 3 Genitourinary Medicine Services</xref>
+ and commissioned 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_level_2_sexual_health_service">Level 2 Sexual Health Services</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="dataSet"
+            keyref="dataset_gumcad_sexually_transmitted_infection_surveillance_system_data_set">GUMCAD Sexually Transmitted Infection Surveillance System Data Set</xref>
+ is used:  </p>
+  <ul>
+      <li>
+         <p>To inform public health response and policy formulation for England</p>
+      </li>
+      <li>
+         <p>To monitor the effectiveness of the policies introduced as part of the National Strategy for Sexual Health and Human Immunodeficiency Virus (HIV)</p>
+      </li>
+      <li>
+         <p>
+For performance management at local and national level to ensure delivery of the national Public Service Agreement target on 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_sexual_health_service">Sexual Health Services</xref>
+         </p>
+      </li>
+      <li>
+         <p>
+For better planning and management of 
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_sexual_health_service">Sexual Health Services</xref>
+ at local level      </p>
+      </li>
+      <li>
+         <p>To adapt and refine clinical interventions, as appropriate</p>
+      </li>
+  </ul>
+  <p>
+      <b>DATA EXTRACT SPECIFICATION</b>
+  </p>
+  <p>
+      <b>Description:</b>
+  </p>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ require 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sexual_health_service">Sexual Health Services</xref>
+ to generate and provide a data extract in accordance with the 
+    <xref outputclass="dataSet"
+            keyref="dataset_gumcad_sexually_transmitted_infection_surveillance_system_data_set">GUMCAD Sexually Transmitted Infection Surveillance System Data Set</xref>
+. These 
+    <xref outputclass="class" keyref="class_service">SERVICES</xref>
+ include:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+NHS providers of specialised 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_level_3_genitourinary_medicine_service">Level 3 Genitourinary Medicine Services</xref>
+, where the primary function of the specialist clinical multidisciplinary team is concerned with the provision of screening, diagnosis and management of Sexually Transmitted Infections and related genital medical conditions.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+All 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_level_2_sexual_health_service">Level 2 Sexual Health Services</xref>
+ commissioned by the NHS who offer testing, diagnostic and/or treatment of Sexually Transmitted Infections.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+It should be noted that 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioners with Extended Roles</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>
+s) will only be included if they operate from a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+ that has been commissioned to provide a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_level_2_sexual_health_service">Level 2 Sexual Health Service</xref>
+.  </p>
+  <p>
+      <b>Time period:</b>
+ The extract must cover one calendar quarter.  </p>
+  <p>
+      <b>Frequency:</b>
+ Reports must be run quarterly, 6 weeks after the end of the quarter.  </p>
+  <p>
+      <b>Format:</b>
+ Data returned must be formatted into a single comma separated variable (csv) file. The data elements should be transmitted in the order specified in the 
+    <xref outputclass="dataSet"
+            keyref="dataset_gumcad_sexually_transmitted_infection_surveillance_system_data_set">GUMCAD Sexually Transmitted Infection Surveillance System Data Set</xref>
+.  </p>
+  <p>
+      <b>Transmission:</b>
+ Electronic files must be transmitted to 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ through a secure web portal on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ website. This web portal enables 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ to submit data files in a secure manner to the HIV and STI Department of 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+.  The web portal can be found at 
+    <xref href="https://hivstiwebportal.phe.org.uk/login.aspx"
+            scope="external"
+            format="html">HIV &amp; STI web portal.</xref>
+  </p>
+  <p>
+Connection to the web portal requires a login account name and password at 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+. Please contact 
+    <xref href="mailto:gumcad@hpa.org.uk" scope="external" format="html">gumcad@phe.org.uk</xref>
+ for access or more information.  </p>
+  <p>
+Further guidance on the 
+    <xref outputclass="dataSet"
+            keyref="dataset_gumcad_sexually_transmitted_infection_surveillance_system_data_set">GUMCAD Sexually Transmitted Infection Surveillance System Data Set</xref>
+ can be found on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_public_health_england">Public Health England</xref>
+ part of the gov.uk website at: 
+    <xref href="https://www.gov.uk/government/collections/sexually-transmitted-infections-stis-surveillance-data-screening-and-management"
+            scope="external"
+            format="html">STI Surveillance, data, screening and management.</xref>
+  </p>
+
+</body>
+</topic>

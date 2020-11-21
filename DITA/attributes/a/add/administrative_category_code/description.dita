@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_administrative_category_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: ADMINISTRATIVE CATEGORY CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+This is recorded for 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+      <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+.  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ who is an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+ does not qualify for free NHS healthcare and can choose to pay for NHS treatment or for private treatment. If they pay for NHS treatment then they should be recorded as NHS 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s 
+    <xref outputclass="attribute" keyref="attribute_administrative_category_code">ADMINISTRATIVE CATEGORY CODE</xref>
+ may change during an episode or spell. For example, the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may opt to change from NHS to private health care. In this case, the start and end dates for each new 
+    <xref outputclass="class" keyref="class_administrative_category_period">ADMINISTRATIVE CATEGORY PERIOD</xref>
+ (episode or spell) should be recorded.  </p>
+  <p>
+If the 
+    <xref outputclass="attribute" keyref="attribute_administrative_category_code">ADMINISTRATIVE CATEGORY CODE</xref>
+ changes during a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ the 
+    <xref outputclass="element"
+            keyref="element_administrative_category_code__on_admission_">ADMINISTRATIVE CATEGORY CODE (ON ADMISSION)</xref>
+ is used to derive the 'Category of 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+' for 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_episode_statistics">HES</xref>
+).  </p>
+  <p>
+The category 'amenity 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+' is only applicable to 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ using a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hospital_bed">Hospital Bed</xref>
+.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

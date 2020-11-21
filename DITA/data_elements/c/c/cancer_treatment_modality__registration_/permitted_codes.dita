@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cancer_treatment_modality__registration_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CANCER TREATMENT MODALITY (REGISTRATION) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>Surgery</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_anti-cancer_drug_regimen">Anti-Cancer Drug Regimen</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_cytotoxic_chemotherapy">Cytotoxic Chemotherapy</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_anti-cancer_drug_regimen">Anti-Cancer Drug Regimen</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_hormone_therapy">Hormone Therapy</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>04</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_chemoradiotherapy">Chemoradiotherapy</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>05</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_teletherapy">Teletherapy</xref>
+  <p>
+ (Beam Radiation excluding 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_proton_therapy">Proton Therapy</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_brachytherapy">Brachytherapy</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_specialist_palliative_care">Specialist Palliative Care</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>08</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_active_monitoring">Active Monitoring</xref>
+  <p>
+ (excluding 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_non-specialist_palliative_care">Non-Specialist Palliative Care</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>09</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_non-specialist_palliative_care">Non-Specialist Palliative Care</xref>
+  <p>
+ (excluding 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_active_monitoring">Active Monitoring</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>10</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_radiofrequency_ablation">Radiofrequency Ablation</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_radiofrequency_ablation">RFA</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>11</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_high_intensity_focused_ultrasound">High Intensity Focused Ultrasound</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_high_intensity_focused_ultrasound">HIFU</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>12</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_cryotherapy">Cryotherapy</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>13</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_proton_therapy">Proton Therapy</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>14</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_anti-cancer_drug_regimen">Anti-Cancer Drug Regimen</xref>
+  <p> (other)</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>15</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_anti-cancer_drug_regimen">Anti-Cancer Drug Regimen</xref>
+  <p>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_immunotherapy">Immunotherapy</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>16</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_light_therapy">Light Therapy</xref>
+  <p>
+ (including 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_photodynamic_therapy">Photodynamic Therapy</xref>
+ and 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_psoralen_and_ultraviolet_a_therapy">Psoralen and Ultraviolet A Therapy</xref>
+ (
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_psoralen_and_ultraviolet_a_therapy">PUVA</xref>
+))  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>17</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_hyperbaric_oxygen_therapy">Hyperbaric Oxygen Therapy</xref>
+
+</stentry>
+      </strow>
+      <strow outputclass='retired'>
+        <stentry>18</stentry>
+        <stentry>Other Treatment (Retired 1 July 2012)</stentry>
+      </strow>
+      <strow>
+        <stentry>19</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_radioisotope_therapy">Radioisotope Therapy</xref>
+  <p> (including Radioiodine)</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>20</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_laser_treatment">Laser Treatment</xref>
+  <p> (including Argon Beam therapy)</p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>21</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_biological_therapy">Biological Therapies</xref>
+  <p>
+ (excluding 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_immunotherapy">Immunotherapy</xref>
+)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>22</stentry>
+        <stentry>
+
+  <xref outputclass="businessDefinition"
+         keyref="business_definition_radiosurgery">Radiosurgery</xref>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>97</stentry>
+        <stentry>Other treatment (not listed)</stentry>
+      </strow>
+      <strow>
+        <stentry>98</stentry>
+        <stentry>All treatment declined</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

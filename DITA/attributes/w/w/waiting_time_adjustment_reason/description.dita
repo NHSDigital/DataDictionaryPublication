@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_waiting_time_adjustment_reason.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: WAITING TIME ADJUSTMENT REASON - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The prime reason for an adjustment to waiting time for the 
+    <xref outputclass="dataSet"
+            keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>
+.  </p>
+  <p>Where there is more than one adjustment applicable, this should be the reason for the longest adjustment.</p>
+  <p>Notes:</p>
+  <ul>
+      <li>
+         <div>
+            <p>
+Where there has been no adjustment to waiting time, National Code 
+                <i>'No adjustment to waiting time'</i>
+ should be used
+                <i>.</i>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+National Code 
+                <i>
+'Did Not Attend 
+                  <xref outputclass="businessDefinition"
+                        keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+'          </i>
+ is only to be used, where applicable, within 
+                <xref outputclass="element"
+                     keyref="element_waiting_time_adjustment_reason__first_seen_">WAITING TIME ADJUSTMENT REASON (FIRST SEEN)</xref>
+.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+National Code 
+                <i>'Patient pause'</i>
+ cannot be used within 
+                <xref outputclass="element"
+                     keyref="element_waiting_time_adjustment_reason__first_seen_">WAITING TIME ADJUSTMENT REASON (FIRST SEEN)</xref>
+ as a patient pause can only be applied in relation to an 
+                <xref outputclass="class" keyref="class_offer_of_admission">OFFER OF ADMISSION</xref>
+ for treatment.        </p>
+         </div>
+      </li>
+  </ul>
+  <code>TermServer</code>
+
+</body>
+</topic>

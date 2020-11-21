@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_gleason_grading_system.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Gleason Grading System - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_gleason_grading_system">Gleason Grading System</xref>
+ is a system for 
+    <xref outputclass="class" keyref="class_cancer_staging">CANCER STAGING</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_gleason_grading_system">Gleason Grading System</xref>
+ is used to help evaluate the prognosis of men with prostate cancer.  </p>
+  <p>
+A pathologist assigns a 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/attributes/g/gleason_grade_de.asp"
+            scope="external"
+            format="html">GLEASON_GRADE</xref>
+ to the most common 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ pattern in a 
+    <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>
+ specimen (Primary Grade) then the second most common (Secondary Grade). The grades are added together to give the Gleason Score.  </p>
+  <p>Sometimes pathologists will also give a grade to a third component of the specimen (Tertiary Grade) although this is recorded separately and is not added to the score.</p>
+  <p>
+For further information on the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_gleason_grading_system">Gleason Grading System</xref>
+, see the 
+    <xref href="https://www.cancer.gov/dictionary?CdrID=45696"
+            scope="external"
+            format="html">National Cancer Institute website</xref>
+.  </p>
+
+</body>
+</topic>

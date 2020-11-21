@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_cds_applicable_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CDS APPLICABLE DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_cds_applicable_date">CDS APPLICABLE DATE</xref>
+ is the date (with an associated 
+    <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
+) of the update event (or the nearest equivalent) that resulted in the need to exchange this Commissioning Data Set.  </p>
+  <p>
+      <b>Usage:</b>
+  </p>
+  <p>
+      <xref outputclass="element" keyref="element_cds_applicable_date">CDS APPLICABLE DATE</xref>
+ is mandatory when used with the Commissioning Data Set Net Change Update Mechanism. It is not required when the Commissioning Data Set Bulk Replacement Update Mechanism is used. See the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/cds_supporting_information/commissioning_data_set_submission_protocol.asp"
+            scope="external"
+            format="html">Commissioning Data Set Submission Protocol</xref>
+.  </p>
+  <p>
+The 
+    <xref outputclass="element" keyref="element_cds_applicable_date">CDS APPLICABLE DATE</xref>
+ (and the 
+    <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
+ if supplied) is stored in the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ database and in the event of multiple submissions of the same uniquely identified Commissioning data (even in separate interchanges).  </p>
+  <p>
+The 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.asp"
+            scope="external"
+            format="html">Secondary_Uses_Service</xref>
+ database update process is then able to use this date and time to ensure correct updating of the Commissioning data in the correct relative date/time sequence.  </p>
+
+
+  </body>
+</topic>

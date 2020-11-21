@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_health_visitor_first_antenatal_visit_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: HEALTH VISITOR FIRST ANTENATAL VISIT DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_health_visitor_first_antenatal_visit_date">HEALTH VISITOR FIRST ANTENATAL VISIT DATE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_care_contact_date">Care Contact Date</xref>
+      </i>
+ '.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_health_visitor_first_antenatal_visit_date">HEALTH VISITOR FIRST ANTENATAL VISIT DATE</xref>
+ is the date of the first antenatal 
+    <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
+ between the 
+    <xref href="http://www.datadictionary.nhs.uk/data_dictionary/nhs_business_definitions/s/specialist_community_public_health_nurse_colon__health_visitor_de.asp"
+            scope="external"
+            format="html">Health Visitor</xref>
+ and the pregnant 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+.  </p>
+
+
+  </body>
+</topic>

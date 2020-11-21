@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_operating_theatre_session.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Operating Theatre Session - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_operating_theatre_session">Operating Theatre Session</xref>
+ is a 
+    <xref outputclass="class" keyref="class_session">SESSION</xref>
+.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_operating_theatre_session">Operating Theatre Session</xref>
+ is a period of 
+    <xref outputclass="class" keyref="class_operating_theatre">OPERATING THEATRE</xref>
+ time allocated to one or more consultant firms (
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+).  </p>
+  <p>
+A 
+    <xref outputclass="class" keyref="class_session">SESSION</xref>
+ is either scheduled or unscheduled.  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+A scheduled session is when the allocation of time is made to one 
+                <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ whose firm is responsible for the utilisation of this session. It does not include time made available for an operation on a particular 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ unless the operation is included in a scheduled session as above and performed by a member of a consultant firm of the same 
+                <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
+ as that allocated to the session.        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+An unscheduled session is when an allocation of time is made available for one or more 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_theatre_case">Theatre Cases</xref>
+ in any circumstances outside a scheduled session as above. 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_theatre_case">Theatre Cases</xref>
+ in unscheduled sessions may be the responsibility of different 
+                <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_operating_theatre_session">Operating Theatre Session</xref>
+ may under/over-run the allocated time. The allocation, i.e. consultant firm, time and/or theatre may change by agreement any time before the session starts.  </p>
+  <p>
+An 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_operating_theatre_session">Operating Theatre Session</xref>
+ should be considered cancelled if the time slot allocation is not used to perform at least one operation.  </p>
+
+</body>
+</topic>

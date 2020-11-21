@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_patient_pathway_identifier.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: PATIENT PATHWAY IDENTIFIER - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+An identifier, which together with the 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ / 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+ of the issuer, uniquely identifies a 
+    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+.  </p>
+  <p>
+This is a specific type of the attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_identifier">ACTIVITY IDENTIFIER</xref>
+.  </p>
+  <p>
+Where a pathway is initiated by a 
+    <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ using the 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/choose_and_book.asp"
+            scope="external"
+            format="html">Choose_and_Book</xref>
+ system, the 
+    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+ will be uniquely identified by the Unique Booking Reference Number (UBRN) of the first referral and the 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ of 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/supporting_definitions/choose_and_book.asp"
+            scope="external"
+            format="html">Choose_and_Book</xref>
+ which is X09.  </p>
+  <p>
+Where the pathway is initiated by some other method, the 
+    <xref outputclass="attribute" keyref="attribute_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
+ will be allocated by the 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ receiving the 
+    <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
+ which together with that 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+'s 
+    <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+ / 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+ will uniquely identify the 
+    <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+.  </p>
+
+</body>
+</topic>

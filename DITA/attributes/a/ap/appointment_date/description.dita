@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_appointment_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: APPOINTMENT DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The date of an 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+.  </p>
+  <p>
+In the case of a 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ attending an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+ without prior notice or 
+    <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+, the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ will be given an 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+.  </p>
+
+</body>
+</topic>

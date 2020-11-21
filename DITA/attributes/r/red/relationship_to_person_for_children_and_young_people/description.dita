@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_relationship_to_person_for_children_and_young_people.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: RELATIONSHIP TO PERSON FOR CHILDREN AND YOUNG PEOPLE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+The relationship of the second 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ to the first 
+    <xref outputclass="class" keyref="class_person">PERSON</xref>
+ (the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+) as used in the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+.  </p>
+  <p>
+This is used to identify, for example, with whom the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_child_or_young_person__community_services_">Child or Young Person</xref>
+ is living in a permanent context or the relationship with the main 
+    <xref outputclass="businessDefinition" keyref="business_definition_carer">Carer</xref>
+ etc.  </p>
+  <p>
+Note that 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+ may choose to collect the 
+    <xref outputclass="attribute"
+            keyref="attribute_relationship_to_person_for_children_and_young_people">RELATIONSHIP TO PERSON FOR CHILDREN AND YOUNG PEOPLE</xref>
+ codes at the high level (ending in "X") or at the more detailed level below each high-level code.  </p>
+  <p>
+This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained as the item is used by the 
+    <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb3009-healthy-child-programme"
+            scope="external"
+            format="html">Healthy Child Programme</xref>
+.  </p>
+  <code>TermServer</code>
+
+</body>
+</topic>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_tumour_invasion_indicator_for_kidney.national_codes'>
+  <title>National Codes</title>
+  <titlealts>
+    <searchtitle>Attribute: TUMOUR INVASION INDICATOR FOR KIDNEY - National Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>
+
+  <p>
+Yes - the 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ has invaded another area (Present)  </p>
+
+</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>
+
+  <p>
+No - the 
+    <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
+ has not invaded another area (Not Identified)  </p>
+
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

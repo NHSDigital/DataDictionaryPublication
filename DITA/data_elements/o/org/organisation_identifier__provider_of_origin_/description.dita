@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_organisation_identifier__provider_of_origin_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: ORGANISATION IDENTIFIER (PROVIDER OF ORIGIN) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>min an3 max an6</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__provider_of_origin_">ORGANISATION IDENTIFIER (PROVIDER OF ORIGIN)</xref>
+ is the same as the attribute 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+.  </p>
+  <p>
+      <xref outputclass="element"
+            keyref="element_organisation_identifier__provider_of_origin_">ORGANISATION IDENTIFIER (PROVIDER OF ORIGIN)</xref>
+ is the 
+    <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+ of the originating 
+    <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ that referred the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to the 
+    <xref outputclass="class" keyref="class_service">SERVICE</xref>
+.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+:  </p>
+  <ul>
+      <li>
+         <div>
+            <xref outputclass="element"
+                  keyref="element_organisation_identifier__provider_of_origin_">ORGANISATION IDENTIFIER (PROVIDER OF ORIGIN)</xref>
+            <p>
+ is the 
+                <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
+ of the originating 
+                <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ that referred the mother to the 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_maternity_service">Maternity Service</xref>
+            </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <xref outputclass="element"
+                  keyref="element_organisation_identifier__provider_of_origin_">ORGANISATION IDENTIFIER (PROVIDER OF ORIGIN)</xref>
+            <p>
+ will be applicable only if the request has originated from another 
+                <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+. It will not be applicable for a self-referral.        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_earliest_clinically_appropriate_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: EARLIEST CLINICALLY APPROPRIATE DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_earliest_clinically_appropriate_date">EARLIEST CLINICALLY APPROPRIATE DATE</xref>
+ is the earliest date that it was clinically appropriate for an 
+    <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ to take place.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_radiotherapy_data_set">Radiotherapy Data Set</xref>
+, 
+    <xref outputclass="element"
+            keyref="element_earliest_clinically_appropriate_date">EARLIEST CLINICALLY APPROPRIATE DATE</xref>
+ is the:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+first date that the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ would have been clinically fit to start 
+                <xref outputclass="businessDefinition"
+                     keyref="business_definition_radiotherapy">Radiotherapy</xref>
+ and        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+same as the 
+                <xref outputclass="attribute" keyref="attribute_decision_to_treat_date">DECISION TO TREAT DATE</xref>
+ unless there was an elective delay, i.e. a clinical reason, such as the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ was not fit.        </p>
+         </div>
+      </li>
+  </ul>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+, 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+ and 
+    <xref href="http://www.datadictionary.nhs.uk/web_site_content/navigation/commissioning_data_sets_menu.asp"
+            scope="external"
+            format="html">Commissioning Data Sets</xref>
+ (version 6-2 onwards), the 
+    <xref outputclass="element"
+            keyref="element_earliest_clinically_appropriate_date">EARLIEST CLINICALLY APPROPRIATE DATE</xref>
+ may be used locally to inform waiting time calculations. It can be used to account for periods of time where it is not appropriate to treat the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ for clinical reasons, for example:  </p>
+  <ul>
+      <li>
+         <div>
+            <p>
+where the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been admitted to hospital for an unrelated condition and the 
+                <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ cannot commence planned treatment until the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ has been discharged        </p>
+         </div>
+      </li>
+      <li>
+         <div>
+            <p>
+where the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is frail and cannot be treated until their condition improves, but it is not appropriate to discharge the 
+                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from the 
+                <xref outputclass="class" keyref="class_service">SERVICE</xref>
+.        </p>
+         </div>
+      </li>
+  </ul>
+
+
+  </body>
+</topic>

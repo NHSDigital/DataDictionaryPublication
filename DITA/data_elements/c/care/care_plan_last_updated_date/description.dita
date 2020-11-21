@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_care_plan_last_updated_date.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CARE PLAN LAST UPDATED DATE - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>an10 CCYY-MM-DD</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_care_plan_last_updated_date">CARE PLAN LAST UPDATED DATE</xref>
+ is the same as attribute 
+    <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ where the 
+    <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
+ is National Code 
+    <i>
+'
+      <xref outputclass="businessDefinition"
+               keyref="business_definition_care_plan_last_updated_date">Care Plan Last Updated Date</xref>
+'    </i>
+.  </p>
+  <p>
+For the 
+    <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+ and 
+    <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+, where the 
+    <xref outputclass="class" keyref="class_care_plan">CARE PLAN</xref>
+ has not been updated since its creation, the 
+    <xref outputclass="element" keyref="element_care_plan_last_updated_date">CARE PLAN LAST UPDATED DATE</xref>
+ will be the same as 
+    <xref outputclass="element" keyref="element_care_plan_creation_date">CARE PLAN CREATION DATE</xref>
+.  </p>
+
+
+  </body>
+</topic>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_number_of_group_session_participants.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: NUMBER OF GROUP SESSION PARTICIPANTS - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n3</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element"
+            keyref="element_number_of_group_session_participants">NUMBER OF GROUP SESSION PARTICIPANTS</xref>
+ is the number of 
+    <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who participate in a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_group_session">Group Session</xref>
+ (excluding the 
+    <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>
+ responsible for the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_group_session">Group Session</xref>
+).  </p>
+
+
+  </body>
+</topic>

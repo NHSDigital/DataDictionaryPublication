@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='attribute_general_dental_practitioner_code.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Attribute: GENERAL DENTAL PRACTITIONER CODE - Description</searchtitle>
+  </titlealts>
+  <body>
+
+  <p>
+A unique code identifying a 
+    <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>
+.  </p>
+  <p>
+      <xref outputclass="businessDefinition"
+            keyref="business_definition_nhs_dental_services">NHS Dental Services</xref>
+ allocates 
+    <xref outputclass="attribute"
+            keyref="attribute_general_dental_practitioner_code">GENERAL DENTAL PRACTITIONER CODES</xref>
+ to 
+    <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+ carrying out work for the NHS.  </p>
+  <p>
+A doctor can be both a 
+    <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>
+ and a Dental 
+    <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+, and therefore hold a 
+    <xref outputclass="attribute"
+            keyref="attribute_general_dental_practitioner_code">GENERAL DENTAL PRACTITIONER CODE</xref>
+ and a 
+    <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
+ simultaneously.  </p>
+  <p>General Dental Practitioner Code format</p>
+  <simpletable outputclass="simpletable table table-striped table-sm">
+      <strow>
+         <stentry outputclass="thead-light">
+            <p>Practitioner
+        Code Type</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Character Position</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Allocated
+        By</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Allocated
+        To</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Known
+        As</p>
+         </stentry>
+         <stentry outputclass="thead-light">
+            <p>Notes</p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>1</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>2</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>3</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>4</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>5</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>6</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>7</p>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <p>8</p>
+            <p> </p>
+         </stentry>
+      </strow>
+      <strow>
+         <stentry>
+            <p>General Dental Practitioner Code</p>
+         </stentry>
+         <stentry>
+            <p>D</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <p>0-9</p>
+         </stentry>
+         <stentry>
+            <xref outputclass="businessDefinition"
+                  keyref="business_definition_nhs_dental_services">NHS Dental Services</xref>
+            <p> </p>
+         </stentry>
+         <stentry>
+            <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+            <p>in England &amp; Wales</p>
+         </stentry>
+         <stentry>
+            <p>GDP</p>
+         </stentry>
+         <stentry>
+            <p>
+Allocated to 
+                  <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+ who work for the NHS        </p>
+         </stentry>
+      </strow>
+  </simpletable>
+
+</body>
+</topic>

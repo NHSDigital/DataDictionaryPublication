@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_viral_load_count.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: VIRAL LOAD COUNT - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n7</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_viral_load_count">VIRAL LOAD COUNT</xref>
+ is the result of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+ which measures the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s viral load count, where the 
+    <xref outputclass="attribute" keyref="attribute_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+ is 
+    <i>'copies per millilitre (mL)'.</i>
+  </p>
+
+
+  </body>
+</topic>

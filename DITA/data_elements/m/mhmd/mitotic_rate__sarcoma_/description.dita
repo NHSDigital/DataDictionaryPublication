@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_mitotic_rate__sarcoma_.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: MITOTIC RATE (SARCOMA) - Description</searchtitle>
+  </titlealts>
+  <body>
+    <dl>
+      <dlentry>
+        <dt>Format / Length</dt>
+        <dd>max n3</dd>
+      </dlentry>
+    </dl>
+
+  <p>
+      <xref outputclass="element" keyref="element_mitotic_rate__sarcoma_">MITOTIC RATE (SARCOMA)</xref>
+ is the result of the 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_clinical_investigation">Clinical Investigation</xref>
+ which measures the 
+    <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+'s Mitotic Rate (MR) (a measure of how fast cancer 
+    <xref outputclass="class" keyref="class_cell">CELLS</xref>
+ are dividing and growing), where the 
+    <xref outputclass="attribute" keyref="attribute_ucum_unit_of_measurement">UCUM UNIT OF MEASUREMENT</xref>
+ is 
+    <i>'5 Millimetres Squared',</i>
+ during a 
+    <xref outputclass="businessDefinition"
+            keyref="business_definition_sarcoma_cancer_care_spell">Sarcoma Cancer Care Spell</xref>
+.  </p>
+
+
+  </body>
+</topic>

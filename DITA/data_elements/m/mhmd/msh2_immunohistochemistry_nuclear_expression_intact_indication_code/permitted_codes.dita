@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_msh2_immunohistochemistry_nuclear_expression_intact_indication_code.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: MSH2 IMMUNOHISTOCHEMISTRY NUCLEAR EXPRESSION INTACT INDICATION CODE - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>Y</stentry>
+        <stentry>Yes - the immunohistochemistry nuclear expression is intact</stentry>
+      </strow>
+      <strow>
+        <stentry>N</stentry>
+        <stentry>No - the immunohistochemistry nuclear expression is not intact</stentry>
+      </strow>
+      <strow>
+        <stentry>E</stentry>
+        <stentry>Equivocal - it is not clear if the immunohistochemistry nuclear expression is intact</stentry>
+      </strow>
+      <strow>
+        <stentry>F</stentry>
+        <stentry>Test failed - the test could not be performed</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

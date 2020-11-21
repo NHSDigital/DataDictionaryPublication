@@ -16,8 +16,7 @@
         <stentry>
   <p>
 Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_local_authority">Local Authority</xref>, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes 
+        <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes 
         <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  with no fixed abode.    </p>
 </stentry>
@@ -27,8 +26,7 @@ Usual place of residence unless listed below, for example, a private dwelling wh
         <stentry>
   <p>
 Temporary place of residence when usually resident elsewhere (e.g. hotels, residential 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_educational_establishment">Educational Establishments</xref>)    </p>
+        <xref outputclass="businessDefinition" keyref="business_definition_educational_establishment">Educational Establishments</xref>)    </p>
 </stentry>
       </strow>
       <strow>
@@ -37,8 +35,7 @@ Temporary place of residence when usually resident elsewhere (e.g. hotels, resid
   <p>
 Penal establishment, 
         <xref outputclass="businessDefinition" keyref="business_definition_court">Court</xref>, or Police Station / 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_police_custody_suite">Police Custody Suite</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_police_custody_suite">Police Custody Suite</xref>
   </p>
 </stentry>
       </strow>
@@ -50,7 +47,7 @@ Penal establishment,
         <stentry>41</stentry>
         <stentry>
   <div>
-      <xref outputclass="businessDefinition" keyref="business_definition_court">Court</xref>
+    <xref outputclass="businessDefinition" keyref="business_definition_court">Court</xref>
   </div>
 </stentry>
       </strow>
@@ -59,8 +56,7 @@ Penal establishment,
         <stentry>
   <p>
 Police Station / 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_police_custody_suite">Police Custody Suite</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_police_custody_suite">Police Custody Suite</xref>
   </p>
 </stentry>
       </strow>
@@ -69,15 +65,12 @@ Police Station /
         <stentry>
   <p>
 NHS other 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - high security psychiatric accommodation in an NHS 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  (<xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
  or 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>)    </p>
+        <xref outputclass="businessDefinition" keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>)    </p>
 </stentry>
       </strow>
       <strow>
@@ -85,13 +78,14 @@ NHS other
         <stentry>
   <p>
 NHS other 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
         <xref outputclass="class" keyref="class_ward">WARD</xref>
  for general 
         <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
- or the younger physically disabled or A &amp; E department    </p>
+ or the younger physically disabled or 
+        <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+  </p>
 </stentry>
       </strow>
       <strow>
@@ -99,8 +93,7 @@ NHS other
         <stentry>
   <p>
 NHS other 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
         <xref outputclass="class" keyref="class_ward">WARD</xref>
  for maternity 
@@ -115,15 +108,13 @@ NHS other
         <stentry>
   <p>
 NHS other 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
         <xref outputclass="class" keyref="class_ward">WARD</xref>
  for 
         <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  who are mentally ill or have 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_learning_disability">Learning Disabilities</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_learning_disability">Learning Disabilities</xref>
   </p>
 </stentry>
       </strow>
@@ -139,16 +130,14 @@ NHS run
       <strow>
         <stentry>65</stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_local_authority">Local Authority</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>
   <p> residential accommodation i.e. where care is provided</p>
 </stentry>
       </strow>
       <strow>
         <stentry>66</stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_local_authority">Local Authority</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>
   <p> foster care</p>
 </stentry>
       </strow>
@@ -161,8 +150,7 @@ NHS run
         <stentry>
   <p>
 Non-NHS (other than 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_local_authority">Local Authority</xref>) run 
+        <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>) run 
         <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
   </p>
 </stentry>
@@ -176,8 +164,7 @@ Non-NHS (other than
         <stentry>
   <p>
 Non-NHS (other than 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_local_authority">Local Authority</xref>) run 
+        <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>) run 
         <xref outputclass="businessDefinition" keyref="business_definition_hospice">Hospice</xref>
   </p>
 </stentry>

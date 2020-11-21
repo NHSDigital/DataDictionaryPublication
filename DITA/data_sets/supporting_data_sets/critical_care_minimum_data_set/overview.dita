@@ -7,89 +7,78 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The 
               <xref outputclass="dataSet" keyref="dataset_critical_care_minimum_data_set">Critical Care Minimum Data Set</xref>
  was developed by the Critical Care Information Advisory Group (CCIAG) and endorsed by the Intensive Care Society.        </p>
-      <p>
+    <p>
 The 
               <xref outputclass="dataSet" keyref="dataset_critical_care_minimum_data_set">Critical Care Minimum Data Set</xref>
  contains a subset of mandatory items for the generation of Critical Care 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Groups</xref>
- (<xref outputclass="supportingInformation"
-               keyref="supporting_definition_healthcare_resource_group">HRGs</xref>). The Critical Care 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_healthcare_resource_group">HRG</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Groups</xref>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_healthcare_resource_group">HRGs</xref>). The Critical Care 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_healthcare_resource_group">HRG</xref>
  subset replaced the Augmented Care Period data elements in the Commissioning Data Sets.        </p>
-      <p>
+    <p>
 The purpose of the 
               <xref outputclass="dataSet" keyref="dataset_critical_care_minimum_data_set">Critical Care Minimum Data Set</xref>
  is to provide a standardised set of data to support 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>, 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Groups</xref>, Resource Management, Commissioning and national policy analysis. The full 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>, 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Groups</xref>, Resource Management, Commissioning and national policy analysis. The full 
               <xref outputclass="dataSet" keyref="dataset_critical_care_minimum_data_set">Critical Care Minimum Data Set</xref>
  has been incorporated into and is consistent with the ICNARC (Intensive Care National Audit and Research Centre) data collection.        </p>
-      <p>
+    <p>
 The 
               <xref outputclass="dataSet" keyref="dataset_critical_care_minimum_data_set">Critical Care Minimum Data Set</xref>
  has been developed to be used in all units where Critical Care is provided. That is where the 
               <xref outputclass="attribute" keyref="attribute_critical_care_level">CRITICAL CARE LEVEL</xref>
  is National Code:        </p>
-      <ul>
-         <li>
-            <p>
+    <ul>
+      <li>
+        <p>
 02 
                           <i>Patients requiring more detailed observation or intervention including support for a single failing organ system or post-operative care and those 'stepping down' from higher levels of care</i>
-            </p>
-         </li>
-      </ul>
-      <p>or</p>
-      <ul>
-         <li>
-            <p>
+        </p>
+      </li>
+    </ul>
+    <p>or</p>
+    <ul>
+      <li>
+        <p>
 03 
                           <i>Patients requiring advanced respiratory support alone or monitoring and support for two or more organ systems. This level includes all complex patients requiring support for multi-organ failure.</i>
-            </p>
-         </li>
-      </ul>
-      <p>
-         <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonates</xref>
+        </p>
+      </li>
+    </ul>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonates</xref>
  are excluded from the data set. The recording of 
               <xref outputclass="dataSet" keyref="dataset_critical_care_minimum_data_set">Critical Care Minimum Data Set</xref>
  for older babies (over 28 days) on Neonatal and Paediatric Intensive Care Units is optional. However, the activity for children treated on adult critical care units should be recorded.        </p>
-      <p>A subset of this minimum data set is used to derive Adult Critical Care HRGs. The subset is sent in the following Commissioning Data Set messages:</p>
-      <ul>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_140_-_admitted_patient_care_-_finished_delivery_episode_cds">CDS V6-2 Type 140 - Admitted Patient Care - Finished Delivery Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_200_-_admitted_patient_care_-_unfinished_delivery_episode_cds">CDS V6-2 Type 200 - Admitted Patient Care - Unfinished Delivery Episode Commissioning Data Set</xref>
-         </li>
-      </ul>
+    <p>A subset of this minimum data set is used to derive Adult Critical Care HRGs. The subset is sent in the following Commissioning Data Set messages:</p>
+    <ul>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_140_-_admitted_patient_care_-_finished_delivery_episode_cds">CDS V6-2 Type 140 - Admitted Patient Care - Finished Delivery Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_200_-_admitted_patient_care_-_unfinished_delivery_episode_cds">CDS V6-2 Type 200 - Admitted Patient Care - Unfinished Delivery Episode Commissioning Data Set</xref>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

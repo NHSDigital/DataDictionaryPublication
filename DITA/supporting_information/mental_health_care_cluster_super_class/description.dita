@@ -7,84 +7,68 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_mental_health_care_cluster_super_class">Mental Health Care Cluster Super Class</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_mental_health_care_cluster_super_class">Mental Health Care Cluster Super Class</xref>
  is identified during the process of assigning an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Cluster</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Cluster</xref>
  or 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>
  to a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
-      <p>
+    <p>
 A 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_mental_health_care_cluster_super_class">Mental Health Care Cluster Super Class</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_mental_health_care_cluster_super_class">Mental Health Care Cluster Super Class</xref>
  enables the number of applicable 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Clusters</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Clusters</xref>
  or 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Clusters</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Clusters</xref>
  to be narrowed down, by deciding if the origin of the presenting condition is primarily:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>Non-psychotic</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Psychotic or</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Organic</p>
-            </div>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <div>
+          <p>Non-psychotic</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Psychotic or</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Organic</p>
+        </div>
+      </li>
+    </ul>
+    <p>
 If the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  cannot be assigned to an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Cluster</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Cluster</xref>
  or 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>, 
-              <xref outputclass="element"
-               keyref="element_mental_health_care_cluster_super_class_code">MENTAL HEALTH CARE CLUSTER SUPER CLASS CODE</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_forensic_mental_health_care_cluster">Forensic Mental Health Care Cluster</xref>, 
+              <xref outputclass="element" keyref="element_mental_health_care_cluster_super_class_code">MENTAL HEALTH CARE CLUSTER SUPER CLASS CODE</xref>
  is recorded as '<i>Unable to assign</i>
-         <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-         <i>
+      <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+      <i>
  to 
-                  <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_mental_health_care_cluster_super_class">Mental Health Care Cluster Super Class</xref>
-         </i>'. The 
+                  <xref outputclass="supportingInformation" keyref="supporting_definition_mental_health_care_cluster_super_class">Mental Health Care Cluster Super Class</xref>
+      </i>'. The 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  will automatically be assigned to the 
-              <xref outputclass="attribute"
-               keyref="attribute_adult_mental_health_care_cluster_code">ADULT MENTAL HEALTH CARE CLUSTER CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_adult_mental_health_care_cluster_code">ADULT MENTAL HEALTH CARE CLUSTER CODE</xref>
  or 
-              <xref outputclass="attribute"
-               keyref="attribute_forensic_mental_health_care_cluster_code">FORENSIC MENTAL HEALTH CARE CLUSTER CODE</xref>
-         <i> '00 Care Cluster 0 - Variance</i>
-         <i>.</i>'</p>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_forensic_mental_health_care_cluster_code">FORENSIC MENTAL HEALTH CARE CLUSTER CODE</xref>
+      <i> '00 Care Cluster 0 - Variance</i>
+      <i>.</i>'</p>
+    <p>
 Further information relating to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_adult_mental_health_clustering_tool">Adult Mental Health Clustering Tool</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_adult_mental_health_clustering_tool">Adult Mental Health Clustering Tool</xref>
  and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Clusters</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_adult_mental_health_care_cluster">Adult Mental Health Care Clusters</xref>
  is available from the gov.uk website at: 
-              <xref href="https://improvement.nhs.uk/resources/national-tariff/"
-               scope="external"
-               format="html">The NHS payment system: documents and guidance</xref>.        </p>
+              <xref href="https://improvement.nhs.uk/resources/national-tariff/" scope="external" format="html">The NHS payment system: documents and guidance</xref>.        </p>
   </div>
 </body>
 </topic>

@@ -7,28 +7,25 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_discharge_plan_last_updated_date">DISCHARGE PLAN LAST UPDATED DATE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_discharge_plan_last_updated_date">DISCHARGE PLAN LAST UPDATED DATE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
  where the 
               <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
  is National Code 
-              <i>'<xref outputclass="businessDefinition"
-                  keyref="business_definition_care_plan_last_updated_date">Care Plan Last Updated Date</xref>
-         </i>
-         <i>'</i>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_discharge_plan_last_updated_date">DISCHARGE PLAN LAST UPDATED DATE</xref>
+              <i>'<xref outputclass="businessDefinition" keyref="business_definition_care_plan_last_updated_date">Care Plan Last Updated Date</xref>
+      </i>
+      <i>'</i>.        </p>
+    <p>
+      <xref outputclass="element" keyref="element_discharge_plan_last_updated_date">DISCHARGE PLAN LAST UPDATED DATE</xref>
  is the date that a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_discharge_plan">Discharge Plan</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_discharge_plan">Discharge Plan</xref>
  was last updated.        </p>
-      <p>
+    <p>
 For the 
               <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>, where the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_discharge_plan">Discharge Plan</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_discharge_plan">Discharge Plan</xref>
  has not been updated since its creation, the 
               <xref outputclass="element" keyref="element_discharge_plan_last_updated_date">DISCHARGE PLAN LAST UPDATED DATE</xref>
  will be the same as 

@@ -7,17 +7,77 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
  
-              <xref outputclass="element"
-               keyref="element_emergency_care_department_type__patient_level_information_costing_">EMERGENCY CARE DEPARTMENT TYPE (PATIENT LEVEL INFORMATION COSTING)</xref>
+              <xref outputclass="element" keyref="element_emergency_care_department_type__patient_level_information_costing_">EMERGENCY CARE DEPARTMENT TYPE (PATIENT LEVEL INFORMATION COSTING)</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPE</xref>
+              <xref outputclass="attribute" keyref="attribute_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPE</xref>
  for the purposes of reporting for 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>. 
-          </p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>.        </p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>01</p>
+            </entry>
+            <entry>
+              <p>
+Emergency departments are a 
+                        <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ led 24 hour service with full resuscitation facilities and designated accommodation for the reception of accident and emergency 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                    </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>02</p>
+            </entry>
+            <entry>
+              <p>
+Consultant led mono specialty accident and emergency service (e.g. ophthalmology, dental) with designated accommodation for the reception of 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                    </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>03</p>
+            </entry>
+            <entry>
+              <p>
+Other type of A&amp;E/minor injury 
+                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ with designated accommodation for the reception of accident and emergency 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>. The department may be doctor led or 
+                        <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ led and treats at least minor injuries and illnesses and can be routinely accessed without 
+                        <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>. A 
+                        <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ mainly or entirely 
+                        <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ based (for example a 
+                        <xref outputclass="businessDefinition" keyref="business_definition_gp_practice">GP Practice</xref>
+ or 
+                        <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>) is excluded even though it may treat a number of 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with minor illness or injury. Excludes NHS walk-in centres                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>04</p>
+            </entry>
+            <entry>
+              <p>NHS walk in centres</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

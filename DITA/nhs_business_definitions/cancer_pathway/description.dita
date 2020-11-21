@@ -7,108 +7,96 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_pathway">Cancer Pathway</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_pathway">Cancer Pathway</xref>
  is a 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>.        </p>
-      <p>
+    <p>
 A 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_pathway">Cancer Pathway</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_pathway">Cancer Pathway</xref>
  is the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s journey from the initial suspicion of cancer through 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_clinical_investigation">Clinical Investigations</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_clinical_investigation">Clinical Investigations</xref>, 
               <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
  and treatment.        </p>
-      <p>This could be by:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>This could be by:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 Initial referral to a hospital specialist by the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s 
                                 <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Assessment in an 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Assessment when the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is already in the hospital system with an acute illness or an earlier 
                                 <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Identification through one of the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_screening_programme">Screening Programmes</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_screening_programme">Screening Programmes</xref>.                    </p>
+        </div>
+      </li>
+    </ul>
+    <p>
 For the following data sets, types of 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_pathway">Cancer Pathway</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_pathway">Cancer Pathway</xref>
  include:        </p>
-      <ul>
-         <li>
+    <ul>
+      <li>
+        <div>
+          <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>
+          <p>:</p>
+        </div>
+        <ul>
+          <li>
             <div>
-               <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-                     scope="external"
-                     format="html">Cancer Outcomes and Services Data Set</xref>
-               <p>:</p>
+              <xref outputclass="businessDefinition" keyref="business_definition_primary_cancer_pathway">Primary Cancer Pathway</xref>
             </div>
-            <ul>
-               <li>
-                  <div>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_primary_cancer_pathway">Primary Cancer Pathway</xref>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_non_primary_cancer_pathway">Non Primary Cancer Pathway</xref>
-                     <p>.
+          </li>
+          <li>
+            <div>
+              <xref outputclass="businessDefinition" keyref="business_definition_non_primary_cancer_pathway">Non Primary Cancer Pathway</xref>
+              <p>.
             </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>
-               <p>:</p>
             </div>
-            <ul>
-               <li>
-                  <div>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_cancer_faster_diagnosis_pathway">Cancer Faster Diagnosis Pathway</xref>
-                     <p>.</p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>
+          <p>:</p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_faster_diagnosis_pathway">Cancer Faster Diagnosis Pathway</xref>
+              <p>.</p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

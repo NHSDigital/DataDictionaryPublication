@@ -7,13 +7,13 @@
   </titlealts>
   <body>
   <div>
-      <p/>
-      <ul>
-         <li>
-            <p>A. Removal of name and address where the NHS Number is present</p>
-         </li>
-         <li>
-            <p>
+    <p/>
+    <ul>
+      <li>
+        <p>A. Removal of name and address where the NHS Number is present</p>
+      </li>
+      <li>
+        <p>
 From 1 April 1999, 
                           <xref outputclass="element" keyref="element_patient_name">PATIENT NAME</xref>
  and 
@@ -22,9 +22,9 @@ From 1 April 1999,
                           <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>) must be removed from all Commissioning Data Sets where a valid 
                           <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
  is present. This applies to all nationally defined Commissioning Data Set data and any additional locally agreed flows from service providers to commissioning bodies.                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 A valid 
                           <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
  is one that has passed the check digit calculation on entry into the source system. If an 
@@ -36,9 +36,9 @@ A valid
  should not be removed, as the reliability of the 
                           <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
  will not be known.                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 The 
                           <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
  is a mandatory part of the Commissioning Data Set. 
@@ -51,20 +51,19 @@ The
                           <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
  does not have a status of 01, 
                           <i>Number present and verified</i>.                </p>
-            <p>B. Sensitive data</p>
-         </li>
-         <li>
-            <p>The Human Fertilisation and Embryology Act 1990 as amended by the Human Fertilisation and Embryology (Disclosure of Information) Act 1992 imposes statutory restrictions on the disclosure of information about identifiable individuals in connection with certain infertility treatments.</p>
-         </li>
-         <li>
-            <p>
+        <p>B. Sensitive data</p>
+      </li>
+      <li>
+        <p>The Human Fertilisation and Embryology Act 1990 as amended by the Human Fertilisation and Embryology (Disclosure of Information) Act 1992 imposes statutory restrictions on the disclosure of information about identifiable individuals in connection with certain infertility treatments.</p>
+      </li>
+      <li>
+        <p>
 The latest approved list of codes which can be used to identify the relevant 
                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  record in which the patient-identifiable data are to be omitted from the 
                           <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
  can be accessed via 
-                          <xref outputclass="supportingInformation"
-                     keyref="supporting_definition_technology_reference_data_update_distribution__trud_">Technology Reference Data Update Distribution (TRUD)</xref>.  In these cases the 
+                          <xref outputclass="supportingInformation" keyref="supporting_definition_technology_reference_data_update_distribution__trud_">Technology Reference Data Update Distribution (TRUD)</xref>.  In these cases the 
                           <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>, 
                           <xref outputclass="element" keyref="element_local_patient_identifier">LOCAL PATIENT IDENTIFIER</xref>, 
                           <xref outputclass="element" keyref="element_patient_name">PATIENT NAMES</xref>, 
@@ -72,33 +71,31 @@ The latest approved list of codes which can be used to identify the relevant
  and 
                           <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
  should be omitted from the CDS Types.                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 From Commissioning Data Set Version 6-2, records where the patient-identifiable data has been withheld should be submitted using the PATIENT IDENTITY - WITHHELD IDENTITY STRUCTURE data group in CDS types where identification is carried.  This data group allows only the 
                           <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
  (the actual value held on source systems should be used), 
-                          <xref outputclass="element"
-                     keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                          <xref outputclass="element" keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
  and 
                           <xref outputclass="element" keyref="element_withheld_identity_reason">WITHHELD IDENTITY REASON</xref>
  to flow.  The 
                           <xref outputclass="element" keyref="element_withheld_identity_reason">WITHHELD IDENTITY REASON</xref>
  allows 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_health_care_provider">Health Care Providers</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>
  to inform their Commissioners why a record has been anonymised.  Note that the same rules apply to the additional PATIENT IDENTITY structures relating to Mother and Baby in the Delivery and Birth CDS types.                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 Other statutory restrictions on the disclosure of 
                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  information do not prohibit the disclosure to individuals involved with the treatment and prevention of certain specific diseases (HIV/AIDS and venereal diseases) in the population.                </p>
-         </li>
-         <li>
-            <p>
-               <b>All records containing patient identifiable information, other than those covered by the Sensitive Data section, should be treated as sensitive.</b>
-               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+      </li>
+      <li>
+        <p>
+          <b>All records containing patient identifiable information, other than those covered by the Sensitive Data section, should be treated as sensitive.</b>
+          <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  may continue to exchange records containing 
                           <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>, 
                           <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
@@ -107,9 +104,9 @@ Other statutory restrictions on the disclosure of
  in these cases, but receiving 
                           <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  must ensure that only those staff with legitimate need have access to this information, e.g. public health departments, and strictly on a need to know basis. No-one should have unrestricted access unless fully justified in accordance with the principles of the Caldicott Committee Report.                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 Where 
                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  level data is required for other purposes within an 
@@ -119,14 +116,14 @@ Where
                           <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  Caldicott Guardian, should be put in place and identifiers stripped from these records.
                       </p>
-         </li>
-         <li>
-            <p>Your Caldicott Guardian will be able to advise you further on all issues relating to patient confidentiality.</p>
-         </li>
-         <li>
-            <p>Where appropriate, further information about confidentiality is contained within the notes for individual data items.</p>
-         </li>
-      </ul>
+      </li>
+      <li>
+        <p>Your Caldicott Guardian will be able to advise you further on all issues relating to patient confidentiality.</p>
+      </li>
+      <li>
+        <p>Where appropriate, further information about confidentiality is contained within the notes for individual data items.</p>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

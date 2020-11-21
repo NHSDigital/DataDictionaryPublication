@@ -7,34 +7,31 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A service provided by an 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  which may be chargeable to one or more 
               <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENTS</xref>.        </p>
-      <p>
+    <p>
 In most cases, the 
               <xref outputclass="class" keyref="class_service">SERVICE</xref>
  will be for the direct benefit of a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
-      <p>
+    <p>
 A 
               <xref outputclass="class" keyref="class_service">SERVICE</xref>
  associated with a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_care_spell">Care Spell</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_care_spell">Care Spell</xref>
  may be treatment carried out by the 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  acting as the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  as part of a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_care_spell">Care Spell</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_care_spell">Care Spell</xref>
  for which the lead responsibility is with another 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>.        </p>
-      <p>
-         <xref outputclass="attribute" keyref="attribute_service_type">SERVICE TYPE</xref>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_service_type">SERVICE TYPE</xref>
  provides a list of 
               <xref outputclass="class" keyref="class_service">SERVICES</xref>.        </p>
   </div>

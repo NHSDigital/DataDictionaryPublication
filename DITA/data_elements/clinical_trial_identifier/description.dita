@@ -7,50 +7,46 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_clinical_trial_identifier">CLINICAL TRIAL IDENTIFIER</xref>
+    <p>
+      <xref outputclass="element" keyref="element_clinical_trial_identifier">CLINICAL TRIAL IDENTIFIER</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_clinical_trial_identifier">CLINICAL TRIAL IDENTIFIER</xref>.        </p>
-      <p>
-         <b>Use in the</b>
-         <b>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
+    <p>
+      <b>Use in the</b>
+      <b>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
  / 
-                  <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>
-         </b>
-         <b>:</b>
-      </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+                  <xref outputclass="dataSet" keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>
+      </b>
+      <b>
+ / 
+                  <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_011_-_emergency_care_cds">CDS V6-2-3 Type 011 - Emergency Care Commissioning Data Set</xref>
+      </b>:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>
 The 
                                 <xref outputclass="element" keyref="element_clinical_trial_identifier">CLINICAL TRIAL IDENTIFIER</xref>
  must be recognised and registered with an 
                                 <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  which is a Primary Registry in the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_world_health_organisation">World Health Organisation</xref>
-                  <xref href="https://www.who.int/ictrp/network/primary/en/"
-                        scope="external"
-                        format="html">International Clinical Trials Registry Platform</xref>.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="element" keyref="element_clinical_trial_identifier">CLINICAL TRIAL IDENTIFIER</xref>
-               <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_world_health_organisation">World Health Organisation</xref>
+            <xref href="https://www.who.int/ictrp/network/primary/en/" scope="external" format="html">International Clinical Trials Registry Platform</xref>.                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_clinical_trial_identifier">CLINICAL TRIAL IDENTIFIER</xref>
+          <p>
 is collected for a specified purpose at national level only and will not be available from the 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  for use by unauthorised 
                                 <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  or individuals.                    </p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

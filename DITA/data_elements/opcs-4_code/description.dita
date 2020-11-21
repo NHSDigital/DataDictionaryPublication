@@ -7,47 +7,40 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_opcs-4_code">OPCS-4 CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_opcs-4_code">OPCS-4 CODE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_clinical_classification_code">CLINICAL CLASSIFICATION CODE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_opcs-4_code">OPCS-4 CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_opcs-4_code">OPCS-4 CODE</xref>
  is the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS Classification of Interventions and Procedures</xref>
- (<xref outputclass="supportingInformation"
-               keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>) code which is used to identify the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS Classification of Interventions and Procedures</xref>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>) code which is used to identify the 
               <xref outputclass="class" keyref="class_coded_clinical_entry">CODED CLINICAL ENTRY</xref>.        </p>
-      <p>Notes:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>Notes:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 Where a 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_patient_procedure">Patient Procedure</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_patient_procedure">Patient Procedure</xref>
  is carried out and required for reporting using the 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
  classification, every effort must be made to report the appropriate 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
  code in the Out-Patient Attendance Commissioning Data Set.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Where providers locally use 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
  codes with a fifth character added, this should be removed before inclusion in the 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>.                    </p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

@@ -7,94 +7,82 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <ul>
-         <li>
-            <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <ul>
+      <li>
+        <p>
 This guidance explains the circumstances under which 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  should close and reopen as a result of a merger or demerger, in terms of NHS Information Standards.                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 It specifies which 
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODES</xref>
  / 
                         <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIERS</xref>
  should be used for 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  which must be closed and reopened for:
                     </p>
-            <ul>
-               <li>
-                  <xref outputclass="attribute" keyref="attribute_discharge_destination">DISCHARGE DESTINATION</xref>
-                  <p>
-etc, for the closing 
-                                    <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
- and                        </p>
-               </li>
-               <li>
-                  <xref outputclass="attribute" keyref="attribute_source_of_admission">SOURCE OF ADMISSION</xref>
-                  <p>
-etc, for the new 
-                                    <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.                        </p>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <b>
-When 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
- Should be Closed and Reopened        </b>
-      <ul>
-         <li>
+        <ul>
+          <li>
+            <xref outputclass="attribute" keyref="attribute_discharge_destination">DISCHARGE DESTINATION</xref>
             <p>
+etc, for the closing 
+                                    <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ and                        </p>
+          </li>
+          <li>
+            <xref outputclass="attribute" keyref="attribute_source_of_admission">SOURCE OF ADMISSION</xref>
+            <p>
+etc, for the new 
+                                    <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.                        </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <b>
+When 
+            <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+ Should be Closed and Reopened        </b>
+    <ul>
+      <li>
+        <p>
 A 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
  is provided by one 
                         <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  acting as a 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_health_care_provider">Health Care Provider</xref>. This means that the 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>. This means that the 
+                        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
  is linked to the 
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                         <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  of the 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_health_care_provider">Health Care Provider</xref>.                </p>
-         </li>
-         <li>
-            <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>.                </p>
+      </li>
+      <li>
+        <p>
 If the 
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                         <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  changes, the spell must end and another begin with the new 
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                         <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>.                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 If the 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
  does end, the 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_consultant_episode__hospital_provider_">Consultant Episode (Hospital Provider)</xref>
  within the 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
  must also end.                </p>
-            <p>
+        <p>
 The following scenarios explain what this means in terms of 
                         <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  mergers or demergers. Note that these assume that nothing changes other than the fact that the 
@@ -102,369 +90,334 @@ The following scenarios explain what this means in terms of
  merge or demerge, e.g. the 
                         <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  stays the same, etc.                </p>
-         </li>
-      </ul>
-      <b>Mergers</b>
-      <ul>
-         <li>
-            <i>
+      </li>
+    </ul>
+    <b>Mergers</b>
+    <ul>
+      <li>
+        <i>
 Trust A merges with Trust B to produce Trust C, which has a new 
                       <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                       <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>.                </i>
-            <ul>
-               <li>
-                  <p>
+        <ul>
+          <li>
+            <p>
 The 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  will change for both Trust A and B.                        </p>
-               </li>
-               <li>
-                  <p>
+          </li>
+          <li>
+            <p>
 Therefore 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  in both Trust A and B should close, and new 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  should be opened using the new 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
  / 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  for Trust C.                        </p>
-               </li>
-            </ul>
-         </li>
-         <li>
-            <i>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <i>
 Trust A merges with Trust B to produce an 
                       <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  which uses Trust A's 
                       <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                       <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>.                </i>
-            <ul>
-               <li>
-                  <p>
+        <ul>
+          <li>
+            <p>
 For those 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  in Trust A, the 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
  will not change. Therefore Trust A's 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  should not be closed just as a result of the merger. However, for Trust B the 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  will change.                        </p>
-               </li>
-               <li>
-                  <p>
+          </li>
+          <li>
+            <p>
 Therefore 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  in Trust B should close, and new 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  should be opened using the new 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
  / 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  for Trust A.                        </p>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <b>Demergers</b>
-      <ul>
-         <li>
-            <i>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <b>Demergers</b>
+    <ul>
+      <li>
+        <i>
 Trust A splits into Trust B and Trust C, both of which have a new 
                       <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                       <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>.                </i>
-            <ul>
-               <li>
-                  <p>
+        <ul>
+          <li>
+            <p>
 The 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  will change for both Trust B and C.                        </p>
-               </li>
-               <li>
-                  <p>
+          </li>
+          <li>
+            <p>
 Therefore all 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  in Trust A should close, and new 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  should be opened in Trust B and C using the new 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODES</xref>
  / 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIERS</xref>
  for each.                        </p>
-               </li>
-            </ul>
-         </li>
-         <li>
-            <i>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <i>
 Trust A splits into Trust B and C. Trust B retains Trust A's 
                       <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                       <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  and Trust C is issued with a new one.                </i>
-            <ul>
-               <li>
-                  <p>
+        <ul>
+          <li>
+            <p>
 The 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  for 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  in Trust A which are taken over by Trust B will not change.                        </p>
-               </li>
-               <li>
-                  <p>Therefore they should not be closed just as a result of the merger.</p>
-               </li>
-               <li>
-                  <p>
+          </li>
+          <li>
+            <p>Therefore they should not be closed just as a result of the merger.</p>
+          </li>
+          <li>
+            <p>
 However, Trust A's 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  which are taken over by Trust C should close, and new 
-                                  <xref outputclass="businessDefinition"
-                           keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  should be opened using the new 
                                   <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>/ 
                                   <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  for Trust C.                        </p>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <b>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <b>
 The National Codes Used when 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  are Closed and Reopened        </b>
-      <p>
+    <p>
 If 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spells</xref>
  are to be closed and reopened only as a result of 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_mergers">Organisation Mergers</xref>
+            <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_mergers">Organisation Mergers</xref>
  or demergers, for most cases the codes below should be used.        </p>
-      <ul>
-         <li>
-            <div>
-               <b>
+    <ul>
+      <li>
+        <div>
+          <b>
 The CLOSED 
-                              <xref outputclass="businessDefinition"
-                        keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
-               </b>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <xref outputclass="attribute" keyref="attribute_discharge_destination">DISCHARGE DESTINATION</xref>
-      </p>
-      <p>
+                              <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+          </b>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_discharge_destination">DISCHARGE DESTINATION</xref>
+    </p>
+    <p>
 This depends on the type of 
                 <xref outputclass="class" keyref="class_ward">WARD</xref>
  the 
                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is in, but will be either:          </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 51     NHS other 
-                                  <xref outputclass="businessDefinition"
-                        keyref="business_definition_hospital_provider">Hospital Provider</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
                                   <xref outputclass="class" keyref="class_ward">WARD</xref>
  for general 
                                   <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  or the younger physically disabled                      </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 52     NHS other 
-                                  <xref outputclass="businessDefinition"
-                        keyref="business_definition_hospital_provider">Hospital Provider</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
                                   <xref outputclass="class" keyref="class_ward">WARD</xref>
  for maternity 
                                   <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  or 
                                   <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonates</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 53     NHS other 
-                                  <xref outputclass="businessDefinition"
-                        keyref="business_definition_hospital_provider">Hospital Provider</xref>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
                                   <xref outputclass="class" keyref="class_ward">WARD</xref>
  for 
                                   <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  who are mentally ill or have 
-                                  <xref outputclass="businessDefinition"
-                        keyref="business_definition_learning_disability">Learning Disabilities</xref>
-               </p>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <xref outputclass="attribute" keyref="attribute_discharge_method">DISCHARGE METHOD</xref>
-      </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+                                  <xref outputclass="businessDefinition" keyref="business_definition_learning_disability">Learning Disabilities</xref>
+          </p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_discharge_method">DISCHARGE METHOD</xref>
+    </p>
+    <ul>
+      <li>
+        <div>
+          <p>
 1   
                                   <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  discharged on clinical advice or with clinical consent                      </p>
-            </div>
-         </li>
-      </ul>
-      <ul>
-         <li>
-            <b>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <b>
 The REOPENED 
-                        <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
-            </b>
-         </li>
-      </ul>
-      <p>
-         <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
-      </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+        </b>
+      </li>
+    </ul>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
+    </p>
+    <ul>
+      <li>
+        <div>
+          <p>
 81     Transfer of any admitted 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  from other 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_hospital_provider">Hospital Provider</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  other than in an emergency                      </p>
-            </div>
-         </li>
-      </ul>
-      <lq>
-         <p>
+        </div>
+      </li>
+    </ul>
+    <lq>
+      <p>
 Note that this 
                     <xref outputclass="attribute" keyref="attribute_admission_method">ADMISSION METHOD</xref>
  is classed under "Other Admission". It is not elective and the 
                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  does therefore not have an entry on an 
-                    <xref outputclass="businessDefinition"
-                  keyref="business_definition_elective_admission_list">Elective Admission List</xref>.              </p>
-      </lq>
-      <xref outputclass="attribute" keyref="attribute_source_of_admission">SOURCE OF ADMISSION</xref>
-      <p>
+                    <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>.              </p>
+    </lq>
+    <xref outputclass="attribute" keyref="attribute_source_of_admission">SOURCE OF ADMISSION</xref>
+    <p>
 Again, this depends on the type of 
               <xref outputclass="class" keyref="class_ward">WARD</xref>
  the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is in, but will be either:          </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 51     NHS other 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_hospital_provider">Hospital Provider</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
                                 <xref outputclass="class" keyref="class_ward">WARD</xref>
  for general 
                                 <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  or the younger physically disabled or 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <p>
 52     NHS other 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider">Hospital Provider</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
                           <xref outputclass="class" keyref="class_ward">WARD</xref>
  for maternity 
                           <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  or 
                           <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonates</xref>
-            </p>
-         </li>
-         <li>
-            <p>
+        </p>
+      </li>
+      <li>
+        <p>
 53     NHS other 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_hospital_provider">Hospital Provider</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  - 
                           <xref outputclass="class" keyref="class_ward">WARD</xref>
  for 
                           <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  who are mentally ill or have 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_learning_disability">Learning Disabilities</xref>
-            </p>
-         </li>
-      </ul>
-      <p>
-         <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
-      </p>
-      <p>
+                          <xref outputclass="businessDefinition" keyref="business_definition_learning_disability">Learning Disabilities</xref>
+        </p>
+      </li>
+    </ul>
+    <p>
+      <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
+    </p>
+    <p>
 This will be the referrer to the 
-                <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+                <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
  within which the 
                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  was receiving care before the merger, i.e. the "original" 
-                <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.          </p>
-      <p>
-         <b>
+                <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.          </p>
+    <p>
+      <b>
 Guidance for Merging Organisations to support Sending of Commissioning Data Sets to the 
-                <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
-         </b>
-      </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+                <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+      </b>
+    </p>
+    <ul>
+      <li>
+        <div>
+          <p>
 The 
-                              <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  have published information regarding issues that may affect the approach to submitting data to the 
-                              <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+                              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 The guidance is available on the 
-                              <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_digital">NHS Digital</xref>
+                              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-                              <xref href="http://digital.nhs.uk/susguidance"
-                        scope="external"
-                        format="html">SUS Guidance: "How do I send data to SUS?"</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
+                              <xref href="http://digital.nhs.uk/susguidance" scope="external" format="html">SUS Guidance: "How do I send data to SUS?"</xref>.                    </p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

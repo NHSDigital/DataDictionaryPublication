@@ -7,67 +7,63 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_offer_status__dating_ultrasound_scan_">OFFER STATUS (DATING ULTRASOUND SCAN)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_offer_status__dating_ultrasound_scan_">OFFER STATUS (DATING ULTRASOUND SCAN)</xref>
  is either attribute 
               <xref outputclass="attribute" keyref="attribute_activity_offer_status">ACTIVITY OFFER STATUS</xref>
  or 
-              <xref outputclass="attribute"
-               keyref="attribute_activity_not_offered_reason_for_maternity">ACTIVITY NOT OFFERED REASON FOR MATERNITY</xref>, for the mother during the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_maternity_episode">Maternity Episode</xref>
+              <xref outputclass="attribute" keyref="attribute_activity_not_offered_reason_for_maternity">ACTIVITY NOT OFFERED REASON FOR MATERNITY</xref>, for the mother during the 
+              <xref outputclass="businessDefinition" keyref="business_definition_maternity_episode">Maternity Episode</xref>
  for the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_dating_ultrasound_scan">Dating Ultrasound Scan</xref>.        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>01</p>
-                  </entry>
-                  <entry>
-                     <p>Offered and Undecided</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>02</p>
-                  </entry>
-                  <entry>
-                     <p>Offered and Declined</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>03</p>
-                  </entry>
-                  <entry>
-                     <p>Offered and Accepted</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>04</p>
-                  </entry>
-                  <entry>
-                     <p>Not Offered</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>SP</p>
-                  </entry>
-                  <entry>
-                     <p>Not eligible - for stage in pregnancy</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+              <xref outputclass="businessDefinition" keyref="business_definition_dating_ultrasound_scan">Dating Ultrasound Scan</xref>.        </p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>01</p>
+            </entry>
+            <entry>
+              <p>Offered and Undecided</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>02</p>
+            </entry>
+            <entry>
+              <p>Offered and Declined</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>03</p>
+            </entry>
+            <entry>
+              <p>Offered and Accepted</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>04</p>
+            </entry>
+            <entry>
+              <p>Not Offered</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>SP</p>
+            </entry>
+            <entry>
+              <p>Not eligible - for stage in pregnancy</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

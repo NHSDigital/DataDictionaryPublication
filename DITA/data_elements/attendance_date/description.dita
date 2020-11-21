@@ -7,31 +7,26 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_attendance_date">ATTENDANCE DATE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_attendance_date">ATTENDANCE DATE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
  where the 
               <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
  is National Code 
               <i>'</i>
-         <i>
-            <xref outputclass="businessDefinition"
-                  keyref="business_definition_care_contact_date">Care Contact Date</xref>
-         </i>
-         <i>'</i>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_attendance_date">ATTENDANCE DATE</xref>
+      <i>
+        <xref outputclass="businessDefinition" keyref="business_definition_care_contact_date">Care Contact Date</xref>
+      </i>
+      <i>'</i>.        </p>
+    <p>
+      <xref outputclass="element" keyref="element_attendance_date">ATTENDANCE DATE</xref>
  is the date of an attendance or contact, for example at a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_consultant_clinic">Consultant Clinic</xref>, 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nurse_clinic">Nurse Clinic</xref>, 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_consultant_clinic">Consultant Clinic</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_nurse_clinic">Nurse Clinic</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
  or by a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_ward_attender">Ward Attender</xref>.        </p>
+              <xref outputclass="businessDefinition" keyref="business_definition_ward_attender">Ward Attender</xref>.        </p>
   </div>
 </body>
 </topic>

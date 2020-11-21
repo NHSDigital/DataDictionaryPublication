@@ -7,149 +7,143 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The 
               <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>, the primary identifier of a 
               <xref outputclass="class" keyref="class_person">PERSON</xref>, is a unique identifier for a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  within the NHS in England and Wales.        </p>
-      <p>
+    <p>
 This will not vary by any 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
- of which a 
+ of which a 
               <xref outputclass="class" keyref="class_person">PERSON</xref>
  is a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
-      <p>
+    <p>
 It is mandatory to record the 
-              <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>. There are exceptions, such as Accident and Emergency care, sexual health and major incidents, as defined in existing national policies.        </p>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>. There are exceptions, such as emergency care, sexual health and major incidents, as defined in existing national policies.        </p>
+    <p>
 The 
               <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
  is 10 numeric digits in length. The tenth digit is a check digit used to confirm its validity. The check digit is validated using the Modulus 11 algorithm and the use of this algorithm is mandatory. There are 5 steps in the validation of the check digit:        </p>
-      <p>
-         <b>Step 1</b>
+    <p>
+      <b>Step 1</b>
  Multiply each of the first nine digits by a weighting factor as follows:        </p>
-      <p>
-         <b>Digit Position</b>
+    <p>
+      <b>Digit Position</b>
 (starting from the left) Factor:        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>1</p>
-                  </entry>
-                  <entry>
-                     <p>10</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>2</p>
-                  </entry>
-                  <entry>
-                     <p>9</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>3</p>
-                  </entry>
-                  <entry>
-                     <p>8</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>4</p>
-                  </entry>
-                  <entry>
-                     <p>7</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>5</p>
-                  </entry>
-                  <entry>
-                     <p>6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>6</p>
-                  </entry>
-                  <entry>
-                     <p>5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>7</p>
-                  </entry>
-                  <entry>
-                     <p>4</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>8</p>
-                  </entry>
-                  <entry>
-                     <p>3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>9</p>
-                  </entry>
-                  <entry>
-                     <p>2</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
-         <b>Step 2</b>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>1</p>
+            </entry>
+            <entry>
+              <p>10</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>2</p>
+            </entry>
+            <entry>
+              <p>9</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>3</p>
+            </entry>
+            <entry>
+              <p>8</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>4</p>
+            </entry>
+            <entry>
+              <p>7</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>5</p>
+            </entry>
+            <entry>
+              <p>6</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>6</p>
+            </entry>
+            <entry>
+              <p>5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>7</p>
+            </entry>
+            <entry>
+              <p>4</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>8</p>
+            </entry>
+            <entry>
+              <p>3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>9</p>
+            </entry>
+            <entry>
+              <p>2</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
+      <b>Step 2</b>
  Add the results of each multiplication together.        </p>
-      <p>
-         <b>Step 3</b>
+    <p>
+      <b>Step 3</b>
  Divide the total by 11 and establish the remainder.        </p>
-      <p>
-         <b>Step 4</b>
+    <p>
+      <b>Step 4</b>
  Subtract the remainder from 11 to give the check digit.        </p>
-      <p>
+    <p>
 If the result is 11 then a check digit of 0 is used. If the result is 10 then the 
               <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
  is invalid and not used.        </p>
-      <p>
-         <b>Step 5</b>
+    <p>
+      <b>Step 5</b>
  Check the remainder matches the check digit. If it does not, the 
               <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBER</xref>
  is invalid.        </p>
-      <p>
+    <p>
 Further guidance is available from the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-              <xref href="https://digital.nhs.uk/article/301/NHS-Number"
-               scope="external"
-               format="html">NHS Number</xref>.        </p>
-      <p>
+              <xref href="https://digital.nhs.uk/article/301/NHS-Number" scope="external" format="html">NHS Number</xref>.        </p>
+    <p>
 Note:
   This was 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
  approved for use in NHS England.
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
  and the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
  
               <b>have been archived</b>
  and are available for reference only.        </p>

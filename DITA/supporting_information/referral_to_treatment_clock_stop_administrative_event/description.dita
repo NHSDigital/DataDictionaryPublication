@@ -7,72 +7,56 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2006/182006.pdf"
-               scope="external"
-               format="html">DSCN 18/2006</xref>
+    <p>
+      <xref href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2006/182006.pdf" scope="external" format="html">DSCN 18/2006</xref>
  published in December 2006, defined essential new data items required to support the measurement of 18 week 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
  (monitoring of DH PSA target 13 - "By 2008, no one will have to wait longer than 18 weeks from GP referral to hospital treatment").        </p>
-      <p>
+    <p>
 In particular, 
-              <xref href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2006/182006.pdf"
-               scope="external"
-               format="html">DSCN 18/2006</xref>
+              <xref href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2006/182006.pdf" scope="external" format="html">DSCN 18/2006</xref>
  introduced the following new data items.        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="element"
-                     keyref="element_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="element"
-                     keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
-            </div>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+        </div>
+      </li>
+    </ul>
+    <p>
 Strategic reporting of 18 weeks will be undertaken by the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  using data obtained via the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>. The data items defined in 
-              <xref href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2006/182006.pdf"
-               scope="external"
-               format="html">DSCN 18/2006</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>. The data items defined in 
+              <xref href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2006/182006.pdf" scope="external" format="html">DSCN 18/2006</xref>
  are enabled to flow in Commissioning Data Set.        </p>
-      <p>
+    <p>
 However, an event which results in an update to the 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  may occur outside the events that are defined in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  (typically Outpatient or Inpatient encounters) and will therefore not flow to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. These types of events have been termed as "administrative events". They can be defined as any communication event between the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. These types of events have been termed as "administrative events". They can be defined as any communication event between the 
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  and the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  that occurs outside of an outpatient attendance or inpatient admission and that results in the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  being changed to stop the 18 week clock. These events are not face to face consultations and do not necessarily involve clinical staff.        </p>
-      <p>
+    <p>
 These 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
  may be carried using the Commissioning Data Set Type 020 Outpatient record type. They are differentiated from 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  contact 
@@ -86,617 +70,526 @@ These
  has taken place which has ended the 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  and changed the 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  to one of the following:        </p>
-      <ul>
-         <li>
-            <p>
+    <ul>
+      <li>
+        <p>
 30 Start of 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
-            </p>
-         </li>
-         <li>
-            <p>
+                          <xref outputclass="businessDefinition" keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+        </p>
+      </li>
+      <li>
+        <p>
 31 Start of 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_active_monitoring">Active Monitoring</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_active_monitoring">Active Monitoring</xref>
  initiated by the 
                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-            </p>
-         </li>
-         <li>
-            <p>
+        </p>
+      </li>
+      <li>
+        <p>
 32 Start of 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_active_monitoring">Active Monitoring</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_active_monitoring">Active Monitoring</xref>
  initiated by the 
                           <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
-            </p>
-         </li>
-         <li>
-            <p>34 Decision not to treat - decision not to treat made or no further contact required</p>
-         </li>
-         <li>
-            <p>
+        </p>
+      </li>
+      <li>
+        <p>34 Decision not to treat - decision not to treat made or no further contact required</p>
+      </li>
+      <li>
+        <p>
 35 
                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  declined offered treatment                </p>
-         </li>
-         <li>
-            <div>
-               <p>
+      </li>
+      <li>
+        <div>
+          <p>
 36 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  died before treatment                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <u>
-            <b>When to Use</b>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
-         </u>
-      </p>
-      <p>These events may happen because:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <u>
+        <b>When to Use</b>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
+      </u>
+    </p>
+    <p>These events may happen because:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 The 
                                 <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  ending the event does not qualify as a "patient contact" between a clinician and 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>, or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 The 
                                 <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  occurred in a setting where IT systems cannot produce 
                                 <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  data items, or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 The 
                                 <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  would be carried in a Commissioning Data Set record type not currently processed by the 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
-               </p>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <u>Secondary Uses Service Processing</u>
-      </p>
-      <p>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+          </p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <u>Secondary Uses Service Processing</u>
+    </p>
+    <p>
 The 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  currently processes the following Commissioning Data Set record types in order to build Referral To Treatment pathways.        </p>
-      <ul>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
-         </li>
-      </ul>
-      <p>
-         <b>All other types are not currently processed</b>
+    <ul>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
+      </li>
+    </ul>
+    <p>
+      <b>All other types are not currently processed</b>
  and so if they carry the 
-              <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
  for a 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>, a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  must also be sent in order to inform the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  of the clock stop.        </p>
-      <p>
+    <p>
 Note that future versions of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  will also process:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_030_-_elective_admission_list_-_end_of_period_census__standard__cds">CDS V6-2 Type 030 - Elective Admission List - End of Period Census (Standard) Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_060_-_elective_admission_list_-_event_during_period__add__cds">CDS V6-2 Type 060 - Elective Admission List - Event During Period (Add) Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_070_-_elective_admission_list_-_event_during_period__remove__cds">CDS V6-2 Type 070 - Elective Admission List - Event During Period (Remove) Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_080_-_elective_admission_list_-_event_during_period__offer__cds">CDS V6-2 Type 080 - Elective Admission List - Event During Period (Offer) Commissioning Data Set</xref>
-            </div>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_030_-_elective_admission_list_-_end_of_period_census__standard__cds">CDS V6-2 Type 030 - Elective Admission List - End of Period Census (Standard) Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_060_-_elective_admission_list_-_event_during_period__add__cds">CDS V6-2 Type 060 - Elective Admission List - Event During Period (Add) Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_070_-_elective_admission_list_-_event_during_period__remove__cds">CDS V6-2 Type 070 - Elective Admission List - Event During Period (Remove) Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_080_-_elective_admission_list_-_event_during_period__offer__cds">CDS V6-2 Type 080 - Elective Admission List - Event During Period (Offer) Commissioning Data Set</xref>
+        </div>
+      </li>
+    </ul>
+    <p>
 The dates when 
               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  submitting 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  data to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  can cease having to also send a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  when a clock stop is carried in one of the Elective Admission List Commissioning Data Set Types, will be notified as part of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  release documentation. It is also anticipated that 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_021_-_future_outpatient_cds">CDS V6-2 Type 021 - Future Outpatient CDS</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_021_-_future_outpatient_cds">CDS V6-2 Type 021 - Future Outpatient CDS</xref>
  will be accepted as a standard by the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_data_coordination_board">Data Coordination Board</xref>. A cancelled future 
+              <xref outputclass="businessDefinition" keyref="business_definition_data_coordination_board">Data Coordination Board</xref>. A cancelled future 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  record could carry a 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  Clock Stop. Again the timescales will be notified as part of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  release documentation.        </p>
-      <p>
+    <p>
 There are no current plans for the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  to process the remaining Commissioning Data Set Types:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_010_-_accident_and_emergency_cds">CDS V6-2 Type 010 - Accident and Emergency Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_040_-_elective_admission_list_-_end_of_period_census__old__cds">CDS V6-2 Type 040 - Elective Admission List - End of Period Census (Old) Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_050_-_elective_admission_list_-_end_of_period_census__new__cds">CDS V6-2 Type 050 - Elective Admission List - End of Period Census (New) Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_090_-_elective_admission_list_-_event_during_period__available_or_unavailable__cds">CDS V6-2 Type 090 - Elective Admission List - Event During Period (Available or Unavailable) Commissioning Data Set</xref>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_100_-_elective_admission_list_-_event_during_period__old_service_agreement__cds">CDS V6-2 Type 100 - Elective Admission List - Event During Period (Old Service Agreement) Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_110_-_elective_admission_list_-_event_during_period__new_service_agreement__cds">CDS V6-2 Type 110 - Elective Admission List - Event During Period (New Service Agreement) Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_140_-_admitted_patient_care_-_finished_delivery_episode_cds">CDS V6-2 Type 140 - Admitted Patient Care - Finished Delivery Episode Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_150_-_admitted_patient_care_-_other_birth_event_cds">CDS V6-2 Type 150 - Admitted Patient Care - Other Birth Event Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_160_-_admitted_patient_care_-_other_delivery_event_cds">CDS V6-2 Type 160 - Admitted Patient Care - Other Delivery Event Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_170_-_admitted_patient_care_-_detained_and_or_long_term_psychiatric_census_cds">CDS V6-2 Type 170 - Admitted Patient Care - Detained and or Long Term Psychiatric Census Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_200_-_admitted_patient_care_-_unfinished_delivery_episode_cds">CDS V6-2 Type 200 - Admitted Patient Care - Unfinished Delivery Episode Commissioning Data Set</xref>
-            </div>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_040_-_elective_admission_list_-_end_of_period_census__old__cds">CDS V6-2 Type 040 - Elective Admission List - End of Period Census (Old) Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_050_-_elective_admission_list_-_end_of_period_census__new__cds">CDS V6-2 Type 050 - Elective Admission List - End of Period Census (New) Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_090_-_elective_admission_list_-_event_during_period__available_or_unavailable__cds">CDS V6-2 Type 090 - Elective Admission List - Event During Period (Available or Unavailable) Commissioning Data Set</xref>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_100_-_elective_admission_list_-_event_during_period__old_service_agreement__cds">CDS V6-2 Type 100 - Elective Admission List - Event During Period (Old Service Agreement) Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_110_-_elective_admission_list_-_event_during_period__new_service_agreement__cds">CDS V6-2 Type 110 - Elective Admission List - Event During Period (New Service Agreement) Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_140_-_admitted_patient_care_-_finished_delivery_episode_cds">CDS V6-2 Type 140 - Admitted Patient Care - Finished Delivery Episode Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_150_-_admitted_patient_care_-_other_birth_event_cds">CDS V6-2 Type 150 - Admitted Patient Care - Other Birth Event Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_160_-_admitted_patient_care_-_other_delivery_event_cds">CDS V6-2 Type 160 - Admitted Patient Care - Other Delivery Event Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_170_-_admitted_patient_care_-_detained_and_or_long_term_psychiatric_census_cds">CDS V6-2 Type 170 - Admitted Patient Care - Detained and or Long Term Psychiatric Census Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_200_-_admitted_patient_care_-_unfinished_delivery_episode_cds">CDS V6-2 Type 200 - Admitted Patient Care - Unfinished Delivery Episode Commissioning Data Set</xref>
+        </div>
+      </li>
+    </ul>
+    <p>
 This is because a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  occurring in the scenarios where these record types are generated, would be rare. However this will be reviewed as part of the ongoing maintenance of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>, and the requirements for the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
-      <p>
-         <u>
-            <b>When NOT to Use a</b>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
-         </u>
-      </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>, and the requirements for the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
+    <p>
+      <u>
+        <b>When NOT to Use a</b>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+      </u>
+    </p>
+    <p>
 The 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  should NOT be used to correct previously submitted records where a 
-              <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
  was submitted incorrectly to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
+    <p>
 For example, if an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
  took place where 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
  was started, but the 
-              <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
  was not sent in the corresponding 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  record as it was not entered on the Patient Administration System until later; then the 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  record should be resubmitted with the correct data. A 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  should NOT be used.        </p>
-      <p>
+    <p>
 Where an 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>'s Patient Administration System supports the submission of cancelled and Did Not Attend appointments in the 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>, the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>, the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  should NOT be used when a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has a booked 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>, which is then cancelled because, for example, the 
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>, which is then cancelled because, for example, the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  dies. In these cases the 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  can carry the details of a cancelled 
               <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>, including the 
-              <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
  and update to the 
-              <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>. (Note - not all Patient Administration Systems provide functionality to create and submit Commissioning Data Set records for cancellations/Did Not Attend's as this is not yet mandated - you should contact your Patient Administration System support team to ascertain whether your Patient Administration System supports this. If not, then it is permissible to send a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>. (Note - not all Patient Administration Systems provide functionality to create and submit Commissioning Data Set records for cancellations/Did Not Attend's as this is not yet mandated - you should contact your Patient Administration System support team to ascertain whether your Patient Administration System supports this. If not, then it is permissible to send a 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  in order to stop the clock in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  instead).
           </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
  only require a sub-set of the data elements contained in the 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  record, to be submitted to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. All other data elements not listed should be omitted from the XML submission of the 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. All other data elements not listed should be omitted from the XML submission of the 
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  record to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. The submission of a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. The submission of a 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  is not reliant on the use of the Net Change 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
  to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
-      </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+    </p>
+    <p>
 The required data elements making up a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>
  are:        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>
-                        <b>Data Element Required</b>
-                     </p>
-                  </entry>
-                  <entry>
-                     <p>
-                        <b>Notes</b>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
-                     <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>
+                <b>Data Element Required</b>
+              </p>
+            </entry>
+            <entry>
+              <p>
+                <b>Notes</b>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
+              <p>
  or  
                         <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
-                     </p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+            <entry>
+              <p>
 The Commissioning Data Set Schema version 6-2 requires EITHER the 
                         <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>, or the 
-                        <xref outputclass="element"
-                              keyref="element_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
+                        <xref outputclass="element" keyref="element_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
  to be populated.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
+            </entry>
+            <entry>
+              <p>
 If the 
-                        <xref outputclass="element"
-                              keyref="element_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
+                        <xref outputclass="element" keyref="element_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
  is used, the 
-                        <xref outputclass="element"
-                              keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
+                        <xref outputclass="element" keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
   should contain X09 (which relates to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_choose_and_book">Choose and Book</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_choose_and_book">Choose and Book</xref>
  system)                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+            </entry>
+            <entry>
+              <p>
 This should contain only one of the following codes to signify that the 
                         <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
   has ended:                  </p>
-                     <ul>
-                        <li>
-                           <div>
-                              <p>
+              <ul>
+                <li>
+                  <div>
+                    <p>
 30 Start of 
-                                                <xref outputclass="businessDefinition"
-                                       keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
-                              </p>
-                           </div>
-                        </li>
-                        <li>
-                           <div>
-                              <p>
+                                                <xref outputclass="businessDefinition" keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>
 31 Start of 
-                                                <xref outputclass="businessDefinition"
-                                       keyref="business_definition_active_monitoring">Active Monitoring</xref>
+                                                <xref outputclass="businessDefinition" keyref="business_definition_active_monitoring">Active Monitoring</xref>
   initiated by the 
                                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-                              </p>
-                           </div>
-                        </li>
-                        <li>
-                           <div>
-                              <p>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>
 32 Start of 
-                                                <xref outputclass="businessDefinition"
-                                       keyref="business_definition_active_monitoring">Active Monitoring</xref>
+                                                <xref outputclass="businessDefinition" keyref="business_definition_active_monitoring">Active Monitoring</xref>
   initiated 
                                                 <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
-                              </p>
-                           </div>
-                        </li>
-                        <li>
-                           <div>
-                              <p>34 Decision not to treat - decision not to treat made or no further contact required</p>
-                           </div>
-                        </li>
-                        <li>
-                           <div>
-                              <p>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>34 Decision not to treat - decision not to treat made or no further contact required</p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>
 35 
                                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
   declined offered treatment                                    </p>
-                           </div>
-                        </li>
-                        <li>
-                           <div>
-                              <p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>
 36 
                                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
   died before treatment                                    </p>
-                           </div>
-                        </li>
-                     </ul>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>
-                  </entry>
-                  <entry>
-                     <p>This item is XML mandatory in the CDS V6-2 schema.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>
-                        <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
-                     </p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_first_attendance_code">FIRST ATTENDANCE CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>This should always hold the National code 5 - "Referral to Treatment Period Clock Stop Administrative Event"</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
-                  </entry>
-                  <entry>
-                     <p>
+                  </div>
+                </li>
+              </ul>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>
+            </entry>
+            <entry>
+              <p>This item is XML mandatory in the CDS V6-2 schema.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>
+                <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+              </p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_postcode_of_usual_address">POSTCODE OF USUAL ADDRESS</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_first_attendance_code">FIRST ATTENDANCE CODE</xref>
+            </entry>
+            <entry>
+              <p>This should always hold the National code 5 - "Referral to Treatment Period Clock Stop Administrative Event"</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_appointment_date">APPOINTMENT DATE</xref>
+            </entry>
+            <entry>
+              <p>
 This field is XML mandatory in Commissioning Data Set Schema version 6-2 for Type 020 Outpatients, and for the purposes of the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>, should hold the same date as the 
-                        <xref outputclass="element"
-                              keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Event</xref>, should hold the same date as the 
+                        <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_age_at_cds_activity_date">AGE AT CDS ACTIVITY DATE</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_age_at_cds_activity_date">AGE AT CDS ACTIVITY DATE</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>
 This field is XML mandatory in the Commissioning Data Set Schema version 6-2 for Type 020 Outpatients, and should hold the 
                         <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
   age at 
-                        <xref outputclass="element"
-                              keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
-                  </entry>
-                  <entry>
-                     <p>This field is mandatory in the CDS V6-2 schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>This field is mandatory in the CDS V6-2 schema</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+                        <xref outputclass="element" keyref="element_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+            </entry>
+            <entry>
+              <p>This field is mandatory in the CDS V6-2 schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>This field is mandatory in the CDS V6-2 schema</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

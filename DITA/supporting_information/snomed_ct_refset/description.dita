@@ -7,95 +7,79 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>
 Is a data structure defined within 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
 ® Release Format 2 (RF2)                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Consists of a set of references to 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
 ® components, like concepts, descriptions or relationships.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+        </div>
+      </li>
+    </ul>
+    <p>
 In its simple form a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
  is used to represent a subset of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
 ® content.        </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>Usually represent groups of concepts that share specified characteristics (for example, a specific clinical domain)</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Support user interface development through the organisation of clinical display, creation of menus and pick-lists, or support of knowledge structures</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>May be created as value sets for messaging or data entry.</p>
-            </div>
-         </li>
-      </ul>
-      <p>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>Usually represent groups of concepts that share specified characteristics (for example, a specific clinical domain)</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Support user interface development through the organisation of clinical display, creation of menus and pick-lists, or support of knowledge structures</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>May be created as value sets for messaging or data entry.</p>
+        </div>
+      </li>
+    </ul>
+    <p>
 Different types of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>
  are used to represent:        </p>
-      <ul>
-         <li>
-            <p>Descriptions or concepts for particular realms or specialties</p>
-         </li>
-         <li>
-            <p>Suitability of particular concepts for use in a particular context in a record.</p>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <p>Descriptions or concepts for particular realms or specialties</p>
+      </li>
+      <li>
+        <p>Suitability of particular concepts for use in a particular context in a record.</p>
+      </li>
+    </ul>
+    <p>
 For further information on 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>, see the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>, see the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
 ® Glossary at: 
-              <xref href="https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+set"
-               scope="external"
-               format="html">SNOMED CT reference set</xref>.        </p>
-      <p>
+              <xref href="https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+set" scope="external" format="html">SNOMED CT reference set</xref>.        </p>
+    <p>
 Change requests for 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refsets</xref>
  released by 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  should be made through the Request Submission Portal on the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-              <xref href="https://isd.digital.nhs.uk/rsp/"
-               scope="external"
-               format="html">Welcome to the Request Submission Portal</xref>.        </p>
+              <xref href="https://isd.digital.nhs.uk/rsp/" scope="external" format="html">Welcome to the Request Submission Portal</xref>.        </p>
   </div>
 </body>
 </topic>

@@ -7,28 +7,23 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_procedure__opcs_">PROCEDURE (OPCS)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_procedure__opcs_">PROCEDURE (OPCS)</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_clinical_classification_code">CLINICAL CLASSIFICATION CODE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_procedure__opcs_">PROCEDURE (OPCS)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_procedure__opcs_">PROCEDURE (OPCS)</xref>
  is a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_patient_procedure">Patient Procedure</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_patient_procedure">Patient Procedure</xref>
  other than the 
               <xref outputclass="element" keyref="element_primary_procedure__opcs_">PRIMARY PROCEDURE (OPCS)</xref>.        </p>
-      <p>
+    <p>
 For 
-              <xref href="https://v3.datadictionary.nhs.uk/web_site_content/navigation/commissioning_data_sets_menu.html"
-               scope="external"
-               format="html">Commissioning Data Sets</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/web_site_content/navigation/commissioning_data_sets_menu.html" scope="external" format="html">Commissioning Data Sets</xref>
  purposes it is recommended that multiple 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_patient_procedure">Patient Procedures</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_patient_procedure">Patient Procedures</xref>
  are recorded and the CDS XML Schema (CDS Version 6 onwards) has been designed to carry as many 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_patient_procedure">Patient Procedures</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_patient_procedure">Patient Procedures</xref>
  as required.        </p>
   </div>
 </body>

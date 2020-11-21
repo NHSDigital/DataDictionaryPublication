@@ -7,18 +7,16 @@
   </titlealts>
   <body>
   <div>
-      <p>
-This is a statement of the operational planning intent for a particular 
+    <p>
+A statement of the operational planning intent for a particular 
               <xref outputclass="class" keyref="class_ward">WARD</xref>, including intended time and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_bed">Hospital Bed</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_bed">Hospital Bed</xref>
  availability, 
               <xref outputclass="class" keyref="class_treatment_function">TREATMENT FUNCTION</xref>
  and 
               <xref outputclass="attribute" keyref="attribute_clinical_care_intensity">CLINICAL CARE INTENSITY</xref>.        </p>
-      <p>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_bed">Hospital Bed</xref>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_hospital_bed">Hospital Bed</xref>
  availability, in the above, is expressed as the 
               <xref outputclass="class" keyref="class_ward">WARD</xref>
  Total Beds Intended (<xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
@@ -30,8 +28,7 @@ This is a statement of the operational planning intent for a particular
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>. This should reflect the number of places available for 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  care rather than just a count of physical devices that may be used as a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_bed">Hospital Bed</xref>.        </p>
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_bed">Hospital Bed</xref>.        </p>
   </div>
 </body>
 </topic>

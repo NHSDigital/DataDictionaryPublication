@@ -7,10 +7,9 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The purpose of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  is to enable conformant health 
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  information to be generated, independent of the 
@@ -19,119 +18,103 @@ The purpose of the
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>
  to measure and compare the delivery and quality of care provided and to support them in sharing information with other health professionals and 
               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>.        </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  currently support the following 
               <xref outputclass="class" keyref="class_activity">ACTIVITIES</xref>:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 monitoring and managing 
                                 <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENTS</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>developing commissioning plans</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>developing commissioning plans</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 supporting the 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>underpinning clinical governance</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>understanding the health needs of the population</p>
-            </div>
-         </li>
-         <li>
-            <p>reporting waiting time measurement</p>
-         </li>
-      </ul>
-      <p>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>underpinning clinical governance</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>understanding the health needs of the population</p>
+        </div>
+      </li>
+      <li>
+        <p>reporting waiting time measurement</p>
+      </li>
+    </ul>
+    <p>
 Information on care provided for all 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  by 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>
  (both NHS and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Providers</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Providers</xref>
  for NHS 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  only) must be submitted to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  according to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_mandated_data_flows">Commissioning Data Set Mandated Data Flows</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_mandated_data_flows">Commissioning Data Set Mandated Data Flows</xref>
  guidelines.        </p>
-      <p>
+    <p>
 Commissioning 
               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  need access to data to monitor 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>
  as part of the management of their 
               <xref outputclass="class" keyref="class_nhs_service_agreement">NHS SERVICE AGREEMENTS</xref>, and to monitor in-year 
               <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUESTS</xref>
  to investigate the sources and reasons for 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.        </p>
+    <p>
 The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
  requires accurate data for all 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
- admitted treated as out-patients or treated as an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
+ admitted, treated as out-patients or treated as an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
  by 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>, including 
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>, including 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  receiving private treatment. The 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  also includes NHS 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  treated electively in the independent sector and overseas.        </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>
  may also flow using the 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>. This allows the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>. This allows the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  to build accurate 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAYS</xref>
  for the reporting of waiting time measurement.        </p>
-      <p>
-         <b>
-            <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
-         </b>
+    <p>
+      <b>
+        <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+      </b>
 The 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  are the basic structure used for the submission of commissioning data to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
- and is designed to be capable of individually conveying many different Commissioning Data Set structures encompassing Accident and Emergency Attendances, Out-Patient Attendances, Future Attendances, Admitted Patient Care and Elective Admission List data.        </p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ and is designed to be capable of individually conveying many different Commissioning Data Set structures encompassing 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendances</xref>, Out-Patient Attendances, Future Attendances, Admitted Patient Care and Elective Admission List data.        </p>
   </div>
 </body>
 </topic>

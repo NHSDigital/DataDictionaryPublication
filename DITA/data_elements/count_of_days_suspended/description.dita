@@ -7,18 +7,16 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_count_of_days_suspended">COUNT OF DAYS SUSPENDED</xref>
+    <p>
+      <xref outputclass="element" keyref="element_count_of_days_suspended">COUNT OF DAYS SUSPENDED</xref>
  is a derived data item which is mandatory for the Elective Admission List Census Commissioning Data Sets.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_count_of_days_suspended">COUNT OF DAYS SUSPENDED</xref>
+    <p>
+      <xref outputclass="element" keyref="element_count_of_days_suspended">COUNT OF DAYS SUSPENDED</xref>
  gives an aggregate count of the number of days the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has been suspended since either the 
-              <xref outputclass="element"
-               keyref="element_last_dna_or_patient_cancelled_date">LAST DNA OR PATIENT CANCELLED DATE</xref>, if applicable, or from the 
-              <xref outputclass="attribute"
-               keyref="attribute_original_decided_to_admit_date">ORIGINAL DECIDED TO ADMIT DATE</xref>.        </p>
+              <xref outputclass="element" keyref="element_last_dna_or_patient_cancelled_date">LAST DNA OR PATIENT CANCELLED DATE</xref>, if applicable, or from the 
+              <xref outputclass="attribute" keyref="attribute_original_decided_to_admit_date">ORIGINAL DECIDED TO ADMIT DATE</xref>.        </p>
   </div>
 </body>
 </topic>

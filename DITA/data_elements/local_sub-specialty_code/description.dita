@@ -7,12 +7,12 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_local_sub-specialty_code">LOCAL SUB-SPECIALTY CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_local_sub-specialty_code">LOCAL SUB-SPECIALTY CODE</xref>
  is the same as the attribute 
               <xref outputclass="attribute" keyref="attribute_local_sub-specialty_code">LOCAL SUB-SPECIALTY CODE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_local_sub-specialty_code">LOCAL SUB-SPECIALTY CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_local_sub-specialty_code">LOCAL SUB-SPECIALTY CODE</xref>
  is an optional item in the Commissioning Data Set version 6-2, and is for local use only.  However it must NOT contain any text which may identify the 
               <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
  of the 
@@ -20,13 +20,11 @@
  to which the 
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  relates (for example, it must not include the acronym 'HIV') or the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_patient_procedure">Patient Procedure</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_patient_procedure">Patient Procedure</xref>
  being undertaken (for example using the acronym 'TOP' for terminations of pregnancy). Use of such identifiers contravenes the legal requirements for withholding identifiable information about 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  with identified conditions.  See 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_security_issues_and_patient_confidentiality">Security Issues and Patient Confidentiality</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_security_issues_and_patient_confidentiality">Security Issues and Patient Confidentiality</xref>
  for further details.         </p>
   </div>
 </body>

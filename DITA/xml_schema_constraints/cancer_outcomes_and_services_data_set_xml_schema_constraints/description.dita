@@ -7,2253 +7,2179 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 XML Schema constraints applied to the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">Cancer Outcomes and Services Data Set</xref>.        </p>
-      <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
-      <ul>
-         <li>
-            <div>
-               <p>None = The National Codes and Default Codes are included in the XML Schema</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
-            </div>
-         </li>
-      </ul>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="6">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>Data Element</b>
-                  </entry>
-                  <entry>
-                     <b>XML Schema Format/Length</b>
-                  </entry>
-                  <entry>
-                     <b>Allowed Values</b>
-                  </entry>
-                  <entry>
-                     <b>Range</b>
-                  </entry>
-                  <entry>
-                     <b>Pattern Match</b>
-                  </entry>
-                  <entry>
-                     <b>Reason / Comment / XML Choice</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_abbreviated_mental_test_score">ABBREVIATED MENTAL TEST SCORE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-10</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-10</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_allred_score__estrogen_receptor_">ALLRED SCORE (ESTROGEN RECEPTOR)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0 and 2-8</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Range 0 and 2-8</p>
-                     </div>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_allred_score__progesterone_receptor_">ALLRED SCORE (PROGESTERONE RECEPTOR)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0 and 2-8</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Range 0 and 2-8</p>
-                     </div>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_bone_marrow_blast_cells_percentage">BONE MARROW BLAST CELLS PERCENTAGE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-100</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-100</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_body_mass_index">BODY MASS INDEX</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{2}(\.\d){1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>.        </p>
+    <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
+    <ul>
+      <li>
+        <div>
+          <p>None = The National Codes and Default Codes are included in the XML Schema</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
+        </div>
+      </li>
+    </ul>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="6">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <b>Data Element</b>
+            </entry>
+            <entry>
+              <b>XML Schema Format/Length</b>
+            </entry>
+            <entry>
+              <b>Allowed Values</b>
+            </entry>
+            <entry>
+              <b>Range</b>
+            </entry>
+            <entry>
+              <b>Pattern Match</b>
+            </entry>
+            <entry>
+              <b>Reason / Comment / XML Choice</b>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_abbreviated_mental_test_score">ABBREVIATED MENTAL TEST SCORE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-10</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-10</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_allred_score__estrogen_receptor_">ALLRED SCORE (ESTROGEN RECEPTOR)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0 and 2-8</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>Range 0 and 2-8</p>
+              </div>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_allred_score__progesterone_receptor_">ALLRED SCORE (PROGESTERONE RECEPTOR)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0 and 2-8</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>Range 0 and 2-8</p>
+              </div>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_bone_marrow_blast_cells_percentage">BONE MARROW BLAST CELLS PERCENTAGE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-100</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-100</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_body_mass_index">BODY MASS INDEX</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{2}(\.\d){1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_body_mass_index">BODY MASS INDEX</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_breslow_thickness">BRESLOW THICKNESS</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,2}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_breslow_thickness">BRESLOW THICKNESS</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,2}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_breslow_thickness">BRESLOW THICKNESS</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cancer_symptoms_first_noted_date">CANCER SYMPTOMS FIRST NOTED DATE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])|(19|20)\d\d-(0[1-9]|1[012])|(19|20)\d\d)</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cancer_symptoms_first_noted_date">CANCER SYMPTOMS FIRST NOTED DATE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>((19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])|(19|20)\d\d-(0[1-9]|1[012])|(19|20)\d\d)</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_cancer_symptoms_first_noted_date">CANCER SYMPTOMS FIRST NOTED DATE</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_cardiopulmonary_exercise_test_result">CARDIOPULMONARY EXERCISE TEST RESULT</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-200</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-200</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_care_professional_main_specialty_code__cancer_referral_">CARE PROFESSIONAL MAIN SPECIALTY CODE (CANCER REFERRAL)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes and default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_care_professional_main_specialty_code__diagnosis_">CARE PROFESSIONAL MAIN SPECIALTY CODE (DIAGNOSIS)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes and default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cellularity_percentage">CELLULARITY PERCENTAGE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-100</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-100</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_chronic_myeloid_leukaemia_index_score__sokal_">CHRONIC MYELOID LEUKAEMIA INDEX SCORE (SOKAL)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1}(\.\d){1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cardiopulmonary_exercise_test_result">CARDIOPULMONARY EXERCISE TEST RESULT</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-200</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-200</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_care_professional_main_specialty_code__cancer_referral_">CARE PROFESSIONAL MAIN SPECIALTY CODE (CANCER REFERRAL)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes and default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_care_professional_main_specialty_code__diagnosis_">CARE PROFESSIONAL MAIN SPECIALTY CODE (DIAGNOSIS)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes and default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cellularity_percentage">CELLULARITY PERCENTAGE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-100</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-100</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_chronic_myeloid_leukaemia_index_score__sokal_">CHRONIC MYELOID LEUKAEMIA INDEX SCORE (SOKAL)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1}(\.\d){1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_chronic_myeloid_leukaemia_index_score__sokal_">CHRONIC MYELOID LEUKAEMIA INDEX SCORE (SOKAL)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_chronic_myeloid_leukaemia_index_score__sokal_">CHRONIC MYELOID LEUKAEMIA INDEX SCORE (SOKAL)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_cosds_submission_record_count">COSDS SUBMISSION RECORD COUNT</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_diagnosis__snomed_ct_">DIAGNOSIS (SNOMED CT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_diagnosis__snomed_ct_">DIAGNOSIS (SNOMED CT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_diagnosis__snomed_ct_">DIAGNOSIS (SNOMED CT)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_diffusion_capacity_test_result">DIFFUSION CAPACITY TEST RESULT</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-200</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-200</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_distance_beyond_muscularis_propria">DISTANCE BEYOND MUSCULARIS PROPRIA</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_diffusion_capacity_test_result">DIFFUSION CAPACITY TEST RESULT</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-200</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-200</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_distance_beyond_muscularis_propria">DISTANCE BEYOND MUSCULARIS PROPRIA</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_distance_beyond_muscularis_propria">DISTANCE BEYOND MUSCULARIS PROPRIA</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_distance_from_dentate_line">DISTANCE FROM DENTATE LINE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_distance_beyond_muscularis_propria">DISTANCE BEYOND MUSCULARIS PROPRIA</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_distance_from_dentate_line">DISTANCE FROM DENTATE LINE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_distance_from_dentate_line">DISTANCE FROM DENTATE LINE</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_distance_to_closest_non_peritonealised_resection_margin">DISTANCE TO CLOSEST NON PERITONEALISED RESECTION MARGIN</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,2}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_distance_to_closest_non_peritonealised_resection_margin">DISTANCE TO CLOSEST NON PERITONEALISED RESECTION MARGIN</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,2}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_distance_to_closest_non_peritonealised_resection_margin">DISTANCE TO CLOSEST NON PERITONEALISED RESECTION MARGIN</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_distance_to_margin">DISTANCE TO MARGIN</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,2}\.\d{1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_distance_to_closest_non_peritonealised_resection_margin">DISTANCE TO CLOSEST NON PERITONEALISED RESECTION MARGIN</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_distance_to_margin">DISTANCE TO MARGIN</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,2}\.\d{1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_distance_to_margin">DISTANCE TO MARGIN</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
-                  </entry>
-                  <entry>
-                     <p>max an2</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length an2 means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. XML Schema allows max an2</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_follicular_lymphoma_international_prognostic_index_2_score">FOLLICULAR LYMPHOMA INTERNATIONAL PROGNOSTIC INDEX 2 SCORE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-5</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_forced_expiratory_volume_in_1_second__absolute_amount_">FORCED EXPIRATORY VOLUME IN 1 SECOND (ABSOLUTE AMOUNT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0.10-9.99</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(0.1[0-9]{1}|0.[2-9]{1}[0-9]{1}|[1-9].\d\d){1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+            </entry>
+            <entry>
+              <p>max an2</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length an2 means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. XML Schema allows max an2</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_follicular_lymphoma_international_prognostic_index_2_score">FOLLICULAR LYMPHOMA INTERNATIONAL PROGNOSTIC INDEX 2 SCORE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-5</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_forced_expiratory_volume_in_1_second__absolute_amount_">FORCED EXPIRATORY VOLUME IN 1 SECOND (ABSOLUTE AMOUNT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0.10-9.99</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(0.1[0-9]{1}|0.[2-9]{1}[0-9]{1}|[1-9].\d\d){1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Range 0.10 to 9.99. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_forced_expiratory_volume_in_1_second__absolute_amount_">FORCED EXPIRATORY VOLUME IN 1 SECOND (ABSOLUTE AMOUNT)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_forced_expiratory_volume_in_1_second__percentage_">FORCED EXPIRATORY VOLUME IN 1 SECOND (PERCENTAGE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>1-200</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 1 to 200</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{6}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_forced_expiratory_volume_in_1_second__absolute_amount_">FORCED EXPIRATORY VOLUME IN 1 SECOND (ABSOLUTE AMOUNT)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_forced_expiratory_volume_in_1_second__percentage_">FORCED EXPIRATORY VOLUME IN 1 SECOND (PERCENTAGE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>1-200</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 1 to 200</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{6}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_gleason_grade__primary_">GLEASON GRADE (PRIMARY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>2-5</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 2-5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_gleason_grade__secondary_">GLEASON GRADE (SECONDARY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>2-5</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 2-5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_gleason_grade__tertiary_">GLEASON GRADE (TERTIARY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>3-5 and 8</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 3-5 and 8</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_hasenclever_index_score">HASENCLEVER INDEX SCORE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-7</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-7</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_imaging_code__snomed_ct_">IMAGING CODE (SNOMED CT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_gleason_grade__primary_">GLEASON GRADE (PRIMARY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>2-5</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 2-5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_gleason_grade__secondary_">GLEASON GRADE (SECONDARY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>2-5</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 2-5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_gleason_grade__tertiary_">GLEASON GRADE (TERTIARY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>3-5 and 8</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 3-5 and 8</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_hasenclever_index_score">HASENCLEVER INDEX SCORE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-7</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-7</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_imaging_code__snomed_ct_">IMAGING CODE (SNOMED CT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_imaging_code__snomed_ct_">IMAGING CODE (SNOMED CT)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_invasive_thickness">INVASIVE THICKNESS</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,2}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_invasive_thickness">INVASIVE THICKNESS</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,2}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_invasive_thickness">INVASIVE THICKNESS</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_ki-67_percentage_result">KI-67 PERCENTAGE RESULT</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-100</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-100</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_lesion_size__pathological_">LESION SIZE (PATHOLOGICAL)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_ki-67_percentage_result">KI-67 PERCENTAGE RESULT</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-100</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-100</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_lesion_size__pathological_">LESION SIZE (PATHOLOGICAL)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_lesion_size__pathological_">LESION SIZE (PATHOLOGICAL)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_lesion_size__radiological_">LESION SIZE (RADIOLOGICAL)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_lesion_size__radiological_">LESION SIZE (RADIOLOGICAL)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_lesion_size__radiological_">LESION SIZE (RADIOLOGICAL)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_local_patient_identifier__extended_">LOCAL PATIENT IDENTIFIER (EXTENDED)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an1 max an20</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. XML Schema allows min an1 max an20</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_molecular_diagnostic_code">MOLECULAR DIAGNOSTIC CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(0[6-9]|[1-8][0-9]|9[012389])</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_local_patient_identifier__extended_">LOCAL PATIENT IDENTIFIER (EXTENDED)</xref>
+            </entry>
+            <entry>
+              <p>min an1 max an20</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. XML Schema allows min an1 max an20</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_molecular_diagnostic_code">MOLECULAR DIAGNOSTIC CODE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(0[6-9]|[1-8][0-9]|9[012389])</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_molecular_diagnostic_code">MOLECULAR DIAGNOSTIC CODE</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_morphology__snomed_cancer_transformation_">MORPHOLOGY (SNOMED CANCER TRANSFORMATION)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_morphology__snomed_cancer_transformation_">MORPHOLOGY (SNOMED CANCER TRANSFORMATION)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_morphology__snomed_cancer_transformation_">MORPHOLOGY (SNOMED CANCER TRANSFORMATION)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_morphology__snomed_cancer_transformation_">MORPHOLOGY (SNOMED CANCER TRANSFORMATION)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_morphology__snomed_pathology_">MORPHOLOGY (SNOMED PATHOLOGY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_morphology__snomed_pathology_">MORPHOLOGY (SNOMED PATHOLOGY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_morphology__snomed_pathology_">MORPHOLOGY (SNOMED PATHOLOGY)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_multidisciplinary_team_meeting_type__cancer_">MULTIDISCIPLINARY TEAM MEETING TYPE (CANCER)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9]{10}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_multidisciplinary_team_meeting_type__cancer_">MULTIDISCIPLINARY TEAM MEETING TYPE (CANCER)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9]{10}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_non_invasive_tumour_size">NON INVASIVE TUMOUR SIZE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_non_invasive_tumour_size">NON INVASIVE TUMOUR SIZE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_non_invasive_tumour_size">NON INVASIVE TUMOUR SIZE</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_nottingham_prognostic_index_score">NOTTINGHAM PROGNOSTIC INDEX SCORE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,2}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_nottingham_prognostic_index_score">NOTTINGHAM PROGNOSTIC INDEX SCORE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,2}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_nottingham_prognostic_index_score">NOTTINGHAM PROGNOSTIC INDEX SCORE</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an5</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{3,5}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_nottingham_prognostic_index_score">NOTTINGHAM PROGNOSTIC INDEX SCORE</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an5</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{3,5}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. an6 is not applicable for the 
-                        <xref scope="external"
-                              format="html"
-                              href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html">Cancer Outcomes and Services Data Set</xref>. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__code_of_submitting_organisation_">ORGANISATION IDENTIFIER (CODE OF SUBMITTING ORGANISATION)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{3,6}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref scope="external" format="html" href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html">Cancer Outcomes and Services Data Set</xref>. Format pattern applied to allow correct reporting of 
+                        <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_submitting_organisation_">ORGANISATION IDENTIFIER (CODE OF SUBMITTING ORGANISATION)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{3,6}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_identifier__code_of_submitting_organisation_">ORGANISATION IDENTIFIER (CODE OF SUBMITTING ORGANISATION)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__reporting_laboratory_">ORGANISATION IDENTIFIER (REPORTING LABORATORY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{3,5}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_identifier__code_of_submitting_organisation_">ORGANISATION IDENTIFIER (CODE OF SUBMITTING ORGANISATION)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__reporting_laboratory_">ORGANISATION IDENTIFIER (REPORTING LABORATORY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{3,5}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_identifier__reporting_laboratory_">ORGANISATION IDENTIFIER (REPORTING LABORATORY)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__of_authorising_pathologist_">ORGANISATION IDENTIFIER (OF AUTHORISING PATHOLOGIST)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{3,5}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_identifier__reporting_laboratory_">ORGANISATION IDENTIFIER (REPORTING LABORATORY)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__of_authorising_pathologist_">ORGANISATION IDENTIFIER (OF AUTHORISING PATHOLOGIST)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{3,5}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_identifier__of_authorising_pathologist_">ORGANISATION IDENTIFIER (OF AUTHORISING PATHOLOGIST)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_acute_oncology_assessment_">ORGANISATION SITE IDENTIFIER (OF ACUTE ONCOLOGY ASSESSMENT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_identifier__of_authorising_pathologist_">ORGANISATION IDENTIFIER (OF AUTHORISING PATHOLOGIST)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_acute_oncology_assessment_">ORGANISATION SITE IDENTIFIER (OF ACUTE ONCOLOGY ASSESSMENT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_acute_oncology_assessment_">ORGANISATION SITE IDENTIFIER (OF ACUTE ONCOLOGY ASSESSMENT)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_cancer_site_specific_stage_">ORGANISATION SITE IDENTIFIER (OF CANCER SITE SPECIFIC STAGE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_acute_oncology_assessment_">ORGANISATION SITE IDENTIFIER (OF ACUTE ONCOLOGY ASSESSMENT)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_cancer_site_specific_stage_">ORGANISATION SITE IDENTIFIER (OF CANCER SITE SPECIFIC STAGE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_cancer_site_specific_stage_">ORGANISATION SITE IDENTIFIER (OF CANCER SITE SPECIFIC STAGE)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_diagnosis_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSIS)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_cancer_site_specific_stage_">ORGANISATION SITE IDENTIFIER (OF CANCER SITE SPECIFIC STAGE)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_diagnosis_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSIS)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_diagnostic_procedure_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSTIC PROCEDURE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_diagnostic_procedure_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSTIC PROCEDURE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_diagnostic_procedure_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSTIC PROCEDURE)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_imaging_">ORGANISATION SITE IDENTIFIER (OF IMAGING)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_diagnostic_procedure_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSTIC PROCEDURE)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_imaging_">ORGANISATION SITE IDENTIFIER (OF IMAGING)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_imaging_">ORGANISATION SITE IDENTIFIER (OF IMAGING)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__of_laboratory_result_">ORGANISATION IDENTIFIER (OF LABORATORY RESULT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{3,5}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_imaging_">ORGANISATION SITE IDENTIFIER (OF IMAGING)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__of_laboratory_result_">ORGANISATION IDENTIFIER (OF LABORATORY RESULT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{3,5}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_identifier__of_laboratory_result_">ORGANISATION IDENTIFIER (OF LABORATORY RESULT)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_multidisciplinary_team_meeting_">ORGANISATION SITE IDENTIFIER (OF MULTIDISCIPLINARY TEAM MEETING)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_identifier__of_laboratory_result_">ORGANISATION IDENTIFIER (OF LABORATORY RESULT)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_multidisciplinary_team_meeting_">ORGANISATION SITE IDENTIFIER (OF MULTIDISCIPLINARY TEAM MEETING)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_multidisciplinary_team_meeting_">ORGANISATION SITE IDENTIFIER (OF MULTIDISCIPLINARY TEAM MEETING)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_pathology_test_request_">ORGANISATION SITE IDENTIFIER (OF PATHOLOGY TEST REQUEST)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_multidisciplinary_team_meeting_">ORGANISATION SITE IDENTIFIER (OF MULTIDISCIPLINARY TEAM MEETING)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_pathology_test_request_">ORGANISATION SITE IDENTIFIER (OF PATHOLOGY TEST REQUEST)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_pathology_test_request_">ORGANISATION SITE IDENTIFIER (OF PATHOLOGY TEST REQUEST)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_provider_cancer_treatment_start_date_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CANCER TREATMENT START DATE)</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_pathology_test_request_">ORGANISATION SITE IDENTIFIER (OF PATHOLOGY TEST REQUEST)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_cancer_treatment_start_date_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CANCER TREATMENT START DATE)</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_provider_cancer_treatment_start_date_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CANCER TREATMENT START DATE)</xref>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_cancer_treatment_start_date_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CANCER TREATMENT START DATE)</xref>
   .                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_provider_first_cancer_specialist_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST CANCER SPECIALIST)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_cancer_specialist_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST CANCER SPECIALIST)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_provider_first_cancer_specialist_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST CANCER SPECIALIST)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_cancer_specialist_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST CANCER SPECIALIST)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_provider_first_seen_non_primary_cancer_pathway_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN NON PRIMARY CANCER PATHWAY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_seen_non_primary_cancer_pathway_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN NON PRIMARY CANCER PATHWAY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_provider_first_seen_non_primary_cancer_pathway_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN NON PRIMARY CANCER PATHWAY)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_tnm_stage_grouping_final_pretreatment_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING FINAL PRETREATMENT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_seen_non_primary_cancer_pathway_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN NON PRIMARY CANCER PATHWAY)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_tnm_stage_grouping_final_pretreatment_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING FINAL PRETREATMENT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_tnm_stage_grouping_final_pretreatment_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING FINAL PRETREATMENT)</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_tnm_stage_grouping_integrated_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING INTEGRATED)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{5,9}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_tnm_stage_grouping_final_pretreatment_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING FINAL PRETREATMENT)</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_tnm_stage_grouping_integrated_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING INTEGRATED)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{5,9}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Default codes not enumerated in the XML Schema. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_organisation_site_identifier__of_tnm_stage_grouping_integrated_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING INTEGRATED)</xref>).                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_person_height_in_metres">PERSON HEIGHT IN METRES</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1}(\.\d{1,2}){1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_organisation_site_identifier__of_tnm_stage_grouping_integrated_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING INTEGRATED)</xref>).                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_person_height_in_metres">PERSON HEIGHT IN METRES</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1}(\.\d{1,2}){1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_person_height_in_metres">PERSON HEIGHT IN METRES</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1,3}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1,3}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_primary_procedure__snomed_ct_">PRIMARY PROCEDURE (SNOMED CT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_primary_procedure__snomed_ct_">PRIMARY PROCEDURE (SNOMED CT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_primary_procedure__snomed_ct_">PRIMARY PROCEDURE (SNOMED CT)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_procedure__snomed_ct_">PROCEDURE (SNOMED CT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_procedure__snomed_ct_">PROCEDURE (SNOMED CT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_procedure__snomed_ct_">PROCEDURE (SNOMED CT)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_prostate_specific_antigen__diagnosis_">PROSTATE SPECIFIC ANTIGEN (DIAGNOSIS)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,5}(\.\d){1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_prostate_specific_antigen__diagnosis_">PROSTATE SPECIFIC ANTIGEN (DIAGNOSIS)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,5}(\.\d){1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_prostate_specific_antigen__diagnosis_">PROSTATE SPECIFIC ANTIGEN (DIAGNOSIS)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_revised_international_prognostic_index_score">REVISED INTERNATIONAL PROGNOSTIC INDEX SCORE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-5</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_topography__snomed_pathology_">TOPOGRAPHY (SNOMED PATHOLOGY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z0-9]{6,18}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_prostate_specific_antigen__diagnosis_">PROSTATE SPECIFIC ANTIGEN (DIAGNOSIS)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_revised_international_prognostic_index_score">REVISED INTERNATIONAL PROGNOSTIC INDEX SCORE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-5</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_topography__snomed_pathology_">TOPOGRAPHY (SNOMED PATHOLOGY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z0-9]{6,18}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_topography__snomed_pathology_">TOPOGRAPHY (SNOMED PATHOLOGY)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_transthoracic_echocardiogram_test_result">TRANSTHORACIC ECHOCARDIOGRAM TEST RESULT</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-100</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-100</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_tumour_necrosis_percentage">TUMOUR NECROSIS PERCENTAGE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-100</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-100</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_turp_tumour_percentage">TURP TUMOUR PERCENTAGE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0-100</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 0-100</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_uninvolved_cervical_stroma_thickness">UNINVOLVED CERVICAL STROMA THICKNESS</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,2}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_transthoracic_echocardiogram_test_result">TRANSTHORACIC ECHOCARDIOGRAM TEST RESULT</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-100</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-100</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_tumour_necrosis_percentage">TUMOUR NECROSIS PERCENTAGE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-100</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-100</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_turp_tumour_percentage">TURP TUMOUR PERCENTAGE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0-100</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 0-100</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_uninvolved_cervical_stroma_thickness">UNINVOLVED CERVICAL STROMA THICKNESS</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,2}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_uninvolved_cervical_stroma_thickness">UNINVOLVED CERVICAL STROMA THICKNESS</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_urine_vanillylmandelic_acid_creatinine_ratio">URINE VANILLYLMANDELIC ACID CREATININE RATIO</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0.0-10.0</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d\.[0-9]|10\.[0]</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_uninvolved_cervical_stroma_thickness">UNINVOLVED CERVICAL STROMA THICKNESS</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_urine_vanillylmandelic_acid_creatinine_ratio">URINE VANILLYLMANDELIC ACID CREATININE RATIO</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>0.0-10.0</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d\.[0-9]|10\.[0]</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Range 0.0-10.0. Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_urine_vanillylmandelic_acid_creatinine_ratio">URINE VANILLYLMANDELIC ACID CREATININE RATIO</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_white_blood_cell_count__highest_pretreatment_">WHITE BLOOD CELL COUNT (HIGHEST PRETREATMENT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}(\.\d{1}){1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_urine_vanillylmandelic_acid_creatinine_ratio">URINE VANILLYLMANDELIC ACID CREATININE RATIO</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_white_blood_cell_count__highest_pretreatment_">WHITE BLOOD CELL COUNT (HIGHEST PRETREATMENT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}(\.\d{1}){1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_white_blood_cell_count__highest_pretreatment_">WHITE BLOOD CELL COUNT (HIGHEST PRETREATMENT)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_whole_tumour_size">WHOLE TUMOUR SIZE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1,2}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_white_blood_cell_count__highest_pretreatment_">WHITE BLOOD CELL COUNT (HIGHEST PRETREATMENT)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_whole_tumour_size">WHOLE TUMOUR SIZE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1,2}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_whole_tumour_size">WHOLE TUMOUR SIZE</xref>
-                     </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+              </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

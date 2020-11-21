@@ -7,167 +7,137 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
  collects clinical management information on 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  undergoing 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
  in (or funded by) the NHS in England.        </p>
-      <p>
+    <p>
 In the clinical setting its primary use is in prescribing and administering 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>. The standard also specifies secondary uses information about 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>. The standard also specifies secondary uses information about 
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
  which is required to assist in achieving, supporting and monitoring the NHS Operating Framework, specialised commissioning and related policy.        </p>
-      <p>
-         <b>Details of Standard</b>
-      </p>
-      <p>
+    <p>
+      <b>Details of Standard</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
  relates to all cancer 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>, both adult and paediatric, in both admitted 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  care and outpatient and community settings, who are receiving 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
  for all solid 
               <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
  and haematological malignancies, including those treated in 
               <xref outputclass="class" keyref="class_clinical_trial">CLINICAL TRIALS</xref>.        </p>
-      <p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
  covers the period from the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_start_date">Start Date</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_start_date">Start Date</xref>
  of the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>
  to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_start_date">Start Date</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_start_date">Start Date</xref>
  of the last 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_cycle">Systemic Anti-Cancer Therapy Drug Cycle</xref>.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_cycle">Systemic Anti-Cancer Therapy Drug Cycle</xref>.        </p>
+    <p>
 Note: 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  may end their treatment with an oral or other component taken at home. Although the dispensing of this will be recorded in the final 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_cycle">Systemic Anti-Cancer Therapy Drug Cycle</xref>, it is not possible to confirm that the 
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_cycle">Systemic Anti-Cancer Therapy Drug Cycle</xref>, it is not possible to confirm that the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has taken the medication.        </p>
-      <p>
-         <b>Data Set Structure and Transmission</b>
-      </p>
-      <p>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
+    <p>
+      <b>Data Set Structure and Transmission</b>
+    </p>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy">Systemic Anti-Cancer Therapy</xref>
  is given over a prolonged period of time, often months or years, comprising repeating and sequential elements.  The 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  may attend two or more 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>
  during the course of treatment.        </p>
-      <p>
+    <p>
 In order to track the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  during treatment, the data set must be capable of linking all the elements of care in a consistent and ordered way. In order to achieve this, the 
-              <xref outputclass="dataSet"
-               keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_systemic_anti-cancer_therapy_data_set">Systemic Anti-Cancer Therapy Data Set</xref>
  has a branching structure which links the initial data fields, which will remain constant during the treatment, with detail of each 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>, 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_cycle">Systemic Anti-Cancer Therapy Drug Cycle</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_cycle">Systemic Anti-Cancer Therapy Drug Cycle</xref>
  and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_administration">Systemic Anti-Cancer Therapy Drug Administration</xref>.  At the completion or cessation of a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>, the outcome section must link back to all previous fields. It must be possible to reconstitute details of each 
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_administration">Systemic Anti-Cancer Therapy Drug Administration</xref>.  At the completion or cessation of a 
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimen</xref>, the outcome section must link back to all previous fields. It must be possible to reconstitute details of each 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s sequential management from the serial downloads received.        </p>
-      <p>
+    <p>
 All 
               <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
  and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_foundation_trust">NHS Foundation Trusts</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_foundation_trust">NHS Foundation Trusts</xref>
  providing 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_service">Systemic Anti-Cancer Therapy Services</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_service">Systemic Anti-Cancer Therapy Services</xref>
  are required to submit monthly data downloads to an agreed timetable, two months in arrears. These data must represent all treatment activity in the month period, including 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimens</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_systemic_anti-cancer_therapy_drug_regimen">Systemic Anti-Cancer Therapy Drug Regimens</xref>
  started and completed or ceased in the 
               <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>.        </p>
-      <p>
+    <p>
 The data repository is hosted by the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
- (<xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">NCRAS</xref>) and the data is held under their section 251 of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_national_health_service_act_2006">National Health Service Act 2006</xref>.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">NCRAS</xref>) and the data is held under their section 251 of the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_national_health_service_act_2006">National Health Service Act 2006</xref>.        </p>
+    <p>
 Data downloads is by csv and will uniquely identify the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>.        </p>
-      <p>
-         <b>Further Guidance</b>
-      </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>.        </p>
+    <p>
+      <b>Further Guidance</b>
+    </p>
+    <p>
 Detailed technical guidance on the processes required, and any required updates, is available from the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
  in the 
-              <xref href="http://www.chemodataset.nhs.uk/about_the_team/"
-               scope="external"
-               format="html">Technical Guidance documents</xref>
+              <xref href="http://www.chemodataset.nhs.uk/about_the_team/" scope="external" format="html">Technical Guidance documents</xref>
  supporting the programme.        </p>
-      <p>
-         <b>Mandation</b>
-      </p>
-      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
-      <ul>
-         <li>
-            <div>
-               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>R = Required: NHS business processes cannot be delivered without this data element</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>O = Optional: the inclusion of this data element is optional as required for local purposes</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>P = Pilot: this data element is for piloting use only.</p>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <b>Data Set Constraints</b>
-      </p>
-      <p>
+    <p>
+      <b>Mandation</b>
+    </p>
+    <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+    <ul>
+      <li>
+        <div>
+          <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>R = Required: NHS business processes cannot be delivered without this data element</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>O = Optional: the inclusion of this data element is optional as required for local purposes</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>P = Pilot: this data element is for piloting use only.</p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <b>Data Set Constraints</b>
+    </p>
+    <p>
 For guidance on the Data Set constraints, see the 
-              <xref outputclass="xmlSchemaConstraint"
-               keyref="xml_schema_constraint_systemic_anti-cancer_therapy_data_set_constraints">Systemic Anti-Cancer Therapy Data Set Constraints</xref>.        </p>
+              <xref outputclass="xmlSchemaConstraint" keyref="xml_schema_constraint_systemic_anti-cancer_therapy_data_set_constraints">Systemic Anti-Cancer Therapy Data Set Constraints</xref>.        </p>
   </div>
 </body>
 </topic>

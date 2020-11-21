@@ -7,75 +7,62 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_crisis_response_intermediate_care_within_2_hours_waiting_time_measurement">Crisis Response Intermediate Care Within 2 Hours Waiting Time Measurement</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_crisis_response_intermediate_care_within_2_hours_waiting_time_measurement">Crisis Response Intermediate Care Within 2 Hours Waiting Time Measurement</xref>
  is a 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
-      <p>
+    <p>
 A 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_crisis_response_intermediate_care_within_2_hours_waiting_time_measurement">Crisis Response Intermediate Care Within 2 Hours Waiting Time Measurement</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_crisis_response_intermediate_care_within_2_hours_waiting_time_measurement">Crisis Response Intermediate Care Within 2 Hours Waiting Time Measurement</xref>
  is measured to ensure there are 120 minutes or less between the 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
  and 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>
  and 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
  and 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>.        </p>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>.        </p>
+    <p>
 The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_crisis_response_intermediate_care_within_2_hours_waiting_time_measurement">Crisis Response Intermediate Care Within 2 Hours Waiting Time Measurement</xref>:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="attribute"
-                     keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
-               <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_crisis_response_intermediate_care_within_2_hours_waiting_time_measurement">Crisis Response Intermediate Care Within 2 Hours Waiting Time Measurement</xref>:        </p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+          <p>
  and 
-                              <xref outputclass="attribute"
-                        keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>:                    </p>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+                              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_start_time">REFERRAL TO TREATMENT PERIOD START TIME</xref>:                    </p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
 The 
                                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is identified by a 
                                           <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
  or 
-                                          <xref outputclass="businessDefinition"
-                              keyref="business_definition_social_care_worker">Social Care Worker</xref>
+                                          <xref outputclass="businessDefinition" keyref="business_definition_social_care_worker">Social Care Worker</xref>
  as needing support from a 
-                                          <xref outputclass="businessDefinition"
-                              keyref="business_definition_crisis_response_intermediate_care_service">Crisis Response Intermediate Care Service</xref>.                            </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="attribute"
-                     keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
-               <p>
- and 
-                              <xref outputclass="attribute"
-                        keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>:                    </p>
+                                          <xref outputclass="businessDefinition" keyref="business_definition_crisis_response_intermediate_care_service">Crisis Response Intermediate Care Service</xref>.                            </p>
             </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_end_date">REFERRAL TO TREATMENT PERIOD END DATE</xref>
+          <p>
+ and 
+                              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_end_time">REFERRAL TO TREATMENT PERIOD END TIME</xref>:                    </p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
 The 
                                           <xref outputclass="element" keyref="element_care_contact_date">CARE CONTACT DATE</xref>
  and 
@@ -84,16 +71,14 @@ The
                                           <xref outputclass="class" keyref="class_patient">PATIENT</xref>, 
                                           <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
  and 
-                                          <xref outputclass="businessDefinition"
-                              keyref="business_definition_social_care_worker">Social Care Worker</xref>
+                                          <xref outputclass="businessDefinition" keyref="business_definition_social_care_worker">Social Care Worker</xref>
  from the 
-                                          <xref outputclass="businessDefinition"
-                              keyref="business_definition_crisis_response_intermediate_care_service">Crisis Response Intermediate Care Service</xref>.                            </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
+                                          <xref outputclass="businessDefinition" keyref="business_definition_crisis_response_intermediate_care_service">Crisis Response Intermediate Care Service</xref>.                            </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

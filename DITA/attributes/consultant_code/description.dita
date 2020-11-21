@@ -7,316 +7,285 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A code uniquely identifying a 
             <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>.        </p>
-      <p>
+    <p>
 The 
             <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
  is derived from either the 
-            <xref outputclass="attribute"
-               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+            <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  for 
             <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONERS</xref>, or the 
-            <xref outputclass="attribute"
-               keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
+            <xref outputclass="attribute" keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
  for 
             <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
  (where the dentist doesn't have a 
-            <xref outputclass="attribute"
-               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>).        </p>
-      <p>
+            <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>).        </p>
+    <p>
 For 
             <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONERS</xref>
  working as 
             <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>, the 
             <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>'s 
-            <xref outputclass="attribute"
-               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+            <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  should be used, see data item note for 
-            <xref outputclass="element"
-               keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>.        </p>
-      <p>
+            <xref outputclass="element" keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>.        </p>
+    <p>
 For 
             <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
  working as a:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 Hospital 
                               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, the 
-                              <xref outputclass="attribute"
-                        keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+                              <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  should be used, prefixed with "C"                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Dental 
                               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>:                    </p>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
 Who does not have a 
-                                          <xref outputclass="attribute"
-                              keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>, the 
-                                          <xref outputclass="attribute"
-                              keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
+                                          <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>, the 
+                                          <xref outputclass="attribute" keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
  should be used, prefixed with "CD".                            </p>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>
 Where the 
-                                          <xref outputclass="attribute"
-                              keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+                                          <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  or 
-                                          <xref outputclass="attribute"
-                              keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
+                                          <xref outputclass="attribute" keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>
  is not known, the default code should be used, see 
                                           <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
  or 
-                                          <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>.                            </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <p>
-         <i>
+                                          <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>.                            </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      <i>
 Note: There are some overseas-qualified dentists who are not fully registered with the 
-                <xref outputclass="businessDefinition"
-                  keyref="business_definition_general_dental_council">General Dental Council</xref>
-         </i>
-         <i>but enjoy what is called "Temporary Registration". These dentists are not currently in the scope of the Dental Consultant codes file published by the </i>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
-         <i>and will not be included.</i>
-      </p>
-      <p>Consultant Code format</p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="13">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <colspec colname="col7" colwidth="1*"/>
-            <colspec colname="col8" colwidth="1*"/>
-            <colspec colname="col9" colwidth="1*"/>
-            <colspec colname="col10" colwidth="1*"/>
-            <colspec colname="col11" colwidth="1*"/>
-            <colspec colname="col12" colwidth="1*"/>
-            <colspec colname="col13" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="1" scope="col">
-                     <p>Practitioner Code Type</p>
-                  </entry>
-                  <entry namest="col2" nameend="col9" scope="col">
-                     <p>Character Position</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated By</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated To</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Known As</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Notes</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>1</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>2</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>3</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>4</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>5</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>6</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>7</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>8</p>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>Hospital Consultant</p>
-                  </entry>
-                  <entry>
-                     <p>C</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_nhs_digital">NHS Digital</xref>
-                  </entry>
-                  <entry>
-                     <p>Hospital Consultants in England and Wales</p>
-                  </entry>
-                  <entry>
-                     <p>Consultant Code</p>
-                  </entry>
-                  <entry>
-                     <p>
+                <xref outputclass="businessDefinition" keyref="business_definition_general_dental_council">General Dental Council</xref>
+      </i>
+      <i>but enjoy what is called "Temporary Registration". These dentists are not currently in the scope of the Dental Consultant codes file published by the </i>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
+      <i>and will not be included.</i>
+    </p>
+    <p>Consultant Code format</p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="13">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <colspec colname="col7" colwidth="1*"/>
+        <colspec colname="col8" colwidth="1*"/>
+        <colspec colname="col9" colwidth="1*"/>
+        <colspec colname="col10" colwidth="1*"/>
+        <colspec colname="col11" colwidth="1*"/>
+        <colspec colname="col12" colwidth="1*"/>
+        <colspec colname="col13" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry morerows="1" scope="col">
+              <p>Practitioner Code Type</p>
+            </entry>
+            <entry namest="col2" nameend="col9" scope="col">
+              <p>Character Position</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated By</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated To</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Known As</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Notes</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>2</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>3</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>4</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>5</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>6</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>7</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>8</p>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Hospital Consultant</p>
+            </entry>
+            <entry>
+              <p>C</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+            </entry>
+            <entry>
+              <p>Hospital Consultants in England and Wales</p>
+            </entry>
+            <entry>
+              <p>Consultant Code</p>
+            </entry>
+            <entry>
+              <p>
 Derived from 
-                        <xref outputclass="attribute"
-                              keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>, prefixed with a C                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>Dental Consultant</p>
-                  </entry>
-                  <entry>
-                     <p>C</p>
-                  </entry>
-                  <entry>
-                     <p>D</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_nhs_digital">NHS Digital</xref>
-                  </entry>
-                  <entry>
-                     <p>Dental Consultants in England and Wales</p>
-                  </entry>
-                  <entry>
-                     <p>Dental Consultant Code</p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>, prefixed with a C                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Dental Consultant</p>
+            </entry>
+            <entry>
+              <p>C</p>
+            </entry>
+            <entry>
+              <p>D</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+            </entry>
+            <entry>
+              <p>Dental Consultants in England and Wales</p>
+            </entry>
+            <entry>
+              <p>Dental Consultant Code</p>
+            </entry>
+            <entry>
+              <p>
 Derived from 
-                        <xref outputclass="attribute"
-                              keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>, prefixed with CD. Note that 
-                        <xref outputclass="attribute"
-                              keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBERS</xref>
+                        <xref outputclass="attribute" keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>, prefixed with CD. Note that 
+                        <xref outputclass="attribute" keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBERS</xref>
   vary in length. Filling zeros are used between the prefix and 
-                        <xref outputclass="attribute"
-                              keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>, where required, to maintain total length of 8 characters. For further information, please refer to the 
-                        <xref scope="external"
-                              format="html"
-                              href="https://digital.nhs.uk/organisation-data-service/data-downloads/miscellaneous">Dental Consultants in England (PDF)</xref>
+                        <xref outputclass="attribute" keyref="attribute_general_dental_council_registration_number">GENERAL DENTAL COUNCIL REGISTRATION NUMBER</xref>, where required, to maintain total length of 8 characters. For further information, please refer to the 
+                        <xref scope="external" format="html" href="https://digital.nhs.uk/organisation-data-service/data-downloads/miscellaneous">Dental Consultants in England (PDF)</xref>
  guidance document issued by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>.                  </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
 For NHS 
             <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  treated overseas, the commissioner of the overseas treatment is responsible for assuring that the overseas doctor is provided with a 
-            <xref outputclass="attribute"
-               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>. In the case of overseas doctors, the default code C9999998 should only be used where no 
-            <xref outputclass="attribute"
-               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+            <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>. In the case of overseas doctors, the default code C9999998 should only be used where no 
+            <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  has been assigned.        </p>
-      <p>
+    <p>
 All 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_midwife_episode">Midwife Episodes</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_midwife_episode">Midwife Episodes</xref>
  are identified in the Admitted Patient Care Commissioning Data Set (CDS) and 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
  by a pseudo 
             <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>, 560, see 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. A default code is used in the 
+            <xref outputclass="supportingInformation" keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. A default code is used in the 
             <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
  field to show that a 
             <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
  is the responsible professional. Note that the 
             <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>'s own code is not used.        </p>
-      <p>
+    <p>
 All 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_nursing_episode">Nursing Episodes</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_nursing_episode">Nursing Episodes</xref>
  are identified in the Admitted Patient Commissioning Data Set and 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
  by a pseudo 
             <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>, 950, see 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. A default code is used in the 
+            <xref outputclass="supportingInformation" keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. A default code is used in the 
             <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
  field to show that a 
             <xref outputclass="class" keyref="class_nurse">NURSE</xref>
  is the responsible professional. Note that the 
             <xref outputclass="class" keyref="class_nurse">NURSE</xref>'s own 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
  code is not used.        </p>
   </div>
 </body>

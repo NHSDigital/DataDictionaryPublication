@@ -7,82 +7,74 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The status of a 
               <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
  for a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  referred with a suspected cancer, or referred with breast symptoms with cancer not originally suspected.        </p>
-      <p>
+    <p>
 For the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">Cancer Outcomes and Services Data Set</xref>, 
-              <xref outputclass="attribute"
-               keyref="attribute_cancer_or_symptomatic_breast_referral_patient_status">CANCER OR SYMPTOMATIC BREAST REFERRAL PATIENT STATUS</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>, 
+              <xref outputclass="attribute" keyref="attribute_cancer_or_symptomatic_breast_referral_patient_status">CANCER OR SYMPTOMATIC BREAST REFERRAL PATIENT STATUS</xref>
  can be recorded for all 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  (regardless of the referral route).        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 For the 
-                                <xref outputclass="dataSet"
-                        keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>,                    </p>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <xref outputclass="attribute"
-                           keyref="attribute_cancer_or_symptomatic_breast_referral_patient_status">CANCER OR SYMPTOMATIC BREAST REFERRAL PATIENT STATUS</xref>
-                     <p>
+                                <xref outputclass="dataSet" keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>,                    </p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <xref outputclass="attribute" keyref="attribute_cancer_or_symptomatic_breast_referral_patient_status">CANCER OR SYMPTOMATIC BREAST REFERRAL PATIENT STATUS</xref>
+              <p>
  is the status of a 
                                             <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
  for a 
                                             <xref outputclass="class" keyref="class_patient">PATIENT</xref>:                            </p>
-                  </div>
-                  <ul>
-                     <li>
-                        <div>
-                           <p>
+            </div>
+            <ul>
+              <li>
+                <div>
+                  <p>
 referred with a suspected cancer by a 
                                                         <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>, 
                                                         <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>, 
                                                         <xref outputclass="class" keyref="class_optometrist">OPTOMETRIST</xref>
  or NHS 
-                                                        <xref outputclass="businessDefinition"
-                                    keyref="business_definition_screening_service">Screening Service</xref>
-                           </p>
-                        </div>
-                     </li>
-                     <li>
-                        <div>
-                           <p>
+                                                        <xref outputclass="businessDefinition" keyref="business_definition_screening_service">Screening Service</xref>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>
 referred from any 
                                                         <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
  with breast symptoms where cancer was not originally suspected or upgraded onto the 62 day period.                                    </p>
-                        </div>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <div>
-                     <p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>
+              <p>
 Where a diagnosis of cancer is subsequently made, data on 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
  and subsequent treatments should be recorded for 
                                             <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  receiving NHS funded treatment in England.                            </p>
-                  </div>
-                  <ul>
-                     <li>
-                        <div>
-                           <p>
+            </div>
+            <ul>
+              <li>
+                <div>
+                  <p>
 NHS funded treatment in England refers to 
-                                                        <xref outputclass="businessDefinition"
-                                    keyref="business_definition_health_care_provider">Health Care Provider</xref>
+                                                        <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  
                                                         <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  within England who are treating 
@@ -92,36 +84,30 @@ NHS funded treatment in England refers to
  have 
                                                         <xref outputclass="attribute" keyref="attribute_nhs_number">NHS NUMBERS</xref>
  which exist on the 
-                                                        <xref outputclass="supportingInformation"
-                                    keyref="supporting_definition_personal_demographics_service">Personal Demographics Service</xref>
+                                                        <xref outputclass="supportingInformation" keyref="supporting_definition_personal_demographics_service">Personal Demographics Service</xref>
  and which can be used within the 
-                                                        <xref outputclass="dataSet"
-                                    keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>
+                                                        <xref outputclass="dataSet" keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>
  for transmission purposes).                                    </p>
-                        </div>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <div>
-                     <p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>
+              <p>
 Where 
                                             <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  with a diagnosis of cancer do NOT receive NHS funded treatment in England, or where the diagnosed condition is not within the 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_england">NHS England</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>
  list of cancer conditions, further data need not be collected. The full list of conditions can be found on the 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_digital">NHS Digital</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-                                            <xref href="https://digital.nhs.uk/cancer-waiting-times"
-                              scope="external"
-                              format="html">Cancer Waiting Times</xref>.                            </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
+                                            <xref href="https://digital.nhs.uk/cancer-waiting-times" scope="external" format="html">Cancer Waiting Times</xref>.                            </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

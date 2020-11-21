@@ -7,7 +7,7 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A record of the 
               <xref outputclass="attribute" keyref="attribute_appointment_date_offered">APPOINTMENT DATE OFFERED</xref>
  and 
@@ -17,14 +17,14 @@ A record of the
  to a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  and the date and time that the offer or request was made.        </p>
-      <p>
+    <p>
 More than one 
               <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
  can be made to a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  for an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
-      <p>
+    <p>
 When a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  accepts an 
@@ -38,7 +38,7 @@ When a
               <xref outputclass="attribute" keyref="attribute_appointment_time">APPOINTMENT TIME</xref>
  of the 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
-      <p>
+    <p>
 Where more than one 
               <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
  has been made for an 
@@ -46,8 +46,8 @@ Where more than one
  and one has been accepted all the other offers for the same 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  should be marked as refused.        </p>
-      <p>
-         <xref outputclass="attribute" keyref="attribute_appointment_accepted_date">APPOINTMENT ACCEPTED DATE</xref>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_appointment_accepted_date">APPOINTMENT ACCEPTED DATE</xref>
  records when an 
               <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
  was accepted        </p>

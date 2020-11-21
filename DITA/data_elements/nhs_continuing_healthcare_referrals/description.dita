@@ -7,86 +7,72 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_nhs_continuing_healthcare_referrals">NHS CONTINUING HEALTHCARE REFERRALS</xref>
+    <p>
+      <xref outputclass="element" keyref="element_nhs_continuing_healthcare_referrals">NHS CONTINUING HEALTHCARE REFERRALS</xref>
  is the number of referrals for 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  in the 
               <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>.        </p>
-      <p>
+    <p>
 A referral is the earliest notification to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
- (<xref outputclass="businessDefinition"
-               keyref="business_definition_clinical_commissioning_group">CCG</xref>), or 
+              <xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">CCG</xref>), or 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  acting on behalf of the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>, that full consideration for 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>, that full consideration for 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  is required, for example:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 For 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare__fast_track_">NHS Continuing Healthcare (Fast Track)</xref>: the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare_fast_track_pathway_tool">Fast Track Pathway Tool</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare__fast_track_">NHS Continuing Healthcare (Fast Track)</xref>: the 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_fast_track_pathway_tool">Fast Track Pathway Tool</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 For 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>: a positive 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare_checklist">NHS Continuing Healthcare Checklist</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>: a positive 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_checklist">NHS Continuing Healthcare Checklist</xref>
  or other notification that full consideration is required.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>The following should not be counted as referrals:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+    </ul>
+    <p>The following should not be counted as referrals:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 Negative 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare_checklist">NHS Continuing Healthcare Checklist</xref>, where a need for full assessment is not indicated                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="supportingInformation"
-                     keyref="supporting_definition_nhs_continuing_healthcare_local_appeal">NHS Continuing Healthcare Local Appeals</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="supportingInformation"
-                     keyref="supporting_definition_nhs_continuing_healthcare_local_resolution">NHS Continuing Healthcare Local Resolutions</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Referrals for transitional cases aged under 18</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Periods of Care</xref>
-               <p>.</p>
-            </div>
-         </li>
-      </ul>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_checklist">NHS Continuing Healthcare Checklist</xref>, where a need for full assessment is not indicated                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="supportingInformation" keyref="supporting_definition_nhs_continuing_healthcare_local_appeal">NHS Continuing Healthcare Local Appeals</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="supportingInformation" keyref="supporting_definition_nhs_continuing_healthcare_local_resolution">NHS Continuing Healthcare Local Resolutions</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Referrals for transitional cases aged under 18</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Periods of Care</xref>
+          <p>.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

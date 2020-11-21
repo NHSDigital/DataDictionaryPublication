@@ -7,35 +7,27 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_decision_to_treat_date__radiotherapy_treatment_episode_">DECISION TO TREAT DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_decision_to_treat_date__radiotherapy_treatment_episode_">DECISION TO TREAT DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_decision_to_treat_date">DECISION TO TREAT DATE</xref>.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_decision_to_treat_date__radiotherapy_treatment_episode_">DECISION TO TREAT DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_decision_to_treat_date__radiotherapy_treatment_episode_">DECISION TO TREAT DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
  is the date that a decision was taken to treat a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s condition with a 
-              <xref outputclass="attribute"
-               keyref="attribute_radiotherapy_treatment_modality">RADIOTHERAPY TREATMENT MODALITY</xref>.        </p>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_radiotherapy_treatment_modality">RADIOTHERAPY TREATMENT MODALITY</xref>.        </p>
+    <p>
 Where the treatment is being undertaken as part of a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_treatment_period">Cancer Treatment Period</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_treatment_period">Cancer Treatment Period</xref>
  and the 
               <xref outputclass="attribute" keyref="attribute_cancer_treatment_modality">CANCER TREATMENT MODALITY</xref>
  is National Code 
-              <i>'<xref outputclass="businessDefinition"
-                  keyref="business_definition_teletherapy">Teletherapy</xref>'</i>
+              <i>'<xref outputclass="businessDefinition" keyref="business_definition_teletherapy">Teletherapy</xref>'</i>
  or 
-              <i>'<xref outputclass="businessDefinition"
-                  keyref="business_definition_brachytherapy">Brachytherapy</xref>'</i>, the 
-              <xref outputclass="element"
-               keyref="element_decision_to_treat_date__radiotherapy_treatment_episode_">DECISION TO TREAT DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
+              <i>'<xref outputclass="businessDefinition" keyref="business_definition_brachytherapy">Brachytherapy</xref>'</i>, the 
+              <xref outputclass="element" keyref="element_decision_to_treat_date__radiotherapy_treatment_episode_">DECISION TO TREAT DATE (RADIOTHERAPY TREATMENT EPISODE)</xref>
  is the same as the 
-              <xref outputclass="element"
-               keyref="element_cancer_treatment_period_start_date">CANCER TREATMENT PERIOD START DATE</xref>.        </p>
+              <xref outputclass="element" keyref="element_cancer_treatment_period_start_date">CANCER TREATMENT PERIOD START DATE</xref>.        </p>
   </div>
 </body>
 </topic>

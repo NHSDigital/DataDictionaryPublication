@@ -27,9 +27,30 @@
         <stentry>references in description Emergency Care Department</stentry>
       </strow>
       <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_admission_method' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_attendance_date' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
           <xref keyref='business_definition_anaesthetist' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_cancer_surgical_admission_type' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Emergency Care Department</stentry>
       </strow>
@@ -48,9 +69,37 @@
         <stentry>references in description Emergency Care Department</stentry>
       </strow>
       <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_critical_care_period' outputclass='class'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_cancer_pathway' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_disease_outbreak_notification' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_disease_outbreak_notification_description' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_diagnostic_imaging_data_set' outputclass='dataSet'></xref>
         </stentry>
         <stentry>references in description Emergency Care Department</stentry>
       </strow>
@@ -134,6 +183,27 @@
       <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
+          <xref keyref='business_definition_emergency_care_arrival_date' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_arrival_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_attendance' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
           <xref keyref='business_definition_emergency_care_attendance_conclusion_date' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description Emergency Care Department</stentry>
@@ -148,7 +218,84 @@
       <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
+          <xref keyref='business_definition_emergency_care_clinically_ready_to_proceed_timestamp' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
           <xref keyref='business_definition_emergency_care_department' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_departure_date' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_departure_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_episode' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_expected_date_and_timestamp_of_treatment' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_initial_assessment_date' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_initial_assessment_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_initial_diagnosis_care_setting_or_service__hiv_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_initial_diagnosis_care_setting_or_service_for_hiv' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_lodged_patient' outputclass='class'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_lodging_start_time' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Emergency Care Department</stentry>
       </strow>
@@ -167,9 +314,114 @@
         <stentry>references in description Emergency Care Department</stentry>
       </strow>
       <strow>
+        <stentry>Supporting Information</stentry>
+        <stentry>
+          <xref keyref='supporting_definition_organisation_mergers' outputclass='supportingInformation'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_patient_source_setting_type__diagnostic_imaging_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_patient_source_setting_type_for_diagnostic_imaging' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_referral_to_treatment_period_start_date' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
           <xref keyref='business_definition_royal_college_of_emergency_medicine' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_source_of_admission' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_source_of_admission_code__hospital_provider_spell_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_source_of_referral_for_community' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_source_of_referral_for_community' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_source_of_referral_for_maternity' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_source_of_referral_for_maternity' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_source_of_referral_for_mental_health' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_source_of_referral_for_mental_health' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_source_of_referral_for_out-patients' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_source_of_referral_for_out-patients' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Emergency Care Department</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_source_of_referral_for_out-patients__non_primary_cancer_pathway_' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Emergency Care Department</stentry>
       </strow>

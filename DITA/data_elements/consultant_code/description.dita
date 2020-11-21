@@ -7,24 +7,19 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
  is the same as attribute 
             <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>.        </p>
-      <p>
+    <p>
 All 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_midwife_episode">Midwife Episodes</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_midwife_episode">Midwife Episodes</xref>
  and attendances are identified in the Commissioning Data Sets and 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
  by a pseudo 
-            <xref outputclass="element"
-               keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>, 560, see 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. An 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
+            <xref outputclass="element" keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>, 560, see 
+            <xref outputclass="supportingInformation" keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. An 
+            <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
  is used in the 
             <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
  field to show that a 
@@ -32,23 +27,17 @@ All
  is the responsible 
             <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>. Note that the 
             <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>'s own 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
  code is not used.        </p>
-      <p>
+    <p>
 All 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_nursing_episode">Nursing Episodes</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_nursing_episode">Nursing Episodes</xref>
  and attendances are identified in the Commissioning Data Sets and 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
  by a pseudo 
-            <xref outputclass="element"
-               keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>, 950, see 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. An 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
+            <xref outputclass="element" keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>, 950, see 
+            <xref outputclass="supportingInformation" keyref="supporting_definition_main_specialty_and_treatment_function_codes_table">Main Specialty and Treatment Function Codes Table</xref>. An 
+            <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
  is used in the 
             <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
  field to show that a 
@@ -56,17 +45,14 @@ All
  is the responsible 
             <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>. Note that the 
             <xref outputclass="class" keyref="class_nurse">NURSE</xref>'s own 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
+            <xref outputclass="businessDefinition" keyref="business_definition_nursing_and_midwifery_council">Nursing and Midwifery Council</xref>
  code is not used.        </p>
-      <b>
-         <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
+    <b>
+      <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
  will be replaced with both 
-            <xref outputclass="element"
-               keyref="element_professional_registration_issuer_code">PROFESSIONAL REGISTRATION ISSUER CODE</xref>
+            <xref outputclass="element" keyref="element_professional_registration_issuer_code">PROFESSIONAL REGISTRATION ISSUER CODE</xref>
  and 
-            <xref outputclass="element"
-               keyref="element_professional_registration_entry_identifier">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER</xref>, which are the most recently approved national information standards to describe the required definition.        </b>
+            <xref outputclass="element" keyref="element_professional_registration_entry_identifier">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER</xref>, which are the most recently approved national information standards to describe the required definition.        </b>
   </div>
 </body>
 </topic>

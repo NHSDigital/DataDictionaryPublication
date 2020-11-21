@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol.overview'>
+  <title>Overview</title>
+  <titlealts>
+    <searchtitle>Data Set: CDS V6-2-3 Type 005B - CDS Transaction Header Group - Bulk Update Protocol - Overview</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+    <p>
+The 
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-3 Type 005B - CDS Transaction Header Group - Bulk Update Protocol</xref>
+ carries mandatory controls for a Commissioning Data Set Type and is only used by inclusion in other 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>.        </p>
+    <p>
+Note that the 
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-3 Type 005B - CDS Transaction Header Group - Bulk Update Protocol</xref>
+ should only be used when submitting the 
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_011_-_emergency_care_cds">CDS V6-2-3 Type 011 - Emergency Care CDS</xref>.        </p>
+    <p>
+Commissioning Data Set Interchanges containing Commissioning Data Set Messages submitted to the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+ must use the required Commissioning Data Set Interchange and Message Header and Trailer Controls to provide the correct addressing and identification for the data flows. All 
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
+ using the Commissioning Data Set Bulk Replacement Update Mechanism of the Commissioning Data Set Submission Protocol must begin with this Mandatory Data Group.        </p>
+    <p>Multiple Commissioning Data Set messages are usually sent in a single Commissioning Data Set Interchange which consists of:</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_001_-_cds_interchange_header">CDS V6-2-3 Type 001 - Commissioning Data Set Interchange Header</xref>
+          <p> - Mandatory - One per Commissioning Data Set Interchange</p>
+        </div>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_003_-_cds_message_header">CDS V6-2-3 Type 003 - Commissioning Data Set Message Header</xref>
+        <p> - Mandatory - One per Commissioning Data Set Message</p>
+      </li>
+    </ul>
+    <p>
+Dependent upon the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+ being used, one of the following must be used:        </p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-3 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+          <p>
+- Mandatory, one per 
+                                <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+          </p>
+        </div>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-3 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+        <p>
+- Mandatory, one per 
+                          <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+        </p>
+      </li>
+    </ul>
+    <p>Followed by:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
+The 
+                                <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+ - As required to carry the specific Commissioning Data Set data records                    </p>
+        </div>
+      </li>
+    </ul>
+    <p>Each Commissioning Data Set message ends with:</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_004_-_cds_message_trailer">CDS V6-2-3 Type 004 - Commissioning Data Set Message Trailer</xref>
+          <p>- Mandatory - One per Commissioning Data Set Message</p>
+        </div>
+      </li>
+    </ul>
+    <p>Each Commissioning Data Set Interchange ends with:</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_002_-_cds_interchange_trailer">CDS V6-2-3 Type 002 - Commissioning Data Set Interchange Trailer</xref>
+          <p>- Mandatory - One per Commissioning Data Set Interchange.</p>
+        </div>
+      </li>
+    </ul>
+    <p>
+To access more detailed information on the Commissioning Data Sets, see the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets Introduction</xref>.        </p>
+    <p>
+      <b>Notation</b>
+    </p>
+    <p>
+See 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_notation">Commissioning Data Set Notation</xref>
+ for an explanation of Group Status and Group Repeats.        </p>
+    <p>
+      <b>Business Rules</b>
+    </p>
+    <p>
+See 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_business_rules">Commissioning Data Set Business Rules</xref>
+ for an explanation of the business and/or processing rules which apply to individual Data Elements.        </p>
+    <p>
+      <b>XML Schema</b>
+    </p>
+    <p>
+For guidance on the XML Schema constraints, see the 
+              <xref outputclass="xmlSchemaConstraint" keyref="xml_schema_constraint_commissioning_data_set_version_6-2-3_xml_schema_constraints">Commissioning Data Set Version 6-2-3 XML Schema Constraints</xref>.        </p>
+    <p>
+For guidance on downloading the XML Schema, see 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/xml_schema_trud_download.html" scope="external" format="html">XML_Schema_TRUD_Download</xref>.        </p>
+  </div>
+</body>
+</topic>

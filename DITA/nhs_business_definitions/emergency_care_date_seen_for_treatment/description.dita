@@ -7,33 +7,23 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_date_seen_for_treatment">Emergency Care Date Seen For Treatment</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_date_seen_for_treatment">Emergency Care Date Seen For Treatment</xref>
  is an 
               <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>.        </p>
-      <p>
-The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_date_seen_for_treatment">Emergency Care Date Seen For Treatment</xref>
- may be:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
-the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_accident_and_emergency_date_seen_for_treatment">Accident and Emergency Date Seen For Treatment</xref>
- or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>the Ambulatory Emergency Care Date Seen For Treatment.</p>
-            </div>
-         </li>
-      </ul>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_date_seen_for_treatment">Emergency Care Date Seen For Treatment</xref>
+ is the date that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is seen by a clinical decision maker (a 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ who can define the management plan and discharge the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>) to diagnose the problem and arrange or start definitive treatment as necessary.        </p>
+    <p>
+Note that for piloting purposes only, an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_date_seen_for_treatment">Emergency Care Date Seen For Treatment</xref>
+ may also be the Ambulatory Emergency Care Date Seen For Treatment.        </p>
   </div>
 </body>
 </topic>

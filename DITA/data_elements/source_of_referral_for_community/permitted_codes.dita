@@ -13,11 +13,18 @@
       </sthead>
       <strow>
         <stentry>
+  <p>99</p>
+</stentry>
+        <stentry>
+  <p>Source of referral not known</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
   <p>01</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>
 </stentry>
       </strow>
       <strow>
@@ -50,9 +57,10 @@
   <p>05</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
-  <p> (including Minor Injuries Units and Walk In Centres)</p>
+  <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+  <p>
+ (including Minor Injuries Units, Walk In Centres and 
+        <xref outputclass="businessDefinition" keyref="business_definition_urgent_treatment_centre">Urgent Treatment Centres</xref>)    </p>
 </stentry>
       </strow>
       <strow>
@@ -68,12 +76,10 @@
   <p>07</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_community_health_service">Community Health Service</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_community_health_service">Community Health Service</xref>
   <p>
  (same or other 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_health_care_provider">Health Care Provider</xref>)    </p>
+        <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>)    </p>
 </stentry>
       </strow>
       <strow>
@@ -81,8 +87,7 @@
   <p>08</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_dental_practice">Dental Practice</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_dental_practice">Dental Practice</xref>
 </stentry>
       </strow>
       <strow>
@@ -92,8 +97,7 @@
         <stentry>
   <p>
 National 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_screening_programme">Screening Programme</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_screening_programme">Screening Programme</xref>
      </p>
 </stentry>
       </strow>
@@ -102,8 +106,7 @@ National
   <p>10</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_educational_establishment">Educational Establishment</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_educational_establishment">Educational Establishment</xref>
   <p> </p>
 </stentry>
       </strow>
@@ -112,8 +115,7 @@ National
   <p>11</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_local_authority">Local Authority</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>
   <p> Social Services</p>
 </stentry>
       </strow>
@@ -203,8 +205,7 @@ National
   <p>22</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_ambulance_service">Ambulance Service</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_ambulance_service">Ambulance Service</xref>
 </stentry>
       </strow>
       <strow>
@@ -212,8 +213,7 @@ National
   <p>23</p>
 </stentry>
         <stentry>
-  <xref outputclass="businessDefinition"
-         keyref="business_definition_mental_health_service">Mental Health Service</xref>
+  <xref outputclass="businessDefinition" keyref="business_definition_mental_health_service">Mental Health Service</xref>
 </stentry>
       </strow>
     </simpletable>

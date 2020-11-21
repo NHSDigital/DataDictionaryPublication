@@ -7,36 +7,30 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The number of years service in an 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  by an 
               <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>.        </p>
-      <p>
-         <xref outputclass="attribute"
-               keyref="attribute_employee_organisation_length_of_service">EMPLOYEE ORGANISATION LENGTH OF SERVICE</xref>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_employee_organisation_length_of_service">EMPLOYEE ORGANISATION LENGTH OF SERVICE</xref>
  is the calculated number of years from the 
-              <xref outputclass="attribute"
-               keyref="attribute_employment_history_organisation_joining_date">EMPLOYMENT HISTORY ORGANISATION JOINING DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_employment_history_organisation_joining_date">EMPLOYMENT HISTORY ORGANISATION JOINING DATE</xref>
  to the 
-              <xref outputclass="attribute"
-               keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>.        </p>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>.        </p>
+    <p>
 Where there is no recorded 
-              <xref outputclass="attribute"
-               keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>
  i.e. the 
               <xref outputclass="class" keyref="class_employee">EMPLOYEE</xref>
  is still employed or the 
-              <xref outputclass="attribute"
-               keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>
  is after the 
               <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
  then the 
               <xref outputclass="attribute" keyref="attribute_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
  should be used instead of the 
-              <xref outputclass="attribute"
-               keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>.        </p>
+              <xref outputclass="attribute" keyref="attribute_employment_history_employment_leaving_date">EMPLOYMENT HISTORY EMPLOYMENT LEAVING DATE</xref>.        </p>
   </div>
 </body>
 </topic>

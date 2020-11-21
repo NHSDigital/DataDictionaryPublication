@@ -7,47 +7,40 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Notes</b>:
+    <p>
+      <b>Notes</b>:
               <xref outputclass="element" keyref="element_postcode">POSTCODE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_postcode">POSTCODE</xref>.        </p>
-      <p>
+    <p>
 For further information on 
               <xref outputclass="class" keyref="class_postcode">POSTCODES</xref>, see:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="supportingInformation"
-                     keyref="supporting_definition_nhs_postcode_directory">NHS Postcode Directory</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="supportingInformation"
-                     keyref="supporting_definition_contact_details">Contact Details</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref href="https://www.ons.gov.uk/methodology/geography/ukgeographies/postalgeography"
-                     scope="external"
-                     format="html">Office for National Statistics website: Postal geography</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_digital">NHS Digital</xref>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="supportingInformation" keyref="supporting_definition_nhs_postcode_directory">NHS Postcode Directory</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="supportingInformation" keyref="supporting_definition_contact_details">Contact Details</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref href="https://www.ons.gov.uk/methodology/geography/ukgeographies/postalgeography" scope="external" format="html">Office for National Statistics website: Postal geography</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+          <p>
  website at: 
-                                <xref href="https://digital.nhs.uk/organisation-data-service/data-downloads/postcode-files"
-                        scope="external"
-                        format="html">ODS postcode files</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+                                <xref href="https://digital.nhs.uk/organisation-data-service/data-downloads/postcode-files" scope="external" format="html">ODS postcode files</xref>.                    </p>
+        </div>
+      </li>
+    </ul>
+    <p>
 If a 
               <xref outputclass="class" keyref="class_postcode">POSTCODE</xref>
  is not known, (for example, the 
@@ -55,27 +48,21 @@ If a
  has no fixed abode, the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_overseas_visitor">Overseas Visitor</xref>
  etc.) the appropriate 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
  pseudo 
               <xref outputclass="class" keyref="class_postcode">POSTCODE</xref>
  should be used.        </p>
-      <p>
+    <p>
 The pseudo 
               <xref outputclass="class" keyref="class_postcode">POSTCODES</xref>
  can be found on the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
  pages of the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-              <xref href="https://digital.nhs.uk/services/organisation-data-service/data-downloads/office-for-national-statistics-data"
-               scope="external"
-               format="html">Office for National Statistics data</xref>.        </p>
+              <xref href="https://digital.nhs.uk/services/organisation-data-service/data-downloads/office-for-national-statistics-data" scope="external" format="html">Office for National Statistics data</xref>.        </p>
   </div>
 </body>
 </topic>

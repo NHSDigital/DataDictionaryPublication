@@ -7,17 +7,16 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cds_extract_time">CDS EXTRACT TIME</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_extract_time">CDS EXTRACT TIME</xref>
  is the time (with an associated 
               <xref outputclass="element" keyref="element_cds_extract_date">CDS EXTRACT DATE</xref>) at which the Commissioning data extract was undertaken.        </p>
-      <p>
-         <b>Usage:</b>
-         <xref outputclass="element" keyref="element_cds_extract_time">CDS EXTRACT TIME</xref>
+    <p>
+      <b>Usage:</b>
+      <xref outputclass="element" keyref="element_cds_extract_time">CDS EXTRACT TIME</xref>
  is mandatory when using the Commissioning Data Set Bulk Replacement Update Mechanism and is used to ensure that submissions are processed in the correct relative sequence. See the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>.        </p>
-      <p>The sender of Commissioning Data Set data should determine the most useful point of the system's processes to generate this time value to provide a useful reference/audit control point.</p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>.        </p>
+    <p>The sender of Commissioning Data Set data should determine the most useful point of the system's processes to generate this time value to provide a useful reference/audit control point.</p>
   </div>
 </body>
 </topic>

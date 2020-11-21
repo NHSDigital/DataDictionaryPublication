@@ -7,43 +7,54 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_attendance_conclusion_time">Emergency Care Attendance Conclusion Time</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance_conclusion_time">Emergency Care Attendance Conclusion Time</xref>
  is an 
               <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>.        </p>
-      <p>
-The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_attendance_conclusion_time">Emergency Care Attendance Conclusion Time</xref>
- may be either:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
-the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_accident_and_emergency_attendance_conclusion_time">Accident and Emergency Attendance Conclusion Time</xref>
- or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>the Ambulatory Emergency Care Attendance Conclusion Time.</p>
-            </div>
-         </li>
-      </ul>
-      <p>
+    <p>
+An 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance_conclusion_time">Emergency Care Attendance Conclusion Time</xref>
+ is the time, recorded using a 24 hour clock:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>
+that a 
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s 
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+ concludes or                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+when treatment in an 
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ is completed (whichever is the later).                    </p>
+        </div>
+      </li>
+    </ul>
+    <p>
+For those 
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ admitted into hospital, the 
+              <xref outputclass="element" keyref="element_emergency_care_attendance_conclusion_time">EMERGENCY CARE ATTENDANCE CONCLUSION TIME</xref>
+ is recorded as the time when the 
+              <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
+ was made.        </p>
+    <p>
 Where the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  dies in the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_department">Emergency Care Department</xref>, the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_attendance_conclusion_time">Emergency Care Attendance Conclusion Time</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>, the 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance_conclusion_time">Emergency Care Attendance Conclusion Time</xref>
  is the same as the 
               <xref outputclass="attribute" keyref="attribute_person_death_time">PERSON DEATH TIME</xref>.        </p>
+    <p>
+Note that for piloting purposes only, an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance_conclusion_time">Emergency Care Attendance Conclusion Time</xref>
+ may also be the Ambulatory Emergency Care Attendance Conclusion Time.        </p>
   </div>
 </body>
 </topic>

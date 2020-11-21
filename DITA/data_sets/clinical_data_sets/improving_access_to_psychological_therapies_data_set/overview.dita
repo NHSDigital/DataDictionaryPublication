@@ -7,188 +7,155 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>
-The 
-                  <xref outputclass="dataSet"
-                  keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
- will be in included in a future version of the 
+    <p>
+      <b>
+The Improving Access to Psychological Therapies Data Set will be in included in a future version of the 
                   <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>.            </b>
-      </p>
-      <p>
-         <b>Due to Covid-19, the transition from</b>
-         <b>from Improving Access to Psychological Therapies (IAPT) Data Set v1.5 to v2.0 was postponed until 1 September 2020.</b>
-      </p>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
+    </p>
+    <p>
+      <b>Due to Covid-19, the transition </b>
+      <b>from Improving Access to Psychological Therapies (IAPT) Data Set v1.5 to v2.0 was postponed until 1 September 2020.</b>
+    </p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_adult_improving_access_to_psychological_therapies_programme">Adult Improving Access to Psychological Therapies Programme</xref>
- is an NHS programme in England, which started in 2008, that has transformed treatment of anxiety disorders and depression through the delivery of interventions approved by the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_institute_for_health_and_care_excellence">National Institute for Health and Care Excellence</xref>
- (<xref outputclass="businessDefinition"
-               keyref="business_definition_national_institute_for_health_and_care_excellence">NICE</xref>).        </p>
-      <p>
-         <b>
-            <xref outputclass="dataSet"
-                  keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
-         </b>
-      </p>
-      <p>
-The 
-              <xref outputclass="dataSet"
-               keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
  has been developed to support the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_adult_improving_access_to_psychological_therapies_programme">Adult Improving Access to Psychological Therapies Programme</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_adult_improving_access_to_psychological_therapies_programme">Adult Improving Access to Psychological Therapies Programme</xref>
  through a regular national return of data. This includes for example: supporting commissioning, service improvement and service design.        </p>
-      <p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_adult_improving_access_to_psychological_therapies_programme">Adult Improving Access to Psychological Therapies Programme</xref>
+ is an NHS programme in England, which started in 2008, that has transformed treatment of anxiety disorders and depression through the delivery of interventions approved by the 
+              <xref outputclass="businessDefinition" keyref="business_definition_national_institute_for_health_and_care_excellence">National Institute for Health and Care Excellence</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_national_institute_for_health_and_care_excellence">NICE</xref>).        </p>
+    <p>
+The 
+              <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
  is a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  level, output based, secondary uses data set which aims to deliver robust, comprehensive, nationally consistent and comparable information for 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  accessing NHS-funded 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_improving_access_to_psychological_therapies_service">Improving Access to Psychological Therapies Services</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_improving_access_to_psychological_therapies_service">Improving Access to Psychological Therapies Services</xref>
  located in England.        </p>
-      <p>
+    <p>
 As a secondary uses data set, the 
-              <xref outputclass="dataSet"
-               keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
  re-uses clinical and operational data for purposes other than direct 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  care. It defines the data items, definitions and associated value sets to be extracted or derived from local information systems. These national definitions allow 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>
  to extract data from their local systems in a consistent manner, which supports national and local reporting to be undertaken.        </p>
-      <p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
  includes information on:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+          <p>
 Demographics: including geographical, gender, age, ethnicity, religion, sexual orientation and 
                                 <xref outputclass="class" keyref="class_disability">DISABILITY</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Care Pathways: referral details, Mental Health Care Cluster details and Presenting Complaints information</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_care_contact">CARE CONTACTS</xref>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Care Pathways: referral details, Mental Health Care Cluster details and Presenting Complaints information</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_care_contact">CARE CONTACTS</xref>
+          <p>
 and 
                                 <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITIES</xref>: 
                                 <xref outputclass="class" keyref="class_session">SESSION</xref>
  details and any clinical, economic and social outcomes recorded relating to the interventions and coded scored assessments provided                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Waiting Time Pauses: 
                                 <xref outputclass="class" keyref="class_activity_suspension">ACTIVITY SUSPENSION</xref>
  periods across the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s care pathway                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="businessDefinition"
-                     keyref="business_definition_improving_access_to_psychological_therapies_patient_experience_questionnaire">Improving Access to Psychological Therapies Patient Experience Questionnaires</xref>
-               <p>: Improving Access to Psychological Therapies treatment and assessment questionnaires</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="supportingInformation"
-                     keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
-               <p>: Additional data items to support the introduction and development of a payment system for 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_improving_access_to_psychological_therapies_service">Improving Access to Psychological Therapies Services</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="businessDefinition"
-                     keyref="business_definition_care_personnel">Care Personnel</xref>
-               <p>: Qualifications of the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_care_personnel">Care Personnel</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="businessDefinition" keyref="business_definition_improving_access_to_psychological_therapies_patient_experience_questionnaire">Improving Access to Psychological Therapies Patient Experience Questionnaires</xref>
+          <p>: Improving Access to Psychological Therapies treatment and assessment questionnaires</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="supportingInformation" keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+          <p>: Additional data items to support the introduction and development of a payment system for 
+                                <xref outputclass="businessDefinition" keyref="business_definition_improving_access_to_psychological_therapies_service">Improving Access to Psychological Therapies Services</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="businessDefinition" keyref="business_definition_care_personnel">Care Personnel</xref>
+          <p>: Qualifications of the 
+                                <xref outputclass="businessDefinition" keyref="business_definition_care_personnel">Care Personnel</xref>
  delivering treatment.                    </p>
-            </div>
-         </li>
-      </ul>
-      <div>
-         <p>
-            <b>Submission Information</b>
-         </p>
-         <p>
-The 
-                    <xref outputclass="dataSet"
-                  keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
- is submitted centrally on a monthly basis via the 
-                    <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_strategic_data_collection_service_in_the_cloud">Strategic Data Collection Service in the Cloud</xref>
- (<xref outputclass="supportingInformation"
-                  keyref="supporting_definition_strategic_data_collection_service_in_the_cloud">SDCS Cloud</xref>) maintained by 
-                    <xref outputclass="businessDefinition"
-                  keyref="business_definition_nhs_digital">NHS Digital</xref>.            </p>
-      </div>
+        </div>
+      </li>
+    </ul>
+    <div>
       <p>
-Further guidance relating to the 
-              <xref outputclass="dataSet"
-               keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
- is available on the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
- website: at 
-              <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/improving-access-to-psychological-therapies-data-set"
-               scope="external"
-               format="html">Improving Access to Psychological Therapies Data Set</xref>.        </p>
-      <p>
-         <b>Mandation</b>
+        <b>Submission Information</b>
       </p>
-      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
-      <ul>
-         <li>
-            <div>
-               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>R = Required: NHS business processes cannot be delivered without this data element</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
-            </div>
-         </li>
-      </ul>
-      <div>
-         <b>Data Set Constraints</b>
-      </div>
       <p>
+The 
+                    <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+ is submitted centrally on a monthly basis via the 
+                    <xref outputclass="supportingInformation" keyref="supporting_definition_strategic_data_collection_service_in_the_cloud">Strategic Data Collection Service in the Cloud</xref>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_strategic_data_collection_service_in_the_cloud">SDCS Cloud</xref>) maintained by 
+                    <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>.            </p>
+    </div>
+    <p>
+Further guidance relating to the 
+              <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+ is available on the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website: at 
+              <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/improving-access-to-psychological-therapies-data-set" scope="external" format="html">Improving Access to Psychological Therapies Data Set</xref>.        </p>
+    <p>
+      <b>Mandation</b>
+    </p>
+    <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+    <ul>
+      <li>
+        <div>
+          <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>R = Required: NHS business processes cannot be delivered without this data element</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
+        </div>
+      </li>
+    </ul>
+    <div>
+      <b>Data Set Constraints</b>
+    </div>
+    <p>
 For guidance on the Data Set constraints, see the 
-              <xref outputclass="xmlSchemaConstraint"
-               keyref="xml_schema_constraint_improving_access_to_psychological_therapies_data_set_constraints">Improving Access to Psychological Therapies Data Set Constraints</xref>.        </p>
+              <xref outputclass="xmlSchemaConstraint" keyref="xml_schema_constraint_improving_access_to_psychological_therapies_data_set_constraints">Improving Access to Psychological Therapies Data Set Constraints</xref>.        </p>
   </div>
 </body>
 </topic>

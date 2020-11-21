@@ -7,14 +7,13 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_patient_name">PATIENT NAME</xref>
+    <p>
+      <xref outputclass="element" keyref="element_patient_name">PATIENT NAME</xref>
  is the preferred name of the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
-      <p>
+    <p>
 For the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  it is necessary to identify whether the 
               <xref outputclass="class" keyref="class_person_name">PERSON NAME</xref>
  is a 
@@ -22,49 +21,47 @@ For the
  or 
               <xref outputclass="class" keyref="class_person_name_unstructured">PERSON NAME UNSTRUCTURED</xref>
  using the following codes.        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>1</p>
-                  </entry>
-                  <entry>
-                     <p>Structured - two element name, forename followed by surname, each element an35</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>2</p>
-                  </entry>
-                  <entry>
-                     <p>Unstructured - an70</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>9</p>
-                  </entry>
-                  <entry>
-                     <p>Not known: a validation error</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>1</p>
+            </entry>
+            <entry>
+              <p>Structured - two element name, forename followed by surname, each element an35</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>2</p>
+            </entry>
+            <entry>
+              <p>Unstructured - an70</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>9</p>
+            </entry>
+            <entry>
+              <p>Not known: a validation error</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
 The 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s name and 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  should be withheld from any 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  that contains a valid 
               <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>.  For further information, see the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_security_issues_and_patient_confidentiality">Security Issues and Patient Confidentiality</xref>.        </p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_security_issues_and_patient_confidentiality">Security Issues and Patient Confidentiality</xref>.        </p>
   </div>
 </body>
 </topic>

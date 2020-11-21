@@ -7,43 +7,41 @@
   </titlealts>
   <body>
   <div>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="1">
-            <colspec colname="col1" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>Supporting Definitions provide information to help users understand content in the NHS Data Model and Dictionary.</p>
-                     <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="1">
+        <colspec colname="col1" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>Supporting Definitions provide information to help users understand content in the NHS Data Model and Dictionary.</p>
+              <p>
 Each Supporting  Definition name is distinguished from Classes, Attributes and Data Elements by appearing in Title Case rather than UPPERCASE (see the example below) and where the name appears in text in 
                         <b>Blue</b>, it indicates that it is a hyperlink and if clicked on will display the definition for that NHS Business Definition.                  </p>
-                     <p>
+              <p>
 An example of a Supporting Definition is an 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_information_standards_notice">Information Standards Notice</xref>.                  </p>
-                     <p>
-                        <b>What would you like to do next?</b>
-                     </p>
-                     <ul>
-                        <li>
-                           <div>
-                              <p>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_information_standards_notice">Information Standards Notice</xref>.                  </p>
+              <p>
+                <b>What would you like to do next?</b>
+              </p>
+              <ul>
+                <li>
+                  <div>
+                    <p>
   
                                                 <b>NHS Data Model and Dictionary Content</b>
-                              </p>
-                           </div>
-                        </li>
-                     </ul>
-                     <p>
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <p>
 View 
-                            <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_supporting_definitions_introduction">Supporting Definitions</xref>
+                            <xref outputclass="supportingInformation" keyref="supporting_definition_supporting_definitions_introduction">Supporting Definitions</xref>
   in the NHS Data Model and Dictionary.                    </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

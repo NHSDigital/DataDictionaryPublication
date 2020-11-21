@@ -7,26 +7,24 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A delay in either an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_appointment">Out-Patient Appointment</xref>
  or treatment after a 
               <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
  has been received.        </p>
-      <p>
+    <p>
 A 
               <xref outputclass="class" keyref="class_referral_delay">REFERRAL DELAY</xref>
  should be recorded for each delay.        </p>
-      <p>
-         <xref outputclass="class" keyref="class_referral_delay">REFERRAL DELAYS</xref>
+    <p>
+      <xref outputclass="class" keyref="class_referral_delay">REFERRAL DELAYS</xref>
  include:        </p>
-      <ul>
-         <li>
-            <xref outputclass="businessDefinition"
-                  keyref="business_definition_cancer_care_spell_delay">Cancer Care Spell Delay</xref>
-         </li>
-      </ul>
+    <ul>
+      <li>
+        <xref outputclass="businessDefinition" keyref="business_definition_cancer_care_spell_delay">Cancer Care Spell Delay</xref>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

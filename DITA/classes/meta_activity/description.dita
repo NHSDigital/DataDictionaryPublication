@@ -7,52 +7,52 @@
   </titlealts>
   <body>
   <div>
-      <p>This is a meta model class.</p>
-      <p>A activity which has an identifiable purpose and uses one or more resource in performance of it.</p>
-      <p>
+    <p>This is a meta model class.</p>
+    <p>A activity which has an identifiable purpose and uses one or more resource in performance of it.</p>
+    <p>
 This is used as a general class that groups all activities. It identifies the characteristics that apply to all kinds of activities. Sub types of 
               <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
  show the particular business activities and their attributes and relationships that relate to the care profession. These include:        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>-</p>
-                  </entry>
-                  <entry>
-                     <p>Clinical Interventions</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>-</p>
-                  </entry>
-                  <entry>
-                     <p>Clinics</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>-</p>
-                  </entry>
-                  <entry>
-                     <p>Appointments</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>-</p>
+            </entry>
+            <entry>
+              <p>Clinical Interventions</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>-</p>
+            </entry>
+            <entry>
+              <p>Clinics</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>-</p>
+            </entry>
+            <entry>
+              <p>Appointments</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
 Each 
               <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
  must have one or more 
               <xref outputclass="class" keyref="class_meta_change_activity_state">META CHANGE ACTIVITY STATES</xref>
  which are identified by specific subtypes. Each state represents an instance of an event for the 
               <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>.        </p>
-      <p>
+    <p>
 A 
               <xref outputclass="class" keyref="class_meta_activity">META ACTIVITY</xref>
  may be broken down into a related series of subordinate 

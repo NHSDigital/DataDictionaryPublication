@@ -27,16 +27,16 @@
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Class</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='class_address' outputclass='class'></xref>
+          <xref keyref='attribute_address' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Class</stentry>
         <stentry>
-          <xref keyref='attribute_address' outputclass='attribute'></xref>
+          <xref keyref='class_address' outputclass='class'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>
@@ -706,6 +706,20 @@
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_disease_outbreak_notification__snomed_ct_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description ORGANISATION</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_disease_outbreak_notification_description' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description ORGANISATION</stentry>
+      </strow>
+      <strow>
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_doctor_index_number' outputclass='attribute'></xref>
@@ -902,16 +916,16 @@
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_employment_history_leaving_destination' outputclass='element'></xref>
+          <xref keyref='attribute_employment_history_leaving_destination' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_employment_history_leaving_destination' outputclass='attribute'></xref>
+          <xref keyref='element_employment_history_leaving_destination' outputclass='element'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>
@@ -944,16 +958,16 @@
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_employment_history_recruitment_source' outputclass='attribute'></xref>
+          <xref keyref='element_employment_history_recruitment_source' outputclass='element'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_employment_history_recruitment_source' outputclass='element'></xref>
+          <xref keyref='attribute_employment_history_recruitment_source' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>
@@ -1294,13 +1308,6 @@
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_local_care_professional_identifier' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description ORGANISATION</stentry>
-      </strow>
-      <strow>
         <stentry>Class</stentry>
         <stentry>
           <xref keyref='class_location' outputclass='class'></xref>
@@ -1413,16 +1420,16 @@
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_nhs_continuing_healthcare_commissioned_services_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_nhs_continuing_healthcare_commissioned_services_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_nhs_continuing_healthcare_commissioned_services_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_nhs_continuing_healthcare_commissioned_services_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description ORGANISATION</stentry>
       </strow>

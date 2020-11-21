@@ -7,12 +7,12 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_care_professional_identifier">CARE PROFESSIONAL IDENTIFIER</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
  is the code of the 
               <xref outputclass="class" keyref="class_person">PERSON</xref>
  making the 
@@ -21,7 +21,7 @@
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  or 
               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>.        </p>
-      <p>
+    <p>
 The intention is for this item to reflect the actual (true) referrer. For example, following a 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  referral, a 
@@ -31,12 +31,11 @@ The intention is for this item to reflect the actual (true) referrer. For exampl
  to another 
               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  within the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>. The code of the 
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>. The code of the 
               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  making the referral and the 
               <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
-         <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+      <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  should be recorded in the Commissioning Data Set (CDS) rather than the code of the 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  referrer. This also applies where a 
@@ -46,38 +45,34 @@ The intention is for this item to reflect the actual (true) referrer. For exampl
  to another doctor for NHS-commissioned treatment at another NHS / non-NHS provider, or an overseas provider. Where the 
               <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
  is not known, the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
  C9999998 should be used.        </p>
-      <p>
+    <p>
 In all other cases, the code of the referring 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  should be recorded, if applicable. When a locum refers, use the 
-              <xref outputclass="attribute"
-               keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
  of the 
               <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
  for whom the locum is acting.        </p>
-      <p>
+    <p>
 See 
               <xref outputclass="element" keyref="element_consultant_code">CONSULTANT CODE</xref>
  and 
-              <xref outputclass="element"
-               keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
+              <xref outputclass="element" keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
  for the codes available for 
               <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
  and 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONERS</xref>
  and 
               <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>.        </p>
-      <p>
+    <p>
 If the 
               <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
  is not known or not applicable e.g. the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has self-presented, the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
  (X9999998) should be used.        </p>
   </div>
 </body>

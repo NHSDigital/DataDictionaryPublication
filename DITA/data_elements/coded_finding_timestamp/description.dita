@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_coded_finding_timestamp.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: CODED FINDING TIMESTAMP - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+    <p>
+      <xref outputclass="element" keyref="element_coded_finding_timestamp">CODED FINDING TIMESTAMP</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_person_property_recorded_date">PERSON PROPERTY RECORDED DATE</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_person_property_recorded_time">PERSON PROPERTY RECORDED TIME</xref>.        </p>
+    <p>
+      <xref outputclass="element" keyref="element_coded_finding_timestamp">CODED FINDING TIMESTAMP</xref>
+ is the date, time and time zone that the 
+              <xref outputclass="businessDefinition" keyref="business_definition_clinical_finding">Clinical Finding</xref>
+ was recorded by a 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>.        </p>
+    <p>A Timestamp is represented with the components of date, time and either the number of hours offset (plus or minus) from Greenwich Mean Time, or the letter Z to signify that it is the same as Greenwich Mean Time.</p>
+    <p>
+For the 
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_011_-_emergency_care_cds">CDS V6-2-3 Type 011 - Emergency Care Commissioning Data Set</xref>, offset time is restricted to:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>+01:00</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>+00:00</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>-00:00</p>
+        </div>
+      </li>
+    </ul>
+    <p>Examples of valid formats are:</p>
+    <ul>
+      <li>
+        <div>
+          <p>2020-08-21T10:15:20+01:00 British Summer Time (GMT + 1 Hour)</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>2020-08-21T10:15:20+00:00 Greenwich Mean Time</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>2020-08-21T10:15:20-00:00 Greenwich Mean Time</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>2020-08-21T09:18:00Z Greenwich Mean Time.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</topic>

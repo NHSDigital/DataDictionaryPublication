@@ -7,56 +7,42 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_submission_identifier">SUBMISSION IDENTIFIER</xref>.        </p>
-      <p>
+    <p>
 The 
               <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
  provides a unique identifier (per 
-              <xref outputclass="element"
-               keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
  of 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_service">Cancer Services</xref>) to identify each 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">Cancer Outcomes and Services Data Set</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_service">Cancer Services</xref>) to identify each 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>
  submission to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>. It is used to uniquely identify and, if necessary, to sequence check 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">Cancer Outcomes and Services Data Set</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>. It is used to uniquely identify and, if necessary, to sequence check 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>
  submissions.        </p>
-      <p>
+    <p>
 For each submission, the 
               <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
  should be incremented by 1.        </p>
-      <p>
+    <p>
 The 
               <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
  may appear on data quality reports, error reports, and audit logs exchanged between the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
  and submitting 
-              <xref outputclass="element"
-               keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.        </p>
-      <p>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.        </p>
+    <p>
 The 
               <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
  must be populated in the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">COSDS</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">COSDS</xref>
  Submission Identifier group within the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">COSDS</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">COSDS</xref>
  XML Schema, by the sender of the data set submission, prior to transmission of the data to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>.        </p>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>.        </p>
   </div>
 </body>
 </topic>

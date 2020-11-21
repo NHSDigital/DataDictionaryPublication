@@ -7,32 +7,31 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_appointment_request">Appointment Request</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_appointment_request">Appointment Request</xref>
  is a type of 
               <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
  for an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
-      <p>
+    <p>
 Each originating request may result in one or more 
               <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFERS</xref>.        </p>
-      <p>The originating request may be from:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>The originating request may be from:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 a 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  self-referral 
                                 <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 a 
                                 <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
  from one 
@@ -43,54 +42,53 @@ a
                                 <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  or 
                                 <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 follow up to a previous 
                                 <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  at which attendance or contact has taken place related to the same 
                                 <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUEST</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 an 
                                 <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  at which attendance did not take place for whatever reason, requiring a new 
                                 <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  to be made                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 an invitation for an 
                                 <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  as part of a 
                                 <xref outputclass="class" keyref="class_health_programme">HEALTH PROGRAMME</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 an 
                                 <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  which requires an 
                                 <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  to be made for further care or treatment.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+        </div>
+      </li>
+    </ul>
+    <p>
 Each 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_appointment_request">Appointment Request</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_appointment_request">Appointment Request</xref>
  should be reviewed by the receiving 
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>, 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
@@ -99,16 +97,15 @@ Each
  to decide whether an offer of an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  should be made.        </p>
-      <p>
+    <p>
 It is on this date it is considered that the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has been added to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_waiting_list">Out-Patient Waiting List</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_waiting_list">Out-Patient Waiting List</xref>
  for the 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  with the expectation that it will take place.        </p>
-      <p>
+    <p>
 When it is decided that an offer of an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  should be made then one or more 
@@ -119,7 +116,7 @@ When it is decided that an offer of an
               <xref outputclass="attribute" keyref="attribute_appointment_time_offered">APPOINTMENT TIME OFFERED</xref>
  to the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
-      <p>
+    <p>
 The 
               <xref outputclass="attribute" keyref="attribute_appointment_date_offered">APPOINTMENT DATE OFFERED</xref>
  and 
@@ -128,17 +125,16 @@ The
               <xref outputclass="class" keyref="class_appointment_offer">APPOINTMENT OFFER</xref>
  equate to the allocated 
               <xref outputclass="class" keyref="class_appointment_slot">APPOINTMENT SLOT</xref>.        </p>
-      <p>
+    <p>
 When more than one date is offered for the same 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_appointment_request">Appointment Request</xref>, the 
+              <xref outputclass="businessDefinition" keyref="business_definition_appointment_request">Appointment Request</xref>, the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  can choose which date and time to accept. 
               <xref outputclass="attribute" keyref="attribute_appointment_accepted_date">APPOINTMENT ACCEPTED DATE</xref>
  records the date that the offer is accepted. When multiple dates are offered, the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  should only be allowed to select one of them.        </p>
-      <p>This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained for information.</p>
+    <p>This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained for information.</p>
   </div>
 </body>
 </topic>

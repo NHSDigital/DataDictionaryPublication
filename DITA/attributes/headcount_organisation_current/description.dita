@@ -7,15 +7,15 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The total number of 
               <xref outputclass="class" keyref="class_employee">EMPLOYEES</xref>
  currently employed within the 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  on the 
               <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_headcount__organisation_current_">HEADCOUNT (ORGANISATION CURRENT)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_headcount__organisation_current_">HEADCOUNT (ORGANISATION CURRENT)</xref>
  is a count of the number of 
               <xref outputclass="class" keyref="class_employee">EMPLOYEES</xref>
  who have one or more 
@@ -23,29 +23,28 @@ The total number of
  with the 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  where the:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="attribute"
-                     keyref="attribute_employment_contract_start_date">EMPLOYMENT CONTRACT START DATE</xref>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="attribute" keyref="attribute_employment_contract_start_date">EMPLOYMENT CONTRACT START DATE</xref>
+          <p>
 is before or on the 
                                 <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
-               </p>
-            </div>
-         </li>
-      </ul>
-      <p>and</p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="attribute" keyref="attribute_employment_contract_end_date">EMPLOYMENT CONTRACT END DATE</xref>
-               <p>
+          </p>
+        </div>
+      </li>
+    </ul>
+    <p>and</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="attribute" keyref="attribute_employment_contract_end_date">EMPLOYMENT CONTRACT END DATE</xref>
+          <p>
 is on or after the 
                                 <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

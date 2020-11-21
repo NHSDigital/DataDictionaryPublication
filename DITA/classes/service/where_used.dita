@@ -13,20 +13,6 @@
         <stentry>How used</stentry>
       </sthead>
       <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_a_and_e_department_type' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description SERVICE</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_accident_and_emergency_department_type' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description SERVICE</stentry>
-      </strow>
-      <strow>
         <stentry>Class</stentry>
         <stentry>
           <xref keyref='class_activity' outputclass='class'></xref>
@@ -62,16 +48,16 @@
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_administrative_category_code' outputclass='element'></xref>
+          <xref keyref='attribute_administrative_category_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_administrative_category_code' outputclass='attribute'></xref>
+          <xref keyref='element_administrative_category_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
@@ -170,6 +156,13 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_commissioned_service_category_code' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description SERVICE</stentry>
+      </strow>
+      <strow>
+        <stentry>Class</stentry>
+        <stentry>
+          <xref keyref='class_contraception' outputclass='class'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
@@ -391,16 +384,16 @@
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='attribute'></xref>
+          <xref keyref='element_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='element'></xref>
+          <xref keyref='attribute_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
@@ -464,13 +457,6 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_emergency_care_department_type' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description SERVICE</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_emergency_care_department_type' outputclass='element'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
@@ -678,16 +664,16 @@
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_late_antenatal_booking_appointment_reason' outputclass='attribute'></xref>
+          <xref keyref='element_late_antenatal_booking_appointment_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_late_antenatal_booking_appointment_reason' outputclass='element'></xref>
+          <xref keyref='attribute_late_antenatal_booking_appointment_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
@@ -1077,6 +1063,13 @@
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_patient_level_information_costing_system_data_set_-_reconciliation' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description SERVICE</stentry>
+      </strow>
+      <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
           <xref keyref='business_definition_patient_transport_service' outputclass='businessDefinition'></xref>
@@ -1091,16 +1084,16 @@
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_referral_closure_reason' outputclass='element'></xref>
+          <xref keyref='attribute_referral_closure_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_referral_closure_reason' outputclass='attribute'></xref>
+          <xref keyref='element_referral_closure_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>
@@ -1423,13 +1416,6 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_treatment_function_code__referring_service_' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description SERVICE</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_urgent_treatment_centre' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description SERVICE</stentry>
       </strow>

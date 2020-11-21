@@ -7,63 +7,63 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A physical 
-              <xref outputclass="class" keyref="class_location">LOCATION</xref>:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+              <xref outputclass="class" keyref="class_location">LOCATION</xref>.        </p>
+    <p>This could be:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 where 
                                 <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  are seen                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 where 
                                 <xref outputclass="class" keyref="class_service">SERVICES</xref>
  exist                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 from which requests for 
                                 <xref outputclass="class" keyref="class_activity">ACTIVITIES</xref>
  are sent or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 any other place of interest to an 
                                 <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  which is not recorded as an 
                                 <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  or an 
                                 <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITE</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+        </div>
+      </li>
+    </ul>
+    <p>
 For 
               <xref outputclass="class" keyref="class_activity">ACTIVITIES</xref>
  provided by staff groups, 
               <xref outputclass="class" keyref="class_location">LOCATIONS</xref>
  are places where a face-to-face contact or a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_group_session">Group Session</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_group_session">Group Session</xref>
  occurs.        </p>
-      <p>
+    <p>
 For diagnostic 
               <xref outputclass="class" keyref="class_activity">ACTIVITIES</xref>, 
               <xref outputclass="class" keyref="class_location">LOCATIONS</xref>
  either define the whereabouts of the 
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  or the places from which requests are sent.        </p>
-      <p>
+    <p>
 Each 
               <xref outputclass="class" keyref="class_location">LOCATION</xref>
  must be classified by one and only one type of 

@@ -7,153 +7,120 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The purpose of the 
-              <xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
- (<xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">DrPLCM</xref>) is to enable the interchange, in a uniform format, of monthly 
+              <xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
+ (<xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">DrPLCM</xref>) is to enable the interchange, in a uniform format, of monthly 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  level drug 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_contract_monitoring">Contract Monitoring</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_contract_monitoring">Contract Monitoring</xref>
  data between all purchasers and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>. This will ensure that  drug 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_contract_monitoring">Contract Monitoring</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>. This will ensure that  drug 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_contract_monitoring">Contract Monitoring</xref>
  and reporting is consistent, comparable and fit for purpose across all commissioning 
               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>.        </p>
-      <p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
  is a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  level report containing 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  identifiers relating to high cost (National Tariff-excluded) drugs. Its purpose is to substantiate and provide detail to the aggregate information contained within the 
-              <xref outputclass="dataSet"
-               keyref="dataset_aggregate_contract_monitoring_data_set">Aggregate Contract Monitoring Data Set</xref>
- (<xref outputclass="dataSet"
-               keyref="dataset_aggregate_contract_monitoring_data_set">ACM</xref>).        </p>
-      <p>
-         <b>Scope</b>
-      </p>
-      <p>
+              <xref outputclass="dataSet" keyref="dataset_aggregate_contract_monitoring_data_set">Aggregate Contract Monitoring Data Set</xref>
+ (<xref outputclass="dataSet" keyref="dataset_aggregate_contract_monitoring_data_set">ACM</xref>).        </p>
+    <p>
+      <b>Scope</b>
+    </p>
+    <p>
 The scope of the 
-              <xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
  is all NHS-funded 
               <xref outputclass="class" keyref="class_prescribed_item">PRESCRIBED ITEMS</xref>
  not reimbursed through 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>, as defined by the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_improvement">NHS Improvement</xref>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_high_cost_tariff_excluded_drug">High Cost Tariff Excluded Drugs</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>, as defined by the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_improvement">NHS Improvement</xref>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+      <xref outputclass="businessDefinition" keyref="business_definition_high_cost_tariff_excluded_drug">High Cost Tariff Excluded Drugs</xref>
  list, provided to 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  for all NHS commissioners.        </p>
-      <p>This covers:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>This covers:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 All acute and community NHS and 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>
  secondary 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_health_care_provider">Health Care Providers</xref>, but not primary care, from whom the NHS commissions healthcare;                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
-All NHS commissioners (<xref outputclass="businessDefinition"
-                        keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>, but not primary care, from whom the NHS commissions healthcare;                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+All NHS commissioners (<xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
  or their equivalents and 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_england">NHS England</xref>).                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>).                    </p>
+        </div>
+      </li>
+    </ul>
+    <p>
 Note that the totality of expenditure in the 
-              <xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
  must be equivalent to the aggregate monetary value shown relating to 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_high_cost_tariff_excluded_drug">High Cost Tariff Excluded Drugs</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_high_cost_tariff_excluded_drug">High Cost Tariff Excluded Drugs</xref>
  in the 
-              <xref outputclass="dataSet"
-               keyref="dataset_aggregate_contract_monitoring_data_set">Aggregate Contract Monitoring Data Set</xref>.        </p>
-      <p>
-         <b>Submission</b>
-      </p>
-      <p>
+              <xref outputclass="dataSet" keyref="dataset_aggregate_contract_monitoring_data_set">Aggregate Contract Monitoring Data Set</xref>.        </p>
+    <p>
+      <b>Submission</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
  is required to be submitted on a monthly basis to the respective 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_data_services_for_commissioners_regional_office">Data Services for Commissioners Regional Office</xref>
- (<xref outputclass="businessDefinition"
-               keyref="business_definition_data_services_for_commissioners_regional_office">DSCRO</xref>) as nominated by each commissioning function in line with the dates documented in the data submission timetable within Schedule 6 of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_nhs_standard_contract">NHS Standard Contract</xref>.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_data_services_for_commissioners_regional_office">Data Services for Commissioners Regional Office</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_data_services_for_commissioners_regional_office">DSCRO</xref>) as nominated by each commissioning function in line with the dates documented in the data submission timetable within Schedule 6 of the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_nhs_standard_contract">NHS Standard Contract</xref>.        </p>
+    <p>
 The completed monthly 
-              <xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>
  should be transmitted using the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_data_landing_portal">Data Landing Portal</xref>
- (<xref outputclass="supportingInformation"
-               keyref="supporting_definition_data_landing_portal">DLP</xref>).        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_data_landing_portal">Data Landing Portal</xref>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_data_landing_portal">DLP</xref>).        </p>
+    <p>
 For further information on the 
-              <xref outputclass="dataSet"
-               keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>, see the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_england">NHS England</xref>
+              <xref outputclass="dataSet" keyref="dataset_drugs_patient_level_contract_monitoring_data_set">Drugs Patient Level Contract Monitoring Data Set</xref>, see the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>
  website at: 
-              <xref href="https://www.england.nhs.uk/nhs-standard-contract/dc-reporting/"
-               scope="external"
-               format="html">Directly Commissioned Services Reporting Requirements</xref>.        </p>
-      <p>
-         <b>Mandation</b>
-      </p>
-      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
-      <ul>
-         <li>
-            <div>
-               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
-            </div>
-         </li>
-         <li>
-            <p>R = Required: NHS business processes cannot be delivered without this data element</p>
-         </li>
-         <li>
-            <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
-         </li>
-      </ul>
-      <p>
-         <b>Data Set Constraints</b>
-      </p>
-      <p>
+              <xref href="https://www.england.nhs.uk/nhs-standard-contract/dc-reporting/" scope="external" format="html">Directly Commissioned Services Reporting Requirements</xref>.        </p>
+    <p>
+      <b>Mandation</b>
+    </p>
+    <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+    <ul>
+      <li>
+        <div>
+          <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+        </div>
+      </li>
+      <li>
+        <p>R = Required: NHS business processes cannot be delivered without this data element</p>
+      </li>
+      <li>
+        <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
+      </li>
+    </ul>
+    <p>
+      <b>Data Set Constraints</b>
+    </p>
+    <p>
 For guidance on the Data Set constraints, see the 
-              <xref outputclass="xmlSchemaConstraint"
-               keyref="xml_schema_constraint_drugs_patient_level_contract_monitoring_data_set_constraints">Drugs Patient Level Contract Monitoring Data Set Constraints</xref>.        </p>
+              <xref outputclass="xmlSchemaConstraint" keyref="xml_schema_constraint_drugs_patient_level_contract_monitoring_data_set_constraints">Drugs Patient Level Contract Monitoring Data Set Constraints</xref>.        </p>
   </div>
 </body>
 </topic>

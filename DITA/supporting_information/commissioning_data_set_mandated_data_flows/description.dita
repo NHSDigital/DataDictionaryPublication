@@ -7,239 +7,188 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The minimum 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  information flow requirement to enable 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>, 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_18_weeks">18 Weeks</xref>
-         <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>, 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_18_weeks">18 Weeks</xref>
+      <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  reporting, and the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
  to be supported by the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  is shown in the table below.        </p>
-      <p>
+    <p>
 The 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  supports every 
               <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
  but only a subset is mandated to flow.        </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  may flow to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  using either Net Change or Bulk Replacement 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocols</xref>.  Many Standard NHS Contracts between 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocols</xref>.  Many Standard NHS Contracts between 
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>
  and the commissioners of their 
               <xref outputclass="class" keyref="class_service">SERVICES</xref>, now specify weekly submission of initially-coded data sets to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.  The use of Net Change 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocols</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.  The use of Net Change 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocols</xref>
  is recommended for submissions of this frequency.        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>
-                        <b>CDS TYPE</b>
-                     </p>
-                  </entry>
-                  <entry>
-                     <b>DESCRIPTION</b>
-                  </entry>
-                  <entry>
-                     <p>
-                        <b>MIN FREQUENCY</b>
-                     </p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>
-                        <b>DIRECTIVE</b>
-                     </p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>
-                        <b>DATA FLOW</b>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 010</p>
-                  </entry>
-                  <entry>
-                     <p>Accident And Emergency</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendances</xref>
-                     <p>
-were mandated to flow nationally from 1st April 2005, see 
-                        <xref scope="external"
-                              format="html"
-                              href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2004/322004.pdf">DSCN 32/2004</xref>
-                     </p>
-                  </entry>
-                  <entry>
-                     <p>
-All 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendances</xref>
- occurring during the time period being reported and defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
- being used.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 011</p>
-                  </entry>
-                  <entry>
-                     <p>Emergency Care</p>
-                  </entry>
-                  <entry>
-                     <p>Weekly</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_emergency_care_attendance">Emergency Care Attendances</xref>
-                     <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="5">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>
+                <b>CDS TYPE</b>
+              </p>
+            </entry>
+            <entry>
+              <b>DESCRIPTION</b>
+            </entry>
+            <entry>
+              <p>
+                <b>MIN FREQUENCY</b>
+              </p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>
+                <b>DIRECTIVE</b>
+              </p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>
+                <b>DATA FLOW</b>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS010</p>
+            </entry>
+            <entry>
+              <p>Accident and Emergency (Retired 01 November 2020)</p>
+              <p> </p>
+            </entry>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 011</p>
+            </entry>
+            <entry>
+              <p>Emergency Care</p>
+            </entry>
+            <entry>
+              <p>Weekly</p>
+            </entry>
+            <entry>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendances</xref>
+              <p>
  for 
-                        <xref outputclass="attribute"
-                              keyref="attribute_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPE</xref>
+                        <xref outputclass="attribute" keyref="attribute_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPE</xref>
   01 and 02 were mandated to flow nationally from 1st October 2017. See 
-                        <xref scope="external"
-                              format="html"
-                              href="http://www.content.digital.nhs.uk/isce/publication/scci0092-2062">SCCI0092-2062</xref>
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_emergency_care_attendance">Emergency Care Attendances</xref>
+                        <xref scope="external" format="html" href="http://www.content.digital.nhs.uk/isce/publication/scci0092-2062">SCCI0092-2062</xref>
+                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendances</xref>
   for 
-                        <xref outputclass="attribute"
-                              keyref="attribute_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPES</xref>
+                        <xref outputclass="attribute" keyref="attribute_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPES</xref>
   03 and 04 were mandated to flow from October 2018.  See 
-                        <xref scope="external"
-                              format="html"
-                              href="http://www.content.digital.nhs.uk/isce/publication/scci0092-2062">SCCI0092-2062</xref>
-                     </p>
-                  </entry>
-                  <entry>
-                     <p>Data is expected to flow on a daily basis where possible, but a weekly frequency is the minimum requirement.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 020</p>
-                  </entry>
-                  <entry>
-                     <p>Out-Patient  </p>
-                  </entry>
-                  <entry>
-                     <p>Monthly</p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref scope="external" format="html" href="http://www.content.digital.nhs.uk/isce/publication/scci0092-2062">SCCI0092-2062</xref>
+              </p>
+            </entry>
+            <entry>
+              <p>Data is expected to flow on a daily basis where possible, but a weekly frequency is the minimum requirement.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 020</p>
+            </entry>
+            <entry>
+              <p>Out-Patient  </p>
+            </entry>
+            <entry>
+              <p>Monthly</p>
+            </entry>
+            <entry>
+              <p>
 Out-Patient Attendance Commissioning Data Sets (including Ward Attenders) were mandated to be submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  from 1st October 2001, see 
-                        <xref scope="external"
-                              format="html"
-                              href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2001/052001.pdf">DSCN 05/2001</xref>.                  </p>
-                     <p>
+                        <xref scope="external" format="html" href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2001/052001.pdf">DSCN 05/2001</xref>.                  </p>
+              <p>
 Out-Patient Attendance Commissioning Data Set records where the activity relates to a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
   must include the PATIENT PATHWAY data group items, from 1st October 2009. 
                         <xref outputclass="class" keyref="class_nurse">NURSE</xref>
  and 
                         <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
  attendances and Attendances for nursing care were enabled to be carried in the Out-Patient Attendance Commissioning Data Set from 1 April 2005,  
-                        <xref scope="external"
-                              format="html"
-                              href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2004/322004.pdf">DSCN 32/2004</xref>
+                        <xref scope="external" format="html" href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/library_old/dscn//dscn2004/322004.pdf">DSCN 32/2004</xref>
  Other Care Professional Attendances where an appropriate Treatment Function exists may also be submitted.                  </p>
-                     <p>
+              <p>
 Out-patient records where the activity relates to the  
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
   standard must be submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
   (in accordance with 
-                        <xref scope="external"
-                              format="html"
-                              href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/documents/isb-0092/amd-6-2011/index_html">ISN ISB0092 Amd 06/2011</xref>, and must include the PATIENT PATHWAY data group data items.  Note that this is only supported in Commissioning Data Set version 6-2 onwards, with the introduction of data element 
+                        <xref scope="external" format="html" href="http://webarchive.nationalarchives.gov.uk/+/http://www.isb.nhs.uk/documents/isb-0092/amd-6-2011/index_html">ISN ISB0092 Amd 06/2011</xref>, and must include the PATIENT PATHWAY data group data items.  Note that this is only supported in Commissioning Data Set version 6-2 onwards, with the introduction of data element 
                         <xref outputclass="element" keyref="element_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>.                  </p>
-                  </entry>
-                  <entry>
-                     <p>Due to the high volumes involved, these are often submitted on a weekly basis.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 021</p>
-                  </entry>
-                  <entry>
-                     <p>Future Out-Patients</p>
-                  </entry>
-                  <entry>
-                     <p>As Required for piloting</p>
-                  </entry>
-                  <entry>
-                     <p>From 01/01/2008, submissions to support local activities and commissioning will be supported for piloting purposes only.</p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 030</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List End of Period (Standard)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>All Providers should endeavour to support this data flow.</p>
-                     <p>
+            </entry>
+            <entry>
+              <p>Due to the high volumes involved, these are often submitted on a weekly basis.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 021</p>
+            </entry>
+            <entry>
+              <p>Future Out-Patients</p>
+            </entry>
+            <entry>
+              <p>As Required for piloting</p>
+            </entry>
+            <entry>
+              <p>From 01/01/2008, submissions to support local activities and commissioning will be supported for piloting purposes only.</p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 030</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List End of Period (Standard)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>All Providers should endeavour to support this data flow.</p>
+              <p>
 Elective Admission List End of Period Census (Standard) Commissioning Data Set records where the activity relates to a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
   must include the PATIENT PATHWAY data group items, from 1st October 2009.                  </p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+            <entry>
+              <p>
 All entries where at the end of the time period being reported and defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>, the 
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>, the 
                         <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  remains on the 
                         <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>. Optionally and by local agreement with commissioners, entries relating to the 
@@ -247,400 +196,376 @@ All entries where at the end of the time period being reported and defined by th
  that have been removed from the 
                         <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
  may be included.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 040</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List End of Period (New)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                  </entry>
-                  <entry>
-                     <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 050</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List End of Period (Old)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                  </entry>
-                  <entry>
-                     <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 060</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List Event During Period (Add)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 040</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List End of Period (New)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+            </entry>
+            <entry>
+              <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 050</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List End of Period (Old)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+            </entry>
+            <entry>
+              <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 060</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List Event During Period (Add)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+              <p>
 Elective Admission List Event During Period (Add) Commissioning Data Set records where the activity relates to a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
   must include the PATIENT PATHWAY data group items, from 1st October 2009.                   </p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+            <entry>
+              <p>
 May be submitted where an entry has been added to the 
                         <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
  during the time period reported.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 070</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List Event During Period (Remove)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 070</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List Event During Period (Remove)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+              <p>
 Elective Admission List Event During Period (Remove) Commissioning Data Set records where the activity relates to a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
   must include the PATIENT PATHWAY data group items, from 1st October 2009.                   </p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+            <entry>
+              <p>
 May be submitted where an entry has been removed from the 
                         <xref outputclass="class" keyref="class_elective_admission_list">ELECTIVE ADMISSION LIST</xref>
  during the time period reported.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 080</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List Event During Period (Offer)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 080</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List Event During Period (Offer)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+              <p>
 Elective Admission List Event During Period (Offer) CDS records where the activity relates to a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
   must include the PATIENT PATHWAY data group items, from 1st October 2009.                   </p>
-                  </entry>
-                  <entry>
-                     <p>May be submitted where an offer has been made during the time period reported.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 090</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List Event During Period (Available / Unavailable)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                  </entry>
-                  <entry>
-                     <p>May be submitted where a patient becomes Available or Unavailable during the time period reported.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 100</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List Event During Period (Old Service Agreement)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                  </entry>
-                  <entry>
-                     <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 110</p>
-                  </entry>
-                  <entry>
-                     <p>Elective Admission List Event During Period (New Service Agreement)</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly if used</p>
-                  </entry>
-                  <entry>
-                     <p>Optional</p>
-                  </entry>
-                  <entry>
-                     <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 120</p>
-                  </entry>
-                  <entry>
-                     <p>Finished Birth Episode</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+            <entry>
+              <p>May be submitted where an offer has been made during the time period reported.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 090</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List Event During Period (Available / Unavailable)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+            </entry>
+            <entry>
+              <p>May be submitted where a patient becomes Available or Unavailable during the time period reported.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 100</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List Event During Period (Old Service Agreement)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+            </entry>
+            <entry>
+              <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 110</p>
+            </entry>
+            <entry>
+              <p>Elective Admission List Event During Period (New Service Agreement)</p>
+            </entry>
+            <entry>
+              <p>Monthly if used</p>
+            </entry>
+            <entry>
+              <p>Optional</p>
+            </entry>
+            <entry>
+              <p>May be submitted where the Commissioner has been changed during the time period reported.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 120</p>
+            </entry>
+            <entry>
+              <p>Finished Birth Episode</p>
+            </entry>
+            <entry>
+              <p>Monthly</p>
+            </entry>
+            <entry>
+              <p>
 All finished Admitted Patient Care data must be submitted "at least monthly" (EL - Dec 1995). This includes 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.                  </p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.                  </p>
+            </entry>
+            <entry>
+              <p>
 All Episodes that have finished relevant to the time period defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
   being used.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 130</p>
-                  </entry>
-                  <entry>
-                     <p>Finished General Episode</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly</p>
-                  </entry>
-                  <entry>
-                     <p>All finished Admitted Patient Care data must be submitted "at least monthly" (EL - Dec 1995).</p>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 130</p>
+            </entry>
+            <entry>
+              <p>Finished General Episode</p>
+            </entry>
+            <entry>
+              <p>Monthly</p>
+            </entry>
+            <entry>
+              <p>All finished Admitted Patient Care data must be submitted "at least monthly" (EL - Dec 1995).</p>
+              <p>
 This includes 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.                  </p>
-                     <p>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.                  </p>
+              <p>
 Finished General Episode Commissioning Data Set records where the activity relates to a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
   must include the PATIENT PATHWAY data group items, from 1st October 2009.                   </p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+            <entry>
+              <p>
 All Episodes that have finished relevant to the time period defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
  being used.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 140</p>
-                  </entry>
-                  <entry>
-                     <p>Finished Delivery Episode</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 140</p>
+            </entry>
+            <entry>
+              <p>Finished Delivery Episode</p>
+            </entry>
+            <entry>
+              <p>Monthly</p>
+            </entry>
+            <entry>
+              <p>
 All finished Admitted Patient Care data must be submitted "at least monthly" (EL - Dec 1995). This includes 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.                  </p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_non-contract_activity">Non-Contract Activity</xref>.                  </p>
+            </entry>
+            <entry>
+              <p>
 All Episodes that have finished relevant to the time period defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
  being used.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 150</p>
-                  </entry>
-                  <entry>
-                     <p>Other Birth</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly</p>
-                  </entry>
-                  <entry>
-                     <p>This includes Home Birth.</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 150</p>
+            </entry>
+            <entry>
+              <p>Other Birth</p>
+            </entry>
+            <entry>
+              <p>Monthly</p>
+            </entry>
+            <entry>
+              <p>This includes Home Birth.</p>
+            </entry>
+            <entry>
+              <p>
 All Episodes that have finished relevant to the time period defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
  being used.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 160</p>
-                  </entry>
-                  <entry>
-                     <p>Other Delivery</p>
-                  </entry>
-                  <entry>
-                     <p>Monthly</p>
-                  </entry>
-                  <entry>
-                     <p>This includes Home Delivery.</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 160</p>
+            </entry>
+            <entry>
+              <p>Other Delivery</p>
+            </entry>
+            <entry>
+              <p>Monthly</p>
+            </entry>
+            <entry>
+              <p>This includes Home Delivery.</p>
+            </entry>
+            <entry>
+              <p>
 All Episodes that have finished relevant to the time period defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
  being used.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 170</p>
-                  </entry>
-                  <entry>
-                     <p>The Detained and/or Long Term Psychiatric Census</p>
-                  </entry>
-                  <entry>
-                     <p>Annually</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 170</p>
+            </entry>
+            <entry>
+              <p>The Detained and/or Long Term Psychiatric Census</p>
+            </entry>
+            <entry>
+              <p>Annually</p>
+            </entry>
+            <entry>
+              <p>
 Required by the 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_digital">NHS Digital</xref>. May optionally be sent more regularly, usually monthly.                  </p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>. May optionally be sent more regularly, usually monthly.                  </p>
+            </entry>
+            <entry>
+              <p>
 Reflects data as at the 31st March each year. All Episodes that are relevant to the time period defined by the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
  being used.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 180</p>
-                  </entry>
-                  <entry>
-                     <p>Unfinished Birth Episode</p>
-                  </entry>
-                  <entry>
-                     <p>Annually</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 180</p>
+            </entry>
+            <entry>
+              <p>Unfinished Birth Episode</p>
+            </entry>
+            <entry>
+              <p>Annually</p>
+            </entry>
+            <entry>
+              <p>
 The Annual Census / Unfinished Census. Required by the 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_digital">NHS Digital</xref>.                  </p>
-                     <p>May optionally be sent more regularly, usually monthly.</p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>.                  </p>
+              <p>May optionally be sent more regularly, usually monthly.</p>
+            </entry>
+            <entry>
+              <p>
 Data relating to episodes that were unfinished as at midnight on 31st March and have not been included in the Detained and/or Long Term Psychiatric Census, and have not been submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  in either Finished or Unfinished Commissioning Data Set data, must be submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 190</p>
-                  </entry>
-                  <entry>
-                     <p>Unfinished General Episode</p>
-                  </entry>
-                  <entry>
-                     <p>Annually</p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 190</p>
+            </entry>
+            <entry>
+              <p>Unfinished General Episode</p>
+            </entry>
+            <entry>
+              <p>Annually</p>
+            </entry>
+            <entry>
+              <p>
 The Annual Census / Unfinished Census. Required by the 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_digital">NHS Digital</xref>
-                     </p>
-                     <p>May optionally be sent more regularly, usually monthly.</p>
-                     <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+              </p>
+              <p>May optionally be sent more regularly, usually monthly.</p>
+              <p>
 Unfinished General Episode Commissioning Data Set records where the activity relates to a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>
   must include the PATIENT PATHWAY data group items, from 1st October 2009.                  </p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+            <entry>
+              <p>
 Data relating to episodes that were unfinished as at midnight on 31st March and have not been included in the Detained and/or Long Term Psychiatric Census, and have not been submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  in either Finished or Unfinished Commissioning Data Set data, must be submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CDS 200</p>
-                  </entry>
-                  <entry>
-                     <p>Unfinished Delivery Episode</p>
-                  </entry>
-                  <entry>
-                     <p>Annually</p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CDS 200</p>
+            </entry>
+            <entry>
+              <p>Unfinished Delivery Episode</p>
+            </entry>
+            <entry>
+              <p>Annually</p>
+            </entry>
+            <entry>
+              <p>
 The Annual Census / Unfinished Census. Required by the 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_digital">NHS Digital</xref>
-                     </p>
-                     <p>May optionally be sent more regularly, usually monthly.</p>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+              </p>
+              <p>May optionally be sent more regularly, usually monthly.</p>
+            </entry>
+            <entry>
+              <p>
 Data relating to episodes that were unfinished as at midnight on 31st March and have not been included in the Detained and/or Long Term Psychiatric Census, and have not been submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  in either Finished or Unfinished Commissioning Data Set data, must be submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

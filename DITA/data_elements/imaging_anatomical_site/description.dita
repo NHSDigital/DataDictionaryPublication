@@ -7,44 +7,41 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>.        </p>
-      <p>
+    <p>
 For the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">Cancer Outcomes and Services Data Set</xref>, 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>, 
               <xref outputclass="element" keyref="element_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>
  is the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_opcs_classification_of_interventions_and_procedures">OPCS-4</xref>
  'Z' code plus the following permitted values:        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>CZ001</p>
-                  </entry>
-                  <entry>
-                     <p>Whole body</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>CZ002</p>
-                  </entry>
-                  <entry>
-                     <p>Multiple sites</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>CZ001</p>
+            </entry>
+            <entry>
+              <p>Whole body</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>CZ002</p>
+            </entry>
+            <entry>
+              <p>Multiple sites</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

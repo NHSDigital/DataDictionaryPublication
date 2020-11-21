@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cancer_outcomes_and_services_data_set_-_gynaecological.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Gynaecological - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>SITE SPECIFIC STAGING - GYNAECOLOGICAL</b>
+
+  <p>To carry staging details for Gynaecological cancer.One occurrence of this group is permitted per Core Site Specific Staging.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_final_figo_stage">FINAL FIGO STAGE</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>TREATMENT: SURGERY - GYNAECOLOGICAL</b>
+
+  <p>To carry surgery details for Gynaecological cancer.One occurrence of this group is permitted per Core Treatment Surgery.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_care_professional_senior_operating_surgeon_grade__cancer_">CARE PROFESSIONAL SENIOR OPERATING SURGEON GRADE (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_residual_disease_size__gynaecological_cancer_">RESIDUAL DISEASE SIZE (GYNAECOLOGICAL CANCER)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

@@ -7,132 +7,128 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_delivery_method_code">DELIVERY METHOD CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_delivery_method_code">DELIVERY METHOD CODE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_delivery_method">DELIVERY METHOD</xref>.        </p>
-      <p>
+    <p>
 Additional National Code guidance not contained in the attribute definition is given below. It is shown in 
               <i>italics</i>.        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="3">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>0</p>
-                  </entry>
-                  <entry>
-                     <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>0</p>
+            </entry>
+            <entry>
+              <p>
 Spontaneous vertex 
                         <i>
 (normal vaginal 
                               <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>, occipitoanterior)                        </i>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>1</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1</p>
+            </entry>
+            <entry>
+              <p>
 Spontaneous other cephalic 
                         <i>
 (cephalic vaginal 
                               <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
  with abnormal presentation of head at 
                               <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>, without instruments, with or without manipulation)                        </i>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>2</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>2</p>
+            </entry>
+            <entry>
+              <p>
 Low forceps, not breech 
                         <i>
 (e.g. forceps, low application, without manipulation. Includes forceps 
                               <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
  not otherwise specified)                        </i>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>3</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>3</p>
+            </entry>
+            <entry>
+              <p>
 Other forceps, not breech 
                         <i>(e.g. forceps with manipulation. Includes high forceps and mid forceps)</i>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>4</p>
-                  </entry>
-                  <entry>
-                     <p>Ventouse, vacuum extraction</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>5</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>4</p>
+            </entry>
+            <entry>
+              <p>Ventouse, vacuum extraction</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>5</p>
+            </entry>
+            <entry>
+              <p>
 Breech 
                         <i>
 (spontaneous 
                               <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
   assisted or unspecified. Includes partial breech extraction)                        </i>
-                     </p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>6</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>6</p>
+            </entry>
+            <entry>
+              <p>
 Breech extraction (<i>not otherwise specified. Includes total breech extraction and version with breech extraction</i>)                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>7</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>7</p>
+            </entry>
+            <entry>
+              <p>
 Elective caesarean section (<i>
 caesarean section before, or at onset of, 
                               <xref outputclass="businessDefinition" keyref="business_definition_labour">Labour</xref>)                        </i>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>8</p>
-                  </entry>
-                  <entry>
-                     <p>Emergency caesarean section</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>9</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>8</p>
+            </entry>
+            <entry>
+              <p>Emergency caesarean section</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>9</p>
+            </entry>
+            <entry>
+              <p>
 Other than those specified above 
                         <i>
 (e.g. application of weight to leg in breech 
@@ -140,12 +136,12 @@ Other than those specified above
                               <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>
  and other surgical or instrumental 
                               <xref outputclass="businessDefinition" keyref="business_definition_delivery">Delivery</xref>)                        </i>
-                     </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+              </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

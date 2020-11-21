@@ -7,29 +7,26 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
+    <p>
+      <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_clinical_intervention_text_string">CLINICAL INTERVENTION TEXT STRING</xref>.        </p>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_clinical_intervention_text_string">CLINICAL INTERVENTION TEXT STRING</xref>.        </p>
+    <p>
 For the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/national_joint_registry_data_set_introduction.html"
-               scope="external"
-               format="html">National Joint Registry Data Set</xref>:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
-               <p> Is free text further information to record any additional information about the operation that the surgeon may want to record</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>If there is no additional information, the field is left blank.</p>
-            </div>
-         </li>
-      </ul>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/national_joint_registry_data_set_introduction.html" scope="external" format="html">National Joint Registry Data Set</xref>:        </p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_surgeon_notes">SURGEON NOTES</xref>
+          <p> Is free text further information to record any additional information about the operation that the surgeon may want to record</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>If there is no additional information, the field is left blank.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

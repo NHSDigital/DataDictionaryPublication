@@ -7,78 +7,27 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+    <p>
+      <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  can function as independent senders of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  and have service level agreements with Acute, Community or Mental Health 
               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
- for the submission of this data. These agreements usually relate to clinical services that are subcontracted to that provider or where clinical services are facilitated on that site but owned by the commissioner of the agreement.        </p>
-      <p>
-         <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
+ for the submission of this data. These agreements usually relate to clinical services that are subcontracted to that 
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ or where clinical services are facilitated on that site but owned by the commissioner of the agreement.        </p>
+    <p>
+      <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  mergers do not always result in an immediate merger of IT facilities and their often disparate systems to enable a single flow of commissioning data to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. In this case, data flows to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. In this case, data flows to the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  for multiple sites from multiple senders must be very carefully managed in order to avoid inadvertent deletion or duplication of records in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
-      <p>
-In these cases, Senders are strongly advised to only use the Net Change Update Mechanism of the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
- as data integrity is more manageable using the Net Change process rather than the Bulk Replacement process.        </p>
-      <p>
-         <b>CDS Net Change</b>
-When using the Net Change process, multiple data flows from different sites or systems using the same 
-              <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
- must ensure that each Commissioning Data Set record has a properly maintained 
-              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>.
-  If not, these submissions will most likely conflict and overwrite each other causing substantial data corruption in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
- data base. It is recommended that wherever possible, individual sites or systems use a uniquely allocated 
-              <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
- for submissions to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
-      <p>
-         <b>CDS Bulk Replacement</b>
-When using the Bulk Replacement process, a sender must not make multiple data flows from different 
-              <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITES</xref>
- or systems using the same 
-              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
- and provider site code or the interchanges will conflict and overwrite each other causing substantial data corruption in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
- data base.
-  To prevent this happening, individual sites and systems within an 
-              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
- must use a unique 
-              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
- and provider site code combination for Commissioning Data Set submissions to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. This can be achieved by utilising Provider and Site Codes already registered with the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
- which will then differentiate multiple Commissioning Data Set flows for the same provider by using the last 2 digits of the 
-              <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>.        </p>
-      <p>
-         <b>End Of Year Considerations</b>
-It may be necessary to avoid changes to systems processes for multiple flows at the end of the financial year, and retain the ability to use the previously used 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
- for data submitted earlier in the year, until the 
-              <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
- has completed any refresh of data for that year. This would then ensure a complete set of commissioning data for that year for the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_national_tariff_payment_system">National Tariff Payment System</xref>
- and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
- purposes.        </p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
+    <p>
+For further guidance, see the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+ website at: 
+              <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/secondary-uses-services-sus-guidance" scope="external" format="html">Secondary Uses Service (SUS) Guidance</xref>.        </p>
   </div>
 </body>
 </topic>

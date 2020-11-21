@@ -7,397 +7,386 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 This is the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
  code to identify a 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>.        </p>
-      <p>
+    <p>
 The 
               <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>
  is passed to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>, which adds a leading character and a check digit to create the 
-              <xref outputclass="attribute"
-               keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>. 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>, which adds a leading character and a check digit to create the 
+              <xref outputclass="attribute" keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>. 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
  use this for the issue of prescription pads etc.        </p>
-      <p>
+    <p>
 For England and Wales, in addition to a 
-              <xref outputclass="attribute"
-               keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>, a 
+              <xref outputclass="attribute" keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>, a 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  may have one or more spurious 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  Code(s). These are allocated if a 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  works in additional 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>. The spurious 
+              <xref outputclass="businessDefinition" keyref="business_definition_general_medical_practitioner_practice">General Medical Practitioner Practice</xref>. The spurious 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  Codes are not derived from the 
               <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>, but do follow the same format as the 
-              <xref outputclass="attribute"
-               keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>, and are allocated by the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>. All spurious 
+              <xref outputclass="attribute" keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>, and are allocated by the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>. All spurious 
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  Codes begin with either 'G6' or 'G7'.        </p>
-      <p>England and Wales General Medical Practitioner Code format</p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="13">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <colspec colname="col7" colwidth="1*"/>
-            <colspec colname="col8" colwidth="1*"/>
-            <colspec colname="col9" colwidth="1*"/>
-            <colspec colname="col10" colwidth="1*"/>
-            <colspec colname="col11" colwidth="1*"/>
-            <colspec colname="col12" colwidth="1*"/>
-            <colspec colname="col13" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="1" scope="col">
-                     <p>Practitioner Code Type</p>
-                  </entry>
-                  <entry namest="col2" nameend="col9" scope="col">
-                     <p>Character Position</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated By</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated To</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Known As</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Notes</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>1</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>2</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>3</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>4</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>5</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>6</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>7</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>8</p>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="attribute"
-                           keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>G</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
-                  </entry>
-                  <entry>
-                     <p>Prescribing GMPs in England &amp; Wales</p>
-                  </entry>
-                  <entry>
-                     <p>GMP</p>
-                  </entry>
-                  <entry>
-                     <p>
+    <p>England and Wales General Medical Practitioner Code format</p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="13">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <colspec colname="col7" colwidth="1*"/>
+        <colspec colname="col8" colwidth="1*"/>
+        <colspec colname="col9" colwidth="1*"/>
+        <colspec colname="col10" colwidth="1*"/>
+        <colspec colname="col11" colwidth="1*"/>
+        <colspec colname="col12" colwidth="1*"/>
+        <colspec colname="col13" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry morerows="1" scope="col">
+              <p>Practitioner Code Type</p>
+            </entry>
+            <entry namest="col2" nameend="col9" scope="col">
+              <p>Character Position</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated By</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated To</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Known As</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Notes</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>2</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>3</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>4</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>5</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>6</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>7</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>8</p>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="attribute" keyref="attribute_general_medical_practitioner_ppd_code">GENERAL MEDICAL PRACTITIONER PPD CODE</xref>
+            </entry>
+            <entry>
+              <p>G</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+            </entry>
+            <entry>
+              <p>Prescribing GMPs in England &amp; Wales</p>
+            </entry>
+            <entry>
+              <p>GMP</p>
+            </entry>
+            <entry>
+              <p>
 Derived from 
                         <xref outputclass="attribute" keyref="attribute_doctor_index_number">DOCTOR INDEX NUMBER</xref>
  - 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_nhs_prescription_services">NHS Prescription Services</xref>
  add leading G and a check digit. Associated with practice.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>Scottish General Medical Practitioner Code format</p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="13">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <colspec colname="col7" colwidth="1*"/>
-            <colspec colname="col8" colwidth="1*"/>
-            <colspec colname="col9" colwidth="1*"/>
-            <colspec colname="col10" colwidth="1*"/>
-            <colspec colname="col11" colwidth="1*"/>
-            <colspec colname="col12" colwidth="1*"/>
-            <colspec colname="col13" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="1" scope="col">
-                     <p>Practitioner Code Type</p>
-                  </entry>
-                  <entry namest="col2" nameend="col9" scope="col">
-                     <p>Character Position</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated By</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated To</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Known As</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Notes</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>1</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>2</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>3</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>4</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>5</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>6</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>7</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>8</p>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>Scottish General Medical Practitioner Code</p>
-                  </entry>
-                  <entry>
-                     <p>S</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>Information Standards Division (Scotland)</p>
-                  </entry>
-                  <entry>
-                     <p>GMPs in Scotland</p>
-                  </entry>
-                  <entry>
-                     <p>GMP</p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>Northern Ireland General Medical Practitioner Code format</p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="13">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <colspec colname="col7" colwidth="1*"/>
-            <colspec colname="col8" colwidth="1*"/>
-            <colspec colname="col9" colwidth="1*"/>
-            <colspec colname="col10" colwidth="1*"/>
-            <colspec colname="col11" colwidth="1*"/>
-            <colspec colname="col12" colwidth="1*"/>
-            <colspec colname="col13" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="1" scope="col">
-                     <p>Practitioner Code Type</p>
-                  </entry>
-                  <entry namest="col2" nameend="col9" scope="col">
-                     <p>Character Position</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated By</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated To</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Known As</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Notes</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>1</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>2</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>3</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>4</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>5</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>6</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>7</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>8</p>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>Northern Ireland General Medical Practitioner Code</p>
-                  </entry>
-                  <entry>
-                     <p>Z</p>
-                  </entry>
-                  <entry>
-                     <p>E, N, S, W</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0</p>
-                  </entry>
-                  <entry>
-                     <p>Northern Ireland Dept of Health, Social Services and Public Safety</p>
-                  </entry>
-                  <entry>
-                     <p>GMPs in Northern Ireland</p>
-                  </entry>
-                  <entry>
-                     <p>GMP</p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>Scottish General Medical Practitioner Code format</p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="13">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <colspec colname="col7" colwidth="1*"/>
+        <colspec colname="col8" colwidth="1*"/>
+        <colspec colname="col9" colwidth="1*"/>
+        <colspec colname="col10" colwidth="1*"/>
+        <colspec colname="col11" colwidth="1*"/>
+        <colspec colname="col12" colwidth="1*"/>
+        <colspec colname="col13" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry morerows="1" scope="col">
+              <p>Practitioner Code Type</p>
+            </entry>
+            <entry namest="col2" nameend="col9" scope="col">
+              <p>Character Position</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated By</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated To</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Known As</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Notes</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>2</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>3</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>4</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>5</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>6</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>7</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>8</p>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Scottish General Medical Practitioner Code</p>
+            </entry>
+            <entry>
+              <p>S</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>Information Standards Division (Scotland)</p>
+            </entry>
+            <entry>
+              <p>GMPs in Scotland</p>
+            </entry>
+            <entry>
+              <p>GMP</p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>Northern Ireland General Medical Practitioner Code format</p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="13">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <colspec colname="col7" colwidth="1*"/>
+        <colspec colname="col8" colwidth="1*"/>
+        <colspec colname="col9" colwidth="1*"/>
+        <colspec colname="col10" colwidth="1*"/>
+        <colspec colname="col11" colwidth="1*"/>
+        <colspec colname="col12" colwidth="1*"/>
+        <colspec colname="col13" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry morerows="1" scope="col">
+              <p>Practitioner Code Type</p>
+            </entry>
+            <entry namest="col2" nameend="col9" scope="col">
+              <p>Character Position</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated By</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated To</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Known As</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Notes</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>2</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>3</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>4</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>5</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>6</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>7</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>8</p>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>Northern Ireland General Medical Practitioner Code</p>
+            </entry>
+            <entry>
+              <p>Z</p>
+            </entry>
+            <entry>
+              <p>E, N, S, W</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0</p>
+            </entry>
+            <entry>
+              <p>Northern Ireland Dept of Health, Social Services and Public Safety</p>
+            </entry>
+            <entry>
+              <p>GMPs in Northern Ireland</p>
+            </entry>
+            <entry>
+              <p>GMP</p>
+            </entry>
+            <entry>
+              <p> </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

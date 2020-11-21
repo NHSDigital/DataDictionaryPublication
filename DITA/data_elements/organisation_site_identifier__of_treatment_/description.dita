@@ -7,14 +7,12 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
  is the 
               <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
  of the 
@@ -24,9 +22,8 @@
  was treated, i.e. it should enable the treating 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  to be identified.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
  identifies the 
               <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITE</xref>
  within the 
@@ -34,29 +31,25 @@
  on which the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  was treated, since facilities may vary on different hospital sites.        </p>
-      <p>
+    <p>
 The code recorded should always be the national code; if the treatment is sub-commissioned to another NHS 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  or an independent UK provider, the 
-              <xref outputclass="element"
-               keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
  used should be the 
               <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
  of the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  actually carrying out the work.        </p>
-      <p>
+    <p>
 Where treatment is sub-commissioned to an overseas provider the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>
  89997 
               <i>'Non-UK Provider where no 
                   <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>
  has been issued'</i>
  is applicable.        </p>
-      <p>
+    <p>
 Each 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  has a unique 
@@ -67,7 +60,7 @@ Each
               <xref outputclass="class" keyref="class_organisation_site">ORGANISATION SITES</xref>
  and are uniquely identified by an 
               <xref outputclass="attribute" keyref="attribute_organisation_site_identifier">ORGANISATION SITE IDENTIFIER</xref>.        </p>
-      <p>
+    <p>
 For out-patients, 
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  may take place outside the hospital, such as in the 
@@ -82,20 +75,18 @@ Note:
  within which the 
                   <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  occurred.             </i>
-      </p>
-      <p>
-         <b>Use in the Future Outpatient CDS:</b>
+    </p>
+    <p>
+      <b>Use in the Future Outpatient CDS:</b>
 If the 
-              <xref outputclass="element"
-               keyref="element_intended_site_code__of_treatment_">INTENDED SITE CODE (OF TREATMENT)</xref>
+              <xref outputclass="element" keyref="element_intended_site_code__of_treatment_">INTENDED SITE CODE (OF TREATMENT)</xref>
  is not known, this data element should be omitted.        </p>
-      <p>
-         <b>
-            <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
+    <p>
+      <b>
+        <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
  will be replaced with 
-                  <xref outputclass="element"
-                  keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>, when it has been approved for use in national information standards.            </b>
-      </p>
+                  <xref outputclass="element" keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>, when it has been approved for use in national information standards.            </b>
+    </p>
   </div>
 </body>
 </topic>

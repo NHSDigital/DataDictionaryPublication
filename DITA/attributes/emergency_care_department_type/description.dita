@@ -7,20 +7,97 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The type of  
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_department">Emergency Care Department</xref>.        </p>
-      <p>
-The 
-              <xref outputclass="attribute"
-               keyref="attribute_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPE</xref>
- definitions will be updated at the next iteration of 
-              <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0092-2062-commissioning-data-sets-emergency-care-data-set"
-               scope="external"
-               format="html">DCB0092-2062: Commissioning Data Sets: Emergency Care Data Set</xref>, to amend the National Code values to support the introduction of 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_urgent_treatment_centre">Urgent Treatment Centres</xref>.        </p>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>.        </p>
+    <p>
+      <i>National Codes:</i>
+    </p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>01</p>
+            </entry>
+            <entry>
+              <p>
+Emergency departments are a 
+                        <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+ led 24 hour service with full resuscitation facilities and designated accommodation for the reception of emergency care  
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                    </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>02</p>
+            </entry>
+            <entry>
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+              <p>
+led mono specialty emergency care service (e.g. ophthalmology, dental) with designated accommodation for the reception of 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+                    </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>03</p>
+            </entry>
+            <entry>
+              <p>
+Other type of A&amp;E/minor injury 
+                        <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ with designated accommodation for the reception of emergency care 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>. The department may be doctor led, 
+                        <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+  led or 
+                        <xref outputclass="class" keyref="class_nurse">NURSE</xref>
+ led and treats at least minor injuries and illnesses and can be routinely accessed without 
+                        <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>. A 
+                        <xref outputclass="class" keyref="class_service">SERVICE</xref>
+ mainly or entirely 
+                        <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+ based (for example a 
+                        <xref outputclass="businessDefinition" keyref="business_definition_gp_practice">GP Practice</xref>
+ or 
+                        <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>) is excluded even though it may treat a number of 
+                        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with minor illness or injury. Includes 
+                        <xref outputclass="businessDefinition" keyref="business_definition_urgent_treatment_centre">Urgent Treatment Centres</xref>. Excludes NHS walk-in centres                  </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>04</p>
+            </entry>
+            <entry>
+              <p>NHS walk in centres</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>05</p>
+            </entry>
+            <entry>
+              <p>
+Ambulatory Emergency Care Service. Note this is 
+                        <b>only</b>
+ valid for piloting purposes in the 
+                        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
+  / 
+                        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>/ 
+                        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_011_-_emergency_care_cds">CDS V6-2-3 Type 011 - Emergency Care Commissioning Data Set</xref>
+  and must not be submitted in the 
+                        <xref outputclass="dataSet" keyref="dataset_patient_level_information_costing_system_acute_data_set_-_emergency_care">Patient Level Information Costing System Acute Data Set - Emergency Care</xref>.                  </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

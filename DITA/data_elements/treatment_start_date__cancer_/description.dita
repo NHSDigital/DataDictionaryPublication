@@ -7,58 +7,51 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>, where the 
               <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
  is National Code 
-              <i>'<xref outputclass="businessDefinition"
-                  keyref="business_definition_start_date">Start Date</xref>'             </i>
+              <i>'<xref outputclass="businessDefinition" keyref="business_definition_start_date">Start Date</xref>'             </i>
 of a 
               <xref outputclass="class" keyref="class_clinical_intervention">CLINICAL INTERVENTION</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
  is the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_start_date">Start Date</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_start_date">Start Date</xref>
  of the first, second or subsequent cancer treatment given to a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  who is receiving care for a cancer condition.        </p>
-      <p>
+    <p>
 If the 
               <xref outputclass="attribute" keyref="attribute_cancer_treatment_modality">CANCER TREATMENT MODALITY</xref>
  is recorded as National Code 
               <i>'Surgery'</i>, the 
               <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
  is the same as 
-              <xref outputclass="element"
-               keyref="element_start_date__hospital_provider_spell_">START DATE (HOSPITAL PROVIDER SPELL)</xref>
+              <xref outputclass="element" keyref="element_start_date__hospital_provider_spell_">START DATE (HOSPITAL PROVIDER SPELL)</xref>
  of the related admission.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
  is also the 
               <xref outputclass="element" keyref="element_end_date">END DATE</xref>
  of a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_referral_to_treatment_period">Cancer Referral To Treatment Period</xref>.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_referral_to_treatment_period">Cancer Referral To Treatment Period</xref>.        </p>
+    <p>
 A 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_referral_to_treatment_period">Cancer Referral To Treatment Period</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_referral_to_treatment_period">Cancer Referral To Treatment Period</xref>
  will end on the same date as the 
               <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
  where 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
  is given, unless cancer was discounted when the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  was first seen (in which case the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_cancer_referral_to_treatment_period">Cancer Referral To Treatment Period</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cancer_referral_to_treatment_period">Cancer Referral To Treatment Period</xref>
  is ended at 
               <xref outputclass="element" keyref="element_date_first_seen">DATE FIRST SEEN</xref>).        </p>
-      <p>
+    <p>
 If a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  declines all treatment and the 
@@ -69,22 +62,17 @@ If a
  should be recorded as the date upon which the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  made this decision.        </p>
-      <p>
+    <p>
 For the 
-              <xref outputclass="dataSet"
-               keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>, 
+              <xref outputclass="dataSet" keyref="dataset_national_cancer_waiting_times_monitoring_data_set">National Cancer Waiting Times Monitoring Data Set</xref>, 
               <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
  is for a cancer condition with a 
               <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
  code defined by 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_england">NHS England</xref>. The full list of diagnosis codes can be found on the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>. The full list of diagnosis codes can be found on the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-              <xref href="https://digital.nhs.uk/cancer-waiting-times"
-               scope="external"
-               format="html">Cancer Waiting Times</xref>.        </p>
+              <xref href="https://digital.nhs.uk/cancer-waiting-times" scope="external" format="html">Cancer Waiting Times</xref>.        </p>
   </div>
 </body>
 </topic>

@@ -7,25 +7,22 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The status of a 
               <xref outputclass="class" keyref="class_professional_registration">PROFESSIONAL REGISTRATION</xref>
  of a 
               <xref outputclass="class" keyref="class_person">PERSON</xref>.        </p>
-      <p>
-         <xref outputclass="attribute"
-               keyref="attribute_professional_registration_status">PROFESSIONAL REGISTRATION STATUS</xref>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_professional_registration_status">PROFESSIONAL REGISTRATION STATUS</xref>
  is derived by comparing the 
-              <xref outputclass="attribute"
-               keyref="attribute_professional_registration_expiry_date">PROFESSIONAL REGISTRATION EXPIRY DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_professional_registration_expiry_date">PROFESSIONAL REGISTRATION EXPIRY DATE</xref>
  of the 
               <xref outputclass="class" keyref="class_professional_registration">PROFESSIONAL REGISTRATION</xref>
  with the 
               <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>.        </p>
-      <p>
+    <p>
 If the 
-              <xref outputclass="attribute"
-               keyref="attribute_professional_registration_expiry_date">PROFESSIONAL REGISTRATION EXPIRY DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_professional_registration_expiry_date">PROFESSIONAL REGISTRATION EXPIRY DATE</xref>
  is on or after the 
               <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
  then the 

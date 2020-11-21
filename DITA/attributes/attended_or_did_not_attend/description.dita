@@ -7,27 +7,27 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An indication of whether an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  for a 
               <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
  took place.        </p>
-      <p>
+    <p>
 If the 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  did not take place it also indicates if advance warning was given.        </p>
-      <p>
+    <p>
 When an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  is cancelled the 
               <xref outputclass="attribute" keyref="attribute_appointment_cancelled_date">APPOINTMENT CANCELLED DATE</xref>
  should also be recorded.        </p>
-      <p>Notes:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>Notes:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 National Code 0 - '<i>
 Not applicable - 
                                     <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
@@ -35,62 +35,61 @@ Not applicable -
  is 
                                 <b>not</b>
  valid for use in the following data sets:                    </p>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet"
-                           keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
-                     <p>.</p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <p>
-         <b>Use in the Future Outpatient Commissioning Data Set:</b>
-      </p>
-      <ul>
-         <li>
+        </div>
+        <ul>
+          <li>
             <div>
-               <p>
+              <xref outputclass="dataSet" keyref="dataset_community_services_data_set">Community Services Data Set</xref>
+            </div>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>
+            </div>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_maternity_services_data_set">Maternity Services Data Set</xref>
+            </div>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_mental_health_services_data_set">Mental Health Services Data Set</xref>
+              <p>.</p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      <b>Use in the Future Outpatient Commissioning Data Set:</b>
+    </p>
+    <ul>
+      <li>
+        <div>
+          <p>
 For referral records with 
                                 <b>no</b>
-                  <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
+            <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  yet made, or for 
                                 <b>future</b>
-                  <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>, National Code 0 
+            <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>, National Code 0 
                                 <i>'Not applicable - 
                                     <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  occurs in the future'</i>
  should be used.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Where the future attendance has been 
                                 <i>
-                     <b>cancelled</b>
-                  </i>, use the appropriate value from the National Codes.                    </p>
-            </div>
-         </li>
-      </ul>
+              <b>cancelled</b>
+            </i>, use the appropriate value from the National Codes.                    </p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

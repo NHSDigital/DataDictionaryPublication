@@ -7,30 +7,27 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>.        </p>
-      <p>
-         <b>Usage:</b>
+              <xref outputclass="attribute" keyref="attribute_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>.        </p>
+    <p>
+      <b>Usage:</b>
 This optional test facility enables interchanges submitted to be marked and therefore processed as Test or Production data.        </p>
-      <p>
+    <p>
 Whilst 
               <xref outputclass="element" keyref="element_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>
  is optional it is highly recommended that correct values be completed in the data.        </p>
-      <p>
+    <p>
 On receipt of a Test Interchange, the processes are as follows:
   a) All normal validation processes will be carried out
   b) The Interchange data will not be entered into the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  database        </p>
-      <b>CDS XML Schema Interchanges:</b>
-      <p>
+    <b>CDS XML Schema Interchanges:</b>
+    <p>
 All 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  XML Schema interchanges submitted may contain a 
               <xref outputclass="element" keyref="element_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>.        </p>
   </div>

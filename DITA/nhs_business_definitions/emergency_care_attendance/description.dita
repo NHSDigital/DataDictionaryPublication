@@ -7,33 +7,63 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
  is a 
               <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>.        </p>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
- may be either:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
-an 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_accident_and_emergency_attendance">Accident and Emergency Attendance</xref>
- or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>an Ambulatory Emergency Care Attendance.</p>
-            </div>
-         </li>
-      </ul>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+ is an individual visit by one 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ to an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ to receive treatment.        </p>
+    <p>
+During an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+ the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ may temporarily leave the 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>, e.g. for an X-ray, whilst still under the responsibility of the 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>.        </p>
+    <p>
+An 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+ may be as a result of a request from a 
+              <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
+ for help with a diagnosis or treatment.        </p>
+    <p>
+Attendances at an 
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+ run in the 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ should not be recorded as an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+ but should be recorded as an 
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>
+ or 
+              <xref outputclass="businessDefinition" keyref="business_definition_clinic_attendance_non-consultant">Clinic Attendance Non-Consultant</xref>
+ depending upon the type of 
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+ attended.        </p>
+    <p>
+Any facility set up to receive and treat emergency cases is regarded as an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ for this purpose.        </p>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendances</xref>
+ include both first and follow-up attendances. A follow-up attendance is any subsequent 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+ at the same 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ for the same incident. All attendances for the same incident will constitute an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_episode">Emergency Care Episode</xref>.        </p>
+    <p>
+Note that for piloting purposes only, an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+ may also be an Ambulatory Emergency Care Attendance.        </p>
   </div>
 </body>
 </topic>

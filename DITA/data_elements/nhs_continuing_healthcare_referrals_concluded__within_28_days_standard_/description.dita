@@ -7,52 +7,41 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_nhs_continuing_healthcare_referrals_concluded__within_28_days_standard_">NHS CONTINUING HEALTHCARE REFERRALS CONCLUDED (WITHIN 28 DAYS STANDARD)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_nhs_continuing_healthcare_referrals_concluded__within_28_days_standard_">NHS CONTINUING HEALTHCARE REFERRALS CONCLUDED (WITHIN 28 DAYS STANDARD)</xref>
  is the number of referrals for 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>
  that were concluded within 28 days.        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 The 28 days referral time starts from the earliest notification to the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
- (<xref outputclass="businessDefinition"
-                        keyref="business_definition_clinical_commissioning_group">CCG</xref>), or 
+                                <xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">CCG</xref>), or 
                                 <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  acting on behalf of the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>, that full consideration for 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>, that full consideration for 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  is required                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 The referral time ends on the date the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Group</xref>
  makes a verified decision on 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>
  eligibility or the referral is discounted: 
-                                <xref outputclass="element"
-                        keyref="element_nhs_continuing_healthcare_referrals__discounted_before_assessment_">NHS CONTINUING HEALTHCARE REFERRALS (DISCOUNTED BEFORE ASSESSMENT)</xref>
+                                <xref outputclass="element" keyref="element_nhs_continuing_healthcare_referrals__discounted_before_assessment_">NHS CONTINUING HEALTHCARE REFERRALS (DISCOUNTED BEFORE ASSESSMENT)</xref>
  where the 
-                                <xref outputclass="attribute"
-                        keyref="attribute_nhs_continuing_healthcare_type">NHS CONTINUING HEALTHCARE TYPE</xref>
+                                <xref outputclass="attribute" keyref="attribute_nhs_continuing_healthcare_type">NHS CONTINUING HEALTHCARE TYPE</xref>
  is National Code 
-                                <i>'<xref outputclass="businessDefinition"
-                           keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>'</i>.                    </p>
-            </div>
-         </li>
-      </ul>
+                                <i>'<xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare__standard_">NHS Continuing Healthcare (Standard)</xref>'</i>.                    </p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

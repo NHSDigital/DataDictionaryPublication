@@ -7,14 +7,33 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The type of setting that the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  came from at the time of request for 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_diagnostic_imaging">Diagnostic Imaging</xref>
  for use in the 
               <xref outputclass="dataSet" keyref="dataset_diagnostic_imaging_data_set">Diagnostic Imaging Data Set</xref>.        </p>
+    <p>Notes:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
+National Code 05
+                                <i> '</i>
+            <i>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+            </i>
+            <i> (this</i>
+            <i>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
+            </i>
+            <i>)'</i>
+ has been updated in 
+                                <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0092-2062-commissioning-data-sets-emergency-care-data-set" scope="external" format="html">DCB0092-2062: Commissioning Data Sets: Emergency Care Data Set</xref>. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.                    </p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

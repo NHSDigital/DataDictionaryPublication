@@ -7,83 +7,66 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
  is the NHS 
               <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
  (or valid 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>) for an 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>) for an 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  indicated as a 
               <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
  of the Commissioning data.        </p>
-      <p>
-         <b>Usage:</b>
+    <p>
+      <b>Usage:</b>
 A Recipient may be an agency or 
               <xref outputclass="class" keyref="class_service">SERVICE</xref>
  provider that carries out the receiving (and perhaps other) processes on behalf of the NHS 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  that ultimately uses the data. There may be multiple recipients for Commissioning data.        </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>
  for 
               <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITIES</xref>
  are detailed in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>.        </p>
+    <p>
 Where 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_england">NHS England</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>
  is the responsible commissioner for a specialised 
               <xref outputclass="class" keyref="class_service">SERVICE</xref>, based on the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_england">NHS England</xref>
-         <xref href="https://www.england.nhs.uk/publication/commissioner-assignment-method-flowchart-201617/"
-               scope="external"
-               format="html">Commissioner Assignment Method (CAM)</xref>, one of the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_specialised_commissioning_hub">Specialised Commissioning Hub</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>
+      <xref href="https://www.england.nhs.uk/publication/commissioner-assignment-method-flowchart-201617/" scope="external" format="html">Commissioner Assignment Method (CAM)</xref>, one of the 
+              <xref outputclass="businessDefinition" keyref="business_definition_specialised_commissioning_hub">Specialised Commissioning Hub</xref>
  
               <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODES</xref>
  should be used depending on which 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  delivered the 
               <xref outputclass="class" keyref="class_service">SERVICE</xref>, e.g. 
               <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>, 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_independent_sector_healthcare_provider">Independent Sector Healthcare Provider</xref>.        </p>
+    <p>
 The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website provides a mapping list of which 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>
  map to which 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_specialised_commissioning_hub">Specialised Commissioning Hub</xref>. The mapping can be found on the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_specialised_commissioning_hub">Specialised Commissioning Hub</xref>. The mapping can be found on the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">Organisation Data Service</xref>
  web pages at: 
-              <xref href="https://digital.nhs.uk/services/organisation-data-service/data-downloads/other-nhs-organisations"
-               scope="external"
-               format="html">Provider to Commissioning Hub Mapping</xref>.        </p>
-      <p>
-         <b>
-            <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+              <xref href="https://digital.nhs.uk/services/organisation-data-service/data-downloads/other-nhs-organisations" scope="external" format="html">Provider to Commissioning Hub Mapping</xref>.        </p>
+    <p>
+      <b>
+        <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
  will be replaced with            </b>
-         <b>
-            <xref outputclass="element"
-                  keyref="element_organisation_identifier__cds_recipient_">ORGANISATION IDENTIFIER (CDS RECIPIENT)</xref>, when it has been approved for use in national information standards.            </b>
-      </p>
+      <b>
+        <xref outputclass="element" keyref="element_organisation_identifier__cds_recipient_">ORGANISATION IDENTIFIER (CDS RECIPIENT)</xref>, when it has been approved for use in national information standards.            </b>
+    </p>
   </div>
 </body>
 </topic>

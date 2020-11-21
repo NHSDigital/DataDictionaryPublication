@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_chronic_viral_liver_disease_treatment_indicator__hiv_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: CHRONIC VIRAL LIVER DISEASE TREATMENT INDICATOR (HIV) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>Y</p>
+</stentry>
+        <stentry>
+  <p>
+Yes - a 
+        <xref outputclass="businessDefinition" keyref="business_definition_patient_procedure">Patient Procedure</xref>
+ was performed    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>N</p>
+</stentry>
+        <stentry>
+  <p>
+No - a 
+        <xref outputclass="businessDefinition" keyref="business_definition_patient_procedure">Patient Procedure</xref>
+ was not performed    </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

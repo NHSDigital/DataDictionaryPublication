@@ -69,16 +69,16 @@
         <stentry>references in description NHS Trust</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_critical_care_admission_source' outputclass='attribute'></xref>
+          <xref keyref='element_critical_care_admission_source' outputclass='element'></xref>
         </stentry>
         <stentry>references in description NHS Trust</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_critical_care_admission_source' outputclass='element'></xref>
+          <xref keyref='attribute_critical_care_admission_source' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description NHS Trust</stentry>
       </strow>
@@ -107,6 +107,20 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_discharge_destination' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description NHS Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_discharge_destination_code__hospital_provider_spell_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description NHS Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_discharge_destination_code__mother_post_delivery_hospital_provider_spell_' outputclass='element'></xref>
         </stentry>
         <stentry>references in description NHS Trust</stentry>
       </strow>
@@ -244,6 +258,13 @@
         <stentry>references in description NHS Trust</stentry>
       </strow>
       <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_planned_discharge_destination_code__hospital_provider_spell_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description NHS Trust</stentry>
+      </strow>
+      <strow>
         <stentry>Data Set</stentry>
         <stentry>
           <xref keyref='dataset_patient_level_information_costing_system_acute_data_set_-_admitted_patient_care' outputclass='dataSet'></xref>
@@ -275,6 +296,13 @@
         <stentry>Data Set</stentry>
         <stentry>
           <xref keyref='dataset_patient_level_information_costing_system_acute_data_set_-_supplementary_information' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description NHS Trust</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_patient_level_information_costing_system_data_set_-_reconciliation' outputclass='dataSet'></xref>
         </stentry>
         <stentry>references in description NHS Trust</stentry>
       </strow>
@@ -314,16 +342,16 @@
         <stentry>references in description NHS Trust</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_ward_security_level' outputclass='attribute'></xref>
+          <xref keyref='element_ward_security_level' outputclass='element'></xref>
         </stentry>
         <stentry>references in description NHS Trust</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_ward_security_level' outputclass='element'></xref>
+          <xref keyref='attribute_ward_security_level' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description NHS Trust</stentry>
       </strow>

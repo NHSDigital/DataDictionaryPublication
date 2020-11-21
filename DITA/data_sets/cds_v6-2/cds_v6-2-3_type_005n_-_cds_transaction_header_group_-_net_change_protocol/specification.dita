@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cds_v6-2-3_type_005n_-_cds_transaction_header_group_-_net_change_protocol.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: CDS V6-2-3 Type 005N - CDS Transaction Header Group - Net Change Protocol - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CDS V6-2-3 TYPE 005N - COMMISSIONING DATA SET TRANSACTION HEADER GROUP - NET CHANGE PROTOCOL    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>M</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the mandatory Commissioning Data Set Submission Protocol controls for when using the Net Change mechanism.
+ One per Commissioning Data Set Message submitted to the Secondary Uses Service.
+ Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='9' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='9' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_type_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_protocol_identifier_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_unique_identifier' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S9</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_update_type' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_applicable_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S8</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_applicable_time' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S8</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_cds_activity_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S6</p>
+  <p>S10</p>
+  <p>S11</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_identifier__cds_sender_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S5</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..7</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_identifier__cds_recipient_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S5</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

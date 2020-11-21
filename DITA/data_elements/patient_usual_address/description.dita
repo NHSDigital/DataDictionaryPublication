@@ -7,12 +7,12 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+    <p>
+      <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
   is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_address">ADDRESS</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+    <p>
+      <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
  is the usual 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  nominated by the 
@@ -22,63 +22,60 @@
               <i>'Main Permanent Residence'</i>
  or 
               <i>'Other Permanent Residence'</i>.        </p>
-      <p>
+    <p>
 For the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets</xref>
  it is necessary whenever an 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  is included in a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  message to allow correct interpretation by the recipient. The following values have been used in 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  message implementations and are recommended to be used.        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>1 or S</p>
-                  </entry>
-                  <entry>
-                     <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>1 or S</p>
+            </entry>
+            <entry>
+              <p>
 To denote a "Label format" 
                         <xref outputclass="class" keyref="class_address">ADDRESS</xref>, i.e. an 
                         <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  consisting of up to five address lines of 35 characters where each line is left justified as a specific data element                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>2 or U</p>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>2 or U</p>
+            </entry>
+            <entry>
+              <p>
 To denote an unstructured 
                         <xref outputclass="class" keyref="class_address">ADDRESS</xref>, i.e. an 
                         <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  consisting of up to five contiguous data elements of 35 characters representing a 175 character string                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
 If 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  usually resident elsewhere are staying in hotels, hostels or other residential establishments for a short term, for example, a week, they should be recorded as staying at their usual place of residence. However if it is long term, such as at boarding school, the 
               <xref outputclass="businessDefinition" keyref="business_definition_school">School</xref>
-         <xref outputclass="class" keyref="class_address">ADDRESS</xref>
+      <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  must be recorded. University students may nominate either their home 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  or the 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  of their university accommodation.        </p>
-      <p>
+    <p>
 Where 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  are not capable of supplying this information, because of age or mental illness, for example, then the 
@@ -86,8 +83,8 @@ Where
  responsible for the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>, such as a parent or guardian, should nominate the 
               <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>.        </p>
-      <p>
-         <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+    <p>
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  not able to provide an 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  should be asked for their most recent 
@@ -99,45 +96,45 @@ Where
               <i>'Address unknown'</i>. These 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  are regarded as resident in the local geographical district for commissioning purposes.        </p>
-      <p>For birth episodes this should refer to the mother's usual place of residence.</p>
-      <p>
+    <p>For birth episodes this should refer to the mother's usual place of residence.</p>
+    <p>
 The format of 5 lines of an35 conforms to 
               <xref outputclass="attribute" keyref="attribute_address_format_type">ADDRESS FORMAT TYPE</xref>
-         <i>'Unstructured Format'</i>. The format refers to the physical layout of the 
+      <i>'Unstructured Format'</i>. The format refers to the physical layout of the 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>, not the logical layout, and does not require intelligent intervention when splitting the text string into lines. For example:        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>Flat 1, 21 Arbuthnott Avenue, Pollo (35 chars)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>k Estate, Lesser Hinkley, Staffords (35 chars)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>hire (4 chars)</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>Flat 1, 21 Arbuthnott Avenue, Pollo (35 chars)</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>k Estate, Lesser Hinkley, Staffords (35 chars)</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>hire (4 chars)</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
 The 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s name and 
               <xref outputclass="class" keyref="class_address">ADDRESS</xref>

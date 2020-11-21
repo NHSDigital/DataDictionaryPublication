@@ -7,19 +7,23 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_assault_location_description">ASSAULT LOCATION DESCRIPTION</xref>
+    <p>
+      <xref outputclass="element" keyref="element_assault_location_description">ASSAULT LOCATION DESCRIPTION</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_person_observation_text_string">PERSON OBSERVATION TEXT STRING</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_assault_location_description">ASSAULT LOCATION DESCRIPTION</xref>
+              <xref outputclass="attribute" keyref="attribute_person_observation_text_string">PERSON OBSERVATION TEXT STRING</xref>.        </p>
+    <p>
+      <xref outputclass="element" keyref="element_assault_location_description">ASSAULT LOCATION DESCRIPTION</xref>
  provides further comment and/or details of the 
               <xref outputclass="class" keyref="class_location">LOCATION</xref>
- where an assault took place.  This data element may only be completed when the 
-              <xref outputclass="element retired" keyref="element_assault_location_type">ASSAULT LOCATION TYPE</xref>
- is 
-              <i>'Other location (specify)'</i>.        </p>
+ where an assault took place.         </p>
+    <p>
+      <xref outputclass="element" keyref="element_assault_location_description">ASSAULT LOCATION DESCRIPTION</xref>
+ may only be completed when the assault 
+              <xref outputclass="class" keyref="class_location">LOCATION</xref>
+ is 
+              <b>NOT</b>
+ a Home or Private Address, as this could identify the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
   </div>
 </body>
 </topic>

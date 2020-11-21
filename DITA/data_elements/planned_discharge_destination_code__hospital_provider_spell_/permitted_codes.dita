@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_planned_discharge_destination_code__hospital_provider_spell_.permitted_codes'>
+  <title>Permitted Codes</title>
+  <titlealts>
+    <searchtitle>Data Element: PLANNED DISCHARGE DESTINATION CODE (HOSPITAL PROVIDER SPELL) - Permitted Codes</searchtitle>
+  </titlealts>
+  <body>
+    <simpletable relcolwidth='1* 4*' outputclass='table table-striped table-sm'>
+      <sthead outputclass='thead-light'>
+        <stentry>Code</stentry>
+        <stentry>Description</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+  <p>98</p>
+</stentry>
+        <stentry>
+  <p>
+Not applicable - 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+ not finished at episode end (i.e. not discharged) or current episode unfinished    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>99</p>
+</stentry>
+        <stentry>
+  <p>Not known</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>19</p>
+</stentry>
+        <stentry>
+  <p>
+Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by 
+        <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ with no fixed abode.    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>29</p>
+</stentry>
+        <stentry>
+  <p>
+Temporary place of residence when usually resident elsewhere (includes hotel, residential 
+        <xref outputclass="businessDefinition" keyref="business_definition_educational_establishment">Educational Establishment</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>30</p>
+</stentry>
+        <stentry>
+  <p>
+Repatriation from high security psychiatric accommodation in an NHS 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+ or 
+        <xref outputclass="businessDefinition" keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>)    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>37</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_court">Court</xref>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>38</p>
+</stentry>
+        <stentry>
+  <p>Penal establishment or police station</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>48</p>
+</stentry>
+        <stentry>
+  <p>High Security Psychiatric Hospital, Scotland</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>49</p>
+</stentry>
+        <stentry>
+  <p>
+NHS other 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ - high security psychiatric accommodation    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>50</p>
+</stentry>
+        <stentry>
+  <p>
+NHS other 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ - medium secure unit    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>51</p>
+</stentry>
+        <stentry>
+  <p>
+NHS other 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ - 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+ for general 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ or the younger physically disabled    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>52</p>
+</stentry>
+        <stentry>
+  <p>
+NHS other 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ - 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+ for maternity 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ or 
+        <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonates</xref>
+     </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>53</p>
+</stentry>
+        <stentry>
+  <p>
+NHS other 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
+ - 
+        <xref outputclass="class" keyref="class_ward">WARD</xref>
+ for 
+        <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who are mentally ill or have 
+        <xref outputclass="businessDefinition" keyref="business_definition_learning_disability">Learning Disabilities</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>54</p>
+</stentry>
+        <stentry>
+  <p>
+NHS run 
+        <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+     </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>65</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>
+  <p> residential accommodation i.e. where care is provided</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>66</p>
+</stentry>
+        <stentry>
+  <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>
+  <p> foster care</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>79</p>
+</stentry>
+        <stentry>
+  <p>
+Not applicable - 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ died or stillbirth    </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>84</p>
+</stentry>
+        <stentry>
+  <p>Non-NHS run hospital - medium secure unit</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>85</p>
+</stentry>
+        <stentry>
+  <p>
+Non-NHS (other than 
+        <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>) run 
+        <xref outputclass="businessDefinition" keyref="business_definition_care_home">Care Home</xref>
+     </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>87</p>
+</stentry>
+        <stentry>
+  <p>Non-NHS run hospital</p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
+  <p>88</p>
+</stentry>
+        <stentry>
+  <p>
+Non-NHS (other than 
+        <xref outputclass="businessDefinition" keyref="business_definition_local_authority">Local Authority</xref>) run 
+        <xref outputclass="businessDefinition" keyref="business_definition_hospice">Hospice</xref>
+  </p>
+</stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

@@ -43,6 +43,13 @@
       <strow>
         <stentry>Attribute</stentry>
         <stentry>
+          <xref keyref='attribute_cancer_treatment_modality_for_registration' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description Brachytherapy</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
           <xref keyref='attribute_clinical_intervention_type' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Brachytherapy</stentry>
@@ -55,16 +62,16 @@
         <stentry>references in description Brachytherapy</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_endoscopic_procedure_type' outputclass='element'></xref>
+          <xref keyref='attribute_endoscopic_procedure_type' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Brachytherapy</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_endoscopic_procedure_type' outputclass='attribute'></xref>
+          <xref keyref='element_endoscopic_procedure_type' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Brachytherapy</stentry>
       </strow>
@@ -97,16 +104,16 @@
         <stentry>references in description Brachytherapy</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_radiotherapy_treatment_modality' outputclass='attribute'></xref>
+          <xref keyref='element_radiotherapy_treatment_modality' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Brachytherapy</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_radiotherapy_treatment_modality' outputclass='element'></xref>
+          <xref keyref='attribute_radiotherapy_treatment_modality' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Brachytherapy</stentry>
       </strow>

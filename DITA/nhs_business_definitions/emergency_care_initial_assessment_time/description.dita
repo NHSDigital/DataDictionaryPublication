@@ -7,33 +7,47 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_initial_assessment_time">Emergency Care Initial Assessment Time</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_initial_assessment_time">Emergency Care Initial Assessment Time</xref>
  is an 
               <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>.        </p>
-      <p>
-The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_initial_assessment_time">Emergency Care Initial Assessment Time</xref>
- may be either:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
-the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_accident_and_emergency_initial_assessment_time">Accident and Emergency Initial Assessment Time</xref>
- or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>the Ambulatory Emergency Care Initial Assessment Time.</p>
-            </div>
-         </li>
-      </ul>
+    <p>
+An 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_initial_assessment_time">Emergency Care Initial Assessment Time</xref>
+ is the time that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is first assessed in the 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>.        </p>
+    <p>An initial assessment would include:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
+the taking of a brief 
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ medical history                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>pain assessment</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>early warning scores (including vital signs).</p>
+        </div>
+      </li>
+    </ul>
+    <p>
+The assessment should be conducted by a 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>
+ who has received appropriate training.        </p>
+    <p>
+Note that for piloting purposes only, an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_initial_assessment_time">Emergency Care Initial Assessment Time</xref>
+ may also be the Ambulatory Emergency Care Initial Assessment Time.        </p>
   </div>
 </body>
 </topic>

@@ -7,593 +7,112 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The 
-            <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  carries the data for an Outpatient Attendance or a cancelled/missed 
-            <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
-      <p>
+              <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
+    <p>
 It covers all NHS and private Outpatient 
-            <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  taking place in any:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 acute, community, mental health 
-                              <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>
  or 
-                              <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>other NHS hospital</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>non-NHS hospitals or institutions where the care delivered is NHS-funded.</p>
-            </div>
-         </li>
-      </ul>
-      <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_foundation_trust">NHS Foundation Trust</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>other NHS hospital</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>non-NHS hospitals or institutions where the care delivered is NHS-funded.</p>
+        </div>
+      </li>
+    </ul>
+    <p>
 under the care of a 
-            <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, 
-            <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
+              <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, 
+              <xref outputclass="class" keyref="class_midwife">MIDWIFE</xref>
  or 
-            <xref outputclass="class" keyref="class_nurse">NURSE</xref>, where an appropriate 
-            <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
+              <xref outputclass="class" keyref="class_nurse">NURSE</xref>, where an appropriate 
+              <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
  and 
-            <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
  exists.          </p>
-      <p>
-         <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+    <p>
+      <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  taking place under the care of Allied Health Professionals, other 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_biomedical_scientist">Biomedical Scientists</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_biomedical_scientist">Biomedical Scientists</xref>
  and 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_clinical_scientist">Clinical Scientists</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_clinical_scientist">Clinical Scientists</xref>
  may also be carried (where an appropriate 
-            <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_main_specialty_code">MAIN SPECIALTY CODE</xref>
  and 
-            <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
  exists) if required although this is not a 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_mandated_data_flows">Commissioning Data Set Mandated Data Flow</xref>, 
-            <u>unless</u>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_mandated_data_flows">Commissioning Data Set Mandated Data Flow</xref>, 
+              <u>unless</u>
  the 
-            <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  falls under the 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>
  standard.  In this case, an out-patient record for the Allied Health Professional 
-            <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  
-            <u>must</u>
+              <u>must</u>
  be submitted, with the CDS DATA GROUP : PATIENT PATHWAY data elements completed as necessary.        </p>
-      <p>
+    <p>
 Where the Outpatient data relates to a 
-            <xref outputclass="businessDefinition"
-               keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>, the CDS DATA GROUP : PATIENT PATHWAY data elements must be completed where appropriate.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>, the CDS DATA GROUP : PATIENT PATHWAY data elements must be completed where appropriate.        </p>
+    <p>
 This 
-            <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
  may also be used to submit 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_referral_to_treatment_clock_stop_administrative_event">Referral To Treatment Clock Stop Administrative Events</xref>.        </p>
+    <p>
 This 
-            <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
  must not be used for "Future Outpatients" - for this the 
-            <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_021_-_future_outpatient_cds">CDS V6-2 Type 021 - Future Outpatient Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_021_-_future_outpatient_cds">CDS V6-2 Type 021 - Future Outpatient Commissioning Data Set</xref>
  must be used.        </p>
-      <p>
-         <b>
+    <p>
 To access more detailed information on the Commissioning Data Sets, see the 
-                <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets Introduction</xref>.            </b>
-         </p>
-      <p>
-         <b>Data Group Overview</b>
-      </p>
-      <p>A high-level view of the Data Groups carried is shown below.</p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Sets Introduction</xref>.        </p>
+    <p>
+      <b>Notation</b>
+    </p>
+    <p>
 See 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_notation">Commissioning Data Set Notation</xref>
- for an explanation of Group Status and Group Repeats.        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="4">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry namest="col1" nameend="col2">
-                     <b>
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_notation">Notation</xref>
-                     </b>
-                  </entry>
-                  <entry namest="col3" nameend="col4" scope="col">
-                     <b>DATA GROUP OVERVIEW: CDS V6-2 TYPE 020 - OUTPATIENT COMMISSIONING DATA SET</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry scope="col">
-                     <b>Group Status</b>
-                  </entry>
-                  <entry scope="col">
-                     <b>Group Repeats</b>
-                  </entry>
-                  <entry namest="col3" nameend="col4" scope="col">
-                     <b>FUNCTION: To support the details of an Outpatient Attendance, or a missed Appointment.</b>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="3">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..1</b>
-                  </entry>
-                  <entry>
-                     <b>
-DATA GROUP: 
-                        <xref outputclass="dataSet"
-                              keyref="dataset_cds_v6-2_type_001_-_cds_interchange_header">CDS V6-2 Type 001 - Commissioning Data Set Interchange Header</xref>
-                     </b>
-                     <p>
-One per Interchange submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="3">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..*</b>
-                  </entry>
-                  <entry>
-                     <b>
-DATA GROUP: 
-                        <xref outputclass="dataSet"
-                              keyref="dataset_cds_v6-2_type_003_-_cds_message_header">CDS V6-2 Type 003 - Commissioning Data Set Message Header</xref>
-                     </b>
-                     <p>
-One per Commissioning Data Set Message submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..1</b>
-                  </entry>
-                  <entry namest="col3" nameend="col5">
-                     <b>DATA GROUP: CDS TRANSACTION HEADER GROUP</b>
-                     <p>
-Dependent upon the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>
- being used, one of the following must be used per Commissioning Data Set Message submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>: 
-                        <xref outputclass="dataSet"
-                              keyref="dataset_cds_v6-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
- Or 
-                        <xref outputclass="dataSet"
-                              keyref="dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
-                     </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="3">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>O</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: PATIENT PATHWAY</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="2">
-                     <b>M</b>
-                  </entry>
-                  <entry morerows="2">
-                     <b>1..1</b>
-                  </entry>
-                  <entry namest="col3" nameend="col5">
-                     <b>DATA GROUP: PERSON GROUP (PATIENT)</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..1</b>
-                  </entry>
-                  <entry>
-                     <b>DATA GROUP: PATIENT IDENTITY</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>R</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: PATIENT CHARACTERISTICS (CARE ACTIVITY)</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="3">
-                     <p>R</p>
-                  </entry>
-                  <entry morerows="3">
-                     <p>0..1</p>
-                  </entry>
-                  <entry namest="col3" nameend="col5">
-                     <p>DATA GROUP: CARE EPISODE</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>R</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: PERSON GROUP (CONSULTANT)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>O</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: CLINICAL DIAGNOSIS GROUP (ICD)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>O</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: CLINICAL DIAGNOSIS GROUP (READ)</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="5">
-                     <b>M</b>
-                  </entry>
-                  <entry morerows="5">
-                     <b>1..1</b>
-                  </entry>
-                  <entry namest="col3" nameend="col5">
-                     <b>DATA GROUP: CARE ATTENDANCE</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..1</b>
-                  </entry>
-                  <entry>
-                     <b>DATA GROUP: ACTIVITY CHARACTERISTICS</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..1</b>
-                  </entry>
-                  <entry>
-                     <b>DATA GROUP: SERVICE AGREEMENT DETAILS</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>O</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: CLINICAL ACTIVITY GROUP (OPCS)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>O</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: CLINICAL ACTIVITY GROUP (READ)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>R</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: LOCATION GROUP - ATTENDANCE</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>R</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry namest="col3" nameend="col5">
-                     <p>DATA GROUP: GP REGISTRATION</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="2">
-                     <p>R</p>
-                  </entry>
-                  <entry morerows="2">
-                     <p>0..1</p>
-                  </entry>
-                  <entry namest="col3" nameend="col5">
-                     <p>DATA GROUP: CARE ACTIVITY REFERRAL</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>R</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: ACTIVITY CHARACTERISTICS - REFERRAL</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>O</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry>
-                     <p>DATA GROUP: REFERRER</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>R</p>
-                  </entry>
-                  <entry>
-                     <p>0..1</p>
-                  </entry>
-                  <entry namest="col3" nameend="col5">
-                     <p>DATA GROUP: MISSED APPOINTMENT OCCURRENCE</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="3">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..*</b>
-                  </entry>
-                  <entry>
-                     <b>
-DATA GROUP: 
-                        <xref outputclass="dataSet"
-                              keyref="dataset_cds_v6-2_type_004_-_cds_message_trailer">CDS V6-2 Type 004 - Commissioning Data Set Message Trailer</xref>
-                     </b>
-                     <p>
-One per Commissioning Data Set Message submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="3">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>M</b>
-                  </entry>
-                  <entry>
-                     <b>1..1</b>
-                  </entry>
-                  <entry>
-                     <b>
-DATA GROUP: 
-                        <xref outputclass="dataSet"
-                              keyref="dataset_cds_v6-2_type_002_-_cds_interchange_trailer">CDS V6-2 Type 002 - Commissioning Data Set Interchange Trailer</xref>
-                     </b>
-                     <p>
-One per Interchange submitted to the 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>. Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
-         <b>Business Rules</b>
-      </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_notation">Commissioning Data Set Notation</xref>
+ for an explanation of Group Status and Group Repeats.        </p>
+    <p>
+      <b>Business Rules</b>
+    </p>
+    <p>
 See 
-            <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_business_rules">Commissioning Data Set Business Rules</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_business_rules">Commissioning Data Set Business Rules</xref>
  for an explanation of the business and/or processing rules which apply to individual Data Elements.        </p>
-      <p>
-         <b>XML Schema</b>
-      </p>
-      <p>
+    <p>
+      <b>XML Schema</b>
+    </p>
+    <p>
 For guidance on the XML Schema constraints, see the 
-            <xref outputclass="xmlSchemaConstraint"
-               keyref="xml_schema_constraint_commissioning_data_set_version_6-2_xml_schema_constraints">Commissioning Data Set Version 6-2 XML Schema Constraints</xref>.        </p>
-      <p>
+              <xref outputclass="xmlSchemaConstraint" keyref="xml_schema_constraint_commissioning_data_set_version_6-2_xml_schema_constraints">Commissioning Data Set Version 6-2 XML Schema Constraints</xref>.        </p>
+    <p>
 For guidance on downloading the XML Schema, see 
-            <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/xml_schema_trud_download.html"
-               scope="external"
-               format="html">XML_Schema_TRUD_Download</xref>.        </p>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/xml_schema_trud_download.html" scope="external" format="html">XML_Schema_TRUD_Download</xref>.        </p>
   </div>
 </body>
 </topic>

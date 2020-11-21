@@ -7,58 +7,53 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
     
-              <xref outputclass="element"
-               keyref="element_gs1_application_identifier__internal_">GS1 APPLICATION IDENTIFIER (INTERNAL)</xref>
+              <xref outputclass="element" keyref="element_gs1_application_identifier__internal_">GS1 APPLICATION IDENTIFIER (INTERNAL)</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_gs1_application_identifier__internal_">GS1 APPLICATION IDENTIFIER (INTERNAL)</xref>.        </p>
-      <p>
-         <i>Permitted National Codes:</i>
-      </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>91</p>
-                  </entry>
-                  <entry>
-                     <p>Hospital Identifiers</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>92</p>
-                  </entry>
-                  <entry>
-                     <p>Baby Details</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>93</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-                     <p>Descriptive Data</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_gs1_application_identifier__internal_">GS1 APPLICATION IDENTIFIER (INTERNAL)</xref>.        </p>
+    <p>
+      <i>Permitted National Codes:</i>
+    </p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>91</p>
+            </entry>
+            <entry>
+              <p>Hospital Identifiers</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>92</p>
+            </entry>
+            <entry>
+              <p>Baby Details</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>93</p>
+            </entry>
+            <entry>
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+              <p>Descriptive Data</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>
 For further information relating to format/length, see the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-              <xref href="https://digital.nhs.uk/isce/publication/dcb1077"
-               scope="external"
-               format="html">DCB1077: AIDC for Patient Identification.</xref>
-      </p>
+              <xref href="https://digital.nhs.uk/isce/publication/dcb1077" scope="external" format="html">DCB1077: AIDC for Patient Identification.</xref>
+    </p>
   </div>
 </body>
 </topic>

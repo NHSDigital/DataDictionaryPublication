@@ -22,21 +22,7 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_assessment_tool_completion_time' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of EVENT TIME</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_cds_extract_time' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of EVENT TIME</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_cds_interchange_time_of_preparation' outputclass='element'></xref>
+          <xref keyref='element_emergency_care_treatment_allocation_timestamp' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of EVENT TIME</stentry>
       </strow>
@@ -50,6 +36,20 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
+          <xref keyref='element_cds_interchange_time_of_preparation' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of EVENT TIME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_cds_extract_time' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of EVENT TIME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
           <xref keyref='element_data_set_created_time' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of EVENT TIME</stentry>
@@ -57,6 +57,13 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
+          <xref keyref='element_assessment_tool_completion_time' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of EVENT TIME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
           <xref keyref='element_date_and_time_data_set_created' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of EVENT TIME</stentry>
@@ -65,6 +72,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_date_and_time_data_set_created' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description EVENT TIME</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_emergency_care_treatment_allocation_timestamp' outputclass='element'></xref>
         </stentry>
         <stentry>references in description EVENT TIME</stentry>
       </strow>

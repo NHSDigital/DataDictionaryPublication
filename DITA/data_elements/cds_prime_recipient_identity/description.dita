@@ -7,23 +7,21 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
  is the mandatory NHS 
               <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
  (or valid 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>) representing the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Code</xref>) representing the 
               <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  determined to be the Commissioning Data Set Prime Recipient of the Commissioning Data Set Message as indicated in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>.        </p>
-      <p>
-         <b>Usage:</b>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>.        </p>
+    <p>
+      <b>Usage:</b>
 The 
               <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
  must be allocated on the first creation and submission of a 
@@ -35,75 +33,65 @@ The
 must not change even if the 
                   <xref outputclass="class" keyref="class_address">ADDRESS</xref>
  or 
-                  <xref outputclass="element"
-                  keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                  <xref outputclass="element" keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
  of the 
                   <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  changes during the lifetime of the Commissioning Data Set record            </b>
  otherwise duplicate Commissioning Data Set data may be lodged in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  database.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
  is a mandatory data item crucial for the correct indexing of the database and must not be changed during the life of the associated Commissioning Data Set. It does not identify the first or most important recipient of data, i.e. there is no inference of primacy of one recipient over another.        </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>
  for 
               <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITIES</xref>
  are detailed in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>.         </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>.         </p>
+    <p>
 Please note that the following 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service_default_codes">Organisation Data Service Default Codes</xref>
  must not be used in the Commissioning Data Set (CDS) header because they are not default Commissioner codes:        </p>
-      <ul>
-         <li>
+    <ul>
+      <li>
+        <div>
+          <p>Q99 - High Level Health Geography/Primary Care Organisation of Residence Not Known</p>
+        </div>
+        <ul>
+          <li>
             <div>
-               <p>Q99 - High Level Health Geography/Primary Care Organisation of Residence Not Known</p>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+              <p>
 for the 
                                             <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>, a valid 
-                                            <xref outputclass="element"
-                              keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+                                            <xref outputclass="element" keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
  must be reported                            </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-         <li>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>
+X98 - Primary Care Organisation Not Applicable (<xref outputclass="businessDefinition" keyref="business_definition_overseas_visitor">Overseas Visitors</xref>)                </p>
+        <ul>
+          <li>
             <p>
-X98 - Primary Care Organisation Not Applicable (<xref outputclass="businessDefinition"
-                     keyref="business_definition_overseas_visitor">Overseas Visitors</xref>)                </p>
-            <ul>
-               <li>
-                  <p>
 for the 
                                       <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>, the 
-                                      <xref outputclass="supportingInformation"
-                           keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>
+                                      <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_addressing_grid">Commissioning Data Set Addressing Grid</xref>
  confirms the correct code that should be reported for 
-                                      <xref outputclass="businessDefinition"
-                           keyref="business_definition_overseas_visitor">Overseas Visitors</xref>
+                                      <xref outputclass="businessDefinition" keyref="business_definition_overseas_visitor">Overseas Visitors</xref>
  who are exempt from charges.                        </p>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <p>
-         <b>
-            <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      <b>
+        <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
  will be replaced with 
-                  <xref outputclass="element"
-                  keyref="element_organisation_identifier__cds_recipient_">ORGANISATION IDENTIFIER (CDS RECIPIENT)</xref>, when it has been approved for use in national information standards.            </b>
-      </p>
+                  <xref outputclass="element" keyref="element_organisation_identifier__cds_recipient_">ORGANISATION IDENTIFIER (CDS RECIPIENT)</xref>, when it has been approved for use in national information standards.            </b>
+    </p>
   </div>
 </body>
 </topic>

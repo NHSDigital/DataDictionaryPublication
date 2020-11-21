@@ -7,73 +7,66 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>.        </p>
+    <p>
+      <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
  is not required when the Commissioning Data Set Net Change Update Mechanism is used.        </p>
-      <p>
+    <p>
 The Commissioning Data Set Bulk Replacement Update Mechanism process identifies previously transferred 
               <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
  that are to be replaced by the submitted Commissioning Data Set interchange. To do this the 
               <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
  must be used together with the following data items:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="element" keyref="element_cds_report_period_start_date">CDS REPORT PERIOD START DATE</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="element" keyref="element_cds_report_period_end_date">CDS REPORT PERIOD END DATE</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
-               <p> </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_cds_report_period_start_date">CDS REPORT PERIOD START DATE</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_cds_report_period_end_date">CDS REPORT PERIOD END DATE</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+          <p> </p>
+        </div>
+      </li>
+    </ul>
+    <p>
 For submissions of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_version_6-2_type_list">CDS</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_version_6-2_type_list">CDS</xref>
  V6-2, 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
  and 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>, the 
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>, the 
               <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
  is Mandatory for submission in the CDS Type 005B - CDS Transaction Header Group - Bulk Update Protocol and CDS Type 005N - CDS Transaction Header Group - Net Change Protocol.  However, it no longer forms part of the key for the process of determining duplicate records within the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.         </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.         </p>
+    <p>
 Note that the 
               <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
  continues to be used to determine data access requirements within the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.        </p>
+    <p>
 It is particularly important when using the Commissioning Data Set Bulk Replacement Update Mechanism for a 
               <xref outputclass="element" keyref="element_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>
  to contain all the relevant 
               <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
  for the extracted time period in a single Commissioning Data Set Interchange, e.g. the Finished General Episodes, Finished Delivery Episodes and Finished Birth Episodes in a Finished Episode Group.        </p>
-      <p>
+    <p>
 For specific National Code usage in different data sets, see 
-              <xref outputclass="attribute"
-               keyref="attribute_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>.        </p>
+              <xref outputclass="attribute" keyref="attribute_cds_bulk_replacement_group_code">CDS BULK REPLACEMENT GROUP CODE</xref>.        </p>
   </div>
 </body>
 </topic>

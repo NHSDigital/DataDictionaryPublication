@@ -7,58 +7,46 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+    <p>
+      <xref outputclass="element" keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>.        </p>
-      <p>
-         <b>Use in Commissioning Data Set version 6-0 onwards</b>
-      </p>
-      <p>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>.        </p>
+    <p>
+      <b>Use in Commissioning Data Set version 6-0 onwards</b>
+    </p>
+    <p>
 If the Commissioning Data Set record relates to a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>, and is of the following Commissioning Data Set Types:        </p>
-      <ul>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_030_-_elective_admission_list_-_end_of_period_census__standard__cds">CDS V6-2 Type 030 - Elective Admission List - End of Period Census (Standard) Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_060_-_elective_admission_list_-_event_during_period__add__cds">CDS V6-2 Type 060 - Elective Admission List - Event During Period (Add) Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_070_-_elective_admission_list_-_event_during_period__remove__cds">CDS V6-2 Type 070 - Elective Admission List - Event During Period (Remove) Commissioning Data Set</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2_type_080_-_elective_admission_list_-_event_during_period__offer__cds">CDS V6-2 Type 080 - Elective Admission List - Event During Period (Offer) Commissioning Data Set</xref>
-         </li>
-      </ul>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_referral_to_treatment_period_included_in_referral_to_treatment_consultant-led_waiting_times_measurement">Referral To Treatment Period Included In Referral To Treatment Consultant-Led Waiting Times Measurement</xref>, and is of the following Commissioning Data Set Types:        </p>
+    <ul>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_130_-_admitted_patient_care_-_finished_general_episode_cds">CDS V6-2 Type 130 - Admitted Patient Care - Finished General Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_190_-_admitted_patient_care_-_unfinished_general_episode_cds">CDS V6-2 Type 190 - Admitted Patient Care - Unfinished General Episode Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_030_-_elective_admission_list_-_end_of_period_census__standard__cds">CDS V6-2 Type 030 - Elective Admission List - End of Period Census (Standard) Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_060_-_elective_admission_list_-_event_during_period__add__cds">CDS V6-2 Type 060 - Elective Admission List - Event During Period (Add) Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_070_-_elective_admission_list_-_event_during_period__remove__cds">CDS V6-2 Type 070 - Elective Admission List - Event During Period (Remove) Commissioning Data Set</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_080_-_elective_admission_list_-_event_during_period__offer__cds">CDS V6-2 Type 080 - Elective Admission List - Event During Period (Offer) Commissioning Data Set</xref>
+      </li>
+    </ul>
+    <p>
 then 
-              <xref outputclass="element"
-               keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+              <xref outputclass="element" keyref="element_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  must be present in the Commissioning Data Set PATIENT PATHWAY Data Group.        </p>
-      <p>
+    <p>
 For specific National Code usage, see 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>.        </p>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>.        </p>
   </div>
 </body>
 </topic>

@@ -7,20 +7,17 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_clinical_contact_duration_of_appointment">CLINICAL CONTACT DURATION OF APPOINTMENT</xref>
+    <p>
+      <xref outputclass="element" keyref="element_clinical_contact_duration_of_appointment">CLINICAL CONTACT DURATION OF APPOINTMENT</xref>
  is the duration of the direct clinical contact at an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  in minutes, excluding any administration time prior to or after the contact and excluding the 
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>'s travelling time to an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_clinical_contact_duration_of_appointment">CLINICAL CONTACT DURATION OF APPOINTMENT</xref>
+    <p>
+      <xref outputclass="element" keyref="element_clinical_contact_duration_of_appointment">CLINICAL CONTACT DURATION OF APPOINTMENT</xref>
  is calculated from the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_start_time">Start Time</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_start_time">Start Time</xref>
  and 
               <xref outputclass="businessDefinition" keyref="business_definition_end_time">End Time</xref>
  of the clinical contact at an 

@@ -7,111 +7,97 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The use of XML was mandated by the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
- (<xref outputclass="supportingInformation"
-               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>) programme as the standard to be used for messaging by government organisations and has accordingly been adopted by the NHS.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>) programme as the standard to be used for messaging by government organisations and has accordingly been adopted by the NHS.        </p>
+    <p>
 For the submission of Commissioning Data Set data to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>, XML based messaging has been developed replacing all previously published Commissioning Data Set Message formats.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>, XML based messaging has been developed replacing all previously published Commissioning Data Set Message formats.        </p>
+    <p>
 The CDS XML Schema is supported and applied in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  front-end software service (the XML Transfer Service - XTS) to enforce a nationally agreed data specification and thus help protect the data quality and integrity of the data submitted to and stored within the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>.
   It should be noted that after accepting the XML Schema instance data, the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  then applies further logical data validations and may identify and report further data conditions.        </p>
-      <p>
+    <p>
 For the most part, the XML Schema applies the data specifications as authorised by the NHS and documented in the NHS Data Model and Dictionary. However, as the NHS Data Model and Dictionary is updated on a continuous time basis and XML Schemas may be less dynamic and updated on a longer time cycle, there may be subtle differences in the data specifications applied in the XML Schema. For example, additional National Codes may be supported in one version of the Commissioning Data Set XML Schema but not in earlier versions. Where this is the case, information relating to the supported National Codes can be found on the 
-              <xref outputclass="xmlSchemaConstraint"
-               keyref="xml_schema_constraint_commissioning_data_set_version_6-2_xml_schema_constraints">CDS Version 6-2 XML Schema Constraints</xref>
+              <xref outputclass="xmlSchemaConstraint" keyref="xml_schema_constraint_commissioning_data_set_version_6-2_xml_schema_constraints">CDS Version 6-2 XML Schema Constraints</xref>
  page and associated Attributes and/or Data Elements.        </p>
-      <p>Additionally an XML Schema may deliberately retain historic National Codes as well as supporting the new National Codes in order to enable NHS users to be able to process historic data.</p>
-      <p>
-         <b>XML Schema Standards</b>
+    <p>Additionally an XML Schema may deliberately retain historic National Codes as well as supporting the new National Codes in order to enable NHS users to be able to process historic data.</p>
+    <p>
+      <b>XML Schema Standards</b>
 The overall standards applied and supported by the XML Schema are:        </p>
-      <ul>
-         <li>
-            <p>W3C schema standards</p>
-         </li>
-         <li>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
-            <p>
-(<xref outputclass="supportingInformation"
-                     keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>)                </p>
-         </li>
-         <li>
-            <p>e-GOV Best Practice guidelines for XML Schema</p>
-         </li>
-         <li>
-            <p>The NHS Data Model and Dictionary</p>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <p>W3C schema standards</p>
+      </li>
+      <li>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_e-government_interoperability_framework">e-Government Interoperability Framework</xref>
+        <p>
+(<xref outputclass="supportingInformation" keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>)                </p>
+      </li>
+      <li>
+        <p>e-GOV Best Practice guidelines for XML Schema</p>
+      </li>
+      <li>
+        <p>The NHS Data Model and Dictionary</p>
+      </li>
+    </ul>
+    <p>
 Note:
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_e-government_interoperability_framework">e-GIF</xref>
  and the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_government_data_standards_catalogue">Government Data Standards Catalogue</xref>
  
               <b>have been archived</b>
  and are available for reference only.        </p>
-      <b>XML Schema Naming Conventions</b>
-      <p>
+    <b>XML Schema Naming Conventions</b>
+    <p>
 These are in 
               <b>
-            <i>CamelCase</i>
-         </b>
+        <i>CamelCase</i>
+      </b>
  as accepted best practice. Wherever possible, XML Schema data item names are compliant (or intuitively identifiable) with the NHS Data Model and Dictionary naming conventions.
           </p>
-      <p>
-         <b>XML Schema Documentation</b>
+    <p>
+      <b>XML Schema Documentation</b>
 XML Schema documentation usually consists of several related publications:        </p>
-      <ul>
-         <li>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_information_standards_notice">Information Standards Notices</xref>
-            <p>
- (<xref outputclass="supportingInformation"
-                     keyref="supporting_definition_information_standards_notice">ISN</xref>) issued for NHS business, process and definition changes; these will usually include the Data Sets, Data Element definitions etc.                </p>
-         </li>
-         <li>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_information_standards_notice">Information Standards Notices</xref>
-            <p>issued to authorise the CDS XML Schema itself</p>
-         </li>
-         <li>
-            <p>The CDS XML Schema Release Notes which provides a technical overview of the release (in pdf)</p>
-         </li>
-         <li>
-            <p>The XMLSPY© generated XML Schema Documentation which is a large collection of HTML files.</p>
-         </li>
-      </ul>
-      <b>XML Schema Components: Schema Root</b>
-      <p>The XML Schema root is the control section of the XML Schema and is the only entry point and uses the "XML Include" technique to call all XML Schema sub components:</p>
-      <ul>
-         <li>
-            <p>The Standard Data Elements</p>
-         </li>
-         <li>
-            <p>The Standard Data Structures</p>
-         </li>
-         <li>
-            <p>
+    <ul>
+      <li>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_information_standards_notice">Information Standards Notices</xref>
+        <p>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_information_standards_notice">ISN</xref>) issued for NHS business, process and definition changes; these will usually include the Data Sets, Data Element definitions etc.                </p>
+      </li>
+      <li>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_information_standards_notice">Information Standards Notices</xref>
+        <p>issued to authorise the CDS XML Schema itself</p>
+      </li>
+      <li>
+        <p>The CDS XML Schema Release Notes which provides a technical overview of the release (in pdf)</p>
+      </li>
+      <li>
+        <p>The XMLSPY© generated XML Schema Documentation which is a large collection of HTML files.</p>
+      </li>
+    </ul>
+    <b>XML Schema Components: Schema Root</b>
+    <p>The XML Schema root is the control section of the XML Schema and is the only entry point and uses the "XML Include" technique to call all XML Schema sub components:</p>
+    <ul>
+      <li>
+        <p>The Standard Data Elements</p>
+      </li>
+      <li>
+        <p>The Standard Data Structures</p>
+      </li>
+      <li>
+        <p>
 All sub-component XML Schemas for 
                           <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Types</xref>
  including the Commissioning Data Set Headers and Trailers                </p>
-         </li>
-      </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

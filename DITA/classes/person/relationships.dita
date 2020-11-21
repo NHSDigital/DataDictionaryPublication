@@ -106,13 +106,6 @@
       </strow>
       <strow>
         <stentry />
-        <stentry>must be the reporter of one and only one </stentry>
-        <stentry>
-          <xref keyref='class_person_property' outputclass='class'></xref>
-        </stentry>
-      </strow>
-      <strow>
-        <stentry />
         <stentry>must be the owner of  one and only one </stentry>
         <stentry>
           <xref keyref='class_person_property' outputclass='class'></xref>
@@ -127,6 +120,13 @@
       </strow>
       <strow>
         <stentry />
+        <stentry>must be the reporter of one and only one </stentry>
+        <stentry>
+          <xref keyref='class_person_property' outputclass='class'></xref>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry />
         <stentry>must be the observer of one and only one </stentry>
         <stentry>
           <xref keyref='class_person_property' outputclass='class'></xref>
@@ -134,14 +134,14 @@
       </strow>
       <strow>
         <stentry />
-        <stentry>must be the second party in one and only one </stentry>
+        <stentry>must be the first party in one and only one </stentry>
         <stentry>
           <xref keyref='class_person_relationship' outputclass='class'></xref>
         </stentry>
       </strow>
       <strow>
         <stentry />
-        <stentry>must be the first party in one and only one </stentry>
+        <stentry>must be the second party in one and only one </stentry>
         <stentry>
           <xref keyref='class_person_relationship' outputclass='class'></xref>
         </stentry>

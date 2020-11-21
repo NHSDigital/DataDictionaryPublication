@@ -22,7 +22,14 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_care_package_review_date__nhs_continuing_healthcare_' outputclass='element'></xref>
+          <xref keyref='element_estimated_discharge_date__hospital_provider_spell_' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_emergency_care_expected_date_and_timestamp_of_treatment' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PLANNED ACTIVITY DATE</stentry>
       </strow>
@@ -36,7 +43,7 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_estimated_discharge_date__hospital_provider_spell_' outputclass='element'></xref>
+          <xref keyref='element_care_package_review_date__nhs_continuing_healthcare_' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PLANNED ACTIVITY DATE</stentry>
       </strow>
@@ -58,6 +65,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_care_package_review_date__nhs_continuing_healthcare_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PLANNED ACTIVITY DATE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_emergency_care_expected_date_and_timestamp_of_treatment' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PLANNED ACTIVITY DATE</stentry>
       </strow>

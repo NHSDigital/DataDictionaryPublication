@@ -7,96 +7,95 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_pregnancy_total_previous_pregnancies">PREGNANCY TOTAL PREVIOUS PREGNANCIES</xref>
+    <p>
+      <xref outputclass="element" keyref="element_pregnancy_total_previous_pregnancies">PREGNANCY TOTAL PREVIOUS PREGNANCIES</xref>
  is the number of previous pregnancies resulting in one or more 
               <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTHS</xref>.        </p>
-      <ul>
-         <li>
-            <div>
-               <p>A live birth is always registrable, no matter how short the gestation.</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Stillbirths and abortions are registrable only if they occur after a gestation of 24 weeks or more.</p>
-            </div>
-         </li>
-      </ul>
-      <p>The following values with the addition of the Default Code, can be used:</p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>00</p>
-                  </entry>
-                  <entry>
-                     <p>
+    <ul>
+      <li>
+        <div>
+          <p>A live birth is always registrable, no matter how short the gestation.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Stillbirths and abortions are registrable only if they occur after a gestation of 24 weeks or more.</p>
+        </div>
+      </li>
+    </ul>
+    <p>The following values with the addition of the Default Code, can be used:</p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>00</p>
+            </entry>
+            <entry>
+              <p>
 No previous pregnancy resulting in a 
                         <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTH</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>01</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>01</p>
+            </entry>
+            <entry>
+              <p>
 One previous pregnancy resulting in a 
                         <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTH</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>02</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>02</p>
+            </entry>
+            <entry>
+              <p>
 Two previous pregnancies resulting in a 
                         <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTH</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>03</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>03</p>
+            </entry>
+            <entry>
+              <p>
 Three previous pregnancies resulting in a 
                         <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTH</xref>
-                     </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <p>etc. until</p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>29</p>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>etc. until</p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="2">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <p>29</p>
+            </entry>
+            <entry>
+              <p>
 Twenty nine previous pregnancies resulting in a 
                         <xref outputclass="class" keyref="class_registrable_birth">REGISTRABLE BIRTH</xref>
-                     </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+              </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

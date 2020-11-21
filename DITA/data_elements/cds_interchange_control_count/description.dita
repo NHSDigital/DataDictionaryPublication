@@ -7,25 +7,20 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cds_interchange_control_count">CDS INTERCHANGE CONTROL COUNT</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_interchange_control_count">CDS INTERCHANGE CONTROL COUNT</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_cds_interchange_control_count">CDS INTERCHANGE CONTROL COUNT</xref>.        </p>
-      <p>
-         <b>Usage:</b>
+              <xref outputclass="attribute" keyref="attribute_cds_interchange_control_count">CDS INTERCHANGE CONTROL COUNT</xref>.        </p>
+    <p>
+      <b>Usage:</b>
 Senders of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  Interchanges must generate this data. Recipients of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  Interchanges are advised to recount the received 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  messages and match this control count to ensure all 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  data submitted has been correctly received.        </p>
   </div>
 </body>

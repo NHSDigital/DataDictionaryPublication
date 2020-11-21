@@ -7,49 +7,66 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A code to identify the specific type of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_sets_introduction">Commissioning Data Set</xref>
  data.        </p>
-      <p>Note:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
-National Code 11 '<i>Emergency Care Attendance</i>' is 
+    <p>Note:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
+National Code 011 '<i>Emergency Care Attendance</i>' is 
                                 <b>only</b>
  valid for:                    </p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
             </div>
-            <ul>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet"
-                           keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet"
-                           keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet"
-                           keyref="dataset_cds_v6-2-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <xref outputclass="dataSet"
-                           keyref="dataset_cds_v6-2-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
-                     <p>.</p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+            </div>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-2_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-2 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+            </div>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-2 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+            </div>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-3 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+            </div>
+          </li>
+          <li>
+            <div>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-3 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+              <p>. </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>Note:</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="businessDefinition" keyref="business_definition_cds_type">CDS Type</xref>
+          <p>
+ 010 
+                                <i>'Accident and Emergency Attendance'</i>
+ will no longer be accepted from 01 November 2020.                    </p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

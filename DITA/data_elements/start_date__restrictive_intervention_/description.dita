@@ -7,51 +7,16 @@
   </titlealts>
   <body>
   <div>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="2">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <p>Format/Length:</p>
-                  </entry>
-                  <entry>
-                     <p>an10 CCYY-MM-DD</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>National codes</p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>Default codes</p>
-                  </entry>
-                  <entry>
-                     <p> </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
-      <xref outputclass="element"
-            keyref="element_start_date__restrictive_intervention_">START DATE (RESTRICTIVE INTERVENTION)</xref>
-      <p>
-is the same as attribute 
+    <p>
+      <xref outputclass="element" keyref="element_start_date__restrictive_intervention_">START DATE (RESTRICTIVE INTERVENTION)</xref>
+ is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
  where 
               <xref outputclass="attribute" keyref="attribute_activity_date_type">ACTIVITY DATE TYPE</xref>
  is National Code 
-              <i>'<xref outputclass="businessDefinition"
-                  keyref="business_definition_start_date">Start Date</xref>'</i>
+              <i>'<xref outputclass="businessDefinition" keyref="business_definition_start_date">Start Date</xref>'</i>
  of the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_restrictive_intervention">Restrictive Intervention</xref>, as reported by the 
+              <xref outputclass="businessDefinition" keyref="business_definition_restrictive_intervention">Restrictive Intervention</xref>, as reported by the 
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>.        </p>
   </div>
 </body>

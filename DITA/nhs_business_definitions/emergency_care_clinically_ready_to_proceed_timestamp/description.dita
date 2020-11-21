@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='business_definition_emergency_care_clinically_ready_to_proceed_timestamp.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>NHS Business Definition: Emergency Care Clinically Ready to Proceed Timestamp - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+    <p>
+An 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_clinically_ready_to_proceed_timestamp">Emergency Care Clinically Ready To Proceed Timestamp</xref>
+ is an 
+              <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>
+ and time zone.        </p>
+    <p>
+An 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_clinically_ready_to_proceed_timestamp">Emergency Care Clinically Ready To Proceed Timestamp</xref>
+ is the first date and time that the 
+              <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>, authorised to discharge the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ from the 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>, makes a clinical decision that the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ no longer requires ongoing care in the 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>.        </p>
+    <p>
+The 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ will have one of the following outcomes:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>
+admitted to a 
+                                <xref outputclass="class" keyref="class_ward">WARD</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+transferred to a designated 
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_department">Department</xref>
+ / clinical service area outside the 
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ but within the same 
+                                <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+transferred to another 
+                                <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ for continuation of care                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+discharged from the 
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>.                    </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</topic>

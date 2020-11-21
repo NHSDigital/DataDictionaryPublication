@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='element_emergency_care_clinically_ready_to_proceed_timestamp.description'>
+  <title>Description</title>
+  <titlealts>
+    <searchtitle>Data Element: EMERGENCY CARE CLINICALLY READY TO PROCEED TIMESTAMP - Description</searchtitle>
+  </titlealts>
+  <body>
+  <div>
+    <p>
+      <xref outputclass="element" keyref="element_emergency_care_clinically_ready_to_proceed_timestamp">EMERGENCY CARE CLINICALLY READY TO PROCEED TIMESTAMP</xref>
+ is the same as attribute 
+              <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
+ and 
+              <xref outputclass="attribute" keyref="attribute_activity_time">ACTIVITY TIME</xref>
+ where the 
+              <xref outputclass="attribute" keyref="attribute_activity_date_and_time_type">ACTIVITY DATE AND TIME TYPE</xref>
+ is National Code 
+              <i>'<xref outputclass="businessDefinition" keyref="business_definition_emergency_care_clinically_ready_to_proceed_timestamp">Emergency Care Clinically Ready To Proceed Timestamp</xref>
+      </i>'.        </p>
+    <p>A Timestamp is represented with the components of date, time and either the number of hours offset (plus or minus) from Greenwich Mean Time, or the letter Z to signify that it is the same as Greenwich Mean Time.</p>
+    <p>
+For the 
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_011_-_emergency_care_cds">CDS V6-2-3 Type 011 - Emergency Care Commissioning Data Set</xref>, offset time is restricted to:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>+01:00</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>+00:00</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>-00:00</p>
+        </div>
+      </li>
+    </ul>
+    <p>Examples of valid formats are:</p>
+    <ul>
+      <li>
+        <div>
+          <p>2020-08-21T10:15:20+01:00 British Summer Time (GMT + 1 Hour)</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>2020-08-21T10:15:20+00:00 Greenwich Mean Time</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>2020-08-21T10:15:20-00:00 Greenwich Mean Time</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>2020-08-21T09:18:00Z Greenwich Mean Time.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</topic>

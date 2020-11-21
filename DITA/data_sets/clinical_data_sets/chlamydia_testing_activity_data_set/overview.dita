@@ -7,82 +7,71 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_public_health_england">Public Health England</xref>
- (<xref outputclass="businessDefinition"
-               keyref="business_definition_public_health_england">PHE</xref>) is required to monitor and evaluate the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_national_chlamydia_screening_programme">NHS National Chlamydia Screening Programme</xref>
- (<xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_national_chlamydia_screening_programme">NCSP</xref>) through the reporting of data.        </p>
-      <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_chlamydia_testing_activity_data_set">Chlamydia Testing Activity Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_chlamydia_testing_activity_data_set">Chlamydia Testing Activity Data Set</xref>
  collects information on all chlamydia testing commissioned by the NHS and carried out in all 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_laboratory">Laboratory</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_laboratory">Laboratory</xref>
  settings in England. It includes results taken from all 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  tested for Chlamydia in all NHS settings, or in non-healthcare settings and as part of the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_national_chlamydia_screening_programme">NHS National Chlamydia Screening Programme</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_national_chlamydia_screening_programme">NHS National Chlamydia Screening Programme</xref>
  in England.        </p>
-      <p>
-         <b>Data Extract Specification</b>
-      </p>
-      <p>
-         <b>Description:</b>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_public_health_england">Public Health England</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_public_health_england">PHE</xref>) is required to monitor and evaluate the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_national_chlamydia_screening_programme">NHS National Chlamydia Screening Programme</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_nhs_national_chlamydia_screening_programme">NCSP</xref>) through the reporting of data.        </p>
+    <p>
+      <b>Data Extract Specification</b>
+    </p>
+    <p>
+      <b>Description:</b>
  Each 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_laboratory">Laboratory</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_laboratory">Laboratory</xref>
  will be required to generate a quarterly disaggregated data extract of all chlamydia tests carried out using Nucleic Acid Amplification Testing (NAAT).        </p>
-      <p>
-         <b>Time period:</b>
+    <p>
+      <b>Time period:</b>
  The extract will cover one calendar quarter, based on the date the 
               <xref outputclass="class" keyref="class_sample">SAMPLE</xref>
  is received at the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_laboratory">Laboratory</xref>.        </p>
-      <p>
-         <b>Frequency:</b>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_laboratory">Laboratory</xref>.        </p>
+    <p>
+      <b>Frequency:</b>
  Extracts will run quarterly, 6 weeks after the end of the quarter.        </p>
-      <p>
-         <b>Format:</b>
+    <p>
+      <b>Format:</b>
  Data returned should be formatted to a comma separated variable (CSV) or MS Excel file.        </p>
-      <p>
-         <b>Transmission:</b>
+    <p>
+      <b>Transmission:</b>
  Electronic files will be transmitted to 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_public_health_england">Public Health England</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_public_health_england">Public Health England</xref>
  through the secure Microbiology and Epidemiology of STI's and HIV (MESH) Departments web portal. Connection to the portal requires a login account name and password which are available from 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_public_health_england">Public Health England</xref>.        </p>
-      <p>
-         <b>Mandation</b>
-      </p>
-      <p>The Mandation column indicates the recommendation for the inclusion of data:</p>
-      <ul>
-         <li>
-            <div>
-               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>R = Required: NHS business processes cannot be delivered without this data element.</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
-            </div>
-         </li>
-      </ul>
+              <xref outputclass="businessDefinition" keyref="business_definition_public_health_england">Public Health England</xref>.        </p>
+    <p>
+      <b>Mandation</b>
+    </p>
+    <p>The Mandation column indicates the recommendation for the inclusion of data:</p>
+    <ul>
+      <li>
+        <div>
+          <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>R = Required: NHS business processes cannot be delivered without this data element.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

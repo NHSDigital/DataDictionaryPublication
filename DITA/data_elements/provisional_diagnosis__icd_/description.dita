@@ -7,46 +7,41 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_provisional_diagnosis">PROVISIONAL DIAGNOSIS</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
  is the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
  code used to identify the 
               <xref outputclass="attribute" keyref="attribute_provisional_diagnosis">PROVISIONAL DIAGNOSIS</xref>.        </p>
-      <p>
+    <p>
 For the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">Cancer Outcomes and Services Data Set</xref>, 
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>, 
               <xref outputclass="element" keyref="element_provisional_diagnosis__icd_">PROVISIONAL DIAGNOSIS (ICD)</xref>
  is the working 
               <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
  as defined at the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_multidisciplinary_team_meeting">Multidisciplinary Team Meeting</xref>
  where the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_first_definitive_treatment">First Definitive Treatment</xref>
  is agreed. This is the clinical opinion which may also be informed by 
               <xref outputclass="businessDefinition" keyref="business_definition_biopsy">Biopsy</xref>, radiological and/or other investigations.        </p>
-      <p>Note:</p>
-      <ul>
-         <li>
-            <div>
-               <p>The format/length of this Data Element has been corrected as a result of the work undertaken for the development of the Coding Strategy.</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>The data set specifications of the data sets that contain this Data Element will be updated in the next version of the information standard where it is not already correct.</p>
-            </div>
-         </li>
-      </ul>
+    <p>Note:</p>
+    <ul>
+      <li>
+        <div>
+          <p>The format/length of this Data Element has been corrected as a result of the work undertaken for the development of the Coding Strategy.</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>The data set specifications of the data sets that contain this Data Element will be updated in the next version of the information standard where it is not already correct.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

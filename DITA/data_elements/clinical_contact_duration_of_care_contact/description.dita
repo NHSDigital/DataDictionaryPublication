@@ -7,9 +7,8 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_clinical_contact_duration_of_care_contact">CLINICAL CONTACT DURATION OF CARE CONTACT</xref>
+    <p>
+      <xref outputclass="element" keyref="element_clinical_contact_duration_of_care_contact">CLINICAL CONTACT DURATION OF CARE CONTACT</xref>
  is the total duration of the direct clinical contact at 
               <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>
  in minutes, excluding any administration time prior to or after the 
@@ -17,23 +16,19 @@
  and the 
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>'s travelling time to the 
               <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_clinical_contact_duration_of_care_contact">CLINICAL CONTACT DURATION OF CARE CONTACT</xref>
+    <p>
+      <xref outputclass="element" keyref="element_clinical_contact_duration_of_care_contact">CLINICAL CONTACT DURATION OF CARE CONTACT</xref>
  includes the time spent on the different 
               <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITIES</xref>
  that may be performed in a single 
               <xref outputclass="class" keyref="class_care_contact">CARE CONTACT</xref>.  The duration of each 
               <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
  is recorded in 
-              <xref outputclass="element"
-               keyref="element_clinical_contact_duration_of_care_activity">CLINICAL CONTACT DURATION OF CARE ACTIVITY</xref>.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_clinical_contact_duration_of_care_contact">CLINICAL CONTACT DURATION OF CARE CONTACT</xref>
+              <xref outputclass="element" keyref="element_clinical_contact_duration_of_care_activity">CLINICAL CONTACT DURATION OF CARE ACTIVITY</xref>.        </p>
+    <p>
+      <xref outputclass="element" keyref="element_clinical_contact_duration_of_care_contact">CLINICAL CONTACT DURATION OF CARE CONTACT</xref>
  is calculated from the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_start_time">Start Time</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_start_time">Start Time</xref>
  and 
               <xref outputclass="businessDefinition" keyref="business_definition_end_time">End Time</xref>
  of the 

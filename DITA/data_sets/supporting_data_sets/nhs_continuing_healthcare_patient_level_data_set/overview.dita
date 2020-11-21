@@ -7,240 +7,200 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>
+    <p>
+      <b>
 The 
-                  <xref outputclass="dataSet"
-                  keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
-         </b>
-         <b> </b>
-         <b>has been incorporated early to allow users to see the changes, but please note that the implementation date is 1 April 2021.</b>
-      </p>
-      <p>
-         <b>
+                  <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+      </b>
+      <b> </b>
+      <b>has been incorporated early to allow users to see the changes, but please note that the implementation date is 1 April 2021.</b>
+    </p>
+    <p>
+      <b>
 At the time of publication of the 
-                  <xref outputclass="dataSet"
-                  keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+                  <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
              </b>
-         <b>
+      <b>
 version 1.0, the implementation and conformance dates are subject to change depending on the need for continuing frontline investment in COVID-19 activity. Any change will be agreed between the 
-                  <xref outputclass="businessDefinition"
-                  keyref="business_definition_data_coordination_board">Data Coordination Board</xref>
+                  <xref outputclass="businessDefinition" keyref="business_definition_data_coordination_board">Data Coordination Board</xref>
  and the developers, and will be announced in due course.            </b>
-      </p>
-      <p>
-         <b>
+    </p>
+    <p>
+      <b>
 For further information please contact: 
-                  <xref href="mailto:england.chcdata@nhs.net"
-                  scope="external"
-                  format="html">england.chcdata@nhs.net</xref>.            </b>
-         <b> </b>
-      </p>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
+                  <xref href="mailto:england.chcdata@nhs.net" scope="external" format="html">england.chcdata@nhs.net</xref>.            </b>
+      <b> </b>
+    </p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
  is 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  level, output based, secondary user data set. It delivers robust, comprehensive, nationally consistent and comparable 
               <xref outputclass="class" keyref="class_person">PERSON</xref>
  centred information for people who are in receipt of, or whose eligibility is being assessed for, 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  or 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>. The data set does not include information about requests for an independent review of an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>. The data set does not include information about requests for an independent review of an 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  eligibility decision.        </p>
-      <p>
+    <p>
 As a secondary uses data set the 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
  re-uses operational data for purposes other than direct 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  care. It defines the data items, definitions and associated value sets to be extracted or derived from local systems.        </p>
-      <p>
+    <p>
 The data collected in the 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
  covers all 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>
  
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  undertaken by 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
  (or other 
               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  acting on their behalf), in line with the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  (National Framework) in England.        </p>
-      <p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
  is used by the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>, 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_england">NHS England</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>
  and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_improvement">NHS Improvement</xref>, commissioners and 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_improvement">NHS Improvement</xref>, commissioners and 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>, as the data set provides:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>
 National, comparable, standardised data about 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  and 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>, which will support intelligent commissioning decisions and 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>, which will support intelligent commissioning decisions and 
                                 <xref outputclass="class" keyref="class_service">SERVICE</xref>
  provision                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Information on the use of resources to improve the operational management of 
                                 <xref outputclass="class" keyref="class_service">SERVICES</xref>
-               </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Support for current national performance indicators for 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
                      </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Information for the future development of 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  and 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <b>Data Collection</b>
-      </p>
-      <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>.                    </p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <b>Data Collection</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
  provides the definitions for data to:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>be lodged in the data warehouse regularly and routinely,</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>be assembled, compiled and to flow into a secondary uses data warehouse,</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <p>be lodged in the data warehouse regularly and routinely,</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>be assembled, compiled and to flow into a secondary uses data warehouse,</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 provide timely, pseudonymised 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  based data and information for purposes other than direct clinical care, e.g. planning, commissioning, public health, performance improvement, research, clinical governance.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+        </div>
+      </li>
+    </ul>
+    <p>
 Data is expected to be extracted and collated from the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  management systems used by 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_clinical_commissioning_group">Clinical Commissioning Groups</xref>
  to manage their  
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  function.        </p>
-      <p>Data will be reported monthly.</p>
-      <p>
-         <b>Submission Information</b>
-      </p>
-      <p>
+    <p>Data will be reported monthly.</p>
+    <p>
+      <b>Submission Information</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
  is submitted to 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
   using the  
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_patient_level_data_set">NHS Continuing Healthcare Patient Level Data Set</xref>
  XML Schema.        </p>
-      <p>
-         <b>Format Information</b>
-      </p>
-      <p>
+    <p>
+      <b>Format Information</b>
+    </p>
+    <p>
 Data for submission will be formatted into an XML file as per the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_technology_reference_data_update_distribution__trud_">Technology Reference Data Update Distribution (TRUD)</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_technology_reference_data_update_distribution__trud_">Technology Reference Data Update Distribution (TRUD)</xref>
  page at: 
-              <xref href="https://isd.hscic.gov.uk/trud3/user/authenticated/group/101/pack/36"
-               scope="external"
-               format="html">NHS Data Model and Dictionary: DD XML Schemas</xref>.        </p>
-      <p>
+              <xref href="https://isd.hscic.gov.uk/trud3/user/authenticated/group/101/pack/36" scope="external" format="html">NHS Data Model and Dictionary: DD XML Schemas</xref>.        </p>
+    <p>
 For enquiries regarding the XML Schema, please contact 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  at 
-              <xref href="mailto:enquiries@nhsdigital.nhs.uk,"
-               scope="external"
-               format="html">enquiries@nhsdigital.nhs.uk</xref>.        </p>
-      <p>
-         <b>Further Guidance</b>
-      </p>
-      <p>
+              <xref href="mailto:enquiries@nhsdigital.nhs.uk," scope="external" format="html">enquiries@nhsdigital.nhs.uk</xref>.        </p>
+    <p>
+      <b>Further Guidance</b>
+    </p>
+    <p>
 Further information and implementation guidance has been produced by 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  and is available at: 
-              <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/continuinghealthcarechc"
-               scope="external"
-               format="html">NHS Continuing Healthcare and NHS-funded Nursing Care (CHC)</xref>.        </p>
-      <p>
-         <b>Mandation</b>
-      </p>
-      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
-      <ul>
-         <li>
-            <div>
-               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
-            </div>
-         </li>
-         <li>
-            <p>R = Required: NHS business processes cannot be delivered without this data element</p>
-         </li>
-         <li>
-            <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
-         </li>
-      </ul>
+              <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/continuinghealthcarechc" scope="external" format="html">NHS Continuing Healthcare and NHS-funded Nursing Care (CHC)</xref>.        </p>
+    <p>
+      <b>Mandation</b>
+    </p>
+    <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+    <ul>
+      <li>
+        <div>
+          <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+        </div>
+      </li>
+      <li>
+        <p>R = Required: NHS business processes cannot be delivered without this data element</p>
+      </li>
+      <li>
+        <p>O = Optional: the inclusion of this data element is optional as required for local purposes.</p>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

@@ -7,15 +7,15 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_critical_care_local_identifier">CRITICAL CARE LOCAL IDENTIFIER</xref>
+    <p>
+      <xref outputclass="element" keyref="element_critical_care_local_identifier">CRITICAL CARE LOCAL IDENTIFIER</xref>
  is a unique local 
               <xref outputclass="attribute" keyref="attribute_activity_identifier">ACTIVITY IDENTIFIER</xref>
  used to identify the start of 
               <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
  within a 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>.        </p>
-      <p>
+    <p>
 This locally defined variable should as a minimum include a sequential numerical component that can discriminate two or more 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIODS</xref>
  occurring on the same calendar day for the same patient.        </p>

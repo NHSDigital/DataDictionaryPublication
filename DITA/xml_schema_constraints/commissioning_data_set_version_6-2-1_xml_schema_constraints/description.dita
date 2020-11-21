@@ -7,1017 +7,987 @@
   </titlealts>
   <body>
   <div>
-      <p>XML Schema constraints applied to the:</p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2-1_type_001_-_cds_interchange_header">CDS V6-2-1 Type 001 - Commissioning Data Set Interchange Header</xref>
-            </div>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2-1_type_002_-_cds_interchange_trailer">CDS V6-2-1 Type 002 - Commissioning Data Set Interchange Trailer</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2-1_type_003_-_cds_message_header">CDS V6-2-1 Type 003 - Commissioning Data Set Message Header</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2-1_type_004_-_cds_message_trailer">CDS V6-2-1 Type 004 - Commissioning Data Set Message Trailer</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
-         </li>
-         <li>
-            <xref outputclass="dataSet"
-                  keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
-         </li>
-      </ul>
-      <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
-      <ul>
-         <li>
-            <div>
-               <p>None = The National Codes and Default Codes are included in the XML Schema</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
-            </div>
-         </li>
-      </ul>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="6">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>Data Element</b>
-                  </entry>
-                  <entry>
-                     <b>XML Schema Format/Length</b>
-                  </entry>
-                  <entry>
-                     <b>Allowed Values</b>
-                  </entry>
-                  <entry>
-                     <b>Range</b>
-                  </entry>
-                  <entry>
-                     <b>Pattern Match</b>
-                  </entry>
-                  <entry>
-                     <b>Reason / Comment / XML Choice</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_activity_treatment_function_code__decision_to_admit_">ACTIVITY TREATMENT FUNCTION CODE (DECISION TO ADMIT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_age_at_cds_activity_date">AGE AT CDS ACTIVITY DATE</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+    <p>XML Schema constraints applied to the:</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_011_-_emergency_care_cds">CDS V6-2-1 Type 011 - Emergency Care Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_001_-_cds_interchange_header">CDS V6-2-1 Type 001 - Commissioning Data Set Interchange Header</xref>
+        </div>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_002_-_cds_interchange_trailer">CDS V6-2-1 Type 002 - Commissioning Data Set Interchange Trailer</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_003_-_cds_message_header">CDS V6-2-1 Type 003 - Commissioning Data Set Message Header</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_004_-_cds_message_trailer">CDS V6-2-1 Type 004 - Commissioning Data Set Message Trailer</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-1 Type 005B - Commissioning Data Set Transaction Header Group - Bulk Update Protocol</xref>
+      </li>
+      <li>
+        <xref outputclass="dataSet" keyref="dataset_cds_v6-2-1_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-1 Type 005N - Commissioning Data Set Transaction Header Group - Net Change Protocol</xref>
+      </li>
+    </ul>
+    <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
+    <ul>
+      <li>
+        <div>
+          <p>None = The National Codes and Default Codes are included in the XML Schema</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
+        </div>
+      </li>
+    </ul>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="6">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <b>Data Element</b>
+            </entry>
+            <entry>
+              <b>XML Schema Format/Length</b>
+            </entry>
+            <entry>
+              <b>Allowed Values</b>
+            </entry>
+            <entry>
+              <b>Range</b>
+            </entry>
+            <entry>
+              <b>Pattern Match</b>
+            </entry>
+            <entry>
+              <b>Reason / Comment / XML Choice</b>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_activity_treatment_function_code__decision_to_admit_">ACTIVITY TREATMENT FUNCTION CODE (DECISION TO ADMIT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_age_at_cds_activity_date">AGE AT CDS ACTIVITY DATE</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_cds_interchange_application_reference">CDS INTERCHANGE APPLICATION REFERENCE</xref>
-                  </entry>
-                  <entry>
-                     <p>min an1 max an14</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an14 - XML Schema allows min an1 max an14</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_interchange_control_count">CDS INTERCHANGE CONTROL COUNT</xref>
-                  </entry>
-                  <entry>
-                     <p>max n7</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n7 - XML Schema allows max n7</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_cds_interchange_control_reference">CDS INTERCHANGE CONTROL REFERENCE</xref>
-                  </entry>
-                  <entry>
-                     <p>min an1 max an14</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an14 - XML Schema allows min an1 max an14</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an1 max an15</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an15 - XML Schema allows min an1 max an15</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_cds_interchange_receiver_identity">CDS INTERCHANGE RECEIVER IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an1 max an15</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an15 - XML Schema allows min an1 max an15</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>0,1</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Null value not allowed in XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_message_reference">CDS MESSAGE REFERENCE</xref>
-                  </entry>
-                  <entry>
-                     <p>max n7</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_interchange_application_reference">CDS INTERCHANGE APPLICATION REFERENCE</xref>
+            </entry>
+            <entry>
+              <p>min an1 max an14</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an14 - XML Schema allows min an1 max an14</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_interchange_control_count">CDS INTERCHANGE CONTROL COUNT</xref>
+            </entry>
+            <entry>
+              <p>max n7</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n7 - XML Schema allows max n7</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_interchange_control_reference">CDS INTERCHANGE CONTROL REFERENCE</xref>
+            </entry>
+            <entry>
+              <p>min an1 max an14</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an14 - XML Schema allows min an1 max an14</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_interchange_sender_identity">CDS INTERCHANGE SENDER IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an1 max an15</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an15 - XML Schema allows min an1 max an15</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_interchange_receiver_identity">CDS INTERCHANGE RECEIVER IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an1 max an15</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an15 - XML Schema allows min an1 max an15</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_interchange_test_indicator">CDS INTERCHANGE TEST INDICATOR</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>0,1</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Null value not allowed in XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_message_reference">CDS MESSAGE REFERENCE</xref>
+            </entry>
+            <entry>
+              <p>max n7</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Existing Format/Length states an14 - XML Schema allows max n7 to support  
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">SUS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">SUS</xref>
   requirements                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_message_version_number">CDS MESSAGE VERSION NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>CDS062</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Message version is hard coded in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_message_version_number">CDS MESSAGE VERSION NUMBER</xref>
+            </entry>
+            <entry>
+              <p>an6</p>
+            </entry>
+            <entry>
+              <div>
+                <p>CDS062</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Message version is hard coded in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_record_identifier">CDS RECORD IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>min an1 max an35</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an35 - XML Schema allows min an1 max an35</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_record_identifier">CDS RECORD IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>min an1 max an35</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an35 - XML Schema allows min an1 max an35</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>min an1 max an35</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an35 - XML Schema allows min an1 max an35</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_coded_clinical_entry_sequence_number">CODED CLINICAL ENTRY SEQUENCE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max n5</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states min n1 max n5 - XML Schema allows max n5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_commissioner_reference_number">COMMISSIONER REFERENCE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an17</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_commissioning_serial_number">COMMISSIONING SERIAL NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_emergency_care_attendance_identifier">EMERGENCY CARE ATTENDANCE IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states min an1 max an12 - XML Schema allows max an12</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_emergency_care_place_of_injury__latitude_">EMERGENCY CARE PLACE OF INJURY (LATITUDE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>-90.000000-90.000000</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>min an1 max an35</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an35 - XML Schema allows min an1 max an35</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_coded_clinical_entry_sequence_number">CODED CLINICAL ENTRY SEQUENCE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max n5</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states min n1 max n5 - XML Schema allows max n5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_commissioner_reference_number">COMMISSIONER REFERENCE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an17</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_commissioning_serial_number">COMMISSIONING SERIAL NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an6</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an6 - XML Schema allows max an6</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_emergency_care_attendance_identifier">EMERGENCY CARE ATTENDANCE IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states min an1 max an12 - XML Schema allows max an12</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_emergency_care_department_type">EMERGENCY CARE DEPARTMENT TYPE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_emergency_care_place_of_injury__latitude_">EMERGENCY CARE PLACE OF INJURY (LATITUDE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>-90.000000-90.000000</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Range applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_emergency_care_place_of_injury__latitude_">EMERGENCY CARE PLACE OF INJURY (LATITUDE)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_emergency_care_place_of_injury__longitude_">EMERGENCY CARE PLACE OF INJURY (LONGITUDE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>-180.000000-180.000000</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_emergency_care_place_of_injury__latitude_">EMERGENCY CARE PLACE OF INJURY (LATITUDE)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_emergency_care_place_of_injury__longitude_">EMERGENCY CARE PLACE OF INJURY (LONGITUDE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>-180.000000-180.000000</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Range applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_emergency_care_place_of_injury__longitude_">EMERGENCY CARE PLACE OF INJURY (LONGITUDE)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
-                  </entry>
-                  <entry>
-                     <p>max an2</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. Format/Length amended to max an2</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes and default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_nhs_service_agreement_line_number">NHS SERVICE AGREEMENT LINE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an10</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an5</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_identifier__residence_responsibility_">ORGANISATION IDENTIFIER (RESIDENCE RESPONSIBILITY)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__discharge_from_emergency_care_">ORGANISATION SITE IDENTIFIER (DISCHARGE FROM EMERGENCY CARE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__emergency_care_attendance_source_">ORGANISATION SITE IDENTIFIER (EMERGENCY CARE ATTENDANCE SOURCE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_provider_reference_number">PROVIDER REFERENCE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an17</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>01,02,09</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes 03 and 04 not valid in Commissioning Data Sets</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+                        <xref outputclass="element" keyref="element_emergency_care_place_of_injury__longitude_">EMERGENCY CARE PLACE OF INJURY (LONGITUDE)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+            </entry>
+            <entry>
+              <p>max an2</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. Format/Length amended to max an2</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes and default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_nhs_service_agreement_line_number">NHS SERVICE AGREEMENT LINE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an10</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_commissioner_">ORGANISATION IDENTIFIER (CODE OF COMMISSIONER)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an5</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_identifier__residence_responsibility_">ORGANISATION IDENTIFIER (RESIDENCE RESPONSIBILITY)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__discharge_from_emergency_care_">ORGANISATION SITE IDENTIFIER (DISCHARGE FROM EMERGENCY CARE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__emergency_care_attendance_source_">ORGANISATION SITE IDENTIFIER (EMERGENCY CARE ATTENDANCE SOURCE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_site_identifier__of_treatment_">ORGANISATION SITE IDENTIFIER (OF TREATMENT)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_provider_reference_number">PROVIDER REFERENCE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an17</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_waiting_time_measurement_type">WAITING TIME MEASUREMENT TYPE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>01,02,09</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes 03 and 04 not valid in Commissioning Data Sets</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

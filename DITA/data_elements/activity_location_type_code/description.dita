@@ -7,69 +7,60 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>.        </p>
-      <p>
-         <b>Use in Commissioning Data Set Version 6-2 onwards</b>
-      </p>
-      <p>
+    <p>
+      <b>Use in Commissioning Data Set Version 6-2 onwards</b>
+    </p>
+    <p>
 Where 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_clinic">Out-Patient Clinics</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinics</xref>
  are held on 
               <xref outputclass="class" keyref="class_ward">WARDS</xref>
  (such as Pre-assessment Clinics), these should be categorised as 
               <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
  National Code E01 
               <i>'</i>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
-         <i>'</i>
+      <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinic</xref>
+      <i>'</i>
  and not National Code E02 
               <i>'</i>
-         <xref outputclass="class" keyref="class_ward">WARD</xref>
-         <i>'</i>.  This will allow 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_ward_attendance">Ward Attendances</xref>
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+      <i>'</i>.  This will allow 
+              <xref outputclass="businessDefinition" keyref="business_definition_ward_attendance">Ward Attendances</xref>
  to be differentiated from 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_clinic">Out-Patient Clinics</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinics</xref>
  in the 
-              <xref outputclass="dataSet"
-               keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+              <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  flow.        </p>
-      <p>
+    <p>
 For 
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  falling under 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_allied_health_professional_referral_to_treatment_measurement">Allied Health Professional Referral To Treatment Measurement</xref>, 
               <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
  may be submitted to allow identification of Allied Health Professional 
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  taking place on 
               <xref outputclass="class" keyref="class_ward">WARDS</xref>, which is not related to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>
  for the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  being seen by the Allied Health Professional.  For example, if a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_chiropodist">Podiatrist</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_chiropodist">Podiatrist</xref>
  were asked to see a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  who was currently admitted for a condition where the agreed care pathway did not include Podiatry services, then an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_appointment_non-consultant">Out-Patient Appointment Non-Consultant</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_appointment_non-consultant">Out-Patient Appointment Non-Consultant</xref>
  should be recorded, with the 
               <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
  of E02 
               <i>'</i>
-         <xref outputclass="class" keyref="class_ward">WARD</xref>
-         <i>'</i>.        </p>
-      <p>
+      <xref outputclass="class" keyref="class_ward">WARD</xref>
+      <i>'</i>.        </p>
+    <p>
 For specific National Code usage in different data sets, see 
               <xref outputclass="attribute" keyref="attribute_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>.        </p>
   </div>

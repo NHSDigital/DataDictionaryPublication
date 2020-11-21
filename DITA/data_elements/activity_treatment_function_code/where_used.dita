@@ -15,13 +15,6 @@
       <strow>
         <stentry>Data Set</stentry>
         <stentry>
-          <xref keyref='dataset_female_genital_mutilation_data_set' outputclass='dataSet'></xref>
-        </stentry>
-        <stentry>references in description ACTIVITY TREATMENT FUNCTION CODE</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Set</stentry>
-        <stentry>
           <xref keyref='dataset_cds_v6-2_type_060_-_elective_admission_list_-_event_during_period__add__cds' outputclass='dataSet'></xref>
         </stentry>
         <stentry>references in description ACTIVITY TREATMENT FUNCTION CODE</stentry>
@@ -113,6 +106,13 @@
       <strow>
         <stentry>Data Set</stentry>
         <stentry>
+          <xref keyref='dataset_female_genital_mutilation_data_set' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description ACTIVITY TREATMENT FUNCTION CODE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
           <xref keyref='dataset_aggregate_contract_monitoring_data_set' outputclass='dataSet'></xref>
         </stentry>
         <stentry>references in description ACTIVITY TREATMENT FUNCTION CODE</stentry>
@@ -163,6 +163,20 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_treatment_function_code' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description ACTIVITY TREATMENT FUNCTION CODE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_treatment_function_code__receiving_service_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description ACTIVITY TREATMENT FUNCTION CODE</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_treatment_function_code__referring_service_' outputclass='element'></xref>
         </stentry>
         <stentry>references in description ACTIVITY TREATMENT FUNCTION CODE</stentry>
       </strow>

@@ -4,22 +4,11 @@
   <title>Attributes</title>
   <topicset navtitle='Attributes' id='attributes.group' href='attributes.dita' toc='no' linking='normal'>
     <mapref href='attributes/retired.ditamap' toc='no' />
-    <mapref href='attributes/a_and_e_attendance_category.ditamap' toc='no' />
-    <mapref href='attributes/a_and_e_initial_assessment_triage_category.ditamap' toc='no' />
-    <mapref href='attributes/a_and_e_patient_group.ditamap' toc='no' />
-    <mapref href='attributes/a_and_e_stream.ditamap' toc='no' />
     <mapref href='attributes/abdominal_x-ray_performed_reason.ditamap' toc='no' />
     <mapref href='attributes/abdominal_x-ray_performed_to_investigate_abdominal_signs_indicator.ditamap' toc='no' />
     <mapref href='attributes/ablative_therapy_type.ditamap' toc='no' />
     <mapref href='attributes/abnormality_detected_indicator.ditamap' toc='no' />
     <mapref href='attributes/abnormality_identifier.ditamap' toc='no' />
-    <mapref href='attributes/accident_and_emergency_arrival_mode.ditamap' toc='no' />
-    <mapref href='attributes/accident_and_emergency_attendance_disposal.ditamap' toc='no' />
-    <mapref href='attributes/accident_and_emergency_department_type.ditamap' toc='no' />
-    <mapref href='attributes/accident_and_emergency_diagnosis.ditamap' toc='no' />
-    <mapref href='attributes/accident_and_emergency_incident_location_type.ditamap' toc='no' />
-    <mapref href='attributes/accident_and_emergency_investigation.ditamap' toc='no' />
-    <mapref href='attributes/accident_and_emergency_treatment.ditamap' toc='no' />
     <mapref href='attributes/accommodation_status_code.ditamap' toc='no' />
     <mapref href='attributes/activity_count.ditamap' toc='no' />
     <mapref href='attributes/activity_date.ditamap' toc='no' />
@@ -89,7 +78,6 @@
     <mapref href='attributes/anaesthetic_or_analgesic_category.ditamap' toc='no' />
     <mapref href='attributes/anaesthetic_type_for_joint_replacement.ditamap' toc='no' />
     <mapref href='attributes/anaplastic_nephroblastoma_type.ditamap' toc='no' />
-    <mapref href='attributes/anatomical_area.ditamap' toc='no' />
     <mapref href='attributes/anatomical_side.ditamap' toc='no' />
     <mapref href='attributes/anatomical_side_for_imaging.ditamap' toc='no' />
     <mapref href='attributes/anatomical_side_for_national_joint_registry.ditamap' toc='no' />
@@ -191,6 +179,7 @@
     <mapref href='attributes/cancer_treatment_event_type.ditamap' toc='no' />
     <mapref href='attributes/cancer_treatment_intent.ditamap' toc='no' />
     <mapref href='attributes/cancer_treatment_modality.ditamap' toc='no' />
+    <mapref href='attributes/cancer_treatment_modality_for_registration.ditamap' toc='no' />
     <mapref href='attributes/cancer_vascular_or_lymphatic_invasion.ditamap' toc='no' />
     <mapref href='attributes/cardiopulmonary_exercise_test_type.ditamap' toc='no' />
     <mapref href='attributes/care_activity_type_for_patient_level_information_costing.ditamap' toc='no' />
@@ -582,7 +571,6 @@
     <mapref href='attributes/investigation_examination_result.ditamap' toc='no' />
     <mapref href='attributes/investigation_result_date.ditamap' toc='no' />
     <mapref href='attributes/investigation_rubella_result_indicator.ditamap' toc='no' />
-    <mapref href='attributes/investigation_scheme_in_use.ditamap' toc='no' />
     <mapref href='attributes/invitation_offer_date_sent.ditamap' toc='no' />
     <mapref href='attributes/job_role_code.ditamap' toc='no' />
     <mapref href='attributes/job_role_title.ditamap' toc='no' />
@@ -621,7 +609,6 @@
     <mapref href='attributes/liver_surgery_performed_type.ditamap' toc='no' />
     <mapref href='attributes/liver_transarterial_embolisation_material_injection_type.ditamap' toc='no' />
     <mapref href='attributes/liver_transplant_waiting_list_indicator.ditamap' toc='no' />
-    <mapref href='attributes/local_care_professional_identifier.ditamap' toc='no' />
     <mapref href='attributes/local_high_cost_tariff_excluded_device_code.ditamap' toc='no' />
     <mapref href='attributes/local_patient_identifier.ditamap' toc='no' />
     <mapref href='attributes/local_point_of_delivery_description.ditamap' toc='no' />
@@ -922,8 +909,10 @@
     <mapref href='attributes/place_of_safety_indicator.ditamap' toc='no' />
     <mapref href='attributes/plane_of_surgical_excision_indicator.ditamap' toc='no' />
     <mapref href='attributes/planned_activity_date.ditamap' toc='no' />
+    <mapref href='attributes/planned_activity_date_and_time_type.ditamap' toc='no' />
     <mapref href='attributes/planned_activity_date_type.ditamap' toc='no' />
     <mapref href='attributes/planned_activity_identifier.ditamap' toc='no' />
+    <mapref href='attributes/planned_activity_time.ditamap' toc='no' />
     <mapref href='attributes/planned_cancer_treatment_type.ditamap' toc='no' />
     <mapref href='attributes/planned_care_contact_indicator.ditamap' toc='no' />
     <mapref href='attributes/planned_delivery_setting_change_reason.ditamap' toc='no' />
@@ -1154,7 +1143,6 @@
     <mapref href='attributes/social_worker_care_indicator_for_hiv.ditamap' toc='no' />
     <mapref href='attributes/socio-economic_classification_code_for_stop_smoking.ditamap' toc='no' />
     <mapref href='attributes/source_of_admission.ditamap' toc='no' />
-    <mapref href='attributes/source_of_referral_for_a_and_e.ditamap' toc='no' />
     <mapref href='attributes/source_of_referral_for_community.ditamap' toc='no' />
     <mapref href='attributes/source_of_referral_for_female_genital_mutilation.ditamap' toc='no' />
     <mapref href='attributes/source_of_referral_for_maternity.ditamap' toc='no' />

@@ -4,15 +4,6 @@
   <title>Data Elements</title>
   <topicset navtitle='Data Elements' id='data_elements.group' href='data_elements.dita' toc='no' linking='normal'>
     <mapref href='data_elements/retired.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_attendance_conclusion_time.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_attendance_number.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_department_type.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_departure_time.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_incident_location_type.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_initial_assessment_time.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_patient_group.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_staff_member_code.ditamap' toc='no' />
-    <mapref href='data_elements/a_and_e_time_seen_for_treatment.ditamap' toc='no' />
     <mapref href='data_elements/abbreviated_mental_test_score.ditamap' toc='no' />
     <mapref href='data_elements/abdominal_x-ray_performed_indicator.ditamap' toc='no' />
     <mapref href='data_elements/abdominal_x-ray_performed_reason.ditamap' toc='no' />
@@ -23,19 +14,6 @@
     <mapref href='data_elements/accessible_information_contact_method_code__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/accessible_information_professional_required_code__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/accessible_information_specific_information_format_code__snomed_ct_.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_arrival_mode_code.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_attendance_category_code.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_attendance_conclusion_date.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_attendance_disposal_code.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_date_seen_for_treatment.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_departure_date.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_diagnosis_-_first.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_diagnosis_-_second.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_initial_assessment_date.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_investigation_-_first.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_investigation_-_second.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_treatment_-_first.ditamap' toc='no' />
-    <mapref href='data_elements/accident_and_emergency_treatment_-_second.ditamap' toc='no' />
     <mapref href='data_elements/accommodation_status__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/accommodation_status_code.ditamap' toc='no' />
     <mapref href='data_elements/accommodation_status_recorded_date.ditamap' toc='no' />
@@ -145,8 +123,6 @@
     <mapref href='data_elements/appropriate_clinical_staff_group_completing_nhs_continuing_healthcare_fast_track_pathway_tool.ditamap' toc='no' />
     <mapref href='data_elements/area_of_work_name.ditamap' toc='no' />
     <mapref href='data_elements/area_of_work_name__clinical_sub_specialty_.ditamap' toc='no' />
-    <mapref href='data_elements/arrival_date.ditamap' toc='no' />
-    <mapref href='data_elements/arrival_time_at_accident_and_emergency_department.ditamap' toc='no' />
     <mapref href='data_elements/arthroplasty_revision_type__hip_knee_and_ankle_replacement_.ditamap' toc='no' />
     <mapref href='data_elements/arthroplasty_revision_type__shoulder_and_elbow_replacement_.ditamap' toc='no' />
     <mapref href='data_elements/asa_physical_status_classification_system_code.ditamap' toc='no' />
@@ -155,6 +131,7 @@
     <mapref href='data_elements/assessment_tool_completion_date.ditamap' toc='no' />
     <mapref href='data_elements/assessment_tool_completion_time.ditamap' toc='no' />
     <mapref href='data_elements/assessment_tool_completion_year_and_month.ditamap' toc='no' />
+    <mapref href='data_elements/assessment_tool_validation_timestamp.ditamap' toc='no' />
     <mapref href='data_elements/assignment_contracted_fte.ditamap' toc='no' />
     <mapref href='data_elements/assignment_end_date.ditamap' toc='no' />
     <mapref href='data_elements/assignment_job_share_indicator.ditamap' toc='no' />
@@ -388,6 +365,7 @@
     <mapref href='data_elements/care_plan_type__mental_health_.ditamap' toc='no' />
     <mapref href='data_elements/care_product_type__nhs_continuing_healthcare_.ditamap' toc='no' />
     <mapref href='data_elements/care_professional__job_role_code_.ditamap' toc='no' />
+    <mapref href='data_elements/care_professional_clinical_responsibility_timestamp.ditamap' toc='no' />
     <mapref href='data_elements/care_professional_code__operating_surgeon_.ditamap' toc='no' />
     <mapref href='data_elements/care_professional_discharge_responsibility_indicator__emergency_care_.ditamap' toc='no' />
     <mapref href='data_elements/care_professional_first_assistant_grade__joint_replacement_.ditamap' toc='no' />
@@ -519,8 +497,11 @@
     <mapref href='data_elements/coded_assessment_tool_type__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/coded_clinical_entry_sequence_number.ditamap' toc='no' />
     <mapref href='data_elements/coded_finding__coded_clinical_entry_.ditamap' toc='no' />
+    <mapref href='data_elements/coded_finding__snomed_ct_.ditamap' toc='no' />
+    <mapref href='data_elements/coded_finding_timestamp.ditamap' toc='no' />
     <mapref href='data_elements/coded_observation__clinical_terminology_.ditamap' toc='no' />
     <mapref href='data_elements/coded_observation__snomed_ct_.ditamap' toc='no' />
+    <mapref href='data_elements/coded_observation_timestamp.ditamap' toc='no' />
     <mapref href='data_elements/coded_procedure__clinical_terminology_.ditamap' toc='no' />
     <mapref href='data_elements/coded_procedure_and_procedure_status__coded_clinical_entry_.ditamap' toc='no' />
     <mapref href='data_elements/coded_procedure_and_procedure_status__snomed_ct_.ditamap' toc='no' />
@@ -755,6 +736,8 @@
     <mapref href='data_elements/discharge_time__mother_post_labour_and_delivery_hospital_provider_spell_.ditamap' toc='no' />
     <mapref href='data_elements/discharged_to_hospital_at_home_service_indicator.ditamap' toc='no' />
     <mapref href='data_elements/disease_outbreak_notification.ditamap' toc='no' />
+    <mapref href='data_elements/disease_outbreak_notification__snomed_ct_.ditamap' toc='no' />
+    <mapref href='data_elements/disease_outbreak_notification_description.ditamap' toc='no' />
     <mapref href='data_elements/dispensing_route__high_cost_tariff_excluded_drug_.ditamap' toc='no' />
     <mapref href='data_elements/distance_beyond_muscularis_propria.ditamap' toc='no' />
     <mapref href='data_elements/distance_from_dentate_line.ditamap' toc='no' />
@@ -798,6 +781,7 @@
     <mapref href='data_elements/emergency_care_attendance_source__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_chief_complaint__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_clinical_investigation__snomed_ct_.ditamap' toc='no' />
+    <mapref href='data_elements/emergency_care_clinically_ready_to_proceed_timestamp.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_date_seen_for_treatment.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_department_type.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_department_type__patient_level_information_costing_.ditamap' toc='no' />
@@ -809,6 +793,7 @@
     <mapref href='data_elements/emergency_care_discharge_follow_up__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_discharge_information_given__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_discharge_status__snomed_ct_.ditamap' toc='no' />
+    <mapref href='data_elements/emergency_care_expected_date_and_timestamp_of_treatment.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_initial_assessment_date.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_initial_assessment_time.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_injury_activity_status__snomed_ct_.ditamap' toc='no' />
@@ -821,6 +806,7 @@
     <mapref href='data_elements/emergency_care_place_of_injury__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_procedure__snomed_ct_.ditamap' toc='no' />
     <mapref href='data_elements/emergency_care_time_seen_for_treatment.ditamap' toc='no' />
+    <mapref href='data_elements/emergency_care_treatment_allocation_timestamp.ditamap' toc='no' />
     <mapref href='data_elements/emergent_psychosis_date.ditamap' toc='no' />
     <mapref href='data_elements/employee_absence_category.ditamap' toc='no' />
     <mapref href='data_elements/employee_absence_duration.ditamap' toc='no' />
@@ -1161,7 +1147,6 @@
     <mapref href='data_elements/invasive_tumour_size.ditamap' toc='no' />
     <mapref href='data_elements/investigation_result_code__mother_rubella_screening_.ditamap' toc='no' />
     <mapref href='data_elements/investigation_result_date.ditamap' toc='no' />
-    <mapref href='data_elements/investigation_scheme_in_use.ditamap' toc='no' />
     <mapref href='data_elements/job_role_title__position_.ditamap' toc='no' />
     <mapref href='data_elements/jobseekers_allowance_receipt_indicator.ditamap' toc='no' />
     <mapref href='data_elements/joint_replacement_revision_reason_code__ankle_.ditamap' toc='no' />
@@ -1745,7 +1730,6 @@
     <mapref href='data_elements/person_death_date__baby_.ditamap' toc='no' />
     <mapref href='data_elements/person_death_date__mother_.ditamap' toc='no' />
     <mapref href='data_elements/person_death_date__post_discharge_from_neonatal_critical_care_.ditamap' toc='no' />
-    <mapref href='data_elements/person_death_date_and_time.ditamap' toc='no' />
     <mapref href='data_elements/person_death_date_and_time__during_neonatal_critical_care_period_.ditamap' toc='no' />
     <mapref href='data_elements/person_death_time.ditamap' toc='no' />
     <mapref href='data_elements/person_death_time__baby_.ditamap' toc='no' />
@@ -1811,7 +1795,6 @@
     <mapref href='data_elements/persons_no_longer_eligible_for_nhs_continuing_healthcare.ditamap' toc='no' />
     <mapref href='data_elements/ph_level.ditamap' toc='no' />
     <mapref href='data_elements/pharmacotherapy_stop_smoking_aid_received.ditamap' toc='no' />
-    <mapref href='data_elements/photodynamic_therapy_performed_indicator.ditamap' toc='no' />
     <mapref href='data_elements/phototherapy_received_indicator.ditamap' toc='no' />
     <mapref href='data_elements/physical_activity_vital_sign_level__current_.ditamap' toc='no' />
     <mapref href='data_elements/place_of_safety_indicator.ditamap' toc='no' />
@@ -1918,7 +1901,6 @@
     <mapref href='data_elements/primary_procedure__opcs_.ditamap' toc='no' />
     <mapref href='data_elements/primary_procedure__read_.ditamap' toc='no' />
     <mapref href='data_elements/primary_procedure__snomed_ct_.ditamap' toc='no' />
-    <mapref href='data_elements/primary_procedure_date.ditamap' toc='no' />
     <mapref href='data_elements/primary_reason_for_referral__community_care_.ditamap' toc='no' />
     <mapref href='data_elements/primary_reason_for_referral__mental_health_.ditamap' toc='no' />
     <mapref href='data_elements/primary_tumour_status.ditamap' toc='no' />
@@ -2213,7 +2195,6 @@
     <mapref href='data_elements/social_worker_care_indicator__hiv_.ditamap' toc='no' />
     <mapref href='data_elements/socio-economic_classification_code__stop_smoking_.ditamap' toc='no' />
     <mapref href='data_elements/source_of_admission_code__hospital_provider_spell_.ditamap' toc='no' />
-    <mapref href='data_elements/source_of_referral_for_a_and_e.ditamap' toc='no' />
     <mapref href='data_elements/source_of_referral_for_community.ditamap' toc='no' />
     <mapref href='data_elements/source_of_referral_for_female_genital_mutilation.ditamap' toc='no' />
     <mapref href='data_elements/source_of_referral_for_maternity.ditamap' toc='no' />

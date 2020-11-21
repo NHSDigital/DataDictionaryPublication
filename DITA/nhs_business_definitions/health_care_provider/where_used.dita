@@ -15,20 +15,6 @@
       <strow>
         <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='attribute_accident_and_emergency_attendance_disposal' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description Health Care Provider</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_accident_and_emergency_attendance_disposal_code' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description Health Care Provider</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
           <xref keyref='attribute_acute_oncology_assessment_location' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
@@ -230,16 +216,16 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_community_treatment_order_end_reason' outputclass='element'></xref>
+          <xref keyref='attribute_community_treatment_order_end_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_community_treatment_order_end_reason' outputclass='attribute'></xref>
+          <xref keyref='element_community_treatment_order_end_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -303,6 +289,13 @@
         <stentry>Supporting Information</stentry>
         <stentry>
           <xref keyref='supporting_definition_commissioning_data_set_submission_protocol' outputclass='supportingInformation'></xref>
+        </stentry>
+        <stentry>references in description Health Care Provider</stentry>
+      </strow>
+      <strow>
+        <stentry>Supporting Information</stentry>
+        <stentry>
+          <xref keyref='supporting_definition_commissioning_data_set_submission_and_organisation_mergers' outputclass='supportingInformation'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -482,6 +475,13 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_clinically_ready_to_proceed_timestamp' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description Health Care Provider</stentry>
+      </strow>
+      <strow>
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_general_medical_practice_code__receiving_' outputclass='element'></xref>
@@ -636,16 +636,16 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_late_antenatal_booking_appointment_reason' outputclass='attribute'></xref>
+          <xref keyref='element_late_antenatal_booking_appointment_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_late_antenatal_booking_appointment_reason' outputclass='element'></xref>
+          <xref keyref='attribute_late_antenatal_booking_appointment_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -692,16 +692,16 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='element'></xref>
+          <xref keyref='attribute_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='attribute'></xref>
+          <xref keyref='element_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -720,16 +720,16 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_multidisciplinary_team_meeting_cancer_care_plan_discussion_type' outputclass='attribute'></xref>
+          <xref keyref='element_multidisciplinary_team_meeting_cancer_care_plan_discussion_type' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_multidisciplinary_team_meeting_cancer_care_plan_discussion_type' outputclass='element'></xref>
+          <xref keyref='attribute_multidisciplinary_team_meeting_cancer_care_plan_discussion_type' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -993,16 +993,16 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_original_decided_to_admit_date' outputclass='attribute'></xref>
+          <xref keyref='element_original_decided_to_admit_date' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_original_decided_to_admit_date' outputclass='element'></xref>
+          <xref keyref='attribute_original_decided_to_admit_date' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -1140,6 +1140,13 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_patient_level_information_costing_system_data_set_-_reconciliation' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Health Care Provider</stentry>
+      </strow>
+      <strow>
         <stentry>Supporting Information</stentry>
         <stentry>
           <xref keyref='supporting_definition_point_of_delivery' outputclass='supportingInformation'></xref>
@@ -1154,16 +1161,16 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_referral_closure_reason' outputclass='element'></xref>
+          <xref keyref='attribute_referral_closure_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_referral_closure_reason' outputclass='attribute'></xref>
+          <xref keyref='element_referral_closure_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -1217,16 +1224,16 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_referral_to_treatment_period_status' outputclass='attribute'></xref>
+          <xref keyref='element_referral_to_treatment_period_status' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_referral_to_treatment_period_status' outputclass='element'></xref>
+          <xref keyref='attribute_referral_to_treatment_period_status' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -1303,14 +1310,7 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_source_of_referral_for_a_and_e' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description Health Care Provider</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_source_of_referral_for_a_and_e' outputclass='attribute'></xref>
+          <xref keyref='element_source_of_referral_for_community' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -1322,9 +1322,9 @@
         <stentry>references in description Health Care Provider</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_source_of_referral_for_community' outputclass='element'></xref>
+          <xref keyref='attribute_source_of_referral_for_nhs_continuing_healthcare' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>
@@ -1332,13 +1332,6 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_source_of_referral_for_nhs_continuing_healthcare' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description Health Care Provider</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_source_of_referral_for_nhs_continuing_healthcare' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Health Care Provider</stentry>
       </strow>

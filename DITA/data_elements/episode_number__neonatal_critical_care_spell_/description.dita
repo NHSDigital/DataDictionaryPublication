@@ -7,73 +7,64 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_activity_identifier">ACTIVITY IDENTIFIER</xref>.        </p>
-      <p>
+    <p>
 The 
-              <xref outputclass="element"
-               keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
+              <xref outputclass="element" keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
  is used to sequentially identify each 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
  within a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_neonatal_critical_care_spell">Neonatal Critical Care Spell</xref>. The first 
+              <xref outputclass="businessDefinition" keyref="business_definition_neonatal_critical_care_spell">Neonatal Critical Care Spell</xref>. The first 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
  identifier commences at 1; subsequent 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIODS</xref>
  during the same 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_neonatal_critical_care_spell">Neonatal Critical Care Spell</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_neonatal_critical_care_spell">Neonatal Critical Care Spell</xref>
  (within the same or different 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Providers</xref>) are then incremented by 1.        </p>
-      <p>For example:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>) are then incremented by 1.        </p>
+    <p>For example:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 A 
                                 <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonate</xref>
  is admitted to the Neonatal Intensive Care Unit at Trust A, starting a 
                                 <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
  and generating 
-                                <xref outputclass="element"
-                        keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
+                                <xref outputclass="element" keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
  1.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 The 
                                 <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonate</xref>
  is then transferred to a different 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_health_care_provider">Health Care Provider</xref>, Trust B (ending the 
+                                <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>, Trust B (ending the 
                                 <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
  at Trust A), which generates 
-                                <xref outputclass="element"
-                        keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
+                                <xref outputclass="element" keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
  2.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 The 
                                 <xref outputclass="businessDefinition" keyref="business_definition_neonate">Neonate</xref>
  may then return to Trust A (ending the 
                                 <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
  at Trust B), generating 
-                                <xref outputclass="element"
-                        keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
+                                <xref outputclass="element" keyref="element_episode_number__neonatal_critical_care_spell_">EPISODE NUMBER (NEONATAL CRITICAL CARE SPELL)</xref>
  3.                    </p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

@@ -7,44 +7,41 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_patient_usual_address__mother_">PATIENT USUAL ADDRESS (MOTHER)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_patient_usual_address__mother_">PATIENT USUAL ADDRESS (MOTHER)</xref>
  is the same as data element 
               <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_patient_usual_address__mother_">PATIENT USUAL ADDRESS (MOTHER)</xref>
+    <p>
+      <xref outputclass="element" keyref="element_patient_usual_address__mother_">PATIENT USUAL ADDRESS (MOTHER)</xref>
  is the 
               <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
  where it relates to the mother of the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
-      <p>
-         <b>Use in the Commissioning Data Set:</b>
-      </p>
-      <p>
-         <xref outputclass="element" keyref="element_patient_usual_address__mother_">PATIENT USUAL ADDRESS (MOTHER)</xref>
+    <p>
+      <b>Use in the Commissioning Data Set:</b>
+    </p>
+    <p>
+      <xref outputclass="element" keyref="element_patient_usual_address__mother_">PATIENT USUAL ADDRESS (MOTHER)</xref>
  records the mother's usual address within:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_150_-_admitted_patient_care_-_other_birth_event_cds">CDS V6-2 Type 150 - Admitted Patient Care - Other Birth Event Commissioning Data Set</xref>
-               <p> and</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="dataSet"
-                     keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
-               <p>.</p>
-            </div>
-         </li>
-      </ul>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_120_-_admitted_patient_care_-_finished_birth_episode_cds">CDS V6-2 Type 120 - Admitted Patient Care - Finished Birth Episode Commissioning Data Set</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_150_-_admitted_patient_care_-_other_birth_event_cds">CDS V6-2 Type 150 - Admitted Patient Care - Other Birth Event Commissioning Data Set</xref>
+          <p> and</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_180_-_admitted_patient_care_-_unfinished_birth_episode_cds">CDS V6-2 Type 180 - Admitted Patient Care - Unfinished Birth Episode Commissioning Data Set</xref>
+          <p>.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

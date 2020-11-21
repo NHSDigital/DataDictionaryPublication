@@ -7,18 +7,18 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_reporting_period_end_date">REPORTING PERIOD END DATE</xref>.        </p>
-      <p>
-         <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
  is the end date of the 
               <xref outputclass="class" keyref="class_reporting_period">REPORTING PERIOD</xref>
  and is used in conjunction with 
               <xref outputclass="attribute" keyref="attribute_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
  to specify the actual period the reported information relates to.        </p>
-      <p>
+    <p>
 The date should not be before the 
               <xref outputclass="attribute" keyref="attribute_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
  although it can be the same if the period being reported only covers 1 day.        </p>

@@ -7,19 +7,16 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
+    <p>
+      <xref outputclass="element" keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
  is the total number of days that the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  received basic cardiovascular support during a 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>, ranging from 000 to 997 days.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
+    <p>
+      <xref outputclass="element" keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
  is derived from the difference between the 
-              <xref outputclass="attribute"
-               keyref="attribute_activity_property_effective_date">ACTIVITY PROPERTY EFFECTIVE DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_activity_property_effective_date">ACTIVITY PROPERTY EFFECTIVE DATE</xref>
  and the 
               <xref outputclass="attribute" keyref="attribute_activity_property_end_date">ACTIVITY PROPERTY END DATE</xref>
  for all 
@@ -29,29 +26,22 @@
  is National Code '<i>Basic Cardiovascular Support'</i>
  within the 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>.        </p>
-      <p>
-         <xref outputclass="element"
-               keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
+    <p>
+      <xref outputclass="element" keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
  is used by the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  to derive the 
               <b>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
-         </b>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>
+      </b>
   
               <b>4</b>. Failure to correctly populate this data element is likely to result in an incorrect 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>, usually associated with lower levels of healthcare resource.          </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_healthcare_resource_group">Healthcare Resource Group</xref>, usually associated with lower levels of healthcare resource.          </p>
+    <p>
 For further information, please refer to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-              <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance"
-               scope="external"
-               format="html">Payment by Results Guidance</xref>.        </p>
+              <xref href="https://digital.nhs.uk/services/secondary-uses-service-sus/payment-by-results-guidance" scope="external" format="html">Payment by Results Guidance</xref>.        </p>
   </div>
 </body>
 </topic>

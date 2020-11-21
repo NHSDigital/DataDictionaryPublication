@@ -7,27 +7,24 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
  is the time (with an associated 
               <xref outputclass="element" keyref="element_cds_applicable_date">CDS APPLICABLE DATE</xref>) of the update event (or the nearest equivalent) that resulted in the need to exchange this Commissioning data.        </p>
-      <p>
-         <b>Usage:</b>
-         <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
+    <p>
+      <b>Usage:</b>
+      <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
  is mandatory when used with the Commissioning Data Set Net Change Update Mechanism. It is not required when the CDS Bulk Replacement Update Mechanism is used. See the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_submission_protocol">Commissioning Data Set Submission Protocol</xref>.        </p>
+    <p>
 The 
               <xref outputclass="element" keyref="element_cds_applicable_time">CDS APPLICABLE TIME</xref>
  (and 
               <xref outputclass="element" keyref="element_cds_applicable_date">CDS APPLICABLE DATE</xref>
  if supplied) is stored in the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  database and in the event of multiple submissions of the same uniquely identified Commissioning data (even in separate interchanges), the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  database update process is then able to use the date and time to ensure correct updating of the Commissioning data in the correct relative date/time sequence.        </p>
   </div>
 </body>

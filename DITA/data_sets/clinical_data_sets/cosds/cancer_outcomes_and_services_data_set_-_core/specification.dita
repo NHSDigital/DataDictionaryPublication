@@ -1,0 +1,3020 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cancer_outcomes_and_services_data_set_-_core.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: Cancer Outcomes and Services Data Set - Core - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>SUBMISSION HEADER</b>
+
+  <p>To carry the submission header details.One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cosds_submission_identifier">COSDS SUBMISSION IDENTIFIER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_identifier__code_of_submitting_organisation_">ORGANISATION IDENTIFIER (CODE OF SUBMITTING ORGANISATION)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cosds_submission_record_count">COSDS SUBMISSION RECORD COUNT</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_reporting_period_start_date">REPORTING PERIOD START DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_reporting_period_end_date">REPORTING PERIOD END DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_date_and_time_data_set_created">DATE AND TIME DATA SET CREATED</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>RECORD IDENTIFIER</b>
+
+  <p>To carry the record identifier details.One occurrence of this group is required.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>LINKAGE: IDENTIFIER CHOICE - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - NHS NUMBER</b>
+
+  <p>To carry patient identity details for linkage.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_nhs_number">NHS NUMBER</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - LOCAL PATIENT IDENTIFIER</b>
+
+  <p>To carry patient identity details for linkage.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_local_patient_identifier__extended_">LOCAL PATIENT IDENTIFIER (EXTENDED)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>LINKAGE: PATIENT IDENTITY DETAILS - CORE</b>
+
+  <p>To carry patient identity details for linkage.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_birth_date">PERSON BIRTH DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSTIC: CANCER PATHWAY CHOICE - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - PRIMARY CANCER PATHWAY</b>
+
+  <p>To carry diagnostic details for linkage.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_primary_diagnosis__icd_">PRIMARY DIAGNOSIS (ICD)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tumour_laterality">TUMOUR LATERALITY</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_date_of_primary_cancer_diagnosis__clinically_agreed_">DATE OF PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - NON PRIMARY CANCER PATHWAY</b>
+
+  <p>To carry diagnostic details for linkage.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_date_of_non_primary_cancer_diagnosis__clinically_agreed_">DATE OF NON PRIMARY CANCER DIAGNOSIS (CLINICALLY AGREED)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSTIC: NON PRIMARY CANCER PATHWAY - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - CANCER RECURRENCE</b>
+
+  <p>To carry patient pathway details required to define the Non Primary Cancer Pathway for Cancer Recurrence.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_primary_diagnosis__icd_original_">PRIMARY DIAGNOSIS (ICD ORIGINAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_metastatic_disease_type">CANCER METASTATIC DISEASE TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_metastatic_site__at_diagnosis_">METASTATIC SITE (AT DIAGNOSIS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_palliative_care_specialist_seen_indicator__cancer_recurrence_">PALLIATIVE CARE SPECIALIST SEEN INDICATOR (CANCER RECURRENCE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_relapse_method_detection_type">RELAPSE METHOD DETECTION TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - CANCER PROGRESSION</b>
+
+  <p>To carry patient pathway details required to define the Non Primary Cancer Pathway for Cancer Progression.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_progression__icd_original_">CANCER PROGRESSION (ICD ORIGINAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_metastatic_disease_type">CANCER METASTATIC DISEASE TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_metastatic_site__at_diagnosis_">METASTATIC SITE (AT DIAGNOSIS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 3 - CANCER TRANSFORMATION</b>
+
+  <p>To carry patient pathway details required to define the Non Primary Cancer Pathway for Cancer Transformation.One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__icd-o_cancer_transformation_original_">MORPHOLOGY (ICD-O CANCER TRANSFORMATION ORIGINAL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__snomed_cancer_transformation_original_">MORPHOLOGY (SNOMED CANCER TRANSFORMATION ORIGINAL)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSTIC: NON PRIMARY CANCER PATHWAY: TRANSFORMATION CURRENT MORPHOLOGY CHOICE - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - CANCER TRANSFORMATION: CURRENT MORPHOLOGY ICD</b>
+
+  <p>To carry patient pathway details required to define the Non Primary Cancer Pathway for Cancer Transformation Current Morphology (ICD).One occurrence of this group is required if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__icd-o_cancer_transformation_">MORPHOLOGY (ICD-O CANCER TRANSFORMATION)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - CANCER TRANSFORMATION: CURRENT MORPHOLOGY SNOMED</b>
+
+  <p>To carry patient pathway details required to define the Non Primary Cancer Pathway for Cancer Transformation Current Morphology (SNOMED).One occurrence of this group is permitted if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__snomed_cancer_transformation_">MORPHOLOGY (SNOMED CANCER TRANSFORMATION)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_snomed_version__cancer_transformation_">SNOMED VERSION (CANCER TRANSFORMATION)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DEMOGRAPHICS - CORE</b>
+
+  <p>To carry patient demographic details.One occurrence of this group is permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_family_name">PERSON FAMILY NAME</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_given_name">PERSON GIVEN NAME</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_patient_usual_address__at_diagnosis_">PATIENT USUAL ADDRESS (AT DIAGNOSIS)</xref>
+ - 
+        <xref outputclass="class" keyref="class_address_structured">ADDRESS STRUCTURED</xref>
+  </p>
+  <p>Or</p>
+  <p>
+    <xref outputclass="element" keyref="element_patient_usual_address__at_diagnosis_">PATIENT USUAL ADDRESS (AT DIAGNOSIS)</xref>
+ - 
+        <xref outputclass="class" keyref="class_address_unstructured">ADDRESS UNSTRUCTURED</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_postcode_of_usual_address__at_diagnosis_">POSTCODE OF USUAL ADDRESS (AT DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_stated_gender_code">PERSON STATED GENDER CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_stated_sexual_orientation_code__at_diagnosis_">PERSON STATED SEXUAL ORIENTATION CODE (AT DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_family_name__at_birth_">PERSON FAMILY NAME (AT BIRTH)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>REFERRALS AND FIRST STAGE OF PATIENT PATHWAY - CORE</b>
+
+  <p>To carry patient referral details to the trust that receives the first referral.These details include information relating to the first stage of the Patient Pathway.One occurrence of this group is permitted per Primary Cancer Pathway.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_source_of_referral_for_out-patients">SOURCE OF REFERRAL FOR OUT-PATIENTS</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_date_first_seen">DATE FIRST SEEN</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_issuer_code__cancer_first_seen_">PROFESSIONAL REGISTRATION ISSUER CODE (CANCER FIRST SEEN)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_entry_identifier__cancer_first_seen_">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER (CANCER FIRST SEEN)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_seen_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_date_first_seen__cancer_specialist_">DATE FIRST SEEN (CANCER SPECIALIST)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_cancer_specialist_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST CANCER SPECIALIST)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_symptoms_first_noted_date">CANCER SYMPTOMS FIRST NOTED DATE</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>NON PRIMARY CANCER PATHWAY: REFERRAL - CORE</b>
+
+  <p>To carry non primary cancer pathway details.One occurrence of this group is permitted per Non Primary Cancer Pathway.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_source_of_referral_for_out-patients__non_primary_cancer_pathway_">SOURCE OF REFERRAL FOR OUT-PATIENTS (NON PRIMARY CANCER PATHWAY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_date_first_seen__non_cancer_primary_pathway_">DATE FIRST SEEN (NON CANCER PRIMARY PATHWAY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_first_seen_non_primary_cancer_pathway_">ORGANISATION SITE IDENTIFIER (OF PROVIDER FIRST SEEN NON PRIMARY CANCER PATHWAY)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>IMAGING - CORE</b>
+
+  <p>To carry imaging details.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_imaging_">ORGANISATION SITE IDENTIFIER (OF IMAGING)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_procedure_date__cancer_imaging_">PROCEDURE DATE (CANCER IMAGING)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_imaging_outcome">CANCER IMAGING OUTCOME</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>IMAGING: CANCER SITE LOCATION CHOICE - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - NICIP</b>
+
+  <p>To carry imaging NICIP details.Multiple occurrences of this group are permitted per Core Imaging.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_imaging_code__nicip_">IMAGING CODE (NICIP)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - SNOMED CT</b>
+
+  <p>To carry imaging SNOMED CT details.Multiple occurrences of this group are permitted per Core Imaging.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_imaging_code__snomed_ct_">IMAGING CODE (SNOMED CT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 3 - CANCER SITE IMAGING LOCATION GROUP</b>
+
+  <p>To carry imaging details.Multiple occurrences of this group are permitted per Core Imaging.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_imaging_modality">CANCER IMAGING MODALITY</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_imaging_anatomical_site">IMAGING ANATOMICAL SITE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_anatomical_side__imaging_">ANATOMICAL SIDE (IMAGING)</xref>
+  </p>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>To carry imaging details</b>
+
+  <p>To carry imaging details.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_imaging_report_text">IMAGING REPORT TEXT</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_lesion_size__radiological_">LESION SIZE (RADIOLOGICAL)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSTIC PROCEDURES - CORE</b>
+
+  <p>To carry diagnostic procedure details.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_diagnostic_procedure_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSTIC PROCEDURE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_procedure_date__diagnostic_procedure_">PROCEDURE DATE (DIAGNOSTIC PROCEDURE)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSTIC PROCEDURES: CHOICE - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - OPCS</b>
+
+  <p>To carry OPCS diagnostic procedure details.Multiple occurrences of this group are permitted per Core Diagnostic Procedures.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_diagnostic_procedure__opcs_">DIAGNOSTIC PROCEDURE (OPCS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - SNOMED CT</b>
+
+  <p>To carry SNOMED CT diagnostic procedure details.Multiple occurrences of this group are permitted per Core Diagnostic Procedures.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_diagnostic_procedure__snomed_ct_">DIAGNOSTIC PROCEDURE (SNOMED CT)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSTIC PROCEDURES: SENTINEL NODE BIOPSY - CORE</b>
+
+  <p>To carry diagnostic details for Sentinel Node Biopsy.One occurrence of this group is permitted per Core Diagnostic Procedures.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_sentinel_lymph_node_biopsy_outcome">SENTINEL LYMPH NODE BIOPSY OUTCOME</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSIS - CORE</b>
+
+  <p>To carry diagnostic details for the Primary Diagnosis.One occurrence of this group is permitted per Primary Cancer Pathway.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_diagnosis_">ORGANISATION SITE IDENTIFIER (OF DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_basis_of_diagnosis__cancer_">BASIS OF DIAGNOSIS (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__icd-o_diagnosis_">MORPHOLOGY (ICD-O DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__snomed_diagnosis_">MORPHOLOGY (SNOMED DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_snomed_version__diagnosis_">SNOMED VERSION (DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_topography__icd-o_">TOPOGRAPHY (ICD-O)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_grade_of_differentiation__at_diagnosis_">GRADE OF DIFFERENTIATION (AT DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_performance_status__adult_">PERFORMANCE STATUS (ADULT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_diagnosis__snomed_ct_">DIAGNOSIS (SNOMED CT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_metastatic_disease_type">CANCER METASTATIC DISEASE TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_metastatic_site__at_diagnosis_">METASTATIC SITE (AT DIAGNOSIS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSIS: ADDITIONAL ITEMS - CORE</b>
+
+  <p>To carry additional diagnostic details.One occurrence of this group is permitted per Core Diagnosis.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_primary_diagnosis__cancer_comment_">PRIMARY DIAGNOSIS (CANCER COMMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_secondary_diagnosis__icd_">SECONDARY DIAGNOSIS (ICD)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_secondary_diagnosis__cancer_comment_">SECONDARY DIAGNOSIS (CANCER COMMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_familial_cancer_syndrome_indicator">FAMILIAL CANCER SYNDROME INDICATOR</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_familial_cancer_syndrome_comment">FAMILIAL CANCER SYNDROME COMMENT</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSIS: CANCER PROGRESSION - CORE</b>
+
+  <p>To carry additional diagnostic details for Cancer Progression.May be multiple occurrences per Core Diagnosis.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_metastatic_disease_type">CANCER METASTATIC DISEASE TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_metastatic_site__at_diagnosis_">METASTATIC SITE (AT DIAGNOSIS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_progression_agreed_date__primary_cancer_pathway_">CANCER PROGRESSION AGREED DATE (PRIMARY CANCER PATHWAY)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSIS: CANCER TRANSFORMATION - CORE</b>
+
+  <p>To carry additional diagnostic details for Cancer Transformation.May be multiple occurrences per Core Diagnosis.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_transformation_agreed_date__primary_cancer_pathway_">CANCER TRANSFORMATION AGREED DATE (PRIMARY CANCER PATHWAY)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSIS: CANCER TRANSFORMATION CHOICE - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - ICD</b>
+
+  <p>To carry ICD additional diagnostic details for Cancer Transformation.One occurrence of this group is required per Core Diagnosis Cancer Transformation.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__icd-o_cancer_transformation_">MORPHOLOGY (ICD-O CANCER TRANSFORMATION)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - SNOMED</b>
+
+  <p>To carry additional diagnostic details for Cancer Transformation.One occurrence of this group is required per Core Diagnosis Cancer Transformation.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_morphology__snomed_cancer_transformation_">MORPHOLOGY (SNOMED CANCER TRANSFORMATION)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_snomed_version__cancer_transformation_">SNOMED VERSION (CANCER TRANSFORMATION)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>DIAGNOSIS: BANKED TISSUE - CORE</b>
+
+  <p>To carry Banked Tissue details.One occurrence of this group is permitted per Core Diagnosis.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_patient_consent_for_tissue_banked_at_diagnosis_indication_code">PATIENT CONSENT FOR TISSUE BANKED AT DIAGNOSIS INDICATION CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tissue_type_banked_at_diagnosis__cancer_">TISSUE TYPE BANKED AT DIAGNOSIS (CANCER)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>PERSON OBSERVATION - CORE</b>
+
+  <p>To carry person observation details.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_height_in_metres">PERSON HEIGHT IN METRES</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_body_mass_index">BODY MASS INDEX</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_observation_date">OBSERVATION DATE</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>CLINICAL NURSE SPECIALIST AND RISK FACTOR ASSESSMENT - CORE</b>
+
+  <p>To carry Clinical Nurse Specialist and risk factor assessment details.One occurrence of this group is permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_clinical_nurse_specialist_indication_code">CLINICAL NURSE SPECIALIST INDICATION CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_smoking_status__cancer_">SMOKING STATUS (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tobacco_smoking_cessation_treatment_indication_code">TOBACCO SMOKING CESSATION TREATMENT INDICATION CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_alcohol_history__cancer_in_last_three_months_">ALCOHOL HISTORY (CANCER IN LAST THREE MONTHS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_alcohol_history__cancer_before_last_three_months_">ALCOHOL HISTORY (CANCER BEFORE LAST THREE MONTHS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_patient_diagnosis_indicator__diabetes_">PATIENT DIAGNOSIS INDICATOR (DIABETES)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_menopausal_status__at_diagnosis_">MENOPAUSAL STATUS (AT DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_physical_activity_vital_sign_level__current_">PHYSICAL ACTIVITY VITAL SIGN LEVEL (CURRENT)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>CLINICAL NURSE SPECIALIST: HOLISTIC NEEDS ASSESSMENT (HNA) - CORE</b>
+
+  <p>To carry details of Clinical Nurse Specialist, Holistic Needs Assessments.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_offer_status__holistic_needs_assessment_">OFFER STATUS (HOLISTIC NEEDS ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_holistic_needs_assessment_completed_date">HOLISTIC NEEDS ASSESSMENT COMPLETED DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_holistic_needs_assessment_point_of_pathway__cancer_">HOLISTIC NEEDS ASSESSMENT POINT OF PATHWAY (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_staff_role_carrying_out_holistic_needs_assessment">STAFF ROLE CARRYING OUT HOLISTIC NEEDS ASSESSMENT</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>CLINICAL NURSE SPECIALIST: PERSONALISED CARE AND SUPPORT PLANNING - CORE</b>
+
+  <p>To carry details of Clinical Nurse Specialist, Personalised Care and Supportive Planning Assessments.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_offer_status__personalised_care_and_support_planning_">OFFER STATUS (PERSONALISED CARE AND SUPPORT PLANNING)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_personalised_care_and_support_planning_completed_date">PERSONALISED CARE AND SUPPORT PLANNING COMPLETED DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_personalised_care_and_support_planning_point_of_cancer_pathway">PERSONALISED CARE AND SUPPORT PLANNING POINT OF CANCER PATHWAY</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_staff_role_carrying_out_personalised_care_and_support_planning">STAFF ROLE CARRYING OUT PERSONALISED CARE AND SUPPORT PLANNING</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>MULTIDISCIPLINARY TEAM MEETINGS CHOICE - CORE</b>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 1 - NOT DISCUSSED</b>
+
+  <p>To carry details of all multidisciplinary team meetings where the patient was not discussed.One occurrence of this group is required per Core Multidisciplinary Team Meetings if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_multidisciplinary_team_meeting_cancer_care_plan_not_discussed_indication_code">MULTIDISCIPLINARY TEAM MEETING CANCER CARE PLAN NOT DISCUSSED INDICATION CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col2'>
+  <b>Or</b>
+</entry>
+          </row>
+          <row outputclass='table-primary'>
+            <entry namest='col1' nameend='col1'>
+  <b>Mandation</b>
+</entry>
+            <entry namest='col2' nameend='col2'>
+  <b>CHOICE 2 - DISCUSSED</b>
+
+  <p>To carry details of all multidisciplinary team meetings where the patient was discussed.One occurrence of this group is required per Core Multidisciplinary Team Meetings if selected as the choice.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_multidisciplinary_team_meeting_cancer_care_plan_discussion_type">MULTIDISCIPLINARY TEAM MEETING CANCER CARE PLAN DISCUSSION TYPE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_multidisciplinary_team_meeting_date__cancer_">MULTIDISCIPLINARY TEAM MEETING DATE (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_multidisciplinary_team_meeting_">ORGANISATION SITE IDENTIFIER (OF MULTIDISCIPLINARY TEAM MEETING)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_multidisciplinary_team_meeting_type__cancer_">MULTIDISCIPLINARY TEAM MEETING TYPE (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_multidisciplinary_team_meeting_type_comment__cancer_">MULTIDISCIPLINARY TEAM MEETING TYPE COMMENT (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>CANCER CARE PLAN - CORE</b>
+
+  <p>To carry cancer care plan details.One occurrence of this group is permitted per Primary Cancer Pathway.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_multidisciplinary_team_discussion_date__cancer_">MULTIDISCIPLINARY TEAM DISCUSSION DATE (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_issuer_code__multidisciplinary_team_lead_">PROFESSIONAL REGISTRATION ISSUER CODE (MULTIDISCIPLINARY TEAM LEAD)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_entry_identifier__multidisciplinary_team_lead_">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER (MULTIDISCIPLINARY TEAM LEAD)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_care_plan_intent">CANCER CARE PLAN INTENT</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_planned_cancer_treatment_type">PLANNED CANCER TREATMENT TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_no_cancer_treatment_reason">NO CANCER TREATMENT REASON</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_adult_comorbidity_evaluation_-_27_score">ADULT COMORBIDITY EVALUATION - 27 SCORE</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>MOLECULAR AND BIOMARKERS - GERMLINE TESTING FOR CANCER PREDISPOSITION - CORE</b>
+
+  <p>To carry Molecular and Biomarkers (Germline Testing for Cancer Predisposition) details for a patient.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_offer_status__germline_genetic_test_">OFFER STATUS (GERMLINE GENETIC TEST)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_germline_genetic_test_type_offered">GERMLINE GENETIC TEST TYPE OFFERED</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_other_germline_genetic_test_type_offered_comment">OTHER GERMLINE GENETIC TEST TYPE OFFERED COMMENT</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_activity_offer_date__germline_genetic_test_">ACTIVITY OFFER DATE (GERMLINE GENETIC TEST)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_identifier__reporting_laboratory_">ORGANISATION IDENTIFIER (REPORTING LABORATORY)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_offer_status__referral_to_regional_clinical_genetics_service_">OFFER STATUS (REFERRAL TO REGIONAL CLINICAL GENETICS SERVICE)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>MOLECULAR AND BIOMARKERS - SOMATIC TESTING FOR TARGETED THERAPY AND PERSONALISED MEDICINE - CORE</b>
+
+  <p>To carry Molecular and Biomarkers (Somatic Testing for Targeted Therapy and Personalised Medicine) details for a patient, where these have been performed by the clinical teams.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_gene_or_stratification_biomarker_type_analysed">GENE OR STRATIFICATION BIOMARKER TYPE ANALYSED</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_other_gene_or_stratification_biomarker_type_analysed_comment">OTHER GENE OR STRATIFICATION BIOMARKER TYPE ANALYSED COMMENT</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_gene_or_stratification_biomarker_reported_date">GENE OR STRATIFICATION BIOMARKER REPORTED DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_identifier__reporting_laboratory_">ORGANISATION IDENTIFIER (REPORTING LABORATORY)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>CLINICAL TRIALS - CORE</b>
+
+  <p>To carry details for a patient who is eligible for a cancer clinical trial.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_patient_trial_status__cancer_">PATIENT TRIAL STATUS (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_clinical_trial_decision_date">CLINICAL TRIAL DECISION DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_clinical_trial_start_date">CLINICAL TRIAL START DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_clinical_trial_treatment_type">CANCER CLINICAL TRIAL TREATMENT TYPE</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>STAGING - CORE</b>
+
+  <p>To carry the staging details at the time that the first cancer care plan is agreed.One occurrence of this group is permitted per Primary Cancer Pathway.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_t_category__final_pretreatment_">T CATEGORY (FINAL PRETREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_n_category__final_pretreatment_">N CATEGORY (FINAL PRETREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_m_category__final_pretreatment_">M CATEGORY (FINAL PRETREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tnm_stage_grouping__final_pretreatment_">TNM STAGE GROUPING (FINAL PRETREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_tnm_stage_grouping_final_pretreatment_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING FINAL PRETREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tnm_stage_grouping_date__final_pretreatment_">TNM STAGE GROUPING DATE (FINAL PRETREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_t_category__integrated_stage_">T CATEGORY (INTEGRATED STAGE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_n_category__integrated_stage_">N CATEGORY (INTEGRATED STAGE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_m_category__integrated_stage_">M CATEGORY (INTEGRATED STAGE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tnm_stage_grouping__integrated_">TNM STAGE GROUPING (INTEGRATED)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_tnm_stage_grouping_integrated_">ORGANISATION SITE IDENTIFIER (OF TNM STAGE GROUPING INTEGRATED)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tnm_stage_grouping_date__integrated_">TNM STAGE GROUPING DATE (INTEGRATED)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tnm_coding_edition">TNM CODING EDITION</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_tnm_version_number__staging_">TNM VERSION NUMBER (STAGING)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>SITE SPECIFIC STAGING - CORE</b>
+
+  <p>To carry the site specific cancer staging details. These fields are only required where there is a site specific stage recorded for a patient and will not be applicable to every cancer.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_cancer_site_specific_stage_">ORGANISATION SITE IDENTIFIER (OF CANCER SITE SPECIFIC STAGE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_stage_date__cancer_site_specific_stage_">STAGE DATE (CANCER SITE SPECIFIC STAGE)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>TREATMENT - CORE</b>
+
+  <p>To carry the cancer treatment details.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_adjunctive_therapy_type">ADJUNCTIVE THERAPY TYPE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_treatment_intent">CANCER TREATMENT INTENT</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_treatment_start_date__cancer_">TREATMENT START DATE (CANCER)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_treatment_modality__registration_">CANCER TREATMENT MODALITY (REGISTRATION)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_provider_cancer_treatment_start_date_">ORGANISATION SITE IDENTIFIER (OF PROVIDER CANCER TREATMENT START DATE)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_issuer_code__treatment_">PROFESSIONAL REGISTRATION ISSUER CODE (TREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_entry_identifier__treatment_">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER (TREATMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>O</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_end_of_treatment_summary_plan_completion_date">CANCER END OF TREATMENT SUMMARY PLAN COMPLETION DATE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_discharge_date__hospital_provider_spell_">DISCHARGE DATE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_discharge_destination_code__hospital_provider_spell_">DISCHARGE DESTINATION CODE (HOSPITAL PROVIDER SPELL)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>TREATMENT: SURGERY - CORE</b>
+
+  <p>To carry the surgery details.One occurrence of this group is permitted per Core Treatment.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_procedure_date">PROCEDURE DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_cancer_surgical_admission_type">CANCER SURGICAL ADMISSION TYPE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_issuer_code__responsible_surgeon_">PROFESSIONAL REGISTRATION ISSUER CODE (RESPONSIBLE SURGEON)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_professional_registration_entry_identifier__responsible_surgeon_">PROFESSIONAL REGISTRATION ENTRY IDENTIFIER (RESPONSIBLE SURGEON)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_primary_procedure__opcs_">PRIMARY PROCEDURE (OPCS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_primary_procedure__snomed_ct_">PRIMARY PROCEDURE (SNOMED CT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_procedure__opcs_">PROCEDURE (OPCS)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_procedure__snomed_ct_">PROCEDURE (SNOMED CT)</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_additional_unplanned_procedure_required_indicator">ADDITIONAL UNPLANNED PROCEDURE REQUIRED INDICATOR</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_asa_physical_status_classification_system_code">ASA PHYSICAL STATUS CLASSIFICATION SYSTEM CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_surgical_access_type">SURGICAL ACCESS TYPE</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>TREATMENT: STEM CELL TRANSPLANTATION - CORE</b>
+
+  <p>To carry surgery Stem Cell Transplantation details.One occurrence of this group is permitted per Core Treatment.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_stem_cell_infusion_source_code">STEM CELL INFUSION SOURCE CODE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_stem_cell_infusion_donor_type">STEM CELL INFUSION DONOR TYPE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_stem_cell_transplant_conditioning_regimen">STEM CELL TRANSPLANT CONDITIONING REGIMEN</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>ACUTE ONCOLOGY - CORE</b>
+
+  <p>To carry Acute Oncology details.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_acute_oncology_assessment_completed_date">ACUTE ONCOLOGY ASSESSMENT COMPLETED DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_site_identifier__of_acute_oncology_assessment_">ORGANISATION SITE IDENTIFIER (OF ACUTE ONCOLOGY ASSESSMENT)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_acute_oncology_assessment_location">ACUTE ONCOLOGY ASSESSMENT LOCATION</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_acute_oncology_assessment_patient_presentation_type">ACUTE ONCOLOGY ASSESSMENT PATIENT PRESENTATION TYPE</xref>
+  </p>
+  <p>Multiple occurrences of this item are permitted</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_acute_oncology_episode_outcome">ACUTE ONCOLOGY EPISODE OUTCOME</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>LABORATORY RESULTS - CORE</b>
+
+  <p>To carry laboratory result details.Multiple occurrences of this group are permitted.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_laboratory_result_authorised_date">LABORATORY RESULT AUTHORISED DATE</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>M</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_organisation_identifier__of_laboratory_result_">ORGANISATION IDENTIFIER (OF LABORATORY RESULT)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='2'>
+        <colspec align='center' colname='col1' colnum='1' colwidth='2*' />
+        <colspec colname='col2' colnum='2' colwidth='8*' />
+        <thead>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col2'>
+  <b>LABORATORY RESULTS: GENERAL - CORE</b>
+
+  <p>To carry general laboratory result details.One occurrence of this group is permitted per Core Laboratory Results.</p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>Mandation</p>
+</entry>
+            <entry>
+  <p>Data Elements</p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_lactate_dehydrogenase_level__peak_at_diagnosis_">LACTATE DEHYDROGENASE LEVEL (PEAK AT DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_beta_human_chorionic_gonadotropin__maximum_at_diagnosis_">BETA HUMAN CHORIONIC GONADOTROPIN (MAXIMUM AT DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+          <row>
+            <entry>
+  <p>R</p>
+</entry>
+            <entry>
+  <p>
+    <xref outputclass="element" keyref="element_alpha_fetoprotein__maximum_at_diagnosis_">ALPHA FETOPROTEIN (MAXIMUM AT DIAGNOSIS)</xref>
+  </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

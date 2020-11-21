@@ -7,20 +7,20 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The priority of a 
               <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>.        </p>
-      <p>
+    <p>
 In the case of 
               <xref outputclass="class" keyref="class_service">SERVICES</xref>
  to be provided by a 
               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, it is as assessed by or on behalf of the 
               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>.        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="attribute" keyref="attribute_priority_type">PRIORITY TYPE</xref>
-               <p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="attribute" keyref="attribute_priority_type">PRIORITY TYPE</xref>
+          <p>
 National Code 
                                 <i>'Urgent'</i>
  should be used where the 
@@ -28,44 +28,39 @@ National Code
  is defined as clinically urgent, but it does not fall under the criteria for 
                                 <i>'Two Week Wait'</i>
  (see below).                    </p>
-            </div>
-         </li>
-         <li>
-            <p>
-               <xref outputclass="attribute" keyref="attribute_priority_type">PRIORITY TYPE</xref>
+        </div>
+      </li>
+      <li>
+        <p>
+          <xref outputclass="attribute" keyref="attribute_priority_type">PRIORITY TYPE</xref>
  National Code 
                           <i>'Two Week Wait'</i>
  should be used where either:                </p>
-            <ul>
-               <li>
-                  <p>
+        <ul>
+          <li>
+            <p>
 the 
                                       <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
  meets the criteria for an urgent referral for suspected cancer.
           These referrals should be made in accordance with the 
-                                      <xref outputclass="businessDefinition"
-                           keyref="business_definition_national_institute_for_health_and_care_excellence">National Institute for Health and Care Excellence</xref>
- (<xref outputclass="businessDefinition"
-                           keyref="business_definition_national_institute_for_health_and_care_excellence">NICE</xref>) clinical guidelines on referral for suspected cancer.
+                                      <xref outputclass="businessDefinition" keyref="business_definition_national_institute_for_health_and_care_excellence">National Institute for Health and Care Excellence</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_national_institute_for_health_and_care_excellence">NICE</xref>) clinical guidelines on referral for suspected cancer.
           For further information, see the 
-                                      <xref outputclass="businessDefinition"
-                           keyref="business_definition_national_institute_for_health_and_care_excellence">National Institute for Health and Care Excellence</xref>
+                                      <xref outputclass="businessDefinition" keyref="business_definition_national_institute_for_health_and_care_excellence">National Institute for Health and Care Excellence</xref>
  website at: 
-                                      <xref href="https://www.nice.org.uk/guidance/"
-                           scope="external"
-                           format="html">NICE guidance</xref>.
+                                      <xref href="https://www.nice.org.uk/guidance/" scope="external" format="html">NICE guidance</xref>.
                                       <b>or</b>
-                  </p>
-               </li>
-               <li>
-                  <p>
+            </p>
+          </li>
+          <li>
+            <p>
 the 
                                       <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has been referred urgently for breast symptoms, but the referral does not meet the criteria for urgent referrals for suspected cancer.                        </p>
-               </li>
-            </ul>
-         </li>
-      </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

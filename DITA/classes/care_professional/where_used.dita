@@ -13,20 +13,6 @@
         <stentry>How used</stentry>
       </sthead>
       <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_accident_and_emergency_attendance_disposal' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description CARE PROFESSIONAL</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_accident_and_emergency_attendance_disposal_code' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description CARE PROFESSIONAL</stentry>
-      </strow>
-      <strow>
         <stentry>Class</stentry>
         <stentry>
           <xref keyref='class_activity' outputclass='class'></xref>
@@ -176,6 +162,13 @@
       <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
+          <xref keyref='business_definition_assessment_tool_validation_timestamp' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
           <xref keyref='business_definition_biomedical_scientist' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
@@ -205,6 +198,13 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_cancer_treatment_modality' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_cancer_treatment_modality_for_registration' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
@@ -461,6 +461,20 @@
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_coded_finding_timestamp' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_coded_observation_timestamp' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_community_care_activity_type' outputclass='attribute'></xref>
@@ -513,6 +527,13 @@
         <stentry>NHS Business Definition</stentry>
         <stentry>
           <xref keyref='business_definition_care_personnel' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_care_professional_clinical_responsibility_timestamp' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
@@ -741,9 +762,37 @@
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>NHS Business Definition</stentry>
         <stentry>
-          <xref keyref='element_female_genital_mutilation_identification_method_code' outputclass='element'></xref>
+          <xref keyref='business_definition_emergency_care_clinically_ready_to_proceed_timestamp' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_date_seen_for_treatment' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_initial_assessment_date' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_initial_assessment_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_time_seen_for_treatment' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
@@ -751,6 +800,13 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_female_genital_mutilation_identification_method_code' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description CARE PROFESSIONAL</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_female_genital_mutilation_identification_method_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
@@ -814,13 +870,6 @@
         <stentry>Class</stentry>
         <stentry>
           <xref keyref='class_general_practitioner' outputclass='class'></xref>
-        </stentry>
-        <stentry>references in description CARE PROFESSIONAL</stentry>
-      </strow>
-      <strow>
-        <stentry>Supporting Information</stentry>
-        <stentry>
-          <xref keyref='supporting_definition_glossary_of_terms' outputclass='supportingInformation'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
@@ -902,16 +951,16 @@
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_interpreter_present_at_care_contact_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_interpreter_present_at_care_contact_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_interpreter_present_at_care_contact_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_interpreter_present_at_care_contact_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
@@ -960,13 +1009,6 @@
       <strow>
         <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='attribute_local_care_professional_identifier' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description CARE PROFESSIONAL</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
           <xref keyref='attribute_main_specialty_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
@@ -993,16 +1035,16 @@
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_medical_staff_type_seeing_patient' outputclass='element'></xref>
+          <xref keyref='attribute_medical_staff_type_seeing_patient' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_medical_staff_type_seeing_patient' outputclass='attribute'></xref>
+          <xref keyref='element_medical_staff_type_seeing_patient' outputclass='element'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
@@ -1539,16 +1581,16 @@
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_referral_to_treatment_period_status' outputclass='attribute'></xref>
+          <xref keyref='element_referral_to_treatment_period_status' outputclass='element'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_referral_to_treatment_period_status' outputclass='element'></xref>
+          <xref keyref='attribute_referral_to_treatment_period_status' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description CARE PROFESSIONAL</stentry>
       </strow>

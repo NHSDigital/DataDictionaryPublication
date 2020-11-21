@@ -7,2048 +7,1819 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 XML Schema constraints applied to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_commissioning_data_set_version_6-2_type_list">Commissioning Data Sets</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_version_6-2_type_list">Commissioning Data Sets</xref>
  V6-2.        </p>
-      <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
-      <ul>
-         <li>
-            <div>
-               <p>None = The National Codes and Default Codes are included in the XML Schema</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
-            </div>
-         </li>
-      </ul>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="6">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>Data Element</b>
-                  </entry>
-                  <entry>
-                     <b>XML Schema Format/Length</b>
-                  </entry>
-                  <entry>
-                     <b>Allowed Values</b>
-                  </entry>
-                  <entry>
-                     <b>Range</b>
-                  </entry>
-                  <entry>
-                     <b>Pattern Match</b>
-                  </entry>
-                  <entry>
-                     <b>Reason / Comment / XML Choice</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_a_and_e_attendance_number">A and E ATTENDANCE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an12 - XML Schema allows max an12</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_accident_and_emergency_diagnosis_-_first">ACCIDENT AND EMERGENCY DIAGNOSIS - FIRST</xref>
-                  </entry>
-                  <entry>
-                     <p>min an2 max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows min an2 max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_accident_and_emergency_diagnosis_-_second">ACCIDENT AND EMERGENCY DIAGNOSIS - SECOND</xref>
-                  </entry>
-                  <entry>
-                     <p>min an2 max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows min an2 max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_accident_and_emergency_investigation_-_first">ACCIDENT AND EMERGENCY INVESTIGATION - FIRST</xref>
-                  </entry>
-                  <entry>
-                     <p>min an2 max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows min an2 max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_accident_and_emergency_investigation_-_second">ACCIDENT AND EMERGENCY INVESTIGATION - SECOND</xref>
-                  </entry>
-                  <entry>
-                     <p>min an2 max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows min an2 max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_accident_and_emergency_treatment_-_first">ACCIDENT AND EMERGENCY TREATMENT - FIRST</xref>
-                  </entry>
-                  <entry>
-                     <p>min an2 max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows min an2 max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_accident_and_emergency_treatment_-_second">ACCIDENT AND EMERGENCY TREATMENT - SECOND</xref>
-                  </entry>
-                  <entry>
-                     <p>min an2 max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows min an2 max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>A01,A02,A03,A04,B01,B02,C01,C02,C03,D01,D02,D03, E01,E02,E03,E04,E99,F01,G01,G02,G03,H01,J01,K01,K02, L01,L02,L03,L04,L05,L06,L99,M01,M02,M03,M04,M05, N01,N02,N03,N04,N05,X01</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Code G04 removed (not allowed in XML Schema)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_advanced_cardiovascular_support_days">ADVANCED CARDIOVASCULAR SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_advanced_respiratory_support_days">ADVANCED RESPIRATORY SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_age_at_cds_activity_date">AGE AT CDS ACTIVITY DATE</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_age_at_census">AGE AT CENSUS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_age_on_admission">AGE ON ADMISSION</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_attendance_identifier">ATTENDANCE IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an12 - XML Schema allows max an12</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_basic_respiratory_support_days">BASIC RESPIRATORY SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_birth_weight">BIRTH WEIGHT</xref>
-                  </entry>
-                  <entry>
-                     <p>max n4</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n4 - XML Schema allows max n4</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>100,101,110,120,130,140,141,142,143,145,146,147,148,149, 150,160,170,171,180,190,192,300,301,302,303,304,305,310, 311,312,313,314,315,320,321,325,326,330,340,350,352,360, 361,370,371,400,401,410,420,421,430,450,451,460,501,502, 504,560,600,601,700,710,711,712,713,715,800,810,820,821, 822,823,824,830,831,833,834,900,901,902,903,904,950,960, 199,499</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Code 500 removed (not allowed in XML Schema)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+    <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
+    <ul>
+      <li>
+        <div>
+          <p>None = The National Codes and Default Codes are included in the XML Schema</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
+        </div>
+      </li>
+    </ul>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="6">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <b>Data Element</b>
+            </entry>
+            <entry>
+              <b>XML Schema Format/Length</b>
+            </entry>
+            <entry>
+              <b>Allowed Values</b>
+            </entry>
+            <entry>
+              <b>Range</b>
+            </entry>
+            <entry>
+              <b>Pattern Match</b>
+            </entry>
+            <entry>
+              <b>Reason / Comment / XML Choice</b>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_activity_location_type_code">ACTIVITY LOCATION TYPE CODE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>A01,A02,A03,A04,B01,B02,C01,C02,C03,D01,D02,D03, E01,E02,E03,E04,E99,F01,G01,G02,G03,H01,J01,K01,K02, L01,L02,L03,L04,L05,L06,L99,M01,M02,M03,M04,M05, N01,N02,N03,N04,N05,X01</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Code G04 removed (not allowed in XML Schema)</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_advanced_cardiovascular_support_days">ADVANCED CARDIOVASCULAR SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_advanced_respiratory_support_days">ADVANCED RESPIRATORY SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_age_at_cds_activity_date">AGE AT CDS ACTIVITY DATE</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_age_at_census">AGE AT CENSUS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_age_on_admission">AGE ON ADMISSION</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_attendance_identifier">ATTENDANCE IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an12 - XML Schema allows max an12</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_basic_cardiovascular_support_days">BASIC CARDIOVASCULAR SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_basic_respiratory_support_days">BASIC RESPIRATORY SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_birth_weight">BIRTH WEIGHT</xref>
+            </entry>
+            <entry>
+              <p>max n4</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n4 - XML Schema allows max n4</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_care_professional_main_specialty_code">CARE PROFESSIONAL MAIN SPECIALTY CODE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>100,101,110,120,130,140,141,142,143,145,146,147,148,149, 150,160,170,171,180,190,192,300,301,302,303,304,305,310, 311,312,313,314,315,320,321,325,326,330,340,350,352,360, 361,370,371,400,401,410,420,421,430,450,451,460,501,502, 504,560,600,601,700,710,711,712,713,715,800,810,820,821, 822,823,824,830,831,833,834,900,901,902,903,904,950,960, 199,499</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Code 500 removed (not allowed in XML Schema)</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_copy_recipient_identity">CDS COPY RECIPIENT IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_message_reference">CDS MESSAGE REFERENCE</xref>
-                  </entry>
-                  <entry>
-                     <p>max n7</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_message_reference">CDS MESSAGE REFERENCE</xref>
+            </entry>
+            <entry>
+              <p>max n7</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Existing Format/Length states n7 - XML Schema allows max n14 but 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_secondary_uses_service">SUS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">SUS</xref>
  accepts max n7                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_message_version_number">CDS MESSAGE VERSION NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>CDS062</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Message version is hard coded in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_message_version_number">CDS MESSAGE VERSION NUMBER</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>CDS062</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Message version is hard coded in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_prime_recipient_identity">CDS PRIME RECIPIENT IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_sender_identity">CDS SENDER IDENTITY</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an35</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an35 - XML Schema allows max an35</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_commissioner_reference_number">COMMISSIONER REFERENCE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an17</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_commissioning_serial_number">COMMISSIONING SERIAL NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an6</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an6 - XML Schema allows max an6</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_consultation_medium_used">CONSULTATION MEDIUM USED</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>01,02,03,04</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes 05, 06 and 98 are not used in CDS version 6-2</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_count_of_days_suspended">COUNT OF DAYS SUSPENDED</xref>
-                  </entry>
-                  <entry>
-                     <p>max n4</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n4 - XML Schema allows max n4</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_critical_care_activity_code">CRITICAL CARE ACTIVITY CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>01,02,03,04,05,06,07,08,09,10,11,12,13,14, 15,16,21,22,23,24,25,26,27,28,29,50,51,52, 53,55,56,57,58,59,60,61,62,63,64,65,66,67, 68,69,70,71,72,73,74,99</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes 80, 81, 82, 83, 84, 85, 94, 95, 96 and 97 removed (not allowed in the XML Schema)</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_critical_care_level_2_days">CRITICAL CARE LEVEL 2 DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_critical_care_level_3_days">CRITICAL CARE LEVEL 3 DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_critical_care_local_identifier">CRITICAL CARE LOCAL IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an8</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an8 - XML Schema allows max an8</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_dermatological_support_days">DERMATOLOGICAL SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_discharge_method_code__hospital_provider_spell_">DISCHARGE METHOD CODE (HOSPITAL PROVIDER SPELL)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>1,2,3,4,5,8,9</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes 6 and 7 are not used in CDS version 6-2</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_duration_of_care_to_psychiatric_census_date">DURATION OF CARE TO PSYCHIATRIC CENSUS DATE</xref>
-                  </entry>
-                  <entry>
-                     <p>max n5</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n5 - XML Schema allows max n5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_duration_of_detention">DURATION OF DETENTION</xref>
-                  </entry>
-                  <entry>
-                     <p>max n5</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n5 - XML Schema allows max n5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_duration_of_elective_wait">DURATION OF ELECTIVE WAIT</xref>
-                  </entry>
-                  <entry>
-                     <p>max n4</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n4 - XML Schema allows max n4</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_elective_admission_list_entry_number">ELECTIVE ADMISSION LIST ENTRY NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an12 - XML Schema allows max an12</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_episode_number">EPISODE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an2</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an2 - XML Schema allows max an2</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
-                  </entry>
-                  <entry>
-                     <p>max an2</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. Format/Length amended to max an2</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_gastro-intestinal_support_days">GASTRO-INTESTINAL SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practitioner_practice__antenatal_care_">GENERAL MEDICAL PRACTITIONER PRACTICE (ANTENATAL CARE)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_cds_unique_identifier">CDS UNIQUE IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>max an35</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an35 - XML Schema allows max an35</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_commissioner_reference_number">COMMISSIONER REFERENCE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an17</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_commissioning_serial_number">COMMISSIONING SERIAL NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an6</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an6 - XML Schema allows max an6</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_consultation_medium_used">CONSULTATION MEDIUM USED</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>01,02,03,04</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes 05, 06 and 98 are not used in CDS version 6-2</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_count_of_days_suspended">COUNT OF DAYS SUSPENDED</xref>
+            </entry>
+            <entry>
+              <p>max n4</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n4 - XML Schema allows max n4</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_critical_care_activity_code">CRITICAL CARE ACTIVITY CODE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>01,02,03,04,05,06,07,08,09,10,11,12,13,14, 15,16,21,22,23,24,25,26,27,28,29,50,51,52, 53,55,56,57,58,59,60,61,62,63,64,65,66,67, 68,69,70,71,72,73,74,99</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes 80, 81, 82, 83, 84, 85, 94, 95, 96 and 97 removed (not allowed in the XML Schema)</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_critical_care_level_2_days">CRITICAL CARE LEVEL 2 DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_critical_care_level_3_days">CRITICAL CARE LEVEL 3 DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_critical_care_local_identifier">CRITICAL CARE LOCAL IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>max an8</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an8 - XML Schema allows max an8</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_dermatological_support_days">DERMATOLOGICAL SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_discharge_method_code__hospital_provider_spell_">DISCHARGE METHOD CODE (HOSPITAL PROVIDER SPELL)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>1,2,3,4,5,8,9</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes 6 and 7 are not used in CDS version 6-2</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_duration_of_care_to_psychiatric_census_date">DURATION OF CARE TO PSYCHIATRIC CENSUS DATE</xref>
+            </entry>
+            <entry>
+              <p>max n5</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n5 - XML Schema allows max n5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_duration_of_detention">DURATION OF DETENTION</xref>
+            </entry>
+            <entry>
+              <p>max n5</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n5 - XML Schema allows max n5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_duration_of_elective_wait">DURATION OF ELECTIVE WAIT</xref>
+            </entry>
+            <entry>
+              <p>max n4</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n4 - XML Schema allows max n4</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_elective_admission_list_entry_number">ELECTIVE ADMISSION LIST ENTRY NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an12 - XML Schema allows max an12</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_episode_number">EPISODE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an2</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an2 - XML Schema allows max an2</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+            </entry>
+            <entry>
+              <p>max an2</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. Format/Length amended to max an2</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_gastro-intestinal_support_days">GASTRO-INTESTINAL SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practitioner_practice__antenatal_care_">GENERAL MEDICAL PRACTITIONER PRACTICE (ANTENATAL CARE)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practitioner__antenatal_care_">GENERAL MEDICAL PRACTITIONER (ANTENATAL CARE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes and default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes and default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_hospital_provider_spell_number">HOSPITAL PROVIDER SPELL NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an12 - XML Schema allows max an12</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_intended_site_code__of_treatment_">INTENDED SITE CODE (OF TREATMENT)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practitioner__antenatal_care_">GENERAL MEDICAL PRACTITIONER (ANTENATAL CARE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes and default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practitioner__specified_">GENERAL MEDICAL PRACTITIONER (SPECIFIED)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes and default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_hospital_provider_spell_number">HOSPITAL PROVIDER SPELL NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an12 - XML Schema allows max an12</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_intended_site_code__of_treatment_">INTENDED SITE CODE (OF TREATMENT)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_liver_support_days">LIVER SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_local_patient_identifier">LOCAL PATIENT IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an10</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_local_patient_identifier__baby_">LOCAL PATIENT IDENTIFIER (BABY)</xref>
-                  </entry>
-                  <entry>
-                     <p>max an10</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_local_patient_identifier__mother_">LOCAL PATIENT IDENTIFIER (MOTHER)</xref>
-                  </entry>
-                  <entry>
-                     <p>max an10</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_mental_health_act_legal_status_classification_code__at_census_date_">MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION CODE (AT CENSUS DATE)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>01,02,03,04,05,06,07,08,09,10,11,12,13,14, 15,16,17,18,19,20,31,32,34,35,36,37,38</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Additional National Codes 37 and 38 added</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_mental_health_act_legal_status_classification_code__on_admission_">MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION CODE (ON ADMISSION)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>01,02,03,04,05,06,07,08,09,10,11,12,13,14, 15,16,17,18,19,20,31,32,34,35,36,37,38</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Additional National Codes 37 and 38 added</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_neurological_support_days">NEUROLOGICAL SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_nhs_service_agreement_line_number">NHS SERVICE AGREEMENT LINE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an10</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_organ_support_maximum">ORGAN SUPPORT MAXIMUM</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>00-06</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Range 00-06 allowed</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_liver_support_days">LIVER SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_local_patient_identifier">LOCAL PATIENT IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>max an10</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_local_patient_identifier__baby_">LOCAL PATIENT IDENTIFIER (BABY)</xref>
+            </entry>
+            <entry>
+              <p>max an10</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_local_patient_identifier__mother_">LOCAL PATIENT IDENTIFIER (MOTHER)</xref>
+            </entry>
+            <entry>
+              <p>max an10</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_mental_health_act_legal_status_classification_code__at_census_date_">MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION CODE (AT CENSUS DATE)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>01,02,03,04,05,06,07,08,09,10,11,12,13,14, 15,16,17,18,19,20,31,32,34,35,36,37,38</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Additional National Codes 37 and 38 added</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_mental_health_act_legal_status_classification_code__on_admission_">MENTAL HEALTH ACT LEGAL STATUS CLASSIFICATION CODE (ON ADMISSION)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>01,02,03,04,05,06,07,08,09,10,11,12,13,14, 15,16,17,18,19,20,31,32,34,35,36,37,38</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Additional National Codes 37 and 38 added</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_neurological_support_days">NEUROLOGICAL SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_nhs_service_agreement_line_number">NHS SERVICE AGREEMENT LINE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an10</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an10 - XML Schema allows max an10</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organ_support_maximum">ORGAN SUPPORT MAXIMUM</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>00-06</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Range 00-06 allowed</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__code_of_commissioner_">ORGANISATION CODE (CODE OF COMMISSIONER)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__local_patient_identifier_">ORGANISATION CODE (LOCAL PATIENT IDENTIFIER)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__local_patient_identifier_">ORGANISATION CODE (LOCAL PATIENT IDENTIFIER)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__local_patient_identifier__baby__">ORGANISATION CODE (LOCAL PATIENT IDENTIFIER (BABY))</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__local_patient_identifier__baby__">ORGANISATION CODE (LOCAL PATIENT IDENTIFIER (BABY))</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__local_patient_identifier__mother__">ORGANISATION CODE (LOCAL PATIENT IDENTIFIER (MOTHER))</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__local_patient_identifier__mother__">ORGANISATION CODE (LOCAL PATIENT IDENTIFIER (MOTHER))</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__patient_pathway_identifier_issuer_">ORGANISATION CODE (PATIENT PATHWAY IDENTIFIER ISSUER)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__residence_responsibility_">ORGANISATION CODE (RESIDENCE RESPONSIBILITY)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
-                  </entry>
-                  <entry>
-                     <p>n3.n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states max n3.max n3 - XML Schema enforces 3 digits before and after the decimal point - max removed</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_primary_diagnosis__read_">PRIMARY DIAGNOSIS (READ)</xref>
-                  </entry>
-                  <entry>
-                     <p>max an5</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length allows for all clinical classifications -XML Schema allows max an5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_provider_reference_number">PROVIDER REFERENCE NUMBER</xref>
-                  </entry>
-                  <entry>
-                     <p>max an17</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes and default codes not enumerated in the XML Schema</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_person_weight">PERSON WEIGHT</xref>
+            </entry>
+            <entry>
+              <p>n3.n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states max n3.max n3 - XML Schema enforces 3 digits before and after the decimal point - max removed</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_primary_diagnosis__read_">PRIMARY DIAGNOSIS (READ)</xref>
+            </entry>
+            <entry>
+              <p>max an5</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length allows for all clinical classifications -XML Schema allows max an5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_provider_reference_number">PROVIDER REFERENCE NUMBER</xref>
+            </entry>
+            <entry>
+              <p>max an17</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states an17 - XML Schema allows max an17</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_referrer_code">REFERRER CODE</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes and default codes not enumerated in the XML Schema</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_referring_organisation_code">REFERRING ORGANISATION CODE</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_renal_support_days">RENAL SUPPORT DAYS</xref>
-                  </entry>
-                  <entry>
-                     <p>max n3</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_secondary_diagnosis__read_">SECONDARY DIAGNOSIS (READ)</xref>
-                  </entry>
-                  <entry>
-                     <p>max an5</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length allows for all clinical classifications -XML Schema allows max an5</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_renal_support_days">RENAL SUPPORT DAYS</xref>
+            </entry>
+            <entry>
+              <p>max n3</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length states n3 - XML Schema allows max n3</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_secondary_diagnosis__read_">SECONDARY DIAGNOSIS (READ)</xref>
+            </entry>
+            <entry>
+              <p>max an5</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length allows for all clinical classifications -XML Schema allows max an5</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_source_of_admission_code__hospital_provider_spell_">SOURCE OF ADMISSION CODE (HOSPITAL PROVIDER SPELL)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>19,29,39,49,51,52,53,54,65,66,79,85,87,88</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Codes 40, 41 and 42 are not used in CDS version 6-2</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_source_of_admission_code__hospital_provider_spell_">SOURCE OF ADMISSION CODE (HOSPITAL PROVIDER SPELL)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>19,29,39,49,51,52,53,54,65,66,79,85,87,88</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Codes 40, 41 and 42 are not used in CDS version 6-2</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

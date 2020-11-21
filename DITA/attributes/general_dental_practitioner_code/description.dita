@@ -7,149 +7,145 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A unique code identifying a 
               <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>.        </p>
-      <p>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_dental_services">NHS Dental Services</xref>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_nhs_dental_services">NHS Dental Services</xref>
  allocates 
-              <xref outputclass="attribute"
-               keyref="attribute_general_dental_practitioner_code">GENERAL DENTAL PRACTITIONER CODES</xref>
+              <xref outputclass="attribute" keyref="attribute_general_dental_practitioner_code">GENERAL DENTAL PRACTITIONER CODES</xref>
  to 
               <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
  carrying out work for the NHS.        </p>
-      <p>
+    <p>
 A doctor can be both a 
               <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>
  and a Dental 
               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>, and therefore hold a 
-              <xref outputclass="attribute"
-               keyref="attribute_general_dental_practitioner_code">GENERAL DENTAL PRACTITIONER CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_general_dental_practitioner_code">GENERAL DENTAL PRACTITIONER CODE</xref>
  and a 
               <xref outputclass="attribute" keyref="attribute_consultant_code">CONSULTANT CODE</xref>
  simultaneously.        </p>
-      <p>General Dental Practitioner Code format</p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="13">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <colspec colname="col7" colwidth="1*"/>
-            <colspec colname="col8" colwidth="1*"/>
-            <colspec colname="col9" colwidth="1*"/>
-            <colspec colname="col10" colwidth="1*"/>
-            <colspec colname="col11" colwidth="1*"/>
-            <colspec colname="col12" colwidth="1*"/>
-            <colspec colname="col13" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="1" scope="col">
-                     <p>Practitioner Code Type</p>
-                  </entry>
-                  <entry namest="col2" nameend="col9" scope="col">
-                     <p>Character Position</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated By</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated To</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Known As</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Notes</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>1</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>2</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>3</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>4</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>5</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>6</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>7</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>8</p>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>General Dental Practitioner Code</p>
-                  </entry>
-                  <entry>
-                     <p>D</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_nhs_dental_services">NHS Dental Services</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
-                     <p>in England &amp; Wales</p>
-                  </entry>
-                  <entry>
-                     <p>GDP</p>
-                  </entry>
-                  <entry>
-                     <p>
+    <p>General Dental Practitioner Code format</p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="13">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <colspec colname="col7" colwidth="1*"/>
+        <colspec colname="col8" colwidth="1*"/>
+        <colspec colname="col9" colwidth="1*"/>
+        <colspec colname="col10" colwidth="1*"/>
+        <colspec colname="col11" colwidth="1*"/>
+        <colspec colname="col12" colwidth="1*"/>
+        <colspec colname="col13" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry morerows="1" scope="col">
+              <p>Practitioner Code Type</p>
+            </entry>
+            <entry namest="col2" nameend="col9" scope="col">
+              <p>Character Position</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated By</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated To</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Known As</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Notes</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>2</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>3</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>4</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>5</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>6</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>7</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>8</p>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>General Dental Practitioner Code</p>
+            </entry>
+            <entry>
+              <p>D</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_dental_services">NHS Dental Services</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
+              <p>in England &amp; Wales</p>
+            </entry>
+            <entry>
+              <p>GDP</p>
+            </entry>
+            <entry>
+              <p>
 Allocated to 
                         <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>
  who work for the NHS                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

@@ -7,12 +7,12 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The maximum number of 
               <xref outputclass="attribute" keyref="attribute_organ_system_supported">ORGAN SYSTEMS SUPPORTED</xref>
  on any one day during a 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>. Each organ system can only be counted once on any calendar day. Both basic and advanced categories cannot be counted at the same time. The number of organ systems supported can be between 00 to 07, although for the purposes of recording on the Commissioning Data Set messages Gastro-intestinal support days are not recorded so the maximum is effectively 06.        </p>
-      <p>
+    <p>
 This is derived by counting the maximum number of 
               <xref outputclass="class" keyref="class_activity_property">ACTIVITY PROPERTIES</xref>
  where the 
@@ -22,8 +22,7 @@ This is derived by counting the maximum number of
  and reporting the highest number. Each 
               <xref outputclass="class" keyref="class_activity_property">ACTIVITY PROPERTY</xref>
  will have one or more 
-              <xref outputclass="attribute"
-               keyref="attribute_activity_property_effective_date">ACTIVITY PROPERTY EFFECTIVE DATES</xref>
+              <xref outputclass="attribute" keyref="attribute_activity_property_effective_date">ACTIVITY PROPERTY EFFECTIVE DATES</xref>
  and 
               <xref outputclass="attribute" keyref="attribute_activity_property_end_date">ACTIVITY PROPERTY END DATES</xref>
  within the 

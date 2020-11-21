@@ -7,21 +7,18 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The time at which the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has been declared clinically ready for discharge or transfer from the 
               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
  and a formal request has been made to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_bed">Hospital Bed</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_bed">Hospital Bed</xref>
  management system (or appropriate staff with authority to admit at the intended destination) and the date and time of this status is recorded as such in the clinical record.        </p>
-      <p>
-         <xref outputclass="attribute"
-               keyref="attribute_critical_care_discharge_ready_date">CRITICAL CARE DISCHARGE READY DATE</xref>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_critical_care_discharge_ready_date">CRITICAL CARE DISCHARGE READY DATE</xref>
  and 
-              <xref outputclass="attribute"
-               keyref="attribute_critical_care_discharge_ready_time">CRITICAL CARE DISCHARGE READY TIME</xref>
+              <xref outputclass="attribute" keyref="attribute_critical_care_discharge_ready_time">CRITICAL CARE DISCHARGE READY TIME</xref>
  are recorded to identify and quantify significant problems in discharging 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  from critical care units.        </p>

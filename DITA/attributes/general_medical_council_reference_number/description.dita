@@ -7,155 +7,143 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_general_medical_council">General Medical Council</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_general_medical_council">General Medical Council</xref>
  allocates all doctors a 
-              <xref outputclass="attribute"
-               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+              <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  on their first contact with the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_general_medical_council">General Medical Council</xref>.        </p>
-      <p>
-         <i>
+              <xref outputclass="businessDefinition" keyref="business_definition_general_medical_council">General Medical Council</xref>.        </p>
+    <p>
+      <i>
 Note - when a doctor is registered to practise medicine in the United Kingdom, their details will appear on the "
-                  <xref outputclass="businessDefinition"
-                  keyref="business_definition_general_medical_council_list_of_registered_medical_practitioners">General Medical Council List of Registered Medical Practitioners</xref>" (LRMP). For further information on doctor registration, see the 
+                  <xref outputclass="businessDefinition" keyref="business_definition_general_medical_council_list_of_registered_medical_practitioners">General Medical Council List of Registered Medical Practitioners</xref>" (LRMP). For further information on doctor registration, see the 
                   <xref href="https://www.gmc-uk.org/" scope="external" format="html">General Medical Council website.</xref>
-         </i>
-      </p>
-      <p>
-         <xref outputclass="attribute"
-               keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+      </i>
+    </p>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  FORMAT        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="12">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <colspec colname="col7" colwidth="1*"/>
-            <colspec colname="col8" colwidth="1*"/>
-            <colspec colname="col9" colwidth="1*"/>
-            <colspec colname="col10" colwidth="1*"/>
-            <colspec colname="col11" colwidth="1*"/>
-            <colspec colname="col12" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry morerows="1" scope="col">
-                     <p>Practitioner Code Type</p>
-                  </entry>
-                  <entry namest="col2" nameend="col8" scope="col">
-                     <p>Character Position</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated By</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Allocated To</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Known As</p>
-                  </entry>
-                  <entry morerows="1" scope="col">
-                     <p>Notes</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>1</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>2</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>3</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>4</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>5</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>6</p>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>7</p>
-                     <p> </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="attribute"
-                           keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <p>0-9</p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_general_medical_council">General Medical Council</xref>
-                     <p> </p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONERS</xref>
-                     <p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="12">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <colspec colname="col7" colwidth="1*"/>
+        <colspec colname="col8" colwidth="1*"/>
+        <colspec colname="col9" colwidth="1*"/>
+        <colspec colname="col10" colwidth="1*"/>
+        <colspec colname="col11" colwidth="1*"/>
+        <colspec colname="col12" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry morerows="1" scope="col">
+              <p>Practitioner Code Type</p>
+            </entry>
+            <entry namest="col2" nameend="col8" scope="col">
+              <p>Character Position</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated By</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Allocated To</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Known As</p>
+            </entry>
+            <entry morerows="1" scope="col">
+              <p>Notes</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>1</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>2</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>3</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>4</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>5</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>6</p>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>7</p>
+              <p> </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <p>0-9</p>
+            </entry>
+            <entry>
+              <xref outputclass="businessDefinition" keyref="business_definition_general_medical_council">General Medical Council</xref>
+              <p> </p>
+            </entry>
+            <entry>
+              <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONERS</xref>
+              <p>
 and 
                         <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
  in the UK                  </p>
-                  </entry>
-                  <entry>
-                     <xref outputclass="businessDefinition"
-                           keyref="business_definition_general_medical_council">GMC</xref>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+            <entry>
+              <xref outputclass="businessDefinition" keyref="business_definition_general_medical_council">GMC</xref>
+            </entry>
+            <entry>
+              <p>
 The 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_general_medical_council">General Medical Council</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_general_medical_council">General Medical Council</xref>
  is a 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_regulatory_body">Regulatory Body</xref>
+                        <xref outputclass="businessDefinition" keyref="business_definition_regulatory_body">Regulatory Body</xref>
  - all doctors receive a 
-                        <xref outputclass="attribute"
-                              keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
+                        <xref outputclass="attribute" keyref="attribute_general_medical_council_reference_number">GENERAL MEDICAL COUNCIL REFERENCE NUMBER</xref>
  on their first contact with the 
-                        <xref outputclass="businessDefinition"
-                              keyref="business_definition_general_medical_council">General Medical Council</xref>.                  </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+                        <xref outputclass="businessDefinition" keyref="business_definition_general_medical_council">General Medical Council</xref>.                  </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

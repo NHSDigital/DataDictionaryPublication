@@ -7,31 +7,111 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>Awaiting Info from PLICS</p>
-      <p>
-         <b>Mandation</b>
-      </p>
-      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
-      <ul>
-         <li>
-            <div>
-               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
-            </div>
-         </li>
-         <li>
-            <p>R = Required: NHS business processes cannot be delivered without this data element</p>
-         </li>
-      </ul>
-      <p>
-         <b>Data Set Constraints</b>
-      </p>
-      <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
+The 
+              <xref outputclass="dataSet" keyref="dataset_patient_level_information_costing_system_data_set_-_reconciliation">Patient Level Information Costing System Data Set - Reconciliation</xref>
+ is used to help establish the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>
+ quantum from the final audited accounts, and outline material differences between 
+              <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
+ data sets and 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>
+ totals and is an integral part of the 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>
+ submission process.        </p>
+    <p>
+All designated NHS 
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Providers</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_mental_health_service">Mental Health Services</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_improving_access_to_psychological_therapies_service">Improving Access to Psychological Therapies Services</xref>
+ and 
+              <xref outputclass="businessDefinition" keyref="business_definition_ambulance_service">Ambulance Services</xref>
+ are required to submit 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_patient_level_information_costing">Patient Level Information Costing</xref>
+ data.        </p>
+    <p>
+The 
+              <xref outputclass="dataSet" keyref="dataset_patient_level_information_costing_system_data_set_-_reconciliation">Patient Level Information Costing System Data Set - Reconciliation</xref>
+ is used to:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>
+inform new methods of pricing NHS 
+                                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+inform new approaches and other changes to the design of the currencies used to price NHS 
+                                <xref outputclass="class" keyref="class_service">SERVICES</xref>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+contribute to 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>'s and 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_improvement">NHS Improvement</xref>'s strategic objective of a single national cost collection                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+inform the relationship between 
+                                <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
+ characteristics and cost                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+help 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trusts</xref>
+ to maximise use of their resources and improve efficiencies, as required by the provider licence                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+identify the relationship between 
+                                <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ characteristics and cost                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>support an approach to benchmarking for regulatory purposes.</p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <b>Mandation</b>
+    </p>
+    <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+    <ul>
+      <li>
+        <div>
+          <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+        </div>
+      </li>
+      <li>
+        <p>R = Required: NHS business processes cannot be delivered without this data element</p>
+      </li>
+    </ul>
+    <p>
+      <b>Data Set Constraints</b>
+    </p>
+    <p>
 For guidance on the Data Set constraints, see the 
-              <xref outputclass="xmlSchemaConstraint"
-               keyref="xml_schema_constraint_plics_reconciliation_data_set_constraints">PLICS Reconciliation Data Set Constraints</xref>.        </p>
+              <xref outputclass="xmlSchemaConstraint" keyref="xml_schema_constraint_plics_reconciliation_data_set_constraints">PLICS Reconciliation Data Set Constraints</xref>.        </p>
   </div>
 </body>
 </topic>

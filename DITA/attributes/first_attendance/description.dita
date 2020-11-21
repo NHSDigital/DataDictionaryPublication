@@ -7,7 +7,7 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An indication of whether a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is making a first attendance or contact; or a follow-up attendance or contact and whether the 
@@ -16,34 +16,31 @@ An indication of whether a
  or 
               <i>'Telephone'</i>
  or 
-              <i>'<xref outputclass="businessDefinition"
-                  keyref="business_definition_telemedicine">Telemedicine</xref>'.            </i>
-      </p>
-      <p>
+              <i>'<xref outputclass="businessDefinition" keyref="business_definition_telemedicine">Telemedicine</xref>'.            </i>
+    </p>
+    <p>
 A first attendance is the first in a series, or only attendance of an 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  which took place regardless of how many previous 
               <xref outputclass="class" keyref="class_appointment">APPOINTMENTS</xref>
  were made which did not take place for whatever reason. All subsequent attendances in the series which take place should be recorded as follow-up.        </p>
-      <p>Note:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>Note:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 National Code 5 
                                 <i>'Referral to Treatment Clock Stop Administrative Event'</i>
  allows the 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_secondary_uses_service">Secondary Uses Service</xref>
  to build accurate 
                                 <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAYS</xref>
  for the reporting of 18 weeks activity. It flows through the 
-                                <xref outputclass="dataSet"
-                        keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
+                                <xref outputclass="dataSet" keyref="dataset_cds_v6-2_type_020_-_outpatient_cds">CDS V6-2 Type 020 - Outpatient Commissioning Data Set</xref>
  structure.                    </p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

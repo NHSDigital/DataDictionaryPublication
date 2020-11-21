@@ -13,13 +13,25 @@
       </sthead>
       <strow>
         <stentry>
+  <p>X</p>
+</stentry>
+        <stentry>
+  <p>
+Not known if the 
+        <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+ is a 
+        <xref outputclass="businessDefinition" keyref="business_definition_looked_after_child">Looked After Child</xref>
+  </p>
+</stentry>
+      </strow>
+      <strow>
+        <stentry>
   <p>Y</p>
 </stentry>
         <stentry>
   <p>
 Yes - is a 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_looked_after_child">Looked After Child</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_looked_after_child">Looked After Child</xref>
   </p>
 </stentry>
       </strow>
@@ -30,8 +42,7 @@ Yes - is a
         <stentry>
   <p>
 No - is not a 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_looked_after_child">Looked After Child</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_looked_after_child">Looked After Child</xref>
   </p>
 </stentry>
       </strow>

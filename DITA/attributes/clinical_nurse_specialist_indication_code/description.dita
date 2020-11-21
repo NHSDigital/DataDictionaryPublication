@@ -7,36 +7,33 @@
   </titlealts>
   <body>
   <div>
-      <p>A code to indicate whether the:</p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-               <p>
+    <p>A code to indicate whether the:</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_patient">PATIENT</xref>
+          <p>
  was seen by a 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_clinical_nurse_specialist">Clinical Nurse Specialist</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_clinical_nurse_specialist">Clinical Nurse Specialist</xref>
  or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="businessDefinition"
-                     keyref="business_definition_clinical_nurse_specialist">Clinical Nurse Specialist</xref>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="businessDefinition" keyref="business_definition_clinical_nurse_specialist">Clinical Nurse Specialist</xref>
+          <p>
  was present when the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  was given their diagnosis and/or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="businessDefinition"
-                     keyref="business_definition_clinical_nurse_specialist">Clinical Nurse Specialist</xref>
-               <p> was informed of the diagnosis.</p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="businessDefinition" keyref="business_definition_clinical_nurse_specialist">Clinical Nurse Specialist</xref>
+          <p> was informed of the diagnosis.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

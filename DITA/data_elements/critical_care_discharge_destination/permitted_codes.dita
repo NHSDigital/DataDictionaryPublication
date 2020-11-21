@@ -18,8 +18,7 @@
         <stentry>
   <p>
 Same NHS 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_site">Hospital Site</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_site">Hospital Site</xref>
   </p>
 </stentry>
       </strow>
@@ -30,8 +29,7 @@ Same NHS
         <stentry>
   <p>
 Other NHS 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_site">Hospital Site</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_site">Hospital Site</xref>
  (can be same Trust or a different 
         <xref outputclass="businessDefinition" keyref="business_definition_nhs_trust">NHS Trust</xref>)    </p>
 </stentry>
@@ -43,8 +41,7 @@ Other NHS
         <stentry>
   <p>
 Independent 
-        <xref outputclass="businessDefinition"
-            keyref="business_definition_hospital_provider">Hospital Provider</xref>
+        <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider">Hospital Provider</xref>
  in the UK    </p>
 </stentry>
       </strow>
@@ -73,7 +70,7 @@ Non-hospital destination within the UK (e.g. home as coded in
         <stentry>
   <p>
 No 
-        <xref outputclass="attribute" keyref="attribute_discharge_destination">DISCHARGE DESTINATION</xref>, 
+        <xref outputclass="attribute" keyref="attribute_critical_care_discharge_destination">CRITICAL CARE DISCHARGE DESTINATION</xref>, 
         <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  died in unit    </p>
 </stentry>

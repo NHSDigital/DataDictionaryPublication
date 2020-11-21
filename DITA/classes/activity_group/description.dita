@@ -7,47 +7,45 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A subtype of 
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>.        </p>
-      <p>
-An 
-              <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
- is a continuous period of care or assessment for a 
+    <p>
+A continuous period of care or assessment for a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  by one or more 
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>. 
               <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUPS</xref>
  mainly consist of episodes, spells, stays or care periods.        </p>
-      <p>
+    <p>
 An 
               <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
  may include one or more 
               <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITIES</xref>.        </p>
-      <p>
+    <p>
 Subtypes of 
               <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>
  are:        </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
-               <p>.</p>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <xref outputclass="attribute" keyref="attribute_activity_group_type">ACTIVITY GROUP TYPE</xref>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_critical_care_period">CRITICAL CARE PERIOD</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
+          <p>.</p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_activity_group_type">ACTIVITY GROUP TYPE</xref>
  provides a list of 
               <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUPS</xref>.        </p>
   </div>

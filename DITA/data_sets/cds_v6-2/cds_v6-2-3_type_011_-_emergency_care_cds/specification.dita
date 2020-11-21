@@ -1,0 +1,3509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='dataset_cds_v6-2-3_type_011_-_emergency_care_cds.specification'>
+  <title>Specification</title>
+  <titlealts>
+    <searchtitle>Data Set: CDS V6-2-3 Type 011 - Emergency Care CDS - Specification</searchtitle>
+  </titlealts>
+  <body>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CDS V6-2-3 Type 001 - CDS Interchange Header    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To define the mandatory identity and addressing information for a Commissioning Data Set submission.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Data Group:</b>
+    <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_001_-_cds_interchange_header">CDS V6-2-3 Type 001 - CDS Interchange Header</xref>
+  </p>
+  <p>
+One per Interchange submitted to the 
+        <xref href="https://v3.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.html" scope="external" format="html">Secondary_Uses_Service</xref>.
+    </p>
+  <p>Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CDS V6-2-3 Type 003 - CDS Message Header    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To define the mandatory identity and addressing information for a Commissioning Data Set submission.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Data Group:</b>
+    <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_003_-_cds_message_header">CDS V6-2-3 Type 003 - CDS Message Header</xref>
+  </p>
+  <p>
+    <b/>
+ One per Commissioning Data Set Message submitted to the 
+        <xref href="https://v3.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.html" scope="external" format="html">Secondary_Uses_Service</xref>.
+    </p>
+  <p>Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  <p>
+    <b>One of the following options must be used:</b>
+  </p>
+
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CDS V6-2-3 Type 005N - CDS Transaction Header Group - Net Change Protocol    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry Commissioning Data Set identification and addressing data and other data indicating the specific use of the Net Change Update Mechanism of the Commissioning Data Set Submission Protocol.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Data Group:</b>
+    <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005n_-_cds_transaction_header_group_-_net_change_protocol">CDS V6-2-3 Type 005N - CDS Transaction Header Group - Net Change Protocol</xref>
+  </p>
+  <p> 
+</p>
+  <p>
+One per Commissioning Data Set 
+re cord submitted to the 
+        <xref href="https://v3.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.html" scope="external" format="html">Secondary_Uses_Service</xref>.
+    </p>
+  <p>Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  <p>
+    <b>Or</b>
+  </p>
+
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CDS V6-2-3 Type 005B - CDS Transaction Header Group - Bulk Update Protocol    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry Commissioning Data Set identification and addressing data and other data indicating the specific use of the Bulk Replacement Update Mechanism of the Commissioning Data Set Submission Protocol.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Data Group:</b>
+    <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol">CDS V6-2-3 Type 005B - CDS Transaction Header Group - Bulk Update Protocol</xref>
+  </p>
+  <p>
+One per Commissioning Data Set record submitted to the 
+        <xref href="https://v3.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.html" scope="external" format="html">Secondary_Uses_Service</xref>.
+    </p>
+  <p>Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange.</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ PATIENT PATHWAY    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>O</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the Patient Pathway.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>PATIENT PATHWAY IDENTITY</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+  <p>Or</p>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+  <p>Or</p>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+  <p>
+    <xref outputclass="element" keyref="element_unique_booking_reference_number__converted_">UNIQUE BOOKING REFERENCE NUMBER (CONVERTED)</xref>
+  </p>
+  <p>Or</p>
+  <p>
+    <xref outputclass="element" keyref="element_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
+  </p>
+</entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>-</p>
+  <p>F</p>
+  <p>I2</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_identifier__patient_pathway_identifier_issuer_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>I2</p>
+</entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='4' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='4' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>REFERRAL TO TREATMENT PERIOD CHARACTERISTICS</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_referral_to_treatment_period_status' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_waiting_time_measurement_type' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_referral_to_treatment_period_start_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_referral_to_treatment_period_end_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='8'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='1*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <colspec colname='col7' colnum='7' colwidth='8*' />
+        <colspec colname='col8' colnum='8' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col8' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ PATIENT IDENTITY    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>M</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col8'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the Identity of the Patient.
+ See Note: S3 in Commissioning Data Set Business Rules.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry namest='col1' nameend='col8'>
+  <p>
+    <b>One of the following DATA GROUPS must be used:</b>
+  </p>
+</entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='4' align='center'><p></p></entry>
+            <entry morerows='4' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col7'>
+  <b>WITHHELD IDENTITY STRUCTURE</b>
+
+  <p>
+    <b>Must be used where the Commissioning Data Set record has been anonymised</b>
+  </p>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='3' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='3' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col7'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_nhs_number_status_indicator_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_organisation_identifier__residence_responsibility_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_withheld_identity_reason' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col8'>
+  <p>
+    <b>Or</b>
+  </p>
+</entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='9' align='center'><p></p></entry>
+            <entry morerows='9' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col7'>
+  <b>VERIFIED IDENTITY STRUCTURE</b>
+
+  <p>
+    <b>
+Must be used where the 
+            <xref keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+    </b>
+    <b>National Code = 01 (Number present and verified)</b>
+  </p>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col7'>
+  <b>LOCAL IDENTIFIER STRUCTURE</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_organisation_identifier__local_patient_identifier_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='5' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='5' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col7'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_nhs_number' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_nhs_number_status_indicator_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_postcode_of_usual_address' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_organisation_identifier__residence_responsibility_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_person_birth_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+  <p>S12</p>
+</entry>
+          </row>
+          <row>
+            <entry namest='col1' nameend='col8'>
+  <p>
+    <b>Or</b>
+  </p>
+</entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='12' align='center'><p></p></entry>
+            <entry morerows='12' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col7'>
+  <b>UNVERIFIED IDENTITY STRUCTURE</b>
+
+  <p>
+    <b>
+Must be used for all other values of the 
+            <xref keyref="element_nhs_number_status_indicator_code">NHS NUMBER STATUS INDICATOR CODE</xref>
+    </b>
+    <b>NOT included in the above</b>
+  </p>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col7'>
+  <b>LOCAL IDENTIFIER STRUCTURE</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_local_patient_identifier__extended_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_organisation_identifier__local_patient_identifier_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='4' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='4' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col7'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_nhs_number' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_nhs_number_status_indicator_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+  <p>
+    <xref outputclass="element" keyref="element_patient_name">PATIENT NAME</xref>
+  </p>
+</entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+  <p>
+    <xref outputclass="element" keyref="element_patient_usual_address">PATIENT USUAL ADDRESS</xref>
+  </p>
+</entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+</entry>
+          </row>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='3' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='3' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col7'>
+  <b>Data Element Components</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_postcode_of_usual_address' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_organisation_identifier__residence_responsibility_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col7' nameend='col7'>
+              <xref keyref='element_person_birth_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S3</p>
+  <p>S12</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ PATIENT CHARACTERISTICS (EMERGENCY CARE)    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the characteristics of the Patient for an Emergency Care Attendance.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='8' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='8' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_person_stated_gender_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_ethnic_category' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>X</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_ethnic_category_2021' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_accommodation_status__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_preferred_spoken_language__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_accessible_information_professional_required_code__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_interpreter_language__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_overseas_visitor_charging_category_at_cds_activity_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ MENTAL HEALTH ACT LEGAL STATUS    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the patients Mental Health Act Legal Status.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='5' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='5' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_start_date__mental_health_act_legal_status_classification_assignment_period_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_start_time__mental_health_act_legal_status_classification_assignment_period_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_expiry_date__mental_health_act_legal_status_classification_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_expiry_time__mental_health_act_legal_status_classification_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_mental_health_act_legal_status_classification_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ GP REGISTRATION    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the Patient's General Medical Practitioner and the General Practice details.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_general_medical_practitioner__specified_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_general_medical_practice_code__patient_registration_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ EMERGENCY CARE ATTENDANCE LOCATION    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>M</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the Emergency Care Attendance location.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_site_identifier__of_treatment_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_department_type' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ AMBULANCE DETAILS    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b/>
+    <b>To carry ambulance details relating to the patients arrival at Emergency Care</b>
+    <b>.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='3' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='3' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_ambulance_call_identifier' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_identifier__conveying_ambulance_trust_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_care_contact_identifier__ambulance_service_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ EXPECTED DATE AND TIME OF TREATMENT    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b/>
+    <b>To carry the expected date and time of treatment given to the patient.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_expected_date_and_timestamp_of_treatment' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_treatment_allocation_timestamp' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ EMERGENCY CARE ATTENDANCE ACTIVITY CHARACTERISTICS    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>M</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the characteristics of the Emergency Care Attendance.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='14' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='14' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_attendance_identifier' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_arrival_mode__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_attendance_category' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_attendance_source__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_site_identifier__emergency_care_attendance_source_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_arrival_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S1</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_arrival_time' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_age_at_cds_activity_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S8</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_initial_assessment_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_initial_assessment_time' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_acuity__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_chief_complaint__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_date_seen_for_treatment' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_time_seen_for_treatment' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CODED SCORED ASSESSMENT    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the SNOMED CT coded scores.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='3' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='3' align='center'>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_coded_assessment_tool_type__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_person_score' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_assessment_tool_validation_timestamp' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CODED CLINICAL OBSERVATION    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the SNOMED CT coded clinical observations.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='4' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='4' align='center'>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_coded_observation__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_observation_value' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_ucum_unit_of_measurement' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_coded_observation_timestamp' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CODED CLINICAL FINDINGS    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the SNOMED CT coded clinical findings.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_coded_finding__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_coded_finding_timestamp' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ INJURY CHARACTERISTICS    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of injuries.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='11' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='11' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_injury_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_injury_time' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_place_of_injury__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_place_of_injury__latitude_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_place_of_injury__longitude_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_injury_intent__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_injury_activity_status__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_injury_activity_type__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_injury_mechanism__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..*</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_injury_alcohol_or_drug_involvement__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>X</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_assault_location_description' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ PATIENT CLINICAL HISTORY    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry patient clinical history details.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='1' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='1' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..*</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_comorbidity__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ SERVICE AGREEMENT DETAILS    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>M</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the Service Agreement.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='6' align='center'>
+  <p>M</p>
+</entry>
+            <entry morerows='6' align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_commissioning_serial_number' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_nhs_service_agreement_line_number' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_provider_reference_number' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_commissioner_reference_number' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_identifier__code_of_provider_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>H4</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_identifier__code_of_commissioner_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CARE PROFESSIONALS (EMERGENCY CARE)    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of the Care Professionals active during the Emergency Care Attendance.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='5' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='5' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_professional_registration_issuer_code' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_professional_registration_entry_identifier' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_care_professional_tier__emergency_care_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_care_professional_discharge_responsibility_indicator__emergency_care_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>V</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_care_professional_clinical_responsibility_timestamp' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ EMERGENCY CARE DIAGNOSES (SNOMED CT)    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of SNOMED CT coded Clinical Diagnoses.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='3' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='3' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_diagnosis__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>H4</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_coded_clinical_entry_sequence_number' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_diagnosis_qualifier__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ EMERGENCY CARE INVESTIGATIONS (SNOMED CT)    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of SNOMED CT coded Clinical Investigations.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='3' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='3' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_clinical_investigation__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>H4</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_procedure_date__emergency_care_clinical_investigation_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_procedure_time__emergency_care_clinical_investigation_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ EMERGENCY CARE TREATMENTS (SNOMED CT)    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of SNOMED CT coded Procedures.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='3' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='3' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_procedure__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>H4</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_procedure_date__emergency_care_procedure_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_procedure_time__emergency_care_procedure_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ REFERRALS TO OTHER SERVICES    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..*</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of referrals to other services.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='5' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='5' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_referred_to_service__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_activity_service_request_date__emergency_care_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_activity_service_request_time__emergency_care_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_referred_to_service_assessment_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_referred_to_service_assessment_time' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ DISCHARGE FROM EMERGENCY CARE    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>R</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To carry the details of discharge from Emergency Care.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='12' align='center'>
+  <p>R</p>
+</entry>
+            <entry morerows='12' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_decided_to_admit_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_decided_to_admit_time' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_activity_treatment_function_code__decision_to_admit_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_clinically_ready_to_proceed_timestamp' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_discharge_status__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>H4</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_departure_date' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S13</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_departure_time' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>S14</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..*</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_safeguarding_concern__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_discharge_destination__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_organisation_site_identifier__discharge_from_emergency_care_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_discharge_follow_up__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>R</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_emergency_care_discharge_information_given__snomed_ct_' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ RESEARCH AND DISEASE OUTBREAK NOTIFICATION    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+  <p>O</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b/>
+    <b>To carry details of any Research and/or Disease Outbreak Notifications</b>
+    <b>.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row outputclass='thead-light table-primary'>
+            <entry morerows='2' align='center'>
+  <p>O</p>
+</entry>
+            <entry morerows='2' align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col3' nameend='col5'>
+  <b>Data Element Components</b>
+</entry>
+            <entry align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_business_rules'>Rules</xref>
+            </entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+              <xref keyref='element_clinical_trial_identifier' outputclass='element'></xref>
+            </entry>
+            <entry align='center'>
+  <p>F</p>
+</entry>
+          </row>
+          <row>
+            <entry align='center'>
+  <p>O</p>
+  <p>Or</p>
+  <p>O</p>
+</entry>
+            <entry align='center'>
+  <p>0..1</p>
+  <p>Or</p>
+  <p>0..1</p>
+</entry>
+            <entry namest='col5' nameend='col5'>
+  <p>
+    <xref outputclass="element" keyref="element_disease_outbreak_notification_description">DISEASE OUTBREAK NOTIFICATION DESCRIPTION</xref>
+  </p>
+  <p>Or</p>
+  <p>
+    <xref outputclass="element" keyref="element_disease_outbreak_notification__snomed_ct_">DISEASE OUTBREAK NOTIFICATION (SNOMED CT)</xref>
+  </p>
+</entry>
+            <entry align='center'>
+  <p>F</p>
+  <p>-</p>
+  <p>F</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CDS V6-2-3 Type 004 - CDS Message Trailer    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To define the mandatory identity and addressing information for a Commissioning Data Set submission.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Data Group:</b>
+    <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_004_-_cds_message_trailer">CDS V6-2-3 Type 004 - CDS Message Trailer</xref>
+  </p>
+  <p> 
+</p>
+  <p>
+One per Commissioning Data Set Message submitted to the 
+        <xref href="https://v3.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.html" scope="external" format="html">Secondary_Uses_Service</xref>. Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange    </p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <table outputclass='table table-striped table-bordered table-sm'>
+      <tgroup cols='6'>
+        <colspec colname='col1' colnum='1' colwidth='1*' />
+        <colspec colname='col2' colnum='2' colwidth='1*' />
+        <colspec colname='col3' colnum='3' colwidth='1*' />
+        <colspec colname='col4' colnum='4' colwidth='1*' />
+        <colspec colname='col5' colnum='5' colwidth='8*' />
+        <colspec colname='col6' colnum='6' colwidth='1*' />
+        <thead>
+          <row>
+            <entry namest='col1' nameend='col2' align='center'>
+              <xref keyref='supporting_definition_commissioning_data_set_notation'>Notation</xref>
+            </entry>
+            <entry namest='col3' nameend='col6' outputclass='thead-light'>
+  <p>
+    <b>Data Group:</b>
+ CDS V6-2-3 Type 002 - CDS Interchange Trailer    </p>
+</entry>
+          </row>
+          <row outputclass='thead-light'>
+            <entry namest='col1' nameend='col1' align='center'>
+  <p>Group Status</p>
+</entry>
+            <entry namest='col2' nameend='col2' align='center'>
+  <p>Group Repeats</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Function:</b>
+    <b>To define the mandatory identity and addressing information for a Commissioning Data Set submission.</b>
+  </p>
+</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align='center'>
+  <p>M</p>
+</entry>
+            <entry align='center'>
+  <p>1..1</p>
+</entry>
+            <entry namest='col3' nameend='col6'>
+  <p>
+    <b>Data Group:</b>
+    <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_002_-_cds_interchange_trailer">CDS V6-2-3 Type 002 - CDS Interchange Trailer</xref>
+  </p>
+  <p>
+One per Interchange submitted to the 
+        <xref href="https://v3.datadictionary.nhs.uk/web_site_content/supporting_definitions/secondary_uses_service.html" scope="external" format="html">Secondary_Uses_Service</xref>.
+    </p>
+  <p>Multiple Commissioning Data Set Messages may be submitted in a single Commissioning Data Set Interchange</p>
+</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

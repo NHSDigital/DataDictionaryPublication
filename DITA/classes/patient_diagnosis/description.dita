@@ -7,53 +7,45 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A subtype of 
               <xref outputclass="class" keyref="class_person_property">PERSON PROPERTY</xref>.        </p>
-      <p>
+    <p>
 Diagnostic observations recorded about a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>.        </p>
-      <p>Note:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>Note:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 A 
                                 <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>
  should be classified, where possible, using 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
  or other classification codes approved centrally for mapping to 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
  codes.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="supportingInformation"
-                     keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="supportingInformation" keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+          <p>
  or 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
  can be used in addition to 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
  codes for 
                                 <xref outputclass="class" keyref="class_patient_diagnosis">PATIENT DIAGNOSIS</xref>. However 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_read_coded_clinical_terms">Read Coded Clinical Terms</xref>
  are not accepted for the purposes of central 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_hospital_episode_statistics">Hospital Episode Statistics</xref>
  data, where 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_international_classification_of_diseases__icd_">International Classification of Diseases (ICD)</xref>
  is mandatory.                    </p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

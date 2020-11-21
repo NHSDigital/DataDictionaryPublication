@@ -7,15 +7,14 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 A subtype of 
               <xref outputclass="class" keyref="class_activity_group">ACTIVITY GROUP</xref>.        </p>
-      <p>
+    <p>
 The specific route that a particular 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  takes from the first 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
  of a 
               <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
  or the 
@@ -24,24 +23,24 @@ The specific route that a particular
               <xref outputclass="class" keyref="class_activity">ACTIVITY</xref>
  where there is no related 
               <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>.        </p>
-      <p>
+    <p>
 Where a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has more than one referral for unrelated clinical reasons, each referral will have its own 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>.        </p>
-      <p>
+    <p>
 The start of the 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
  may start the first 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  although there may be a number of subsequent 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>.        </p>
-      <p>
+    <p>
 For a particular 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>, there may not be a related 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  if treatment starts immediately such as an emergency admission.        </p>
-      <p>
+    <p>
 A 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
  will continue for chronic or recurrent conditions and it will also continue even if the 

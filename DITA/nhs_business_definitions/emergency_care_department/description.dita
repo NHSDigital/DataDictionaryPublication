@@ -7,34 +7,45 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
  is a 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_department">Department</xref>.        </p>
-      <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_department">Department</xref>.        </p>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Departments</xref>
+ may be either major units, providing a 24 hour service seven days a week to which the great majority of 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_ambulance">Emergency Ambulance</xref>
+ cases are taken, or smaller units, in which services are often only available for limited hours and which may not deal with 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_ambulance">Emergency Ambulance</xref>
+ cases.        </p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
- may be either:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
-an 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_accident_and_emergency_department">Accident and Emergency Department</xref>
- or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>an Ambulatory Emergency Care Service.</p>
-            </div>
-         </li>
-      </ul>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ is not always part of a 
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_site">Hospital Site</xref>. Additional activities may also take place such as: elective surgical work of a minor nature, observation and treatment of 
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ in 
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_bed">Hospital Beds</xref>
+ and the holding of 
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_clinic">Out-Patient Clinics</xref>.        </p>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_hospital_bed">Hospital Beds</xref>
+ either within or adjacent to a 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_department">Department</xref>
+ will be counted as a 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>
+ or part of a 
+              <xref outputclass="class" keyref="class_ward">WARD</xref>. Work apart from the emergency care service should be recorded in the appropriate data system.        </p>
+    <p>
+An emergency care service offers care to 
+              <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+ who arrive with urgent problems and who have not usually been seen previously by a 
+              <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>.        </p>
+    <p>
+Note that for piloting purposes only, an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+ may also be an Ambulatory Emergency Care Service.        </p>
   </div>
 </body>
 </topic>

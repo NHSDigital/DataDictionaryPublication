@@ -7,48 +7,40 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 This records the first 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
  for a specific health care service to be provided, which was received. This date should be recorded on any subsequent 
               <xref outputclass="class" keyref="class_referral_request">REFERRAL REQUESTS</xref>
  for the same health care service and should never be altered or removed, even if the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  changes, until the specific health care service is provided for the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>, or is no longer required or the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  initiates a reset of the waiting period.        </p>
-      <p>
+    <p>
 In cases where a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is transferred to another 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  as initiated by the transferring provider; and the receiving provider and the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  both agree to the transfer, the 
-              <xref outputclass="attribute"
-               keyref="attribute_original_referral_request_received_date">ORIGINAL REFERRAL REQUEST RECEIVED DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_original_referral_request_received_date">ORIGINAL REFERRAL REQUEST RECEIVED DATE</xref>
  should also be transferred and retained as the 
-              <xref outputclass="attribute"
-               keyref="attribute_original_referral_request_received_date">ORIGINAL REFERRAL REQUEST RECEIVED DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_original_referral_request_received_date">ORIGINAL REFERRAL REQUEST RECEIVED DATE</xref>
  of the receiving provider. This is due to the receiving provider becoming responsible for 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  waiting time including the period of wait before the transfer.        </p>
-      <p>
+    <p>
 In cases where a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  initiates transfer themselves to another 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  and remove themselves from the waiting list of their current provider then the waiting period will reset. The 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
  of the new provider will be used to record the 
-              <xref outputclass="attribute"
-               keyref="attribute_original_referral_request_received_date">ORIGINAL REFERRAL REQUEST RECEIVED DATE</xref>. This will exclude any period of wait before the transfer took place.        </p>
+              <xref outputclass="attribute" keyref="attribute_original_referral_request_received_date">ORIGINAL REFERRAL REQUEST RECEIVED DATE</xref>. This will exclude any period of wait before the transfer took place.        </p>
   </div>
 </body>
 </topic>

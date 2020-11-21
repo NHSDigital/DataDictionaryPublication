@@ -7,125 +7,123 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The code to identify the serum 
               <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
  markers (measurable biochemicals associated with a malignancy of 
               <xref outputclass="businessDefinition" keyref="business_definition_tumour">Tumour</xref>
-         <xref outputclass="class" keyref="class_cell">CELLS</xref>) for testicular cancer only.        </p>
-      <p>
-         <xref outputclass="attribute" keyref="attribute_s_category_code">S CATEGORY CODE</xref>
+      <xref outputclass="class" keyref="class_cell">CELLS</xref>) for testicular cancer only.        </p>
+    <p>
+      <xref outputclass="attribute" keyref="attribute_s_category_code">S CATEGORY CODE</xref>
  is derived following recording of the biochemistry test items:        </p>
-      <ul>
-         <li>
-            <xref outputclass="element"
-                  keyref="element_s_category__lactate_dehydrogenase_">S CATEGORY (LACTATE DEHYDROGENASE)</xref>
-            <p> (LDH)</p>
-         </li>
-         <li>
-            <xref outputclass="element"
-                  keyref="element_s_category__human_chorionic_gonadotropin_">S CATEGORY (HUMAN CHORIONIC GONADOTROPIN)</xref>
-            <p> (HCG)</p>
-         </li>
-         <li>
-            <xref outputclass="element" keyref="element_s_category__alpha_fetoprotein_">S CATEGORY (ALPHA FETOPROTEIN)</xref>
-            <p> (AFP)</p>
-         </li>
-      </ul>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="4">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>CODE</b>
-                  </entry>
-                  <entry>
-                     <b>LDH (UNITS/LITRE)</b>
-                  </entry>
-                  <entry>
-                     <b>HCG (MILLIUNITS/MILLILITRE)</b>
-                  </entry>
-                  <entry>
-                     <b>AFP (NANOGRAMS/MILLILITRE)</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>SX</p>
-                  </entry>
-                  <entry>
-                     <p>Marker studies not available or not performed</p>
-                  </entry>
-                  <entry>
-                     <p>Marker studies not available or not performed</p>
-                  </entry>
-                  <entry>
-                     <p>Marker studies not available or not performed</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>S0</p>
-                  </entry>
-                  <entry>
-                     <p>Normal</p>
-                  </entry>
-                  <entry>
-                     <p>Normal</p>
-                  </entry>
-                  <entry>
-                     <p>Normal</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>S1</p>
-                  </entry>
-                  <entry>
-                     <p>Less than 1.5 x normal</p>
-                  </entry>
-                  <entry>
-                     <p>Less than 5,000</p>
-                  </entry>
-                  <entry>
-                     <p>Less than 1,000</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>S2</p>
-                  </entry>
-                  <entry>
-                     <p>1.5-10 x normal</p>
-                  </entry>
-                  <entry>
-                     <p>5,000-50,000</p>
-                  </entry>
-                  <entry>
-                     <p>1,000-10,000</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>S3</p>
-                  </entry>
-                  <entry>
-                     <p>Greater than 10 x normal</p>
-                  </entry>
-                  <entry>
-                     <p>Greater than 50,000</p>
-                  </entry>
-                  <entry>
-                     <p>Greater than 10,000</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+    <ul>
+      <li>
+        <xref outputclass="element" keyref="element_s_category__lactate_dehydrogenase_">S CATEGORY (LACTATE DEHYDROGENASE)</xref>
+        <p> (LDH)</p>
+      </li>
+      <li>
+        <xref outputclass="element" keyref="element_s_category__human_chorionic_gonadotropin_">S CATEGORY (HUMAN CHORIONIC GONADOTROPIN)</xref>
+        <p> (HCG)</p>
+      </li>
+      <li>
+        <xref outputclass="element" keyref="element_s_category__alpha_fetoprotein_">S CATEGORY (ALPHA FETOPROTEIN)</xref>
+        <p> (AFP)</p>
+      </li>
+    </ul>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="4">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <b>CODE</b>
+            </entry>
+            <entry>
+              <b>LDH (UNITS/LITRE)</b>
+            </entry>
+            <entry>
+              <b>HCG (MILLIUNITS/MILLILITRE)</b>
+            </entry>
+            <entry>
+              <b>AFP (NANOGRAMS/MILLILITRE)</b>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>SX</p>
+            </entry>
+            <entry>
+              <p>Marker studies not available or not performed</p>
+            </entry>
+            <entry>
+              <p>Marker studies not available or not performed</p>
+            </entry>
+            <entry>
+              <p>Marker studies not available or not performed</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>S0</p>
+            </entry>
+            <entry>
+              <p>Normal</p>
+            </entry>
+            <entry>
+              <p>Normal</p>
+            </entry>
+            <entry>
+              <p>Normal</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>S1</p>
+            </entry>
+            <entry>
+              <p>Less than 1.5 x normal</p>
+            </entry>
+            <entry>
+              <p>Less than 5,000</p>
+            </entry>
+            <entry>
+              <p>Less than 1,000</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>S2</p>
+            </entry>
+            <entry>
+              <p>1.5-10 x normal</p>
+            </entry>
+            <entry>
+              <p>5,000-50,000</p>
+            </entry>
+            <entry>
+              <p>1,000-10,000</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>S3</p>
+            </entry>
+            <entry>
+              <p>Greater than 10 x normal</p>
+            </entry>
+            <entry>
+              <p>Greater than 50,000</p>
+            </entry>
+            <entry>
+              <p>Greater than 10,000</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

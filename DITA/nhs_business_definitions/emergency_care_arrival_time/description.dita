@@ -7,33 +7,40 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_arrival_time_at_accident_and_emergency_department">Arrival Time At Accident and Emergency Department</xref>
- is an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_arrival_time">Emergency Care Arrival Time</xref>
+ is an 
               <xref outputclass="class" keyref="class_activity_date_time">ACTIVITY DATE TIME</xref>.        </p>
-      <p>
-The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_emergency_care_arrival_time">Emergency Care Arrival Time</xref>
- may be either:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
-the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_arrival_time_at_accident_and_emergency_department">Arrival Time At Accident and Emergency Department</xref>
+    <p>
+An 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_arrival_time">Emergency Care Arrival Time</xref>
+ is the time the 
+              <xref outputclass="class" keyref="class_patient">PATIENT</xref>:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>
+self presented at the 
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
  or                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>the Ambulatory Emergency Care Arrival Time.</p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+arrived in an 
+                                <xref outputclass="businessDefinition" keyref="business_definition_ambulance">Ambulance</xref>
+ at the 
+                                <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>.                    </p>
+        </div>
+      </li>
+    </ul>
+    <p>The time should be recorded using the 24 hour clock.</p>
+    <p>
+Note that for piloting purposes only, an 
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_arrival_time">Emergency Care Arrival Time</xref>
+ may also be the Ambulatory Emergency Care Arrival Time.        </p>
   </div>
 </body>
 </topic>

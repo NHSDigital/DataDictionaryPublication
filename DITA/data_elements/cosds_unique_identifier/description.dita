@@ -7,46 +7,35 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
+    <p>
+      <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
  is the same as attribute 
               <xref outputclass="attribute" keyref="attribute_record_identifier">RECORD IDENTIFIER</xref>.        </p>
-      <p>
+    <p>
 The 
               <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
  is used in conjunction with the 
-              <xref outputclass="element"
-               keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>
  to uniquely identify a record within a 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">Cancer Outcomes and Services Data Set</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">Cancer Outcomes and Services Data Set</xref>
  submission to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>.        </p>
+    <p>
 The 
               <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
  may appear on data quality reports, error reports, and audit logs exchanged between the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>
  and the submitting 
-              <xref outputclass="element"
-               keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.        </p>
-      <p>
+              <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>.        </p>
+    <p>
 The 
               <xref outputclass="element" keyref="element_cosds_unique_identifier">COSDS UNIQUE IDENTIFIER</xref>
  must be populated for each record, in the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">COSDS</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">COSDS</xref>
  Record Identifier group within the 
-              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html"
-               scope="external"
-               format="html">COSDS</xref>
+              <xref href="https://v3.datadictionary.nhs.uk/data_dictionary/messages/cancer_outcomes_and_services_data_set_introduction.html" scope="external" format="html">COSDS</xref>
  Message, by the sender of the data set submission prior to transmission of the data to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>.        </p>
+              <xref outputclass="businessDefinition" keyref="business_definition_national_cancer_registration_and_analysis_service">National Cancer Registration and Analysis Service</xref>.        </p>
   </div>
 </body>
 </topic>

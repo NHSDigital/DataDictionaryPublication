@@ -7,31 +7,43 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element"
-               keyref="element_professional_registration_issuer_code">PROFESSIONAL REGISTRATION ISSUER CODE</xref>
+    <p>
+      <xref outputclass="element" keyref="element_professional_registration_issuer_code">PROFESSIONAL REGISTRATION ISSUER CODE</xref>
  is the same as attribute 
-              <xref outputclass="attribute"
-               keyref="attribute_professional_registration_body_code">PROFESSIONAL REGISTRATION BODY CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_professional_registration_body_code">PROFESSIONAL REGISTRATION BODY CODE</xref>
  but only the following National Codes are permitted:        </p>
-      <p>Notes:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+    <p>Notes:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 National Code 04 
-                                <i>'<xref outputclass="businessDefinition"
-                           keyref="business_definition_general_optical_council">General Optical Council</xref>'</i>
+                                <i>'<xref outputclass="businessDefinition" keyref="business_definition_general_optical_council">General Optical Council</xref>'</i>
  is only valid for 
-                                <xref outputclass="dataSet"
-                        keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>
- and must not be submitted in other 
-                                <xref outputclass="supportingInformation"
-                        keyref="supporting_definition_commissioning_data_set_version_6-2_type_list">Commissioning Data Set</xref>
+                                <xref outputclass="dataSet" keyref="dataset_cds_v6-2-2_type_011_-_emergency_care_cds">CDS V6-2-2 Type 011 - Emergency Care Commissioning Data Set</xref>/ 
+                                <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_011_-_emergency_care_cds">CDS V6-2-3 Type 011 - Emergency Care Commissioning Data Set</xref>
+ and must not be submitted in other 
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_version_6-2_type_list">Commissioning Data Set</xref>
+ versions                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+National Code 16 
+                                <i>'</i>
+            <i>
+              <xref outputclass="businessDefinition" keyref="business_definition_general_pharmaceutical_council">General Pharmaceutical Council</xref>
+            </i>
+            <i>'</i>
+ is only valid for 
+                                <xref outputclass="dataSet" keyref="dataset_cds_v6-2-3_type_011_-_emergency_care_cds">CDS V6-2-3 Type 011 - Emergency Care Commissioning Data Set</xref>
+ and must not be submitted in other 
+                                <xref outputclass="supportingInformation" keyref="supporting_definition_commissioning_data_set_version_6-2_type_list">Commissioning Data Set</xref>
  versions.                    </p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

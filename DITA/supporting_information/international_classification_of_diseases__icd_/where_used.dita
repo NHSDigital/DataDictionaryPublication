@@ -125,13 +125,6 @@
         <stentry>references in description International Classification of Diseases (Icd)</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_diagnosis_scheme_in_use' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description International Classification of Diseases (Icd)</stentry>
-      </strow>
-      <strow>
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_diagnosis_scheme_in_use' outputclass='element'></xref>
@@ -139,9 +132,9 @@
         <stentry>references in description International Classification of Diseases (Icd)</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_finding_scheme_in_use' outputclass='element'></xref>
+          <xref keyref='attribute_diagnosis_scheme_in_use' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description International Classification of Diseases (Icd)</stentry>
       </strow>
@@ -149,6 +142,13 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_finding_scheme_in_use' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description International Classification of Diseases (Icd)</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_finding_scheme_in_use' outputclass='element'></xref>
         </stentry>
         <stentry>references in description International Classification of Diseases (Icd)</stentry>
       </strow>

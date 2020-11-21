@@ -7,72 +7,65 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The start date of a 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
-      <p>
+    <p>
 This is a specific type of the attribute 
               <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>.        </p>
-      <p>
+    <p>
 A 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_start_date">REFERRAL TO TREATMENT PERIOD START DATE</xref>
  will be one of the following:        </p>
-      <ul>
-         <li>
+    <ul>
+      <li>
+        <div>
+          <b>Initial Referral:</b>
+        </div>
+        <ul>
+          <li>
             <div>
-               <b>Initial Referral:</b>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+              <p>
 the 
-                                            <xref outputclass="attribute"
-                              keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
+                                            <xref outputclass="attribute" keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
  of a 
                                             <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
  for a particular condition.                            </p>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>
 This will include a 
                                             <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  being re-referred in to a 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
  or an 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_interface_service">Interface Service</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_interface_service">Interface Service</xref>
  or an 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
  as a new referral including after a 
-                                            <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_discharge_after_patient_did_not_attend">Discharge After Patient Did Not Attend</xref>. The 
-                                            <xref outputclass="attribute"
-                              keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+                                            <xref outputclass="supportingInformation" keyref="supporting_definition_discharge_after_patient_did_not_attend">Discharge After Patient Did Not Attend</xref>. The 
+                                            <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  is '<i>National Code 10 - first activity'</i>
-                     </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-         <li>
-            <div>
-               <b>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div>
+          <b>
 Following an 
                                 <xref outputclass="class" keyref="class_appointment">APPOINTMENT</xref>
  that the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  did not attend:                    </b>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
 the 
                                             <xref outputclass="attribute" keyref="attribute_appointment_accepted_date">APPOINTMENT ACCEPTED DATE</xref>
  (or the 
@@ -90,16 +83,15 @@ the
  or elective admission. See 
                                             <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  and 
-                                            <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_discharge_after_patient_did_not_attend">Discharge After Patient Did Not Attend</xref>
+                                            <xref outputclass="supportingInformation" keyref="supporting_definition_discharge_after_patient_did_not_attend">Discharge After Patient Did Not Attend</xref>
  for guidance on 
                                             <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  who do not attend                            </p>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>
 The 
                                             <xref outputclass="attribute" keyref="attribute_appointment_date">APPOINTMENT DATE</xref>
  of the 
@@ -110,87 +102,79 @@ The
                                             <xref outputclass="attribute" keyref="attribute_appointment_accepted_date">APPOINTMENT ACCEPTED DATE</xref>
  or the 
                                             <xref outputclass="attribute" keyref="attribute_invitation_offer_date_sent">INVITATION OFFER DATE SENT</xref>. The 
-                                            <xref outputclass="attribute"
-                              keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+                                            <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  is '<i>National Code 10 - first activity'</i>
-                     </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-         <li>
-            <div>
-               <b>Following active monitoring:</b>
+              </p>
             </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div>
+          <b>Following active monitoring:</b>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
 the 
                                             <xref outputclass="attribute" keyref="attribute_activity_date">ACTIVITY DATE</xref>
  of a 
                                             <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
  when a decision to treat was made following 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_active_monitoring">Active Monitoring</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_active_monitoring">Active Monitoring</xref>
  and the 
-                                            <xref outputclass="attribute"
-                              keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+                                            <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  is '<i>National Code 11 - active monitoring end'</i>
-                     </p>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <p>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>
 This will include a decision to start a substantively new or different treatment that does not already form part of that 
                                             <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s agreed 
                                             <xref outputclass="class" keyref="class_care_plan">CARE PLAN</xref>.                            </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-         <li>
-            <div>
-               <b>On identifying a separate condition:</b>
             </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div>
+          <b>On identifying a separate condition:</b>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
 the 
-                                            <xref outputclass="attribute"
-                              keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
+                                            <xref outputclass="attribute" keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
  of a 
                                             <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
  when a decision has been made to refer the 
                                             <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  directly to a 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
  or an 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
  for a separate condition (the 
-                                            <xref outputclass="attribute"
-                              keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
+                                            <xref outputclass="attribute" keyref="attribute_referral_to_treatment_period_status">REFERRAL TO TREATMENT PERIOD STATUS</xref>
  for the first 
                                             <xref outputclass="class" keyref="class_care_activity">CARE ACTIVITY</xref>
  with the new 
                                             <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  or 
-                                            <xref outputclass="businessDefinition"
-                              keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
+                                            <xref outputclass="businessDefinition" keyref="business_definition_nhs_allied_health_professional_service__referral_to_treatment_measurement_">NHS Allied Health Professional Service (Referral To Treatment Measurement)</xref>
  is '<i>National Code 12 - consultant or NHS Allied Health Professional Service (Referral To Treatment) referral'</i>).                             </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
-      <p>
-         <b>Referral To Treatment Consultant Led Waiting Times:</b>
-      </p>
-      <p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>
+      <b>Referral To Treatment Consultant Led Waiting Times:</b>
+    </p>
+    <p>
 For most 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>, the start of the 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
@@ -200,8 +184,8 @@ For most
               <xref outputclass="class" keyref="class_general_medical_practitioner">GENERAL MEDICAL PRACTITIONER</xref>
  to a 
               <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>.        </p>
-      <p>
-         <xref outputclass="class" keyref="class_service_request">SERVICE REQUESTS</xref>
+    <p>
+      <xref outputclass="class" keyref="class_service_request">SERVICE REQUESTS</xref>
  to 
               <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
  who provide care 
@@ -209,11 +193,10 @@ For most
  in community settings also start 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIODS</xref>
  and the 
-              <xref outputclass="attribute"
-               keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
+              <xref outputclass="attribute" keyref="attribute_referral_request_received_date">REFERRAL REQUEST RECEIVED DATE</xref>
  will be the start of the 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>.        </p>
-      <p>
+    <p>
 A 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  may also start from 
@@ -222,63 +205,52 @@ A
               <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>
  from 
               <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONERS</xref>, 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioners with Extended Roles</xref>, 
+              <xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioners with Extended Roles</xref>, 
               <xref outputclass="class" keyref="class_optometrist">OPTOMETRISTS</xref>
  and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_orthoptist">Orthoptists</xref>, National 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_screening_programme">Screening Programmes</xref>, Specialist 
+              <xref outputclass="businessDefinition" keyref="business_definition_orthoptist">Orthoptists</xref>, National 
+              <xref outputclass="businessDefinition" keyref="business_definition_screening_programme">Screening Programmes</xref>, Specialist 
               <xref outputclass="class" keyref="class_nurse">NURSES</xref>, other 
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONALS</xref>
  where commissioning 
               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
  have approved these mechanisms locally.        </p>
-      <p>
+    <p>
 An 18-week clock also starts upon a self referral by a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  to the above services, where these pathways have been agreed locally by commissioners and providers and once the referral is ratified by a 
               <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>.        </p>
-      <p>
+    <p>
 A 
               <xref outputclass="class" keyref="class_referral_to_treatment_period">REFERRAL TO TREATMENT PERIOD</xref>
  will also start where 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  are transferred to an elective 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_consultant_led_service">Consultant Led Service</xref>
  through 
               <xref outputclass="class" keyref="class_service_request">SERVICE REQUESTS</xref>
  from 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_accident_and_emergency_department">Accident and Emergency Departments</xref>
- including Minor injuries units and Walk In Centres.        </p>
-      <p>
-         <b>Allied Health Professional Referral To Treatment Measurement:</b>
-      </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Departments</xref>
+ including Minor injuries units, Walk In Centres and 
+              <xref outputclass="businessDefinition" keyref="business_definition_urgent_treatment_centre">Urgent Treatment Centres</xref>.        </p>
+    <p>
+      <b>Allied Health Professional Referral To Treatment Measurement:</b>
+    </p>
+    <p>
 Further guidance relating to the Allied Health Professional Referral To Treatment can be found on the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
  part of the gov.uk website at: 
-              <xref href="https://www.gov.uk/government/publications/allied-health-professional-referral-to-treatment-revised-guide-2011"
-               scope="external"
-               format="html">Allied health professional referral to treatment revised guide</xref>.        </p>
-      <p>
-         <b>Intermediate Care Measurement:</b>
-      </p>
-      <p>
+              <xref href="https://www.gov.uk/government/publications/allied-health-professional-referral-to-treatment-revised-guide-2011" scope="external" format="html">Allied health professional referral to treatment revised guide</xref>.        </p>
+    <p>
+      <b>Intermediate Care Measurement:</b>
+    </p>
+    <p>
 Further guidance relating to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_intermediate_care">Intermediate Care</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_intermediate_care">Intermediate Care</xref>
  Waiting Time Measurements can be found on the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
  website at: 
-              <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/community-services-data-set/community-services-data-set-user-guidance"
-               scope="external"
-               format="html">Community Services Data Set user guidance</xref>.        </p>
+              <xref href="https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/community-services-data-set/community-services-data-set-user-guidance" scope="external" format="html">Community Services Data Set user guidance</xref>.        </p>
   </div>
 </body>
 </topic>

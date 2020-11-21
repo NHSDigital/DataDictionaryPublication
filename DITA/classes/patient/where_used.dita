@@ -20,48 +20,6 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_a_and_e_attendance_category' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_a_and_e_initial_assessment_triage_category' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_a_and_e_stream' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_a_and_e_department_type' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_a_and_e_incident_location_type' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_a_and_e_staff_member_code' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_abdominal_x-ray_performed_indicator' outputclass='element'></xref>
@@ -107,34 +65,6 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_accessible_information_specific_information_format_code__snomed_ct_' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_accident_and_emergency_arrival_mode' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_accident_and_emergency_attendance_category_code' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_accident_and_emergency_department_type' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_accident_and_emergency_treatment' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -188,16 +118,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_activity_location_type_code' outputclass='element'></xref>
+          <xref keyref='attribute_activity_location_type_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_activity_location_type_code' outputclass='attribute'></xref>
+          <xref keyref='element_activity_location_type_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -321,16 +251,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_administrative_category_code' outputclass='element'></xref>
+          <xref keyref='attribute_administrative_category_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_administrative_category_code' outputclass='attribute'></xref>
+          <xref keyref='element_administrative_category_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -678,6 +608,13 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_assault_location_description' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_associated_procedure_type_for_ankle_replacement' outputclass='attribute'></xref>
@@ -716,90 +653,6 @@
         <stentry>Supporting Information</stentry>
         <stentry>
           <xref keyref='supporting_definition_accessible_information' outputclass='supportingInformation'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_attendance' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_attendance_conclusion_date' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_attendance_conclusion_time' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_date_seen_for_treatment' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_department' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_departure_date' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_departure_time' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_episode' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_initial_assessment_date' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_initial_assessment_time' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_accident_and_emergency_time_seen_for_treatment' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Supporting Information</stentry>
-        <stentry>
-          <xref keyref='supporting_definition_accident_and_emergency_treatment_tables' outputclass='supportingInformation'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -961,20 +814,6 @@
         <stentry>NHS Business Definition</stentry>
         <stentry>
           <xref keyref='business_definition_approved_mental_health_professional' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_arrival_date_at_accident_and_emergency_department' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
-          <xref keyref='business_definition_arrival_time_at_accident_and_emergency_department' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -1287,6 +1126,13 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_cancer_treatment_modality_for_registration' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_cancer_treatment_period_start_date' outputclass='element'></xref>
@@ -1490,16 +1336,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_care_programme_approach_review_abuse_question_asked_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_care_programme_approach_review_abuse_question_asked_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_care_programme_approach_review_abuse_question_asked_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_care_programme_approach_review_abuse_question_asked_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -1644,16 +1490,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_child_protection_plan_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_child_protection_plan_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_child_protection_plan_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_child_protection_plan_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -1742,16 +1588,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_clinical_nurse_specialist_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_clinical_nurse_specialist_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_clinical_nurse_specialist_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_clinical_nurse_specialist_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -1861,16 +1707,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_community_treatment_order_end_reason' outputclass='element'></xref>
+          <xref keyref='attribute_community_treatment_order_end_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_community_treatment_order_end_reason' outputclass='attribute'></xref>
+          <xref keyref='element_community_treatment_order_end_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -2148,16 +1994,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_critical_care_unit_function' outputclass='attribute'></xref>
+          <xref keyref='element_critical_care_unit_function' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_critical_care_unit_function' outputclass='element'></xref>
+          <xref keyref='attribute_critical_care_unit_function' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -2402,6 +2248,13 @@
       <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
+          <xref keyref='business_definition_care_professional_clinical_responsibility_timestamp' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
           <xref keyref='business_definition_care_programme_approach_care_episode' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
@@ -2564,13 +2417,6 @@
         <stentry>Supporting Information</stentry>
         <stentry>
           <xref keyref='supporting_definition_commissioning_data_set_mandated_data_flows' outputclass='supportingInformation'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Supporting Information</stentry>
-        <stentry>
-          <xref keyref='supporting_definition_commissioning_data_set_submission_protocol' outputclass='supportingInformation'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -2771,16 +2617,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_death_not_at_preferred_location_reason' outputclass='element'></xref>
+          <xref keyref='attribute_death_not_at_preferred_location_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_death_not_at_preferred_location_reason' outputclass='attribute'></xref>
+          <xref keyref='element_death_not_at_preferred_location_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -2918,13 +2764,6 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_direct_access_referral_indicator' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_direct_access_referral_indicator' outputclass='attribute'></xref>
@@ -2934,7 +2773,7 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_disability_impact_perception' outputclass='element'></xref>
+          <xref keyref='element_direct_access_referral_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -2942,6 +2781,13 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_disability_impact_perception' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_disability_impact_perception' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -2960,9 +2806,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='attribute'></xref>
+          <xref keyref='element_discharge_destination_code__hospital_provider_spell_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_discharge_destination_code__mother_post_delivery_hospital_provider_spell_' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -2970,6 +2823,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_discharge_from_improving_access_to_psychological_therapies_service_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3016,16 +2876,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_discharged_to_hospital_at_home_service_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_discharged_to_hospital_at_home_service_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_discharged_to_hospital_at_home_service_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_discharged_to_hospital_at_home_service_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3347,13 +3207,6 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_emergency_care_department_type' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
           <xref keyref='element_emergency_care_department_type__patient_level_information_costing_' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
@@ -3411,6 +3264,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_emergency_care_procedure__snomed_ct_' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_emergency_care_treatment_allocation_timestamp' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3513,16 +3373,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_ex-british_armed_forces_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_ex-british_armed_forces_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_ex-british_armed_forces_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_ex-british_armed_forces_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3592,6 +3452,27 @@
       <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
+          <xref keyref='business_definition_emergency_care_arrival_date' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_arrival_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_attendance' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
           <xref keyref='business_definition_emergency_care_attendance_conclusion_date' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
@@ -3600,6 +3481,76 @@
         <stentry>NHS Business Definition</stentry>
         <stentry>
           <xref keyref='business_definition_emergency_care_attendance_conclusion_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_clinically_ready_to_proceed_timestamp' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_date_seen_for_treatment' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_department' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_departure_date' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_departure_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_episode' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_expected_date_and_timestamp_of_treatment' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_initial_assessment_date' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_initial_assessment_time' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>NHS Business Definition</stentry>
+        <stentry>
+          <xref keyref='business_definition_emergency_care_time_seen_for_treatment' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3646,16 +3597,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_female_genital_mutilation_identification_method_code' outputclass='element'></xref>
+          <xref keyref='attribute_female_genital_mutilation_identification_method_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_female_genital_mutilation_identification_method_code' outputclass='attribute'></xref>
+          <xref keyref='element_female_genital_mutilation_identification_method_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3681,16 +3632,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_first_antiretroviral_therapy_in_united_kingdom_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_first_antiretroviral_therapy_in_united_kingdom_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_first_antiretroviral_therapy_in_united_kingdom_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_first_antiretroviral_therapy_in_united_kingdom_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3919,16 +3870,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_gs1_application_identifier__internal_' outputclass='element'></xref>
+          <xref keyref='attribute_gs1_application_identifier__internal_' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_gs1_application_identifier__internal_' outputclass='attribute'></xref>
+          <xref keyref='element_gs1_application_identifier__internal_' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -3971,13 +3922,6 @@
         <stentry>NHS Business Definition</stentry>
         <stentry>
           <xref keyref='business_definition_genitourinary_consultant_clinic_attendance' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Supporting Information</stentry>
-        <stentry>
-          <xref keyref='supporting_definition_glossary_of_terms' outputclass='supportingInformation'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -4038,16 +3982,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_hepatitis_b_infection_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_hepatitis_b_infection_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_hepatitis_b_infection_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_hepatitis_b_infection_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -4416,16 +4360,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_international_neuroblastoma_risk_group_staging_system_stage' outputclass='attribute'></xref>
+          <xref keyref='element_international_neuroblastoma_risk_group_staging_system_stage' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_international_neuroblastoma_risk_group_staging_system_stage' outputclass='element'></xref>
+          <xref keyref='attribute_international_neuroblastoma_risk_group_staging_system_stage' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -4465,13 +4409,6 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_intravesical_chemotherapy_received_indicator' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_intravesical_chemotherapy_received_indicator' outputclass='attribute'></xref>
@@ -4479,9 +4416,9 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_intravesical_immunotherapy_received_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_intravesical_chemotherapy_received_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -4489,6 +4426,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_intravesical_immunotherapy_received_indicator' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_intravesical_immunotherapy_received_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -4696,16 +4640,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_laparotomy_for_necrotising_enterocolitis_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_laparotomy_for_necrotising_enterocolitis_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_laparotomy_for_necrotising_enterocolitis_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_laparotomy_for_necrotising_enterocolitis_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -5032,16 +4976,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_mental_health_absence_without_leave_end_reason' outputclass='attribute'></xref>
+          <xref keyref='element_mental_health_absence_without_leave_end_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_mental_health_absence_without_leave_end_reason' outputclass='element'></xref>
+          <xref keyref='attribute_mental_health_absence_without_leave_end_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -5060,16 +5004,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='element'></xref>
+          <xref keyref='attribute_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='attribute'></xref>
+          <xref keyref='element_mental_health_act_legal_status_classification_assignment_period_end_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -5109,16 +5053,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_mental_health_conditional_discharge_end_reason' outputclass='element'></xref>
+          <xref keyref='attribute_mental_health_conditional_discharge_end_reason' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_mental_health_conditional_discharge_end_reason' outputclass='attribute'></xref>
+          <xref keyref='element_mental_health_conditional_discharge_end_reason' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -5221,16 +5165,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_multidisciplinary_team_meeting_cancer_care_plan_not_discussed_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_multidisciplinary_team_meeting_cancer_care_plan_not_discussed_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_multidisciplinary_team_meeting_cancer_care_plan_not_discussed_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_multidisciplinary_team_meeting_cancer_care_plan_not_discussed_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -5487,16 +5431,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_neoadjuvant_therapy_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_neoadjuvant_therapy_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_neoadjuvant_therapy_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_neoadjuvant_therapy_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -5620,16 +5564,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_nhs_number_status_indicator_code' outputclass='element'></xref>
+          <xref keyref='attribute_nhs_number_status_indicator_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_nhs_number_status_indicator_code' outputclass='attribute'></xref>
+          <xref keyref='element_nhs_number_status_indicator_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -6257,13 +6201,6 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_original_decided_to_admit_date' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_original_decided_to_admit_date' outputclass='element'></xref>
@@ -6273,7 +6210,7 @@
       <strow>
         <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='attribute_original_referral_request_received_date' outputclass='attribute'></xref>
+          <xref keyref='attribute_original_decided_to_admit_date' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -6281,6 +6218,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_original_referral_request_received_date' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_original_referral_request_received_date' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -6600,16 +6544,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_parental_responsibilities_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_parental_responsibilities_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_parental_responsibilities_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_parental_responsibilities_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -7076,16 +7020,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_person_at_risk_of_unexpected_death_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_person_at_risk_of_unexpected_death_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_person_at_risk_of_unexpected_death_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_person_at_risk_of_unexpected_death_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -7223,13 +7167,6 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_photodynamic_therapy_performed_indicator' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_physical_activity_vital_sign_level' outputclass='attribute'></xref>
@@ -7286,16 +7223,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_post-exposure_prophylaxis_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_post-exposure_prophylaxis_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_post-exposure_prophylaxis_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_post-exposure_prophylaxis_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -7377,16 +7314,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_pre_exposure_prophylaxis_offer_status_code' outputclass='element'></xref>
+          <xref keyref='attribute_pre_exposure_prophylaxis_offer_status_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_pre_exposure_prophylaxis_offer_status_code' outputclass='attribute'></xref>
+          <xref keyref='element_pre_exposure_prophylaxis_offer_status_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -7405,13 +7342,6 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_pre-exposure_prophylaxis_indicator' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_pre-exposure_prophylaxis_indicator' outputclass='element'></xref>
@@ -7419,9 +7349,9 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_preferred_death_location_discussed_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_pre-exposure_prophylaxis_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -7429,6 +7359,13 @@
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_preferred_death_location_discussed_indicator' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_preferred_death_location_discussed_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -7699,16 +7636,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_psychotropic_medication_usage_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_psychotropic_medication_usage_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_psychotropic_medication_usage_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_psychotropic_medication_usage_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -7800,6 +7737,13 @@
         <stentry>Data Set</stentry>
         <stentry>
           <xref keyref='dataset_patient_level_information_costing_system_acute_data_set_-_supplementary_information' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_patient_level_information_costing_system_data_set_-_reconciliation' outputclass='dataSet'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -8091,16 +8035,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_referral_to_treatment_period_status' outputclass='element'></xref>
+          <xref keyref='attribute_referral_to_treatment_period_status' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_referral_to_treatment_period_status' outputclass='attribute'></xref>
+          <xref keyref='element_referral_to_treatment_period_status' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -8203,16 +8147,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_religious_or_other_belief_system_affiliation_code' outputclass='element'></xref>
+          <xref keyref='attribute_religious_or_other_belief_system_affiliation_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_religious_or_other_belief_system_affiliation_code' outputclass='attribute'></xref>
+          <xref keyref='element_religious_or_other_belief_system_affiliation_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -8294,16 +8238,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_retinopathy_of_prematurity_screening_outcome_status_code' outputclass='attribute'></xref>
+          <xref keyref='element_retinopathy_of_prematurity_screening_outcome_status_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_retinopathy_of_prematurity_screening_outcome_status_code' outputclass='element'></xref>
+          <xref keyref='attribute_retinopathy_of_prematurity_screening_outcome_status_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -8574,6 +8518,13 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_settled_accommodation_indicator' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
         <stentry>Attribute</stentry>
         <stentry>
           <xref keyref='attribute_settled_accommodation_indicator' outputclass='attribute'></xref>
@@ -8581,9 +8532,9 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_settled_accommodation_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_severe_cardiorespiratory_disease_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -8597,21 +8548,7 @@
       <strow>
         <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='attribute_severe_cardiorespiratory_disease_indicator' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
           <xref keyref='attribute_sex_of_patients' outputclass='attribute'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>Attribute</stentry>
-        <stentry>
-          <xref keyref='attribute_sexual_and_reproductive_health_care_activity' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -8619,6 +8556,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_sexual_and_reproductive_health_care_activity' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PATIENT</stentry>
+      </strow>
+      <strow>
+        <stentry>Attribute</stentry>
+        <stentry>
+          <xref keyref='attribute_sexual_and_reproductive_health_care_activity' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -9050,16 +8994,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_tobacco_smoking_cessation_treatment_indication_code' outputclass='element'></xref>
+          <xref keyref='attribute_tobacco_smoking_cessation_treatment_indication_code' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_tobacco_smoking_cessation_treatment_indication_code' outputclass='attribute'></xref>
+          <xref keyref='element_tobacco_smoking_cessation_treatment_indication_code' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -9078,16 +9022,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_transferred_from_neonatal_intensive_care_unit_for_necrotising_enterocolitis_management_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_transferred_from_neonatal_intensive_care_unit_for_necrotising_enterocolitis_management_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_transferred_from_neonatal_intensive_care_unit_for_necrotising_enterocolitis_management_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_transferred_from_neonatal_intensive_care_unit_for_necrotising_enterocolitis_management_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -9162,16 +9106,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_treatment_type_for_necrotising_enterocolitis' outputclass='attribute'></xref>
+          <xref keyref='element_treatment_type_for_necrotising_enterocolitis' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_treatment_type_for_necrotising_enterocolitis' outputclass='element'></xref>
+          <xref keyref='attribute_treatment_type_for_necrotising_enterocolitis' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
@@ -9311,13 +9255,6 @@
       <strow>
         <stentry>NHS Business Definition</stentry>
         <stentry>
-          <xref keyref='business_definition_urgent_treatment_centre' outputclass='businessDefinition'></xref>
-        </stentry>
-        <stentry>references in description PATIENT</stentry>
-      </strow>
-      <strow>
-        <stentry>NHS Business Definition</stentry>
-        <stentry>
           <xref keyref='business_definition_urine_output' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
@@ -9442,16 +9379,16 @@
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_ward_security_level' outputclass='attribute'></xref>
+          <xref keyref='element_ward_security_level' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_ward_security_level' outputclass='element'></xref>
+          <xref keyref='attribute_ward_security_level' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description PATIENT</stentry>
       </strow>

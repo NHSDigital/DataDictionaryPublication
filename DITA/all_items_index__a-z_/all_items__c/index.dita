@@ -709,6 +709,12 @@
       </strow>
       <strow>
         <stentry>
+          <xref keyref='attribute_cancer_treatment_modality_for_registration' outputclass='attribute'></xref>
+        </stentry>
+        <stentry>Attribute</stentry>
+      </strow>
+      <strow>
+        <stentry>
           <xref keyref='business_definition_cancer_treatment_period' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>NHS Business Definition</stentry>
@@ -1448,6 +1454,18 @@
       <strow>
         <stentry>
           <xref keyref='business_definition_care_professional_admitted_care_episode' outputclass='businessDefinition'></xref>
+        </stentry>
+        <stentry>NHS Business Definition</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='element_care_professional_clinical_responsibility_timestamp' outputclass='element'></xref>
+        </stentry>
+        <stentry>Data Element</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='business_definition_care_professional_clinical_responsibility_timestamp' outputclass='businessDefinition'></xref>
         </stentry>
         <stentry>NHS Business Definition</stentry>
       </strow>
@@ -2743,7 +2761,7 @@
       </strow>
       <strow>
         <stentry>
-          <xref keyref='dataset_cds_v6-2_type_010_-_accident_and_emergency_cds' outputclass='dataSet'></xref>
+          <xref keyref='dataset_cds_v6-2_type_010_-_accident_and_emergency_cds' outputclass='dataSet retired'></xref>
         </stentry>
         <stentry>Data Set</stentry>
       </strow>
@@ -2948,6 +2966,48 @@
       <strow>
         <stentry>
           <xref keyref='dataset_cds_v6-2-2_type_011_-_emergency_care_cds' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>Data Set</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_001_-_cds_interchange_header' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>Data Set</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_002_-_cds_interchange_trailer' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>Data Set</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_003_-_cds_message_header' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>Data Set</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_004_-_cds_message_trailer' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>Data Set</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>Data Set</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_005n_-_cds_transaction_header_group_-_net_change_protocol' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>Data Set</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_011_-_emergency_care_cds' outputclass='dataSet'></xref>
         </stentry>
         <stentry>Data Set</stentry>
       </strow>
@@ -4555,6 +4615,18 @@
       </strow>
       <strow>
         <stentry>
+          <xref keyref='element_coded_finding__snomed_ct_' outputclass='element'></xref>
+        </stentry>
+        <stentry>Data Element</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='element_coded_finding_timestamp' outputclass='element'></xref>
+        </stentry>
+        <stentry>Data Element</stentry>
+      </strow>
+      <strow>
+        <stentry>
           <xref keyref='element_coded_observation__clinical_terminology_' outputclass='element'></xref>
         </stentry>
         <stentry>Data Element</stentry>
@@ -4562,6 +4634,12 @@
       <strow>
         <stentry>
           <xref keyref='element_coded_observation__snomed_ct_' outputclass='element'></xref>
+        </stentry>
+        <stentry>Data Element</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='element_coded_observation_timestamp' outputclass='element'></xref>
         </stentry>
         <stentry>Data Element</stentry>
       </strow>
@@ -4766,6 +4844,12 @@
       <strow>
         <stentry>
           <xref keyref='xml_schema_constraint_commissioning_data_set_version_6-2-2_xml_schema_constraints' outputclass='xmlSchemaConstraint'></xref>
+        </stentry>
+        <stentry>XML Schema Constraint</stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <xref keyref='xml_schema_constraint_commissioning_data_set_version_6-2-3_xml_schema_constraints' outputclass='xmlSchemaConstraint'></xref>
         </stentry>
         <stentry>XML Schema Constraint</stentry>
       </strow>

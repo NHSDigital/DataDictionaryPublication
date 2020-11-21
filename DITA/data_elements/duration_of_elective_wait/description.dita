@@ -7,14 +7,14 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <xref outputclass="element" keyref="element_duration_of_elective_wait">DURATION OF ELECTIVE WAIT</xref>
+    <p>
+      <xref outputclass="element" keyref="element_duration_of_elective_wait">DURATION OF ELECTIVE WAIT</xref>
  is a derived item that records the waiting time from the 
               <xref outputclass="element" keyref="element_original_decided_to_admit_date">ORIGINAL DECIDED TO ADMIT DATE</xref>
  to the admission date at the provider where the treatment actually takes place.        </p>
-      <p>Enter 0000-8887 in days, right justified with preceding zeros.</p>
-      <p>A waiting time of 0 (zero) days is only to be entered after careful scrutiny.</p>
-      <p>
+    <p>Enter 0000-8887 in days, right justified with preceding zeros.</p>
+    <p>A waiting time of 0 (zero) days is only to be entered after careful scrutiny.</p>
+    <p>
 Please note that the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s 
               <xref outputclass="attribute" keyref="attribute_waiting_period_exclusion">WAITING PERIOD EXCLUSIONS</xref>

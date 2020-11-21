@@ -18,13 +18,10 @@
         <stentry>
   <p>
 Hospital Identifiers: identifies that the data immediately following the 
-        <xref outputclass="supportingInformation"
-            keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
  relates to local hospital identifiers, typically 
-        <xref outputclass="element"
-            keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>, 
-        <xref outputclass="element"
-            keyref="element_local_patient_identifier__extended_">LOCAL PATIENT IDENTIFIER (EXTENDED)</xref>
+        <xref outputclass="element" keyref="element_organisation_identifier__code_of_provider_">ORGANISATION IDENTIFIER (CODE OF PROVIDER)</xref>, 
+        <xref outputclass="element" keyref="element_local_patient_identifier__extended_">LOCAL PATIENT IDENTIFIER (EXTENDED)</xref>
  and the 
         <xref outputclass="class" keyref="class_organisation">ORGANISATION</xref>
  
@@ -38,16 +35,12 @@ Hospital Identifiers: identifies that the data immediately following the
         <stentry>
   <p>
 Baby Details: identifies that the data immediately following the 
-        <xref outputclass="supportingInformation"
-            keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
  relates to baby details, typically 
-        <xref outputclass="element"
-            keyref="element_number_of_babies_identification_code__patient_identification_">NUMBER OF BABIES IDENTIFICATION CODE (PATIENT IDENTIFICATION)</xref>, 
-        <xref outputclass="element"
-            keyref="element_person_family_name__mother_of_baby_">PERSON FAMILY NAME (MOTHER OF BABY)</xref>
+        <xref outputclass="element" keyref="element_number_of_babies_identification_code__patient_identification_">NUMBER OF BABIES IDENTIFICATION CODE (PATIENT IDENTIFICATION)</xref>, 
+        <xref outputclass="element" keyref="element_person_family_name__mother_of_baby_">PERSON FAMILY NAME (MOTHER OF BABY)</xref>
  and 
-        <xref outputclass="element"
-            keyref="element_person_given_name__mother_of_baby_">PERSON GIVEN NAME (MOTHER OF BABY)</xref>.     </p>
+        <xref outputclass="element" keyref="element_person_given_name__mother_of_baby_">PERSON GIVEN NAME (MOTHER OF BABY)</xref>.     </p>
 </stentry>
       </strow>
       <strow>
@@ -58,18 +51,15 @@ Baby Details: identifies that the data immediately following the
   <xref outputclass="class" keyref="class_patient">PATIENT</xref>
   <p>
  Descriptive Data: identifies that the data immediately following the 
-        <xref outputclass="supportingInformation"
-            keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
  relates to 
         <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  descriptive data, typically 
         <xref outputclass="element" keyref="element_person_family_name">PERSON FAMILY NAME</xref>, 
         <xref outputclass="element" keyref="element_person_given_name">PERSON GIVEN NAME</xref>, 
-        <xref outputclass="element"
-            keyref="element_date_of_birth__patient_identification_">DATE OF BIRTH (PATIENT IDENTIFICATION)</xref>
+        <xref outputclass="element" keyref="element_date_of_birth__patient_identification_">DATE OF BIRTH (PATIENT IDENTIFICATION)</xref>
  and 
-        <xref outputclass="element"
-            keyref="element_time_of_birth__patient_identification_">TIME OF BIRTH (PATIENT IDENTIFICATION)</xref>.    </p>
+        <xref outputclass="element" keyref="element_time_of_birth__patient_identification_">TIME OF BIRTH (PATIENT IDENTIFICATION)</xref>.    </p>
 </stentry>
       </strow>
       <strow>
@@ -79,19 +69,15 @@ Baby Details: identifies that the data immediately following the
         <stentry>
   <p>
 General Data: identifies that the data immediately following the 
-        <xref outputclass="supportingInformation"
-            keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
  is the 2 character code '00' followed by a 
         <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  
-        <xref outputclass="supportingInformation"
-            keyref="supporting_definition_gs1_global_service_relation_number">GS1 Global Service Relation Number</xref>. Note this Code is 
+        <xref outputclass="supportingInformation" keyref="supporting_definition_gs1_global_service_relation_number">GS1 Global Service Relation Number</xref>. Note this Code is 
         <b>NOT</b>
  valid for the 
-        <xref outputclass="dataSet"
-            keyref="dataset_aidc_for_patient_identification_data_set">AIDC for Patient Identification Data Set</xref>. All other uses of 
-        <xref outputclass="supportingInformation"
-            keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
+        <xref outputclass="dataSet" keyref="dataset_aidc_for_patient_identification_data_set">AIDC for Patient Identification Data Set</xref>. All other uses of 
+        <xref outputclass="supportingInformation" keyref="supporting_definition_gs1_application_identifier__internal_">GS1 Application Identifier (Internal)</xref>
  '94' are reserved for future use.    </p>
 </stentry>
       </strow>

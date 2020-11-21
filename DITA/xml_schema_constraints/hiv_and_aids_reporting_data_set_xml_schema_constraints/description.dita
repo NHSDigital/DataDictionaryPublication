@@ -7,659 +7,639 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 XML Schema constraints applied to the 
               <xref outputclass="dataSet" keyref="dataset_hiv_and_aids_reporting_data_set">HIV and AIDS Reporting Data Set</xref>.        </p>
-      <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
-      <ul>
-         <li>
-            <div>
-               <p>None = The National Codes and Default Codes are included in the XML Schema</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
-            </div>
-         </li>
-      </ul>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="6">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <colspec colname="col6" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>Data Element</b>
-                  </entry>
-                  <entry>
-                     <b>XML Schema Format/Length</b>
-                  </entry>
-                  <entry>
-                     <b>Allowed Values</b>
-                  </entry>
-                  <entry>
-                     <b>Range</b>
-                  </entry>
-                  <entry>
-                     <b>Pattern Match</b>
-                  </entry>
-                  <entry>
-                     <b>Reason / Comment / XML Choice</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_consultation_medium_used">CONSULTATION MEDIUM USED</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>01,02,03,04,05</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>National Code 06 and 98 not applicable - removed</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_country_code__birth_">COUNTRY CODE (BIRTH)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z][A-Z][A-Z]</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+    <p>The "Allowed Values" column indicates the NHS Data Model and Dictionary National Codes and Default Codes present in the XML Schema:</p>
+    <ul>
+      <li>
+        <div>
+          <p>None = The National Codes and Default Codes are included in the XML Schema</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>Removed = The National Codes and Default Codes are not included in the XML Schema.</p>
+        </div>
+      </li>
+    </ul>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="6">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <colspec colname="col6" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <b>Data Element</b>
+            </entry>
+            <entry>
+              <b>XML Schema Format/Length</b>
+            </entry>
+            <entry>
+              <b>Allowed Values</b>
+            </entry>
+            <entry>
+              <b>Range</b>
+            </entry>
+            <entry>
+              <b>Pattern Match</b>
+            </entry>
+            <entry>
+              <b>Reason / Comment / XML Choice</b>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_consultation_medium_used">CONSULTATION MEDIUM USED</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>01,02,03,04,05</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>National Code 06 and 98 not applicable - removed</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_country_code__birth_">COUNTRY CODE (BIRTH)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z][A-Z][A-Z]</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_country_code__birth_">COUNTRY CODE (BIRTH)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_country_code__hiv_infection_">COUNTRY CODE (HIV INFECTION)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[A-Z][A-Z][A-Z]</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_country_code__hiv_infection_">COUNTRY CODE (HIV INFECTION)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[A-Z][A-Z][A-Z]</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_country_code__hiv_infection_">COUNTRY CODE (HIV INFECTION)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_date_and_time_data_set_created">DATE AND TIME DATA SET CREATED</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T((0[1-9]|1[0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9]))</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_date_and_time_data_set_created">DATE AND TIME DATA SET CREATED</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(19|20)\d\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T((0[1-9]|1[0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9]))</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_date_and_time_data_set_created">DATE AND TIME DATA SET CREATED</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
-                  </entry>
-                  <entry>
-                     <p>max an2</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. Format/Length amended to max an2.</p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+            </entry>
+            <entry>
+              <p>max an2</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Second character can be for local use. Format/Length amended to max an2.</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_general_medical_practice_code__patient_registration_">GENERAL MEDICAL PRACTICE CODE (PATIENT REGISTRATION)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_hars_message_version_identifier">HARS MESSAGE VERSION IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d.\d.\d</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_hars_message_version_identifier">HARS MESSAGE VERSION IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d.\d.\d</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_hars_message_version_identifier">HARS MESSAGE VERSION IDENTIFIER</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_hars_submission_identifier">HARS SUBMISSION IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_hars_submission_identifier">HARS SUBMISSION IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_hars_submission_identifier">HARS SUBMISSION IDENTIFIER</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_hars_unique_identifier">HARS UNIQUE IDENTIFIER</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_hars_unique_identifier">HARS UNIQUE IDENTIFIER</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_hars_unique_identifier">HARS UNIQUE IDENTIFIER</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__code_of_provider_">ORGANISATION CODE (CODE OF PROVIDER)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_organisation_code__code_of_submitting_organisation_">ORGANISATION CODE (CODE OF SUBMITTING ORGANISATION)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_organisation_code__code_of_submitting_organisation_">ORGANISATION CODE (CODE OF SUBMITTING ORGANISATION)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
    
                         <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_site_code__of_previous_hiv_care_">SITE CODE (OF PREVIOUS HIV CARE)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_site_code__of_previous_hiv_care_">SITE CODE (OF PREVIOUS HIV CARE)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>Removed</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_site_code__of_treatment_">SITE CODE (OF TREATMENT)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>Removed</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_site_code__referred_to_for_shared_hiv_care_">SITE CODE (REFERRED TO FOR SHARED HIV CARE)</xref>
-                  </entry>
-                  <entry>
-                     <p>min an3 max an12</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_site_code__referred_to_for_shared_hiv_care_">SITE CODE (REFERRED TO FOR SHARED HIV CARE)</xref>
+            </entry>
+            <entry>
+              <p>min an3 max an12</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Field size extended to future proof for 
-                        <xref outputclass="supportingInformation"
-                              keyref="supporting_definition_organisation_data_service">ODS</xref>
-                        <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
+                        <xref outputclass="supportingInformation" keyref="supporting_definition_organisation_data_service">ODS</xref>
+                <xref outputclass="attribute" keyref="attribute_organisation_site_code">ORGANISATION SITE CODE</xref>
   changes                  </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_test_of_recent_infection_result__hiv_">TEST OF RECENT INFECTION RESULT (HIV)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>\d{1,3}\.\d{1}</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_test_of_recent_infection_result__hiv_">TEST OF RECENT INFECTION RESULT (HIV)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>\d{1,3}\.\d{1}</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_test_of_recent_infection_result__hiv_">TEST OF RECENT INFECTION RESULT (HIV)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_test_of_recent_infection_result__hiv_">TEST OF RECENT INFECTION RESULT (HIV)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p>
   
-                        <xref outputclass="element"
-                              keyref="element_year_and_month_first_started_antiretroviral_therapy">YEAR AND MONTH FIRST STARTED ANTIRETROVIRAL THERAPY</xref>
-                     </p>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(19|20)\d\d-(0[1-9]|1[012])</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_year_and_month_first_started_antiretroviral_therapy">YEAR AND MONTH FIRST STARTED ANTIRETROVIRAL THERAPY</xref>
+              </p>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(19|20)\d\d-(0[1-9]|1[012])</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_year_and_month_first_started_antiretroviral_therapy">YEAR AND MONTH FIRST STARTED ANTIRETROVIRAL THERAPY</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_year_and_month_of_last_care_professional_hiv_communication">YEAR AND MONTH OF LAST CARE PROFESSIONAL HIV COMMUNICATION</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(19|20)\d\d-(0[1-9]|1[012])</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_year_and_month_first_started_antiretroviral_therapy">YEAR AND MONTH FIRST STARTED ANTIRETROVIRAL THERAPY</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_year_and_month_of_last_care_professional_hiv_communication">YEAR AND MONTH OF LAST CARE PROFESSIONAL HIV COMMUNICATION</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(19|20)\d\d-(0[1-9]|1[012])</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_year_and_month_of_last_care_professional_hiv_communication">YEAR AND MONTH OF LAST CARE PROFESSIONAL HIV COMMUNICATION</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_year_and_month_of_last_negative_hiv_test">YEAR AND MONTH OF LAST NEGATIVE HIV TEST</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(19|20)\d\d-(0[1-9]|1[012])</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_year_and_month_of_last_care_professional_hiv_communication">YEAR AND MONTH OF LAST CARE PROFESSIONAL HIV COMMUNICATION</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_year_and_month_of_last_negative_hiv_test">YEAR AND MONTH OF LAST NEGATIVE HIV TEST</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(19|20)\d\d-(0[1-9]|1[012])</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_year_and_month_of_last_negative_hiv_test">YEAR AND MONTH OF LAST NEGATIVE HIV TEST</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element"
-                           keyref="element_year_of_diagnosis_outside_united_kingdom__hiv_">YEAR OF DIAGNOSIS OUTSIDE UNITED KINGDOM (HIV)</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(19|20){1}\d\d</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_year_and_month_of_last_negative_hiv_test">YEAR AND MONTH OF LAST NEGATIVE HIV TEST</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_year_of_diagnosis_outside_united_kingdom__hiv_">YEAR OF DIAGNOSIS OUTSIDE UNITED KINGDOM (HIV)</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(19|20){1}\d\d</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
-                        <xref outputclass="element"
-                              keyref="element_year_of_diagnosis_outside_united_kingdom__hiv_">YEAR OF DIAGNOSIS OUTSIDE UNITED KINGDOM (HIV)</xref>
-                     </p>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_year_of_uk_entry">YEAR OF UK ENTRY</xref>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>None</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <div>
-                        <p>(19|20){1}\d\d</p>
-                     </div>
-                  </entry>
-                  <entry>
-                     <p>
+                        <xref outputclass="element" keyref="element_year_of_diagnosis_outside_united_kingdom__hiv_">YEAR OF DIAGNOSIS OUTSIDE UNITED KINGDOM (HIV)</xref>
+              </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_year_of_uk_entry">YEAR OF UK ENTRY</xref>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>None</p>
+              </div>
+            </entry>
+            <entry>
+              <div>
+                <p>(19|20){1}\d\d</p>
+              </div>
+            </entry>
+            <entry>
+              <p>
 Format pattern applied to allow correct reporting of 
                         <xref outputclass="element" keyref="element_year_of_uk_entry">YEAR OF UK ENTRY</xref>
-                     </p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+              </p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

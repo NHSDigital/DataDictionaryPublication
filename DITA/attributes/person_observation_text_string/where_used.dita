@@ -22,14 +22,28 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_assault_location_description' outputclass='element'></xref>
+          <xref keyref='element_pathology_report_text' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
       </strow>
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_stop_smoking_intervention_setting_type_reason_for_exception' outputclass='element'></xref>
+          <xref keyref='element_primary_diagnosis__cancer_comment_' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_death_cause_recorded_text' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_childrens_cancer_and_leukaemia_group_guideline_name' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
       </strow>
@@ -50,6 +64,27 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
+          <xref keyref='element_special_diet_description' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_imaging_report_text' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_neurodevelopmental_assessment_test_name' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
           <xref keyref='element_death_cause_recorded_text__contributing_condition_' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
@@ -57,7 +92,7 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_familial_cancer_syndrome_comment' outputclass='element'></xref>
+          <xref keyref='element_secondary_diagnosis__cancer_comment_' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
       </strow>
@@ -71,14 +106,7 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_death_cause_recorded_text' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_imaging_report_text' outputclass='element'></xref>
+          <xref keyref='element_disease_outbreak_notification_description' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
       </strow>
@@ -99,49 +127,28 @@
       <strow>
         <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='element_special_diet_description' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_childrens_cancer_and_leukaemia_group_guideline_name' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_secondary_diagnosis__cancer_comment_' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_neurodevelopmental_assessment_test_name' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_pathology_report_text' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_primary_diagnosis__cancer_comment_' outputclass='element'></xref>
-        </stentry>
-        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
           <xref keyref='element_stop_smoking_intervention_session_type_reason_for_exception' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_assault_location_description' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_stop_smoking_intervention_setting_type_reason_for_exception' outputclass='element'></xref>
+        </stentry>
+        <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_familial_cancer_syndrome_comment' outputclass='element'></xref>
         </stentry>
         <stentry>is the data element of PERSON OBSERVATION TEXT STRING</stentry>
       </strow>
@@ -212,6 +219,13 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_disease_outbreak_notification' outputclass='element'></xref>
+        </stentry>
+        <stentry>references in description PERSON OBSERVATION TEXT STRING</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Element</stentry>
+        <stentry>
+          <xref keyref='element_disease_outbreak_notification_description' outputclass='element'></xref>
         </stentry>
         <stentry>references in description PERSON OBSERVATION TEXT STRING</stentry>
       </strow>

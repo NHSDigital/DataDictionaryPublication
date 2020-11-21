@@ -34,16 +34,16 @@
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_cds_interchange_control_count' outputclass='element'></xref>
+          <xref keyref='attribute_cds_interchange_control_count' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_cds_interchange_control_count' outputclass='attribute'></xref>
+          <xref keyref='element_cds_interchange_control_count' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
@@ -76,16 +76,16 @@
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
       <strow>
-        <stentry>Attribute</stentry>
+        <stentry>Data Element</stentry>
         <stentry>
-          <xref keyref='attribute_cds_interchange_test_indicator' outputclass='attribute'></xref>
+          <xref keyref='element_cds_interchange_test_indicator' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
       <strow>
-        <stentry>Data Element</stentry>
+        <stentry>Attribute</stentry>
         <stentry>
-          <xref keyref='element_cds_interchange_test_indicator' outputclass='element'></xref>
+          <xref keyref='attribute_cds_interchange_test_indicator' outputclass='attribute'></xref>
         </stentry>
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
@@ -191,13 +191,6 @@
         <stentry>Data Set</stentry>
         <stentry>
           <xref keyref='dataset_cds_v6-2_type_005n_-_cds_transaction_header_group_-_net_change_protocol' outputclass='dataSet'></xref>
-        </stentry>
-        <stentry>references in description Commissioning Data Sets Introduction</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Set</stentry>
-        <stentry>
-          <xref keyref='dataset_cds_v6-2_type_010_-_accident_and_emergency_cds' outputclass='dataSet'></xref>
         </stentry>
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
@@ -440,6 +433,55 @@
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>
       <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_001_-_cds_interchange_header' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Commissioning Data Sets Introduction</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_002_-_cds_interchange_trailer' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Commissioning Data Sets Introduction</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_003_-_cds_message_header' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Commissioning Data Sets Introduction</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_004_-_cds_message_trailer' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Commissioning Data Sets Introduction</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_005b_-_cds_transaction_header_group_-_bulk_update_protocol' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Commissioning Data Sets Introduction</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_005n_-_cds_transaction_header_group_-_net_change_protocol' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Commissioning Data Sets Introduction</stentry>
+      </strow>
+      <strow>
+        <stentry>Data Set</stentry>
+        <stentry>
+          <xref keyref='dataset_cds_v6-2-3_type_011_-_emergency_care_cds' outputclass='dataSet'></xref>
+        </stentry>
+        <stentry>references in description Commissioning Data Sets Introduction</stentry>
+      </strow>
+      <strow>
         <stentry>Supporting Information</stentry>
         <stentry>
           <xref keyref='supporting_definition_commissioning_data_set_business_rules' outputclass='supportingInformation'></xref>
@@ -492,13 +534,6 @@
         <stentry>Data Element</stentry>
         <stentry>
           <xref keyref='element_earliest_reasonable_offer_date' outputclass='element'></xref>
-        </stentry>
-        <stentry>references in description Commissioning Data Sets Introduction</stentry>
-      </strow>
-      <strow>
-        <stentry>Data Element</stentry>
-        <stentry>
-          <xref keyref='element_investigation_scheme_in_use' outputclass='element'></xref>
         </stentry>
         <stentry>references in description Commissioning Data Sets Introduction</stentry>
       </strow>

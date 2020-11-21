@@ -7,94 +7,79 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The source of referral of each 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>.        </p>
-      <p>Notes:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>.        </p>
+    <p>Notes:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 National Code 12 
                                 <i>'referral from a 
-                                    <xref outputclass="businessDefinition"
-                           keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
- (<xref outputclass="businessDefinition"
-                           keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>) or 
-                                    <xref outputclass="businessDefinition"
-                           keyref="business_definition_dentist_with_enhanced_skills">Dentist with Enhanced Skills</xref>
- (<xref outputclass="businessDefinition"
-                           keyref="business_definition_dentist_with_enhanced_skills">DES</xref>)                        </i>' has been updated in 
-                                <xref href="https://www.datadictionary.nhs.uk/DDCNs/cr1752.pdf"
-                        scope="external"
-                        format="html">Data Dictionary Change Notice 1752 "Practitioners with a Special Interest Name Change"</xref>. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.                    </p>
-            </div>
-         </li>
-         <li>
+                                    <xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>) or 
+                                    <xref outputclass="businessDefinition" keyref="business_definition_dentist_with_enhanced_skills">Dentist with Enhanced Skills</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_dentist_with_enhanced_skills">DES</xref>)                        </i>' has been updated in 
+                                <xref href="https://www.datadictionary.nhs.uk/DDCNs/cr1752.pdf" scope="external" format="html">Data Dictionary Change Notice 1752 "Practitioners with a Special Interest Name Change"</xref>. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>National Code descriptions have been updated to remove National Code headings and add prefixes where required. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.</p>
+        </div>
+        <ul>
+          <li>
             <div>
-               <p>National Code descriptions have been updated to remove National Code headings and add prefixes where required. The Data Set specifications that contain this item will be updated in the next version of the Information Standard where it is not already correct.</p>
+              <p>The explanation of the National Code description prefixes are:</p>
             </div>
             <ul>
-               <li>
-                  <div>
-                     <p>The explanation of the National Code description prefixes are:</p>
-                  </div>
-                  <ul>
-                     <li>
-                        <div>
-                           <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
-                           <p>
+              <li>
+                <div>
+                  <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+                  <p>
  initiated: Initiated by the 
                                                         <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  responsible for the 
-                                                        <xref outputclass="businessDefinition"
-                                    keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
-                           </p>
-                        </div>
-                     </li>
-                     <li>
-                        <div>
-                           <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
-                           <p>
+                                                        <xref outputclass="businessDefinition" keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+                  <p>
  not initiated: Not initiated by the 
                                                         <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  responsible for the 
-                                                        <xref outputclass="businessDefinition"
-                                    keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>.                                    </p>
-                        </div>
-                     </li>
-                  </ul>
-               </li>
+                                                        <xref outputclass="businessDefinition" keyref="business_definition_consultant_out-patient_episode">Consultant Out-Patient Episode</xref>.                                    </p>
+                </div>
+              </li>
             </ul>
-         </li>
-         <li>
-            <div>
-               <p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div>
+          <p>
 Where a 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is referred by a 
                                 <xref outputclass="class" keyref="class_general_practitioner">GENERAL PRACTITIONER</xref>
  acting in the capacity of a 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
- (<xref outputclass="businessDefinition"
-                        keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>), National Code 12 
+                                <xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>), National Code 12 
                                 <i>'<xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  not initiated following a referral from a 
-                                    <xref outputclass="businessDefinition"
-                           keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
- (<xref outputclass="businessDefinition"
-                           keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>) or 
-                                    <xref outputclass="businessDefinition"
-                           keyref="business_definition_dentist_with_enhanced_skills">Dentist with Enhanced Skills</xref>
- (<xref outputclass="businessDefinition"
-                           keyref="business_definition_dentist_with_enhanced_skills">DES</xref>)                        </i>' should be used.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+                                    <xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>) or 
+                                    <xref outputclass="businessDefinition" keyref="business_definition_dentist_with_enhanced_skills">Dentist with Enhanced Skills</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_dentist_with_enhanced_skills">DES</xref>)                        </i>' should be used.                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Where a 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  is referred by that 
@@ -110,11 +95,11 @@ Where a
  not initiated following a referral from a 
                                     <xref outputclass="class" keyref="class_general_dental_practitioner">GENERAL DENTAL PRACTITIONER</xref>'</i>
  should be used as appropriate.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Two Week Wait Referrals made by Specialist 
                                 <xref outputclass="class" keyref="class_nurse">NURSES</xref>
  in Primary Care, under the authority of the 
@@ -130,10 +115,76 @@ Two Week Wait Referrals made by Specialist
                                 <i>'<xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
  not initiated following a referral from a Specialist 
                                     <xref outputclass="class" keyref="class_nurse">NURSE</xref>
- (Secondary Care)'</i>.                    </p>
+ (Secondary Care)'</i>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
+The following National Codes have been updated in 
+                                <xref href="https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0092-2062-commissioning-data-sets-emergency-care-data-set" scope="external" format="html">DCB0092-2062: Commissioning Data Sets: Emergency Care Data Set</xref>. The Data Set specifications that contain these items will be updated in the next version of the Information Standard where it is not already correct:                    </p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
+10 
+                                            <i>'<xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+                </i>
+                <i>initiated following an</i>
+                <i>
+                  <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_attendance">Emergency Care Attendance</xref>
+                </i>
+                <i>
+(including Minor Injuries Units, Walk In Centres and 
+                                                <xref outputclass="businessDefinition" keyref="business_definition_urgent_treatment_centre">Urgent Treatment Centres</xref>
+                </i>)'</p>
             </div>
-         </li>
-      </ul>
+          </li>
+          <li>
+            <div>
+              <p>
+04 
+                                            <i>'<xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+                </i>
+                <i> not initiated following a referral from a</i>
+                <i>
+                  <xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">General Practitioner with an Extended Role</xref>
+                </i>
+                <i>
+ (<xref outputclass="businessDefinition" keyref="business_definition_general_practitioner_with_an_extended_role">GPwER</xref>
+                </i>
+                <i>) or</i>
+                <i>
+                  <xref outputclass="businessDefinition" keyref="business_definition_dentist_with_enhanced_skills">Dentist with Enhanced Skills</xref>
+                </i>
+                <i>
+ (<xref outputclass="businessDefinition" keyref="business_definition_dentist_with_enhanced_skills">DES</xref>
+                </i>
+                <i>)'</i>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>
+05 
+                                            <i>'<xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+                </i>
+                <i> not initiated following a referral from a</i>
+                <i>
+                  <xref outputclass="class" keyref="class_consultant">CONSULTANT</xref>
+                </i>
+                <i>, other than in an</i>
+                <i>
+                  <xref outputclass="businessDefinition" keyref="business_definition_emergency_care_department">Emergency Care Department</xref>
+                </i>'.                            </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

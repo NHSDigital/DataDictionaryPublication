@@ -7,31 +7,29 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An identifier, which together with the 
               <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
  / 
               <xref outputclass="attribute" keyref="attribute_organisation_identifier">ORGANISATION IDENTIFIER</xref>
  of the issuer, uniquely identifies a 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>.        </p>
-      <p>
+    <p>
 This is a specific type of the attribute 
               <xref outputclass="attribute" keyref="attribute_activity_identifier">ACTIVITY IDENTIFIER</xref>.        </p>
-      <p>
+    <p>
 Where a pathway is initiated by a 
               <xref outputclass="class" keyref="class_service_request">SERVICE REQUEST</xref>
  using the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_choose_and_book">Choose and Book</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_choose_and_book">Choose and Book</xref>
  system, the 
               <xref outputclass="class" keyref="class_patient_pathway">PATIENT PATHWAY</xref>
  will be uniquely identified by the Unique Booking Reference Number (UBRN) of the first referral and the 
               <xref outputclass="attribute" keyref="attribute_organisation_code">ORGANISATION CODE</xref>
  of 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_choose_and_book">Choose and Book</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_choose_and_book">Choose and Book</xref>
  which is X09.        </p>
-      <p>
+    <p>
 Where the pathway is initiated by some other method, the 
               <xref outputclass="attribute" keyref="attribute_patient_pathway_identifier">PATIENT PATHWAY IDENTIFIER</xref>
  will be allocated by the 

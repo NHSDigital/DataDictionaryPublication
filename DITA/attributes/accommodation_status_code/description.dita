@@ -7,51 +7,48 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An indication of the type of accommodation that a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  currently has. This should be based on the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>'s main or permanent residence.        </p>
-      <p>Notes:</p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
-               <p>
+    <p>Notes:</p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_organisation">ORGANISATIONS</xref>
+          <p>
  may choose to collect the 
                                 <xref outputclass="attribute" keyref="attribute_accommodation_status_code">ACCOMMODATION STATUS CODE</xref>
  codes at the high level (National Codes ending in "0") or at the more detailed level below each high-level code.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 The following National Codes have been introduced to add further granularity to National Code CJ03 
-                                <i>'<xref outputclass="businessDefinition"
-                           keyref="business_definition_young_offender_institution">Young Offender Institution</xref>'</i>. However, National Code CJ03 is still valid where extra detail cannot be collected:                    </p>
-            </div>
-            <ul>
-               <li>
-                  <div>
-                     <p>
+                                <i>'<xref outputclass="businessDefinition" keyref="business_definition_young_offender_institution">Young Offender Institution</xref>'</i>. However, National Code CJ03 is still valid where extra detail cannot be collected:                    </p>
+        </div>
+        <ul>
+          <li>
+            <div>
+              <p>
 CJ05 
-                                            <i>'<xref outputclass="businessDefinition"
-                                 keyref="business_definition_young_offender_institution__15-17_">Young Offender Institution (15-17)</xref>'</i>
-                     </p>
-                  </div>
-               </li>
-               <li>
-                  <div>
-                     <p>
+                                            <i>'<xref outputclass="businessDefinition" keyref="business_definition_young_offender_institution__15-17_">Young Offender Institution (15-17)</xref>'</i>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>
 CJ06 
-                                            <i>'<xref outputclass="businessDefinition"
-                                 keyref="business_definition_young_offender_institution__18-21_">Young Offender Institution (18-21)</xref>'.                                </i>
-                     </p>
-                  </div>
-               </li>
-            </ul>
-         </li>
-      </ul>
+                                            <i>'<xref outputclass="businessDefinition" keyref="business_definition_young_offender_institution__18-21_">Young Offender Institution (18-21)</xref>'.                                </i>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

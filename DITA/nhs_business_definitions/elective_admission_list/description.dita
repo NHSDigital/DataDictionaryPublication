@@ -7,69 +7,61 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission List</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>
  is a 
               <xref outputclass="class" keyref="class_waiting_list">WAITING LIST</xref>.        </p>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission List</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>
  is a list of 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>, for whom a 
               <xref outputclass="class" keyref="class_decision_to_admit">DECISION TO ADMIT</xref>
  has been made, currently awaiting admission regardless of whether a date to admit has been given.        </p>
-      <p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission List</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>
  does not include 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  waiting for a first 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>.        </p>
-      <p>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission Lists</xref>:        </p>
-      <ul>
-         <li>
-            <div>
-               <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_out-patient_attendance_consultant">Out-Patient Attendance Consultant</xref>.        </p>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission Lists</xref>:        </p>
+    <ul>
+      <li>
+        <div>
+          <p>
 can be maintained in several forms, using either computer or manual systems, including 
                                 <xref outputclass="class" keyref="class_consultant">CONSULTANTS</xref>' diaries                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 may be kept by 
                                 <xref outputclass="attribute" keyref="attribute_treatment_function_code">TREATMENT FUNCTION CODE</xref>
  or for an individual 
                                 <xref outputclass="class" keyref="class_care_professional">CARE PROFESSIONAL</xref>.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
+        </div>
+      </li>
+    </ul>
+    <p>
 A 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  can be on more than one 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission List</xref>. This may be because the 
+              <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>. This may be because the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  needs treatment for more than one condition or because the 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  has been placed on the list of more than one 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  for the same condition.        </p>
-      <p>
+    <p>
 It is also possible for a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  to be entered on an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission List</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>
  more than once, either for a different condition or for the same condition, where two or more admissions are required. For example, a 
               <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  would have two 
@@ -77,31 +69,24 @@ It is also possible for a
  on a list where the intention was to perform two or more operations requiring two or more admissions, such as repair of inguinal hernia and operation on varicose veins. Only one 
               <xref outputclass="class" keyref="class_elective_admission_list_entry">ELECTIVE ADMISSION LIST ENTRY</xref>
  should be made in the event of the intention to perform two or more procedures during one admission.        </p>
-      <p>
-         <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
+    <p>
+      <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  already in a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_bed">Hospital Bed</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_bed">Hospital Bed</xref>
  who are waiting for transfer in the same 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  unit or to another 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_health_care_provider">Health Care Provider</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_health_care_provider">Health Care Provider</xref>
  unit cannot be included in an 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission List</xref>.        </p>
-      <p>
+              <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>.        </p>
+    <p>
 An 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_elective_admission_list">Elective Admission List</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_elective_admission_list">Elective Admission List</xref>
  is only for 
               <xref outputclass="class" keyref="class_patient">PATIENTS</xref>
  without a current 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>, waiting for admission to hospital to start a 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>, waiting for admission to hospital to start a 
+              <xref outputclass="businessDefinition" keyref="business_definition_hospital_provider_spell">Hospital Provider Spell</xref>.        </p>
   </div>
 </body>
 </topic>

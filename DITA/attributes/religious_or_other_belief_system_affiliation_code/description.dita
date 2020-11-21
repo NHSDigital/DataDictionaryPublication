@@ -7,103 +7,88 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 The 
-              <xref outputclass="class"
-               keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>
+              <xref outputclass="class" keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>
  of a 
               <xref outputclass="class" keyref="class_person">PERSON</xref>, as specified by a 
               <xref outputclass="class" keyref="class_person">PERSON</xref>.        </p>
-      <p>
+    <p>
 Note: This is the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_religious_affiliation">Religious Affiliation</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_religious_affiliation">Religious Affiliation</xref>
  of a 
               <xref outputclass="class" keyref="class_person">PERSON</xref>, not their 
               <xref outputclass="businessDefinition" keyref="business_definition_religion">Religion</xref>.        </p>
-      <p>
+    <p>
 Where applicable, 
-              <xref outputclass="attribute"
-               keyref="attribute_religious_or_other_belief_system_affiliation_code">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION CODE</xref>
+              <xref outputclass="attribute" keyref="attribute_religious_or_other_belief_system_affiliation_code">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION CODE</xref>
  is aligned with descriptors for "Religious and Other Belief System Affiliation" in 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct">SNOMED CT</xref>
 ® as follows:        </p>
-      <p>
-         <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
+    <p>
+      <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
  Metadata:        </p>
-      <ul>
-         <li>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_snomed_ct_refset">Refset</xref>
-            <p>FSN: Religious or other belief system affiliation simple reference set (foundation metadata concept)</p>
-         </li>
-         <li>
-            <xref outputclass="supportingInformation"
-                  keyref="supporting_definition_snomed_ct_refset">Refset</xref>
-            <p>Id: 999000531000000100</p>
-         </li>
-      </ul>
-      <p>
+    <ul>
+      <li>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">Refset</xref>
+        <p>FSN: Religious or other belief system affiliation simple reference set (foundation metadata concept)</p>
+      </li>
+      <li>
+        <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">Refset</xref>
+        <p>Id: 999000531000000100</p>
+      </li>
+    </ul>
+    <p>
 For further details relating to the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_snomed_ct_refset">SNOMED CT Refset</xref>
  Metadata, see the 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_data_dictionary_for_care">Data Dictionary for Care</xref>
- (<xref outputclass="supportingInformation"
-               keyref="supporting_definition_data_dictionary_for_care">DD4C</xref>) website at: 
-              <xref href="https://dd4c.digital.nhs.uk/dd4c/publishedmetadatas/intid/229"
-               scope="external"
-               format="html">Religious or Other Belief System Affiliation</xref>.        </p>
-      <p>This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained to ensure the modelling is consistent.</p>
-      <p>Notes:</p>
-      <ul>
-         <li>
-            <div>
-               <p>
+              <xref outputclass="supportingInformation" keyref="supporting_definition_data_dictionary_for_care">Data Dictionary for Care</xref>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_data_dictionary_for_care">DD4C</xref>) website at: 
+              <xref href="https://dd4c.digital.nhs.uk/dd4c/publishedmetadatas/intid/229" scope="external" format="html">Religious or Other Belief System Affiliation</xref>.        </p>
+    <p>This item is not referenced in a data set in the NHS Data Model and Dictionary. It has been retained to ensure the modelling is consistent.</p>
+    <p>Notes:</p>
+    <ul>
+      <li>
+        <div>
+          <p>
 Where the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-                  <b>has been asked</b>
+            <b>has been asked</b>
  for their 
-                                <xref outputclass="class"
-                        keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>
+                                <xref outputclass="class" keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>
  but they are unsure what it is: National Code 
                                 <i>'KI Agnostic'</i>
  should be used                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Where the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-                  <b> has been asked</b>
+            <b> has been asked</b>
  for their 
-                                <xref outputclass="class"
-                        keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>
+                                <xref outputclass="class" keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>
  and it is one that is not listed: National Code 
                                 <i>'K20 Religion (Other Not Listed)'</i>
  should be used                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>
 Where the 
                                 <xref outputclass="class" keyref="class_patient">PATIENT</xref>
-                  <b>has not been asked</b>
+            <b>has not been asked</b>
  for their 
-                                <xref outputclass="class"
-                        keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>: National Code 
+                                <xref outputclass="class" keyref="class_religious_or_other_belief_system_affiliation">RELIGIOUS OR OTHER BELIEF SYSTEM AFFILIATION</xref>: National Code 
                                 <i>'N1 
                                     <xref outputclass="class" keyref="class_patient">PATIENT</xref>
  Religion Unknown'</i>
  should be used                    </p>
-            </div>
-         </li>
-      </ul>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

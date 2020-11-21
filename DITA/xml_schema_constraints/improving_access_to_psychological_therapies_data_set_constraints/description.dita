@@ -7,55 +7,54 @@
   </titlealts>
   <body>
   <div>
-      <p>
+    <p>
 Data Set constraints applied to the 
-              <xref outputclass="dataSet"
-               keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>.        </p>
-      <table outputclass="table table-striped table-bordered table-sm">
-         <tgroup cols="5">
-            <colspec colname="col1" colwidth="1*"/>
-            <colspec colname="col2" colwidth="1*"/>
-            <colspec colname="col3" colwidth="1*"/>
-            <colspec colname="col4" colwidth="1*"/>
-            <colspec colname="col5" colwidth="1*"/>
-            <tbody>
-               <row>
-                  <entry>
-                     <b>Data Element</b>
-                  </entry>
-                  <entry>
-                     <b>Format/Length</b>
-                  </entry>
-                  <entry>
-                     <b>Range</b>
-                  </entry>
-                  <entry>
-                     <b>Pattern Match</b>
-                  </entry>
-                  <entry>
-                     <b>Reason / Comment</b>
-                  </entry>
-               </row>
-               <row>
-                  <entry>
-                     <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
-                  </entry>
-                  <entry>
-                     <p>max an2</p>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <p>None</p>
-                  </entry>
-                  <entry>
-                     <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Data Set allows max an2</p>
-                  </entry>
-               </row>
-            </tbody>
-         </tgroup>
-      </table>
+              <xref outputclass="dataSet" keyref="dataset_improving_access_to_psychological_therapies_data_set">Improving Access to Psychological Therapies Data Set</xref>.        </p>
+    <table outputclass="table table-striped table-bordered table-sm">
+      <tgroup cols="5">
+        <colspec colname="col1" colwidth="1*"/>
+        <colspec colname="col2" colwidth="1*"/>
+        <colspec colname="col3" colwidth="1*"/>
+        <colspec colname="col4" colwidth="1*"/>
+        <colspec colname="col5" colwidth="1*"/>
+        <tbody>
+          <row>
+            <entry>
+              <b>Data Element</b>
+            </entry>
+            <entry>
+              <b>Format/Length</b>
+            </entry>
+            <entry>
+              <b>Range</b>
+            </entry>
+            <entry>
+              <b>Pattern Match</b>
+            </entry>
+            <entry>
+              <b>Reason / Comment</b>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <xref outputclass="element" keyref="element_ethnic_category">ETHNIC CATEGORY</xref>
+            </entry>
+            <entry>
+              <p>max an2</p>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <p>None</p>
+            </entry>
+            <entry>
+              <p>Existing Format/Length means fixed length which is incorrect. Unable to change this as it is used in other data sets. Data Set allows max an2</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
   </div>
 </body>
 </topic>

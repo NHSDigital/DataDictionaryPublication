@@ -7,184 +7,146 @@
   </titlealts>
   <body>
   <div>
-      <p>
-         <b>Introduction</b>
-      </p>
-      <p>
+    <p>
+      <b>Introduction</b>
+    </p>
+    <p>
 The 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_data_set">NHS Continuing Healthcare Data Set</xref>
+ is transmitted at aggregate level to the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_digital">NHS Digital</xref>
+ 
+              <xref outputclass="supportingInformation" keyref="supporting_definition_strategic_data_collection_service">Strategic Data Collection Service</xref>
+ (<xref outputclass="supportingInformation" keyref="supporting_definition_strategic_data_collection_service">SDCS</xref>) with publication outputs available on the 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_england">NHS England</xref>
+ website at: 
+              <xref href="https://www.england.nhs.uk/statistics/statistical-work-areas/nhs-chc-fnc/" scope="external" format="html">NHS Continuing Healthcare and NHS-funded Nursing Care</xref>.         </p>
+    <p>
+The 
+              <xref outputclass="businessDefinition" keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
  introduced the 
-              <xref href="https://www.gov.uk/government/publications/national-framework-for-nhs-continuing-healthcare-and-nhs-funded-nursing-care"
-               scope="external"
-               format="html">National framework for NHS continuing healthcare and NHS-funded nursing care</xref>
+              <xref href="https://www.gov.uk/government/publications/national-framework-for-nhs-continuing-healthcare-and-nhs-funded-nursing-care" scope="external" format="html">National framework for NHS continuing healthcare and NHS-funded nursing care</xref>
  in 2007 to establish a consistent and standardised guide to implementing the delivery of 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
- (<xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS CHC</xref>). This was last revised in March 2018 and replaces the previous 2012 version. The National Framework sets out 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS CHC</xref>). This was last revised in March 2018 and replaces the previous 2012 version. The National Framework sets out 
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  and assessment processes. The latest version places a strong focus on moving assessments outside of an acute setting.        </p>
-      <p>
-         <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+    <p>
+      <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  is a package of ongoing care that is 100% funded solely by the NHS where the 
               <xref outputclass="class" keyref="class_person">PERSON</xref>
  has been found to have a 'primary health need' as set out in the 
-              <xref href="https://www.gov.uk/government/publications/national-framework-for-nhs-continuing-healthcare-and-nhs-funded-nursing-care"
-               scope="external"
-               format="html">National framework for NHS continuing healthcare and NHS funded nursing care</xref>. Such care is provided to a 
+              <xref href="https://www.gov.uk/government/publications/national-framework-for-nhs-continuing-healthcare-and-nhs-funded-nursing-care" scope="external" format="html">National framework for NHS continuing healthcare and NHS funded nursing care</xref>. Such care is provided to a 
               <xref outputclass="class" keyref="class_person">PERSON</xref>
  aged 18 or over, to meet needs that have arisen as a result of disability, accident or illness.        </p>
-      <p>
+    <p>
 In order to monitor the implementation and effectiveness of the Framework, a mandatory collection requires the submission of quarterly figures on 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  and 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>
+              <xref outputclass="businessDefinition" keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>
  activity.        </p>
-      <p>
-         <b>The collection includes</b>
-      </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_person">PERSONS</xref>
-               <p>
+    <p>
+      <b>The collection includes</b>
+    </p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_person">PERSONS</xref>
+          <p>
 aged 18 or over eligible for 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  as defined by the 
-                                <xref href="https://www.gov.uk/government/publications/national-framework-for-nhs-continuing-healthcare-and-nhs-funded-nursing-care"
-                        scope="external"
-                        format="html">National framework for NHS continuing healthcare and NHS-funded nursing care</xref>.                     </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_person">PERSONS</xref>
-               <p>
+                                <xref href="https://www.gov.uk/government/publications/national-framework-for-nhs-continuing-healthcare-and-nhs-funded-nursing-care" scope="external" format="html">National framework for NHS continuing healthcare and NHS-funded nursing care</xref>.                     </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_person">PERSONS</xref>
+          <p>
 still recognised as eligible under the former 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_strategic_health_authority">Strategic Health Authorities</xref>' eligibility criteria.                    </p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_person">PERSONS</xref>
-               <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_strategic_health_authority">Strategic Health Authorities</xref>' eligibility criteria.                    </p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_person">PERSONS</xref>
+          <p>
  identified as eligible for 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  following assessment of eligibility for 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Period of Care</xref>
- (<xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">PUPoC</xref>). This includes 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Periods of Care</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Period of Care</xref>
+ (<xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">PUPoC</xref>). This includes 
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Periods of Care</xref>
  related to the 'closedown' announcement made by the 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
  in 2012 in which deadlines were introduced for requesting assessments of eligibility for past periods of care falling between 1st April 2004 and 31st March 2012. This also includes non-closedown 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Periods of Care</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare_previously_unassessed_period_of_care">Previously Unassessed Periods of Care</xref>
  relating to assessments of eligibility for past periods of care falling after 31st March 2012.                    </p>
-            </div>
-         </li>
-      </ul>
-      <p>
-         <b>The collection excludes:</b>
-      </p>
-      <ul>
-         <li>
-            <div>
-               <xref outputclass="class" keyref="class_person">PERSONS</xref>
-               <p>
+        </div>
+      </li>
+    </ul>
+    <p>
+      <b>The collection excludes:</b>
+    </p>
+    <ul>
+      <li>
+        <div>
+          <xref outputclass="class" keyref="class_person">PERSONS</xref>
+          <p>
 funded through other NHS funding streams which are not 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  or 
-                                <xref outputclass="businessDefinition"
-                        keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>
-               </p>
-            </div>
-            <xref outputclass="class" keyref="class_person">PERSONS</xref>
-            <p>
+                                <xref outputclass="businessDefinition" keyref="business_definition_nhs-funded_nursing_care">NHS-funded Nursing Care</xref>
+          </p>
+        </div>
+        <xref outputclass="class" keyref="class_person">PERSONS</xref>
+        <p>
 funded under any section of the Mental Health Act. The exception to this is if an individual is funded under a Mental Health Section and eligible for 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  under the National Framework eligibility criteria. In these instances the activity related to the 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  package is still included but any activity covered by the Mental Health section should be excluded                </p>
-         </li>
-         <li>
-            <p>
+      </li>
+      <li>
+        <p>
 Interim Cases - 
                           <xref outputclass="class" keyref="class_person">PERSONS</xref>
  receiving temporary 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  funding pending eligibility decision or 
                           <xref outputclass="class" keyref="class_person">PERSONS</xref>
  who have ceased being eligible but are still being funded                </p>
-         </li>
-         <li>
-            <xref outputclass="class" keyref="class_person">PERSONS</xref>
-            <p>
+      </li>
+      <li>
+        <xref outputclass="class" keyref="class_person">PERSONS</xref>
+        <p>
 under 18 years of age. 
-                          <xref outputclass="businessDefinition"
-                     keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
+                          <xref outputclass="businessDefinition" keyref="business_definition_nhs_continuing_healthcare">NHS Continuing Healthcare</xref>
  packages are funded for individuals aged 18 and over only therefore only individuals aged 18 years or over are included in this return.                </p>
-         </li>
-      </ul>
-      <p>
-The 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_data_set">NHS Continuing Healthcare Data Set</xref>
- is transmitted at aggregate level to the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_digital">NHS Digital</xref>
- 
-              <xref outputclass="supportingInformation"
-               keyref="supporting_definition_strategic_data_collection_service">Strategic Data Collection Service</xref>
- (<xref outputclass="supportingInformation"
-               keyref="supporting_definition_strategic_data_collection_service">SDCS</xref>) with publication outputs available on the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_nhs_england">NHS England</xref>
- website at: 
-              <xref href="https://www.england.nhs.uk/statistics/statistical-work-areas/nhs-chc-fnc/"
-               scope="external"
-               format="html">NHS Continuing Healthcare and NHS-funded Nursing Care</xref>.        </p>
-      <p>
+      </li>
+    </ul>
+    <p>
 For further information on the 
-              <xref outputclass="dataSet"
-               keyref="dataset_nhs_continuing_healthcare_data_set">NHS Continuing Healthcare Data Set</xref>, see the 
-              <xref outputclass="businessDefinition"
-               keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
+              <xref outputclass="dataSet" keyref="dataset_nhs_continuing_healthcare_data_set">NHS Continuing Healthcare Data Set</xref>, see the 
+              <xref outputclass="businessDefinition" keyref="business_definition_department_of_health_and_social_care">Department of Health and Social Care</xref>
  part of the gov.uk website at: 
-              <xref href="https://www.england.nhs.uk/statistics/statistical-work-areas/nhs-chc-fnc/"
-               scope="external"
-               format="html">National framework for NHS continuing healthcare and NHS-funded nursing care</xref>.        </p>
-      <p>
-         <b>Mandation</b>
-      </p>
-      <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
-      <ul>
-         <li>
-            <div>
-               <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
-            </div>
-         </li>
-         <li>
-            <div>
-               <p>R = Required: NHS business processes cannot be delivered without this data element.</p>
-            </div>
-         </li>
-      </ul>
+              <xref href="https://www.england.nhs.uk/statistics/statistical-work-areas/nhs-chc-fnc/" scope="external" format="html">National framework for NHS continuing healthcare and NHS-funded nursing care</xref>.        </p>
+    <p>
+      <b>Mandation</b>
+    </p>
+    <p>The Mandation column indicates the recommendation for the inclusion of data.</p>
+    <ul>
+      <li>
+        <div>
+          <p>M = Mandatory: this data element is mandatory and the technical process (e.g. submission of the data set, production of output etc) cannot be completed without this data element being present</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <p>R = Required: NHS business processes cannot be delivered without this data element.</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </body>
 </topic>

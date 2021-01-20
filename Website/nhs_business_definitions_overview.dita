@@ -5,13 +5,18 @@
     <shortdesc>The part of the data model that links the logical classes to the context of the
         health and care business.</shortdesc>
     <body>
-        <p>Within this publication, the names of NHS Business Definitions are styled like this: <ph
-                outputclass="businessDefinition">Hospital Provider Spell</ph>.</p>
+        <p>Within this publication, the names of NHS Business Definitions are styled like this:
+                <xref href="https://datadictionary.nhs.uk/classes/patient.html" scope="external"
+                outputclass="businessDefinition">Hospital Provider Spell</xref>.</p>
         <p>NHS Business Definitions describe how Classes in the NHS Data Model apply to the business
             of health and care. </p>
-        <p>An example of an NHS Business Definition is a <ph outputclass="businessDefinition"
-                >Hospital Provider Spell</ph>, which is the application of the Class <ph
-                outputclass="class">ACTIVITY GROUP</ph> to the context of a <ph outputclass="class"
-                >PATIENT'S</ph> hospital stay.</p>
+        <p>An example of an NHS Business Definition is a <xref
+                href="https://datadictionary.nhs.uk/classes/patient.html" scope="external"
+                outputclass="businessDefinition">Hospital Provider Spell</xref>, which is the
+            application of the Class <xref
+                href="https://datadictionary.nhs.uk/classes/activity_group.html" scope="external"
+                outputclass="class">ACTIVITY GROUP</xref> to the context of a <xref
+                href="https://datadictionary.nhs.uk/classes/patient.html" scope="external"
+                outputclass="class">PATIENT</xref>'s hospital stay.</p>
     </body>
 </topic>

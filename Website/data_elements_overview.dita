@@ -4,28 +4,28 @@
     <title>Data Elements</title>
     <shortdesc>Data Elements are the data items used within Data Sets.</shortdesc>
     <body>
-        <p>Within this publication, the names of Data Elements are styled like this: <xref
+       <p>Within this publication, the names of Data Elements are styled like this: <xref
                 href="https://datadictionary.nhs.uk/data_elements/nhs_number__mother_.html"
-                scope="external" outputclass="element">NHS NUMBER (MOTHER)</xref>.</p>
+                scope="external" format="html" outputclass="element">NHS NUMBER (MOTHER)</xref>.</p>
         <p>Data Elements are defined using Attribute definitions, although they may be refined for a
             specific use case.</p>
         <p>Data Elements specify how data are used in a particular business context. For example,
             when a child is born, a mother and a child are people the NHS collects data about. Each
-                <xref href="https://datadictionary.nhs.uk/classes/patient.html" scope="external"
+                <xref href="https://datadictionary.nhs.uk/classes/patient.html" scope="external" format="html"
                 outputclass="class">PATIENT</xref> will be identified using an <xref
-                href="https://datadictionary.nhs.uk/attributes/nhs_number.html" scope="external"
+                    href="https://datadictionary.nhs.uk/attributes/nhs_number.html" scope="external" format="html"
                 outputclass="attribute">NHS NUMBER</xref>. The <xref
-                href="https://datadictionary.nhs.uk/attributes/nhs_number.html" scope="external"
+                    href="https://datadictionary.nhs.uk/attributes/nhs_number.html" scope="external" format="html"
                 outputclass="attribute">NHS NUMBER</xref> attribute of the <xref
-                href="https://datadictionary.nhs.uk/classes/patient.html" scope="external"
+                    href="https://datadictionary.nhs.uk/classes/patient.html" scope="external" format="html"
                 outputclass="class">PATIENT</xref> class is therefore used both in the context of
             the mother and the baby. In this example there are two separate Data Elements, <xref
                 href="https://datadictionary.nhs.uk/data_elements/nhs_number__mother_.html"
-                scope="external" outputclass="element">NHS NUMBER (MOTHER)</xref> and <xref
+                scope="external" format="html" outputclass="element">NHS NUMBER (MOTHER)</xref> and <xref
                 href="https://datadictionary.nhs.uk/data_elements/nhs_number__baby_.html"
-                scope="external" outputclass="element">NHS NUMBER (BABY)</xref> . These are both
+                scope="external" format="html" outputclass="element">NHS NUMBER (BABY)</xref> . These are both
             linked to the common <xref
-                href="https://datadictionary.nhs.uk/attributes/nhs_number.html" scope="external"
+                href="https://datadictionary.nhs.uk/attributes/nhs_number.html" scope="external" format="html"
                 outputclass="attribute">NHS NUMBER</xref> attribute and follow the same rules,
             however the particular contexts of a mother and baby are different.</p>
         <p>The <xref
@@ -42,12 +42,12 @@
                 <ul>
                     <li>The National Codes for the Data Element. For example: <xref
                             href="https://datadictionary.nhs.uk/data_elements/cancer_metastatic_disease_type.html"
-                            scope="external" outputclass="element">CANCER METASTATIC DISEASE
+                            scope="external" format="html" outputclass="element">CANCER METASTATIC DISEASE
                             TYPE</xref></li>
                     <li>If there are no National Codes for the Data Element, there will be no
                         National Codes section. For example: <xref
                             href="https://datadictionary.nhs.uk/data_elements/procedure_date__diagnostic_procedure_.html"
-                            scope="external" outputclass="element">PROCEDURE DATE (DIAGNOSTIC
+                            scope="external" format="html" outputclass="element">PROCEDURE DATE (DIAGNOSTIC
                             PROCEDURE).</xref></li>
                 </ul>
             </li>
@@ -57,12 +57,12 @@
                         Codes for the Data Element, there are default codes applicable to that Data
                         Element only. For example: <xref
                             href="https://datadictionary.nhs.uk/data_elements/administrative_category_code.html"
-                            scope="external" outputclass="element">ADMINISTRATIVE CATEGORY
+                            scope="external" format="html" outputclass="element">ADMINISTRATIVE CATEGORY
                             CODE</xref></li>
                     <li>If there are no Default Codes for the Data Element, there will be no Default
                         Codes section. For example: <xref
                             href="https://datadictionary.nhs.uk/data_elements/cancer_metastatic_disease_type.html"
-                            scope="external" outputclass="element">CANCER METASTATIC DISEASE
+                            scope="external" format="html" outputclass="element">CANCER METASTATIC DISEASE
                             TYPE</xref></li>
                 </ul>
             </li>
@@ -71,7 +71,7 @@
                     <li>If the Data Element uses a subset of the National Codes, there will be a
                         Permitted Codes section. For example: <xref
                             href="https://datadictionary.nhs.uk/data_elements/professional_registration_issuer_code__responsible_surgeon_.html"
-                            scope="external" outputclass="element">PROFESSIONAL REGISTRATION ISSUER
+                            scope="external" format="html" outputclass="element">PROFESSIONAL REGISTRATION ISSUER
                             CODE (RESPONSIBLE SURGEON)</xref></li>
                 </ul>
             </li>

@@ -26,18 +26,21 @@
     
     <part navtitle="Data set specifications">
         <chapter href="about.ditamap" toc="yes"/>
-        <chapter href="data_sets.ditamap" toc="yes"/>
-        <chapter href="data_elements.ditamap" toc="no"/>
+        <chapter keyref="data_sets" toc="yes"/>
+        <chapter keyref="data_elements_index" toc="no"/>
     </part>
     <part navtitle="NHS Data Model">
-        <chapter href="attributes.ditamap" toc="no"/>
-        <chapter href="classes.ditamap" toc="no"/>
-        <chapter href="nhs_business_definitions.ditamap" toc="no"/>
+        <chapter keyref="attributes_index" toc="no"/>
+        <chapter keyref="classes_index" toc="no"/>
+        <chapter keyref="nhs_business_definitions_index" toc="no"/>
     </part>
     <part navtitle="Additional information">
-        <chapter href="supporting_information.ditamap" toc="no"/>
-        <chapter href="xml_schema_constraints.ditamap" toc="no"/>
-        <chapter href="all_items_index__a-z_.ditamap" toc="yes"/>
-        <chapter href="keydefs.ditamap" format="ditamap" processing-role="resource-only"/>
+        <chapter keyref="supporting_information_index" toc="no"/>
+        <chapter keyref="xml_schema_constraints_index" toc="no"/>
+        <chapter keyref="all_items_index__a-z_" toc="yes"/>
+        <chapter href='links/internalImageLinks.ditamap' processing-role='resource-only' />
+        <chapter href='links/internalTopicLinks.ditamap' processing-role='resource-only' />
+        <chapter href='links/internalMapLinks.ditamap' processing-role='resource-only' />
+        <chapter href='links/externalLinks.ditamap' processing-role='resource-only' />
     </part>
 </bookmap>

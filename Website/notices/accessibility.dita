@@ -3,39 +3,161 @@
 <topic id="accessibility">
     <title>Accessibility statement</title>
     <shortdesc>This website has been designed to meet the Web Content Accessibility Guidelines
-        (known as WCAG 2.1), an internationally recognised set of recommendations for improving web
+        (known as WCAG 2.2), an internationally recognised set of recommendations for improving web
         accessibility.</shortdesc>
     <body>
         <section><title> Accessibility statement for the NHS Data Model and Dictionary</title>
-            <p><xref
-                    href="https://www.datadictionary.nhs.uk/nhs_business_definitions/nhs_england.html"
-                    format="html" scope="external">NHS England</xref> is committed to making its websites accessible, in accordance with the
-                Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility
-                Regulations 2018.</p></section>
+            <p>This page was last updated 26 November 2024. It is being reviewed against the latest
+                website accessibility guidelines and will be updated shortly.</p>
+            <p>This accessibility statement applies to the NHS Data Model and Dictionary <xref
+                    href="http://www.datadictionary.nhs.uk" format="html" scope="external"
+                    >www.datadictionary.nhs.uk</xref></p>
+            <p>This website is run by NHS England. We want as many people as possible to be able to
+                use this website. For example, that means you should be able to:</p>
+            <ul id="ul_gv5_ccq_mdc">
+                <li>change colours, contrast levels and fonts using browser or device settings</li>
+                <li>zoom in up to 400% without the text spilling off the screen</li>
+                <li>navigate most of the website using a keyboard or speech recognition
+                    software</li>
+                <li>listen to most of the website using a screen reader (including the most recent
+                    versions of JAWS, NVDA and VoiceOver)</li>
+            </ul>
+            <p>We’ve also made the website text as simple as possible to understand.</p>
+            <p><xref href="https://mcmw.abilitynet.org.uk/" format="html" scope="external"
+                    >AbilityNet</xref> has advice on making your device easier to use if you have a
+                disability.</p></section>
         <section id="section_cyp_hgp_5mb">
             <title>Compliance statement</title>
-            <p>This website is compliant with Public Sector Bodies (Websites and Mobile
-                Applications) (No. 2) Accessibility Regulations 2018.</p>
+            <p>This website is partially compliant with the <xref
+                    href="https://www.w3.org/TR/WCAG22/" format="html" scope="external">Web Content
+                    Accessibility Guidelines version 2.2</xref> AA standard, due to the
+                non-compliances listed below. </p>
+        </section>
+        <section id="section_omf_ndq_mdc">
+            <title>Non-accessible Content - non-compliance with regulations (if applicable)</title>
+            <p>The Accessibility Monitoring Team at Government Digital Service have cited
+                accessibility issues with the website. A full report of their findings is available
+                    <xref
+                    href="https://reports.accessibility-monitoring.service.gov.uk/reports/bc56035f-203f-4631-9a0b-9b600e55f4e2/"
+                    format="html" scope="external">here</xref>.</p>
+            <p>We know some parts of this website are not fully accessible:</p>
+            <p><b>Keyboard navigation</b></p>
+            <ul id="ul_b5c_rdq_mdc">
+                <li>The dropdown menus from the navigational menu along the top of the webpage are
+                    not accessible using the keyboard. This fails WCAG 2.2 success criteria 2.1.1 Keyboard.<p>
+                        <ul id="ul_kqz_zdq_mdc">
+                            <li>Keyboard users can still access the same content; by pressing enter
+                                on a navigational menu item, this will load the webpage for that
+                                menu item with a content menu available for selection on the left of
+                                the webpage.</li>
+                            <li>A solution to make the navigational menu more accessible using the
+                                keyboard is being explored by our third-party supplier in November
+                                2024. Updates will be shared on this statement when available.</li>
+                        </ul>
+                    </p></li>
+                <li>The back to the top button is not accessible using the keyboard. This fails WCAG
+                    2.2 success criteria 2.1.1 Keyboard.<ul id="ul_byj_zdq_mdc">
+                        <li>Keyboard users can still access the same content:<ul id="ul_jbx_s2q_mdc">
+                                <li>On Windows, the ‘Home’ and ‘End’ keys to go to the top and
+                                    bottom of a page, respectively. </li>
+                                <li>On Mac, the ‘Command + Up Arrow’ and ‘Command + Down Arrow’ keys
+                                    in combination go to the top of the page, respectively.</li>
+                            </ul></li>
+                    </ul></li>
+            </ul>
+            <p> An investigation is planned into making this function available or the overall
+                experience equitable across all users. </p>
+            <ul id="ul_f5c_rdq_mdc">
+                <li>The keyboard focus is not visible on the 'Skip content' button as the keyboard
+                    user tabs onto the webpage. This fails WCAG 2.2 success criteria 2.4.7 Focus
+                        Visible.<ul id="ul_a5b_2fq_mdc">
+                        <li>An investigation is planned into making this function visible. </li>
+                    </ul></li>
+            </ul>
+            <ul id="ul_h5c_rdq_mdc">
+                <li>At 400% zoom, the keyboard focus is not visible as it tabs through all elements
+                    across the webpage.<ph id="Hlk181700036"> This fails WCAG 2.2 success criteria
+                        2.4.7 Focus Visible.</ph><ul id="ul_ths_2fq_mdc">
+                        <li>An investigation is planned into making this function visible.<ph
+                                id="Hlk181700048"/>
+                        </li>
+                    </ul></li>
+            </ul>
+            <ul id="ul_j5c_rdq_mdc">
+                <li>When hovering over the navigation bar dropdown menus, there is no mechanism to
+                    dismiss the additional content triggered without moving pointer hover or
+                    keyboard focus. This fails WCAG 2.2 success criteria WCAG 1.4.13 Content on
+                    Hover or Focus.<ul id="ul_r5p_ffq_mdc">
+                        <li>A solution to make the navigational menu more accessible using the
+                            keyboard is being explored by our third-party supplier in November 2024.
+                            Updates will be shared on this statement when available.</li>
+                    </ul></li>
+            </ul>
+            <p> </p>
+            <p><b>Hidden buttons not named correctly</b></p>
+            <ul id="ul_k5c_rdq_mdc">
+                <li>This refers to hidden buttons for all 4 links listed under 'Help and guidance'
+                    and all 4 links listed under 'About the NHS Data Model and Dictionary' pages.
+                    This fails WCAG 2.2 success criteria WCAG 4.1.2 Name, Role, Value: ARIA commands
+                    must have an accessible name.<ul id="ul_ww4_gfq_mdc">
+                        <li>An investigation is planned into resolving this issue.</li>
+                    </ul></li>
+            </ul>
+            <p> </p>
+            <p><b>PDFs documents</b></p>
+            <p>Documents that are hosted on the website and are under the administration of the
+                service are primarily formatted in a PDF. The types of documents affected are Data
+                Dictionary Change Notice (DDCN). Other documents linked from this website, i.e.
+                Information Standards, are not within the control of the NHS Data model and
+                Dictionary Service.</p>
+            <p>The NHS England User Centred Design team have highlighted that PDF formatted
+                documents are generally limited in user accessibility.</p>
+            <p>We plan to investigate options to either fix PDF documents so that they are more
+                accessible or replace/accompany them with a more accessible HTML version.</p>
+            <p/>
+            <p><b>Content that’s not within the scope of the accessibility regulations</b></p>
+            <p>The accessibility regulations do not require us to fix PDFs or other documents
+                published before 23 September 2018 if they’re not essential to providing our
+                services. However, if there is a specific document that you would like to request in
+                HTML format, we will do our best to oblige where possible and practicable.</p>
         </section>
         <section id="section_fyp_hgp_5mb">
             <title>Preparation of this accessibility statement</title>
-            <p>This statement was prepared on 25 August 2020. </p>
-            <p>This assessment was carried out by NHS Digital.</p>
+            <p>The statement was last reviewed on 26 November 2024.</p>
+            <p>We are currently investigating and rolling out changes to the accessibility issues
+                highlighted in September 2024 by the Government Digital Service for the website. We
+                will update this page with new information about the improvements we make.</p>
+            <p>Furthermore, we are looking to complete a full website accessibility review to WCAG
+                2.2 standard and are engaging with the NHS England User Centred Design team in
+                acquiring resource to implement this exercise. </p>
+            <p>We are expected to update this accessibility statement in December 2024, with further
+                details to the highlighted non-accessible content and the intended accessibility
+                review.</p>
+            <p/>
+        </section>
+        <section id="section_cbr_42q_mdc">
+            <title>Technical information about this website's accessibility</title>
+            <p>NHS England is committed to making its website accessible, in accordance with the
+                Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility
+                Regulations 2018.</p>
         </section>
         <section id="section_gyp_hgp_5mb">
             <title>Feedback and contact information</title>
-            <p>Please contact <xref href="mailto:information.standards@nhs.net"
-                    format="standards@nhs.net.net" scope="external"
-                    >information.standards@nhs.net</xref> or phone the Information Standards Service
-                Desk on 0300 303 4777 to provide feedback or to request any further information
-                about this statement.</p>
+            <p>If you find any problems not listed on this page or think we’re not meeting
+                accessibility requirements, please contact <xref
+                    href="mailto:information.standards@nhs.net" format="html" scope="external"
+                    >information.standards@nhs.net</xref> to provide feedback or to request any
+                further information about this statement. The NHS Data Model and Dictionary Service
+                aim to respond to requests with 6 days.</p>
         </section>
         <section id="section_hyp_hgp_5mb">
             <title>Enforcement procedure</title>
-            <p>If you have a concern you wish to escalate, please <xref
-                    href="https://www.equalityadvisoryservice.com/" format="html" scope="external"
-                    >contact the Equality Advisory and Support Service (EASS)</xref>. They will then
-                relay this to the Equality and Human Rights Commission.</p>
+            <p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the
+                Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility
+                Regulations 2018 (the ‘accessibility regulations’). If you’re not happy with how we
+                respond to your complaint, <xref href="https://www.equalityadvisoryservice.com/"
+                    format="html" scope="external">contact the Equality Advisory and Support Service
+                    (EASS)</xref>.</p>
         </section>
     </body>
 </topic>

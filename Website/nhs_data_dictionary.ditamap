@@ -4,18 +4,20 @@
     <title>NHS Data Model and Dictionary</title>
     <mapref href="about.ditamap" toc="yes" />
     <mapref href="help.ditamap" toc="yes" />
-    <mapref keyref='data_sets' toc='yes' />
-    <mapref keyref='data_elements-index' toc='yes' />
-    <mapref keyref='attributes-index' toc='yes' />
-    <mapref keyref='classes-index' toc='yes' />
-    <mapref keyref='nhs_business_definitions-index' toc='yes' />
-    <mapref keyref='supporting_information-index' toc='yes' />
-    <mapref keyref='all_items_index' toc='yes' />
-    <topicref href='cdm_glossary.dita' toc='yes' />
+    <mapref href="data_sets.ditamap" toc="yes"/>
+    <mapref href="data_elements.ditamap" toc="no"/>
+    <mapref href="data_elements-index.ditamap" toc="yes"/>
+    <mapref href="attributes.ditamap" toc="no"/>
+    <mapref href="attributes-index.ditamap" toc="yes"/>
+    <mapref href="classes.ditamap" toc="no"/>
+    <mapref href="classes-index.ditamap" toc="yes"/>
+    <mapref href='nhs_business_definitions.ditamap' toc='no' />
+    <mapref href='nhs_business_definitions-index.ditamap' toc='yes' />
+    <mapref href='supporting_information.ditamap' toc='no' />
+    <mapref href='supporting_information-index.ditamap' toc='yes' />
+    <mapref href='xml_schema_constraints.ditamap' toc='no' />
+    <mapref href="all_items_index__a-z_.ditamap" toc="yes"/>
     <topicref href="error.dita" toc="no"/>
-    <mapref href='links/internalImageLinks.ditamap' processing-role='resource-only' />
-    <mapref href='links/internalTopicLinks.ditamap' processing-role='resource-only' />
-    <mapref href='links/internalMapLinks.ditamap' processing-role='resource-only' />
-    <mapref href='links/externalLinks.ditamap' processing-role='resource-only' />
+    <topicref href="keydefs.ditamap" format="ditamap" processing-role="resource-only"/>
 </map>
 

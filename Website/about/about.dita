@@ -29,31 +29,29 @@
             <p>The NHS Data Model and Dictionary is modelled using the following convention and
                 naming:</p>
             <ul id="ul_ocf_tdb_vmb">
-                <li><xref href="../data_sets_overview.dita" outputclass="dataSet"/> are built from a
+                <li><xref href="../data_sets_overview.dita" outputclass="dataSet"/> are a group of <xref href="../data_elements_overview.dita" outputclass="element"/> that are required to support business analysis. <xref href="../data_sets_overview.dita" outputclass="dataSet"/> are built from a
                     series of <xref href="../data_elements_overview.dita" outputclass="element"/>
                     and, optionally, groups of data elements.</li>
                 <li><xref href="../data_elements_overview.dita" outputclass="element"/> are a
                     specialised use of <xref href="../attributes_overview.dita"
-                        outputclass="attribute"/> for use within the context of the data set. For
-                    example they may introduce default codes applicable to a specific data element,
-                    perhaps to handle circumstances where data are not available.</li>
+                        outputclass="attribute"/> for use within the context of the Data Set. For
+                    example they may display default codes applicable to a specific Data Element,
+                    to handle circumstances where data are not available.</li>
                 <li><xref href="../attributes_overview.dita" outputclass="attribute"/> describe the
                     properties of <xref href="../classes_overview.dita" outputclass="class"/> and
-                    provide common data definitions for classes. A class may in turn be a
-                    specialised form of another class (a subtype). </li>
+                    provide common data definitions for classes. For example, <xref
+            href="https://datadictionary.nhs.uk/attributes/nhs_number.html" scope="external" format="html"
+                outputclass="attribute">NHS NUMBER</xref> is an Attribute of the Class Patient. </li>
                 <li><xref href="../classes_overview.dita" outputclass="class"/> describe aspects of
                     the health and care business with their significant characteristics through
                     their <xref href="../attributes_overview.dita" outputclass="attribute"/> and
                     their relationships to other <xref href="../classes_overview.dita"
                         outputclass="class"/>.</li>
                 <li><xref href="../nhs_business_definitions_overview.dita"
-                        outputclass="businessDefinition"/> describe specific applications of <xref
-                        href="../classes_overview.dita" outputclass="class"/> within the context of
-                    the health and care system but don't introduce new attributes or
-                    relationships.</li>
+                        outputclass="businessDefinition"/> describe, for example, an aspect of NHS activity, clinical process, supporting definition etc. that is specific to a Class.</li>
                 <li><xref href="../supporting_information_overview.dita"
                         outputclass="supportingInformation"/> is not a part of the NHS Data Model
-                    but provides additional context for the reader.</li>
+                    but provides additional context to help users understand the NHS Data Model and Dictionary.</li>
                 <li><ph outputclass="retired">Retired items</ph> are not included in the current definitions but are
                     listed in the <xref href="../all_items_index_overview.dita" />.</li>
             </ul>
